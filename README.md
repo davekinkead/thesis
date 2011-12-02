@@ -35,7 +35,7 @@ Dworkin puts forward an (incorrect) argument that universal suffrage is necessar
 
 Readings:
 - Buchanan, J. and Tullock, G., 1965, The Calculus of Consent: Logical Foundations of Constitutional Democracy, Ann Arbor, MI: University of Michigan Press.
-- [Dworkin, R. 2006, Is Democracy Possible Here? Principles for a New Political Debate. Princeton, NJ: Princeton University Press.](literature review/Is Democracy Possible Here?)
+- [Dworkin, R. 2006, Is Democracy Possible Here? Principles for a New Political Debate. Princeton, NJ: Princeton University Press.](/literature review/Is Democracy Possible Here?)
 - Mill, JS. 1861 Utilitarianism
 - Montesquieu, 1731 The Spirit of the Laws
 Condorcet
@@ -66,7 +66,7 @@ If the purpose of suffrage is to ensure equal consideration is given to all part
 Present the core argument of my thesis - that a suffrage ought to be constrained to only those holding a legitimate material interest.   Adapt Mill’s argument - if it can be shown that a purported right or duty is harmful, then is has been shown that it is not genuine - to show universal suffrage leads to tyranny (Burheim’s negative argument).
 
 Readings:
-- [Burnheim, J. 2006, Is Democracy Possible, Sydney University Press, Sydney] ((literature review/Is Democracy Possible CH1)
+- [Burnheim, J. 2006, Is Democracy Possible, Sydney University Press, Sydney] (literature review/Is Democracy Possible CH1)
 
 
 Other Reading:

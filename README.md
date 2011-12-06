@@ -34,10 +34,10 @@ An examination of specific motivations for universal suffrage (extending from th
 Dworkin puts forward an (incorrect) argument that universal suffrage is necessary for the state to provide equal consideration and therefore human dignity.
 
 Readings:
-- Buchanan, J. and Tullock, G., 1965, The Calculus of Consent: Logical Foundations of Constitutional Democracy, Ann Arbor, MI: University of Michigan Press.
-- [Dworkin, R. 2006, Is Democracy Possible Here? Principles for a New Political Debate. Princeton, NJ: Princeton University Press.](/literature review/Is Democracy Possible Here?)
-- Mill, JS. 1861 Utilitarianism
-- Montesquieu, 1731 The Spirit of the Laws
+* Buchanan, J. and Tullock, G., 1965, The Calculus of Consent: Logical Foundations of Constitutional Democracy, Ann Arbor, MI: University of Michigan Press.
+* [Dworkin, R. 2006, Is Democracy Possible Here? Principles for a New Political Debate. Princeton, NJ: Princeton University Press.](literature review/Is Democracy Possible Here?)
+* Mill, JS. 1861 Utilitarianism
+* Montesquieu, 1731 The Spirit of the Laws
 Condorcet
 
 Justifying Jurisdiction

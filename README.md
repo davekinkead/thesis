@@ -16,6 +16,7 @@ A literature review of existing justifications for democracy.  Christiano charac
 What are the assumptions that underpin democratic justifications? What are the key arguments for each?
 
 Readings:
+
 - Beitz, C., 1989, Political Equality: An Essay on Democratic Theory, Princeton: Princeton University Press.
 - Christiano, T., 1996, The Rule of the Many: Fundamental Issues in Democratic Theory, Boulder, CO: Westview Press.
 - Christiano, T., 2004, “The Authority of Democracy,” Journal of Political Philosophy, Vol. 12, n. 3 (August): pp. 266-290.

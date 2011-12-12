@@ -62,10 +62,28 @@ Readings:
 - Montesquieu, 1731 The Spirit of the Laws
 
 
+What is Equality?
+-----------------
+
+Outline conceptions of equality.  Why should the state give equal concern to all (Dworkin)?  What do we mean by equal concern?
+- treating everyone the same (outcome)
+- treating everyone the same (needs)
+- moral luck and just desert as grounds for prioritism.
+
+Readings:
+
+
+
 Justifying Jurisdiction
 -----------------------
 
 What are the normative justifications of jurisdictional boundaries.  Is there anything more than political realism & historical accident to justify present jurisdictions once issues such as gerrymandering have been addressed?  What are the relevant issues of jurisprudence?
+
+Why is an issue a political one in the first place?  What are the normative grounds for res publica?
+- historical accident? Why should the status quo be elevated?
+- boundary of effect
+- optimal cooperation
+- collective choice
 
 Readings:
 
@@ -79,27 +97,41 @@ Is voting even necessary in Democracy?  Does voting have any intrinsic democrati
 
 Look at other concepts of suffrage & eligibility and their use to demonstrate the universal suffrage is never ‘universal’: equal vs census suffrage, youth & demeny voting, exclusion by race, class, religion, qualification, property, function or action (criminality). Jurisdictional issues and how they relate to the justifications of suffrage chapter - residency, nationality
 
-
 Readings:
 
 - Demeny, P. 1986 "Pronatalist Policies in Low-Fertility Countries: Patterns, Performance and Prospects," Population and Development Review, vol. 12
-- Sanderson, 2007. A Near Electoral Majority of Penioners. Population and Development Review Volume 33, Issue 3, pages 543–554, September 2007.
+- Sanderson, 2007. A Near Electoral Majority of Pensioners. Population and Development Review Volume 33, Issue 3, pages 543–554, September 2007.
 
 
 Legitimate Material Interest
 ----------------------------
 
-If the purpose of suffrage is to ensure equal consideration is given to all parties and limit tyranny, then universal suffrage fails to properly achieve this.
+The key folk conception of this is that only those affected by something should have any say in the matter.  Why ought the Taliban have no say in the education curriculum of Queensland schools?  Why ought I have no in the WA curricular or even that on the Gold Coast?
 
-If suffrage is supposed to restrain tyranny by given everyone an equal voice, then universal suffrage fails.  Tyranny of the majority is MORE LIKELY to occur when those not affected on an issue are given a say.
+What is the normative basis for this?  There are two distinct arguments for LMI: Boundary of Effect & Proportional Interest but both reduce to issues of personal sovereignty and tyranny.  In reverse....
 
-Majority voting is a mechanism intended to produce political equality.  Argued here is that political equality requires equal weighted voting but the equivalency of equal weighting with political equality assumes an equal interest in or concern with any given issue.
+I define personal sovereignty as the degree of influence an agent has over a particular outcome, relative to other agents.  I say influence rather than control because most causes don't necessitate their effects; and relative to others as a means to define the Possible.  Physical reality is taken to be the boundary of the Possible and the observed abilities of others serves as a rough proxy for this.
 
-Mill's argument: if it can be shown that a purported right or duty is harmful, then is has been shown that it is not genuine.  Universal suffrage produces tyranny by giving those without claim a say and is therefore not genuine.
+On collective matters, personal sovereignty can be described as a function of relative influence:
+
+ S = i / ∑ i(n) where 0 ≤ S ≤ 1
+
+ Tyranny can be thought of as the inequality of sovereignty amongst those who can influence an outcome:
+
+ T = ∑ S(max) - S  /  n  where 0 ≤ T ≤ 1
+
+ (see Why Fishkin is wrong about Tyranny)
+
+ Tyranny therefore occurs whenever
+ 1) an agents sovereignty is less than 1, and
+ 2) there is an unequal distribution of sovereignty amongst participants, and
+ 3) the participants have a legitimate material interest
+ 4) I find a non-circular argument. Bugger
 
 Readings:
 
 - [Burnheim, J. 2006, Is Democracy Possible, Sydney University Press, Sydney] (literature review/Is Democracy Possible CH1)
+- Derek Parfit (1997). Equality and Priority. Ratio 10 (3):202–221.
 
 
 Other Reading:

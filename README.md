@@ -1,7 +1,7 @@
-This is a collection of notes for my PhD in Political Philosophy at the University of Queensland.  My thesis is still under development but the core argument will be:
+The thesis that I will defend is that a legitimate material interest ought to be both a necessary and sufficient condition for suffrage.  My dissertation will be comprised of two parts:
 
-> "That a legitimate material interest ought to be both a necessary and sufficient condition for suffrage"
-
+- Extending John Burheim's observation that only those affected by some issue ought to have any say in the matter and defending it as a normative political principle.
+- Examining the consequences of this principle and how it affects democratic governance.
 
 Argument Outline
 ================
@@ -40,7 +40,11 @@ Readings:
 Justifying Suffrage
 -------------------
 
-Universal suffrage seems to be taken as ‘self evident’ in modern literature but why?  Generally, universal suffrage is advocated on the grounds that it enables and/or enhances democracy:
+What are the normative bases of voting? Is voting are constitutive component of democracy?  If yes, why?  If not, why not? Do differing conceptions of democracy, ie liberal vs republican, affect justifications for suffrage?
+
+a) Voting is neither necessary nor sufficient for democracy.  See paper....
+
+b) Voting can be justified instrumentally as it enables or enhances democracy:
 
 - greater suffrage enhances epistemic value (see Condorcet).
 - more suffrage equates to more deliberation and moral improvement of the demos.
@@ -51,10 +55,11 @@ Universal suffrage seems to be taken as ‘self evident’ in modern literature 
 - provides a means for consent (see Consent Theory)
 - provides a method of public justification as large voter turnouts are used to legitimise results and claim mandates
 
-Do differing conceptions of democracy, ie liberal vs republican, affect justifications for suffrage?
 
 Readings:
 
+- Brennan, Jason (2011). The Ethics of Voting. Princeton Univ Pr.
+- Brennan, Jason (2011). The right to a competent electorate. Philosophical Quarterly 61 (245):700-724.
 - Buchanan, J. and Tullock, G., 1965, The Calculus of Consent: Logical Foundations of Constitutional Democracy, Ann Arbor, MI: University of Michigan Press.
 - Condorcet
 - [Dworkin, R. 2006, Is Democracy Possible Here? Principles for a New Political Debate. Princeton, NJ: Princeton University Press.](literature review/Is Democracy Possible Here?)

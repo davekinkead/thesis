@@ -1,4 +1,4 @@
-Dworkin, R. 2006, Is Democracy Possible Here? Principles for a New Political Debate. Princeton, NJ: Princeton University Press.
+**Dworkin, R. 2006, Is Democracy Possible Here? Principles for a New Political Debate. Princeton, NJ: Princeton University Press.**
 
 Dworkin outlines his normative account of political justice and legitimacy and implications for human rights, religion and taxation.  His thesis is based on two fundamental principals: intrinsic value and personal responsibility.
 
@@ -14,7 +14,7 @@ Dworkin conceptualises democracy along a majoritarian - partnership axis (p131).
 
 Arguments claiming the majoritarian conception is fair fail to realise that it only has value as fair once certain prior conditions are met (p139)
 
-Legitimacy
+**Legitimacy**
 
 The legitimacy of the state stems not from consent (this is neither necessary nor sufficient) but rather from treat all those it governs with equal concern (p97).
 
@@ -22,7 +22,7 @@ But equal concern while necessary is not sufficient for legitimacy.   “Though 
 
 It is therefore equal political authority combined with equal concern from the state that legitimises democracy.
 
-Suffrage
+**Suffrage**
 
 Dworkin’s clear implication is that universal suffrage it critical to democracy.  “Equal concern…is best achieved with wide spread and roughly equal suffrage.” p(144)  What he fails to consider is how universal suffrage leads to unequal concern by the state.
 

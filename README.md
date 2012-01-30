@@ -111,12 +111,13 @@ Readings
 - Brennan, Jason (2011). The Ethics of Voting. Princeton Univ Pr.
 - Brennan, Jason (2011). The right to a competent electorate. Philosophical Quarterly 61 (245):700-724.
 - Buchanan, J. and Tullock, G., 1965, The Calculus of Consent: Logical Foundations of Constitutional Democracy, Ann Arbor, MI: University of Michigan Press.
+- [Burnheim, J. 2006, Is Democracy Possible, Sydney University Press, Sydney][burnheim2006]
 - Condorcet
 - Christiano, T., 1996, The Rule of the Many: Fundamental Issues in Democratic Theory, Boulder, CO: Westview Press.
 - Christiano, T., 2004, “The Authority of Democracy,” Journal of Political Philosophy, Vol. 12, n. 3 (August): pp. 266-290.
 - Downs, A., 1957, An Economic Theory of Democracy, New York: Harper and Row.
 - Dworkin, R., 2000, Sovereign Virtue: The Theory and Practice of Equality, Cambridge, MA: Harvard University Press.
-- [Dworkin, R. 2006, Is Democracy Possible Here? Principles for a New Political Debate. Princeton, NJ: Princeton University Press.][dworkin2006]
+- [Dworkin, R. 2006, Is Democracy Possible Here? Principles for a New Political Debate. Princeton, NJ. Princeton University Press.][dworkin2006]
 - Goodin, R., 2003, Reflective Democracy, Oxford: Oxford University Press.
 - Mill, JS. 1859 On Liberty
 - Rousseau, J.-J., 1762, The Social Contract, trans. Charles Frankel, New York: Hafner Publishing Co., 1947.
@@ -124,17 +125,13 @@ Readings
 - Mill, JS. 1861 Utilitarianism
 - Montesquieu, 1731 The Spirit of the Laws
 - O’Leary, K. 2006 Saving Democracy, Stanford University Press, Stanford
-- [Burnheim, J. 2006, Is Democracy Possible, Sydney University Press, Sydney] (literature review/Is Democracy Possible CH1)
-- Derek Parfit (1997). Equality and Priority. Ratio 10 (3):202–221.
-- Brennan, Jason (2011). The Ethics of Voting. Princeton Univ Pr.
-- Brennan, Jason (2011). The right to a competent electorate. Philosophical Quarterly 61 (245):700-724.
-- Buchanan, J. and Tullock, G., 1965, The Calculus of Consent: Logical Foundations of Constitutional Democracy, Ann Arbor, MI: University of Michigan Press.
-- Condorcet
-- [Dworkin, R. 2006, Is Democracy Possible Here? Principles for a New Political Debate. Princeton, NJ: Princeton University Press.](literature review/Is Democracy Possible Here?)
+- Parfit, D. (1997). Equality and Priority. Ratio 10 (3):202–221.
 - Mill, JS. 1861 Utilitarianism
 - Montesquieu, 1731 The Spirit of the Laws
 - Pole, A. 2010 Blogging the Political, Routledge, New York
 - Demeny, P. 1986 "Pronatalist Policies in Low-Fertility Countries: Patterns, Performance and Prospects," Population and Development Review, vol. 12
 - Sanderson, 2007. A Near Electoral Majority of Pensioners. Population and Development Review Volume 33, Issue 3, pages 543–554, September 2007.
 
-[dworkin2006]:"literature review/"
+[dworkin2006]:"literature review"
+[burnheim2006]:literature%20review/Is%20Democracy%20Possible%20CH1
+

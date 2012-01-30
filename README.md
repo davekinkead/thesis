@@ -1,115 +1,48 @@
+Limiting Suffrage
+=================
+
+This is a work-in-progress and reading management experiment for my PhD in Political Philosophy at the University of Queensland.  It covers my thesis outline, readings, ideas and draft arguments.
+
 The thesis that I will defend is that a legitimate material interest ought to be both a necessary and sufficient condition for suffrage.  My dissertation will be comprised of two parts:
 
 - Extending John Burheim's observation that only those affected by some issue ought to have any say in the matter and defending it as a normative political principle.
 - Examining the consequences of this principle and how it affects democratic governance.
 
-Argument Outline
-================
 
-
-Justifying Democracy
+Suffrage & Democracy
 --------------------
 
-A literature review of existing justifications for democracy.  Christiano characterises these as instrumental:
+Literature review and examination of the role suffrage plays in Democracy.
+What is democracy? How is it justified? What is the role between suffrage & democracy?
+
+Instrumental justifications:
 
 - epistemic value,
 - strategic value,
 - enhanced moral character;
 
-and non-instrumental:
+Non-instrumental justifications:
 
 - liberty,
 - equality,
 - public justification.
 
-What are the assumptions that underpin democratic justifications? What are the key arguments for each?
-
-Readings:
-
-- Beitz, C., 1989, Political Equality: An Essay on Democratic Theory, Princeton: Princeton University Press.
-- Christiano, T., 1996, The Rule of the Many: Fundamental Issues in Democratic Theory, Boulder, CO: Westview Press.
-- Christiano, T., 2004, “The Authority of Democracy,” Journal of Political Philosophy, Vol. 12, n. 3 (August): pp. 266-290.
-- Downs, A., 1957, An Economic Theory of Democracy, New York: Harper and Row.
-- Dworkin, R., 2000, Sovereign Virtue: The Theory and Practice of Equality, Cambridge, MA: Harvard University Press.
-- Goodin, R., 2003, Reflective Democracy, Oxford: Oxford University Press.
-- Mill, JS. 1859 On Liberty
-- Rousseau, J.-J., 1762, The Social Contract, trans. Charles Frankel, New York: Hafner Publishing Co., 1947.
-- Sen, A., 1999, Development as Freedom, New York: Knopf.
 
 
-Justifying Suffrage
--------------------
-
-What are the normative bases of voting? Is voting are constitutive component of democracy?  If yes, why?  If not, why not? Do differing conceptions of democracy, ie liberal vs republican, affect justifications for suffrage?
-
-a) Voting is neither necessary nor sufficient for democracy.  See paper....
-
-b) Voting can be justified instrumentally as it enables or enhances democracy:
-
-- greater suffrage enhances epistemic value (see Condorcet).
-- more suffrage equates to more deliberation and moral improvement of the demos.
-- it creates a formal structure for the equal concern of all (see [Dworkin](literature review/Is Democracy Possible Here?) (incorrectly)
-- formalises political equality under the law
-- ensuring that more people participate leads to democratic flourishing (see deliberative accounts & Mill)
-- universal suffrage is argued as necessary to avoid tyranny (who?)
-- provides a means for consent (see Consent Theory)
-- provides a method of public justification as large voter turnouts are used to legitimise results and claim mandates
-
-
-Readings:
-
-- Brennan, Jason (2011). The Ethics of Voting. Princeton Univ Pr.
-- Brennan, Jason (2011). The right to a competent electorate. Philosophical Quarterly 61 (245):700-724.
-- Buchanan, J. and Tullock, G., 1965, The Calculus of Consent: Logical Foundations of Constitutional Democracy, Ann Arbor, MI: University of Michigan Press.
-- Condorcet
-- [Dworkin, R. 2006, Is Democracy Possible Here? Principles for a New Political Debate. Princeton, NJ: Princeton University Press.](literature review/Is Democracy Possible Here?)
-- Mill, JS. 1861 Utilitarianism
-- Montesquieu, 1731 The Spirit of the Laws
-
-
-What is Equality?
+Limiting Suffrage
 -----------------
-
-Outline conceptions of equality.  Why should the state give equal concern to all (Dworkin)?  What do we mean by equal concern?
-- treating everyone the same (outcome)
-- treating everyone the same (needs)
-- moral luck and just desert as grounds for prioritism.
-
-Readings:
-
-
-
-Justifying Jurisdiction
------------------------
-
-What are the normative justifications of jurisdictional boundaries.  Is there anything more than political realism & historical accident to justify present jurisdictions once issues such as gerrymandering have been addressed?  What are the relevant issues of jurisprudence?
-
-Why is an issue a political one in the first place?  What are the normative grounds for res publica?
-- historical accident? Why should the status quo be elevated?
-- boundary of effect
-- optimal cooperation
-- collective choice
-
-Readings:
-
-- Madison, J. Federalist #10
-
-
-Constraining Suffrage
----------------------
 
 Is voting even necessary in Democracy?  Does voting have any intrinsic democratic value? Only political equality and popular sovereignty seem to be constitutive elements of democracy.  Voting is neither necessary (see sortition) nor sufficient (see Soviet voting methods) for sound democracies.
 
 Look at other concepts of suffrage & eligibility and their use to demonstrate the universal suffrage is never ‘universal’: equal vs census suffrage, youth & demeny voting, exclusion by race, class, religion, qualification, property, function or action (criminality). Jurisdictional issues and how they relate to the justifications of suffrage chapter - residency, nationality
 
-Readings:
 
-- Demeny, P. 1986 "Pronatalist Policies in Low-Fertility Countries: Patterns, Performance and Prospects," Population and Development Review, vol. 12
-- Sanderson, 2007. A Near Electoral Majority of Pensioners. Population and Development Review Volume 33, Issue 3, pages 543–554, September 2007.
 
 
 Legitimate Material Interest
 ----------------------------
+
+Introduce Burnheim's thesis and expand it.
 
 The key folk conception of this is that only those affected by something should have any say in the matter.  Why ought the Taliban have no say in the education curriculum of Queensland schools?  Why ought I have no in the WA curricular or even that on the Gold Coast?
 
@@ -133,12 +66,75 @@ On collective matters, personal sovereignty can be described as a function of re
  3) the participants have a legitimate material interest
  4) I find a non-circular argument. Bugger
 
-Readings:
 
+Suffrage & Legitimacy
+---------------------
+
+Tyranny, sovereignty & authority
+
+
+Suffrage & Knowledge
+--------------------
+
+Epistemic arguments for suffrage.  What effect does LMI have on this?
+
+
+Suffrage & Equality
+-------------------
+
+
+Outline conceptions of equality.  Why should the state give equal concern to all (Dworkin)?  What do we mean by equal concern?
+- treating everyone the same (outcome)
+- treating everyone the same (needs)
+- moral luck and just desert as grounds for prioritism.
+
+
+
+
+Suffrage & Jurisdiction
+-----------------------
+
+What are the normative justifications of jurisdictional boundaries.  Is there anything more than political realism & historical accident to justify present jurisdictions once issues such as gerrymandering have been addressed?  What are the relevant issues of jurisprudence?
+
+Why is an issue a political one in the first place?  What are the normative grounds for res publica?
+- historical accident? Why should the status quo be elevated?
+- boundary of effect
+- optimal cooperation
+- collective choice
+
+
+
+Readings
+--------
+
+- Beitz, C., 1989, Political Equality: An Essay on Democratic Theory, Princeton: Princeton University Press.
+- Brennan, Jason (2011). The Ethics of Voting. Princeton Univ Pr.
+- Brennan, Jason (2011). The right to a competent electorate. Philosophical Quarterly 61 (245):700-724.
+- Buchanan, J. and Tullock, G., 1965, The Calculus of Consent: Logical Foundations of Constitutional Democracy, Ann Arbor, MI: University of Michigan Press.
+- Condorcet
+- Christiano, T., 1996, The Rule of the Many: Fundamental Issues in Democratic Theory, Boulder, CO: Westview Press.
+- Christiano, T., 2004, “The Authority of Democracy,” Journal of Political Philosophy, Vol. 12, n. 3 (August): pp. 266-290.
+- Downs, A., 1957, An Economic Theory of Democracy, New York: Harper and Row.
+- Dworkin, R., 2000, Sovereign Virtue: The Theory and Practice of Equality, Cambridge, MA: Harvard University Press.
+- [Dworkin, R. 2006, Is Democracy Possible Here? Principles for a New Political Debate. Princeton, NJ: Princeton University Press.][dworkin2006]
+- Goodin, R., 2003, Reflective Democracy, Oxford: Oxford University Press.
+- Mill, JS. 1859 On Liberty
+- Rousseau, J.-J., 1762, The Social Contract, trans. Charles Frankel, New York: Hafner Publishing Co., 1947.
+- Sen, A., 1999, Development as Freedom, New York: Knopf.
+- Mill, JS. 1861 Utilitarianism
+- Montesquieu, 1731 The Spirit of the Laws
+- O’Leary, K. 2006 Saving Democracy, Stanford University Press, Stanford
 - [Burnheim, J. 2006, Is Democracy Possible, Sydney University Press, Sydney] (literature review/Is Democracy Possible CH1)
 - Derek Parfit (1997). Equality and Priority. Ratio 10 (3):202–221.
-
-
-Other Reading:
-- O’Leary, K. 2006 Saving Democracy, Stanford University Press, Stanford
+- Brennan, Jason (2011). The Ethics of Voting. Princeton Univ Pr.
+- Brennan, Jason (2011). The right to a competent electorate. Philosophical Quarterly 61 (245):700-724.
+- Buchanan, J. and Tullock, G., 1965, The Calculus of Consent: Logical Foundations of Constitutional Democracy, Ann Arbor, MI: University of Michigan Press.
+- Condorcet
+- [Dworkin, R. 2006, Is Democracy Possible Here? Principles for a New Political Debate. Princeton, NJ: Princeton University Press.](literature review/Is Democracy Possible Here?)
+- Mill, JS. 1861 Utilitarianism
+- Montesquieu, 1731 The Spirit of the Laws
 - Pole, A. 2010 Blogging the Political, Routledge, New York
+- Demeny, P. 1986 "Pronatalist Policies in Low-Fertility Countries: Patterns, Performance and Prospects," Population and Development Review, vol. 12
+- Sanderson, 2007. A Near Electoral Majority of Pensioners. Population and Development Review Volume 33, Issue 3, pages 543–554, September 2007.
+
+[dworkin2006]:"literature review/"

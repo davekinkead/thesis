@@ -1,4 +1,4 @@
-Jason Brennan (2009). Polluting the Polls: When Citizens Should Not Vote. Australasian Journal of Philosophy 87 (4):535-549.
+**Jason Brennan (2009). Polluting the Polls: When Citizens Should Not Vote. Australasian Journal of Philosophy 87 (4) pp 535-549.**
 
 Yet the right to vote does not imply the rightness of voting. (p535)
 

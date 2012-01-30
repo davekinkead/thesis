@@ -1,4 +1,4 @@
-Gaus (1998) Why all welfare states are unreasonable, Social Philosophy & Policy, 15 (2) : 1-33
+**Gaus (1998) Why all welfare states are unreasonable, Social Philosophy & Policy, 15 (2) : 1-33**
 
 Core argument
 -------------

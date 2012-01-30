@@ -108,6 +108,7 @@ Readings
 --------
 
 - Beitz, C., 1989, Political Equality: An Essay on Democratic Theory, Princeton: Princeton University Press.
+- [Jason Brennan (2009). Polluting the Polls: When Citizens Should Not Vote. Australasian Journal of Philosophy 87 (4) 535-549.][brennen2009]
 - Brennan, Jason (2011). The Ethics of Voting. Princeton Univ Pr.
 - Brennan, Jason (2011). The right to a competent electorate. Philosophical Quarterly 61 (245):700-724.
 - Buchanan, J. and Tullock, G., 1965, The Calculus of Consent: Logical Foundations of Constitutional Democracy, Ann Arbor, MI: University of Michigan Press.
@@ -115,9 +116,11 @@ Readings
 - Condorcet
 - Christiano, T., 1996, The Rule of the Many: Fundamental Issues in Democratic Theory, Boulder, CO: Westview Press.
 - Christiano, T., 2004, “The Authority of Democracy,” Journal of Political Philosophy, Vol. 12, n. 3 (August): pp. 266-290.
+- [Dahl, R (1956) Madisonian Democracy in A Preface to Democratic Theory, University of Chicago Press, Chicago.][dahl1956]
 - Downs, A., 1957, An Economic Theory of Democracy, New York: Harper and Row.
 - Dworkin, R., 2000, Sovereign Virtue: The Theory and Practice of Equality, Cambridge, MA: Harvard University Press.
 - [Dworkin, R. 2006, Is Democracy Possible Here? Principles for a New Political Debate. Princeton, NJ. Princeton University Press.][dworkin2006]
+- [Gaus (1998) Why all welfare states are unreasonable, Social Philosophy & Policy, 15 (2)  1-33][gaus1998]
 - Goodin, R., 2003, Reflective Democracy, Oxford: Oxford University Press.
 - Mill, JS. 1859 On Liberty
 - Rousseau, J.-J., 1762, The Social Contract, trans. Charles Frankel, New York: Hafner Publishing Co., 1947.
@@ -132,6 +135,11 @@ Readings
 - Demeny, P. 1986 "Pronatalist Policies in Low-Fertility Countries: Patterns, Performance and Prospects," Population and Development Review, vol. 12
 - Sanderson, 2007. A Near Electoral Majority of Pensioners. Population and Development Review Volume 33, Issue 3, pages 543–554, September 2007.
 
-[dworkin2006]:"literature review"
-[burnheim2006]:literature%20review/Is%20Democracy%20Possible%20CH1
+[dworkin2006]:literature%20review/Is%20Democracy%20Possible%20Here.md
+[burnheim2006]:literature%20review/Is%20Democracy%20Possible.md
+[dahl1956]:literature%20review/A%20Preface%20to%20Democratic%20Theory.md
+[brennen2009]:literature%20review/polluting%20the%20polls.md
+[gaus1998]:literature%20review/polluting%20the%20polls.md
+
+
 

@@ -107,7 +107,6 @@ Why is an issue a political one in the first place?  What are the normative grou
 Readings
 --------
 
-Shapiro CH1
 Locke, First Treatise of Government
 Locke, Second Treatise of Government
 Bentham, Introduction to the Principles of Morals and Legislation,
@@ -168,13 +167,14 @@ Ian Shapiro, Democratic Justice, chapters 1-6
 - Pole, A. 2010 Blogging the Political, Routledge, New York
 - Demeny, P. 1986 "Pronatalist Policies in Low-Fertility Countries: Patterns, Performance and Prospects," Population and Development Review, vol. 12
 - Sanderson, 2007. A Near Electoral Majority of Pensioners. Population and Development Review Volume 33, Issue 3, pages 543–554, September 2007.
-- Shapiro, Moral Foundations of Politics, 
+- [Shapiro, Ian (2003) The Moral Foundations of Politics, Yale University Press, New Haven][shapiro2003moral]
 
 [dworkin2006]:literature%20review/Is%20Democracy%20Possible%20Here.md
 [burnheim2006]:literature%20review/Is%20Democracy%20Possible.md
 [dahl1956]:literature%20review/A%20Preface%20to%20Democratic%20Theory.md
 [brennen2009]:literature%20review/polluting%20the%20polls.md
 [gaus1998]:literature%20review/polluting%20the%20polls.md
+[shapiro2003moral]:literature%20review/Moral%20Foundations%20of%20Politics.md
 
 
 

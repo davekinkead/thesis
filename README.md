@@ -107,8 +107,40 @@ Why is an issue a political one in the first place?  What are the normative grou
 Readings
 --------
 
+Shapiro CH1
+Locke, First Treatise of Government
+Locke, Second Treatise of Government
+Bentham, Introduction to the Principles of Morals and Legislation,
+Shapiro CH2
+Bentham, "The Psychology of Economic Man"
+Shapiro CH3
+Mill, On Liberty
+Mill, Utilitarianism
+Shapiro CH4
+Tucker, The Marx-Engels Reader, Manifesto of the Communist Party, pp. 469-500.
+Tucker, The Marx-Engels Reader, “Theses on Feuerbach,” pp. 143-5
+Tucker, The Marx-Engels Reader, The German Ideology, Part I, pp. 146-202
+Tucker, The Marx-Engels Reader, Capital, Vol. I, pp. 294-344
+Tucker, The Marx-Engels Reader, Capital, Vol. I, pp. 361-84, 417-19
+Tucker, The Marx-Engels Reader, Capital, Vol. I, pp. 443-65
+Tucker, The Marx-Engels Reader, Critique of the Gotha Program, pp. 525-41
+Roemer, "Should Marxists be interested in exploitation?"
+Nozick, Anarchy, State, and Utopia,
+Rawls, A Theory of Justice 
+Shapiro CH5
+Rawls, "Justice as fairness: political not metaphysical"
+Shapiro, "Justice and Workmanship in a Democracy"
+Burke, Reflections on the Revolution in France,
+Devlin, Morals and the Criminal Law
+Bromwich, "Introduction" to On Empire, Liberty, and Reform
+MacIntyre, After Virtue
+Shapiro CH6
+Alexander Hamilton, John Jay, and James Madison, The Federalist Papers, No. 1, 9, 10, 14, 23, 39, 47, 48, 51, 55, 58, 62, 70, 78
+Ian Shapiro, Democratic Justice, chapters 1-6
+
 - Beitz, C., 1989, Political Equality: An Essay on Democratic Theory, Princeton: Princeton University Press.
-- [Jason Brennan (2009). Polluting the Polls: When Citizens Should Not Vote. Australasian Journal of Philosophy 87 (4) 535-549.][brennen2009]
+- Bentham, Introduction to the Principles of Morals and Legislation,
+- [Brennan, Jason (2009). Polluting the Polls: When Citizens Should Not Vote. Australasian Journal of Philosophy 87 (4) 535-549.][brennen2009]
 - Brennan, Jason (2011). The Ethics of Voting. Princeton Univ Pr.
 - Brennan, Jason (2011). The right to a competent electorate. Philosophical Quarterly 61 (245):700-724.
 - Buchanan, J. and Tullock, G., 1965, The Calculus of Consent: Logical Foundations of Constitutional Democracy, Ann Arbor, MI: University of Michigan Press.
@@ -122,6 +154,8 @@ Readings
 - [Dworkin, R. 2006, Is Democracy Possible Here? Principles for a New Political Debate. Princeton, NJ. Princeton University Press.][dworkin2006]
 - [Gaus (1998) Why all welfare states are unreasonable, Social Philosophy & Policy, 15 (2)  1-33][gaus1998]
 - Goodin, R., 2003, Reflective Democracy, Oxford: Oxford University Press.
+- Locke, First Treatise of Government, 
+- Locke, Second Treatise of Government, 
 - Mill, JS. 1859 On Liberty
 - Rousseau, J.-J., 1762, The Social Contract, trans. Charles Frankel, New York: Hafner Publishing Co., 1947.
 - Sen, A., 1999, Development as Freedom, New York: Knopf.
@@ -134,6 +168,7 @@ Readings
 - Pole, A. 2010 Blogging the Political, Routledge, New York
 - Demeny, P. 1986 "Pronatalist Policies in Low-Fertility Countries: Patterns, Performance and Prospects," Population and Development Review, vol. 12
 - Sanderson, 2007. A Near Electoral Majority of Pensioners. Population and Development Review Volume 33, Issue 3, pages 543–554, September 2007.
+- Shapiro, Moral Foundations of Politics, 
 
 [dworkin2006]:literature%20review/Is%20Democracy%20Possible%20Here.md
 [burnheim2006]:literature%20review/Is%20Democracy%20Possible.md

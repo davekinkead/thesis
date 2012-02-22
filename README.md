@@ -8,6 +8,16 @@ The thesis that I will defend is that a legitimate material interest ought to be
 - Extending John Burheim's observation that only those affected by some issue ought to have any say in the matter and defending it as a normative political principle.
 - Examining the consequences of this principle and how it affects democratic governance.
 
+Below are the broad themes that I wish to address and which will hopefully form my chapters.
+
+-----
+
+
+
+Part 1
+======
+
+
 
 Suffrage & Democracy
 --------------------
@@ -28,13 +38,14 @@ Non-instrumental justifications:
 - public justification.
 
 
-
-Limiting Suffrage
------------------
-
 Is voting even necessary in Democracy?  Does voting have any intrinsic democratic value? Only political equality and popular sovereignty seem to be constitutive elements of democracy.  Voting is neither necessary (see sortition) nor sufficient (see Soviet voting methods) for sound democracies.
 
-Look at other concepts of suffrage & eligibility and their use to demonstrate the universal suffrage is never ‘universal’: equal vs census suffrage, youth & demeny voting, exclusion by race, class, religion, qualification, property, function or action (criminality). Jurisdictional issues and how they relate to the justifications of suffrage chapter - residency, nationality
+Look at other concepts of suffrage & eligibility and their use to demonstrate the universal suffrage is never ‘universal’: 
+
+- equal vs census suffrage, 
+- youth & demeny voting, 
+- exclusion by race, class, religion, qualification, property, function or action (criminality). 
+Jurisdictional issues and how they relate to the justifications of suffrage chapter - residency, nationality
 
 
 
@@ -67,16 +78,43 @@ On collective matters, personal sovereignty can be described as a function of re
  4) I find a non-circular argument. Bugger
 
 
-Suffrage & Legitimacy
+The Autonomy Argument
 ---------------------
 
-Tyranny, sovereignty & authority
+P1 - Autonomy is good.  I think it is unproblematic to merely assert this when arguing within the liberal conception of politics. 
+
+- What is the nature of autonomy? 
+- Does autonomy come in degrees or is it binary? 
+- Why is it good?  
+
+P2 - Limiting autonomy is bad. From (1) it is bad because it limits a good.  There may be grounds for limiting autonomy but it seem ceteris paribus wrong.
+
+- What are the limits to this? 
+- Are there any exceptions?
+- Does denying suffrage over issues that don't affect an agent limit their autonomy? (No!)
+
+P3 - Following from (1) and (2), we are committed to a minimalist scope polis wherever possible because this simultaneously maximises (1) and minimises (2).
+
+- Are there alternatives that satisfy (1) and (2)?
+
+P4 - Some issues however must be political as they affect more than one agent and therefore require some form of political equality / democracy in the decision making processes.  From (2), if someone is affected by an decision, they must be granted suffrage (the sufficient condition)
+
+P5 - Granting suffrage to those who aren't affected by a decision doesn't increases the non-affected agent's autonomy (1) but does decrease the affected agent's autonomy which is wrong (2).  Therefore suffrage ought be limited to only those affected (the necessity condition)
+
+Objections???
 
 
-Suffrage & Knowledge
---------------------
+
+The Epistemic Argument
+----------------------
 
 Epistemic arguments for suffrage.  What effect does LMI have on this?
+
+------
+
+
+Part 2
+======
 
 
 Suffrage & Equality
@@ -106,14 +144,13 @@ Why is an issue a political one in the first place?  What are the normative grou
 
 Readings
 --------
-
-Bentham, Introduction to the Principles of Morals and Legislation,
-Shapiro CH2
-Bentham, "The Psychology of Economic Man"
-Shapiro CH3
-Mill, On Liberty
-Mill, Utilitarianism
-Shapiro CH4
+Locke - 2 treatise - Feb
+Rousseau - the social contract - March (Shapiro CH2)
+Bentham, Introduction to the Principles of Morals and Legislation - Apr
+Bentham, "The Psychology of Economic Man" - Apr (Shapiro CH3)
+Mill, On Liberty - May
+Mill, Utilitarianism - May (Shapiro CH4)
+June
 Tucker, The Marx-Engels Reader, Manifesto of the Communist Party, pp. 469-500.
 Tucker, The Marx-Engels Reader, “Theses on Feuerbach,” pp. 143-5
 Tucker, The Marx-Engels Reader, The German Ideology, Part I, pp. 146-202
@@ -122,10 +159,9 @@ Tucker, The Marx-Engels Reader, Capital, Vol. I, pp. 361-84, 417-19
 Tucker, The Marx-Engels Reader, Capital, Vol. I, pp. 443-65
 Tucker, The Marx-Engels Reader, Critique of the Gotha Program, pp. 525-41
 Roemer, "Should Marxists be interested in exploitation?"
-Nozick, Anarchy, State, and Utopia,
-Rawls, A Theory of Justice 
-Shapiro CH5
-Rawls, "Justice as fairness: political not metaphysical"
+Nozick, Anarchy, State, and Utopia, - July
+Rawls, A Theory of Justice - August (Shapiro CH5)
+Rawls, "Justice as fairness: political not metaphysical" - Aug
 Shapiro, "Justice and Workmanship in a Democracy"
 Burke, Reflections on the Revolution in France,
 Devlin, Morals and the Criminal Law
@@ -147,6 +183,7 @@ Ian Shapiro, Democratic Justice, chapters 1-6
 - Christiano, T., 2004, “The Authority of Democracy,” Journal of Political Philosophy, Vol. 12, n. 3 (August): pp. 266-290.
 - [Dahl, R (1956) Madisonian Democracy in A Preface to Democratic Theory, University of Chicago Press, Chicago.][dahl1956]
 - [Dahl, R & Tuft, E (1973) Size and Democracy: Politics of the smaller European democracies, Stanford University Press, Stanford][dahl1973size]
+- Demeny, P. 1986 "Pronatalist Policies in Low-Fertility Countries: Patterns, Performance and Prospects," Population and Development Review, vol. 12
 - Downs, A., 1957, An Economic Theory of Democracy, New York: Harper and Row.
 - Dworkin, R., 2000, Sovereign Virtue: The Theory and Practice of Equality, Cambridge, MA: Harvard University Press.
 - [Dworkin, R. 2006, Is Democracy Possible Here? Principles for a New Political Debate. Princeton, NJ. Princeton University Press.][dworkin2006democracy]
@@ -156,16 +193,13 @@ Ian Shapiro, Democratic Justice, chapters 1-6
 - [Locke, J (1690) First Treatise of Government][locke1690first]
 - [Locke, J (1690) Second Treatise of Civil Government][locke1690second]
 - Mill, JS. 1859 On Liberty
-- Rousseau, J.-J., 1762, The Social Contract, trans. Charles Frankel, New York: Hafner Publishing Co., 1947.
-- Sen, A., 1999, Development as Freedom, New York: Knopf.
-- Mill, JS. 1861 Utilitarianism
-- Montesquieu, 1731 The Spirit of the Laws
 - [O’Leary, K. 2006 Saving Democracy, Stanford University Press, Stanford][oleary2006saving]
 - [Parfit, D. (1997). Equality and Priority. Ratio 10 (3)202–221][parfit1997equity]
 - Mill, JS. 1861 Utilitarianism
 - Montesquieu, 1731 The Spirit of the Laws
 - Pole, A. 2010 Blogging the Political, Routledge, New York
-- Demeny, P. 1986 "Pronatalist Policies in Low-Fertility Countries: Patterns, Performance and Prospects," Population and Development Review, vol. 12
+- Rousseau, J.-J., 1762, The Social Contract, trans. Charles Frankel, New York: Hafner Publishing Co., 1947.
+- Sen, A., 1999, Development as Freedom, New York: Knopf.
 - Sanderson, 2007. A Near Electoral Majority of Pensioners. Population and Development Review Volume 33, Issue 3, pages 543–554, September 2007.
 - [Shapiro, Ian (2003) The Moral Foundations of Politics, Yale University Press, New Haven][shapiro2003moral]
 

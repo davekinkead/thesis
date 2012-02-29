@@ -121,9 +121,11 @@ The Epistemic Argument
 
 Epistemic arguments for LMI start from a variety of positions.
 
-Condorcet Jury Theory
+**Condorcet Jury Theory**
 
-- if any voter has p(correct) > 0.5, then the more voters 
+
+- if any voter has p(correct) > 0.5, then as voters n->inf, p(correct) -> 1.0 
+- influenced by changes in p(correct), n, 
 
 Public choice theory
 

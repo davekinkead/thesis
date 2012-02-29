@@ -56,7 +56,9 @@ Locke anticipates two objections, but fails to anticipate an objection to consen
 
 - Locke describes the evolution of political societies from family to monarchy to majoritarian rule §105-110.  When should patriarchal power give way to consent of the governed?
 
-- How does political authority work in Locke's view?  Man consents to government and his possessions and lands become subject to it.  He is free to move elsewhere but his property remains "perpetually and indispensably" subject.  Doesn't this deny property rights?
+- How does political authority work in Locke's view?  
+
+- Man consents to government (§95) and his possessions and lands become subject to it (§120).  He is free to move elsewhere (§121) but his property remains "perpetually and indispensably" subject (§121).  Doesn't this conflict with the idea of individual property rights?
 
 - Consent is an act of free will and free will requires an ability to do otherwise.  How can consent be given is an agent doesn't have means to move to land 'in vacuis locis'?
 

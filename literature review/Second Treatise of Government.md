@@ -4,7 +4,8 @@ Locke - Second Treatise of Civil Government
 CH1
 ---
 
-CH2 Of the State of Nature
+CH2 - Of the State of Nature
+----------------------------
 
 The state of nature consists of perfect freedom and political equality.  This is a marked contrast with Hobbes.
 
@@ -52,7 +53,7 @@ Locke anticipates two objections, but fails to anticipate an objection to consen
 - "First, That there are no instances to be found in story, of a company of men independent, and equal one amongst another, that met together, and in this way began and set up a government.  Secondly, It is impossible of right, that men should do so, because all men being born under government, they are to submit to that, and are not at liberty to begin a new one. " §100
 
 
-**Questions**
+** Questions **
 
 - Locke describes the evolution of political societies from family to monarchy to majoritarian rule §105-110.  When should patriarchal power give way to consent of the governed?
 
@@ -61,6 +62,112 @@ Locke anticipates two objections, but fails to anticipate an objection to consen
 - Man consents to government (§95) and his possessions and lands become subject to it (§120).  He is free to move elsewhere (§121) but his property remains "perpetually and indispensably" subject (§121).  Doesn't this conflict with the idea of individual property rights?
 
 - Consent is an act of free will and free will requires an ability to do otherwise.  How can consent be given is an agent doesn't have means to move to land 'in vacuis locis'?
+
+
+CH11 - Of the Extent of the Legislative Power
+---------------------------------------------
+
+The purpose of a commonwealth is the promotion of the common good and the extend of legislative power is limited by this.
+
+- "the first and fundamental positive law of all commonwealths is the establishing of the legislative power; as the first and fundamental natural law, which is to govern even the legislative itself, is the preservation of the society, and (as far as will consist with the public good) of every person in it." §134
+
+- "Their power, in the utmost bounds of it, is limited to the public good of the society. It is a power, that hath no other end but preservation, and therefore can never* have a right to destroy, enslave, or designedly to impoverish the subjects." §135
+
+- "These laws also ought to be designed for no other end ultimately, but the good of the people" §142
+
+
+This is because legislative authority comes from the people and no man can grant a power that he doesn't in the first instance have (and individuals don't have natural law to destroy others).  It would also be irrational to consent to a worse condition than the state of nature.
+
+- "it can be no more than those persons had in a state of nature before they entered into society, and gave up to the community; for no body can transfer to another more power than he has in himself" §135
+
+- "This were to put themselves into a worse condition than the state of nature, wherein they had a liberty to defend their right against the injuries of others, and were upon equal terms of force to maintain it, whether invaded by a single man, or many in combination." §137
+
+
+Again, Locke stresses that authority is grounded in consent
+
+- "the consent of the society, over whom no body can have a power to make laws, but by their own consent, and by authority received from them" §134
+
+
+Civil law must be congruent with natural law, and it must operate by standard, written acts rather than arbitrary decision.
+
+- "Thus the law of nature stands as an eternal rule to all men, legislators as well as others." §135
+
+- "The legislative, or supreme authority, cannot assume to its self a power to rule by extemporary arbitrary decrees, but is bound to dispense justice, and decide the rights of the subject by promulgated standing laws, and known authorized judges" §136
+
+- "And therefore, whatever form the common-wealth is under, the ruling power ought to govern by declared and received laws, and not by extemporary dictates and undetermined resolutions" §137
+
+- "They are to govern by promulgated established laws, not to be varied in particular cases" §142
+
+
+Government doesn't have a right to confiscate property without majority consent.
+
+- "The supreme power cannot take from any man any part of his property without his own consent: for the preservation of property being the end of government, and that for which men enter into society, it necessarily supposes and requires, that the people should have property" §138
+
+- "governments cannot be supported without great charge …… But still it must be with his own consent, i.e. the consent of the majority, giving it either by themselves, or their representatives chosen by them" §140
+
+- "They must not raise taxes on the property of the people, without the consent of the people, given by themselves,
+or their deputies." §142
+
+
+CH12 - Of the Legislative, Executive, and Federative Power of the Commonwealth
+-------------------------
+
+Justifies the separation of legislative and executive arms of government.  The legislative needs to only form occasionally but the executive must subsist continuously 
+
+- "But because those laws which are constantly to be executed, and whose force is always to continue, may be made in a little time; therefore there is no need, that the legislative should be always in being, not having always business to do." §143
+
+- "But because the laws, that are at once, and in a short time made, have a constant and lasting force, and need a perpetual execution, or an attendance thereunto; therefore it is necessary there should be a power always in being, which should see to the execution of the laws that are made, and remain in force. And thus the legislative and executive power come often to be separated." §144
+
+
+CH13 - Of the Subordination of the Powers of the Commonwealth
+------------
+
+Legislative authority may be recalled whenever it acts contrary to the common good
+
+- "there remains still in the people a supreme power to remove or alter the legislative, when they find the legislative act contrary to the trust reposed in them: for all power given with trust for the attaining an end …… whenever that end is manifestly neglected …… the power devolve into the hands of those that gave it" §149
+
+- "[the people] will always have a right to preserve, what they have not a power to part with" §149
+
+But,
+
+- "the community may be said in this respect to be always the supreme power, but not as considered under any form of government, because this power of the people can never take place till the government be dissolved." §149
+
+Even a monarch's authority still derives from the consent (positive grant) of the commonwealth and is bound by the common good.  His supreme authority is executive, not legislative, and is owed allegiance only when he complies with law
+
+- "But yet it is to be observed, that tho’ oaths of allegiance and fealty are taken to him, it is not to him as supreme legislator, but as supreme executor of the law, ……  allegiance being nothing but an obedience according to law, which when he violates, he has no right to obedience …… and thus he has no will, no power, but that of the law." §151
+
+- "that they have no manner of authority, any of them, beyond what is by positive grant and commission delegated to them, and are all of them accountable to some other power in the common-wealth." §152
+
+Using force unjustly (against the common good) against the people is an act of war
+
+- "The use of force without authority, always puts him that uses it into a state of war, as the aggressor, and renders him liable to be treated accordingly." §155
+
+- "the true remedy of force without authority, is to oppose force to it." §155
+
+Locke now shifts his argument considerably.  From highlighting how monarchy is limited by the common good, he outlines why anyone would consent to monarchy in the first place.
+
+Those who originally consented to the commonwealth could not have seen every eventuality.  It was therefore best to appoint someone who was 'above politics and self-interest' to watch over the commonwealth.  Importantly, he also justifies the executive overriding the legislative.
+
+- "for it not being possible, that the first framers of the government should, by any foresight, be so much masters of future events, as to be able to prefix so just periods of return and duration to the assemblies of the legislative, in all times to come, that might exactly answer all the exigencies of the commonwealth"  
+
+- "the best remedy could be found for this defect, was to trust this to the prudence of one who was always to be present, and whose business it was to watch over the public good"
+
+- "any delay of their convening might endanger the public; and sometimes too their business might be so great, that the limited time of their sitting might be too short for their work, and rob the public of that benefit which could be had only from their mature deliberation"
+
+- "To what gross absurdities the following of custom, when reason has left it …… when we see the bare name of a town, of which there remains not so much as the ruins, where scarce so much housing as a sheepcote, or more inhabitants than a shepherd is to be found, sends as many representatives to the grand assembly of law-makers, as a whole county numerous in people,"
+
+
+
+
+- "that though the executive power may have the prerogative of convoking and dissolving such conventions of the legislative, yet it is not thereby superior to it." §156
+
+
+
+** Questions **
+
+
+
+
 
 
 

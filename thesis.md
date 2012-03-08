@@ -1,6 +1,7 @@
 Part 1
 ======
 
+
 The purpose of part one is to establish new normative democratic principle - that suffrage ought only be extended to those affected by some issue.  My central claim can be worded something like this
 
 - "That only those affected by something should have any say in the matter", or

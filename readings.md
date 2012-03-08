@@ -68,14 +68,14 @@ Ian Shapiro, Democratic Justice, chapters 1-6
 - [Shapiro, Ian (2003) The Moral Foundations of Politics, Yale University Press, New Haven][shapiro2003moral]
 
 [locke1690first]:literature%20review/First%20Treatise%20of%20Government
-[locke1690second]:literature%20review/Second%20Treatise%20of%20Government
+[locke1690second]:literature%20review/Second%20Treatise%20of%20Government.md
 [dworkin2006democracy]:literature%20review/Is%20Democracy%20Possible%20Here.md
 [burnheim2006]:literature%20review/Is%20Democracy%20Possible.md
 [dahl1956]:literature%20review/A%20Preface%20to%20Democratic%20Theory.md
-[dahl1973size]:literature%20review/Size%20and%20Democratic%20Theory
-[brennen2009]:literature%20review/polluting%20the%20polls.md
-[gaus1998]:literature%20review/polluting%20the%20polls.md
+[dahl1973size]:literature%20review/Size%20and%20Democracy
+[brennen2009]:literature%20review/Polluting%20the%20Polls.md
+[gaus1998]:literature%20review/Why%20all%20welfare%20states%20are%20unreasonable.md
 [shapiro2003moral]:literature%20review/Moral%20Foundations%20of%20Politics.md
-[parfit1997equity]:literature%20review/Equity%20or%20Priority
+[parfit1997equity]:literature%20review/Equality%20or%20Priority
 [oleary2006saving]:literature%20review/Saving%20Democracy
 [hinsley1986sovereignty]:literature%20review/Sovereignty

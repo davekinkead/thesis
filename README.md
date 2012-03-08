@@ -19,6 +19,5 @@ Reading List
 
 My current reading list and notes can be found [here][readings]
 
-[thesis]:thesis.md
-[readings]:readings.md
-
+[thesis]:https://github.com/davekinkead/Limiting-Suffrage/blob/master/thesis.md
+[readings]:https://github.com/davekinkead/Limiting-Suffrage/blob/master/readings.md

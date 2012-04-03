@@ -163,8 +163,43 @@ Those who originally consented to the commonwealth could not have seen every eve
 
 
 
-** Questions **
+CH19 - Of the Dissolution of Government
+---------------------------------------
 
+
+Government of a society can't exist without a society to govern.  Whenever society is dissolved, it follows that its government is also dissolved.  The most common way this occurs "is the inroad of foreign force making a conquest upon them" §211
+
+Government can also be dissolved without the dissolution of society.  Locke outlines a number of primary ways:
+
+- The overreach of the executive and interference with the legislature (excluding the prerogative) §214
+- The executive preventing the legislature form assembling §215
+- when the legislature or executive alter their powers contrary to the common good §216
+- the delivery of the people to a foreign power §217
+- the abandonment of government by the executive §219
+
+Locke also outlines an overriding trigger: because the purpose of civil society is the preservation of property (including life), any governmental action contrary to this dissolves the political authority of the state.
+
+- "whenever the legislators endeavour to take away, and destroy the property of the people, or to reduce them to slavery under arbitrary power, they put themselves into a state of war with the people, who are thereupon absolved from any farther obedience, and are left to the common refuge, which God hath provided for all men, against force and violence." §222
+
+- "Whensoever therefore the legislative shall transgress this fundamental rule of society; and either by ambition, fear, folly or corruption, endeavour to grasp themselves, or put into the hands of any other, an absolute power over the lives, liberties, and estates of the people; by this breach of trust they forfeit the power the people had put into their hands for quite contrary ends, and it devolves to the people, who. have a right to resume their original liberty, and, by the establishment of a new legislative, (such as they shall think fit) provide for their own safety and security, which is the end for which they are in society" §222
+
+Locke repeatedly states people are not obliged to obey tyrannical or illegitimate rule
+
+- "They, who remove, or change the legislative, take away this decisive power, which no body can have, but by the appointment and consent of the people; and so destroying the authority which the people did, and no body else can set up, and introducing a power which the people hath not authorized, they actually introduce a state of war, which is that of force without authority: and thus, by removing the legislative established by the society, (in whose decisions the people acquiesced and united, as to that of their own will) they untie the knot, and expose the people a-new to the state of war" §227
+
+- "The end of government is the good of mankind; and which is best for mankind, that the people should be always exposed to the boundless will of tyranny, or that the rulers should be sometimes liable to be opposed, when they grow exorbitant in the use of their power, and employ it for the destruction, and not the preservation of the properties of their people?" §229
+
+Locke rejects the idea that the moral authority of the people to overthrow a transgressing government will lead to anarchy.  He offers a number of counterpoints:
+
+- "People are not so easily got out of their old forms as some are apt to suggest" §223
+
+- "Great mistakes in the ruling part, many wrong and inconvenient laws, and all the slips of human frailty, will be born by the people without mutiny or murmur. But if a long train of abuses … all tending the same way, make the design visible to the people, and they cannot but feel what they lie under … they should then rouze themselves, and endeavour to put the rule into such hands which may secure to them the ends for which government was at first erected" §225
+
+- "this doctrine of a power in the people of providing for their safety a-new, by a new legislative, when their legislators have acted contrary to their trust, by invading their property, is the best fence against rebellion, and the probablest means to hinder it" §226
+
+Questions:
+
+- how does Locke distinguish between consent & common good?
 
 
 

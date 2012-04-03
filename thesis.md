@@ -53,6 +53,7 @@ What is an material interest?
 - Mill's Harm Principle?
 - Any claim?
 - How is this to be assessed?
+- ** If you didn't know x was happening, would it still affect you? **
 
 What is legitimate?
 
@@ -124,6 +125,13 @@ The Argument from Equality
 --------------------------
 
 Does this differ from the argument from autonomy?
+
+
+The Utilitarian Argument
+------------------------
+
+- elimination of special interest
+- ????
 
 
 

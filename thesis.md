@@ -1,7 +1,7 @@
 The Boundary Problem of Democratic Theory
 =========================================
 
-My thesis explores normative issues of suffrage and in particular, seeks to solve the boundary problem in democratic theory, which is to say:
+My thesis explores normative issues of suffrage and jurisdiction, and in particular, seeks to solve the boundary problem in democratic theory, which is to say:
 
 	How can you democratically answer the question of who can vote on a particular issue without first presupposing who can vote on the issue of who can vote?
 
@@ -9,8 +9,8 @@ The boundary problem arises whenever we examine who ought be allowed to vote.  H
 
 
 
-The Boundary Problem
---------------------
+CH1 - The Boundary Problem
+--------------------------
 
 A brief history of the problem:
 
@@ -22,17 +22,13 @@ A brief history of the problem:
 - Erman 2011 'The boundary problem' ???? Just found on SSRN
 - Song 2012 'Why the demos should be bounded by the state' - just found
 
-The boundary problem can be formulated as:
+The constituent elements of the boundary problem that are necessary for it to arise are:
 
-1. Democratic theory makes claims of legitimacy.  Specifically, democratic theory claims that political authority is legitimate just because (and often only because) that political authority is legitimate.
+1. 	The who in any democracy determines the how and what.  The determination of who 'the people' are typically predetermines the outcome of any decision.  This is most obvious in cases of succession but also arises whenever the issue of suffrage is open - eg. gerrymander, redistribution or any normative analysis of inclusion.
 
-2. A necessary condition of political legitimacy is that outcomes of the political process are actually determined by the mechanism that grounds the legitimacy. The process cannot be simultaneously arbitrary and legitimate.
+2.	Democratic theory makes claims of legitimacy.  Specifically, democratic theory claims that political authority is legitimate just because (and often only because) that political authority is legitimate. A necessary condition of political legitimacy is that outcomes of the political process are actually determined by the mechanism that grounds the legitimacy. The process cannot be simultaneously arbitrary and legitimate.
 
-3. Democratic theory can't answer the normative question of who ought be allowed to vote.  Attempting to do so results in an infinite regress of who gets to vote on who gets to vote on who gets to vote on…
-
-4. Yet the determination of who 'the people' are typically predetermines the outcome of any decision.  This is most obvious in cases of succession but also arises whenever the issue of suffrage is open - eg. gerrymander, redistribution or any normative analysis of inclusion.
-
-5. All existing solutions to the boundary problem - nation, culture, geography, salience, all-affected, & consent - have failed to demonstrate legitimacy.  Democratic theory cannot therefore, claim that its political authority is legitimate.
+3.	There is no current account that legitimates the people forming process.  Democratic theory can't answer the normative question of who ought be allowed to vote.  The question of who is logically prior to the question of how and attempting to solve the boundary problem from within democratic theory results in an infinite regress of who gets to vote on who gets to vote on who gets to vote on… Other proposed solutions to the boundary problem - nation, culture, geography, salience, all-affected, & consent - have failed to support democracy's claims of legitimacy.  Democratic theory cannot therefore, claim that its political authority is legitimate.
 
 The nature of the problem results in few imperatives for the solution:
 
@@ -40,8 +36,22 @@ The nature of the problem results in few imperatives for the solution:
 - that the solution doesn't negate the need for democratic theory.  If the solution bounds the people in a legitimate manner, it may likely also provide a framework for political legitimacy making normative democratic theory redundant.
 
 
-Democracy & Legitimacy
+CH2 - Who Determines What
+-------------------
+
+This chapter will outline the extent of the problem.  It will attempt to answer:
+
+- The question of who is logically prior to the questions of how or what
+- How often does the boundary problem arise?
+- Does it apply to all normative questions of suffrage & jurisdiction?
+- Is there some mathematical description to it?
+
+
+
+CH3 - Democracy & Legitimacy
 ----------------------
+
+This chapter will serve to examine the relationship between democracy, legitimacy and authority.
 
 Clarify meaning & intent of legitimacy.  Raz (1988) provides a good starting point for analysis - legitimacy imposes a moral duty to accept the directives of an authority.  One may obey any authority for any reason but legitimate authority preempts these reasons and requires obedience just because it is legitimate.
 
@@ -59,18 +69,24 @@ Current accounts regarding the source of political legitimacy are:
 
 
 
-All-Affected Principle
-----------------------
+CH4 - All-Affected Principle
+----------------------------
 
-Why this fails. 
-Expand on Burnheim to justify the only-affected principle. 
-Show why this still fails to solve the boundary problem
+This chapter will examine the all affected principle as a normative principle.  It will show why it is a poor principle of normative democratic theory and why something like Burnheim's only-affected principle is much better.
 
+The goal is to establish the only-affected principle, something akin to a legitimate material interest as, as a foundational norm of inclusion but demonstrate why it still can't solve the boundary problem.
 
-Consent
--------
+	The reason it can't solve the boundary problem is because of potentiality.  Affect is determined by the outcome of a decision but the outcome isn't know ahead of time.  As such, we need to use potential affect as the criteria.  Yet potential affect of an outcome is determined by what the issue actually is, which in turn raises the meta-question of who can propose issues.  This has its own boundary problem.
 
-What is the problem of consent?
+	An example:
+	Should community A compensate community B for some past injustice - say pollution from their new power plant? If the vote is no, then no one is affected (relative to the status quo) but if yes, then the peoples of A and B are.  Potentiality requires us to consider all and only those potentially affected by the outcome - both A and B.  
+
+	But who can even propose this vote? Can community C who aren't materially affected by the pollution propose a vote for A & B on the matter? If yes, then can I propose a vote that the uber-rich (of which sadly I am not currently a member), be taxed extra to help the poor in say Africa (of which luckily I am not a member)?
+
+CH5 - Consent
+-------------
+
+What are the problems with consent theories?
 
 There are currently three broad approaches to consent theory:
 
@@ -89,10 +105,10 @@ What can we do to rescue the problem?
 I'm going to define consent as an act of agreement in the absence of coercion.  
 
 
-Dynamic Federalism
-------------------
+CH6 - Dynamic Federalism
+------------------------
 
-- consent is the only viable source of legitimacy for political authority
+- consent is the most viable source of legitimacy for political authority
 - in order to consent, I must:
   - be free to do otherwise
   - not be coerced into my choice

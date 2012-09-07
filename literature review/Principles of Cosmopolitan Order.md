@@ -32,11 +32,11 @@ Claims these are all justified by:
 
 
 
-	@article{held2011principles,
+	@article{held2005principles,
 	  title={Principles of Cosmopolitan Order},
 	  author={Held, D.},
 	  journal={The Cosmopolitanism Reader},
 	  pages={229},
-	  year={2011},
+	  year={2005},
 	  publisher={Polity Pr}
 	}

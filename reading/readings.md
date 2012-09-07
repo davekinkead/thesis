@@ -72,22 +72,22 @@ Ian Shapiro, Democratic Justice, chapters 1-6
 - [Simmons, AJ (2001) "Philsophical Anarchism" in Justification and legitimacy: Essays on rights and obligations, Cambridge University Press][simmons2001philsophical]
 - [Wolff, R (1970) In Defence of Anarchism, University of California Press][wolff1970defence]
 
-[locke1690first]:literature%20review/First%20Treatise%20of%20Government
-[locke1690second]:literature%20review/Second%20Treatise%20of%20Government.md
-[dworkin2006democracy]:literature%20review/Is%20Democracy%20Possible%20Here.md
-[burnheim2006]:literature%20review/Is%20Democracy%20Possible.md
-[dahl1956]:literature%20review/A%20Preface%20to%20Democratic%20Theory.md
-[dahl1973size]:literature%20review/Size%20and%20Democracy
-[brennen2009]:literature%20review/Polluting%20the%20Polls.md
-[gaus1998]:literature%20review/Why%20all%20welfare%20states%20are%20unreasonable.md
-[shapiro2003moral]:literature%20review/Moral%20Foundations%20of%20Politics.md
-[parfit1997equity]:literature%20review/Equality%20or%20Priority
-[oleary2006saving]:literature%20review/Saving%20Democracy
-[hinsley1986sovereignty]:literature%20review/Sovereignty
-[held2010princples]:literature%20review/Principles%20of%20Cosmopolitan%20Order.md
-[rousseau1762social]:literature%20review/The%20Social%20Contract.md
-[simmons1999justification]:literature%20review/Justification%20and%20Legitimacy.md
-[simmons2001philsophical]:literature%20review/Philosophical%20Anarchism.md
-[wolff1970defence]:literature%20review/In%20Defence%20of%20Anarchism%20Wolff%201970.md
-[dahl1970after]:literature%20review/After%20the%20Revolution%20-%20Dahl%201970.md
+[locke1690first]:First%20Treatise%20of%20Government
+[locke1690second]:/Second%20Treatise%20of%20Government.md
+[dworkin2006democracy]:Is%20Democracy%20Possible%20Here.md
+[burnheim2006]:Is%20Democracy%20Possible.md
+[dahl1956]:A%20Preface%20to%20Democratic%20Theory.md
+[dahl1973size]:Size%20and%20Democracy
+[brennen2009]:Polluting%20the%20Polls.md
+[gaus1998]:Why%20all%20welfare%20states%20are%20unreasonable.md
+[shapiro2003moral]:Moral%20Foundations%20of%20Politics.md
+[parfit1997equity]:Equality%20or%20Priority
+[oleary2006saving]:Saving%20Democracy
+[hinsley1986sovereignty]:Sovereignty
+[held2010princples]:Principles%20of%20Cosmopolitan%20Order.md
+[rousseau1762social]:The%20Social%20Contract.md
+[simmons1999justification]:Justification%20and%20Legitimacy.md
+[simmons2001philsophical]:Philosophical%20Anarchism.md
+[wolff1970defence]:In%20Defence%20of%20Anarchism%20Wolff%201970.md
+[dahl1970after]:After%20the%20Revolution%20-%20Dahl%201970.md
 

@@ -2,7 +2,7 @@ Is a World Government Really the Answer?
 ========================================
 
 
-Political cosmopolitanism is an appealing, if largely nebulous idea.  At it's core is the simple premise that we are all citizens of the world, that we all belong to a single moral community - humankind.  Its appeal is clear.  The concept of a global moral community is a seductive thought for anyone wanting to transcend the parochial concerns of the day to day.  It hints to those higher, nobler notions of humanity best invoked in the republican motto of *'liberte, egalite, fraternite'*.
+Political cosmopolitanism is an appealing, if largely nebulous idea.  At it's core is the simple premise that we are all citizens of the world, that we all belong to a single moral community - humankind.  Its appeal is clear.  The concept of a global moral community is a seductive thought for anyone wanting to transcend the parochial concerns of the day to day.  It hints to those higher, nobler notions of humanity so eloquently invoked in the republican motto of *'liberte, egalite, fraternite'*.
 
 Yet cosmopolitanism is as slippery as it is appealing.  It seems that every writer on the subject has something different in mind when they invoke the term.  Some having in mind a thick version of cosmopolitanism whereby duties to humanity override all other concerns.  Others have in mind a thinner version, where duties to humanity are just one of many considerations.  Some call for a global state to solve our currently international dilemmas while others merely propose more international cooperation.  Common to all however, is an argument against the current prioritisation of the nation-state in political considerations, and it's this I want to dwell on for a while.
 

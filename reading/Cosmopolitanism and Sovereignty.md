@@ -65,6 +65,8 @@ A has absolute sovereignty over B off:
 
 
 
+Pogge's argument against states having moral claims or considerations (cf Walzer 'Just & Unjust Wars'): "Why do we not also take into account the moral claims of Catholiscism, art, or baseball?" (p74)
+
 Bibtex
 
 	@article{pogge1992cosmopolitanism,

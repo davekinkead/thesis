@@ -48,7 +48,7 @@ This chapter will outline the extent of the problem.  It will attempt to answer:
 
 
 
-CH3 - Democracy & Legitimacy
+CH3 - Authority, Democracy & Legitimacy
 ----------------------
 
 This chapter will serve to examine the relationship between democracy, legitimacy and authority.
@@ -69,7 +69,7 @@ Current accounts regarding the source of political legitimacy are:
 
 
 
-CH4 - All-Affected Principle
+CH4 - The All-Affected Principle
 ----------------------------
 
 This chapter will examine the all affected principle as a normative principle.  It will show why it is a poor principle of normative democratic theory and why something like Burnheim's only-affected principle is much better.
@@ -83,7 +83,7 @@ The goal is to establish the only-affected principle, something akin to a legiti
 
 	But who can even propose this vote? Can community C who aren't materially affected by the pollution propose a vote for A & B on the matter? If yes, then can I propose a vote that the uber-rich (of which sadly I am not currently a member), be taxed extra to help the poor in say Africa (of which luckily I am not a member)?
 
-CH5 - Consent
+CH5 - Consent Theories
 -------------
 
 What are the problems with consent theories?

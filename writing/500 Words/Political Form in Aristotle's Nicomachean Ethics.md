@@ -2,15 +2,17 @@
 
 Aristotle had an interesting taxonomy of political forms in his Nicomachean Ethics.  In it, he outlines three possible forms of 'constitutions' or systems of government: [^1]
 
-	There are three kinds of constitution … monarchy, aristocracy, and thirdly that which … seems appropriate to call timocratic. 
-		-- Book 8 Chapter 10
+>	There are three kinds of constitution … monarchy, aristocracy, and thirdly that which … seems appropriate to call timocratic. 
+
+>  -- Book 8 Chapter 10
 
 Timocracy literally speaking, means 'rule by the honourable'.  But for those not up to speed on the political organisation of ancient Greece, the term was corrupted to mean a system of government whereby political decisions were determined by wealth, status or contribution.  If you owned land producing 500 bushels of wheat, you could be a general or senator.  Have oxen worth 100 bushels of wheat and you could be an administrative official. Own very little (but still be white, male and non-slave of course) and you could serve on a jury. [^2] 
 
 Each form has its corresponding corruption:
 
-	The deviation from monarchy is tyrany … aristocracy passes over into oligarchy by the badness of the rulers … and timocracy passes over into democracy
-		-- Book 8 Chapter 10
+>The deviation from monarchy is tyrany … aristocracy passes over into oligarchy by the badness of the rulers … and timocracy passes over into democracy
+
+>	-- Book 8 Chapter 10
 
 Interestingly, Aristotle claims that Democracy, characterised by the equality of rulers and the ruled, is worse than rule determined by a broadly structured class system or caste.  His reasoning  for this seems to be his claim that those who have sufficient wealth are self-sufficient and thereby can 'not look to his own interests but to those of his subjects' (1160b).
 

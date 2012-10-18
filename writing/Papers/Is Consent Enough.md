@@ -29,3 +29,12 @@ Need to know
 -	What makes an obligation binding?
 
 
+Other Conceptions to work with
+
+- anarchism
+- utilitarianism
+- fair play
+- good government (benefits)
+
+
+

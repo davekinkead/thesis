@@ -50,6 +50,61 @@ Utilitarian accounts of obligation are problematic because it is difficult to se
 
 Obligations don't seem to give way in cases of slight changes in net utility (from negative to positive) that utilitarianism would require. p49
 
+CH3
+---
+
+"Consent theory has provided us with a more intuitively appealing account of political obligations that any other tradition in modern political philosophy". p57
+
+The heart of the doctrine is that no one is obligated to a political institution unless he has personally consented to the authority over him.
+
+Consent theory is a theory where the political obligations of citizens are grounded in their personal, deliberate, voluntary undertaking.
+
+Most consent theorists argue that: p60
+
+- consent generates political obligation.
+- no authority can be legitimate without consent.
+
+Political obligation and political authority are *correlative* under consent theory. p60
+
+There are 2 approaches to consent theory: p61
+
+- authority is grounded in the personal consent of an individual
+- authority is grounded in the historical consent of the founding citizens.
+
+But obligations from consent can only arise when the consenter authorises the consentee.  Clearly, the descendants of the original contractors have not authorised the original contract.
+
+It is often held that this historical contract is a *necessary* condition for a legitimate government.
+
+The major assumptions of consent theory: pp62-67
+
+- Man is naturally free.  There are no natural pre-political obligations that bind one to some authority.
+- This natural freedom can only be given up voluntarily via a clear sign.  A *no net loss* requirement is often seen as a necessary condition of the obligation.
+- Consenting protects the citizen from the state.  In two senses i) one can't be unknowingly bound to some authority & ii) it is logically impossible to be injured once consent has been given *volenti non fit injuria*.
+- The state is an instrument for serving the interests of its citizens.
+
+Problems arise when certain rights are considered inalienable.  In these cases, they cannot be granted or assigned and thus negate any obligations that conflict with them. p66
+
+Inalienable rights also has problems.  Consent theorists have a major concern with individual autonomy but this clashes with the inability to give certain things away, even if willing. p67
+
+"The doctrine of inalienable rights fits uncomfortably into consent theory, for it smacks of a paternalism that consent theorists, above all others, have opposed." p68
+
+Consent theorists demonstrate a preference for individual choice over unavoidable benefits. p69
+
+One must know what one is doing in order to consent. Political obligations cannot be inherited or unwittingly acquired. p70
+
+The dilemma of majority consent:  "A government has authority only over those citizens who have granted that authority through their consent, and only a government which has authority over all of its citizens is legitimate. Thus, a legitimate government requires unanimous consent." p71.
+
+Alternatively, majority consent means that some individuals become bound without their consent or in opposition to it. p72
+
+One interpretation of Hobbes, Locke & Rousseau is that unanimous consent is required to form the body politic, but only majority consent is necessary for subsequent rules (but only for those original consenters) p73.
+
+
+
+
+
+
+
+
 
 
 

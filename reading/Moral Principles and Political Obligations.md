@@ -99,6 +99,27 @@ Alternatively, majority consent means that some individuals become bound without
 One interpretation of Hobbes, Locke & Rousseau is that unanimous consent is required to form the body politic, but only majority consent is necessary for subsequent rules (but only for those original consenters) p73.
 
 
+CH6
+---
+
+The Rawlsian account of fairness is a natural response to the problems of applying general political obligation to voluntary acts. A duty based account would solve this. p144
+
+This stems from Rawls' position that all obligation centred accounts of political bonds fail. p145
+
+Rawls admits that the principle of fairness doesn't bind citizens in general, even within just states. "All citizens generally do not have political obligations." p146
+
+"The natural duty of justice binds each member of the political community to support and further the just political institutions in his country.It binds each member irrespective of his voluntary acts, permeative or otherwise." p147
+
+The problem with this account is determining when institutions apply to us.  If they apply in a weak or territorial sense, then his seems insufficient to generate political bonds because "people cannot simply force institutions on me, not matter how just" p148
+
+If weak application is sufficient, then it seems we have political bonds to more than just 'our' state, but rather any just institution.
+
+If they apply in the strong sense, then they apply simply because of some voluntary action, thus making the account vacuous and better explained by an obligation centric account.
+
+
+
+
+
 
 
 

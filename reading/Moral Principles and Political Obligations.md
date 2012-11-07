@@ -117,6 +117,22 @@ If weak application is sufficient, then it seems we have political bonds to more
 If they apply in the strong sense, then they apply simply because of some voluntary action, thus making the account vacuous and better explained by an obligation centric account.
 
 
+CH8
+---
+
+Citizens have no special political bonds which require that they obey and support the governments of the country of their residents. p192
+
+In the absence of these political bonds to the state, there may still be strong reasons for supporting certain types of governments or obeying the law. p193
+
+"In so far as we believe ourselves to be tied in some special way to our country of residence, most of us are mistaken." p194
+
+Any duty which we may have to support our government because of its quality will be 'non-particularized' p198
+
+But good qualities do distinguish which governments do deserve our support (but apply equally to all governments)
+
+Simmons' thesis removes the presumption of obedience to established authority.  Obedience requires just as much justification as disobedience. p200
+
+
 
 
 

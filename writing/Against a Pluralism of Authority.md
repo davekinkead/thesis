@@ -15,7 +15,7 @@ Another distinction is that between power and authority. Power can be thought of
 
 But authority without power is a largely vacuous concept.  An exiled prince may claim to the the rightful heir to his estranged kingdom, yet without the ability to realise his will, he can be describes at best as an authority in name only.  Authority is more than power, but former requires the latter.  Various drug cartels may exercise their power of large swathes of Latin America without any authority, yet when the state cannot effectively maintain public order it has lost its authority regardless of its normative claim to it.
 
-Authority can also be thought of in a description or normative sense, what Wolff [^2] describes as *de facto* and *de jure* authority. De facto authority occurs whenever (sufficient) people acknowledged it to exist.  The state commands, people comply because it is the state, therefore the state has de facto authority.  De jure authority however, only occurs when we have legitimate reasons for obeying.  Whilst Hobbes may have claimed that the ability to rule gave the Prince the right to rule, most conceptions of authority recognise this descriptive/normative distinction and the major project of political philosophy seems to be eliciting this dichotomy and outlining the conditions of when we ought obey.
+Authority can also be thought of in a description or normative sense, what Wolff [^woolf1970defense] describes as *de facto* and *de jure* authority. De facto authority occurs whenever (sufficient) people acknowledged it to exist.  The state commands, people comply because it is the state, therefore the state has de facto authority.  De jure authority however, only occurs when we have legitimate reasons for obeying.  Whilst Hobbes may have claimed that the ability to rule gave the Prince the right to rule, most conceptions of authority recognise this descriptive/normative distinction and the major project of political philosophy seems to be eliciting this dichotomy and outlining the conditions of when we ought obey.
 
 A further dimension to authority is the degree of its extent.  Authority may be absolute, like that of a totalitarian dictator and extend to all spheres of life.  Or it may be limited in scope of domain.  We may talk of legislative, executive, judicial, statutory, or moral authority, all of which are simultaneously held by different individuals or institutions.
 
@@ -52,5 +52,6 @@ Now, to deal with legitimate coercion as a separate concept ...
 
 
 [^1]: http://plato.stanford.edu/entries/authority
-[^2]: In Defence of Anarchism
+
+[^woolf1970defense]: In Defence of Anarchism
 

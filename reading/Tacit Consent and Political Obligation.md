@@ -1,14 +1,27 @@
+---
+bibtex:	@article{simmons1976tacit,
+				  title={Tacit consent and political obligation},
+				  author={Simmons, A.J.},
+				  journal={Philosophy \& Public Affairs},
+				  pages={274--291},
+				  year={1976},
+				  publisher={JSTOR}
+				}
+---
+
 Tacit Consent and Political Obligation
 ======================================
 
-A John Simmons 1976
+**A John Simmons 1976**
 
-**Consent Theory**
+Consent Theory
+--------------
 
 - "Consent theory has provided us with a more intuitively appealing account of political obligation than any other tradition in modern political theory" p274
 - "The heart of this doctrine is the claim that no man is obligated to support or comply with any political power unless he has personally consented to its authority over him"
 
-**Defining Consent**
+Defining Consent
+---------------
 
 Consent act are:
 
@@ -31,29 +44,19 @@ Silence can be taken for consent when: pp279-280
 Simmons is clearly wrong about the last one - consequences are not the problem but an independent right to impose the costs of non-consent is.
 
 
-**Consent vs Promising**
+Consent vs Promising
+--------------------
+
 
 - Primary purpose of promising is to undertake an obligation, special rights are secondary.
 - Primary purpose of consenting is to authorise the action of others, promise of non-interference are secondary. p276
 
 
-**Necessary & Sufficient**
+Necessary & Sufficient
+----------------------
 
 - Rawls though consent insufficient for political obligation.
 - "acquiescence in, or even consent to, clearly unjust institutions does not give rise to obligations," and that "obligatory ties presuppose just institutions." p277
 - Locke thought it necessary but not sufficient.
 - Man can consent to bad government but not be bound by it.
 - "For a man, not having the power over his own life, cannot, by com- pact, or his own consent, enslave himself to any one, nor put him- self under the absolute, arbitrary power of another"
-
-
-
-
-Bibtex
-	@article{simmons1976tacit,
-	  title={Tacit consent and political obligation},
-	  author={Simmons, A.J.},
-	  journal={Philosophy \& Public Affairs},
-	  pages={274--291},
-	  year={1976},
-	  publisher={JSTOR}
-	}

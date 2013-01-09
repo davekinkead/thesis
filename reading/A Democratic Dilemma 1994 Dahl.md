@@ -1,7 +1,18 @@
-A Democratic Dilemma: System Effectiveness vs Citizen Participation
-=====================
+bibtex:	@article{dahl1994democratic,
+				  title={A democratic dilemma: system effectiveness versus citizen participation},
+				  author={Dahl, R.A.},
+				  journal={Political Science Quarterly},
+				  volume={109},
+				  number={1},
+				  pages={23--34},
+				  year={1994},
+				  publisher={JSTOR}
+				}
 
-Robert Dahl 1994
+#	A Democratic Dilemma: System Effectiveness vs Citizen Participation
+
+**Robert Dahl 1994**
+
 
 Dahl proposes a 2D conception of democracy that trades off effectiveness for responsiveness.
 
@@ -30,22 +41,3 @@ In representative democracies, the personal preferences of representatives carry
 "Democracy cannot be justified as merely a system for translating the raw, uninformed will of a majority into public policy". p30
 
 International democratic institutions would place excessive burden on the people to digest knowledge required to make informed decisions.  There would be even less chance to influence the agenda of decisions. p31
-
-
-
-
-
-
-
-
-Bibtex
-	@article{dahl1994democratic,
-	  title={A democratic dilemma: system effectiveness versus citizen participation},
-	  author={Dahl, R.A.},
-	  journal={Political Science Quarterly},
-	  volume={109},
-	  number={1},
-	  pages={23--34},
-	  year={1994},
-	  publisher={JSTOR}
-	}

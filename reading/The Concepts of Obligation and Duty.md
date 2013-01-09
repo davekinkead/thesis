@@ -1,3 +1,16 @@
+---
+bibtex:		@article{brandt1964concepts,
+					  title={The concepts of obligation and duty},
+					  author={Brandt, R.B.},
+					  journal={Mind},
+					  volume={73},
+					  number={291},
+					  pages={374--393},
+					  year={1964},
+					  publisher={JSTOR}
+					}
+---
+
 The Concepts of Obligation and Duty
 ===================================
 
@@ -24,19 +37,3 @@ Duties have in common: p388
 -	the position is deemed of some value to the organisation
 -	the job is associated with the office occupied by the individual
 -	performance is expected and required
-
-
-
-
-**Bibtex**
-
-	@article{brandt1964concepts,
-	  title={The concepts of obligation and duty},
-	  author={Brandt, R.B.},
-	  journal={Mind},
-	  volume={73},
-	  number={291},
-	  pages={374--393},
-	  year={1964},
-	  publisher={JSTOR}
-	}

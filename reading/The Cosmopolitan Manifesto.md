@@ -1,7 +1,18 @@
+---
+bibtext: 	@article{beck2011cosmopolitan,
+					  title={The cosmopolitan manifesto},
+					  author={Beck, U.},
+					  journal={The Cosmopolitanism Reader},
+					  pages={217},
+					  year={2011},
+					  publisher={Polity Pr}
+					}
+---
+
 The Cosmopolitan Manifesto
 ==========================
 
-Ulrich Beck 2011
+**Ulrich Beck 2011**
 
 Beck contrasts the First Modernity, society characterised by the nation-state & understood territorially, with the Second Modernity, the first undermined by globalisation, individualisation, gender revolution, underemployment, and global risks. p2 
 
@@ -38,14 +49,3 @@ Questions:
 
 - Are characterisations of modern change as disruptive and undermining any different than the changes that the enlightenment brought?  Wasn't it disruptive and undermining of the status quo?
 - Is this just a question of perspective of change before the new paradigm/equilibria is reached?
-
-Bibtex
-	
-	@article{beck2011cosmopolitan,
-	  title={The cosmopolitan manifesto},
-	  author={Beck, U.},
-	  journal={The Cosmopolitanism Reader},
-	  pages={217},
-	  year={2011},
-	  publisher={Polity Pr}
-	}

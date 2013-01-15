@@ -1,3 +1,14 @@
+---
+bibtex:	@article{habermas1996three,
+				  title={Three normative models of democracy},
+				  author={Habermas, J.},
+				  journal={Democracy and difference: contesting the boundaries of the political},
+				  pages={21--36},
+				  year={1996},
+				  publisher={Princeton University Press Princeton}
+				}
+---
+
 Three Normative Models of Democracy
 ===================================
 
@@ -40,14 +51,3 @@ The communitarian conception of the republican model is too idealistic, dependen
 A discourse-theoretic conception of democracy draws legitimacy from the procedures that enable fair bargaining and deliberation under equality. p24  A syndrome depending on a tightly regulated network of bargaining and argumentation. p25
 
 The public opinion that is worked up via democratic procedures into communicative power cannot rule itself. p29
-
-Bibtex
-
-	@article{habermas1996three,
-	  title={Three normative models of democracy},
-	  author={Habermas, J.},
-	  journal={Democracy and difference: contesting the boundaries of the political},
-	  pages={21--36},
-	  year={1996},
-	  publisher={Princeton University Press Princeton}
-	}

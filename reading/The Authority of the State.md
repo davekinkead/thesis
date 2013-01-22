@@ -109,3 +109,33 @@ The state does more than coerce, it obligates. p151
 Threats, like bargains, add to the balance of reasons. Authoritive orders are preemptive and exclusionary to other reasons.
 
 ## Consent
+
+Consenting is a natural and common way of binding ourselves. p158
+
+If consent could be manufactured by the state, then it would be drained of any normative force it may have to justify the state. p159
+
+Consent is not consensus - the latter is simply broad agreement about something. The former a process of creating obligations from within our selves.
+
+"I freely perform an action, knowing that it is understood to entail some duty, and I am therefore bound by that duty."  p165
+
+Consent is any act done in the belief that it will create duties because it is generally know to be done with such beliefs. p166
+
+Obligation to consent, because failure to do so would harm the state, cannot be a justification of the state.
+
+The best account of political legitimacy may show that it doesn't exist. p166
+
+The authority of the state is so common it is assumed to be natural, and many consent theories are attempts to explain the general authority of the state. p167
+
+Promising _is_ a form of consent. p167
+
+There is no settled social rule as to what counts as consent to the state's authority. p169
+
+The greater the obligations and consequences of consent, the more explicit the method of consent needs to be. p169
+
+Singer's argument that voting represents the second best option to personal dictatorship only shows that democracy has value, not that we are obliged to obey. p171
+
+The 'Hard Choices' objection to consent requires a way to distinguish between 'your money or your life' situations that are clearly coercive with those that are simply lesser evil choices. p175
+
+Assurance may also be a problem if authority is thought to be all encompassing.
+
+Consent can bind & provide a source of political legitimacy, but consent based government is more valuable than non-consent based government. p186  It is both educative and communicative.

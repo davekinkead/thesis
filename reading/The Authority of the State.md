@@ -72,9 +72,40 @@ Generality is not an essential element of authority because one could have autho
 
 _But a problem remains: If authoritative orders give content independent reasons for actions, but the scope of authority can be limited requiring content dependence, then aren't these orders just proxies for other reasons?_
 
+__Legitimacy__
+
 "The correct identification of a person as having authority over others depends only on certain facts about the practical reasoning of those who make or accept such claims" p59
 
+Authority can therefore exist without being justified. p60
 
+"Someone _claims_ authority when he makes requirements of another which he intends to be taken as binding, content-independent reasons for action; his authority is _recognised_ when another so treats the requirements; and ... _exists_ when its claims are generally recognised." p60  
 
+All 3 are required for _de jure_ authority, while only 1 & 3 are necessary for _de facto_
 
+## The Social Contract
 
+Contractarianism is an attempt to show that authority would be agreed to by rational agents in the initial position of a state of nature. p122
+
+They would do so because free cooperation is beneficial but not sustainable or stable.  All parties are aware of which actions are mutually beneficial and harmful but are not adequately motivated to perform them. p123
+
+"It is an interesting fact about contractarian reasoning that the general economic conception of rationality of which it is a part has had its greatest success in explaining why authority is _unnecessary_ in order to attain desirable social states." p127
+
+The competitive free market tends towards equilibrium and this equilibrium is the optimal point. (If all economic effects are internalised to the exchange relation.) p128
+
+Pure public goods are non-rival, ie their consumption by some doesn't restrict their consumption by others, and non-excludable, ie it is very difficult to alienate them.
+
+Essentially public goods are those that cannot be privatised such as friendship or benevolence. p129
+
+Market failures to provide valuable public goods are often used to justify their securing via authority. Market failures are not sufficient to justify authority. p137.  To claim so requires prior authority to impose authority for the provision of the public good.
+
+Anarchic provision of public goods further weakens claims to the necessity of authority p138.
+
+Binding agreements presuppose the possibility of securing certain commitments and this creates a foundational dilemma for contractarians. p145 
+
+"It is in some circumstances rational for all to agree to a mutual coercion scheme which forces them to cooperate by rendering defection too expensive and thus altering their preferences" p150
+
+The state does more than coerce, it obligates. p151
+
+Threats, like bargains, add to the balance of reasons. Authoritive orders are preemptive and exclusionary to other reasons.
+
+## Consent

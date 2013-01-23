@@ -139,3 +139,23 @@ The 'Hard Choices' objection to consent requires a way to distinguish between 'y
 Assurance may also be a problem if authority is thought to be all encompassing.
 
 Consent can bind & provide a source of political legitimacy, but consent based government is more valuable than non-consent based government. p186  It is both educative and communicative.
+
+Just because the state doesn't have political authority over someone, doesn't mean it isn't justified in coercing them. p243
+
+## Political Obligation
+
+Any argument for political obligation must satisfy five criteria: p225--228
+
+- __Morality__ Political obligation is a moral reason for action. An account of PO must show why this moral obligation exists.
+- __Content Independence__ An account of PO must show why we ought obey independent of a command's contents.
+- __Bindingness__ PO must bind regardless of the moral weightiness of a command
+- __Particularity__ An account of PO must show why we are bound to _this_ state rather than another
+- __Universality__ Why must we obey all obey all laws.  In a just state, there can be no laws that are morally inert.
+
+"What sort of considerations are likely to apply with sufficient generality that they will cover all persons. ... it is manifestly unlikely they will be special obligations." p233
+
+"The state has authority only if citzens have an obligation to obey" p234
+
+"It does not follow that the state may not coerce those over which it has no authority." p243
+
+"Political obligations will remain...[but]...the idea of a general obligation to obey, binding all people to all laws...will finally be put out of its misery." p247

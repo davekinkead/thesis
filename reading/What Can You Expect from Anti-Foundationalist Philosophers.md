@@ -16,5 +16,4 @@ Truth is necessarily linked to power because statements which count as truth can
 
 Unlike deconstruction, pragmatists can't hypnotise themselves into thinking that by reciting jargon they are changing the world. p725
 
-Effective pragmitists supply a bit of informed irony about the ever-renewed hope for authority. p727
-
+Effective pragmatists supply a bit of informed irony about the ever-renewed hope for authority. p727

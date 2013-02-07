@@ -1,3 +1,14 @@
+---
+Bibtex:	@article{rorty1996idealizations,
+				  title={Idealizations, foundations, and social practices},
+				  author={Rorty, R.},
+				  journal={Democracy and Difference},
+				  pages={333--335},
+				  year={1996},
+				  publisher={Princeton University Press Princeton}
+				}
+---
+
 Idealizations, Foundations, and Social Practices
 ================================================
 
@@ -12,15 +23,3 @@ The challenge for foundationalists is to find common ground with exclusivists so
 This can be aided by taking the family rather than the market or the school as our model of democracy. The unconditional respect of the family should be the basis of our idealisations. 
 
 	This sounds awfully like foundationalism to me!
-
-
-Bibtex
-
-	@article{rorty1996idealizations,
-	  title={Idealizations, foundations, and social practices},
-	  author={Rorty, R.},
-	  journal={Democracy and Difference},
-	  pages={333--335},
-	  year={1996},
-	  publisher={Princeton University Press Princeton}
-	}

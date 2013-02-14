@@ -1,23 +1,25 @@
-Limiting Suffrage
-=================
+#Bootstrapping Democracy
 
-This is a work-in-progress and reading management experiment for my PhD in Political Philosophy at the University of Queensland.  It covers my thesis outline, readings, ideas and draft arguments.
+Democratic theory stands upon shaky normative grounds, that like any building, threaten to topple a range of higher order concerns relating to political legitimacy, authority, and obligation.  Despite a revival of interest in the normative foundations of democracy from political theorists over the last 40 years, little progress has been made beyond Churchill's pragmatic quip that 'democracy is the worst form of government, except for all the others we've tried from time to time'.  Perhaps because democracy _can't_ be justified.
 
-The thesis that I will defend is that a legitimate material interest ought to be both a necessary and sufficient condition for suffrage.  My dissertation will be comprised of two parts:
+The very nascent, and still amorphous thesis that I intended (perhaps) to defend in my dissertation is that democracy, according to extant accounts at least, cannot be coherently defended.  
 
-- Extending John Burheim's observation that only those affected by some issue ought to have any say in the matter and defending it as a normative political principle.
-- Examining the consequences of this principle and how it affects democratic governance.
+Contemporary accounts of democracy can be roughly divided into those justified on external grounds and those justified from internal ones.  External, or foundationalist justifications, all rely on some pre-democratic notion or principle upon which their account is built such as freedom, equality or autonomy.  Internal, or anti-foundationalist justifications, on the other hand, claim that any attempt to justify democracy on something outside its practice is disingenuous because those alleged foundations can only be interpreted through the prism of existing practices [^Rorty2006idealizations]. We must only, anti-foundationalists claim, compare actual non-ideal practices against other potentially realisable non-ideal practices.
 
+Both types of accounts face obstacles.  The challenge for foundationalist accounts in general is two fold. Firstly, they must find some common ground upon which all parties can agree to.  For Hobbes, this was necessity; for Locke, liberty; and for Rawls, justice.  Secondly, they must show how their account is entailed from these agreed upon foundations.  If what we fear most is _bellum omnium contra omnes_, then subjugation to the Leviathan is the price we must all pay. If however, it is freedom we value above all else, then we must protect ourselves from the encroachment of the state; while if justice is the only thing reasonable and rational men unaware of their future positions would agree to, then we are committed to the wide redistribution of primary goods.
 
-Thesis
-------
+These two challenges are significant, and given the level of debate in political theory about these issues, largely unsettled.  But foundationalist accounts of democracy face additional challenges.  If democracy is the realisation or instrument of some pre-democratic notion, then why do we need to justify democracy in the first place? If democracy is simply the result of prior foundations, then why not focus our justificatory efforts on those instead?  Or if democracy has instrumental value in obtaining those foundational values, then justifications of democracy must also show that it is the only, or at least best, instrument to obtain them.
 
-An draft outline of my thesis argument can be found [here][thesis]
+Anti-foundationalist accounts face their own set of challenges.  Some critiques of anti-foundationalism have charged it with irrationalism and emotivism [^talisse2004democracy:69], offering little more justification of democratic practices than what ever is, is; that if democratic theory is unable to rest on external foundations and must instead rely only upon pragmatic discourse as the method of reason, then the only justifiable democratic practice is whichever one exists once all the talking has stopped.  Clearly, this interpretation is uncharitable - anti-foundationalists don't claim that all justifications are disingenuous, only ones based on self evident, a priori, or axiomatic external truths.  Anti-foundationalism in this vain parallels Darwinistic accounts of evolution.  It is just as ludicrous to ask why freedom ought be valued over equality as it is to ask why primitive mammals were more morally deserving of survival than giant reptiles [^Rorty2006idealizations:334].  Foundationalists, they claim, are simply asking the wrong question.
+
+But still the problems linger.  If the normative principles of democracy can only be justified from within the actual practice itself, what form could these justifications take?  Rorty[^Rorty2006idealizations:335] for example, suggests substituting external foundations with the idea that what makes us special is "our ability feel for, cherish, and trust people very different from ourselves", but this appears to be nothing more than a foundationalist claim about human nature.  Even if we limit our justifications to _more of this practice and less of that_, we must still justify _these_ claims somehow if we ever want to make normative comparisons - _why_ more of this practice is better than less of that one.  If we can't justify one form of democracy over another, then we can't justify some democracy over some non-democracy. Anti-foundationalism fails to allow this comparison.
+
+My hope, or perhaps naive optimism, is that in the course of the next few years research I can identify a different justificatory account of democracy that avoids failing foul of these dilemmas.  My intuition is that democracy can be built upon foundations, but foundations that are internal to democracy itself. Much like recursive formula or mathematical induction, democratic theory will then be able to pick itself up by its own bootstraps. Call this non-foundationalism, or perhaps _bootstrapping_. 
+
 
 Reading List
 ------------
 
 My current reading list and notes can be found [here][readings]
 
-[thesis]:thesis/outline.md
-[readings]:reading/readings.md
+[readings]:reading/

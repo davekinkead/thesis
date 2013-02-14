@@ -73,8 +73,6 @@ Part Three will, or at least I hope it will, provide some possible solutions the
 
 ## What Democracy?
 
-_Democracy_ in modern parlance, seems to have become a largely vacuous term, a simple substitute for vague, positive feelings towards one form of government or another.  The term has become synonymous with notions of equality and popular sovereignty, justice and rule of law, voting and majoritarianism, liberalism and freedom; yet many of these values conflict and some necessarily so.  And yet when a term means everything, it means nothing.  The recent debate on compulsory voting in Australia is illustrative.  Liberal Senator Nick Minchin has claimed that "compulsory voting is an infringement of the democratic rights of Australians" [^2] while Victorian Liberal MP Josh Frydenberg praises it as "a pillar of democracy"[^3].  When the one proposal can be simultaneously labelled both democratic and undemocratic, by members of the same party even, then it is clear the term is too vague to be a useful tool of analysis. 
-
 ### Ideals
 
 	- Voting seems synonymous but is neither necessary nor sufficient. Sortition, Soviet, monitory, psephocracy
@@ -82,18 +80,42 @@ _Democracy_ in modern parlance, seems to have become a largely vacuous term, a s
 	- Autonomy
 	- Conflicting relations between these concepts...The constraints of liberalism are explicit in their intention to limit popular sovereignty.
 
-Etymology of the term _democracy_ suggests we start at Athens. Herodotus seems to have been the first to coin the term _demokratia_ (δημοκρατία) to denote popular sovereignty or rule by the people [^isakan2011:22].  Popular sovereignty is typically thought to mean rule _of_ the people, _for_ the people, and _by_ the people.  But rule _of_ the people implies the demos as the source of sovereignty, rule _by_ the people implies a active role for the citizen in the decision making process, a form of direct and participatory democracy, while rule _for_ the people suggests that their will and interest is to a large degree realised into law. 
+_Democracy_ in modern parlance has become a vacuous term, a simple substitute for vague, positive feelings towards one form of government or another.  It has become synonymous with notions of equality and popular sovereignty, justice and rule of law, voting and majoritarianism, liberalism and freedom; yet many of these values conflict and some necessarily so.  But when a term means everything, it means nothing.  
 
-Yet these characteristics seem largely absent from contemporary democratic states.  Democracy has become synonymous with representational democracy and few states integrate significant levels of referenda and plebiscite into the political process.  There is little active role for the citizen outside of elections while popular participatory mechanisms such as forums rarely if ever wield formal power.  Finally, special interest groups and lobbyists exercise overwhelming influence on the political agenda through what Lawrence Lessig calls dependence corruption [^lessig2011], whereby public debate is restricted to only those issues successfully contested amongst large doners.
+Conceptions of democracy guide and constrain accounts of democratic legitimacy, and it is clear that contemporary views of it vary widely.  The recent debate on compulsory voting in Australia is illustrative.  Liberal Senator Nick Minchin has claimed that "compulsory voting is an infringement of the democratic rights of Australians" [^2] while Victorian Liberal MP Josh Frydenberg praises it as "a pillar of democracy"[^3].  When the one proposal can be simultaneously labelled both democratic and undemocratic, by members of the same party even, then it is obvious the term is too vague to be a useful tool of analysis. Some clarification is in order and I will attempt to make explicit exactly what notion of democracy I will be invoking.
 
-Voting is often thought to be the most democratic method of making collective decisions but it is neither a necessary, nor sufficient element of democracy.  Voting was only a minor one minor mechanism of early democracies with elections in Athens were overwhelmingly made sortition or lot, with voting limited to ......... Sortition is compatible with political equality 
+Etymology suggests we start in Athens. Herodotus was supposedly the first to coin the term _demokratia_ (δημοκρατία) to denote rule of the people or more precisely, popular sovereignty [^isakan2011:22].  Popular sovereignty though, can be variously thought to mean rule _of_ the people, _for_ the people, and _by_ the people.  Rule _of_ the people implies the demos as the source of sovereignty, rule _by_ the people implies a active role for the citizen in the decision making process, a form of direct and participatory democracy, while rule _for_ the people suggests that their will and interest is to a large degree realised into law. 
+
+Yet these characteristics seem largely absent from contemporary democratic states, and even to Athens itself.  Democracy today has become synonymous with representational democracy and few states integrate significant levels of referenda and plebiscite into the political process [^landsgemeinde].  There is little active role for the citizen outside of elections and popular participatory mechanisms such as forums rarely if ever wield formal power.  Special interest groups and lobbyists exercise overwhelming influence on the political agenda through what Lawrence Lessig calls dependence corruption [^lessig2011], a process whereby public debate is restricted to only those issues successfully contested amongst large donors.
+
+Yet even in Athens, rule was only ever _of_, _for_ and _by_ a minority of the people. Citizenship extended to less than a quarter of inhabitants whilst suffrage was restricted to adult male citizens who represented only a tenth of the total population including metics and slaves [^hansen1991athenian].  For the vast majority of people in Athens, the coercive force of the state was something they had no influence over and which had little regard for their wellbeing.  If popular sovereignty is a constituent factor of democracy, then it has only ever been realised as an ideal, and a largely distant one at that.
+
+How the people rule seems just as much an issue of democracy as who rules.  Voting is often thought to be the most democratic method of making collective decisions but it is neither a necessary, nor sufficient element of democracy.  In stark contrast with modern states, voting played a much smaller role in ancient democracies.  In Athens for example, most public appointments such as magistrates, jurors and archons were based sortition or lot, with voting limited to the Assembly and the appointment of generals [^hansen1991athenian].
+
+Conversely, many non-democratic states employ voting in the political process, sometimes on a large scale.  In the former Soviet Union, elections were frequent, held every two years, the franchise was universal to all adult residents, election was by simple majority, and voting was conductive in private booths to ensure secrecy of the ballot [^jacobs1970soviet].  Of course, in the post Stalin years, candidates were limited to members of the Communist party and pre-approved by higher Soviets, rending elections to simple yes/no ratifications by ticking the box or crossing out the name of the sole candidate on the ballot paper.  
+
+Modern democratic states by contrast, are characterised by free and procedurally fair competitive elections with universal active franchise. Yet active franchise, the right to run for office, is often a right in name only.  In states whose electoral system is primarily based on plurality voting, the ability to run for office is severely constrained by economic means, leading to extensive dependency on party or donor support.  In Australia, only five of the 226 federal politicians are independents, and of whom were previous party members [^aph] while in the US, George Washington remains the only independent President ever elected [^whitehouse] and the average wealth of a US Senator is estimated to be $14 million (median $2.5 million) [^USwealth].  This dependency on wealth or access severely limits the typical citizen's capacity to run for office and makes it far more comparable in actual, rather than prescribed terms, to elections in the Soviet Union.  As such, the constitutive role of voting in democracy becomes limited to purely a purely instrumental one.
+
+The contemporary conflation of voting and democracy becomes understandable once we consider access to power and political equality......Sortition is compatible with political equality....demarchy example
 
 Many non-democratic systems also widely employ voting...... 
+
+Equality - isonomia 'equal political rights'.....equality under law
+
+Potential vs actual
+
+liberalism....private freedoms.....public freedoms...
+
+Do I take liberalism to be a constitutive element of democracy?....  The contemporary notion does.... But are rights/issues the only dimension of liberalism....what about liberalism via jurisdiction.
+
+Autonomy?
+
+How do these things conflict?
 
 ### Systems
 
 	- show democracy can also mean a system
-	- aggregating preferences - social choice
+	- aggregating preferences - social choice theory
 	- knowledge creation 
 	- 
 
@@ -101,6 +123,7 @@ Many non-democratic systems also widely employ voting......
 
 	- show democracy --> democratic or democratic --> democracy?
 	- it is being democratic that makes a democracy, not the other way round
+	- are systems are democratic if collectively they promote democratic ideals or if their component processes promote democratcy themselves?
 
 ### Justifications
 
@@ -119,65 +142,34 @@ Many non-democratic systems also widely employ voting......
 	- the constitution paradox
 	- the limits of liberalism
 	- voting on voting
+	- Barnett’s paradox of authority3 and Michelman’s paradox of democratic procedures.4 
 
 A range of paradoxes and problems lie at the foundations of democratic theory, problems that collectively form part of what I call the Bootstrap Paradox.....
 
-Foundation provides the first challenges.  The paradox of constitutional democracy....
+### The Paradox of Constitution
 
-But who are the people....
+Founding provides the first set challenges.  According to typical accounts of constitutional democracy [cite or reference earlier], legitimacy is derived from adherence to the constitution....
+It's a contractual/procedural account....
+Barnett’s paradox of authority...
+Michelman’s paradox of democratic procedures.....
 
-Scope & liberalism....
-
-Electoral systems....
-
-
-### Boundaries
-
-	"Political Philosophers can only begin once the Generals are finished."
-
-If democracy means rule by the people, then one would hope that democratic theory could provide a sufficient account of just who the people are.  Yet as Robert Dahl notes, this "absolutely crucial problem" has been "almost totally neglected by all the great political philosophers who wrote about democracy" [^dahl1970after].
+1.	An act has legitimacy iff it is fidelitous to constitutional processes
+2.	The initial act of founding necessarily occurs prior to any constitutional processes
+3.	Therefore the act of founding cannot be legitimate
 
 
-	- The boundary problem is as simple as it is fatal to democracies claim to instrumental justifications.
-	- It can be outlined as:
+### The Boundary Problem
 
-		1.	Democracy makes claims of legitimacy. 
-	
-		2. 	But the 'who' in any democracy determines the 'what'. 
-	
-		3.	There is no current account that legitimates the people forming process.  
-	
-		4.	Democracy therefore, cannot claim any legitimate claims for the obedience of its subjects.
+But who are the people....logically prior...
+The Boundary Problem has deeper implications...effectiveness
 
-	History
+1.	Causal influence is necessary condition of procedural legitimacy
+2.	Who the people are is a logically prior issue to what they do
+3.	Demarkation of the people are negates the casual influence of democratic procedures
+4.	There are no sufficiently justified accounts of forming the demos
+5.	Therefore democratic procedures cannot be legitimate
 
-	- Shouldn't a problem this significant have been extensively addressed in the literature?
-	- Dahl ([1970][dahl1970]) described it as a 'curiously neglected and yet absolutely crucial problem'
-	- Whelan ([1983][whelan1983]) provides the first serious (and only) analysis of the problem and examines the sparsity of potential solutions
-	- Dahl ([1989][dahl1989]) returns again to the issue he calls 'the problem of constituting the unit' and  'the problem of inclusion'
-	- Arrhenius ([2005][arrhenius2005]) makes an unsuccessful attempt to solve the problem by invoking the all-affected principle
-	- Goodin ([2007][goodin2007]) commits himself to an acknowledged unworkable enfranchisement of all affected interests.
-	- Erman ([2011][erman2011]) offers a discourse-theoretical approach to the problem with the equal-influence principle
-	- Song ([2012][song2012]) Asks why the demos should be bounded by the state
-
-	Democracy and Authority
-	-----------------------
-
-	- accounts of political authority
-	- right to rule
-	- justified coercion
-	- imposition of duties
-
-	- what is so special about democracy?
-
-
-	Who Determines What
-	-------------------
-
-
-
-	An Unsolved Problem
-	-------------------
+---
 
 	- democracy can't solve the problem internally
 		- the question of who is logically prior to what
@@ -199,24 +191,33 @@ If democracy means rule by the people, then one would hope that democratic theor
 		- there is no objective criteria for cultural salience
 		- linguist and historical salience seem bad criteria for determining non-linguist/cultural issues
 	- geographic and economic features seem to delimit societies.
-		- 
+
+
+	- The boundary problem is as simple as it is fatal to democracies claim to instrumental justifications.
+	- It can be outlined as:
+
+		1.	Democracy makes claims of legitimacy
+		
+		2. 	But the 'who' in any democracy determines the 'what'. 
+	
+		3.	There is no current account that legitimates the people forming process.  
+	
+		4.	Democracy therefore, cannot claim any legitimate claims for the obedience of its subjects.
+
+	History
+
+	- Dahl [^dahl1970after] described it as a 'curiously neglected and yet absolutely crucial problem'
+	- Whelan [^whelan1983] provides the first serious (and only) analysis of the problem and examines the sparsity of potential solutions
+	- Dahl [^dahl1989] returns again to the issue he calls 'the problem of constituting the unit' and  'the problem of inclusion'
+	- Arrhenius [^arrhenius2005] makes an unsuccessful attempt to solve the problem by invoking the all-affected principle
+	- Goodin [^goodin2007] commits himself to an acknowledged unworkable enfranchisement of all affected interests.
+	- Erman [^erman2011] offers a discourse-theoretical approach to the problem with the equal-influence principle
+	- Song [^song2012] Argues why the demos should be bounded by the state
 
 
 
-
-
-
-
-
-
-	[dahl1970]:After the Revolution
-	[whelan1983]:A Preference to Democratic Theory
-	[dahl1989]: Democracy and Its Critics
-	[arrhenius2005]: The Boundary Problem in Democratic Theory
-	[goodin2007]: Enfranchising All Affected Interests and its Alternatives
-	[erman2011]: The Boundary Problem: A Discourse-Theoretic Solution
-	[song2012]: song?
-
+### The Limits of Liberalism
+	
 ---
 
 
@@ -237,3 +238,27 @@ If democracy means rule by the people, then one would hope that democratic theor
 [^talisse2004democracy:69]: @book{talisse2004democracy,title={Democracy after liberalism: pragmatism and deliberative politics},author={Talisse, Robert B},year={2004},publisher={Routledge}}
 
 [^dahl1970after]: Dalh 1970 After the revolution
+
+[^dahl1989]: Democracy and Its Critics
+
+[^whelan1983]: A Preference to Democratic Theory
+
+[^arrhenius2005]: The Boundary Problem in Democratic Theory
+
+[^goodin2007]: Enfranchising All Affected Interests and its Alternatives
+
+[^erman2011]: The Boundary Problem: A Discourse-Theoretic Solution
+
+[^song2012]: The Boundary Problem in Democratic Theory
+
+[^hansen1991athenian]: Mogens Hansen, 1991 The Athenian democracy in the age of Demosthenes: Structure, principles, and ideology
+
+[^landsgemeinde]: The Landsgemeinde or cantonal assembly of Switzerland is a notable counter-example.
+
+[^jacobs1970soviet]: Everett Jacobs, 1970 Soviet local elections: What they are, and what they are not
+
+[^aph]: http://www.aph.gov.au/Senators_and_Members
+
+[^whitehouse]: http://www.whitehouse.gov/about/presidents
+
+[^USwealth]: https://www.opensecrets.org/pfds/averages.php

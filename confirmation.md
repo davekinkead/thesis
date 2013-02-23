@@ -100,16 +100,13 @@ Justifications and accounts of democracy are shaped by these interpretations.  A
 		- self rule - gould	
 - procedural vs substantive (how legitimacy is assessed)
 	- procedural
-		- epistemic proceduralism 
+		- epistemic proceduralism - estlund
 		- participatory premise justification - gauss 
 	- substantive
 		- participatory - rorty
 		- equality - rawls
 
 - least worse - churchill	
-
-
-Non-procedural accounts on the other hand, justify democracy how well ....
 
 ### Directions
 
@@ -127,26 +124,22 @@ Dahl "tedious exploration of a semantic bog" p1 polyarchy
 
 ## Problems and Paradoxes
 
-	- introduce some major foundational paradoxes
-	- the boundary problem
-	- the constitution paradox
-	- the limits of liberalism
-	- voting on voting
-	- Barnett’s paradox of authority3 and Michelman’s paradox of democratic procedures.4 
-
 A range of paradoxes and problems lie at the foundations of democratic theory, problems that collectively form part of what I call the Bootstrap Paradox.  A few of these where hinted at earlier: How can constitution be created legitimately when adherence to the constitution is the criterion of legitimacy?  How can a people legitimately determine who should be included or exclude as part of the 'the people' when the logically prior matter of _who_ is asked determines the outcome?  How can the people collectively determine the boundary of personal freedoms and public rules without making the notion of personal liberty vacuous?
 
+Scope prevents a full examination of all these issues and how they undermine the democratic nature of contemporary political systems so I will briefly outline two before providing a deeper analysis of a third.
 
 
 ### The Paradox of Constitution
 
-Founding provides the first set challenges.  According to typical accounts of constitutional democracy [cite or reference earlier], legitimacy is derived from adherence to the constitution....
+Founding provides the first set challenges.  According to typical accounts of constitutional democracy [cite or reference earlier], legitimacy is derived from adherence to the constitution.  An action or law is democratic iff it adheres to the correct procedure, typically laid out in rules, laws, and especially, a constitution.  But these procedural accounts cannot by their very nature, legitimate the creation of themselves.  The argument can be summarised as:
 
-It's a contractual/procedural account....
+1.	An act has democratic legitimacy iff it is fidelitous to some constitutional processes.
+2.	The initial act of founding necessarily occurs prior to any constitutional processes.
+3.	Therefore the act of founding cannot be legitimate.
 
-1.	An act has legitimacy iff it is fidelitous to constitutional processes
-2.	The initial act of founding necessarily occurs prior to any constitutional processes
-3.	Therefore the act of founding cannot be legitimate
+We are faced with a dilemma: Either a procedure that imbues democratic legitimacy can itself be illegitimate, or there must be other legitimate means of creating that procedure.  Just as it seems impossible to build truth upon lies, it seems implausible to create legitimacy from illegitimacy.  Of course it well be possible for a legitimate constitution to arise from illegitimate means:  Parchment may fall from the sky with the most perfect constitution written upon it, and after reading it, we may all agree to be bound by its decrees. But in this case, the legitimacy of the constitution is derived not from the words inscribed upon it, but rather our collective choice to be bound by them.  It's legitimacy would be derived from our consent.
+
+
 
 ### Limits of Liberalism
 
@@ -187,33 +180,50 @@ Nationality as the basis of inclusion is also highly problematic.  The idea that
 
 Furthermore, boundaries appear to determine nationality as much as nationality determine boundaries; one only need to speak of the Soviet, Yugoslavian, or even Italian or Australian people to recognise this.  Likewise, geographic or economic salience offer limit hope for a solution.  Rivers divide as often as provide a focal point for human settlement; mountains only seem like boarders to people from the plains; and satellite imagery of boarder towns and cities show just how strongly economic ties are determined by existing jurisdictions. 
 
-Two other principles more aligned with democratic values have also been proposed as solutions.  
+Two other principles more aligned with democratic values have also been proposed as solutions: consent and affect.  Consent has a long been used as the basis for democratic legitimacy itself.  According to consent theorists, the only source of legitimate authority is the consent of those governed, and it is purely a matter of free choice for the people to unite together collectively. Locke for example, states: 
 
-- all-affected principle has a strong prima facie case
-	- who is affected is determined by the outcome
-	- but the outcome is affected by who gets to vote
-	- who is potentially affected is determined by who poses the question
-	- who can pose the question has its own boundary problem
-	- degree of affect also complicates the issue
-	- to what extent must I be affected to have a say?
-	- we'd need different jurisdictions for each issue
-	- the only solution is to enfranchise all interests
-	- but enfranchising someone who isn't affected reduces my autonomy just as much as disenfranchising me when I am affected.
-	- the affect principle requires enfranchisement of all-and-only-affected interests
-	- this reintroduces the problem of degree of affect and removes the global solution
+> "When any number of Men have so consented to make one Community or Government, they are thereby presently incorporated, and make one Body Politick, wherein the Majority have a Right to act and conclude the rest" [^locke1680second]
 
+Similarly Rousseau:
 
+> "There is but one law which, from its nature, needs unanimous consent.  This is the social compact; for civil association is the most voluntary of all acts ...  When the State is instituted, residence constitutes consent; to dwell within its territory is to submit to the Sovereign" [^rousseau1762social]
 
+Yet consent theorists have very little to say about boundaries themselves.  The existence of broadly demarcated group of people is simply assumed and the original act of founding is typically an all or nothing affair.  While the initial act requires unanimity, there is no method to withdraw consent or alter the bounds of the _Body Politick_ once established.  Exactly how subsequent generations are bound without their consent by the actions of their grandparents remains today a thorn in the side of consent based accounts.  Consent does however offer a sufficient justification for the boundaries of _voluntary_ associations.  Inclusion and membership of a church, club, or football team is open and fluid, resting wholly on the the free choice of the individuals.  But as a justification of democracy, it fails precisely because states are non voluntary and claim exclusive territorial sovereignty over their subjects.
 
+Yet the All Affected Principle quickly runs into problems.  In order for one thing to affect another, the former must in some way counterfactually change the latter.  To claim that a particular law affects my choices is to say nothing more than had the law not been, my choices would have been different.  This difference making requirement is axiomatic to the concept of affect with the status quo its relative benchmark.  
 
+Just who is affected by some decision then, is contingent upon the outcome of that decision, but the outcome cannot be known until the decision has first been made.  Consider a proposal, say, to redistribute half the wealth of the wealthiest one percent of society to the poorest half.  If the proposal were to pass, then the wealthiest one and poorest fifty percent would be affected, and should therefore have a say in the matter.  But if the proposal were to fail, then no one would be affected, relative to the status quo, and hence no one should have a say (and thereby guarantee no one would be affected).  Clearly, inclusion based on actual affect has the notion of affect and inclusion backwards, and we must focus instead on including those potentially affected.
+
+But potential affect is even more problematic.  The first challenge is degree of affect - exactly how affected must I be to be included?  In the previous example, the top one and bottom 50 percent are clearly affect although in different ways, but what of the middle 49%?  It is highly likely that there might be strong feeling from this group towards the redistribution, as well as material hardship and benefit caused by changes to the economy.  Mill's Harm Principle or Burnheim's [^burnheim2006democracy] Legitimate Material Interest offer some direction on where to draw the line but history is littered with the corpses of those prepared to die for abstract ideas such as religion, freedom and equality, making the line very difficult to draw at.
+
+The second challenge to potential affect is agenda setting.  Accepting all those potentially affected by a decision, however limited by harm or interest that affect may be, merely assumes that the question is justifiably asked in the first instance.  But the question of who can set the agenda and propose questions to be decided leads to a Boundary Problem all of its own.  Liberalism and limits to the scope of public action is the typical response the question of what laws may be proposed but liberalism is neutral on issues of which people ought be included in which jurisdictions.  Even if we limit agenda setting to only issues congruent with liberalism, the scope of who is potentially materially affected seems to encompass all of humanity.
+
+The third challenge of potential affect is that it would seem to require a vast array of overlapping jurisdictions.  If inclusion is determined by affect and affect is determined by issue, then we would need a different concept of _the people_ for every potential issue.  Ignoring the impracticalities of this for a moment, the clear problem here, like that of consent, is that it is incompatible with the notion of exclusive territorial sovereignty that is a fundamental feature of contemporary states.  
+
+One way of approaching the All-Affected Principle that avoids this issue is to focus on those subjected to the coercion forces of the state.  Forfeiture, incarceration and even death, as well as their threats, certainly qualifies as a form of material affect.  Including all those subject to coercion from the state as _the people_ may seem appealing but even cursory examination shows this to be question begging.  The issue is who _ought_ be subject to the coercive force of the state and suggesting all those who _are_ is to argue for nothing more than the status quo.  The All-Affected Principle seem to commit us to enfranchising all humanity in some global state, a notion that a number of theorists have accepted [^goodin2007enfranchising].
+
+Yet a global jurisdiction clashes with a number of democratic ideals, most notably autonomy and self determination.  The requirements of political equality and justice in a global jurisdiction are incompatible with national, regional or local self determination.  The diversity of values, needs and beliefs across humanity make it inevitable that different groups will support and require different laws and policies.  We might preference equality by granting exemptions or autonomy to some groups and not others based on their differing circumstances but can only do so at the expense of global jurisdiction.  Otherwise we might enforce uniform global rules but can only do so by ignoring the differing circumstances of individuals and groups.  Just, equal, or global. Pick any two.
+
+Autonomy is another victim of the All-Affected Principle and is undermined by over inclusion just as much as under inclusion.  The mathematics of autonomy are relatively straight forward.  An agent's influence over any collective matter is a function of the number of others enfranchised, assuming political equality.  Formally:
+
+>	i = f( 1/e )
+
+If I have the only say in the matter, then I have full autonomy; whereas if I am one of many then my autonomy is diminished.  Provided that everyone who is enfranchised has some just claim to inclusion, then my reduced autonomy is not unjust and doesn't harm me in anyway. It is simply a reality of collective endeavours.  If however, others who don't have any just claim for inclusion are enfranchised, then my autonomy diluted by the addition of other voices in the same way as if my voice had been silenced.  The solution then, is to add some necessity condition such as the All-And-Only-Affected Principle.  But this merely returns us to the problem of issue based jurisdiction.
 
 ## Future Directions
 
-- parts one, two & three of thesis
-- conceptualise democracy purely as self rule, justification focus only on political authority
-- solve boundary problem & others with a procedural legitimacy that is also substantive - self rule
-	
----
+Procedural accounts of democratic legitimacy succumb to paradoxes of founding from which they cannot recover.  Settling disputes regarding the limits of liberalism seem to rely on methods such as majoritarianism, deliberation or judgement according to some substantive ideal, which are themselves in dispute.  Substantive accounts of democratic legitimacy are unable to address the challenges raised by the Boundary Problem.
+
+A system can only be justifiably labelled democratic iff a substantive proportion of its systems and procedures are in fact, democratic.  These bootstrap paradoxes I have examined show that a substantive number of these systems & procedures cannot be called democratic by any coherent interpretations of the term.  We seem to be left with the inevitable conclusion then, that democracy cannot be justifiably labelled democratic.
+
+I still have a lot of work to do on this issue but my thoughts on future directions of my thesis roughly map the outline of this paper.  Part One will concentrate on historical and contemporary justifications of democracy: what is is, why its desirable and how it (supposedly) legitimised political authority.  Part Two will focus on the various bootstrap paradoxes that I have identified and developed.  Part Three will look at how these problems might be addressed.
+
+Sorry but coherent solutions are still along way off.  I will however offer the following observations that may guide my future work.
+
+1. Most conceptions of democracy seem to overlook or undervalue the idea of self rule.  Of course this is closely related to popular sovereignty but the latter seems to be missing an important element of autonomy that is intrinsic to self rule.  A greater focus on autonomy and collective autonomy as a key value should help provide us with stronger foundations.
+2. Procedural accounts all fall foul of founding paradoxes.  But even substantive accounts need procedures to realise their substantive values.  If the procedure was also the substantive value, then we have a way to bootstrap democracy to legitimacy.
+3. Solutions to the boundary problem like the All/Only Affected Principle are trying to do too much.  Normative democratic theory only needs to provide a coherent account of political authority.  There are a whole range of factors that may affect people that are outside the scope of political authority. The solution only needs to deal with a state's authority affecting you, not a state's actions per se.
+
 
 [^burnheim2006democracy]: Is democracy possible
 
@@ -254,6 +264,10 @@ Two other principles more aligned with democratic values have also been proposed
 [^landsgemeinde]: The Landsgemeinde or cantonal assembly of Switzerland is a notable counter-example.
 
 [^jacobs1970soviet]: Everett Jacobs, 1970 Soviet local elections: What they are, and what they are not
+
+[^locke1680second]: Locke 2nd Treatise §95
+
+[^rousseau1762social]: Rousseau The Social Contract 4.1
 
 [^aph]: http://www.aph.gov.au/Senators_and_Members
 

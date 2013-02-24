@@ -1,3 +1,17 @@
+---
+bibtex: 	@article{pogge1992cosmopolitanism,
+					  title={Cosmopolitanism and sovereignty},
+					  author={Pogge, T.W.},
+					  journal={Ethics},
+					  volume={103},
+					  number={1},
+					  pages={48--75},
+					  year={1992},
+					  publisher={JSTOR}
+					}
+---
+
+
 Cosmopolitanism and Sovereignty
 ===============================
 
@@ -121,16 +135,5 @@ Shaping Political Units
 
 Pogge's argument against states having moral claims or considerations (cf Walzer 'Just & Unjust Wars'): "Why do we not also take into account the moral claims of Catholiscism, art, or baseball?" (p74)
 
-Bibtex
 
-	@article{pogge1992cosmopolitanism,
-	  title={Cosmopolitanism and sovereignty},
-	  author={Pogge, T.W.},
-	  journal={Ethics},
-	  volume={103},
-	  number={1},
-	  pages={48--75},
-	  year={1992},
-	  publisher={JSTOR}
-	}
 

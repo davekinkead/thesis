@@ -1,3 +1,15 @@
+---	
+bibtex:	@book{dahl1970after,
+				  title={After the revolution?: authority in a good society},
+				  author={Dahl, R.A.},
+				  lccn={72024278},
+				  series={Yale fastback},
+				  url={http://books.google.com.au/books?id=5ENQAQAAIAAJ},
+				  year={1970},
+				  publisher={Yale University Press}
+				}
+---
+				
 After the Revolution
 ====================
 
@@ -120,16 +132,3 @@ Quotes
 - "so great are the advantages of a party that in a representative democracy a politician without a party is a politician without power" p74
 - "polyarchy to mean representative democracy as we know it in practice" p78
 - "what makes voting different from - and generally more important than - and opinion poll is that it is instrumental to other objectives" p100
-
-
-Bibtex
-------
-	@book{dahl1970after,
-	  title={After the revolution?: authority in a good society},
-	  author={Dahl, R.A.},
-	  lccn={72024278},
-	  series={Yale fastback},
-	  url={http://books.google.com.au/books?id=5ENQAQAAIAAJ},
-	  year={1970},
-	  publisher={Yale University Press}
-	}

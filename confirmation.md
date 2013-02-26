@@ -71,20 +71,8 @@ While seemingly necessary, it seems obvious that popular sovereignty, equality, 
 
 Liberalism has been the traditional response to the encroachment of collective or arbitrary power over the individual.  Liberalism has a rich history, encompasses a diverse range of ideas and has spawned a number of variant which I lack the space to cover in detail.  Classical accounts portray liberalism as a kind of optimal set of collective constraints necessary for the maximisation of individual freedom for all, or what Oliver Wendell Holmes described as "the right to swing my fist ends where the other man's nose begins".  New, or social accounts of liberalism contrast this with a greater focus on the positive freedoms necessary to realise one's full potential, but all variants share a fundamental core value - the primacy of the individual and the presumption of freedom over its encroachment [^gauss1996justificatory].
 
-It is the addition of liberalism to the ideals of popular sovereignty and equality that leads to internal conflict within the nature of democracy.....
+There have been of course, a number of other ideals constitutive of democracy suggested by various political theorists.  Time restricts a continued analysis of this, as well as how democracy has been interpreted as a system for aggregating preferences, creating and refining knowledge, and limiting conflict.  These will be explores in greater depth in Part One of my thesis.
 
-Do I take liberalism to be a constitutive element of democracy?....  The contemporary notion does.... But are rights/issues the only dimension of liberalism....what about liberalism via jurisdiction.....
-
-- Autonomy
-- Conflicting relations between these concepts...The constraints of liberalism are explicit in their intention to limit popular sovereignty.
-
-### Systems
-
-
-	- show democracy can also mean a system
-	- aggregating preferences - social choice theory
-	- knowledge creation 
-	- limit conflict
 
 ### Justifications
 
@@ -112,32 +100,14 @@ One immediate concern here lexical priority.  Do democracies become democratic t
 
 If then democracies as states or systems that are democratic, we must also determine just how democratic does a system or state need to be in order for it to be justifiably labels a democracy.  Is there some threshold set of actions and values such as the rule of law, equal concern for all citizens, or free and fair elections that need to be met that qualifies a government as democratic, or is the notion some kind of spectrum from very democratic to not democratic?  Here I side with Dahl who noted these questions quickly lead us to a "tedious exploration of a semantic bog" [^dahl1971polyarchy:1].  So instead of argument, I will simply assert that _if_ a systemic is sufficiently democratic, then it can be justifiably called a democracy.
 
-A related issue is that of potentiality and realisation.  Utopian accounts of democracy 
+	- A related issue is that of potentiality and realisation.  Utopian accounts of democracy 
 
 
 ## Problems and Paradoxes
 
 A range of paradoxes and problems lie at the foundations of democratic theory, problems that collectively form part of what I call the Bootstrap Paradox.  A few of these where hinted at earlier: How can constitution be created legitimately when adherence to the constitution is the criterion of legitimacy?  How can a people legitimately determine who should be included or exclude as part of the 'the people' when the logically prior matter of _who_ is asked determines the outcome?  How can the people collectively determine the boundary of personal freedoms and public rules without making the notion of personal liberty vacuous?
 
-The scope of this paper prevents a full examination of all these issues and how they undermine the democratic nature of contemporary political systems so I will briefly outline two before providing a deeper analysis of a third.
-
-
-### The Paradox of Constitution
-
-Founding provides the first set challenges.  According to many accounts of democracy, legitimacy is derived from adherence to the some procedure, and an action or law is democratic iff it adheres to the correct procedure, typically laid out in rules, laws, and especially, a constitution.  But these procedural accounts cannot by their very nature, legitimate the creation of themselves.  The argument can be summarised as:
-
-1.	An act has democratic legitimacy iff it is fidelitous to some constitutional processes.
-2.	The initial act of founding necessarily occurs prior to any constitutional processes.
-3.	Therefore the act of founding cannot be legitimate.
-
-We are faced with a dilemma: Either a procedure that imbues democratic legitimacy can itself be illegitimate, or there must be other legitimate means of creating that procedure.  Just as it seems impossible to build truth upon lies, it seems implausible to create legitimacy from illegitimacy.  Of course it well be possible for a legitimate constitution to arise from illegitimate means:  Parchment may fall from the sky with the most perfect constitution written upon it, and after reading it, we may all agree to be bound by its decrees. But in this case, the legitimacy of the constitution is derived not from the words inscribed upon it, but rather our collective choice to be bound by them.  It's legitimacy would be derived from our consent.
-
-
-### Limits of Liberalism
-
-1.	Liberalism requires the protection of personal freedoms from public...
-2.	sdfsd.
-
+In Part Two of my thesis, I intend to explore a range of these problems and how they undermine the legitimacy of democratic processes and systems.  For now however, I will just cover one of them, the initial problem that lead me down this path.  
 
 
 ### The Boundary Problem

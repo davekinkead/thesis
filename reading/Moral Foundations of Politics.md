@@ -1,3 +1,4 @@
+---
 bibtex: @book{shapiro2003moral,
 		  title={The moral foundations of politics},
 		  author={Shapiro, I.},
@@ -7,7 +8,9 @@ bibtex: @book{shapiro2003moral,
 		  url={http://books.google.com.au/books?id=Nq7hdox\_4HQC},
 		  year={2003},
 		  publisher={Yale University Press}
-		}]
+		}
+---
+
 
 Shapiro (2003) The Moral Foundations of Politics
 ===

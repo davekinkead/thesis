@@ -134,17 +134,6 @@ Simmons' thesis removes the presumption of obedience to established authority.  
 
 
 
-
-
-
-
-
-
-
-
-
-
-
 Bibtex
 	@book{simmons1979moral,
 	  title={Moral principles and political obligations},

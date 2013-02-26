@@ -27,4 +27,12 @@ Another major justification he addresses is the requirement of a common system o
 
 **Democracy vs the State**
 
+@book{burnheim2006democracy,
+  title={Is Democracy Possible?: The Alternative to Electoral Democracy},
+  author={Burnheim, John},
+  year={2006},
+  publisher={Sydney University Press}
+}
+
+
 

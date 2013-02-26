@@ -27,3 +27,10 @@ It is therefore equal political authority combined with equal concern from the s
 Dworkin’s clear implication is that universal suffrage it critical to democracy.  “Equal concern…is best achieved with wide spread and roughly equal suffrage.” p(144)  What he fails to consider is how universal suffrage leads to unequal concern by the state.
 
 Other ideas raised: When does a decision become a collective one?  What are the characteristics of a collective decision?
+
+@book{dworkin2006democracy,
+  title={Is democracy possible here?: principles for a new political debate},
+  author={Dworkin, Ronald},
+  year={2006},
+  publisher={Princeton University Press}
+}

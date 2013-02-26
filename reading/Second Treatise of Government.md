@@ -1,3 +1,13 @@
+---
+@book{locke1988locke,
+  title={Locke: Two Treatises of Government Student Edition},
+  author={Locke, John},
+  year={1988},
+  publisher={Cambridge University Press}
+}
+
+---
+
 Locke - Second Treatise of Civil Government
 ===========================================
 

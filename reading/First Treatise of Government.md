@@ -35,3 +35,10 @@ CH4
 Refutes Filmer's claim of Adam's authority from Genesis.  Locke argues instead that Gen 1.28 gave Adam power over only other creatures, not men, and that God's grant of power of creatures extends to all mankind.
 
 The same term for creatures is used in multiple places.  If Filmer's 'every living creature' includes men, then granting Adam rights to eat all living creatures empowers princes to eat their subjects.
+
+@book{locke1988locke,
+  title={Locke: Two Treatises of Government Student Edition},
+  author={Locke, John},
+  year={1988},
+  publisher={Cambridge University Press}
+}

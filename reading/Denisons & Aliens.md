@@ -16,4 +16,11 @@ AJ Simmons 2001
 -	but both residents and aliens give tacit consent by enjoying the benefits of authority.
 -	so why aren't aliens members of the body politic?
 
-Bibtext
+Bibtext 
+
+@article{simmons2009denisons,
+  title={'Denisons' and'Aliens': Locke's Problem of Political Consent},
+  author={Simmons, Alan},
+  journal={Denisons' and'Aliens': Locke's Problem of Political Consent (February 16, 2009)},
+  year={2009}
+}

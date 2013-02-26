@@ -33,7 +33,7 @@ Rawles' conception of luck:
 
 There is an important difference between inequalities that are not justified and inequalities that are unjustified. Only the latter requires redress. (p93)
 
-@article {parfit1997equity,
+@article{parfit1997equity,
 author = {Parfit, Derek},
 title = {Equality and Priority},
 journal = {Ratio},

@@ -322,4 +322,10 @@ Rousseau argues that "What is absolutely the best form of government?" can't be 
 - "What is the end of political association? The preservation and prosperity of its members. And what is the surest mark of their preservation and prosperity?"
 
 
-CH
+@book{rousseau1920social,
+  title={The Social Contract: \& Discourses},
+  author={Rousseau, Jean-Jacques},
+  number={660},
+  year={1920},
+  publisher={JM Dent \& sons, Limited}
+}

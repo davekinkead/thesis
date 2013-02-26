@@ -26,14 +26,3 @@ Bibtex
 	  year={1999},
 	  publisher={JSTOR}
 	}
-
-	@article{simmons1999justification,
-	  title={Justification and Legitimacy*},
-	  author={Simmons, A.J.},
-	  journal={Ethics},
-	  volume={109},
-	  number={4},
-	  pages={739--771},
-	  year={1999},
-	  publisher={JSTOR}
-	}

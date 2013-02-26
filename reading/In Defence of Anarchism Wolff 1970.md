@@ -83,8 +83,7 @@ Beyond the Legitimate State
 
 
 
-	@book{
-	  wolff1970defense,
+	@book{wolff1970defense,
 	  title={In defense of anarchism},
 	  author={Wolff, R.P.},
 	  year={1970},

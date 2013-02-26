@@ -27,3 +27,14 @@ It is also acceptable to vote for a candidate who is the lesser of two evils. Vo
 "people should not vote badly, but no one should force them not to vote badly." (p545)
 
 "Voting on the moral virtue of a candidate counts as good voting only when the candidate’s moral virtue is evidence that she will not enact harmful policies." (p546)
+
+@article{brennan2009polluting,
+  title={Polluting the polls: when citizens should not vote},
+  author={Brennan, Jason},
+  journal={Australasian Journal of Philosophy},
+  volume={87},
+  number={4},
+  pages={535--549},
+  year={2009},
+  publisher={Taylor \& Francis}
+}

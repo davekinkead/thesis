@@ -1,4 +1,17 @@
-#The Boundary Problem in Democractic Theory
+---
+@article{song2012boundary,
+  title={The boundary problem in democratic theory: why the demos should be bounded by the state},
+  author={Song, Sarah},
+  journal={International Theory},
+  volume={4},
+  number={1},
+  pages={39--68},
+  year={2012},
+  publisher={Cambridge University Press}
+}
+---
+
+#The Boundary Problem in Democratic Theory
 
 Sarah Song 2012 International Theory
 

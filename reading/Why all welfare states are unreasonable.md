@@ -1,5 +1,17 @@
 **Gaus (1998) Why all welfare states are unreasonable, Social Philosophy & Policy, 15 (2) : 1-33**
 
+@article{gaus1998all,
+  title={Why all welfare states (including laissez-faire ones) are unreasonable},
+  author={Gaus, Gerald F},
+  journal={Social Philosophy and Policy},
+  volume={15},
+  number={02},
+  pages={1--33},
+  year={1998},
+  publisher={Cambridge Univ Press}
+}
+
+
 Core argument
 -------------
 

@@ -1,6 +1,6 @@
 # Bootstrapping Democracy
 
-PhD Confirmation Paper, February 2013
+PhD Confirmation Paper, March 2013
 
 ---
 
@@ -40,11 +40,11 @@ Perhaps because democracy _can't_ be justified.
 
 ---
 
-<!-- The thesis I'm going to defend in my dissertation is that democracy, according to extant accounts at least, cannot be coherently defended. -->
+<!-- The thesis I'm going to defend in my dissertation is that democracy, according to extant accounts at least, democracy is not democratic. -->
 
 # Democracy is not Democratic
 
-<!-- Today however, I'm going to defend a narrower position that roughly maps my PhD outline.  That democracy is not democratic.  Its establishment, alteration and operation all require justificatory recourse to non-democratic ideals, and any substantively non-democratic system cannot be justified as being democratic.  -->
+<!-- Its establishment, alteration and operation all require justificatory recourse to non-democratic ideals, and any substantively non-democratic system cannot be justified as being democratic.  -->
 
 ---
 
@@ -58,15 +58,15 @@ P1 - A system can be justified as democratic iff a substantive proportion of its
 
 ---
 
-P2 - A substantive number of systems & procedures of democracy cannot be called democratic by any coherent interpretation of the term.
+P2 - A substantive number of systems & procedures of democracy cannot be justified as democratic by any coherent interpretation of the term.
 
 ---
 
-C1 - Democracy therefore, cannot be justifiably labelled democratic.
+C1 - Democracy therefore, cannot be justified as democratic.
 
 <!-- Each claim of this argument roughly maps to a third of my thesis.  What do we mean by democracy? Is it a system or a set of ideals, a government or a theory?  Like many paradoxes, it is possible that the Bootstrap Paradox is little more than invalid deduction camouflaged by semantic equivocation.  So considerable effort will need to be spent clarifying exactly what _democracy_ means according to various accounts of it.  This is the focus of part one. -->
 
-<!-- Part two will focus on the problems that make up the bootstrap paradox. The paradox of constitution, the limits of liberalism, voting on voting and the boundary problem. -->
+<!-- Part two will focus on the problems that make up the bootstrap paradox. The paradox of constitution, the limits of liberalism, voting on voting and the boundary problem; and examine how they undermine democratic accounts of legitimacy. -->
 
 <!-- Part three will, I hope at least, identify viable avenues for potential solutions and just maybe, a solution.  Right now, that's a long way off.  What follows is a brief overview of parts one and two. -->
 
@@ -74,7 +74,9 @@ C1 - Democracy therefore, cannot be justifiably labelled democratic.
 
 # What democracy?
 
-<!-- The truth of the first premise will largely depend on what we mean by democracy.  Is it a theory or a practice, a dream or reality, a system or a set of ideals? A theory or system of government? -->
+<!-- Democracy has become a largely vacuous notion.  Today, people use the term to describe any vaguely warm feelings towards some system of government they may have. -->
+
+<!-- Recent media coverage is illustrative. -->
 
 ---
 
@@ -94,13 +96,15 @@ When a term means everything, it means nothing.
 
 ---
 
+<!-- I'm not going to offer much in the way of clarification about what I think democracy is today.  As Dahl notes, these questions lead us into a "tedious exploration of a semantic bog".  -->
+
 > ### A tedious exploration of a semantic bog
 
-Ronald Dahl
+Ronald Dahl, _Polyarchy_, p1
 
-<!-- I'm not going to offer much in the way of clarification about what I think democracy is today.  As Dahl notes, these questions lead us into a "tedious exploration of a semantic bog".  I'm still not convinced there is a single definitive notion of 'democracy' -->
+<!-- I'm still not convinced there is a single definitive notion of 'democracy'.
 
-<!-- But what is important to draw from this is that our interpretations both guide and constrain possible accounts of democratic legitimacy and affect the way we can respond to the bootstrap paradox. -->
+But what is important to draw from this is that our interpretations both guide and constrain possible accounts of democratic legitimacy and affect the way we can respond to the bootstrap paradox. -->
 
 ---
 
@@ -130,11 +134,13 @@ Ronald Dahl
 
 # Voting
 
+<!-- Modern democracies are characterised by free and fair elections. Voting is often synonymous with democracy but what type? -->
+
 ---
 
 ### Majoritarianism, Super Majorities or Consensus?
 
-<!-- What about voting? Is majoritarianism, super majorities or consensus necessary? -->
+<!-- Is majoritarianism, super majorities or consensus necessary? -->
 
 ---
 
@@ -146,9 +152,13 @@ Ronald Dahl
 
 # Equality
 
+<!-- What's the role of political equality in democracy. It seems important but only about 10% of Athenians were enfranchised and today, presidents are regularly elected by less than a quarter of the people  -->
+
 ---
 
 ## Liberalism and Freedom
+
+<!-- Liberalism also seems pretty central to our conception of democracy but this also seems to conflict with popular sovereignty -->
 
 ---
 
@@ -165,10 +175,14 @@ Ronald Dahl
 
 ### Preference Aggregation
 
+<!-- social choice theorists - collective aggregation of individual preferences -->
+
 ---
 
 ### Competing Interest Groups
 ### Polyarchy
+
+<!-- Madison saw value in separating powers and making them compete -->
 
 ---
 
@@ -194,7 +208,7 @@ and the formation of a
 &
 # Anti-Foundationalist
 
-<!-- Criterion of where the source of legitimacy lies -->
+<!-- Criterion of _where_ the source of legitimacy lies -->
 
 ---
 
@@ -202,7 +216,7 @@ and the formation of a
 &
 # Intrinsic
 
-<!-- Criterion of what legitimacy is derived from. -->
+<!-- Criterion of _what_ legitimacy is derived from. -->
 
 ---
 
@@ -210,7 +224,7 @@ and the formation of a
 &
 # Substantive
 
-<!-- Criterion of how legitimacy is derived. -->
+<!-- Criterion of _how_ legitimacy is derived. -->
 
 <!-- All six approaches face their own set challenges. Foundationalist and intrinsic accounts must first explain why their foundational premises are self evident before showing why democracy is entailed from those premises. 
 
@@ -222,13 +236,15 @@ Procedural accounts must ensure they don’t clash with any substantive democrat
 
 ---
 
-### Lexical Priority
+# Lexical Priority
 
-<!-- Another issue is lexical priority. Are the actions of democracies democratic, or is it _being_ democratic make a state a democracy?  The former is certainly the easy solution as it solves the problem _ex vi termini_, but it doesn't give use any philosophical insight or make comparative claims possible. -->
+<!-- Are the actions of a democracy _democratic_, or is it _acting_ democratic make a state a democracy?  The former is certainly the easy solution as it solves the problem _ex vi termini_, but it doesn't give use any philosophical insight or make comparative claims possible. -->
 
 ---
 
 > ### If a country has the term 'democratic' in its name, then it usually isn't
+
+Dave, today.
 
 ---
 
@@ -236,6 +252,11 @@ Procedural accounts must ensure they don’t clash with any substantive democrat
 
 <!-- A related issue is that of potentiality and realisation. Idealised or utopian accounts of democracy posit that democratic legitimacy is also derived from the fidelity of actual democracies to their ideals. They require us to not only determine what a perfect democracy would be, but how close our current states approximate perfect ones. Non-ideal theories on the other hand, argue that the democratic nature of a state can only be assessed according to what is likely to be achievable. -->
 
+---
+
+...a segway...
+
+<!-- What do I need to show for premise 1 -->
 ---
 
 # Boundary Problem
@@ -296,17 +317,15 @@ Democratic theory is built upon an assumption that a people, _the people_, exist
 
 The boundary problem infects every process of collective decision making when divergent views exist. 
 
----
-
 <!--Examples:-->
 
 <!-- Should we redistribute half the wealth of the wealthiest 1% to the poorest 50% of society?  If we ask the _haves_, then the answer will surely be different to if we ask the _have nots_. -->
 
 <!-- Should we include christian scripture in public schools? Again, the answer will depend on who we ask, regardless of the decision making process used.-->
 
-### This is not a problem that democratic theory can solve.
-
 ---
+
+### This is not a problem that democratic theory can solve.
 
 <!--
 If we take legitimacy to be derived from fidelity to some democratic procedure, then it is immediately clear that a democratically legitimate solution results in an infinite regress.  If we are to vote, justify or deliberate on the issue of who should be included amongst the people, then we must first vote, justify or deliberate on the prior issue of who decides who decides who is included.  But to do this, we must first decide who decides who decides, and so on.  
@@ -347,7 +366,7 @@ If on the other hand, we take legitimacy to be derived from some substantive not
 
 ---
 
-# Affect
+# All-Affected-Principle
 
 <!-- So we are left with what is know as the All-Affected-Principle which asserts that we ought include all those affected by some decision. This also has prima faces plausibility but again quickly fails. -->
 
@@ -384,9 +403,15 @@ Enfranchising those not affected, undermines my autonomy as much as disenfranchi
 
 <!-- The only solution then, is an all-and-only-affected-principle.  But this obviously pushes us back to the problem of overlapping issue based jurisdictions.-->
 
-<!-- The Boundary Problem is just one of many problems that lie at the foundations of democratic theory.  Problems that cannot be solved democratically, and undermine the legitimacy of subsequent theory. -->
+---
+
+The Boundary Problem is just one of many problems that lie at the foundations of democratic theory.
+
+<!--   Problems that cannot be solved democratically, and undermine the legitimacy of subsequent theory. -->
 
 ---
+
+<!-- Because of this..... -->
 
 ### Many of the systems and processes of democracy can't be justified as democratic.
 

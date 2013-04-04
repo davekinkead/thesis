@@ -1,3 +1,31 @@
+# Bootstrapping Democracy
+
+
+##  The Bootstrap Paradox
+
+
+## Paradoxes of Procedure
+
+
+## Limits of Liberalism
+
+
+## The Boundary Problem
+
+
+## 
+
+[−ℏ22m∂2∂x2+V]Ψ=iℏ∂∂tΨ
+
+
+
+
+
+
+
+
+
+
 The Boundary Problem of Democratic Theory
 =========================================
 

@@ -324,6 +324,7 @@ Lessig, L. 2011. Republic, Lost: How Money Corrupts Congress--And a Plan To Stop
 
 Pogge, T.W. 1992. “Cosmopolitanism and Sovereignty”. Ethics 103 (1): 48--75.
 
+----
 
 ## Bibliography
 

@@ -3,19 +3,29 @@
 
 ##  The Bootstrap Paradox
 
+Introduce the bootstrap paradox.
+Conceptions of democracy.
 
 ## Paradoxes of Procedure
 
+Analyse paradoxes of procedural democracy
 
 ## Limits of Liberalism
 
+Analyse the paradox of liberalism
 
 ## The Boundary Problem
 
+Analyse the boundary problem
 
-## 
+What is it
+How and why does it occur
+What solutions have been proposed
+How could it be solved
 
-[−ℏ22m∂2∂x2+V]Ψ=iℏ∂∂tΨ
+## Reciprocal  Autonomy
+
+Develop a normative principle of non-authoritative political cooperation. 
 
 
 

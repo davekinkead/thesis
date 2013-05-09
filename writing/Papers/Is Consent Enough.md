@@ -1,59 +1,70 @@
-Is Consent Enough?
+# Is Consent Enough?
 
-The Problem
+### Abstract
 
-Debate about consent and political obligation typically centre on whether consent is the only ground for obligation.  Consent theorists argue that it is while other accounts propose alternative grounds for obligation such as fairness, gratitude or benefit.
+Debate about the role of consent in political obligation often centres on whether consent is a necessary condition for obligation.  Consent theorists argue that it is necessary whilst others propose alternative grounds for obligation such as fairness, gratitude or benefit.
 
-Most non-consent accounts of obligation embracing a pluralism of obligation, viewing consent, like promising, as independently sufficient to generate obligations.  Somewhat paradoxically, most consent theorists do not view consent as a sufficient condition, with Kant and Locke holding well know positions on the inability of consent to generate obligations towards unjust governments.
+While alternative accounts typically accept consent as one possible source of political obligation, it is consent theorists who object most strongly to consent as a sufficient condition for obligation.  Rawls thought obligation presupposed just institutions, Kant denied the binding force of immoral acts, and Locke rejected the possibility of alienating certain rights. 
 
-Contra Locke and Kant, I will defend the position that consent is sufficient to generate political obligations.  While perhaps not necessary for political obligations, nor even broadly realised in modern political societies, consent to scheme or undertaking is in fact enough to generate obligations towards it.
+In contrast to these theorists, I defend the position that consent, if it can be given, is sufficient to generate political obligations; before demonstrating that no current state can claim the consent of those governed has been given.  
 
-The Argument for Consent
+## Introduction
 
-- 	Promises are sufficient to generate obligations
-- 	Consenting is a type of promising
-- 	Consenting is sufficient to generate political obligations
+- A brief survey of political obligation
+- highlight explicit, implicit & hypothetical consent
+- show were the debate is at
 
-The Kantian Objection
+## Inalienability
 
-- 	Promises to immoral acts are not binding
+Locke's Objection:
+
+1. Certain rights are natural and inalienable.
+2. Political obligations that violate those rights are non-binding.
+3. Consent is not sufficient to generate political obligation.
+
+Reply (The Assent/Consent Distinction):
+
+1. Consent involves the granting of rights one already has to another who does not.
+2. If a right is inalienable, it cannot be assigned.
+3. One can assent to obligations that may not bind but one cannot consent to them.
+
+## Just States
+
+Rawls' Objection:
+
+1. obligations to obey can only exist to just states.
+2. consent to an unjust state can't generate obligations.
+3. consent is not sufficient. 
+
+Reply:
+
+1. Just states don't need to be absolutely just
+2. Unjust states can be still just to some
+3. Consent is sufficient if it is just to me
+
+## Immorality
+
+Kant's Objection (following from Rawls'):
+
+- Promises to immoral acts are not binding
 -	Consenting is a type of promising
 -	Consent is not sufficient to generate political obligation.
 
-The Kantian Reply
+Reply:
 
-- 	Obligations are not oughts, just reasons to consider
-- 	I can have obligations to unjust schemes yet ought not act to those ends
--	 ought not support injustice not because obligations to injustice are invalidated but rather because obligations to justice outweigh them
--	The Kantian objection conflates obligation with ought and is therefore unsound.
+- Obligations are not oughts, just reasons to consider
+- We can have obligations to unjust schemes yet ought not act to those ends
+-	We ought not support injustice not because obligations to injustice are invalidated but rather because obligations to justice outweigh them
 
-The Lockean Objection
+## What Counts as Consent?
 
--	Certain rights are natural and inalienable.
-- 	Political obligations that violate those rights are non-binding.
--	Consent is not sufficient to generate political obligation.
-
-Lockean Objection Response
-
--	Consent involves the granting of rights one already has to another who does not.
--	If a right is inalienable, it cannot be assigned.
--	One can assent to obligations that may not bind but one cannot consent to them.
-- 	The Lockean objection conflates consent with assent and is therefore unsound.
-
-The Non-Consent Objection
-
--	It is possible to consent to a scheme that does not advance, or conflicts with, X (the good/fairness/mutual benefit)
--	X is sufficient to generate obligation
--	Consent is therefore not sufficient to generate obligation when it conflicts with X
-
-The Non-Consent Response
-
--	It is possible to have multiple, conflicting obligations
--	Conflicting obligations do not negate the grounds of obligation but merely change the balance of reasons to what one ought do
--	Consent is still sufficient to generate obligations even when those obligations conflict with others.
+- highlight existing problem with inferring consent
+- contrast consent with coercion
+- show consent to states is question begging & coercive.
+- states can't claim consent while imposing costs for non-consent
 
 
-
+---
 
 Quotes:
 

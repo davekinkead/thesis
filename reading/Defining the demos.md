@@ -7,7 +7,7 @@ Saunders' arguemnts: (p281)
 - that we should focus on rights rather than mere interests,
 - that rights are better respected by limiting the power of groups to infringe them, rather than by requiring them to include or enfranchise the rights-holders
 
-History: CarlCohen(1971:41–54),JackLively(1975:10–12), Frederick G. Whelan (1983), Giovanni Sartori (1987: 21–5), and Robert A. Dahl (1989: 119–31, 1990: 45–51). Abizadeh (2008) Arrhenius (2007) and Goodin (2007).
+History: Carl sCohen(1971:41–54),JackLively(1975:10–12), Frederick G. Whelan (1983), Giovanni Sartori (1987: 21–5), and Robert A. Dahl (1989: 119–31, 1990: 45–51). Abizadeh (2008) Arrhenius (2007) and Goodin (2007).
 
 "It is frequently claimed that (1) it is unjus- tifiable for one group to impose costs on outsiders unilaterally, so (2) those outsiders ought to be included in the decision-making process. I will argue that, while the first claim is true, the second does not follow and ought to be rejected." (p282)
 

@@ -46,15 +46,15 @@ Reply:
 
 Kant's Objection (following from Rawls'):
 
-- Promises to immoral acts are not binding
--	Consenting is a type of promising
--	Consent is not sufficient to generate political obligation.
+1. Promises to immoral acts are not binding
+2.	Consenting is a type of promising
+3.	Consent is not sufficient to generate political obligation.
 
 Reply:
 
-- Obligations are not oughts, just reasons to consider
-- We can have obligations to unjust schemes yet ought not act to those ends
--	We ought not support injustice not because obligations to injustice are invalidated but rather because obligations to justice outweigh them
+1. Obligations are not oughts, just reasons to consider
+2. We can have obligations to unjust schemes yet ought not act to those ends
+3. We ought not support injustice not because obligations to injustice are invalidated but rather because obligations to justice outweigh them
 
 ## What Counts as Consent?
 

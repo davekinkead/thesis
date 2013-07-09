@@ -120,8 +120,6 @@ Liberalism of this form then, can be considered brittle.  Its stability is deriv
 
 This brittleness is exacerbated by the degree of diversity within a political unit, something which the realisation of political liberalism entails. 
 
-And the key driver of this brittleness, as I'll try to argue next, is that the fixed boundaries and inward focus of liberal theory fail to provide the flexibility required for liberal induced pluralism.
-
 ---
 
 ## Contradiction
@@ -178,5 +176,50 @@ But just because that's the way it's always been done doesn't strike me as a par
 
 ---
 
-So what would this look like?  Let's start with Rawl's political liberalism. Lets imagine a society characterised by a reasonable pluralism of comprehensive doctrines.
+A key driver of the problems brittleness and potential contradiction, is that the fixed boundaries and inward focus of liberal theory fail to provide sufficient flexibility for liberal induced pluralism.
 
+The problem of brittleness arises because the drivers of stability are in opposition and the diversity that liberalism produces pushes them further into opposition.
+
+The problem of potential contradiction arises because the mechanism for including particular values into the conception of political justice allows the rejection of bivalent propositions.
+
+---
+
+So what would this look like?  Lets return to our example of a liberal state divided by theological views.
+
+[DIAGRAM]
+
+In matters where an overlapping consensus of reasonable views exists, then conceptions of political justice and subsequent institutions to realise them would be shared.
+
+But in matters where no overlapping consensus across the whole state exists, consensus can still be found in regions within the state.  On these matters, conceptions of justice and subsequent institutions are shared only locally. There might be state endorsement of an official religion in these sub regions, agreement on state support for religious organisations across theist regions, and no integration of church and state in anti-theist regions.
+
+---
+
+The result is a multilayered lattice of shared and institutions, the boundaries of which are determined by an overlapping consensus on conceptions of justice.  Because boundaries are not static, the problems of brittleness and potential contradiction that current liberal theory faces are solved.  Because comprehensive doctrines that some may not accept no longer have the potential to be forced upon others, stability of the state as a whole is strengthened.
+
+The fluidity of boundaries acts like a pressure release valve for the opposing forces of strength and breadth of commitment.
+
+---
+
+## Objections
+
+The most obvious objection to the reconceptualisation of liberal theory is _how_?  
+
+I haven't given an account of what kind of political mechanism could ever realise a fluidity of boundaries like I've just described.  This is partly because I haven't fully developed such an account but I can envisage two potential options.
+
+One possible idea would be some form of dynamic redrawing of boundaries for each component issue of the political conception of justice.  My preferred idea however is some form of loose confederation of smaller static jurisdictions such as local councils, who then share institutional arrangements based on their residents conception of justice.
+
+This would of course be predicated upon some broader, first order agreement to share institutions, but I don't think this is too difficult to imaging given existing multilayered federated jurisdictions such as Switzerland, Australia, or the EU.
+
+---
+
+It might also be claimed that I'm not offering stability at all.  How can this be considered stable if boundaries can ebb and flow?
+
+My response would be that this objection conflates stability with rigidity.  The higher level state isn't changing at all, simply its internal confederations.  The fluidity actually strengthens the state as a whole because it removes the likelihood for internal conflict by limiting the scope for the imposition of unwanted values by internal blocks.
+
+---
+
+## Conclusions
+
+I've shown that .....
+
+Therefore ....

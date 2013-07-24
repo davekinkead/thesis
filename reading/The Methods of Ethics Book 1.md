@@ -13,6 +13,11 @@ bibtext: @book{sidgwick1907methods,
 
 ### CH1
 
+- What one _does_ is clearly distinction from what one _ought_ do.
+- Ethics can be conceptualised as concerning proper conduct or proper ends.
+- The primacy of either of these related concepts leads to incompatibility with each other.
+- when asking 'why should I act this way', the answer will always depend on the perspective taken.
+
 Ethics is the rational process of determining what individual's 'ought' do.  It is distinguished from politics by its focus on individual rather than collective behaviour, and from science by its normative rather than descriptive focus. p1
 
 Sidgwick characterises ethics as the pursuit of what is right, as if this has some objective, ontological status just waiting to be discovered. p4
@@ -26,6 +31,8 @@ Sidgwick identifies happiness (general hedonism/utilitarianism) along with excel
 ###CH2
 
 Both politics and ethics seek to regulate behaviour.
+
+"The happiness enjoyed in our actual society seems much diminished by the unequal distribution of the means of happiness, and the division of mankind into rich and poor." p21
 
 ###CH3
 

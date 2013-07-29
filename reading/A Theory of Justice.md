@@ -87,8 +87,17 @@ Intuitionalism cannot, therefore offer any priority of justice over equality, th
 
 --- §8 ---
 
+The problem with intuitionism is that it cannot offer a constructive answer to the question of priority between principles. p36
+ 
 The assignment of weights to the priority problem is a significant part of the conception of justice.  If we don't have a criteria to do solve this, then our rational discussion has come to an end. p37
 
+Principles of justice are not self evident, therefore Rawls rejects intuitionism because it could ground no agreement in the original position. p37
 
+Reliance on intuition can be further reduced by employing lexical or serial ordering of principles (p38), or substitution of prudential for moral principles. p39
 
- 
+--- §9 ---
+
+Moral theory can be thought of as an attempt to describe our moral capacity; an ability to formulate principles and conjoin them with circumstance in order to lead to consistent moral judgements. p41
+
+Justice as fairness then, is the hypothesis that the principles that would be chosen in the original position are identical to our considered moral position in reflective equilibrium; and would be chosen in preference to traditional conceptions of justice. p42-43
+

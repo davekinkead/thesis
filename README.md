@@ -1,4 +1,4 @@
-#Bootstrapping Democracy
+# Bootstrapping Democracy
 
 Democratic theory stands upon shaky normative grounds, that like any building, threaten to topple a range of higher order concerns relating to political legitimacy, authority, and obligation.  Despite a revival of interest in the normative foundations of democracy from political theorists over the last 40 years, little progress has been made beyond Churchill's pragmatic quip that 'democracy is the worst form of government, except for all the others we've tried from time to time'.  Perhaps because democracy _can't_ be justified.
 
@@ -15,11 +15,3 @@ Anti-foundationalist accounts face their own set of challenges.  Some critiques 
 But still the problems linger.  If the normative principles of democracy can only be justified from within the actual practice itself, what form could these justifications take?  Rorty[^Rorty2006idealizations:335] for example, suggests substituting external foundations with the idea that what makes us special is "our ability feel for, cherish, and trust people very different from ourselves", but this appears to be nothing more than a foundationalist claim about human nature.  Even if we limit our justifications to _more of this practice and less of that_, we must still justify _these_ claims somehow if we ever want to make normative comparisons - _why_ more of this practice is better than less of that one.  If we can't justify one form of democracy over another, then we can't justify some democracy over some non-democracy. Anti-foundationalism fails to allow this comparison.
 
 My hope, or perhaps naive optimism, is that in the course of the next few years research I can identify a different justificatory account of democracy that avoids failing foul of these dilemmas.  My intuition is that democracy can be built upon foundations, but foundations that are internal to democracy itself. Much like recursive formula or mathematical induction, democratic theory will then be able to pick itself up by its own bootstraps. Call this non-foundationalism, or perhaps _bootstrapping_. 
-
-
-Reading List
-------------
-
-My current reading list and notes can be found [here][readings]
-
-[readings]:reading/

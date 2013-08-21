@@ -1,7 +1,0 @@
-# Arse About Face Liberalism
-
-For Rawls at least, the key aim of political liberalism is to determine how a conception of political justice can be formulated in such way that liberal democracy is compatible with a reasonable plurality of comprehensive doctrines.  Under this account, an overlapping consensus about justice ensures the stability of liberal democratic regimes over time, and public reason is the mechanism in which this consensus is determined.
-
-Yet public reason liberalism faces a number of seemingly intractable problems.  If shared reasons must be shared for the right reasons, then an earlier consensus about what constitutes a right reason is needed, which simply pushes the problem of consensus amongst diversity back one step.  If however, we only need shared reasons what ever the reason, then we lack sufficient grounds for believing that others are committed to our agreements on matters of fundamental political importance.
-
-In this paper I argue that political liberalism approaches these issues backwards.  Rather than attempting to find consensus within a fixed pluralist society, I attempt to reconceptualise political liberalism in a way that treats the boundaries of political association as endogenous, derived and bounded by the limits of consensus.

@@ -12,7 +12,7 @@ In this chapter, I introduce the project of democratic theory, the Bootstrap Par
 
 In this chapter, I review the various conceptions and accounts of democracy and democratic legitimacy. Democracy has become a largely vacuous notion.  Today, people use the term to describe any vaguely warm feelings towards some system of government they may have.  But when a term means everything, it means nothing. The challenges in defining and encapsulating the notion of democracy lead us, according to Dahl, down a "tedious exploration of a semantic bog".  But how we conceptualise democracy shapes and constrains both accounts of democratic justification and how we can address the Bootstrap Paradox.
 
-## The Paradox of Constitution
+## Paradox of Procedure
 
 In this chapter, I explore foundational paradoxes of procedural accounts of democratic legitimacy.  According to procedural accounts of democracy, legitimacy is derived from adherence or fidelity to some process or constitution.  But how can the creation of this constitution be legitimate when its creation proceeds its existence? How can a decision mechanism be agreed upon democratically?  The democratic method would be to deliberate or vote on the method but this requires some earlier agreement on what decision method will be used to answer this question.  Procedural accounts of democratic legitimacy cannot overcome these foundational paradoxes without evolving into substantive or utopian accounts, which undermines their ability to imbue legitimacy.
 

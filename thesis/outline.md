@@ -6,7 +6,9 @@ In the first half of my thesis, I examine how these foundational problems are ge
 
 ## Introduction 
 
-In this chapter, I introduce the project of democratic theory, the Bootstrap Paradox and how this paradox undermines the democratic project.  Democracy has a problem. Beneath accounts of democratic theory lie a number of paradoxes and problems that undermine the project of democratic legitimacy.  Problems of foundation that collectively make up what I call the Bootstrap Paradox. The thesis I'm going to defend is that democracy, according to extant accounts at least, democracy is not democratic.  Its establishment, alteration and operation all require justificatory recourse to non-democratic ideals, and any substantively non-democratic system cannot be justified as being democratic.
+In this chapter, I introduce the project of democratic theory, the Bootstrap Paradox and how this paradox undermines the democratic project.  Democracy has a problem. Beneath accounts of democratic theory lie a number of paradoxes and problems that undermine the project of democratic legitimacy.  Problems of foundation that collectively make up what I call the Bootstrap Paradox. 
+
+The thesis I'm going to defend is that democracy, according to extant accounts at least, democracy is not democratic.  Its establishment, alteration and operation all require justificatory recourse to non-democratic ideals, and any substantively non-democratic system cannot be justified as being democratic.
 
 ## What Democracy? 
 
@@ -14,11 +16,16 @@ In this chapter, I review the various conceptions and accounts of democracy and 
 
 ## Paradox of Procedure
 
-In this chapter, I explore foundational paradoxes of procedural accounts of democratic legitimacy.  According to procedural accounts of democracy, legitimacy is derived from adherence or fidelity to some process or constitution.  But how can the creation of this constitution be legitimate when its creation proceeds its existence? How can a decision mechanism be agreed upon democratically?  The democratic method would be to deliberate or vote on the method but this requires some earlier agreement on what decision method will be used to answer this question.  Procedural accounts of democratic legitimacy cannot overcome these foundational paradoxes without evolving into substantive or utopian accounts, which undermines their ability to imbue legitimacy.
+In this chapter, I explore foundational paradoxes of procedural accounts of democratic legitimacy.  According to procedural accounts of democracy, legitimacy is derived from adherence or fidelity to some process or constitution.  But how can the creation of this constitution be legitimate when its creation proceeds its existence? How can a decision mechanism be agreed upon democratically?  The democratic method would be to deliberate or vote on the method but this requires some earlier agreement on what decision method will be used to answer this question.  
+
+I also examine challenges raised by social choice theory such as Arrow's Impossibility Theory Condorcet's Paradox of Transitivity whereby seemingly 'irrational' intransitive collective or aggregated preferences arise from 'rational' transitive ones.  Procedural accounts of democratic legitimacy cannot overcome these foundational paradoxes without evolving into substantive or utopian accounts, which undermines their ability to imbue legitimacy.
+
 
 ## Limits of Liberalism
 
 In this chapter, I explore the impossibility of contesting liberalism democratically.  According to liberal theory, legitimacy requires the protection of certain individual rights and freedoms.  But how can disagreement over the limits between public and private be decided on without undermining liberalism? Determining this limit collectively makes the question of what is a private right a public issue.  But determining the limit by some other means, say judicially, requires some earlier agreement on how the limit will be decided, and simply pushes the problem back one level.
+
+Rawls, Gaus and other liberal theorists have proposed variants of liberal theory such as public reason.  These mechanisms however, appear endorse contractions in what values or policies liberal democracies should hold, or arbitrarily endorse values depending on the order they are debated. 
 
 ## The Boundary Problem
 
@@ -27,6 +34,8 @@ In this chapter, I argue why the people can never choose who make up the people.
 ## Bootstrapping Democracy
 
 In this chapter, I explore whether democracy can solve these problems by picking itself up from its own theoretical bootstraps. Procedural accounts of democratic legitimacy cannot recover from founding paradoxes without turning into utopian or substantive accounts.  Substantive accounts seem unable to simultaneously underpin democratic legitimacy and solve the boundary problem. But what if we could develop an account where adherence to the process is also the realisation of the substantive ideal? We would then have a potential way to bootstrap our way out of these dilemmas.  We would be able to bootstrap democracy.
+
+My starting point is the identification of what exactly democratic theory needs to justify in order to claim legitimacy.  Here, I argue that unlike accounts based on affect or coercion, democratic theory only needs to justify its political authority - the moral obligation to be obeyed _simply_ because it is commanded.
 
 ## Reciprocal Autonomy
 

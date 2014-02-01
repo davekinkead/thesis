@@ -1,3 +1,82 @@
+# The Problem of the People
+
+### democracy is the system of government for a determinate of people
+### what makes a polity democratic is _how_ government is ordered
+### but any question of _how_ presupposes a question of _who_
+### so the question of _who_ cannot be answered democratically
+
+but so what!!!!
+
+### democratic legitimacy is justified by difference making
+
+
+
+
+
+
+# What is the problem
+
+- Democracy begins with the people
+- Who the people are is simply assumed
+
+# Why is this a problem
+
+- Politics is about control, or more specifically about exerting influence over the behaviour of others.
+- Government is a formalised method of distributing political power.  
+- Government's claim political authority over those they govern
+- The legitimacy of authority is a powerful normative tool for wielding political power.
+- Democracy's legitimacy is derived from its difference making power.  It produces different, typically better, better outcomes compared to other systems of government.
+- the boundary problem undermines democracy's claims of difference making by making the outcomes of democratic procedures arbitrary.
+
+# How does this occur
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Chapter One
 ===========
 
@@ -28,13 +107,13 @@ The Boundary Problem
 History
 
 - Shouldn't a problem this significant have been extensively addressed in the literature?
-- Dahl ([1970][dahl1970]) described it as a 'curiously neglected and yet absolutely crucial problem'
-- Whelan ([1983][whelan1983]) provides the first serious (and only) analysis of the problem and examines the sparsity of potential solutions
-- Dahl ([1989][dahl1989]) returns again to the issue he calls 'the problem of constituting the unit' and  'the problem of inclusion'
-- Arrhenius ([2005][arrhenius2005]) makes an unsuccessful attempt to solve the problem by invoking the all-affected principle
-- Goodin ([2007][goodin2007]) commits himself to an acknowledged unworkable enfranchisement of all affected interests.
-- Erman ([2011][erman2011]) offers a discourse-theoretical approach to the problem with the equal-influence principle
-- Song ([2012][song2012]) Asks why the demos should be bounded by the state
+- Dahl ([1970][@dahl1970]) described it as a 'curiously neglected and yet absolutely crucial problem'
+- Whelan ([1983][@whelan1983]) provides the first serious (and only) analysis of the problem and examines the sparsity of potential solutions
+- Dahl ([1989][@dahl1989]) returns again to the issue he calls 'the problem of constituting the unit' and  'the problem of inclusion'
+- Arrhenius ([2005][@arrhenius2005]) makes an unsuccessful attempt to solve the problem by invoking the all-affected principle
+- Goodin ([2007][@goodin2007]) commits himself to an acknowledged unworkable enfranchisement of all affected interests.
+- Erman ([2011][@erman2011]) offers a discourse-theoretical approach to the problem with the equal-influence principle
+- Song ([2012][@song2012]) Asks why the demos should be bounded by the state
 
 Democracy and Authority
 -----------------------
@@ -85,10 +164,10 @@ An Unsolved Problem
 
 
 
-[dahl1970]:After the Revolution
-[whelan1983]:A Preference to Democratic Theory
-[dahl1989]: Democracy and Its Critics
-[arrhenius2005]: The Boundary Problem in Democratic Theory
-[goodin2007]: Enfranchising All Affected Interests and its Alternatives
-[erman2011]: The Boundary Problem: A Discourse-Theoretic Solution
-[song2012]: song?
+[@dahl1970]:After the Revolution
+[@whelan1983]:A Preference to Democratic Theory
+[@dahl1989]: Democracy and Its Critics
+[@arrhenius2005]: The Boundary Problem in Democratic Theory
+[@goodin2007]: Enfranchising All Affected Interests and its Alternatives
+[@erman2011]: The Boundary Problem: A Discourse-Theoretic Solution
+[@song2012]: song?

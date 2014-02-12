@@ -28,14 +28,16 @@ Thesis: To be legitimate, democracy must be voluntary
   - democracy is the justification of this imposition.
 
 - Inclusion undermines difference making
-  - Democracy presupposes a people
-  - Democracy can't determine who should make up the people
-  - Therefore who should make up the people can only be determined non-democratically
-  - Legitimacy requires difference making
-  - Who the people are determines what they decide
-  - If democracy wants legitimacy, it must show causal influence in its outcomes
-  - Who the people fully determines democratic outcomes
-  - Democratic legitimacy can't be based on difference making
+  - Democracy requires the existence of a people
+  - But democracy can't determine who should be included in the people
+  - Therefore who should be included amongst the people can only be determined non-democratically
+    - why should this be troubling?
+  - Non democratic accounts can conflict with accounts of democratic legitimacy
+    - Legitimacy sometimes requires difference making - which accounts?
+    - Who the people are determines what they decide
+    - If democracy wants legitimacy, it must show causal influence in its outcomes
+    - Who the people fully determines democratic outcomes
+    - Democratic legitimacy can't be based on difference making
   
 - Pure proceduralism is incoherent
   - Democracy requires procedures
@@ -51,6 +53,12 @@ Thesis: To be legitimate, democracy must be voluntary
   - An independent conception of the good can either be agreed to by all, or forced upon dissenters
   - Liberal democracies will generate competing accounts of the good, so there will be dissenters
   - In liberal democracies, the imposition of the good conflicts with its substantive value.
+  - ** Ideas for here...
+  - ** Liberalism requires that dissenter be labelled 'unreasonable'
+  - ** But no one thinks they are unreasonale
+  - ** How does a liberal get agreement on who is unreasonable
+  - ** Public Justification Liberalism will endorse contradiction
+  
   
 - Political authority is unnecessary for the state
   - social cooperation is necessary to realise substantive ends

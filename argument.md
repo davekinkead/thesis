@@ -18,15 +18,32 @@ That's the hope, anyway.
 
 ------
 
-Thesis: To be legitimate, democracy must be voluntary
+Thesis: Democracy is the rationalisation of political authority, because the only coherent justification of authority is a voluntarist one.
 
-- prolog 
-  - authority is the power of one agent to morally command another
-  - legitimacy is the moral justification of enforcing authoritative commands
-  - the state exists and is claimed to be necessary. we are compelled.
-  - so how doe we justify the imposition on those who don't benefit?
-  - democracy is the justification of this imposition.
+### Democracy and Justification
 
+- democracy is the rationalisation of political authority 
+  - If a proper justification of democratic authority existed, then it would be broadly recognised.
+    - democracy is the preeminent form of modern political authority
+    - there is a long history of democratic justification
+    - from within existing democracies
+    - it is desired by those denied it
+  - A proper justification of democratic authority isn't broadly recognised.
+    - its odd that there is such a broad approach to justifying democracy but little consensus on how
+    - list them!!!
+    - they all focus on different parts but rarely on the whole
+    - these justifications are in conflict - compatibility is impossible
+  - Therefore a proper justification of democratic authority doesn't exist. 
+    - if these accounts don't succeed in justifying democracy, what do they do?
+    - the state exists and claim authority
+    - authority is the power of one agent to morally command another
+    - legitimacy is the moral justification of enforcing authoritative commands     
+    - authority is claimed to be necessary. we are compelled to obey legitimate ones.
+    - so how doe we justify the imposition on those who don't benefit?
+    - democracy is the justification of this imposition.  It makes disagreement with authority palatable.
+
+### The Problem of the People
+  
 - Inclusion undermines difference making
   - Democracy requires the existence of a people
   - But democracy can't determine who should be included in the people
@@ -39,6 +56,8 @@ Thesis: To be legitimate, democracy must be voluntary
     - Who the people fully determines democratic outcomes
     - Democratic legitimacy can't be based on difference making
   
+### Paradoxes of Procedure
+    
 - Pure proceduralism is incoherent
   - Democracy requires procedures
   - If legitimacy is purely procedural, then procedure cannot be legitimated democratically
@@ -46,6 +65,8 @@ Thesis: To be legitimate, democracy must be voluntary
   - If procedure cannot be legitimated democratically, then it must be legitimated non-democratically
   - If procedure is legitimated non-democratically, then it is not purely procedural
   - Therefore pure proceduralism cannot legitimate democratic authority
+
+### The Limits of Liberalism
 
 - There is no independent good in politics
   - Substantive justifications of democracy require an independent conception of the good
@@ -59,6 +80,7 @@ Thesis: To be legitimate, democracy must be voluntary
   - ** How does a liberal get agreement on who is unreasonable
   - ** Public Justification Liberalism will endorse contradiction
   
+### Authority, Necessity and the State
   
 - Political authority is unnecessary for the state
   - social cooperation is necessary to realise substantive ends

@@ -1,5 +1,21 @@
 # Bootstrapping Democracy
 
+> No man is an island,  entire of itself; every man is a piece of the continent, a part of the main; if a clod be washed away by the sea, Europe is the less, as well as if a promontory were, as well as if a manor of thy friend's or of thine own were;  any man's death diminishes me, because I am involved in mankind, and therefore never send to know for whom the bell tolls; it tolls for thee. 
+
+> -- John Donne, Meditation XVII
+
+No one is an island....we need each other to realise our every day needs and higher order wants...
+
+This is an argument about authority.  Democracy is the justification of state authority.....
+
+But democracy has a problem.  When we peel back the typically emotive...
+
+The thesis that I am going to defend is that if democratic authority is to be considered legitimate, it must first be voluntary....
+
+This work is made up of two parts.  In the first, I am going to explores some of the problems and paradoxes that lie at the very foundations of democratic theory.  Problems which collectively form what I call the Bootstrap Paradox - the inability of democratic theory to justify itself on its own terms.
+
+In the second, I will examine the relationship between authority, legitimacy, and democracy....
+
 Democracy has a problem.  When we peer beyond the emotive facade of rhetorical and pragmatic appeal that democracy offers us in order to examine its theoretical underpinnings, we are confronted with a tangled web of contradiction and paradox.  If some democratic government is said to be legitimate because it was elected in the proper manner or procedure required by the constitution, then how do we justify the constitution?  How can we reconcile the demands of liberty and protections of personal rights with collective democratic action?  And how do we democratically decide who should be included amongst the people when democracy first requires a people to decide something?
 
 These vacillating and mercurial normative foundations, like that of any building, threaten to topple a range of higher order concerns relating to political legitimacy, authority, and obligation.  And despite a revival of interest in the normative foundations of democracy from political theorists over the last 50 years, little progress has been made beyond Churchill’s pragmatic quip that democracy is the worst form of government, except for all the others we’ve tried from time to time.  Perhaps because democracy can’t be justified. 
@@ -18,6 +34,18 @@ Democracy has become a largely vacuous notion.  Today, people use the term to de
 
 In this chapter, I review the various conceptions and accounts of democracy and democratic legitimacy. Political theorists have attempted to justify and criticise democracy from a variety of perspectives.
 
+## The Problem of the People
+
+Democracy begins with the people.  The _demos_ is the _kratos_, _praxis_, and _telos_ of the state.  Democratic theory presupposes the existence of a determinate polity of people who organise together and govern themselves.
+
+Yet the matter of _who_ ought be included amongst the people is a matter both logically and temporally prior to that of _how_ they ought govern.  The question of who must consent, who ought be heard, or who should be entitled to vote, cannot be answered democratically without first knowing who to ask.  Democracy - the rule of, for, and by the people - simply cannot answer the fundamental issue of which people should be governed under which state.  Who ought make up the people can therefore only be answered by some pre- or non-democratic principle.
+
+Reliance upon some extra-democratic principle to justify democratic inclusions should not however, be problematic in and of itself. Numerous normative principles rely on earlier, lower order ones to provide some form of moral foundation.  The problem for democracy only arises when its claims of legitimacy rely upon difference making.
+
+Difference making lays at the heart of many accounts of democratic legitimacy.  According to these theories, a democratic state is legitimate precisely because it brings about different outcomes or states of affairs relative to non-democratic ones.
+
+But who makes up the people largely predetermines the outcome of a democratic process, irrespective of the particular democratic mechanism used.  The question of inclusion strips democratic processes of their difference making power and renders them either causally powerless.  The power of difference making is thus usurped by the principle of inclusion, a principle completely exogenous to extant democratic accounts.  The decisions and outcomes of democracies become attributable to the accidents of history, thus eroding any subsequent normative claims based on difference.
+
 ## Paradoxes of Procedure
 
 In this chapter, I explore foundational paradoxes of procedural accounts of democratic legitimacy.  According to procedural accounts of democracy, legitimacy is derived from adherence or fidelity to some process or constitution.  But how can the creation of this constitution be legitimate when its creation proceeds its existence? How can a decision mechanism be agreed upon democratically?  The democratic method would be to deliberate or vote on the method but this requires some earlier agreement on what decision method will be used to answer this question.  
@@ -31,9 +59,7 @@ In this chapter, I explore the impossibility of contesting liberalism democratic
 
 Rawls, Gaus and other liberal theorists have proposed variants of liberal theory such as public reason.  These mechanisms however, appear endorse contractions in what values or policies liberal democracies should hold, or arbitrarily endorse values depending on the order they are debated. 
 
-## The Boundary Problem
 
-In this chapter, I argue why the people can never choose who make up the people. The story of democracy begins with a people. They come together, unite, proclaim, declare and form as one unit.  Yet who the people ought to be, and therefore which group should rightfully govern themselves, is a totally neglected and absolutely crucial problem for which there seems no theoretical solution to. A principle object of the democratic project is to show why we have moral obligations to obey a properly constituted democratic government. In order to claim legitimacy, democratic theory needs to show it makes a difference.  The problem in the Boundary problem arises once we realise that ‘who’ the people are determines 'what' choice they make, and that there are no coherent accounts of who the people ought to be.
 
 ## Bootstrapping Democracy
 

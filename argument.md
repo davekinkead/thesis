@@ -22,7 +22,7 @@ Thesis: Democracy is the rationalisation of political authority, because the onl
 
 ### Democracy and Justification
 
-- democracy is the rationalisation of political authority 
+- Democracy is the rationalisation of political authority 
   - If a proper justification of democratic authority existed, then it would be broadly recognised.
     - democracy is the preeminent form of modern political authority
     - there is a long history of democratic justification
@@ -43,44 +43,48 @@ Thesis: Democracy is the rationalisation of political authority, because the onl
     - democracy is the justification of this imposition.  It makes disagreement with authority palatable.
 
 ### The Problem of the People
-  
-- Inclusion undermines difference making
-  - Democracy requires the existence of a people
-  - But democracy can't determine who should be included in the people
-  - Therefore who should be included amongst the people can only be determined non-democratically
-    - why should this be troubling?
-  - Non democratic accounts can conflict with accounts of democratic legitimacy
-    - Legitimacy sometimes requires difference making - which accounts?
-    - Who the people are determines what they decide
-    - If democracy wants legitimacy, it must show causal influence in its outcomes
-    - Who the people fully determines democratic outcomes
-    - Democratic legitimacy can't be based on difference making
+
+- Difference making accounts can't justify democratic authority
+  - Democratic legitimacy rely on difference making
+    - Democracy produces different outcomes than other forms of government (and non-government)
+    - Democratic outcomes are superior to other outcomes
+    - These outcomes are sufficient to justify democratic authority
+  - Difference making is undermined by the problem of inclusion
+    - For democratic outcomes to justify authority, the cannot be arbitrary
+    - Who the people are predetermines the result of any democratic process
+    - The problem of inclusion makes the outcomes of democratic processes arbitrary
+  - Difference making accounts cant solve the problem of inclusion
+    - Democracy requires a demos
+    - Who the people are is temporally and logically prior democratic processes
+
   
 ### Paradoxes of Procedure
     
-- Pure proceduralism is incoherent
-  - Democracy requires procedures
-  - If legitimacy is purely procedural, then procedure cannot be legitimated democratically
-    - bulk of original work will be on this premise. examine procedural paradoxes
-  - If procedure cannot be legitimated democratically, then it must be legitimated non-democratically
-  - If procedure is legitimated non-democratically, then it is not purely procedural
-  - Therefore pure proceduralism cannot legitimate democratic authority
-
+- Purely procedural accounts can't justify democratic authority
+  - Democratic legitimacy rely on procedures
+  - Legitimate procedures can only be produced via higher order legitimate procedures
+    - The only way to justify democracy is procedurally
+    - Higher order procedures can create other procedures
+    - A legitimate procedure cannot be produced _sui generis_ 
+  - Foundational procedures cannot be produced legitimately  
+    - If a procedure cannot be legitimated democratically, then it must be legitimated non-democratically
+    - If a procedure is legitimated non-democratically, then it is not a purely procedural justification of democracy
+  
+  
 ### The Limits of Liberalism
 
-- There is no independent good in politics
-  - Substantive justifications of democracy require an independent conception of the good
+- Liberal accounts cannot justify democratic authority
+  - Liberal accounts justify authority because it realises certain goods (freedom)
+  - These freedoms require limits on others
   - Liberal democracies must impose some form of the good as a procedural constraint
   - An independent conception of the good can either be agreed to by all, or forced upon dissenters
-  - Liberal democracies will generate competing accounts of the good, so there will be dissenters
+  - Liberal democracies will necessarily generate competing conceptions of the good, so there will be dissenters
   - In liberal democracies, the imposition of the good conflicts with its substantive value.
-  - ** Ideas for here...
-  - ** Liberalism requires that dissenter be labelled 'unreasonable'
-  - ** But no one thinks they are unreasonale
-  - ** How does a liberal get agreement on who is unreasonable
-  - ** Public Justification Liberalism will endorse contradiction
   
+
 ### Authority, Necessity and the State
+
+** This is still pretty nascent**
   
 - Political authority is unnecessary for the state
   - social cooperation is necessary to realise substantive ends

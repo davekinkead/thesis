@@ -1,38 +1,15 @@
 # Bootstrapping Democracy
 
-> No man is an island,  entire of itself; every man is a piece of the continent, a part of the main; if a clod be washed away by the sea, Europe is the less, as well as if a promontory were, as well as if a manor of thy friend's or of thine own were;  any man's death diminishes me, because I am involved in mankind, and therefore never send to know for whom the bell tolls; it tolls for thee. 
+This is an argument about authority; more specifically though, it's an argument about democratic authority and how what we typically think are justifications of democratic authority are in actual fact rationalisations of political authority. That's because accounts of democratic authority, all of them, fail to adequately justify the authority of the state.  What is left are rationalisation; attempts to make the coercive power of the state more palatable to those it coerces.
 
-> -- John Donne, Meditation XVII
+Despite the bewildering array of approaches that political theorists have used in attempting to explain why we as citizens have moral obligations to obey the edicts of properly elected democratic regimes, whenever we trace their arguments back far enough, we are confronted with contradictions and paradox.  Proceduralist accounts for example, imbue a democratic authority with legitimacy just in case the laws and policies it produces are the result of a legitimate procedure, one that is fair and just.  Yet proceduralist accounts of democratic authority are strangely silent on how exactly these procedures can be legitimately established in the first place.  How do we legitimately establish first order procedures such as the constitution without higher order ones, and do these higher order procedures need to be legitimate for subsequent procedures to be?
 
-No one is an island....we need each other to realise our every day needs and higher order wants...
+Or consider perhaps instrumentalist accounts of democratic authority which justify the authority of the state by appealing to the outcomes of a democratic process.  Democracy here is justified by its difference making ability.  But the ability of a democratic process to produce outcomes different to non-democratic ones, sufficient enough to justify democracy's authority, is undermined by what has come to be know as the Boundary Problem.  Democracy presupposes a demos, but is unable to explain exactly who the people ought be.  Yet who the people are largely predetermines the outcome of any democratic process, rendering the impact of the process largely arbitrary, and thus undermining those claims of legitimacy based on difference making.
 
-This is an argument about authority.  Democracy is the justification of state authority.....
+Nor do substantive justifications of democracy fair any better. Liberal accounts of democracy for example, justify the authority of the state from the equal liberty and freedom for all it enables.  This liberty is typically realised by formally protecting certain rights of individuals against claims of the state and others.  But these 
 
-But democracy has a problem.  When we peel back the typically emotive...
+These challenge collectively form what I call the Bootstrap Problem: the inability of democratic theory to justify itself on its own terms.  In the first half of my thesis, I examine these problems in detail and demonstrate how they undermine extant accounts of democratic legitimacy, relegating much democratic theory to the rationalisation rather than justification of political authority.  In the second half, I develop an account of democratic legitimacy that bootstraps itself - justifies its self on its own terms - and thus avoids these problems.
 
-The thesis that I am going to defend is that if democratic authority is to be considered legitimate, it must first be voluntary....
-
-This work is made up of two parts.  In the first, I am going to explores some of the problems and paradoxes that lie at the very foundations of democratic theory.  Problems which collectively form what I call the Bootstrap Paradox - the inability of democratic theory to justify itself on its own terms.
-
-In the second, I will examine the relationship between authority, legitimacy, and democracy....
-
-Democracy has a problem.  When we peer beyond the emotive facade of rhetorical and pragmatic appeal that democracy offers us in order to examine its theoretical underpinnings, we are confronted with a tangled web of contradiction and paradox.  If some democratic government is said to be legitimate because it was elected in the proper manner or procedure required by the constitution, then how do we justify the constitution?  How can we reconcile the demands of liberty and protections of personal rights with collective democratic action?  And how do we democratically decide who should be included amongst the people when democracy first requires a people to decide something?
-
-These vacillating and mercurial normative foundations, like that of any building, threaten to topple a range of higher order concerns relating to political legitimacy, authority, and obligation.  And despite a revival of interest in the normative foundations of democracy from political theorists over the last 50 years, little progress has been made beyond Churchill’s pragmatic quip that democracy is the worst form of government, except for all the others we’ve tried from time to time.  Perhaps because democracy can’t be justified. 
-
-My thesis explores some of the paradoxes that lie at the very foundations of democratic theory.  Problems which collectively form what I call the Bootstrap Paradox - the inability of democratic theory to justify itself on its own terms.  In the first half of my thesis, I examine how these foundational challenges are generated by the competing conceptions of democracy and  various accounts of democratic legitimacy.  In the second half I propose a new account of democratic legitimacy based upon a normative principle I call Reciprocal Autonomy and a jurisdictional mechanism I call Dynamic Federalism.
-
-## Introduction
-
-In this chapter, I introduce the project of democratic theory, the Bootstrap Paradox and how this paradox undermines the democratic project.  Democracy has a problem. Beneath accounts of democratic theory lie a number of paradoxes and problems that undermine the project of democratic legitimacy.  Problems of foundation that collectively make up what I call the Bootstrap Paradox. 
-
-The thesis I'm going to defend is that democracy, according to extant accounts at least, democracy is not democratic.  Its establishment, alteration and operation all require justificatory recourse to non-democratic ideals, and any substantively non-democratic system cannot be justified as being democratic.
-
-## What Democracy? 
-
-Democracy has become a largely vacuous notion.  Today, people use the term to describe any vaguely warm feelings towards some system of government they may have.  But when a term means everything, it means nothing. The challenges in defining and encapsulating the notion of democracy lead us, according to Dahl, down a "tedious exploration of a semantic bog".  But how we conceptualise democracy shapes and constrains both accounts of democratic justification and how we can address the Bootstrap Paradox.
-
-In this chapter, I review the various conceptions and accounts of democracy and democratic legitimacy. Political theorists have attempted to justify and criticise democracy from a variety of perspectives.
 
 ## The Problem of the People
 
@@ -45,6 +22,7 @@ Reliance upon some extra-democratic principle to justify democratic inclusions s
 Difference making lays at the heart of many accounts of democratic legitimacy.  According to these theories, a democratic state is legitimate precisely because it brings about different outcomes or states of affairs relative to non-democratic ones.
 
 But who makes up the people largely predetermines the outcome of a democratic process, irrespective of the particular democratic mechanism used.  The question of inclusion strips democratic processes of their difference making power and renders them either causally powerless.  The power of difference making is thus usurped by the principle of inclusion, a principle completely exogenous to extant democratic accounts.  The decisions and outcomes of democracies become attributable to the accidents of history, thus eroding any subsequent normative claims based on difference.
+
 
 ## Paradoxes of Procedure
 
@@ -60,16 +38,17 @@ In this chapter, I explore the impossibility of contesting liberalism democratic
 Rawls, Gaus and other liberal theorists have proposed variants of liberal theory such as public reason.  These mechanisms however, appear endorse contractions in what values or policies liberal democracies should hold, or arbitrarily endorse values depending on the order they are debated. 
 
 
-
 ## Bootstrapping Democracy
 
 In this chapter, I explore whether democracy can solve these problems by picking itself up from its own theoretical bootstraps. Procedural accounts of democratic legitimacy cannot recover from founding paradoxes without turning into utopian or substantive accounts.  Substantive accounts seem unable to simultaneously underpin democratic legitimacy and solve the boundary problem. But what if we could develop an account where adherence to the process is also the realisation of the substantive ideal? We would then have a potential way to bootstrap our way out of these dilemmas.  We would be able to bootstrap democracy.
 
 My starting point is the identification of what exactly democratic theory needs to justify in order to claim legitimacy.  Here, I argue that unlike accounts based on affect or coercion, democratic theory only needs to justify its political authority - the moral obligation to be obeyed _simply_ because it is commanded.
 
+
 ## Reciprocal Autonomy
 
 In this chapter, I develop the normative foundations of my solution to the Bootstrap Paradox.  I identify autonomy as a self-realising foundation that can exist simply by its assertion.  I argue that recognising the autonomy of others and therefore their claim to self rule, on the proviso that they recognise ours, is the minimum requirement for political cooperation and once accepted, both underpins our own claims of self determination whilst limiting our claims over others. 
+
 
 ## Dynamic Federalism
 

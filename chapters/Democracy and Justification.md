@@ -3,10 +3,15 @@ title: Democracy and Justification
 author: Dave Kinkead
 audience: Thesis Chapter
 status: Vomit Draft
-thesis: Democracy is the justification of political authority
+thesis: Democracy is the rationalisation of political authority
 ---
 
 # Democracy and Justification
+
+    Politics is the moral theory of power
+    Political authority is the justification of power
+    Democratic theory cannot justify authority
+    Democracy is just the rationalisation of authority
 
 Democracy is the preeminent form of political association in our times.  Of the 196 states recognised by the United Nations, 106 can be classified in some way as democratic [@democracyindex].  Compared with other forms of political authority present today - autocracies, theocracies, monarchies, oligarchies, and anocracies - democracies outnumber all other forms for rule combined.  This represents a vast increase from the mid 20th century, when the rising tide of fascism and totalitarianism resulted in the number of democratic states numbering less than X [cite]. 
 

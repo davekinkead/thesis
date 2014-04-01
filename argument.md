@@ -18,7 +18,8 @@ That's the hope, anyway.
 
 ------
 
-Thesis: Democracy is the rationalisation of political authority, because the only coherent justification of authority is a voluntarist one.
+
+# Democracy is the just rationalisation of political authority
 
 ### Democracy and Justification
 
@@ -44,6 +45,15 @@ Thesis: Democracy is the rationalisation of political authority, because the onl
 
 ### The Problem of the People
 
+- The boundary problem is really three problems
+  - Democracy cant define the demos
+    - A demos is necessary for democratic processes
+    - A demos defining itself is circular
+    - One demos defining another is an infinite regress
+  - Incorrectly defining the demos contradicts democratic values
+  - The causal role of who the people are undermines democratic legitimacy
+  
+  
 - Difference making accounts can't justify democratic authority
   - Democratic legitimacy rely on difference making
     - Democracy produces different outcomes than other forms of government (and non-government)

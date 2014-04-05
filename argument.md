@@ -16,7 +16,36 @@ The idea is that this will enable a logical yet non-linear approach to writing -
 
 That's the hope, anyway.
 
-------
+---
+
+### A Reformulation
+
+- Democracy can't justify itself democratically on current accounts. 
+  - So what?
+    - why does democracy need to be justified democratically? 
+    - what's the purpose of all this justification?
+    - need to show that it does need to be justified democratically.
+  - Why
+    - Procedural accounts can't be justified democratically and regress infinitely non-democratically
+    - Difference making accounts can't be justified democratically and are arbitrary non-democratically
+    - Substantive accounts can't be justified democratically and ...
+- Reformulating democracy as collective autonomy allows this to happen
+  - How?
+    - the value of democracy is (collective) autonomy
+    - reciprocal autonomy is a sufficient foundation
+      - justifications aren't required for irrational people
+        - reasonable vs rational
+      - non-autonomous agents will accept what ever they are told
+      - autonomous agents value autonomy tautologically _if you are autonomous, you will value autonomy_
+      - I can't achieve my aims alone - we need cooperation, and perhaps authority
+      - It's in my interest for you to accept RA (assuming I can't impose my will)
+      - My acceptance of RA is the best way to ensure you accept RA
+        - need a game theoretic proof here!
+      - RA means we can cooperate but can't impose
+    - magic procedure X that entails or is consistent with reciprocal autonomy
+      - dynamic federalism, polystates
+
+---
 
 
 # Democracy is the just rationalisation of political authority

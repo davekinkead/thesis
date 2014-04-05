@@ -1,54 +1,45 @@
-This document outlines the general argument of my PhD dissertation 'Bootstrapping Democracy'.  It is an experiment in structured writing that I hope can rescue me from this wretched mid-candidature writers block.  As such, it is organised in a logical rather than rhetorical manner.  
+# Argument Structure
 
-Starting with my central thesis, I will state my key claims followed by the justificatory premises that entail them.  The argument should be read hierarchically:
-
-    - thesis
-      - support 1
-        - support 1.a
-        - support 1.b
-          - support 1.b.i
-          - support 1.b.ii
-        - support 1.c
-      - support 2
-      - support 3
-
-The idea is that this will enable a logical yet non-linear approach to writing - allowing me to run with ideas that look promising, and temporarily sidestep any holes in my account that are holding me back, returning to them later when my thoughts are clearer.
-
-That's the hope, anyway.
+This document outlines the general argument of my PhD dissertation 'Bootstrapping Democracy'.  It is an experiment in structured writing and as such, it is organised in a logical rather than rhetorical manner.  Starting with my central thesis, I will state my key claims followed by the justificatory premises that entail them.  
 
 ---
 
-### A Reformulation
-
-- Democracy can't justify itself democratically on current accounts. 
-  - So what?
-    - why does democracy need to be justified democratically? 
-    - what's the purpose of all this justification?
-    - need to show that it does need to be justified democratically.
-  - Why
-    - Procedural accounts can't be justified democratically and regress infinitely non-democratically
-    - Difference making accounts can't be justified democratically and are arbitrary non-democratically
-    - Substantive accounts can't be justified democratically and ...
+- Thesis: Democracy can't justify itself democratically
+    - To be more than rationalisation, democracy must justify itself democratically
+        - There are certain fundamental requirements of any account of authority (composition, scope, procedure - who, what, how)
+            - A key aim of political philosophy is the justification of authority
+            - Democratic theory is an extension of this project
+        - None of these requirements can be justified democratically (and even conflict)
+            - Difference making accounts are rendered arbitrary by the problem of inclusion
+            - Substantive liberal ideals conflict with democratic processes
+            - Procedural accounts regress infinitely
+    - Democracy as collective autonomy is justifiable
+        - The principle of Reciprocal Autonomy is ....
+        - Dynamic Federalism is one possible procedure for realising reciprocal autonomy
+    
+---
+    
 - Reformulating democracy as collective autonomy allows this to happen
-  - How?
-    - the value of democracy is (collective) autonomy
-    - reciprocal autonomy is a sufficient foundation
-      - justifications aren't required for irrational people
-        - reasonable vs rational
-      - non-autonomous agents will accept what ever they are told
-      - autonomous agents value autonomy tautologically _if you are autonomous, you will value autonomy_
-      - I can't achieve my aims alone - we need cooperation, and perhaps authority
-      - It's in my interest for you to accept RA (assuming I can't impose my will)
-      - My acceptance of RA is the best way to ensure you accept RA
-        - need a game theoretic proof here!
-      - RA means we can cooperate but can't impose
-    - magic procedure X that entails or is consistent with reciprocal autonomy
-      - dynamic federalism, polystates
+    - How?
+        - the value of democracy is (collective) autonomy
+        - reciprocal autonomy is a sufficient foundation
+          - justifications aren't required for irrational people
+            - reasonable vs rational
+          - non-autonomous agents will accept what ever they are told
+          - autonomous agents value autonomy tautologically _if you are autonomous, you will value autonomy_
+          - I can't achieve my aims alone - we need cooperation, and perhaps authority
+          - It's in my interest for you to accept RA (assuming I can't impose my will)
+          - My acceptance of RA is the best way to ensure you accept RA
+            - need a game theoretic proof here!
+          - RA means we can cooperate but can't impose
+        - magic procedure X that entails or is consistent with reciprocal autonomy
+          - dynamic federalism, polystates
 
 ---
 
+# Old Thoughts....
 
-# Democracy is the just rationalisation of political authority
+## Democracy is the just rationalisation of political authority
 
 ### Democracy and Justification
 

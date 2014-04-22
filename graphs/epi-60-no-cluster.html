@@ -1,0 +1,104 @@
+<html>
+	<head>
+		<title>Montecarlo simulation for epistemic justifications of democracy</title>
+		<script src="http://mbostock.github.com/d3/d3.v2.js"></script>
+		<style>
+			/* tell the SVG path to be a thin blue line without any area fill */
+			path {
+				stroke: steelblue;
+				stroke-width: 1;
+				fill: none;
+			}
+			
+			.axis {
+			  shape-rendering: crispEdges;
+			}
+
+			.x.axis line {
+			  stroke: lightgrey;
+			}
+
+			.x.axis .minor {
+			  stroke-opacity: .5;
+			}
+
+			.x.axis path {
+			  display: none;
+			}
+
+			.y.axis line, .y.axis path {
+			  fill: none;
+			  stroke: #000;
+			}
+		</style>
+	</head>
+	<body>
+
+	<div id="graph" class="aGraph" style="position:absolute;top:0px;left:0; float:left;"></div>
+
+	<script>
+		/* implementation heavily influenced by http://bl.ocks.org/1166403 */
+		
+		// define dimensions of graph
+		var m = [80, 80, 80, 80]; // margins
+		var w = 1000 - m[1] - m[3]; // width
+		var h = 600 - m[0] - m[2]; // height
+		
+		// create a simple data array that we'll plot with a line (this array represents only the Y values, X will just be the index location)
+		var data = [1.000000000000000, 0.973666666666667, 0.961833333333334, 0.972700000000000, 0.958066666666667, 0.966809523809522, 0.944428571428570, 0.934100000000001, 0.955072727272729, 0.928815151515150, 0.889059440559445, 0.953094505494506, 0.944596336996336, 0.911170238095239, 0.948195588235295, 0.941383685930512, 0.956540041279670, 0.913354218880539, 0.946977648667124, 0.920847619047616, 0.933835921325055, 0.936016534914363, 0.910414629010284, 0.942169487179485, 0.945994407814404, 0.946360756740067, 0.919785759015017, 0.948932460008476, 0.941387075707011, 0.925831488269791, 0.951750210700114, 0.922162919107038, 0.948520948297423, 0.940528626415005, 0.946928876244667, 0.952993343545976, 0.947692951142116, 0.938072264385167, 0.940299536179456, 0.930052152347558, 0.929409551962094, 0.934534776772497, 0.953062707143726, 0.938323773281916, 0.942282969483197, 0.945672780525712, 0.939194134979687, 0.951831827447963, 0.938046197881186, 0.931852829303304];
+
+		// X scale will fit all values from data[] within pixels 0-w
+		var x = d3.scale.linear().domain([0, data.length]).range([0, w]);
+		// Y scale will fit values from 0-10 within pixels h-0 (Note the inverted domain for the y-scale: bigger is up!)
+		var y = d3.scale.linear().domain([0.8, 1]).range([h, 0]);
+			// automatically determining max range can work something like this
+			// var y = d3.scale.linear().domain([0, d3.max(data)]).range([h, 0]);
+
+		// create a line function that can convert data[] into x and y points
+		var line = d3.svg.line()
+			// assign the X function to plot our line as we wish
+			.x(function(d,i) { 
+				// verbose logging to show what's actually being done
+				console.log('Plotting X value for data point: ' + d + ' using index: ' + i + ' to be at: ' + x(i) + ' using our xScale.');
+				// return the X coordinate where we want to plot this datapoint
+				return x(i); 
+			})
+			.y(function(d) { 
+				// verbose logging to show what's actually being done
+				console.log('Plotting Y value for data point: ' + d + ' to be at: ' + y(d) + " using our yScale.");
+				// return the Y coordinate where we want to plot this datapoint
+				return y(d); 
+			})
+
+			// Add an SVG element with the desired dimensions and margin.
+			var graph = d3.select("#graph").append("svg:svg")
+			      .attr("width", w + m[1] + m[3])
+			      .attr("height", h + m[0] + m[2])
+			    .append("svg:g")
+			      .attr("transform", "translate(" + m[3] + "," + m[0] + ")");
+
+			// create yAxis
+			var xAxis = d3.svg.axis().scale(x).tickSize(-h).tickSubdivide(true);
+			// Add the x-axis.
+			graph.append("svg:g")
+			      .attr("class", "x axis")
+			      .attr("transform", "translate(0," + h + ")")
+			      .call(xAxis);
+
+
+			// create left yAxis
+			var yAxisLeft = d3.svg.axis().scale(y).ticks(4).orient("left");
+			// Add the y-axis to the left
+			graph.append("svg:g")
+			      .attr("class", "y axis")
+			      .attr("transform", "translate(-25,0)")
+			      .call(yAxisLeft);
+			
+  			// Add the line by appending an svg:path element with the data line we created above
+			// do this AFTER the axes above so that the line is above the tick-lines
+  			graph.append("svg:path").attr("d", line(data));
+			
+
+	</script>
+	</body>
+</html>

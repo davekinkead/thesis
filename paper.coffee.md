@@ -3,7 +3,7 @@
 
 ### Background
 
-My name is Dave Kinkead and I'm (hopefully) in the finally year of a PhD in Political Philosophy at the University of Queensland.  My work mainly focuses on normative democratic theory, and my dissertation examines an number of contradictions and paradoxes that lie at the foundations of democratic theory - paradoxes that seep up and undermine subsequent accounts of democratic legitimacy.
+My name is Dave Kinkead and I'm (hopefully) in the finally year of a PhD in Political Philosophy at the University of Queensland.  My work mainly focuses on normative democratic theory, and my dissertation examines an number of contradictions and paradoxes that lie at the foundations of democratic theory-paradoxes that seep up and undermine subsequent accounts of democratic legitimacy.
 
 The paper that I'm going to present today concerns one of those issues and has become known in the literature as the Boundary Problem of Democratic Theory.
 
@@ -28,7 +28,7 @@ Current events in the Ukraine provide an excellent example of this:
 
 > Should Crimea secede from the Ukraine and form a political union with Russia?
 
-Lets grant a few unlikely concessions for a moment.  Assume that all parties involved are committed democrats - they all hold strong ideals of political equality and popular sovereignty.  And lets further assume that all parties have agreed to a decision mechanism - say a majority binary referendum.
+Lets grant a few unlikely concessions for a moment.  Assume that all parties involved are committed democrats-they all hold strong ideals of political equality and popular sovereignty.  And lets further assume that all parties have agreed to a decision mechanism-say a majority binary referendum.
 
 In this scenario, who gets to vote determines the outcome of the vote. If only Crimeans are included in the process, then the result will be a yes.  If all Ukrainians can vote, then answer will be a no.  And if both Russians and Ukrainians are given a say, then the outcome will be an overwhelming yes.
 
@@ -36,19 +36,19 @@ _Who_ determines _what_.
 
 Who is included within a democratic association is a rather important matter, so we obviously need some account of democratic inclusion.  But unfortunately we can't answer this question democratically.
 
-Democratic theory is silent on who ought be included amongst the people.  It can't, because any democratic process first requires the identification of some determinate group of agents - the demos - in order to act democratically.  
+Democratic theory is silent on who ought be included amongst the people.  It can't, because any democratic process first requires the identification of some determinate group of agents-the demos-in order to act democratically.  
 
-Trying to solve the issue of democratic inclusion democratically, is either viciously circular - we need to know the answer before we can know the answer - or results in an infinite regress - who should chose who chose who should participate.
+Trying to solve the issue of democratic inclusion democratically, is either viciously circular-we need to know the answer before we can know the answer-or results in an infinite regress-who should chose who chose who should participate.
 
 That's because the question of _who the people are_ is logically and temporally prior to the question of _what they decide_.
 
-So if we can't solve the issue of democratic inclusion democratically, then we will need to do it non-democratically. And a number of accounts have been proposed - some based on history, nationality, salience, coercion, and affected interests. But unfortunately, none of these accounts of inclusion are compatible with accounts of democratic legitimacy.
+So if we can't solve the issue of democratic inclusion democratically, then we will need to do it non-democratically. And a number of accounts have been proposed-some based on history, nationality, salience, coercion, and affected interests. But unfortunately, none of these accounts of inclusion are compatible with accounts of democratic legitimacy.
 
 To briefly summarise the literature on why this is the case:  Historical accounts are too arbitrary; those based on nationality, cultural, or linguistic salience lack sufficiently objective criteria.
 
-The all-coerced principle doesn't answer the question - that all those subjected to the coercive force of the state should have some say in its operation is a plausible claim but fails to explain who should be subjected to those coercive forces in the first place.
+The all-coerced principle doesn't answer the question-that all those subjected to the coercive force of the state should have some say in its operation is a plausible claim but fails to explain who should be subjected to those coercive forces in the first place.
 
-And the all-affected principle - that anyone affected by an issue should have a say - results in either overlapping issue based jurisdictions incompatible with the idea of territorial sovereignty, or a global government that includes too many.
+And the all-affected principle-that anyone affected by an issue should have a say-results in either overlapping issue based jurisdictions incompatible with the idea of territorial sovereignty, or a global government that includes too many.
 
 So at its essence, the Boundary Problem consists of 3 primary claims:
 
@@ -81,13 +81,13 @@ The lack of justification for who the people ought be raises two more derivative
 
 What we might call the _value problem_ arises when arbitrary methods of determining the demos conflict and contradict with core democratic values. The most fundamental of these are the principles of self-determination and self-rule. Failure to properly define the people, and the subsequent over or under enfranchisement of a political association results in a state of heteronomy, the political subjugation of one group by another.
 
-An example will demonstrate this.  If I'm one of 100 people affected be some issue, then giving each of an equal say - 1/100th of collective power - satisfies the substantive democratic requirements of political equality and popular sovereignty.
+An example will demonstrate this.  If I'm one of 100 people affected be some issue, then giving each of an equal say-1/100th of collective power-satisfies the substantive democratic requirements of political equality and popular sovereignty.
 
 But if give 10,000 people a say in the matter when only 100 are affected, then the voice and sovereignty of those 100 people is undermined.  Others who seem to have no normative claim, now rule over me.
 
 The justification problem also raises another challenge, what we might call the _predetermination problem_. This stems from the fact that the logical and temporal priority of the who over the how results in the who having a fundamental impact on the how. 
 
-Who participates in any democratic process it critical in determining the outcome of it; and given sufficient polarity and clustering of agent preferences and values across any political space, the question of inclusion fully predetermines the outcome of any democratic mechanism. 
+Who participates in any democratic process it critical in determining the outcome of it; and given sufficient polarity and clustering of preferences and values across any political space, the question of inclusion fully predetermines the outcome of any democratic mechanism. 
 
 And when the basis of democracy’s legitimising claims rest the difference making qualities of democratic processes, then the predetermination of outcomes renders these difference making and legitimising claims vacuous.
 
@@ -111,7 +111,7 @@ What follows is a very simple model of a democratic process in which the Boundar
 
 #### Entities
 
-An `Agent` represents a political actor - a citizen.  Agents in this model are a simple folk who can hold a single discrete belief, which is represented formally as:
+An `Agent` represents a political actor-a citizen.  Agents in this model are a simple folk who can hold a single discrete belief, which is represented formally as:
 
     class Agent
       constructor: (@belief) ->
@@ -131,21 +131,18 @@ The Space might be characterised by Agents holding beliefs on a spectrum from hi
             quota.push new Agent(belief)
         
         # cluster agents tightly or randomly
-        while quota.length > 0
-          #if (Math.random() < clustering)
-          
+        while quota.length > 0          
           limit = Math.round( Math.random() * quota.length * (1-clustering) )
           @agents = @agents.concat quota.splice limit, 1
     
+A `Space` can be partitioned into different polities.  How we partition-how we answer the question of democratic inclusion-forms the crux of the Boundary Problem.  As outlined earlier, there are variety of competing accounts as to how we should bound polities so the primary purpose of this model is to demonstrate the effect of different partitions on the outcomes of democratic processes.
 
-A `Space` can be partitioned into different polities.  How we partition - how we answer the question of democratic inclusion - forms the crux of the Boundary Problem.  As outlined earlier, there are variety of competing accounts as to how we should bound polities so the primary purpose of this model is to demonstrate the effect of different partitions on the outcomes of democratic processes.
+The actual number of possible unique partitions is an exponential function of the number of _n_ agents and _k_ partitions. Specifically, it is the sum of binomial coefficients,  ∑ (n choose k).
 
-The actual number of possible unique partitions is an exponential function of the number of _n_ agents and _k_ partitions. Specifically, it is a binomial coefficient, either ∑ (n choose k).
-
-> ABCD
-> A|BCD, B|ACD, C|ABD, D|ABC, AB|CD, AC|BD, AD|BC
-> A|BC|D, A|CD|B, A|BD|C, B|AD|C, B|AC|D, C|AB|D
-> A|B|C|D
+> ABCD  
+> A-BCD, B-ACD, C-ABD, D-ABC, AB-CD, AC-BD, AD-BC  
+> A-BC-D, A-CD-B, A-BD-C, B-AD-C, B-AC-D, C-AB-D  
+> A-B-C-D  
 
 Because ∑ (n choose k) is so large, I am going to use a stochastic algorithm to recursively divide the largest partition of the space at a random point until the desired number of partitions are produced.  Then, Montecarlo simulation can then be used to generate a sufficient number of partition conbinations.
 
@@ -154,10 +151,10 @@ Because ∑ (n choose k) is so large, I am going to use a stochastic algorithm t
       while n > 1
         n = Math.min n, @agents.length
         polity = @polities.shift()
-        cut = Math.floor( Math.random() * (polity.length - n) ) + 1
+        cut = Math.floor( Math.random() * (polity.length-n) ) + 1
         @polities.push polity[...cut]
         @polities.push polity[cut..]
-        @polities.sort (a,b) -> b.length - a.length
+        @polities.sort (a,b) -> b.length-a.length
         n--
       this
       
@@ -190,7 +187,7 @@ To do this, I will run Montecarlo simulations for a range of input variables and
 
 #### Epistemic Justifications
 
-One of the most common justifications for democratic authority is epistemic - democracy has instrumental value as a truth tracking process.  Epistemic accounts can be simple like in Condorcet's Jury Theorem, or more nuanced such as Estlund's Epistemic Proceduralism.  
+One of the most common justifications for democratic authority is epistemic-democracy has instrumental value as a truth tracking process.  Epistemic accounts can be simple like in Condorcet's Jury Theorem, or more nuanced such as Estlund's Epistemic Proceduralism.  
 
 But they all rely on the claim that democratic procedures, on average, are better at determining an independently correct result than competing procedures.
   
@@ -219,18 +216,20 @@ So to what extent does partitioning the space in different ways alter the truth 
     
 Partitioning the space into a single polity and using simple majority voting should result in the single polity voting correctly each time.  100 iterations demonstrates this to be the case
     
-    for p in [1..50]
-      er = epistemicSimulation {'right': 510, 'wrong': 490}, p, 0.0, 100
-      #er = epistemicSimulation {'right': .6*p*100, 'wrong': .4*p*100}, p, 0.0, 100
+    runEpistemicSimulation = () ->
+      for p in [1..50]
+        #es = epistemicSimulation {'right': 510, 'wrong': 490}, p, 0.0, 500
+        es = epistemicSimulation {'right': .51*p*100, 'wrong': .49*p*100}, p, 0.25, 500
     
-      arr = for trial, results of er.trials
-        results.right/(results.right + results.wrong)
+        arr = for trial, results of es.trials
+          results.right / (results.right + results.wrong)
       
-      console.log ave(arr).toFixed(15)
-      #console.log "P: #{p} \tM: #{ave(arr).toFixed(15)} \tSD: #{stdev(arr).toFixed(15)}"
+        console.log "P: #{p} \tM: #{ave(arr).toFixed(15)} \tSD: #{stdev(arr).toFixed(15)}"
     
 
 Implications
+- increasing polity numbers decreases the likelihood of a correct outcome
+- this is especially true with lower population polities
 - the model doesn't show partitioning differences once we account for the CJT effect
 - the BP effects EJ if they are decision specific justification
 - the BP doesn't effect EJ if they are 'on balance' justifications
@@ -241,12 +240,63 @@ Implications
 
 ####  Strategic Justifications
 
-Epistemic justifications of democracy are just one of many types, and one subject to a number of criticisms, not least of which is the realisation that not all matters of collective decision have independently correct or preferable outcomes.
+Epistemic justifications of democracy are just one of many types, and one subject to a number of criticisms, not least of which is the fact that not all matters of collective decision have independently correct or preferable outcomes.
 
 Most problems of politics, and almost all contentious issues concern matters of values, to which epistemic justifications offer little support for.
 
-Another way to justify democracy is strategically.  All political authority involves the exercise of power by some over others.  Singer for example, argues that we all want to be dictators but because we can't all exercise complete power over each other, democracy is the fairest compromise.  
+Another way to justify democracy is strategically.  All political authority involves the exercise of power by some people over others.  Singer for example, argues that we all want to be dictators but because we can't all exercise complete power over each other, democracy is the fairest compromise.  
 
-Carol Gould takes a distinct but similar approach - all our lives are affected by our surroundings, and it is only when we have some influence over these affairs that we have self rule.  Democracy is the only way for us to have self government.
+Carol Gould takes a distinct but similar approach-all our lives are affected by our surroundings, and it is only when we have some influence over these affairs that we have self rule.  Self determination and rule being a fundamental human right, democracy is the only way for us to have self government.
 
-While each of these accounts is based on different principles (Singer's on equality, Gould's on liberty), one common characteristic is that both value democracy as a way of realising individual aims within a collective setting.  So one way both can be assessed is by measuring the fidelity of individual belief or preference to the collective outcome.
+While each of these accounts is based on different principles (Singer's on equality, Gould's on liberty), one common characteristic is that both value democracy as a way of realising individual aims within a collective setting.  So one way that strategic accounts can be assessed is by measuring the fidelity of individual belief or preference to the collective outcome.      
+    
+    vote = (polity) ->
+      votes = {}
+      for agent in polity
+        if votes.hasOwnProperty agent.belief then votes[agent.belief]++ else votes[agent.belief] = 1       
+      max = Math.max.apply null, (num for belief, num of votes)
+      votes.winner = belief for belief, num of votes when num is max
+      votes
+      
+    fidelity = (space) ->
+      results = { 'winners': 0, 'from': 0 }
+      for polity in space.polities
+        votes = vote polity
+        numerator = 0 
+        demonimator = 0
+        for key, val of votes
+          results.winners += val if key is votes.winner
+          results.from += val unless key is 'winner'
+      results
+      
+    strategicSimulation = (agents, partitions, clustering, trials) ->
+      space = new Space( agents, clustering )
+      results = { trials: {} }
+      for num in [1..trials]
+        results.trials[num] = fidelity space.partition partitions
+      results
+
+    runStrategicSimulation = () ->  
+      for p in [1..50]
+        ss = strategicSimulation {'blue': .5*p*100, 'red': .5*p*100}, p, 0.50, 100
+
+        arr = for trial, results of ss.trials
+          results.winners / results.from
+        
+        console.log "P: #{p} \tM: #{ave(arr).toFixed(15)} \tSD: #{stdev(arr).toFixed(15)}"
+      
+Implications
+- Increasing polities increases the likelihood of individual agent preference being realised
+- this is especially true with lower population polities
+
+### Conclusion
+
+While I've only examined two accounts of democratic authority from the wide array of accounts offered by political theorists, the data from the simulation allows us to make the following inferences.
+
+Firstly, on both epistemic and strategic accounts of democracy, the method of inclusion used to bound the demos has a clear impact on the outcome of a democratic process, in this case simple majority voting.  Given a some fixed distribution of agents over a political space, how 
+      
+      
+    process.argv.forEach (val, index, array) ->
+      runStrategicSimulation() if val is 'strategic'
+      runEpistemicSimulation() if val is 'epistemic'
+    

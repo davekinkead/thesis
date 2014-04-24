@@ -238,27 +238,24 @@ Carol Gould takes a distinct but similar approach-all our lives are affected by 
 While each of these accounts is based on different principles (Singer's on equality, Gould's on liberty), one common characteristic is that both value democracy as a way of realising individual aims within a collective setting.  So one way that strategic accounts can be assessed is by measuring the fidelity of individual belief or preference to the collective outcome.      
     
     
-    
-    #fidelity = (space) ->
-    #  results = { 'winners': 0, 'from': 0 }
-    #  for polity in space.polities
-    #    votes = vote polity
-    #    numerator = 0 
-    #    demonimator = 0
-    #    for key, val of votes
-    #      results.winners += val if key is votes.winner
-    #      results.from += val unless key is 'winner'
-    #  results
-      
-    
-    strategicSimulation = (agents, partitions, clustering, trials) ->
+    fidelity = (space) ->
+      winners = 0
+      population = 0
+      for polity in space.polities
+        election = vote polity
+        for key, val of election
+          winners += val if key is election.winner
+          population += val unless key is 'winner'
+      winners / population 
+        
+    simulateStrategicDemocracy = (agents, partitions, clustering, trials) ->
       space = new Space( agents, clustering )
-      results = { trials: {} }
+      results = { 'a': agents, 'p': partitions, 'c': clustering, 'trials': [] }
       for num in [1..trials]
-        results.trials[num] = fidelity space.partition partitions
+        results.trials.push fidelity space.partition partitions       
       results
 
-      
+
 Implications
 
 - Increasing polities increases the likelihood of individual agent preference being realised
@@ -285,17 +282,8 @@ Firstly, on both epistemic and strategic accounts of democracy, the method of in
 
     runStrategicSimulation = () ->  
       for c in [0..10]
-        ss = strategicSimulation {'blue': 510, 'red': 490}, 5, c / 10, 500
-
-        arr = for trial, results of ss.trials
-          results.winners / results.from
-
-        #console.log ave(arr).toFixed(15)
-        #console.log "C: #{c} \tM: #{ave(arr).toFixed(15)} \tSD: #{stdev(arr).toFixed(15)}"
-    
-    testSim = () ->
-      es = simulateEpistemicDemocracy {'right': 510, 'wrong': 400}, 20, 0, 500
-      console.log ave(es.trials).toFixed(15)
+        ss = simulateStrategicDemocracy {'blue': 510, 'red': 490}, 5, c / 10, 500
+        console.log "C: #{c / 10} \tM: #{ave(ss.trials).toFixed(15)} \tSD: #{stdev(ss.trials).toFixed(15)}"
   
     process.argv.forEach (val, index, array) ->
       runStrategicSimulation() if val is 'strategic'

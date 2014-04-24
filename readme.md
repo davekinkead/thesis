@@ -10,9 +10,15 @@ The `draft` branch will be my primary work-in-progress branch.  I'll create sepa
 
 Hopefully, this will mean that only the `public` branch will be visible, unless of course someone goes diving into the branches and history.  And if that's the case, it should be obvious that they are looking at raw ideas.
 
-### About the paper
+## About the paper
 
 The content of this paper will also be pretty unique.  I'll be modelling a foundational problem in democratic theory using computer simulations to generate probability functions in order to shed light on the extend and nature of the problem.  You can read the [abstract here](/abstract.md/). And because I'll be using Literal Coffeescript, the paper will also be the code for the simulation.  Pretty sweet eh?
+
+
+## Presentations
+
+I presented a work-in-progress to the Munich Centre for Mathematical Philosophy on 23 Apr 2014.  A copy of the [presentation](munich.coffee.md) is now available here and (shortly) on iTunes University.
+
 
 **Dave Kinkead**  
 University of Queensland

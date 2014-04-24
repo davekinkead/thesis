@@ -288,6 +288,3 @@ Firstly, on both epistemic and strategic accounts of democracy, the method of in
     process.argv.forEach (val, index, array) ->
       runStrategicSimulation() if val is 'strategic'
       runEpistemicSimulation() if val is 'epistemic'
-      testSim() if val is 'test'
-
-    

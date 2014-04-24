@@ -186,15 +186,13 @@
 
 ```
 
-    simpleMajorityVote = (space) ->
-      results = []
-      for polity in space.polities
-        votes = {}
-        for agent in polity
-          if votes.hasOwnProperty agent.belief then votes[agent.belief]++ else votes[agent.belief] = 1
-        max = Math.max.apply null, (num for belief, num of votes)
-        results.push belief for belief, num of votes when num is max
-      results
+    vote = (polity) ->
+      votes = {}
+      for agent in polity
+        if votes.hasOwnProperty agent.belief then votes[agent.belief]++ else votes[agent.belief] = 1       
+      max = Math.max.apply null, (num for belief, num of votes)
+      votes.winner = belief for belief, num of votes when num is max
+      votes
 
 ```
 
@@ -218,36 +216,27 @@
 
 ```
 
-    sum      = (arr) -> arr.reduce (a,b) -> a + b    
-    ave      = (arr) -> sum(arr) / arr.length
-    variance = (arr) ->
-      mean = ave(arr)
-      (arr.reduce ( (a,b) -> a + (mean-b)*(mean-b)), 0) / arr.length
-    stdev    = (arr) -> Math.sqrt( variance arr)
-    
-    epistemicSimulation = (agents, partitions, clustering, trials) ->
+    epistemicVirtue = (space) ->
+      correctVotes = 0
+      for polity in space.polities
+        election = vote polity
+        correctVotes += 1 if election.winner is 'right'
+      correctVotes / space.polities.length
+
+    simulateEpistemicDemocracy = (agents, partitions, clustering, trials) ->
       space = new Space( agents, clustering )
-      results = { 'total': {'right':0, 'wrong':0}, trials: {} }
+      results = { 'a': agents, 'p': partitions, 'c': clustering, 'trials': [] }
       for num in [1..trials]
-        results.trials[num] = {'right':0, 'wrong':0}
-        votes = simpleMajorityVote space.partition partitions
-        for vote in votes
-          results.trials[num][vote]++
-          results.total[vote]++
+        results.trials.push epistemicVirtue space.partition partitions       
       results
 
 ```
 
 ----
 
-- [510/490 Agents, 0.0 clustering](file:///Users/dave/Dropbox/Research/papers/modelling%20the%20boundary%20probelm/graphs/epi-51-no-cluster.html)
-- [510/490 Agents, 0.5 clustering](file:///Users/dave/Dropbox/Research/papers/modelling%20the%20boundary%20probelm/graphs/epi-51-part-cluster.html)
-- [510/490 Agents, 1.0 clustering](file:///Users/dave/Dropbox/Research/papers/modelling%20the%20boundary%20probelm/graphs/epi-51-full-cluster.html)
-- [600/400 Agents, 0.0 clustering](file:///Users/dave/Dropbox/Research/papers/modelling%20the%20boundary%20probelm/graphs/epi-60-no-cluster.html)
-- [600/400 Agents, 1.0 clustering](file:///Users/dave/Dropbox/Research/papers/modelling%20the%20boundary%20probelm/graphs/epi-60-full-cluster.html)
-- [510/490 Agents, 0.0 clustering adjusted](file:///Users/dave/Dropbox/Research/papers/modelling%20the%20boundary%20probelm/graphs/epi-51-no-cluster-cjt.html)
-- [600/400 Agents, 0.0 clustering adjusted](file:///Users/dave/Dropbox/Research/papers/modelling%20the%20boundary%20probelm/graphs/epi-60-no-cluster-cjt.html)
 
+- [1000 agents 51% correct 500 trials - polity number](graphs/epi-51-partitioning.html)
+- [1000 agents 51% correct 500 trials - cluster strength](graphs/epi-51-clustering.html)
 
 
 ----
@@ -286,30 +275,21 @@
 
 ```
 
-    vote = (polity) ->
-      votes = {}
-      for agent in polity
-        if votes.hasOwnProperty agent.belief then votes[agent.belief]++ else votes[agent.belief] = 1       
-      max = Math.max.apply null, (num for belief, num of votes)
-      votes.winner = belief for belief, num of votes when num is max
-      votes
-      
     fidelity = (space) ->
-      results = { 'winners': 0, 'from': 0 }
+      winners = 0
+      population = 0
       for polity in space.polities
-        votes = vote polity
-        numerator = 0 
-        demonimator = 0
-        for key, val of votes
-          results.winners += val if key is votes.winner
-          results.from += val unless key is 'winner'
-      results
-      
-    strategicSimulation = (agents, partitions, clustering, trials) ->
+        election = vote polity
+        for key, val of election
+          winners += val if key is election.winner
+          population += val unless key is 'winner'
+      winners / population 
+    
+    simulateStrategicDemocracy = (agents, partitions, clustering, trials) ->
       space = new Space( agents, clustering )
-      results = { trials: {} }
+      results = { 'a': agents, 'p': partitions, 'c': clustering, 'trials': [] }
       for num in [1..trials]
-        results.trials[num] = fidelity space.partition partitions
+        results.trials.push fidelity space.partition partitions       
       results
 
 ```
@@ -318,12 +298,8 @@
 ----
 
 
-- [510/490 Agents, 0.0 clustering](file:///Users/dave/Dropbox/Research/papers/modelling%20the%20boundary%20probelm/graphs/stg-51-no-cluster.html)
-- [510/490 Agents, 0.5 clustering](file:///Users/dave/Dropbox/Research/papers/modelling%20the%20boundary%20probelm/graphs/stg-51-part-cluster.html)
-- [510/490 Agents, 1.0 clustering](file:///Users/dave/Dropbox/Research/papers/modelling%20the%20boundary%20probelm/graphs/stg-51-full-cluster.html)
-- [600/400 Agents, 0.0 clustering](file:///Users/dave/Dropbox/Research/papers/modelling%20the%20boundary%20probelm/graphs/stg-60-no-cluster.html)
-- [600/400 Agents, 0.5 clustering](file:///Users/dave/Dropbox/Research/papers/modelling%20the%20boundary%20probelm/graphs/stg-60-part-cluster.html)
-- [600/400 Agents, 1.0 clustering](file:///Users/dave/Dropbox/Research/papers/modelling%20the%20boundary%20probelm/graphs/stg-60-full-cluster.html)
+- [1000 agents 51% correct 500 trials - polity number](graphs/stg-51-partitioning.html)
+- [1000 agents 51% correct 500 trials - cluster strength](graphs/stg-51-clustering.html)
 
 
 ----
@@ -382,27 +358,25 @@ https://github.com/davekinkead/modelling-the-boundary-problem
 
 ```
 
+    sum      = (arr) -> arr.reduce (a,b) -> a + b    
+    ave      = (arr) -> sum(arr) / arr.length
+    variance = (arr) ->
+      mean = ave(arr)
+      (arr.reduce ( (a,b) -> a + (mean-b)*(mean-b)), 0) / arr.length
+    stdev    = (arr) -> Math.sqrt( variance arr)
+
     runEpistemicSimulation = () ->
       for c in [0..10]
-        es = epistemicSimulation {'right': 510, 'wrong': 400}, 20, c / 10, 500
-        arr = for trial, results of es.trials
-          results.right / (results.right + results.wrong)
-        console.log ave(arr).toFixed(15)
-        #console.log "C: #{c / 10} \tM: #{ave(arr).toFixed(15)} \tSD: #{stdev(arr).toFixed(15)}"
-    
+        es = simulateEpistemicDemocracy {'right': 510, 'wrong': 400}, 20, c / 10, 500
+        console.log "C: #{c / 10} \tM: #{ave(es.trials).toFixed(15)} \tSD: #{stdev(es.trials).toFixed(15)}"
+
     runStrategicSimulation = () ->  
       for c in [0..10]
-        ss = strategicSimulation {'blue': 510, 'red': 490}, 5, c / 10, 500
+        ss = simulateStrategicDemocracy {'blue': 510, 'red': 490}, 5, c / 10, 500
+        console.log "C: #{c / 10} \tM: #{ave(ss.trials).toFixed(15)} \tSD: #{stdev(ss.trials).toFixed(15)}"
 
-        arr = for trial, results of ss.trials
-          results.winners / results.from
-    
-        console.log ave(arr).toFixed(15)
-        #console.log "C: #{c} \tM: #{ave(arr).toFixed(15)} \tSD: #{stdev(arr).toFixed(15)}"
-        
-      
     process.argv.forEach (val, index, array) ->
       runStrategicSimulation() if val is 'strategic'
-      runEpistemicSimulation() if val is 'epistemic'
-    
+      runEpistemicSimulation() if val is 'epistemic' 
+         
 ```

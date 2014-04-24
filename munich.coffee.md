@@ -37,7 +37,9 @@
 ----
 
 
-### _Who the people are_ is logically and temporally prior to the question of _what they decide_.
+### _Who the people are_ 
+### is logically and temporally prior to the question of 
+### _what they decide_.
 
 
 
@@ -334,7 +336,7 @@
 
 
 - increasing polities increases the likelihood of individual agent preference being realised
-- especially in smaller populations
+- especially true in smaller populations
 - effect increases as clustering increases
 - polity number has opposing effects for epistemic vs strategic accounts
 
@@ -363,12 +365,16 @@
 ----
 
 
-- The impact of the Boundary Problem is not obvious
-- How the effect of partitioning depends of the democratic account
+- the impact of the Boundary Problem is not obvious
+- how the effect of partitioning depends of the democratic account
+- this can only be said about difference making accounts of democracy
+- conflict between epistemic and strategic accounts of democracy
 
 
 ----
 
+
+https://github.com/davekinkead/modelling-the-boundary-problem
 
 
 ----
@@ -377,21 +383,22 @@
 ```
 
     runEpistemicSimulation = () ->
-      for p in [1..50]
-        es = epistemicSimulation {'right': 510, 'wrong': 400}, p, 0.0, 500
+      for c in [0..10]
+        es = epistemicSimulation {'right': 510, 'wrong': 400}, 20, c / 10, 500
         arr = for trial, results of es.trials
           results.right / (results.right + results.wrong)
-        console.log "P: #{p} \tM: #{ave(arr).toFixed(15)} \tSD: #{stdev(arr).toFixed(15)}"
+        console.log ave(arr).toFixed(15)
+        #console.log "C: #{c / 10} \tM: #{ave(arr).toFixed(15)} \tSD: #{stdev(arr).toFixed(15)}"
     
     runStrategicSimulation = () ->  
-      for p in [1..50]
-        ss = strategicSimulation {'blue': 600, 'red': 400}, p, 1.0, 500
+      for c in [0..10]
+        ss = strategicSimulation {'blue': 510, 'red': 490}, 5, c / 10, 500
 
         arr = for trial, results of ss.trials
           results.winners / results.from
     
         console.log ave(arr).toFixed(15)
-        #console.log "P: #{p} \tM: #{ave(arr).toFixed(15)} \tSD: #{stdev(arr).toFixed(15)}"
+        #console.log "C: #{c} \tM: #{ave(arr).toFixed(15)} \tSD: #{stdev(arr).toFixed(15)}"
         
       
     process.argv.forEach (val, index, array) ->

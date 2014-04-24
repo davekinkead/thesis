@@ -113,27 +113,29 @@ What follows is a very simple model of a democratic process in which the Boundar
 
 An `Agent` represents a political actor-a citizen.  Agents in this model are a simple folk who can hold a single discrete belief, which is represented formally as:
 
+
     class Agent
       constructor: (@belief) ->
+
 
 Agents exist within a `Political Space` which represents the problem domain.  The distribution of Agents across the Political Space and how they are partitioned into polities is what drives the Boundary Problem.  
 
 The Space might be characterised by Agents holding beliefs on a spectrum from highly polarised to unanimous; and how these Agents might be clustered together according to their beliefs, from high clustered `1.0` or with a uniform random distributed `0.0`.
 
+
     class Space
       constructor: (agents, clustering=0) ->
-
         # create a quota of agents based on belief
         quota = []
         @agents = []
         for belief, believers of agents
           for n in [1..believers]
-            quota.push new Agent(belief)
-        
+            quota.push new Agent(belief)      
         # cluster agents tightly or randomly
         while quota.length > 0          
           limit = Math.round( Math.random() * quota.length * (1-clustering) )
           @agents = @agents.concat quota.splice limit, 1
+
     
 A `Space` can be partitioned into different polities.  How we partition-how we answer the question of democratic inclusion-forms the crux of the Boundary Problem.  As outlined earlier, there are variety of competing accounts as to how we should bound polities so the primary purpose of this model is to demonstrate the effect of different partitions on the outcomes of democratic processes.
 
@@ -145,6 +147,7 @@ The actual number of possible unique partitions is an exponential function of th
 > A-B-C-D  
 
 Because ∑ (n choose k) is so large, I am going to use a stochastic algorithm to recursively divide the largest partition of the space at a random point until the desired number of partitions are produced.  Then, Montecarlo simulation can then be used to generate a sufficient number of partition conbinations.
+
 
     Space.prototype.partition = (n) ->
       @polities = [@agents]
@@ -165,18 +168,15 @@ With the entities of the model defined, we can now focus on how the entities int
 
 The simplest procedure is majority voting on a binary issue.  We are going to assume that all agents vote according to their beliefs and don't engage in any strategic voting, and formalising an algorithm to calculate the most frequent belief in each polity across a space give us:
 
-    simpleMajorityVote = (space) ->
-      results = []
-      for polity in space.polities
-        votes = {}
-        for agent in polity
-          if votes.hasOwnProperty agent.belief then votes[agent.belief]++ else votes[agent.belief] = 1
+
+    vote = (polity) ->
+      votes = {}
+      for agent in polity
+        if votes.hasOwnProperty agent.belief then votes[agent.belief]++ else votes[agent.belief] = 1       
+      max = Math.max.apply null, (num for belief, num of votes)
+      votes.winner = belief for belief, num of votes when num is max
+      votes
         
-        max = Math.max.apply null, (num for belief, num of votes)
-        results.push belief for belief, num of votes when num is max
-
-      results
-
 
 ### Simulation
 
@@ -190,44 +190,31 @@ To do this, I will run Montecarlo simulations for a range of input variables and
 One of the most common justifications for democratic authority is epistemic-democracy has instrumental value as a truth tracking process.  Epistemic accounts can be simple like in Condorcet's Jury Theorem, or more nuanced such as Estlund's Epistemic Proceduralism.  
 
 But they all rely on the claim that democratic procedures, on average, are better at determining an independently correct result than competing procedures.
+
+
+    epistemicVirtue = (space) ->
+      correctVotes = 0
+      for polity in space.polities
+        election = vote polity
+        correctVotes += 1 if election.winner is 'right'
+      correctVotes / space.polities.length
   
-    sum = (arr) -> arr.reduce (a,b) -> a + b
-    
-    ave = (arr) -> sum(arr)/arr.length
-    
-    variance = (arr) ->
-      mean = ave(arr)
-      (arr.reduce ( (a,b) -> a + (mean-b)*(mean-b)), 0) / arr.length
-      
-    stdev = (arr) -> Math.sqrt( variance arr)
-    
-    epistemicSimulation = (agents, partitions, clustering, trials) ->
+    simulateEpistemicDemocracy = (agents, partitions, clustering, trials) ->
       space = new Space( agents, clustering )
-      results = { 'total': {'right':0, 'wrong':0}, trials: {} }
+      results = { 'a': agents, 'p': partitions, 'c': clustering, 'trials': [] }
       for num in [1..trials]
-        results.trials[num] = {'right':0, 'wrong':0}
-        votes = simpleMajorityVote space.partition partitions
-        for vote in votes
-          results.trials[num][vote]++
-          results.total[vote]++
+        results.trials.push epistemicVirtue space.partition partitions       
       results
+  
 
 So to what extent does partitioning the space in different ways alter the truth tracking capacity of democracy?  Let's start with a space containing 1000 randomly distribute agents, 60% of who hold the correct belief and will therefore vote for the correct answer.
     
 Partitioning the space into a single polity and using simple majority voting should result in the single polity voting correctly each time.  100 iterations demonstrates this to be the case
-    
-    runEpistemicSimulation = () ->
-      for p in [1..50]
-        #es = epistemicSimulation {'right': 510, 'wrong': 490}, p, 0.0, 500
-        es = epistemicSimulation {'right': .51*p*100, 'wrong': .49*p*100}, p, 0.25, 500
-    
-        arr = for trial, results of es.trials
-          results.right / (results.right + results.wrong)
-      
-        console.log "P: #{p} \tM: #{ave(arr).toFixed(15)} \tSD: #{stdev(arr).toFixed(15)}"
+
     
 
 Implications
+
 - increasing polity numbers decreases the likelihood of a correct outcome
 - this is especially true with lower population polities
 - the model doesn't show partitioning differences once we account for the CJT effect
@@ -250,25 +237,20 @@ Carol Gould takes a distinct but similar approach-all our lives are affected by 
 
 While each of these accounts is based on different principles (Singer's on equality, Gould's on liberty), one common characteristic is that both value democracy as a way of realising individual aims within a collective setting.  So one way that strategic accounts can be assessed is by measuring the fidelity of individual belief or preference to the collective outcome.      
     
-    vote = (polity) ->
-      votes = {}
-      for agent in polity
-        if votes.hasOwnProperty agent.belief then votes[agent.belief]++ else votes[agent.belief] = 1       
-      max = Math.max.apply null, (num for belief, num of votes)
-      votes.winner = belief for belief, num of votes when num is max
-      votes
+    
+    
+    #fidelity = (space) ->
+    #  results = { 'winners': 0, 'from': 0 }
+    #  for polity in space.polities
+    #    votes = vote polity
+    #    numerator = 0 
+    #    demonimator = 0
+    #    for key, val of votes
+    #      results.winners += val if key is votes.winner
+    #      results.from += val unless key is 'winner'
+    #  results
       
-    fidelity = (space) ->
-      results = { 'winners': 0, 'from': 0 }
-      for polity in space.polities
-        votes = vote polity
-        numerator = 0 
-        demonimator = 0
-        for key, val of votes
-          results.winners += val if key is votes.winner
-          results.from += val unless key is 'winner'
-      results
-      
+    
     strategicSimulation = (agents, partitions, clustering, trials) ->
       space = new Space( agents, clustering )
       results = { trials: {} }
@@ -276,16 +258,9 @@ While each of these accounts is based on different principles (Singer's on equal
         results.trials[num] = fidelity space.partition partitions
       results
 
-    runStrategicSimulation = () ->  
-      for p in [1..50]
-        ss = strategicSimulation {'blue': .5*p*100, 'red': .5*p*100}, p, 0.50, 100
-
-        arr = for trial, results of ss.trials
-          results.winners / results.from
-        
-        console.log "P: #{p} \tM: #{ave(arr).toFixed(15)} \tSD: #{stdev(arr).toFixed(15)}"
       
 Implications
+
 - Increasing polities increases the likelihood of individual agent preference being realised
 - this is especially true with lower population polities
 
@@ -294,9 +269,37 @@ Implications
 While I've only examined two accounts of democratic authority from the wide array of accounts offered by political theorists, the data from the simulation allows us to make the following inferences.
 
 Firstly, on both epistemic and strategic accounts of democracy, the method of inclusion used to bound the demos has a clear impact on the outcome of a democratic process, in this case simple majority voting.  Given a some fixed distribution of agents over a political space, how 
-      
-      
+
+
+    sum      = (arr) -> arr.reduce (a,b) -> a + b    
+    ave      = (arr) -> sum(arr) / arr.length
+    variance = (arr) ->
+      mean = ave(arr)
+      (arr.reduce ( (a,b) -> a + (mean-b)*(mean-b)), 0) / arr.length
+    stdev    = (arr) -> Math.sqrt( variance arr)
+
+    runEpistemicSimulation = () ->
+      for c in [0..10]
+        es = simulateEpistemicDemocracy {'right': 510, 'wrong': 400}, 20, c / 10, 500
+        console.log "C: #{c / 10} \tM: #{ave(es.trials).toFixed(15)} \tSD: #{stdev(es.trials).toFixed(15)}"
+
+    runStrategicSimulation = () ->  
+      for c in [0..10]
+        ss = strategicSimulation {'blue': 510, 'red': 490}, 5, c / 10, 500
+
+        arr = for trial, results of ss.trials
+          results.winners / results.from
+
+        #console.log ave(arr).toFixed(15)
+        #console.log "C: #{c} \tM: #{ave(arr).toFixed(15)} \tSD: #{stdev(arr).toFixed(15)}"
+    
+    testSim = () ->
+      es = simulateEpistemicDemocracy {'right': 510, 'wrong': 400}, 20, 0, 500
+      console.log ave(es.trials).toFixed(15)
+  
     process.argv.forEach (val, index, array) ->
       runStrategicSimulation() if val is 'strategic'
       runEpistemicSimulation() if val is 'epistemic'
+      testSim() if val is 'test'
+
     

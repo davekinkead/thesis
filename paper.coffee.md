@@ -1,26 +1,8 @@
 # What's the Problem with the Boundary Problem?
 
+- abstract here
 
-### Background
-
-My name is Dave Kinkead and I'm (hopefully) in the finally year of a PhD in Political Philosophy at the University of Queensland.  My work mainly focuses on normative democratic theory, and my dissertation examines an number of contradictions and paradoxes that lie at the foundations of democratic theory-paradoxes that seep up and undermine subsequent accounts of democratic legitimacy.
-
-The paper that I'm going to present today concerns one of those issues and has become known in the literature as the Boundary Problem of Democratic Theory.
-
-The plan for today is pretty straight forward.  
-
-1. The Problem
-2. The Methodology
-3. The Simulation
-4. The Implications
-
-I'm going to start with a brief overview of the Boundary Problem, how it undermines accounts of democratic legitimacy, and how it has been addressed in the literature.  
-
-Next, I'll provide a short justification for the methodology I'm using.  This paper is somewhat different to standard philosophical fare in that it involves computer simulation.  And while there is nothing particularly new about formal modelling in philosophy, what makes my approach unique is that this paper, is that the paper is simultaneously a philosophical argument and computer simulation.  The formalisations within the paper are machine readable so the same document is both the paper and the source code for the simulation it discusses.  I can go over the details of this in the Q&A if anyone wants more information about this.
-
-The bulk of the presentation however, will involve stepping through some computer modelling of democratic processes and exploring the implications of the results from the simulation.  I'm really looking forward to some critical feedback concerning both the results and methodology.
-
-### The Problem
+## Introduction
 
 Democracy begins with the people; democratic theory simply presupposes them.  Who the people are is of fundamental importance for democratic theory because exactly who make up the people largely predetermines the outcome of any democratic process.  Draw the boarders of a political community in one location rather than another, include these people in the political process rather than those, and the outcomes of those processes will likely be very different.
 
@@ -69,7 +51,7 @@ I certainly all other political theorists writing about the issue on 1. the prob
 The aim of this paper is to show that the problem is not self evidence or obvious, that the Boundary Problem is in fact three distinct but related problems, of which only some affect only certain accounts of democratic legitimacy.
 
 
-### Three Problems
+## Three Problems
 
 The Boundary Problem is really three distinct but interconnected problems. The first of these, what we might call the _justification problem_, is that a democracy cannot determine who should be a member of it democratically. 
 
@@ -94,7 +76,7 @@ And when the basis of democracy’s legitimising claims rest the difference maki
 Its this last problem of predetermination that I now wish to explore.
 
 
-### Methodology
+## Methodology
 
 One important reason that the specifics of the Boundary Problem have received such little attention is the paucity of empiric evidence to examine.  The Boundary Problem is a _what if_ problem; it's counter-factual nature, that if the accidents of history had consigned the boarders of some state elsewhere, then the people of that state would have decided differently, makes contrastive evaluations difficult.  
 
@@ -105,11 +87,11 @@ Generative approaches by contrast, allow us to investigating the problem in plac
 I'm not going to address any specific concerns regarding the philosophy of simulations here or what type of knowledge simulations can help us accrue, but I don't seen any concerns with the claim that modelling allows us to formalise our assumptions and demonstrate the coherence or lack there of between them.
 
 
-### The Model
+## The Model
 
 What follows is a very simple model of a democratic process in which the Boundary Problem can arise.  The model comprises three distinct conceptual entities: political agents, groupings of agents into associations or polities, which exist within the problem domain or political space.  
 
-#### Entities
+### Entities
 
 An `Agent` represents a political actor-a citizen.  Agents in this model are a simple folk who can hold a single discrete belief, which is represented formally as:
 
@@ -162,7 +144,7 @@ Because ∑ (n choose k) is so large, I am going to use a stochastic algorithm t
       this
       
     
-#### Decision Mechanisms
+### Decision Mechanisms
 
 With the entities of the model defined, we can now focus on how the entities interact by modelling democratic processes.  And while there are a number of democratic processes that can be used to decide such as sortition or deliberation, the most ubiquitous method is of course voting.
 
@@ -178,14 +160,14 @@ The simplest procedure is majority voting on a binary issue.  We are going to as
       votes
         
 
-### Simulation
+## Simulation
 
 Now that the model has been formalised, we can begin simulating the effects of partitioning a space characterised by agent composition, clustering, belief.  The objective is to examine to what extent the outcomes of democratic processes within a static political space change as the space is repartitioned.
 
 To do this, I will run Montecarlo simulations for a range of input variables and assess the resultant data's implication for a variety of accounts of democratic authority.
 
 
-#### Epistemic Justifications
+### Epistemic Justifications
 
 One of the most common justifications for democratic authority is epistemic-democracy has instrumental value as a truth tracking process.  Epistemic accounts can be simple like in Condorcet's Jury Theorem, or more nuanced such as Estlund's Epistemic Proceduralism.  
 
@@ -225,7 +207,7 @@ Implications
 - strong clustering of beliefs undermines the episitemic value of voting
 - the problem with this is determining how informed voters are
 
-####  Strategic Justifications
+###  Strategic Justifications
 
 Epistemic justifications of democracy are just one of many types, and one subject to a number of criticisms, not least of which is the fact that not all matters of collective decision have independently correct or preferable outcomes.
 
@@ -261,7 +243,7 @@ Implications
 - Increasing polities increases the likelihood of individual agent preference being realised
 - this is especially true with lower population polities
 
-### Conclusion
+## Conclusion
 
 While I've only examined two accounts of democratic authority from the wide array of accounts offered by political theorists, the data from the simulation allows us to make the following inferences.
 

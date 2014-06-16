@@ -1,5 +1,18 @@
 # Chapter Outline
 
+## Defining Democracy
+
+_Democracy_ is an essentially contested term.  In the political discourse of daily life, it is common to witness contradictory claims being justified as _democratic_.  Even within democratic theory, many scholars conflate democracy with the related but distinct notions of liberty, equality, voting, deliberation, and political participation.  But these conflations undermine accounts and criticisms of democratic legitimacy by failing to engage with the issues at hand and results in us talking past, rather than to, each other.
+
+Politics however is about power. And democracy, like any -ocracy, is simply a description of who wields that power.  From it's etymological foundation, the rule of the many, I clarify the essential nature of democracy and strip it of normative content, arguing that any political system where power is wielded by those whom it is wielded over is justified invoking it's name.  From there, I develop a rich taxonomy of democratic predicates that rejects the simplistic dualisms and false dichotomies found in much of contemporary democratic literature.  I show how democracy can be illiberal and totalitarian, participatory but not deliberative, or even characterised by a complete absence of voting.  Finally, I show that while many predicated forms of democracy might be desirable, democracy itself is not a virtue.
+
+## Democracy & Justification
+
+Democracy is the preeminent form of political association of our times, and given the meteoric rise in the transition to democratic rule over the last 50 years, one might expect that the reasons for this would be clear enough; that the justifications of democratic rule would warrant wide consensus; or that debate concerning the nature of democratic legitimacy might be largely settled.  Yet even a cursory survey of political thought reveals that justifications of democracy are anything but widely accepted.  The vast literature of democratic theory proposes a wide and divergent range of accounts attempting to explain the authority of democratic regimes and our obligations as citizens to them.  
+
+The failure of democratic theory to provide an agreed upon, or even coherent account of democratic authority and its legitimacy points to challenge that few theorists are prepared to acknowledge - that no broad agreement on an account justifying democratic authority exists because no account adequately justifying democratic authority can in fact exist.  Contemporary democratic theory rationalises, rather than justifies democratic authority
+
+
 ## The Problem of the People
 
 Democracy begins with the people.  The _demos_ is the _kratos_, _praxis_, and _telos_ of the state.

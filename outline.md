@@ -1,6 +1,10 @@
-# Thesis Chapter Outline
+# Thesis Outline
 
-_Bootstrapping Democracy_ is an examination of the problems and paradoxes that lie at the foundations of democratic theory - problems that seep up and undermine subsequent accounts of democratic legitimacy.  I outline a number of these problems - paradoxes of procedures, the limits of liberalism, and problems of democratic inclusion - that collectively form what I call the _Bootstrap Paradox_ - the inability of democracy to justify itself democratically.
+_Bootstrapping Democracy_ is an examination of the problems and paradoxes that lie at the foundations of democratic theory - problems that seep up and undermine subsequent accounts of democratic legitimacy.  The question I am attempting to answer is this:
+
+> How do the issues of democratic inclusion, scope, and realisation affect justifications of democratic authority?
+
+I outline a number of problems - paradoxes of procedures, the limits of liberalism, and problems of democratic inclusion - that collectively form what I call the _Bootstrap Paradox_ - the inability of democracy to justify itself democratically.
 
 Bootstrapping Democracy currently has two possible forms based on my final conclusion (and therefore ultimate thesis statement) which I am yet to settle on - a pessimistic version and an optimistic one.  In the pessimistic version, I argue that no account democracy constrained by the existing conception of nation states with their claims of exclusive territorial sovereignty can be internally consistent and coherent.  As such, I use the Bootstrap Paradox to argue that because actual democracies cannot be _justified_ by any account of democracy, democratic theory can only be used to _rationalise_ particular political power structures.  The noble claims of willing consent, epistemic virtue, and beneficial consequences made by various democratic accounts are in the end just vacuous sophistry, serving only to ensure the smooth acquiescence of the demos to existing power structures.
 
@@ -63,11 +67,11 @@ Rawls, Gaus and other liberal theorists have proposed variants of liberal theory
 
 ## Bootstrapping Democracy
 
-> Included only in the optimistic version
+> Included only both versions
 
 In this chapter, I explore whether democracy can solve these problems by picking itself up from its own theoretical bootstraps. Procedural accounts of democratic legitimacy cannot recover from founding paradoxes without turning into utopian or substantive accounts.  Substantive accounts seem unable to simultaneously underpin democratic legitimacy and solve the boundary problem. But what if we could develop an account where adherence to the process is also the realisation of the substantive ideal? We would then have a potential way to bootstrap our way out of these dilemmas.  We would be able to bootstrap democracy.
 
-My starting point is the identification of what exactly democratic theory needs to justify in order to claim legitimacy.  Here, I argue that unlike accounts based on affect or coercion, democratic theory only needs to justify its political authority - the moral obligation to be obeyed _simply_ because it is commanded.
+My starting point is the identification of what exactly democratic theory needs to justify in order to claim legitimacy.  Here, I argue that unlike accounts based on affect or coercion, democratic theory only needs to justify its political authority - the moral obligation to be obeyed _simply_ because it is commanded.  From there, I identify which conditions must be realised, and which must be relaxed, in order to generate a coherent account of democratic authority.
 
 
 ## Reciprocal Autonomy

@@ -7,7 +7,7 @@ The argument takes the form of a series of premise claims supporting some conclu
 The evolution of this document will be non-linear.  Claims will be added in any order based on the random state of my thoughts at any given time.  Once freed from their cognitive prison, these draft thoughts can be later polished into chapters.
 
 
-1. If a political theory is justified, then it must be supported by a coherent set of normative claims
+1. [If a political theory is justified, then it must be supported by a coherent set of normative claims](thoughts/justified-political-theories-are-coherent-normative-claims.md)
 
     1. Political theories can either be justified or unjustified
 

@@ -6,6 +6,17 @@ status: First Draft
 license: CC-BY-SA-NC
 ---
 
+
+1. If you want coherent democracy then you need liberal democracy
+  - illiberal democracy conflicts with democratic ideals
+  - you can only have non-substantive democracy
+2. Liberal democracy requires that we are either liberal democrats or democratic liberals
+3. Cant be a liberal democrat
+  - cant reconcile democratically
+4. Cant be a democratic liberal
+  - cant reconcile non-impositionally
+5. Therefore cant have coherent democracy
+
 # The Limits of Liberalism
 
 This chapter argues that while we want both liberalism and democracy, the requirements of liberalism are incompatible with democratic processes.  Public reason liberalism offers a possible solution to this dilemma but one that cannot be realised in either the context of fixed political associations or reasonable pluralism.

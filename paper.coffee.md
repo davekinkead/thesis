@@ -1,5 +1,5 @@
 ---
-title: What's the problem with the Boundary Problem?
+title: Authority, Inclusion, & Incompatibility
 author: Dave Kinkead
 email: d.kinkead@uq.edu.au
 status: draft
@@ -7,7 +7,15 @@ license: CC-BY-SA
 bibliography: /Users/dave/Dropbox/Research/Reading Notes/.library.bibtex
 ---
 
-# What's the problem with the Boundary Problem?
+# Authority, Inclusion, & Incompatibility
+
+- Abstract
+- Introduction
+  - the relation between inclusion and authority is overlooked
+  - mixed bag or hybrid justifications are important
+  - I show that accounts of inclusion must be congruent with accounts of authority
+  - Because of this, some accounts of democratic authority are incompatible with others
+
 
 ---
 

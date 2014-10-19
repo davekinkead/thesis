@@ -1,0 +1,13 @@
+---
+preface: 
+  - preface.txt
+chapters: 
+  - Introduction.md
+  - Defining Democracy.md
+  - Legitimacy & Justification.md
+  - The Problem of the People.md
+  - Paradoxes of Procedure.md
+  - The Limits of Liberalism.md
+  - Necessarily Necessary.md
+  - Rationalising Democracy.md
+bibliography: auto

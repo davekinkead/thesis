@@ -42,7 +42,15 @@ Public justification & PR Liberalism acknowledge that we may have different reas
 
 ### The Problem of the people
 
-Justifications of democracy that are influenced by inclusion cannot be coherent.
+For an instrumentalist justification of democracy, it must demonstrate that:
+
+1. it brings about some state of affairs better than alternative forms of democracy
+
+2. bringing about that state of affairs is sufficient to demand obedience
+
+
+- undermines authority based on reasonable consensus
+- undermines authority based on associative obligations
 
 
 

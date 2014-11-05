@@ -4,14 +4,14 @@ Firstly, lets distinguish between Political Theory and political theories.  The 
 
 What then does it mean for a political theory to be justified? In everyday language, to justify something means simply to give reasons in support of it.  Clearly however, just any reasons are not enough.  Consider the following:
 
-> Roses are red,
-> Violets are blue,
+> Roses are red,  
+> Violets are blue,  
 > Therefore the use of force to ensure radical egalitarianism is morally permissible. 
 
 Clearly something is wrong with this 'justification', not least of which includes the faulty conclusion.  Firstly there is no logical entailment between the premises and conclusion.  But even if there were, it would likely still not be enough to adequately justify the claim in question:
 
-> If roses are red, then the use of force to ensure radical egalitarianism is morally permissible. 
-> Roses are red
+> If roses are red, then the use of force to ensure radical egalitarianism is morally permissible.  
+> Roses are red  
 > Therefore the use of force to ensure radical egalitarianism is morally permissible. 
 
 We now have logical validity but clearly lack soundness thanks to premise one.  So perhaps then any justification of a political theory requires a sound argument.  And 'logically sound reasons' certainly seems like a sufficient criterion for the justification of political theories.  After all, who could deny claims that are both logically valid and true?
@@ -20,7 +20,7 @@ The immediate problem with this conception of justification however is that it i
 
 Political beliefs typically concern values.  And values, like any preference, rarely contain any claim to some objective truth content.  That's because values are agent relative.....[need an argument here for value over truth]
 
-So if truth, and therefore soundness, are too demanding a criterion for justification of political theories, what about validity?  Again, this requirement also seems to require too much.  Validity implies entailment which in turn implies binary matters of fact.  Our world however, and especially our political life, is anything but binary.  The types of claims we make are rarely absolute but rather matters of degree500*s.  This means that our 'political logic' will often consist of inductive rather than deductive arguments, denying the very possibility of logical validity.
+So if truth, and therefore soundness, are too demanding a criterion for justification of political theories, what about validity?  Again, this requirement also seems to require too much.  Validity implies entailment which in turn implies binary matters of fact.  Our world however, and especially our political life, is anything but binary.  The types of claims we make are rarely absolute but rather matters of degrees.  This means that our 'political logic' will often consist of inductive rather than deductive arguments, denying the very possibility of logical validity.
 
 A much more plausible criteria for the justification of political beliefs then is coherence.  Coherence is compatible with soundness, validity, inductive strength, and any other logical relationship short of contradiction.  It permits any compatible set of claims but therein lies another problem.  Coherence alone is too permissive, allowing arguments like our earlier examples.
 

@@ -12,8 +12,11 @@ Democracy: A system of government characterised by popular sovereignty and polit
 
 Democratic Theory: Any normative account of how democratic systems of government can give rise to political authority.
 
-
 An Argument...
+
+Because, Democracy!
+
+...democracy gives us 
 
 ## Political authority requires justification.  
 
@@ -26,6 +29,11 @@ Political realists however dispute any legitimating requirement.  The exercise o
 Willing acceptance of authority requires at least the belief that the authority is legitimate.  This belief however need not be correct. One could believe an authority to be legitimate despite it's reasons not satisfying the justification requirement.  Or one could believe an authority to be illegitimate despite it's reasons being fully justified.  What people do actually belief often differs from what they ought to rationally believe. I offer this claim then, that political authority requires justification, as a conditional.
 
 For a democratic authority to be legitimate then, it must be justified.  It must show that it does in fact, generate content independent and pre-emptive reasons to be obeyed.
+
+## Types of Justifications
+
+Democratic authority has been justified in different ways
+
 
 
 
@@ -47,9 +55,17 @@ The challenge for democracy is that democratic theory cannot provide an account 
 
 ## The Limits of Limits
 
+- democracy needs limits
+  - without limits, democracy is just naked majoritarianism
+  - naked majoritarianism quickly decends into tyranny
+- those limits can't be determined democratically
+  - if limits are arbitrary, then the scope of democracy is arbitrary and thus lacks legitimacy
+  - if limits can be determined by majority decision, 
 
 
 ## Paradoxes of Procedures
+
+
 
 
 ## Unnecessary Necessity

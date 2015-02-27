@@ -157,25 +157,34 @@ Running a Monte Carlo simulation 216,000 times for a range of partition numbers,
 
 ![Epistemic virtue by cluster factor](graphs/epi-600-c.png)
 
-In the graph above, the impact of that repartitioning has on the epistemic virtue of a polity is clear.  In this case, given an epistemic base rate of 0.6 (ie the likelihood of a randomly selected voter being correct), the likelihood that the majority vote of polity is the correct choice is near certain when no clustering of agent belief is present, but quickly deteriorates to the epistemic base rate once belief clustering reaches 0.5. This hold for all levels of partition numbers.
+In the graph above, the impact of repartitioning on the epistemic virtue of a polity is clear.  With an epistemic base rate of 0.6 (ie the likelihood of a randomly selected voter being correct), the likelihood that the majority vote of polity is the correct choice is near certain when no clustering of agent belief is present, but quickly deteriorates to the epistemic base rate once belief clustering reaches 0.5. This hold for all levels of partition numbers.
 
 ![Epistemic virtue by partition number](graphs/epi-600-p.png)
 
-Examining the data from the perspective of partition number, we see little impact of partition number on epistemic virtue for higher cluster factors, and only limited impact for low levels of clustering, concordant with Condorcet's Theorem.
+Examining the same data from the perspective of partition number, we see little impact of partition number on epistemic virtue for higher cluster factors, and only limited impact for low levels of clustering, concordant with Condorcet's Theorem [^explain].  This relationship holds for all epistemic base rates between 0.51 and 0.99.
 
-The relationship is repeated for all epistemic base rates between 0.51 and 0.99.
+[^explain]: Condorcet's Jury Theorem posits that the likelihood of majority rule selecting the correct outcome increases as the number of voters increases (assuming voters have an independent better than even chance of voting correctly).  The 0 cluster line deceases as the same number of voters in the space is partitioned into increasing numbers of polities.
 
-These results indicate that the epistemic virtue of majority voting processes is dependent not only on individual agent belief having a greater than 50% likelihood of being correct, but also how those agent belief are distributed across the political space.  A uniform distribution of agent belief is a critical requirement of epistemic justifications of democracy like Condorcet's Theorem.  Conversly when agent belief is highly clustered, then the epistemic virtue of majority voting, and therefore epistemic justifications of authority base on it, is undermined.
+
+These results indicate that the epistemic virtue of majority voting processes is dependent not only on individual agent belief having a greater than 50% likelihood of being correct, but also how those agent belief are distributed across the political space.  
+
+A uniform distribution of agent belief is a critical requirement of epistemic justifications of democracy like Condorcet's Theorem.  Conversly when agent belief is highly clustered, then the epistemic virtue of majority voting, and therefore epistemic justifications of authority base on it, is undermined.
+
+
+  !!! Does this make sense?
 
   !!! I need to explore empiric evidence that demonstrates that people do cluster based on belief in real life
 
-From these results, we can make two claims about epsitemic accounts of democracy and accounts of democratic inclusion...
 
+For a polity to have epistemic virtue greater than the epistemic base rate of its individual voters, Condorcet's Jury Theorem requires that a polity contain sufficiently many voters with a greater and even chance of voting correctly [^how-many].  These results demonstrate however, that even when these conditions are true for a political space - the world, a nation, or a region - these conditions are not necessarily true for any partition of that space - into countries, states, or cities.
 
+[^how-many]: find a citation for the 1000 voters @ 0.51
 
-> Claim 1: For an account of democratic inclusion to be compatible with an epistemic account of democratic authority, it must ensure that:
->1. Polities are sufficiently large for the Condorcet effect to emerge, 
->2. Voters in each polities are uniformly distributed by epistemic competence.
+Furthermore, it demonstrates that any epistemic justification of democratic authority requires a corresponding account of democratic inclusion that ensures that:
+
+  1. Polities are sufficiently large for the Condorcet effect to emerge.
+
+  2. Voters in each polity are uniformly distributed by epistemic competence.
 
 
 ##  Preference Justifications
@@ -226,6 +235,8 @@ The key implication from this analysis is that accounts of democratic authority 
 
 ## Conclusion
 
+!! Yes, I need to rewrite this conclusion
+
 While I've only examined two accounts of democratic authority from the wide array of accounts offered by political theorists, the data from the simulation allows us to make the number inferences.
 
 Firstly, on both epistemic and strategic accounts of democracy, the method of inclusion used to bound the demos has a clear impact on the outcome of a democratic process, in this case simple majority voting.  Given a some fixed distribution of agents over a political space, how we partition that space has a causal effect on the the outcomes of a voting process within that space.
@@ -269,7 +280,7 @@ A number of helper functions are necessary for the simulation to work, as well a
       results
 
     save = (type, results) ->
-      fs.writeFile "graphs/#{type}.json", JSON.stringify( results ), (err) ->
+      fs.writeFile "graphs/#{type}.json", JSON.stringify( results ) , (err) ->
         if err then console.log err else console.log type + ' complete'
 
     runEpistemicSimulation = () ->
@@ -299,7 +310,8 @@ A number of helper functions are necessary for the simulation to work, as well a
             results.push { e: f, p: p, c: c, value: ave(ps.trials).toFixed(15) }
             process.stdout.write "Running #{results.length * 1000} preference trials\r"
       save 'preference', results
-      
+    
+    module.exports = { simulate: simulateDemocracy }
 
 Finally, we capture terminal inputs to start up the simulation.  To run the simulation of epistemic democracy, use the command `coffee paper.coffee.md epsitemic`.  This will execute the code embedded described in the paper above.
 

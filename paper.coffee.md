@@ -93,7 +93,7 @@ Agents are distributed in some manor across the space.  This distribution could 
       quota = @agents
       @agents = []
       while quota.length > 0
-        limit = Math.round( Math.random() * quota.length * (1-clustering) )
+        limit = Math.round( Math.random() * quota.length * (1-cluster) )
         @agents = @agents.concat quota.splice limit, 1
 
 
@@ -273,15 +273,16 @@ A number of helper functions are necessary for the simulation to work, as well a
 
 
     simulateDemocracy = (account, agents, partitions, clustering, trials) ->
-      space = new Space( agents, clustering )
+      space = new Space agents
+      space.distribute clustering
       results = { 'a': agents, 'p': partitions, 'c': clustering, 'trials': [] }
       for trial in [1..trials]
         results.trials.push space[account]( space.partition partitions )
       results
 
     save = (type, results) ->
-      fs.writeFile "graphs/#{type}.json", JSON.stringify( results ) , (err) ->
-        if err then console.log err else console.log type + ' complete'
+      fs.writeFile "graphs/#{type}.json", JSON.stringify( results, null, 2 ) , (err) ->
+        if err then console.log err
 
     runEpistemicSimulation = () ->
       results = []
@@ -307,7 +308,7 @@ A number of helper functions are necessary for the simulation to work, as well a
           for c in [0..5]
             c = c/5
             ps = simulateDemocracy( 'fidelity', {'chocolate': f, 'vanilla': 1000-f}, p, c, 1000 )
-            results.push { e: f, p: p, c: c, value: ave(ps.trials).toFixed(15) }
+            results.push { f: f, p: p, c: c, value: ave(ps.trials).toFixed(15) }
             process.stdout.write "Running #{results.length * 1000} preference trials\r"
       save 'preference', results
     
@@ -321,5 +322,3 @@ Finally, we capture terminal inputs to start up the simulation.  To run the simu
       runPreferenceSimulation() if val is 'preference'
 
 ---
-
-## Bibliography

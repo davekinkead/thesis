@@ -44,32 +44,50 @@ Each year, students apply to a school.  There preference will be dictated by rel
       schools.sort () ->
         school.performance -->
 
+Do some stuff...
+
+    schools = []
+
+    tick = (student) ->
+      [good, bad] = schools
+      student.move(good, good.y*4) if student.ability > 0.65 and Math.random() < 0.05
+      student.move(bad, bad.y*4) if student.ability < 0.35 and Math.random() < 0.05
+
 
 Let's also create a function to graphically put the students "in" the school
 
 
+    fake_gausian = (range) ->
+      Math.random()*range/8 + Math.random()*range/8 + Math.random()*range/8 - range/4
+
     Student::move = (school, range) ->
-      @x = Math.random() * range*2 + school.x/2 - range
-      @y = Math.random() * range*2 + school.y/2 - range
+      @school = school
+      @x = fake_gausian(range) + @school.x *1.1
+      @y = fake_gausian(range) + @school.y
       return this
+
 
 Finally, a build function to populate the simulation.
 
-
+    
     build = (width, height) ->
-      a = new School( 0.0 )
-      a.x = width * 0.25
-      a.y = height * 0.5
-      b = new School( 0.0 )
-      b.x = width * 0.75
-      b.y = height * 0.5
+      good = new School( 0.0 )
+      good.x = width * 0.25
+      good.y = height * 0.5
+      schools.push good
+
+      bad = new School( 0.0 )
+      bad.x = width * 0.75
+      bad.y = height * 0.5
+      schools.push bad
+
       students = for n in [1..1000]
-        school = if n % 2 is 0 then a else b
+        school = if n % 2 is 0 then good else bad
         student = new Student( Math.random() )
-        student.move( school, width * 0.4 )
+        student.move( school, width )
 
 
 We start with two schools. In each tick of the simulation, students will apply to a school of their choice and schools will admit their preferred candidates. Schools will teach students resulting in a possible change to the students ability, measured by their performance measured by standardised tests.
 
 
-    module.exports = simulation ={ build: build } 
+    module.exports = simulation ={ build: build, tick: tick } 

@@ -1,3 +1,11 @@
+---
+title: What does student performance tell us about school effectiveness?
+author: Dave Kinkead
+email: d.kinkead@uq.edu.au
+status: proof-of-concept
+license: CC BY SA
+---
+
 # What does student performance tell us about school effectiveness?
 
 Assessing teacher and school performance has become increasingly prevelent in many education systems. But directly measuring the causal impact of a school or pedagogy on student academic ability is difficult. Instead, student performance is used as a proxy for school performance.

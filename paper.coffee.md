@@ -20,53 +20,57 @@ bibliography: /Users/dave/Dropbox/Research/Reading Notes/.library.bibtex
 
 ## Introduction
 
-Many accounts of democracy justify political authority on the grounds that democratic procedures produce desirable results. According to some of these accounts, democratic processes track the truth (@condorcet).  For others, democratic process are necessary to realise the general will of the people (@rousseau), or maximizes the expected utility of voter preferences (@rae).  And for others still, it's not just the content of democratic decisions that matters so much as the moral transformation that democratic particiapation has on citizens (@mill).  Call these accounts of democracy _consequentialist_ [^qual-1].
+Many accounts of democracy justify political authority on the grounds that democratic procedures produce desirable results.  For some these accounts, we can judge the quality of a democratic outcome against some independent criteria.  Epistemic accounts like Condorcet's Jury Theorem (@condorcet) or @estlund's Epistemic Proceduralism are like this. Democratic processes track the truth and that gives us reasons to abide by their outcomes.
+
+For others, we can judge the quality of democratic outcomes against some agent relative criteria.  We see this in utilitarian justifications of democracy when majority voting maximizes the expected utility of voter preferences (@rae).  But one need not be a utilitarian to employ such an approach.  @rousseau for example, argued that majority rule realises the general will of the people and this gives us reasons to obey.
+
+And for others still, it is not the content of democratic decision making that matters so much as the effects that decision making has on participants.  This is what @mill had in mind when he argued that democracy transforms the moral character of participants.  Democratic participation makes good citizens.
+
+Call these accounts of democracy _consequentialist_ [^qual-1].
 
 [^qual-1]: By _accounts of democracy_, I mean any normative theory of democracy's value.  Not all accounts of democracy are consequenitalist.  Intrinsic accounts of democracy for example, justify political authority without any reference to specific outcomes of the democratic process, and instead appeal to substantive ideals like equality, justice.  Unless explicitely stated, _Democracy_ in this paper refers exclusively those consequentialist conceptions where outcomes do the normatvie work of legitimating political authority.
 
 The outcome of any democratic procedure is a function, in part, of who gets to participate in that procedure.  Enfranchising some people rather than others, drawing the political line on a map in one location rather than another, will often result in different outcomes that would otherwise have occured, even for identical democratic procedures.  Who is included in a particular democracy affects the particular outcomes of that democracy.
 
-To demonstrate just how this occurs, consider the following hypothetical:
+Some democractic processes are deterministic.  Voters vote according to their belief and the voting procedures determines a winning outcome.  In these cases, the outcome of a process is fully a function of who participates in that process.  On one extreme, including or excluding a single voter will change the outcome of a democratic process.  At the other extreme, over 50% of voters would need to be replaced for the outcome to change.
 
-> Should Crimea secede from the Ukraine and form a political union with Russia?
-
-Lets grant a few unlikely concessions for the sake of simplicity.  Assume that all parties involved are committed democrats - they all share a strong belief in political equality, popular sovereignty, and the rule of law.  And lets further assume that all parties have agreed to be bound by the outcome of a particular decision mechanism - say a simply majority vote referendum.
-
-In this scenario, who gets to vote determines the outcome of the vote. If only Crimeans are included in the process, then the result will be approximately 60:40 in favour of secession.  If all Ukrainians can vote, then answer will be a clear no.  And if both Russians and Ukrainians are given a say, then the outcome will be an overwhelming yes.
+Other democratic processes are indeterministic. This may be because voters themselves don't know how they will vote until the moment they cast their ballot, or because the decision mechanism itself is indeterminate such as in the case of sortition.  Still, outcomes of democratic processes remain a function of who is included in those processes.  Changing participants changes the likelihood of a particular outcome.
 
 _Who_ can determine _what_.
 
-The question of who ought be included in a political association - of how the demos ought be bounded - holds significant normative importance for democratic theory, and has become known in the literature as the _Boundary Problem_ [^other-names].  The Boundary Problem cannot however, be solved by democratic procedure alone.  In order to exercise its _kratos_, a democracy first requires a _demos_.  So in order to decide who should be included in the _demos_ democratically, a prior _demos_ must first be identified. And for the composition of that _demo_ to be decided democratically, a prior one must again be identified _ad infinitum_. 
+So if accounts of democracy justify political authority based on the outcomes of democratic processes, and the outcomes of those democratic processes are determined by who is included in them, then the question of _who should be included_ becomes a matter of fundamental importance for those claims of democratic authority.
 
-In response to this dilemma, a number of non-democratic or extra-democratic solutions have been proposed. Yet these too are inadequate: the status quo - accepting yesterday's borders today - lacks the normative force required to justify democratic authority; nationality and culture lack objectively measurable criteria; geographic proximity is unable to explain whether we should divide people by mountains or rivers; the All Coerced Principle fails to address the question completely; while the All Affected Principle simultaneously too inclusive and exclusive.
+The question of who ought be included in a political association - of how the demos ought be bounded - has become known in the literature as the _Boundary Problem of Democratic Theory_ [^other-names].  The Boundary Problem is a problem because it can't be solved democratically - to determine who should be included democratic we must first identify some prior group to make this decision, and to identify that prior group democratically we must identify a prior prior group, _ad infinitum_.  And neither can the question be satisfactory by reference to history, culture, nationality, geography, justice, coercion or affect [^treatment].
 
 [^other-names]: Discuss who has called it what.
 
-Addressing the difficulties of the Boundary Problem, and relative strengths and weaknesses of the proposed solutions, is not the purpose of this paper.  Rather, I wish to explore the relationship between accounts of democratic inclusion and accounts of democratic authority and advance three key claims that relate to any answer to the question of who the people ought be:
+[^treatment]: See @whelan1983 for the seminal analysis of these challenges as well as.....
 
-  1.  Accounts of democratic authority must be compatible with accounts of democratic inclusion.
 
-  2.  Different accounts of authority require differing, sometimes incompatible accounts of inclusion.
+Addressing why the Boundary Problem is a problem, or how it might be solved is not the focus of this paper. Rather, I wish to explore the relationship between accounts of democratic inclusion and accounts of democratic authority and examine _when_ the Boundary Problem becomes a problem.  I wish to advance three claims that relate to any answer to the question of who the people ought be:
 
-  3.  Different accounts of authority that have incompatible accounts of inclusion are themselves incompatible.
+  1.  That accounts of democratic authority must be compatible with accounts of democratic inclusion.
+
+  2.  That different accounts of authority require differing, sometimes incompatible accounts of inclusion.
+
+  3.  That different accounts of authority that have incompatible accounts of inclusion are themselves incompatible.
 
 The first claim advances the existing literature on the Boundary Problem by making the link between inclusion and authority explicit, thereby placing additional demands on accounts of democratic authority that are not currently addressed.  Often, political theorists approach the problem from a cosmopolitan position, arguing that the question is primarily about justice.  Other times, the concern is related to whether or not an answer is internally consistent with democracy, or whether it actually is a paradox of founding.  Only rarely is the link between how the problem of democratic inclusion affects the legitimacy of democratic authority addressed, and often this is only implicit.  I show that the legitimacy of any claim of democratic authority must be compatible with it's associated claim of democratic inclusion.
 
+The second claim offers something new.  Different accounts of democratic authority require differing accounts of inclusion for the two to be compatible, and some of these accounts of inclusion are incompatible with others.  As we shall see, accounts of democratic authority based on independent criteria require incompatible accounts of inclusion to accounts of authority based on agent relative criteria.
 
-The second claim ....
+Which leads to the third claim.  Whenever the differing accounts of inclusion are incompatible with each other, their subsequent accounts of democratic authority must also be incompatible with each other.  Yet political theorists frequently combine these incompatible accounts of democratic authority.  Mill for example justifies democratic rule on the ground that it is more reliable in determining the right decision (independent criteria), takes into consideration the preferences of all (agent relative criteria), and transforms the moral character of participants (non-content criteria).
 
-
-The third claim....
-
-
-Why this hasn't occurred until now....
-
-
-Why simulation is a valuable alternative....
-
+It might also be helpful at this stage to clarify what issues I am not addressing and what claims I am not making.  This paper is focused exclusively on the relationship between accounts of democratic inclusion and accounts of democratic authority.  The Boundary Problem raises a number of issues for democratic theory but here I focus exclusively on the Boundary Problem as it relates to claims of democratic legitimacy.  As such, it doesn't seek to explain who should be included in the demos, nor what principles might guide us to an answer.  Instead, this paper is examines _when_ the Boundary Problem challenges the legitimacy of democratic authority by specifying the conditions under which inclusion affects democratic outcomes.
 
 
 ## A Model of Democracy
+
+Why this hasn't occurred until now....
+
+Why simulation is a valuable alternative....
+
+Methodology...why is the code in text....the reader doesn't need to understand the code...its there 
 
 The model comprises three distinct conceptual entities: a `Political Space` representing the problem domain, `Political Agents` who are distributed across the space, and partitions of the space that group agents into associations or `Polities`.  An agent represents a political actor or citizen.  They are simple folk who can hold a single discrete belief, which is represented formally as:
 
@@ -185,6 +189,13 @@ Furthermore, it demonstrates that any epistemic justification of democratic auth
   1. Polities are sufficiently large for the Condorcet effect to emerge.
 
   2. Voters in each polity are uniformly distributed by epistemic competence.
+
+
+Restating this another way.....any account of inclusion for a polity in which an epistemic justification of democracy will be used must show that each polity has a greater than 50% chance of any randomly selected voter voting correctly.
+
+If voters are uniformly distributed by belief in the political space, then almost any account of inclusion will be compatible with an epistemic justification of authority.  If voters are highly clustered however, then any arbitrary partioning of the space will undermine the subsequent claims of epistemic virtue and therefore legitimacy.  In scenarios where clustering of belief is present, then the account of inclusion must explicitly show it satisfies the assumptions of its corresponding account of authority.
+
+  !! Another restatement: Where we draw boundaries is irrelevent for this account of democracy if the distribution of voters by belief is uniform.  Where we draw boundaries is very important however, when the distribution of voters by belief is clustered.
 
 
 ##  Preference Justifications

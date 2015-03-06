@@ -40,16 +40,20 @@
     <div id="label">X Label</div>
 	<script>
 
-
     //  Variables to alter
     var xVar, xVal; // Dependent var
     var yVar, yVal; // Series var
     var zVar, zVal; // Fixed var
     var _el, _i, _len, _ref; // loop helpers
 
+    var urlParams = window.location.search.substr(1).split('&');
+
     zVar = 'e';
     zVal = 600;
-    yVar = 'p'
+    yVar = 'c';    
+
+    if (urlParams) {
+    }
         
     	// data for the graph
     d3.json("epistemic.json", function(cube) {

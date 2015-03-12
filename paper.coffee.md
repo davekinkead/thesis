@@ -28,7 +28,7 @@ And for others still, it is not the content of democratic decision making that m
 
 Call these accounts of democracy _consequentialist_ [^qual-1].
 
-[^qual-1]: By _accounts of democracy_, I mean any normative theory of democracy's value.  Not all accounts of democracy are consequenitalist.  Intrinsic accounts of democracy for example, justify political authority without any reference to specific outcomes of the democratic process, and instead appeal to substantive ideals like equality, justice.  Unless explicitely stated, _Democracy_ in this paper refers exclusively those consequentialist conceptions where outcomes do the normatvie work of legitimating political authority.
+[^qual-1]: By _accounts of democracy_, I mean any normative theory of democracy's value.  Not all accounts of democracy are consequenitalist.  Intrinsic accounts of democracy for example, justify political authority without any reference to specific outcomes of the democratic process, and instead appeal to substantive ideals like equality, justice.  Unless explicitely stated, _Democracy_ in this paper refers exclusively those consequentialist conceptions where outcomes do the normatvie heavy lifting of legitimating political authority.
 
 The outcome of any democratic procedure is a function, in part, of who gets to participate in that procedure.  Enfranchising some people rather than others, drawing the political line on a map in one location rather than another, will often result in different outcomes that would otherwise have occured, even for identical democratic procedures.  Who is included in a particular democracy affects the particular outcomes of that democracy.
 
@@ -40,14 +40,13 @@ _Who_ can determine _what_.
 
 So if accounts of democracy justify political authority based on the outcomes of democratic processes, and the outcomes of those democratic processes are determined by who is included in them, then the question of _who should be included_ becomes a matter of fundamental importance for those claims of democratic authority.
 
-The question of who ought be included in a political association - of how the demos ought be bounded - has become known in the literature as the _Boundary Problem of Democratic Theory_ [^other-names].  The Boundary Problem is a problem because it can't be solved democratically - to determine who should be included democratic we must first identify some prior group to make this decision, and to identify that prior group democratically we must identify a prior prior group, _ad infinitum_.  And neither can the question be satisfactory by reference to history, culture, nationality, geography, justice, coercion or affect [^treatment].
+The question of who ought be included in a political association - of how the demos ought be bounded - has become known in the literature as the _Boundary Problem of Democratic Theory_ [^other-names].  The Boundary Problem is problematic because it can't be solved democratically - to determine who should be included democratic we must first identify some prior group to make this decision, and to identify that prior group democratically we must identify a prior prior group, _ad infinitum_.  And neither can the question be answered satisfactory by reference to history, culture, nationality, geography, justice, coercion or affect [^treatment].
 
 [^other-names]: Discuss who has called it what.
 
 [^treatment]: See @whelan1983 for the seminal analysis of these challenges as well as.....
 
-
-Addressing why the Boundary Problem is a problem, or how it might be solved is not the focus of this paper. Rather, I wish to explore the relationship between accounts of democratic inclusion and accounts of democratic authority and examine _when_ the Boundary Problem becomes a problem.  I wish to advance three claims that relate to any answer to the question of who the people ought be:
+Addressing why the Boundary Problem is a problem, or how it might be solved is not the focus of this paper. Rather, I wish to explore the relationship between accounts of democratic inclusion and accounts of democratic authority and examine _when_ the Boundary Problem becomes a problem.  I want to advance three claims that relate to any answer to the question of who the people ought be:
 
   1.  That accounts of democratic authority must be compatible with accounts of democratic inclusion.
 
@@ -61,25 +60,29 @@ The second claim offers something new.  Different accounts of democratic authori
 
 Which leads to the third claim.  Whenever the differing accounts of inclusion are incompatible with each other, their subsequent accounts of democratic authority must also be incompatible with each other.  Yet political theorists frequently combine these incompatible accounts of democratic authority.  Mill for example justifies democratic rule on the ground that it is more reliable in determining the right decision (independent criteria), takes into consideration the preferences of all (agent relative criteria), and transforms the moral character of participants (non-content criteria).
 
-It might also be helpful at this stage to clarify what issues I am not addressing and what claims I am not making.  This paper is focused exclusively on the relationship between accounts of democratic inclusion and accounts of democratic authority.  The Boundary Problem raises a number of issues for democratic theory but here I focus exclusively on the Boundary Problem as it relates to claims of democratic legitimacy.  As such, it doesn't seek to explain who should be included in the demos, nor what principles might guide us to an answer.  Instead, this paper is examines _when_ the Boundary Problem challenges the legitimacy of democratic authority by specifying the conditions under which inclusion affects democratic outcomes.
+To reiterate, this is not an argument about _how_ or _why_ the Boundary Problem is a problem for democratic theory.  The Boundary Problem raises a number of issues for democratic theory but here I focus exclusively on the Boundary Problem as it relates to claims of democratic legitimacy.  As such, it doesn't seek to explain who should be included in the demos, nor what principles might guide us to an answer. Rather, it is an examination of _when_ the Boundary Problem is a problem.  This paper is concerned with the relationship between accounts of democratic inclusion and accounts of democratic authority.  It is an argument about how the Boundary Problem challenges the legitimacy of democratic authority by specifying the conditions under which inclusion affects democratic outcomes.
 
 
 ## A Model of Democracy
 
-Why this hasn't occurred until now....
+How can we examine how changing the makeup of the demos changes the outcome of democratic processes? Empiric investigation is highly problematic due to the complex....deductive reason doesn't help either....
 
 Why simulation is a valuable alternative....
 
-Methodology...why is the code in text....the reader doesn't need to understand the code...its there 
+What follows then is both a description of a model of democracy as well as a simulation of the model.  A form of literate programming, this paper embeds executable source code within the description of the model to formalise the assumptions of the model and promote reproducibility in much the same way as one might include mathematical symbolism to formalise a proof.  Code is indicated by `indented code blocks` and is fully explained in the surrounding text.  The reader needs to neither understand the embedded code nor even read it in order to understand the argument presented. 
 
-The model comprises three distinct conceptual entities: a `Political Space` representing the problem domain, `Political Agents` who are distributed across the space, and partitions of the space that group agents into associations or `Polities`.  An agent represents a political actor or citizen.  They are simple folk who can hold a single discrete belief, which is represented formally as:
+The model comprises three distinct conceptual entities: a `Political Space` representing the problem domain, `Political Agents` who are distributed across the space, and partitions of the space that group agents into associations or `Polities`.  
+
+An agent represents a political actor or citizen.  They are simple folk who can hold a single discrete belief or preference - chocolate or vanilla, right or wrong, Republican or Democrat.  This is represented formally in code as:
 
 
     class Agent
       constructor: (@belief) ->
 
 
-Agents exist within a Space which represents the problem domain.  A space is constructed by giving it a an agent profile of how many agents hold which belief or prefernce, such as `{ 'chocolate': 400, 'vanilla': 600 }`.
+Agents exist within a space which represents the problem domain - the world which we want to divide into countries, countries into provinces, players into teams, or believers into congregations - any conceptual space that needs to be partitioned in some way.  
+
+A space is constructed by specifying an agent profile of how many agents hold which belief or preference.  These belief are stipulative and form the parameters of the simulation.  For example, an agent_profle of  `{ 'chocolate': 400, 'vanilla': 600 }` would create a space with 400 agents whose preference is chocolate and 600 whose preference is vanilla.
 
 
     class Space
@@ -90,7 +93,9 @@ Agents exist within a Space which represents the problem domain.  A space is con
             @agents.push new Agent(belief)
 
 
-Agents are distributed in some manor across the space.  This distribution could be uniformly random with any partition having an equal likelihood of having a similar make up as another, or the distribution could be clustered around belief with any partition having a greater chance of a particular a composition the closer it is to a cluster.  Our space will be distributed with a cluster factor which determines the proximity of agents holding similar beliefs to each other.  A factor of `1.0` will result in a highly clustered space with all like agents grouped together while `0.0` will result in a uniform random distribution of agent belief.
+Agents are distributed across the space in some way according to their belief.  This distribution could be perfectly uniform, with agents evenly spread across the space by their belief; or agents to be tightly clustered so that all agents of a similar belief are grouped together.
+
+Agents in our space will be distributed with a cluster factor which determines the proximity of agents holding similar beliefs to each other.  A factor of `1.0` will result in a highly clustered space with all like agents grouped together, while `0.0` will result in a uniform random distribution of agent belief.
 
 
     Space::distribute = (cluster=0.0) ->
@@ -101,7 +106,12 @@ Agents are distributed in some manor across the space.  This distribution could 
         @agents = @agents.concat quota.splice limit, 1
 
 
-Spaces can be partitioned into polities.  A polity represents a unit of political association that holds some degree of sovereignty regarding specific issues, such as a nation-state, province, or local council.  The number of possible partitions of a space is the sum of binomial coefficients of agents, _n_, and partitions, _k_.   
+Spaces can be partitioned into polities.  A polity represents a unit of political association that holds some degree of sovereignty regarding specific issues, such as a nation-state, province, or local council.  How we partition a space - how we decide who will be included in which political association - forms the crux of the Boundary Problem.
+
+To examine _when_ the Boundary Problem becomes a problem - 
+
+
+The number of possible partitions of a space is the sum of binomial coefficients of agents, _n_, and partitions, _k_.   
 
 ∑ (n choose k) increases exponentially with n & k, meaning simulating all possible partitions within a reasonable time frame is beyond the capacity of desktop computing.  Instead, a stochastic algorithm to divide the space into different polities will be used to generate partition samples.  The partitioning algorithm recursively divides the largest polity of the space at a random point until the desired number of polities have been produced - each characterised by a differing number and composition of agents.
 

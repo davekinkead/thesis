@@ -12,11 +12,6 @@ Democracy: A system of government characterised by popular sovereignty and polit
 
 Democratic Theory: Any normative account of how democratic systems of government can give rise to political authority.
 
-An Argument...
-
-Because, Democracy!
-
-...democracy gives us 
 
 ## Political authority requires justification.  
 

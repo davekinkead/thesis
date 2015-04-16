@@ -8,39 +8,92 @@ I'm going to defend the thesis that if political authority requires justificatio
 
 And I'm going to do this by showing that three existential paradoxes of democratic theory - paradoxes relating to the who, what, and how of democratic activity - undermine even the most minimal accounts of political justification.
 
-My conclusion will be that democratic states, at least as we know them, can never justify their claims to authority but only rationalise them.
+My conclusion will be that democratic states, at least as we know them, can never justify their claims to authority but can only rationalise them.
 
 
 ## Defining Democracy
 
 Democracy can be described descriptively. These accounts try to show what democracy is.
 
-  - lit review of descriptive characterisations of democratic
+Lit review of descriptive characterisations of democratic
+
+  - Aristotle
+  - Dahl
+  - Tilly
 
 But it can also be described normatively. These accounts try to show why democracy has value.
 
-  - lit review of normative accounts
+Lit review of normative accounts
+
+  - Condorcet, List and Goodin. 2001: Democracy has value because majority voting tracks the truth under certain conditions.
+
+  - Estund 1997: Democracy has value because it is has a fair procedure and yields the best results.
+
+  - Arneson 2004: Democracy isn't intrinsically just. It has value because it is (contingently and uncertainly) the best system for realising justice.
+
+  - Frey and Stutzer 2005: People value political participation. Democracy has value because it increases utility not just from good policy but also by allowing people to participate.
+
+  - will of the people
+
+  - self determination/check on abuse of power  
+
+  - promotes freedom
+
+  - embodies freedom
+
+  - promotes equality
+
+  - embodies equality
+
+  - Mill 1861: Democracy has value because it considers everyone's interests, more reliable for making the right decisions, and transforms the moral character of participants.
+
+  - Sen 1999: Democracy has value because it promotes policies that improve the well being of citizens and allows them to shape the norms and values of that well being.
+
+  - Rousseau: A general will is necessary for legitimate authority. Democracy has value because it discovers the general will in a manor that is equal and universal.
+
+  - Gould 1988: Democracy is valuable because only it can give individuals a chance of self government.
+
+  
+
+
+Highlight the key features of any minimalist conception of democracy and outline my conception. Something along the lines of "collective autonomy characterised by political equality".
 
 
 ## Authority & Justification
 
-What is authority? It is having content independent & pre-emptive reasons for others to act. It is to take action just because someone one believes to have authority said so.
+What is authority? Authority is the giving of content independent & pre-emptive reasons for others to act. It is to take action just because someone one believes to have authority said so.
+
+  - de facto vs dejure
+  - internal vs external
+  - right to rule vs obligation to obey vs justification for action.
 
 How can authority be justified?
 
-  - permissible vs ideal vs obligating justifications
-  - green, simmons, hobbes
+  - the difference between permissible vs ideal vs obligating justifications
+  - associate obligations
+  - transactional obligations
+  - natural duty obligations
 
 But what does it mean to justify?
 
   - epistemic requirements of justification
+  - reasons for belief
+  - coherence & non-contradiction
+
+So any account of political authority must show
+
+  - it gives moral reasons for action
+  - they are content independent
+  - they are binding on subject
+  - that subjects are bound to particular states
+  - that all subjects must obey all laws.
 
 For democracy to justify political authority, it must show why the orders of democratic states give us reasons for actions, without reference to the content of those orders, and in a way that pre-empts other countervailing reasons for actions. 
-
+  
 
 ## Confusion over Consent
 
-Consent the most obvious way we can place obligations on ourselves.  If moral obligations do exist, then consent is sufficient to impose them.
+Consent is the most obvious way we can place obligations on ourselves.  If moral obligations do exist, then consent is sufficient to impose them.
 
 Accounts of democracy have a long history of using consent to justify political authority. But these accounts have not been without problems.
 
@@ -77,6 +130,9 @@ So without a compatible and coherent account of democratic inclusion, consequent
 ## Liberalism and its Limits
 
 Democracy requires limits. Without constraints to the scope of democratic authority, naked majoritarianism can quickly descend into tyranny.
+
+  - Democracy may require some limits to protect political expression and function (free speech & association)
+  - Liberalism goes beyond this (freedom of religion, sexual expression etc)
 
 Democracy without limits also lacks value. 
 

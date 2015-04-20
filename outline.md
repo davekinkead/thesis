@@ -13,11 +13,19 @@ My conclusion will be that democratic states, at least as we know them, can neve
 
 ## Defining Democracy
 
+Democracy can be described descriptively or normatively. While many accounts are descriptive, they often have normative elements.
+
+Of the normative accounts, some simply assume democracy to be required and attempt to show what form is best, while others do not and attempt to justify democracy ab initio.
+
 Democracy can be described descriptively. These accounts try to show what democracy is.
+
+  - descriptive vs normative
+  - assumes democracy vs justifies democracy
 
 Lit review of descriptive characterisations of democratic
 
   - Aristotle
+  - Madison & Hamilton
   - Dahl
   - Tilly
 
@@ -33,6 +41,33 @@ Lit review of normative accounts
 
   - Frey and Stutzer 2005: People value political participation. Democracy has value because it increases utility not just from good policy but also by allowing people to participate.
 
+  - Cohen 2002: Laws and policies are legitimate to the extent that they are publicly justified to the citizens of the community.
+
+  - Singer 1973: Democracy is a peaceful and fair compromise the conflicting desires of everyone's dictatorial rule.
+
+  - Schumpter 1956: Responsible elites competing for the peoples vote is the best way to distribute power in the public interest. 
+
+  - Mill 1861: Democracy has value because it considers everyone's interests, more reliable for making the right decisions, and transforms the moral character of participants.
+
+  - Elster 1986: "The task of politics is not only to eliminate inefficiency [as in markets], but also to create justice--a goal to which the aggregation of political preferences is a quite incongruous means"
+
+  - Sen 1999: Democracy has value because it promotes policies that improve the well being of citizens and allows them to shape the norms and values of that well being.
+
+  - Rousseau: A general will is necessary for legitimate authority. Democracy has value because it discovers the general will in a manor that is equal and universal.
+
+  - Gould 1988: Democracy is valuable because only it can give individuals a chance of self government.
+
+  - Rawls 1971: Justice demands a liberal and egalitarian democracy.
+
+  - Rorty
+
+  - Christiano 2004:
+
+  - Buchanan & Tullock 1965: Elites will expand their power and create inefficient government, so more social functions should be performed by the market.
+
+  - Plato: The people lack the necessary expertise for ruling so elites should rule.
+
+
   - will of the people
 
   - self determination/check on abuse of power  
@@ -44,14 +79,6 @@ Lit review of normative accounts
   - promotes equality
 
   - embodies equality
-
-  - Mill 1861: Democracy has value because it considers everyone's interests, more reliable for making the right decisions, and transforms the moral character of participants.
-
-  - Sen 1999: Democracy has value because it promotes policies that improve the well being of citizens and allows them to shape the norms and values of that well being.
-
-  - Rousseau: A general will is necessary for legitimate authority. Democracy has value because it discovers the general will in a manor that is equal and universal.
-
-  - Gould 1988: Democracy is valuable because only it can give individuals a chance of self government.
 
 
 
@@ -95,17 +122,28 @@ For democracy to justify political authority, it must show why the orders of dem
 
 Consent is the most obvious way we can place obligations on ourselves.  If moral obligations do exist, then consent is sufficient to impose them.
 
+  - how do obligations come to be
+  - promises vs duties vs obligations
+  - define consent
+
 Accounts of democracy have a long history of using consent to justify political authority. But these accounts have not been without problems.
 
-  - historical review of consent: Crito, Hobbes, Locke, Hume.
+  - historical review of consent: Crito, Hobbes, Locke, Hume, Kant.
+  - voting vs tacit vs hypothetical
 
-Consent requires the possibility of non-consent to be meaningful.  Unless the costs of non-consent are independently justified, then any claim to consent will be coercive.
+Consent changes moral relationships between parties. Typically from permission to obligation or from prohibition to permission.  Voting doesn't change the relationship between voters and the state.  Therefore voting cannot be consent.
+
+Birth or naturalisation do change moral relationships, so these could be valid instances of consent. Consent though, requires the possibility of non-consent to be meaningful.  Unless the costs of non-consent are independently justified, then any claim to consent will be coercive.
 
 But states claim authority without the consent of all members.  To impose the costs of non-consent requires an independent justification of authority.
 
 Consent cannot be this independent justification. And if an independent justification to impose the costs of non-consent exists, then consent to justify political authority becomes redundant.
 
-So because the sovereign claims of the state do not permit non-consent, consent to political authority cannot be given.
+  - address Frankfurt's free will objection: you may have consented but they state cannot claim or show that you have consented.
+
+Neither can hypothetical consent create obligations.  The an essential element of consent is its voluntary nature.  Counterfactual claims - you ought have consented - do not have this voluntary element so they cannot be consent.  The normative work must come from someone else, so hypothetical consent theories are really natural duty or associative obligation theories.
+
+So because the sovereign claims of the state do not permit non-consent, consent to political authority cannot be given (so long as the state is non-voluntary).
 
 TO READ
 

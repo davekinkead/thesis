@@ -133,11 +133,9 @@ Accounts of democracy have a long history of using consent to justify political 
 
 Consent changes moral relationships between parties. Typically from permission to obligation or from prohibition to permission.  Voting doesn't change the relationship between voters and the state.  Therefore voting cannot be consent.
 
-Birth or naturalisation do change moral relationships, so these could be valid instances of consent. Consent though, requires the possibility of non-consent to be meaningful.  Unless the costs of non-consent are independently justified, then any claim to consent will be coercive.
+Birth or naturalisation might change moral relationships however, so these could be valid instances of consent. Consent though, requires the possibility of non-consent to be meaningful.  Unless the costs of non-consent are independently justified, then any claim to consent will be coercive and thus invalidated.
 
-But states claim authority without the consent of all members.  To impose the costs of non-consent requires an independent justification of authority.
-
-Consent cannot be this independent justification. And if an independent justification to impose the costs of non-consent exists, then consent to justify political authority becomes redundant.
+But states claim authority without the consent of all members.  To impose the costs of non-consent requires an independent justification of authority.  If the state has this independent justification, then consent as a means to justify political authority becomes redundant.  And if however consent is necessary to justify the states authority to impose the costs of non-consent, then the argument is circular.
 
   - address Frankfurt's free will objection: you may have consented but they state cannot claim or show that you have consented.
 

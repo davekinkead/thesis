@@ -18,7 +18,7 @@ Why?
 
   By voting in an election, you are agreeing to be bound by the outcome of that election.  Like a game of cricket or football, by agreeing to play the game you're accepting the rules of the game.  
 
-  By voting you are consenting to be bound by the umpires decision.  You are consenting to a political obligation to the state.
+  By voting you are consenting to be bound by the umpires decision.  You are consenting to obey the state.
 
   Of course, you are free not to vote. Even in countries like Australia that have compulsory voting, nobody is stopping you from not voting or putting a blank slip in the ballot box.
 
@@ -26,45 +26,47 @@ Why?
 
 WTF
 
-  But wait a moment. If you do vote, then you are bound to the state. And if you don't vote, you are still bound to the state.  So what ever you do, you will still have political obligations to the state. 
+  But wait a moment. If you do vote, then must obey the state. And if you don't vote, then you still must obey the state.  So what ever you do, you’ll still have political obligations to the state. 
 
   What the phi? That doesn't sound like consent to me?  Where did their story go wrong?
 
 Not voting
 
-  How does being allowed to vote bind me to the outcome of that vote? Imaging if a country like Iceland changed their constitution to allow the entire world to vote in their elections. 
+  How does simply being allowed to vote bind me to the outcome of that vote? Imaging if a country like Iceland changed their constitution to allow the entire world to vote in their elections. 
 
-  Are we now all bound to the laws of Iceland?  
+  Are we now all bound to obey the laws of Iceland?  
 
-  And what if Greenpeace did that and allowed anyone to vote on their policies. Or the Klu Klux Klan even?  Would all of us now be bound by their rules?
+  And what if Greenpeace did the same and allowed anyone to vote on their policies. Or the Klu Klux Klan even?  Would all of us now be bound to obey their rules?
 
-  Just because I'm allowed to vote, doesn't mean I am bound by the rules that I could have voted on. 
+  Just because I'm allowed to vote, doesn't mean I am bound by the rules that I could have voted on.
 
   Political obligation requires more than the just possibility of voting.  At the very least, it requires that we actually vote.
 
 Consent
 
-  Consent changes the structure our moral relationships. To see how this works, think about some voluntary exchange like selling your car.
+  But what about when we do actually vote. Why isn’t that consent?
 
-  When we sign a contract with each other, we agree to a change in the moral relationship between us.  Where I was previously permitted to give you my car, I am now obliged to do so. Before it was acceptable for me to deny you the use of my car, but that's no longer the case.
+  Consent changes the nature of our rights and duties. To see how this works, think about some voluntary exchange like selling your car.
 
-  And likewise, you were previously free to give me a big wad of cash any time you liked, but now you have to.  Whereas before there was nothing wrong with you keeping your money, now it is.  
+  When we sign a contract with each other, we agree to a change in the moral relationship between us.  Where I was previously permitted to give you my car, I am now obliged to do so. Before it was acceptable for me to deny you the use of my car, but once you consent to the sale, that’s no longer the case.
+
+  Similarly you were previously free to give me a big wad of cash any time you liked, but now you have to.  And whereas before there was nothing wrong with you keeping your money, now there is.  
 
   Our consent to the exchange has changed the nature of how we can and should act towards each other - of what's permissible and what's obligatory.
 
 No Difference
 
-  But voting doesn't change our relationship with the state.
+  But here’s the rub.  Voting doesn't change our relationship with the state.
 
   The government still expects you to obey the law, even if the party you voted for doesn't win.  The government still expects you to obey the law, even if you don't vote at all.
 
   Consent changes the structure of our moral relationships. Voting doesn't. Therefore voting can't be consent.
 
+—-
+
   And while it might be true that we have obligations to obey the law, these don't come from us voting.
 
----
-
-Voting
+Voting
 
   But what if I do vote - why isn't that consent?  For one thing, consent must be voluntary.
 

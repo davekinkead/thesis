@@ -2,9 +2,13 @@
 
 The Problem
   
-  Politicians of all types claim that you should do what the government tells you to do because you've consented to the authority of the state.
+  Politicians of all types claim that you should do what the government tells you to do because you've consented to the authority of the state. 
 
   We live in a democracy so we get to vote.  And because we get to vote and shape the law a little, we have an obligation to obey the it.
+
+  The people have spoken. We've expressed our will. We've given our elected officials a mandate to rule. 
+
+  Even the Universal Declaration of Human rights says that "The will of the people shall be the basis of the authority of government"
 
   But there's just one problem with this idea...
 

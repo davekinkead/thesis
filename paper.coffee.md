@@ -7,7 +7,7 @@ license: CC-BY-SA
 bibliography: /Users/dave/Dropbox/Research/Reading Notes/.library.bibtex
 ---
 
-> Many accounts of democracy justify political authority on the grounds that democratic procedures produce desirable results.    Yet the results of any democratic process are also a function of who is included in that process.  Enfranchising one group rather than another, bounding a polity here rather than there, will typically result in different outcomes for identical democratic procedures.
+> Many accounts of democracy justify political authority on the grounds that democratic procedures produce desirable results. Yet the results of any democratic process are also a function of who is included in that process. Enfranchising one group rather than another, bounding a polity here rather than there, will typically result in different outcomes for identical democratic procedures.
 
 > Democratic theory however, is silent on who ought be included amongst the people.  It must be, because the issue of who the people are is a matter both logically and temporally prior what they decide.  This inability of democratic theory to provide a suitable account of democratic inclusion has become known in the literature as the Boundary Problem.
 
@@ -20,33 +20,37 @@ bibliography: /Users/dave/Dropbox/Research/Reading Notes/.library.bibtex
 
 ## Introduction
 
-Many accounts of democracy justify political authority on the grounds that democratic procedures produce desirable results.  For some these accounts, we can judge the quality of a democratic outcome against some independent criteria.  Epistemic accounts like Condorcet's Jury Theorem (@condorcet) or @estlund's Epistemic Proceduralism are like this. Democratic processes track the truth and that gives us reasons to abide by their outcomes.
+Many accounts of democracy justify political authority on the grounds that democratic procedures produce desirable results.  For some these accounts, we can judge the quality of a democratic outcome against some independent criteria.  Epistemic accounts like Condorcet's Jury Theorem [@condorcet] or @estlund's Epistemic Proceduralism are like this. Democratic processes, according to these accounts, track the truth and that gives us reasons to value their outcomes.
 
-For others, we can judge the quality of democratic outcomes against some agent relative criteria.  We see this in utilitarian justifications of democracy when majority voting maximizes the expected utility of voter preferences (@rae).  But one need not be a utilitarian to employ such an approach.  @rousseau for example, argued that majority rule realises the general will of the people and this gives us reasons to obey.
+For others, we can judge the quality of democratic outcomes against some agent relative criteria.  We see this in utilitarian justifications of democracy when majority voting maximizes the expected utility of voter preferences [@rae].  One needn't be a utilitarian to employ such an approach however.  @rousseau for example, argued that majority rule realises the general will of the people and this gives us reasons to obey.
 
-And for others still, it is not the content of democratic decision making that matters so much as the effects that decision making has on participants.  This is what @mill had in mind when he argued that democracy transforms the moral character of participants.  Democratic participation makes good citizens.
+And for others still, it is not the content of democratic decision making that matters so much as the effects that the process has on participants.  This is what @mill had in mind when he argued that democracy transforms the moral character of participants.  Democratic participation makes good citizens.
 
 Call these accounts of democracy _consequentialist_ [^qual-1].
 
-[^qual-1]: By _accounts of democracy_, I mean any normative theory of democracy's value.  Not all accounts of democracy are consequenitalist.  Intrinsic accounts of democracy for example, justify political authority without any reference to specific outcomes of the democratic process, and instead appeal to substantive ideals like equality, justice.  Unless explicitely stated, _Democracy_ in this paper refers exclusively those consequentialist conceptions where outcomes do the normatvie heavy lifting of legitimating political authority.
+[^qual-1]: By _accounts of democracy_, I mean any normative theory of democracy's value.  Not all accounts of democracy are consequenitalist.  Intrinsic accounts of democracy for example, justify political authority without any reference to specific outcomes of the democratic process, and instead appeal to substantive ideals like equality, justice.  Unless explicitely stated, _Democracy_ in this paper refers exclusively those consequentialist conceptions where outcomes do the normatvie heavy lifting of justifying political authority.
 
 The outcome of any democratic procedure is a function, in part, of who gets to participate in that procedure.  Enfranchising some people rather than others, drawing the political line on a map in one location rather than another, will often result in different outcomes that would otherwise have occured, even for identical democratic procedures.  Who is included in a particular democracy affects the particular outcomes of that democracy.
 
-Some democractic processes are deterministic.  Voters vote according to their belief and the voting procedures determines a winning outcome.  In these cases, the outcome of a process is fully a function of who participates in that process.  On one extreme, including or excluding a single voter will change the outcome of a democratic process.  At the other extreme, over 50% of voters would need to be replaced for the outcome to change.
+Some democractic processes are deterministic.  Voters vote according to their belief or preference and the voting procedures determines a winning outcome.  This is true for both _naive voting_, where voters believe they alone determine the outcome, as well as _strategic voting_, where voters support a choice other than their sincere preference in an attempt to increase the likelihood of an acceptable outcome [@feddersen1999]. 
 
-Other democratic processes are indeterministic. This may be because voters themselves don't know how they will vote until the moment they cast their ballot, or because the decision mechanism itself is indeterminate such as in the case of sortition.  Still, outcomes of democratic processes remain a function of who is included in those processes.  Changing participants changes the likelihood of a particular outcome.
+In both these cases, the outcome of a democratic process is fully a function of who participates in that process.  On one extreme, including or excluding a single voter will change the outcome of a democratic process.  At the other extreme, over 50% of voters would need to be replaced for the outcome to change.
+
+Other democratic processes are indeterministic. This may be because voters themselves don't know how they will vote until the moment they cast their ballot, or because the decision mechanism itself is indeterminate such as in the case of sortition.  Yet even in these cases, outcomes of democratic processes remain a function of who is included in those processes because changing participants changes the likelihood of a particular outcome.
 
 _Who_ can determine _what_.
 
-So if accounts of democracy justify political authority based on the outcomes of democratic processes, and the outcomes of those democratic processes are determined by who is included in them, then the question of _who should be included_ becomes a matter of fundamental importance for those claims of democratic authority.
+When accounts of democracy attempt to justify political authority based on the outcomes of democratic processes, and the outcomes of those democratic processes are determined by who is included in them, the question of _who should be included_ becomes a matter of fundamental importance for those claims of democratic authority.
 
-The question of who ought be included in a political association - of how the demos ought be bounded - has become known in the literature as the _Boundary Problem of Democratic Theory_ [^other-names].  The Boundary Problem is problematic because it can't be solved democratically - to determine who should be included democratic we must first identify some prior group to make this decision, and to identify that prior group democratically we must identify a prior prior group, _ad infinitum_.  And neither can the question be answered satisfactory by reference to history, culture, nationality, geography, justice, coercion or affect [^treatment].
+The question of who ought be included in a political association - of how the demos ought be bounded - has become known in the literature as the _Boundary Problem of Democratic Theory_ [^other-names].  The Boundary Problem is problematic because it can't be solved democratically - in order to determine who should be included democratically we must first identify some prior group to make this decision, and to identify that prior group democratically we must identify a prior prior group, _ad infinitum_.  
 
-[^other-names]: Discuss who has called it what.
+Neither can the question be answered satisfactory by reference to history, culture, nationality, geography, justice, coercion or affect [^treatment]. ...!!explicate briefly!!...
+
+[^other-names]: A large footnote on who has called this problem what.
 
 [^treatment]: See @whelan1983 for the seminal analysis of these challenges as well as.....
 
-Addressing why the Boundary Problem is a problem, or how it might be solved is not the focus of this paper. Rather, I wish to explore the relationship between accounts of democratic inclusion and accounts of democratic authority and examine _when_ the Boundary Problem becomes a problem.  I want to advance three claims that relate to any answer to the question of who the people ought be:
+The question I wish to explore in this paper is _when is the Boundary Problem a problem for consequentialist accounts of democracy_?  Addressing _why_ the Boundary Problem is a problem, or _how_ it might be solved is not the focus of this paper [^lit-review]. Rather, I wish to explore the relationship between accounts of democratic inclusion and accounts of democratic authority and advance three claims that relate to any answer to the question of who the people ought be:
 
   1.  That accounts of democratic authority must be compatible with accounts of democratic inclusion.
 
@@ -54,35 +58,49 @@ Addressing why the Boundary Problem is a problem, or how it might be solved is n
 
   3.  That different accounts of authority that have incompatible accounts of inclusion are themselves incompatible.
 
-The first claim advances the existing literature on the Boundary Problem by making the link between inclusion and authority explicit, thereby placing additional demands on accounts of democratic authority that are not currently addressed.  Often, political theorists approach the problem from a cosmopolitan position, arguing that the question is primarily about justice.  Other times, the concern is related to whether or not an answer is internally consistent with democracy, or whether it actually is a paradox of founding.  Only rarely is the link between how the problem of democratic inclusion affects the legitimacy of democratic authority addressed, and often this is only implicit.  I show that the legitimacy of any claim of democratic authority must be compatible with it's associated claim of democratic inclusion.
+The first claim advances the existing literature on the Boundary Problem by making the link between inclusion and authority explicit, thereby placing additional demands on accounts of democratic authority.  Often, political theorists approach the problem of democratic inclusion from a cosmopolitan position, arguing that the question is primarily about justice.  Other times, the concern is related to whether or not an answer is internally consistent with democracy, or whether it actually is a paradox of founding.  Only rarely however, is the link between how the problem of democratic inclusion affects the legitimacy of democratic authority addressed, and often this is only implicit.  I will show that the legitimacy of any claim of democratic authority must be compatible with it's associated claim of democratic inclusion.
 
-The second claim offers something new.  Different accounts of democratic authority require differing accounts of inclusion for the two to be compatible, and some of these accounts of inclusion are incompatible with others.  As we shall see, accounts of democratic authority based on independent criteria require incompatible accounts of inclusion to accounts of authority based on agent relative criteria.
+The second claim offers something new.  Different accounts of democratic authority require differing accounts of inclusion for the two to be compatible.  As we shall see, accounts of democratic authority based on content-independent criteria require incompatible accounts of inclusion to accounts of authority based on content-relative criteria; while content-indifferent accounts of authority can be compatible with both.
 
-Which leads to the third claim.  Whenever the differing accounts of inclusion are incompatible with each other, their subsequent accounts of democratic authority must also be incompatible with each other.  Yet political theorists frequently combine these incompatible accounts of democratic authority.  Mill for example justifies democratic rule on the ground that it is more reliable in determining the right decision (independent criteria), takes into consideration the preferences of all (agent relative criteria), and transforms the moral character of participants (non-content criteria).
+Which leads us to the third claim: whenever the differing accounts of inclusion are incompatible with each other, their subsequent accounts of democratic authority must also be incompatible with each other.  Political theorists however, frequently combine these incompatible accounts of democratic authority.  Mill for example justifies democratic rule on the ground that it is more reliable in determining the right decision (a content-independent criteria), takes into consideration the preferences of all (a content-relative criteria), and transforms the moral character of participants (a content-indifferent criteria).
 
-To reiterate, this is not an argument about _how_ or _why_ the Boundary Problem is a problem for democratic theory.  The Boundary Problem raises a number of issues for democratic theory but here I focus exclusively on the Boundary Problem as it relates to claims of democratic legitimacy.  As such, it doesn't seek to explain who should be included in the demos, nor what principles might guide us to an answer. Rather, it is an examination of _when_ the Boundary Problem is a problem.  This paper is concerned with the relationship between accounts of democratic inclusion and accounts of democratic authority.  It is an argument about how the Boundary Problem challenges the legitimacy of democratic authority by specifying the conditions under which inclusion affects democratic outcomes.
+To reiterate, this is not an argument about _how_ or _why_ the Boundary Problem is a problem for democratic theory.  The Boundary Problem raises a number of challenges for democratic theory but here I focus exclusively on the Boundary Problem as it relates to claims of democratic legitimacy.  As such, I don't seek to explain who should be included in the demos, nor what principles might guide us to an answer. Rather, it is an examination of _when_ the Boundary Problem is a problem.  This paper is concerned with the relationship between accounts of democratic inclusion and accounts of democratic authority.  It is an argument about how the Boundary Problem challenges the legitimacy of democratic authority by specifying the conditions under which inclusion affects democratic outcomes.
+
+[^lit-review]: add pointers to key literature.
 
 
 ## A Model of Democracy
 
-How can we examine how changing the makeup of the demos changes the outcome of democratic processes? Empiric investigation is highly problematic due to the complex....deductive reason doesn't help either....
+How then can we examine the relationship between democratic inclusion and democratic authority - how changing the makeup of the demos changes the outcome of democratic processes? As philosophers, deductively reasoning from first principles or mutually agreed upon premises is a time-honoured approach.  We might first postulate some axioms of human nature and essential conditions of democracy before then demonstrating that certain states of affairs are necessary or possible, entailed or contradictory.
 
-Why simulation is a valuable alternative....
+The obvious flaw with this approach however is that many critical elements of political science, political theory, and political philosophy are questions of empiric fact.....!!explain!!....
 
-What follows then is both a description of a model of democracy as well as a simulation of the model.  A form of literate programming, this paper embeds executable source code within the description of the model to formalise the assumptions of the model and promote reproducibility in much the same way as one might include mathematical symbolism to formalise a proof.  Code is indicated by `indented code blocks` and is fully explained in the surrounding text.  The reader needs to neither understand the embedded code nor even read it in order to understand the argument presented. 
+Given the empiric nature of the investigation, we could employ a scientific approach.  We might observe how actual democratic polities form and how different compositions of polities lead to different democratic outcomes.  But the complexity of human systems makes this all but impossible.  The lack of adequate sample sizes when using democratic states as relata, the non-linearity that arises from numerous feedback loops, and the inability to hold variables fix 'in the wild' impose severe limits on our causal modelling and explanations that continue to bedevil the social sciences.
 
-The model comprises three distinct conceptual entities: a `Political Space` representing the problem domain, `Political Agents` who are distributed across the space, and partitions of the space that group agents into associations or `Polities`.  
+Although rarely used in philosophy, a third approach that offers considerable insight into this problem is computer simulation.  Typically, simulations are used to make predictions about the real world.  They attempt to model reality as accurately as possible before showing how changes in inputs lead to changes in the simulation.  The weakness of this approach however, and perhaps a key reason for the lack of simulation in philosophy, concerns the fidelity of the model with reality.  If the model fails to accurately depict reality, then any inferences from the model will offer little insight into reality.  And given the empiric challenges of modelling complex human systems discussed above, the problems of simulating political reality look overwhelming.
 
-An agent represents a political actor or citizen.  They are simple folk who can hold a single discrete belief or preference - chocolate or vanilla, right or wrong, Republican or Democrat.  This is represented formally in code as:
+But another approach would be to simulate _theory_.  All theories are abstractions of reality, so simulating theory simply formalises those abstractions.... This type of simulation can be thought of as a coherence constrain on particular theories. By making the assumptions and abstractions of a theory explicit in code, we can see if the predictions and claims of that theory are entailed or at least made probable.  We can show that a theoretical model is coherent even if we can't show that the theory's assumptions do in fact hold true in reality.
+
+What follows then is both a description of a model of democracy as well as a simulation of that model.  It attempts to capture the key claims of consequentialist accounts of democracy and explore how changing the make up of the polity affects the democratic processes of that polity.  The simulation process begins by defining a simple model of democracy consisting of naive voters populating some political space.  Methods of inclusion and voting are then defined.
+
+Next, three types of consequentialist accounts of democracy - content-independent, content-relative, and content-indifferent - are formalised and simulated in the model over a wide variety of input values.  Finally, the relationship between democratic inclusion and democratic outcomes is explored by examining how different compositions of agents lead to different results. 
+
+A form of literate programming [^lit], this paper embeds executable source code within the description of the model.  Simulation code is indicated by `indented code blocks`.  The reader need not understand the embedded code or coffeescript syntax however, in order to understand the simulation.  The code, it's purpose, and function will be fully explained in the surrounding text. It's presence serves to formalise the assumptions of the model in much the same way as one might include mathematical symbolism to formalise a proof, and to promote reproducibility and testability of the research herein.
+
+[^lit]: Note about literate programming
+
+The model comprises three distinct conceptual entities: a `Political Space` representing the problem domain, `Political Agents` who are distributed across the space, and partitions of the space that group agents into political units or `Polities`. 
+
+An agent represents a political actor or citizen.  They are simple folk who hold a single discrete value representing a belief, preference, character trait, or virtue - right or wrong, Republican or Democrat, chocolate or vanilla, virtuous or iniquitous. This is represented formally in code as:
 
 
     class Agent
       constructor: (@belief) ->
 
 
-Agents exist within a space which represents the problem domain - the world which we want to divide into countries, countries into provinces, players into teams, or believers into congregations - any conceptual space that needs to be partitioned in some way.  
+Agents exist within a space which represents the problem domain.  This can be any conceptual space that needs to be partitioned in some way. - the world to be divide somehow into countries, countries into provinces, players into teams, or believers into congregations.  
 
-A space is constructed by specifying an agent profile of how many agents hold which belief or preference.  These belief are stipulative and form the parameters of the simulation.  For example, an agent_profle of  `{ 'chocolate': 400, 'vanilla': 600 }` would create a space with 400 agents whose preference is chocolate and 600 whose preference is vanilla.
+A space is constructed by specifying an agent profile of how many agents hold which belief, preference, or virtue.  These belief are stipulative.  They are defined at the start of the simulation and form its parameters.  For example, an agent profle of  `{ 'chocolate': 400, 'vanilla': 600 }` would create a space with 400 agents whose preference is chocolate and 600 whose preference is vanilla.
 
 
     class Space
@@ -93,9 +111,9 @@ A space is constructed by specifying an agent profile of how many agents hold wh
             @agents.push new Agent(belief)
 
 
-Agents are distributed across the space in some way according to their belief.  This distribution could be perfectly uniform, with agents evenly spread across the space by their belief; or agents to be tightly clustered so that all agents of a similar belief are grouped together.
+Agents are distributed across the space in some way according to their belief.  This distribution could be perfectly uniform, with agents evenly spread across the space; or agents could be tightly clustered so that all agents of a similar belief are grouped together.
 
-Agents in our space will be distributed with a cluster factor which determines the proximity of agents holding similar beliefs to each other.  A factor of `1.0` will result in a highly clustered space with all like agents grouped together, while `0.0` will result in a uniform random distribution of agent belief.
+Agents in our space will be distributed according to a cluster factor which determines the proximity of agents holding similar beliefs with one another.  A factor of `1.0` will result in a highly clustered space with all like agents grouped together, while `0.0` will result in a uniform random distribution of agent belief.
 
 
     Space::distribute = (cluster=0.0) ->
@@ -106,14 +124,15 @@ Agents in our space will be distributed with a cluster factor which determines t
         @agents = @agents.concat quota.splice limit, 1
 
 
-Spaces can be partitioned into polities.  A polity represents a unit of political association that holds some degree of sovereignty regarding specific issues, such as a nation-state, province, or local council.  How we partition a space - how we decide who will be included in which political association - forms the crux of the Boundary Problem.
+Spaces are be partitioned into polities.  A polity represents a unit of political association that holds some degree of sovereignty regarding specific issues, such as a nation-state, province, or local council.  How we partition a space - how we decide who will be included in which political association - forms the crux of the Boundary Problem.
 
-To examine _when_ the Boundary Problem becomes a problem - 
+There are many ways to partition a political space.  Amongst accounts of democratic inclusion we find proposals to group agents according to nationality, cultural or linguistic salience, degree of economic or social interdependence, by who is affected by a policy or issue, or even to not partition at all. 
 
+While numerous accounts of inclusion exist in political theory, the combination of actual possible partitions of any space is orders of magnitude greater [^combos].  Given this myriad of potential methods of inclusion, a stochastic algorithm to divide the space into different polities will be used to generate a sample of partitions.  This allows the simulation to be agnostic with regards to the specific account of democratic inclusion while capturing a wide variety of agent compositions.
 
-The number of possible partitions of a space is the sum of binomial coefficients of agents, _n_, and partitions, _k_.   
+[^combos]: The possible number of different partitions is the sum of binomial coefficients of agents and the number groups they are partitioned into.  This increases exponentially as the number of agents and groups increases, making a simulating all possible partitions within a reasonable time frame is beyond the capacity of desktop computing.
 
-∑ (n choose k) increases exponentially with n & k, meaning simulating all possible partitions within a reasonable time frame is beyond the capacity of desktop computing.  Instead, a stochastic algorithm to divide the space into different polities will be used to generate partition samples.  The partitioning algorithm recursively divides the largest polity of the space at a random point until the desired number of polities have been produced - each characterised by a differing number and composition of agents.
+The partitioning algorithm recursively divides the largest polity of the space at a random point until the desired number of polities have been produced - each characterised by a differing number and composition of agents. 
 
 
     Space::partition = (k) ->
@@ -129,7 +148,7 @@ The number of possible partitions of a space is the sum of binomial coefficients
       this
 
 
-The decision procedure used by our model democracy will be a majority vote on a binary issue, as this is the simplest decision mechanism to model.  Agents vote deterministically according to their belief.
+The decision procedure used by our model democracy will be a naive majority vote on a binary issue, as this is the simplest decision mechanism to model.  Agents vote sincerely and deterministically according to their belief.
 
 
     vote = (polity) ->
@@ -141,14 +160,16 @@ The decision procedure used by our model democracy will be a majority vote on a 
       votes
 
 
-The relationship between democratic authority and democratic inclusion can now be explored by running Monte Carlo simulations [^monte] of the model for various combinations of agent, clusterings, and partitions.  At the beginning of each simulation, a space is created with a fixed agent belief profile, clustering factor, and number of partitions.  During each run, the space is partitioned into the desired number of polities which then vote, with the results being recorded for statistical analysis.  The partion-vote-measure loop is repeated 1000 times resulting in a probability density function for the the voting result of each belief-cluster-partion tuple.
+With our model defined, the relationship between democratic authority and democratic inclusion can now be explored by running Monte Carlo simulations [^monte] of the model for various combinations of agent, clusterings, and partitions.  At the beginning of each simulation, a space is created with a fixed agent profile, clustering factor, and polity number.  During each run, the space is partitioned into the desired number of polities which then vote, with the results being recorded for statistical analysis.  
 
-[^monte]: Monte Carlo simulations are stochastic computational algorithms that rely on statistical sampling from repeated simulation trials [see @fishman1996].  Where else are they used???
+The partion-vote-measure loop is repeated 1000 times, generating in a probability density function of the the voting result for each of the belief-cluster-partion tuples.  These results are then assessed against three classes of consequentialist accounts of democracy to examine the conditions under which democratic inclusion affects democratic authority.
+
+[^monte]: Monte Carlo simulations are class of computational algorithms that rely on statistical sampling from repeated simulation trials to generate numerical results. [see @fishman1996 for a full treatment of their use in computer simulation].
 
 
-## Epistemic Democracy
+## Content Independent Outcomes
 
-One common justifications for democratic authority is epistemic - that democracyhas instrumental value as a truth tracking processes.  Epistemic accounts can be relatively simple like Condorcet's Jury Theorem [see @list2001], or more nuanced such as Epistemic Proceduralism [@estlund2009].  
+One common justifications for democratic authority is epistemic - that democracy has instrumental value as a truth tracking processes.  Epistemic accounts can be relatively simple like Condorcet's Jury Theorem [see @list2001], or more nuanced such as Epistemic Proceduralism [@estlund2009].  
 
 While different, all epistemic accounts rely on the claim that democratic procedures, on average, are better at determining an independently correct result than alternate procedures.  This type of justification obviously requires some way of comparing the epistemic performance of different decision procedures and one intuitive way to do this is to assess them against a base line metric, such as the likelihood that any randomly selected voter holds the correct belief or votes correctly.
 
@@ -156,7 +177,7 @@ We can call the difference between the epistemic performance of a decision proce
 
   !!! I think I need a better language here to describe epistemic performance - reliability maybe?
 
-In our simulation, epistemic virtue can be measured as the frequency based probability that a polity will vote correctly given the initial conditions of the space.  During each trial, the number of polities that voted correctly will be measured and the impact of differing partitions assessed.  The correct answer will be know in advance because we stipulate it when we create agents with either the `right` or `wrong` belief.
+In our simulation, epistemic virtue can be measured as the frequency based probability that a polity will vote correctly given the initial conditions of the space.  During each trial, the number of polities that voted correctly will be measured and the impact of differing partitions assessed.  The correct answer will be known in advance because we stipulate it when we create agents with either `right` or `wrong` belief.
 
 
     Space::virtue = () ->
@@ -167,11 +188,13 @@ In our simulation, epistemic virtue can be measured as the frequency based proba
       correctVotes / @polities.length
 
 
-Running a Monte Carlo simulation 216,000 times for a range of partition numbers, cluster factors and epistemic base rates yields a four dimensional data cube representing probability distributions of the expected correct majority vote for each epistemic-partition-cluster tuple.
+Running a Monte Carlo simulation hundreds of thousands of times for a range of partition numbers, cluster factors and epistemic base rates yields a probability distribution of the expected correct majority vote for each epistemic-partition-cluster tuple.
+
+We can examine the results from any perspective of the tuple.  In the graph below, we see the impact of repartitioning on the epistemic virtue of a polity with an epistemic base rate of 0.6 from the perspective of clustering (each line representing the number of polities the space was partitioned into).
 
 ![Epistemic virtue by cluster factor](graphs/epi-600-c.png)
 
-In the graph above, the impact of repartitioning on the epistemic virtue of a polity is clear.  With an epistemic base rate of 0.6 (ie the likelihood of a randomly selected voter being correct), the likelihood that the majority vote of polity is the correct choice is near certain when no clustering of agent belief is present, but quickly deteriorates to the epistemic base rate once belief clustering reaches 0.5. This hold for all levels of partition numbers.
+Here, the likelihood of a randomly selected voter being correct is 0.6. When agents are uniformly distributed across the space (ie no clustering of agent belief is present), the likelihood that the majority vote of any polity is the correct choice is very high (0.85-0.97 likelihood).  This quickly deteriorates as clustering increases however, with no epistemic effect of majority voting evident once agent clustering reaches 0.5.  This hold for all levels of partition numbers and epistemic base rates > 0.51.
 
 ![Epistemic virtue by partition number](graphs/epi-600-p.png)
 
@@ -179,50 +202,38 @@ Examining the same data from the perspective of partition number, we see little 
 
 [^explain]: Condorcet's Jury Theorem posits that the likelihood of majority rule selecting the correct outcome increases as the number of voters increases (assuming voters have an independent better than even chance of voting correctly).  The 0 cluster line deceases as the same number of voters in the space is partitioned into increasing numbers of polities.
 
-
 These results indicate that the epistemic virtue of majority voting processes is dependent not only on individual agent belief having a greater than 50% likelihood of being correct, but also how those agent belief are distributed across the political space.  
 
 A uniform distribution of agent belief is a critical requirement of epistemic justifications of democracy like Condorcet's Theorem.  Conversly when agent belief is highly clustered, then the epistemic virtue of majority voting, and therefore epistemic justifications of authority base on it, is undermined.
 
 
-  !!! Does this make sense?
+  !! Does this make sense?
 
-  !!! I need to explore empiric evidence that demonstrates that people do cluster based on belief in real life
+  !! Do I need to explore empiric evidence that demonstrates that people do cluster based on belief in real life
 
 
-For a polity to have epistemic virtue greater than the epistemic base rate of its individual voters, Condorcet's Jury Theorem requires that a polity contain sufficiently many voters with a greater and even chance of voting correctly [^how-many].  These results demonstrate however, that even when these conditions are true for a political space - the world, a nation, or a region - these conditions are not necessarily true for any partition of that space - into countries, states, or cities.
+For a polity to have epistemic virtue greater than the epistemic base rate of its individual voters, Condorcet's Jury Theorem requires that a polity contain sufficiently many voters with a greater than even chance of voting correctly [^how-many].  These results demonstrate however, that even when these conditions are true for a political space - the world, a nation, or a region - these conditions are not necessarily true for any partition of that space - into countries, states, or cities.
 
 [^how-many]: find a citation for the 1000 voters @ 0.51
 
-Furthermore, it demonstrates that any epistemic justification of democratic authority requires a corresponding account of democratic inclusion that ensures that:
+Furthermore, the simulation demonstrates that any epistemic justification of democratic authority requires a corresponding account of democratic inclusion that ensures that:
 
   1. Polities are sufficiently large for the Condorcet effect to emerge.
 
   2. Voters in each polity are uniformly distributed by epistemic competence.
 
+Restating this another way, if voters are uniformly distributed by belief in the political space, then almost any account of inclusion will be compatible with an epistemic justification of authority.  If voters are highly clustered however, then any arbitrary partitioning of the space will undermine the subsequent claims of epistemic virtue and therefore legitimacy.  In scenarios where clustering of belief is present, then the account of inclusion must explicitly show it satisfies the assumptions of its corresponding account of authority.
 
-Restating this another way.....any account of inclusion for a polity in which an epistemic justification of democracy will be used must show that each polity has a greater than 50% chance of any randomly selected voter voting correctly.
-
-If voters are uniformly distributed by belief in the political space, then almost any account of inclusion will be compatible with an epistemic justification of authority.  If voters are highly clustered however, then any arbitrary partioning of the space will undermine the subsequent claims of epistemic virtue and therefore legitimacy.  In scenarios where clustering of belief is present, then the account of inclusion must explicitly show it satisfies the assumptions of its corresponding account of authority.
-
-  !! Another restatement: Where we draw boundaries is irrelevent for this account of democracy if the distribution of voters by belief is uniform.  Where we draw boundaries is very important however, when the distribution of voters by belief is clustered.
+  !! Another restatement: Where we draw boundaries is irrelevant for this account of democracy if the distribution of voters by belief is uniform.  Where we draw boundaries is very important however, when the distribution of voters by belief is clustered.  The Boundary Problem only becomes a problem for content-independent justifications of democracy when homogeneity of voter belief is high within polities but low between them.
 
 
-##  Preference Justifications
+##  Content Relative Outcomes
 
-Epistemic justifications of democracy are just one of many types, and one subject to a number of criticisms, not least of which is the fact that not all matters of collective decision have independently correct or preferable outcomes.  Most problems of politics, and almost all contentious issues concern matters of values, to which epistemic justifications offer little support for.
+Not all consequentialist accounts of democracy are epistemic however.  Utilitarians justify democracy on the grounds that it promotes the greatest happiness.  Majority voting maximizes the expected utility of voter preferences when each individual has an equal chance of preferring each of two alternatives [@rae].  But one needn't be a card carrying utilitarian to employ such an approach.  @rousseau argued that majority rule realises the general will of the people and this gives us reasons to obey, while social choice theorists hold that majority voting realises individual choice when collectively binding decisions must be made (@may1952).
 
-Another way to justify democracy is strategically.  All political authority involves the exercise of power by some people over others.  Singer for example, argues that we all want to be dictators but because we can't all exercise complete power over each other, democracy is the fairest compromise.  
+While these accounts of democracy are considerably different, they all share a similarity in that the value of democracy stems from some content-relative criteria - of fidelity between individual preference and collective outcome.  It is not the contents of the outcome of a democratic process that matters per se, but rather how well this collective outcome matches the wants, preferences, or intent of individual participants.
 
-Carol Gould takes a distinct but similar approach-all our lives are affected by our surroundings, and it is only when we have some influence over these affairs that we have self rule.  Self determination and rule being a fundamental human right, democracy is the only way for us to have self government.
-
-While each of these accounts is based on different principles (Singer's on equality, Gould's on liberty), one common characteristic is that both value democracy as a way of realising individual aims within a collective setting.  So one way that strategic accounts can be assessed is by measuring the fidelity of individual belief or preference to the collective outcome.      
-
-  !! Or perhaps describe this in relation to the general will.  Here's Christian List in SEP http://plato.stanford.edu/entries/social-choice/
-
->  Another consequentialist argument for majority rule is utilitarian rather than epistemic. It does not require the existence of an independent fact or state of the world that the collective decision is supposed to track. Suppose each voter gets some utility from the collective decision, which depends on whether the decision matches his or her vote (preference): specifically, each voter gets a utility of 1 from a match between his or her vote and the collective outcome and a utility of 0 from a mismatch.[3] The Rae-Taylor theorem then states that if each individual has an equal prior probability of preferring each of the two alternatives, majority rule maximizes each individual's expected utility (see, e.g., Mueller 2003).
-
-> Relatedly, majority rule minimizes the number of frustrated voters (defined as voters on the losing side) and maximizes total utility across voters. Brighouse and Fleurbaey (2010) generalize this result. Define voter i's stake in the decision, di, as the utility difference between his or her preferred outcome and his or her dispreferred outcome. The Rae-Taylor theorem rests on an implicit equal-stakes assumption, i.e., di = 1 for every i ∈ N. Brighouse and Fleurbaey show that when stakes are allowed to vary across voters, total utility is maximized not by majority rule, but by a weighted majority rule, where each individual i's voting weight wi is proportional to his or her stake di.
+We can judge these content-relative outcomes by defining the fidelity of a democratic process as the likelihood that an individual's preference is the same as, or compatible, with the majority outcome.  Formalising fidelity as individual-collective choice equivalence we get: 
     
     
     Space::fidelity = () ->
@@ -236,27 +247,49 @@ While each of these accounts is based on different principles (Singer's on equal
       winners / population 
 
 
-Running the same Monte Carlo simulation as was performed for the epistemic account of democracy yielded a similar data cube.  Results for the slice at preference ration of 600:400 generated the following results.
+Running the same Monte Carlo simulation for the same variables as for the epistemic simulation yields a different set of results.  Below, we see the fidelity of individual preference to majority vote for a distribution of agents with a 60:40 preference for some choice A or B over a range of clustering and partition variables, viewed by degree of clustering.
 
 ![Preference realisation by cluster factor](graphs/pref-600-c.png)
 
-When viewd by cluster factor, the impact of re-partitioning on preference realisation is clear.  When agents are uniformly distributed by preference across the space, the likelihood of an individual's preference being realised by majority vote is identical to that of any two random agents preference being the same ie the preference base rate.
+Again, when viewed by degree of clustering, the impact of re-partitioning on preference realisation is stark.  When agents are uniformly distributed by preference across the space, the likelihood of an individual's preference being realised by majority vote is identical to that of any two random agents preference being the same i.e. the preference base rate.
 
-As clustering of agent preferences increases however, the fidelity between individual and majority preference increase significantly. 
+As clustering of agent preferences increases however, the fidelity between individual and majority preference increases significantly. At its most extreme, there is near certainty that individual preference will be realised by a majority vote when the distribution of agents across the political space is fully clusters i.e. agents are completely segregated by preference.  This relationship holds for all preference base rates.
+
+In contrast with the epistemic simulation of democracy however, the impact of agent clustering is reversed.  Majority voting has the greatest likelihood of fidelity with individual preference, and therefore greatest value from a content-relative perspective, when agents are highly clustered.  This contrasts sharply with the content-independent perspective where the greatest epistemic value of majority voting was found with a completely uniform agent distribution.
 
 ![Preference realisation by partion number](graphs/pref-600-p.png)
 
-Partion number plays only a limited role in individual-majority preference fidelity. As the space is partioned into increasing numbers of polities, fidelity increases slight when preference are highly clusted, but the influence of partion number is significantly less than the impact of perference clustering.
+The number of polities a space is partitioned into plays only a limited role in individual-majority preference fidelity. As the space is partioned into increasing numbers of polities, fidelity increases slightly when preference are highly clustered, but the influence of partition number is significantly less than the impact of preference clustering.
 
 The key implication from this analysis is that accounts of democratic authority based on preference realisation and fidelity of individual with group preference, require an account of democratic inclusion that ensures: 
 
 1. Polities are sufficiently small.
-2. Voters in polities are highly clustered. 
+2. Voters in polities are highly clustered.
+
+Restated, where we draw political boundaries is irrelevant for content-relative accounts of democracy if the distribution of voters by preference is highly clustered.  Where we draw boundaries is very important however, when the distribution of voters by preference is uniform.  The Boundary Problem only becomes a problem for content-relative justifications of democracy when homogeneity of voter preferences is low within polities but high between them.
+
+
+## Content Indifferent Outcomes
+
+
+!! This part is still under development...
+
+A third type of consequential justification of democracy is that transforms the moral character of participants.
+
+Talk about Mill & Rousseau...
+
+
+    Space::character = () ->
+      correctVotes = 0
+      for polity in @polities
+        election = vote polity
+        correctVotes += 1 if election.winner is 'right'
+      correctVotes / @polities.length
 
 
 ## Conclusion
 
-!! Yes, I need to rewrite this conclusion
+!! Yes, I need to rewrite this conclusion - do not bother reading yet....
 
 While I've only examined two accounts of democratic authority from the wide array of accounts offered by political theorists, the data from the simulation allows us to make the number inferences.
 
@@ -275,14 +308,13 @@ In other words...
 - different accounts of authority that have incompatible accounts of inclusion are themselves incompatible
 
 
-## Limitations
-
-There are many, yadda yadda yadda....
-
-
 ## Epilogue
 
-A number of helper functions are necessary for the simulation to work, as well as initiate the Monte Carlo runs.
+A number of helper functions are necessary for the simulation to work, as well as initiate the Monte Carlo runs.  
+
+!! I can move a lot of the in paper code down to here...
+
+
 
     fs       = require 'fs'
     sum      = (arr) -> arr.reduce (a,b) -> a + b

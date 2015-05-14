@@ -17,18 +17,18 @@ bibliography: /Users/dave/Dropbox/Research/Reading Notes/.library.bibtex
 
 ---
 
-
 ## Introduction
 
-Many accounts of democracy justify political authority on the grounds that democratic procedures produce desirable results.  For some these accounts, we can judge the quality of a democratic outcome against some independent criteria.  Epistemic accounts like Condorcet's Jury Theorem [@condorcet] or @estlund's Epistemic Proceduralism are like this. Democratic processes, according to these accounts, track the truth and that gives us reasons to value their outcomes.
+There are many ways one might attempt to justify democratic authority [^definitions].  A common approach is to point out that democratic procedures produce desirable outcomes.  Sometimes the quality of democratic outcomes is judged against some independent criteria.  Epistemic accounts like Condorcet's Jury Theorem [@condorcet] or @estlund's Epistemic Proceduralism are like this. Democratic processes, according to these accounts, track the truth and that gives us reasons to value their results.
 
-For others, we can judge the quality of democratic outcomes against some agent relative criteria.  We see this in utilitarian justifications of democracy when majority voting maximizes the expected utility of voter preferences [@rae].  One needn't be a utilitarian to employ such an approach however.  @rousseau for example, argued that majority rule realises the general will of the people and this gives us reasons to obey.
+Other times, we might judge the quality of democratic outcomes against some agent relative criteria.  We see this in utilitarian justifications of democracy when majority voting maximizes the expected utility of voter preferences [@rae].  One needn't be a utilitarian to employ such an approach however.  @rousseau for example, argued that majority rule realises the general will of the people and this gives us reasons to obey.
 
 And for others still, it is not the content of democratic decision making that matters so much as the effects that the process has on participants.  This is what @mill had in mind when he argued that democracy transforms the moral character of participants.  Democratic participation makes good citizens.
 
-Call these accounts of democracy _consequentialist_ [^qual-1].
+Call these accounts of democracy _consequentialist_.
 
-[^qual-1]: By _accounts of democracy_, I mean any normative theory of democracy's value.  Not all accounts of democracy are consequenitalist.  Intrinsic accounts of democracy for example, justify political authority without any reference to specific outcomes of the democratic process, and instead appeal to substantive ideals like equality, justice.  Unless explicitely stated, _Democracy_ in this paper refers exclusively those consequentialist conceptions where outcomes do the normatvie heavy lifting of justifying political authority.
+[^definitions]: By authority I mean ....  Democractic authority ....  By _accounts of democracy_, I mean any normative theory of democracy's value.  Not all accounts of democracy are consequenitalist.  Intrinsic accounts of democracy for example, justify political authority without any reference to specific outcomes of the democratic process, and instead appeal to substantive ideals like equality, justice.  Unless explicitely stated, _Democracy_ in this paper refers exclusively those consequentialist conceptions where outcomes do the normatvie heavy lifting of justifying political authority.
+
 
 The outcome of any democratic procedure is a function, in part, of who gets to participate in that procedure.  Enfranchising some people rather than others, drawing the political line on a map in one location rather than another, will often result in different outcomes that would otherwise have occured, even for identical democratic procedures.  Who is included in a particular democracy affects the particular outcomes of that democracy.
 
@@ -169,15 +169,17 @@ The partion-vote-measure loop is repeated 1000 times, generating in a probabilit
 
 ## Content Independent Outcomes
 
-One common justifications for democratic authority is epistemic - that democracy has instrumental value as a truth tracking processes.  Epistemic accounts can be relatively simple like Condorcet's Jury Theorem [see @list2001], or more nuanced such as Epistemic Proceduralism [@estlund2009].  
+One common justifications for democratic authority is epistemic - that democracy has instrumental value as a truth tracking processes.  Some of these epistemic accounts are relatively simple and Condorcet's Jury Theorem is one such example. Given a better than even chance of any voter being correct on some issue, then the likelihood of a majority vote being being correct approaches certainty as the number of voters increases [see @list2001].  
 
-While different, all epistemic accounts rely on the claim that democratic procedures, on average, are better at determining an independently correct result than alternate procedures.  This type of justification obviously requires some way of comparing the epistemic performance of different decision procedures and one intuitive way to do this is to assess them against a base line metric, such as the likelihood that any randomly selected voter holds the correct belief or votes correctly.
+Others, like @estlund2009's Epistemic Proceduralism, are more nuanced.  Rather than valuing democracy on the basis of the outcome of a specific vote, democracy has legitimacy because much like a jury, its decision processes have a tendency to make produce correct decisions. Even when the majority is wrong on a particular matter, the majority decision is morally binding as long as majority voting is the more reliable procedure than its alternatives.
 
-We can call the difference between the epistemic performance of a decision procedure and it's base line of comparison _epistemic virtue_.  If the base line likelihood of a randomly selected voter being correct was 51%, and the likelihood of a majority decision of 1000 votes being correct was 99%,  then the epistemic virtue of the process is the difference between the two - 48% - whereas a coin toss has no epistemic virtue. (see @estlund1997 for a deeper discussion of the mathematics behind Condorcet's Theorem).
+While different, all epistemic accounts rely on the claim that democratic procedures, on average, are better at determining the correct result than alternate ones. Further more, these results are correct _independently_ of the decision procedure used.  
 
-  !!! I think I need a better language here to describe epistemic performance - reliability maybe?
+This type of justification obviously requires some way of comparing the epistemic performance of different decision procedures and one intuitive way to do this is to assess them against some base line metric.  An obvious candidate for such a metric is the likelihood that any randomly selected voter holds the correct belief or votes correctly - what I will call the _epistemic base rate_ of a political space.
 
-In our simulation, epistemic virtue can be measured as the frequency based probability that a polity will vote correctly given the initial conditions of the space.  During each trial, the number of polities that voted correctly will be measured and the impact of differing partitions assessed.  The correct answer will be known in advance because we stipulate it when we create agents with either `right` or `wrong` belief.
+We can call the difference between the epistemic performance of a decision procedure and the epistemic base rate a procedure's _epistemic virtue_.  If the epistemic base rate - the likelihood of a randomly selected voter being correct - was 51%, and the likelihood of a majority decision of 1000 voters being correct was 99%,  then the epistemic virtue of the process is the difference between the two - 48% - whereas a coin toss has no epistemic virtue. (see @estlund1997 for a deeper discussion of the mathematics behind Condorcet's Theorem).
+
+In our simulation, the epistemic virtue of a simple majority vote can be measured as the frequency based probability that a polity votes correctly given the initial conditions of the space.  During each trial, the number of polities that voted correctly is measured and the impact of differing partitions assessed.  The correct answer to the question our agents vote on is known in advance because we stipulate it when we create agents with either `right` or `wrong` belief.
 
 
     Space::virtue = () ->
@@ -188,13 +190,13 @@ In our simulation, epistemic virtue can be measured as the frequency based proba
       correctVotes / @polities.length
 
 
-Running a Monte Carlo simulation hundreds of thousands of times for a range of partition numbers, cluster factors and epistemic base rates yields a probability distribution of the expected correct majority vote for each epistemic-partition-cluster tuple.
+Running a Monte Carlo simulation hundreds of thousands of times for a range of partition numbers (5 to 25), cluster factors (0.0 to 1.0) and epistemic base rates (0.51 to 0.75) yields a probability distribution of the expected correct majority vote for each base-rate-partition-cluster tuple.
 
-We can examine the results from any perspective of the tuple.  In the graph below, we see the impact of repartitioning on the epistemic virtue of a polity with an epistemic base rate of 0.6 from the perspective of clustering (each line representing the number of polities the space was partitioned into).
+We can examine the results from any perspective of the tuple.  In the graph below, we see the impact of repartitioning on the epistemic virtue of a polity with an epistemic base rate of 0.6 from the perspective of clustering (each line representing the number of polities the space was partitioned into).  
 
 ![Epistemic virtue by cluster factor](graphs/epi-600-c.png)
 
-Here, the likelihood of a randomly selected voter being correct is 0.6. When agents are uniformly distributed across the space (ie no clustering of agent belief is present), the likelihood that the majority vote of any polity is the correct choice is very high (0.85-0.97 likelihood).  This quickly deteriorates as clustering increases however, with no epistemic effect of majority voting evident once agent clustering reaches 0.5.  This hold for all levels of partition numbers and epistemic base rates > 0.51.
+The likelihood of any randomly selected voter in the space being correct is 0.6. When agents are uniformly distributed across the space by belief (ie no clustering of agent belief is present), the epistemic virtue of majority voting  - the likelihood that the majority vote of any polity is the correct choice - is very high (0.85-0.97).  This quickly deteriorates as clustering of agent belief increases however, with no epistemic virtue of majority voting evident once agent clustering reaches 0.5.  This hold true for all levels of partition numbers and epistemic base rates > 0.51.
 
 ![Epistemic virtue by partition number](graphs/epi-600-p.png)
 
@@ -202,29 +204,19 @@ Examining the same data from the perspective of partition number, we see little 
 
 [^explain]: Condorcet's Jury Theorem posits that the likelihood of majority rule selecting the correct outcome increases as the number of voters increases (assuming voters have an independent better than even chance of voting correctly).  The 0 cluster line deceases as the same number of voters in the space is partitioned into increasing numbers of polities.
 
-These results indicate that the epistemic virtue of majority voting processes is dependent not only on individual agent belief having a greater than 50% likelihood of being correct, but also how those agent belief are distributed across the political space.  
+These results indicate that the epistemic virtue of majority voting is dependent not only on individual agent belief having a greater than 50% likelihood of being correct, but also on how those agent belief are distributed across the political space.  A key stipulation of the Jury Theorem is that there is a better than average chance of any voter being correct - we might call this the _competency requirement_.  This simulation shows that when clustering of agent belief is present, even if the comeptency requirement is true for the space as a whole, it is not necessarily true for every parition of that space.  Furthermore, as clustering of agent belief across the space increases, the likelihood that every partition of the space satisfies the competency criteria decreases.
 
-A uniform distribution of agent belief is a critical requirement of epistemic justifications of democracy like Condorcet's Theorem.  Conversly when agent belief is highly clustered, then the epistemic virtue of majority voting, and therefore epistemic justifications of authority base on it, is undermined.
-
-
-  !! Does this make sense?
-
-  !! Do I need to explore empiric evidence that demonstrates that people do cluster based on belief in real life
-
-
-For a polity to have epistemic virtue greater than the epistemic base rate of its individual voters, Condorcet's Jury Theorem requires that a polity contain sufficiently many voters with a greater than even chance of voting correctly [^how-many].  These results demonstrate however, that even when these conditions are true for a political space - the world, a nation, or a region - these conditions are not necessarily true for any partition of that space - into countries, states, or cities.
-
-[^how-many]: find a citation for the 1000 voters @ 0.51
-
-Furthermore, the simulation demonstrates that any epistemic justification of democratic authority requires a corresponding account of democratic inclusion that ensures that:
+The relationship between content-independent justifications of democracy and democratic inclusion now becomes clearer. Epistemic justifications of democracy require accounts of inclusion that ensure that:
 
   1. Polities are sufficiently large for the Condorcet effect to emerge.
 
-  2. Voters in each polity are uniformly distributed by epistemic competence.
+  2. Each polity can satisfies the competency requirement even when the political space does.
 
-Restating this another way, if voters are uniformly distributed by belief in the political space, then almost any account of inclusion will be compatible with an epistemic justification of authority.  If voters are highly clustered however, then any arbitrary partitioning of the space will undermine the subsequent claims of epistemic virtue and therefore legitimacy.  In scenarios where clustering of belief is present, then the account of inclusion must explicitly show it satisfies the assumptions of its corresponding account of authority.
+  - need to add that polities must be heterogeneous when the space is homogeneous
 
-  !! Another restatement: Where we draw boundaries is irrelevant for this account of democracy if the distribution of voters by belief is uniform.  Where we draw boundaries is very important however, when the distribution of voters by belief is clustered.  The Boundary Problem only becomes a problem for content-independent justifications of democracy when homogeneity of voter belief is high within polities but low between them.
+Where we draw the boundaries of our democracies is irrelevant for content-independent accounts of democracy when the distribution of voter belief is uniform. All accounts are democratic inclusion are compatible with accounts of democratic authority in the case - any one will do.
+
+But where we draw boundaries of our democracies becomes critically important for these accounts of democratic authority when the distribution of voter belief is clustered. In this case, any compatible account of democratic inclusion will need to demonstrate that each polity statisfies the competency requirement for epistemic justifications.  We can summarise this insight by stating that the Boundary Problem only becomes a problem for content-independent justifications of democracy when homogeneity of voter belief is high within polities but low between them.
 
 
 ##  Content Relative Outcomes
@@ -247,7 +239,7 @@ We can judge these content-relative outcomes by defining the fidelity of a democ
       winners / population 
 
 
-Running the same Monte Carlo simulation for the same variables as for the epistemic simulation yields a different set of results.  Below, we see the fidelity of individual preference to majority vote for a distribution of agents with a 60:40 preference for some choice A or B over a range of clustering and partition variables, viewed by degree of clustering.
+Running the same Monte Carlo simulation for the same variables as for the epistemic simulation yields a different set of results to those of the content-independent one.  Below, we see the fidelity of individual preference to majority vote for a distribution of agents with a 60:40 preference for some choice A or B over a range of clustering and partition variables, viewed by degree of clustering.
 
 ![Preference realisation by cluster factor](graphs/pref-600-c.png)
 
@@ -261,10 +253,10 @@ In contrast with the epistemic simulation of democracy however, the impact of ag
 
 The number of polities a space is partitioned into plays only a limited role in individual-majority preference fidelity. As the space is partioned into increasing numbers of polities, fidelity increases slightly when preference are highly clustered, but the influence of partition number is significantly less than the impact of preference clustering.
 
-The key implication from this analysis is that accounts of democratic authority based on preference realisation and fidelity of individual with group preference, require an account of democratic inclusion that ensures: 
+The key implication from this analysis is that accounts of democratic authority based on preference realisation and the fidelity of individual with group preference require an account of democratic inclusion that ensures that: 
 
 1. Polities are sufficiently small.
-2. Voters in polities are highly clustered.
+2. Voters are sufficiently homogeneous in preference.
 
 Restated, where we draw political boundaries is irrelevant for content-relative accounts of democracy if the distribution of voters by preference is highly clustered.  Where we draw boundaries is very important however, when the distribution of voters by preference is uniform.  The Boundary Problem only becomes a problem for content-relative justifications of democracy when homogeneity of voter preferences is low within polities but high between them.
 
@@ -373,5 +365,3 @@ Finally, we capture terminal inputs to start up the simulation.  To run the simu
     process.argv.forEach (val, index, array) ->
       runEpistemicSimulation() if val is 'epistemic'
       runPreferenceSimulation() if val is 'preference'
-
----

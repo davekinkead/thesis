@@ -31,70 +31,20 @@ Lit review of descriptive characterisations of democratic
 
 But it can also be described normatively. These accounts try to show why democracy has value.
 
-Lit review of normative accounts
-
-  - Condorcet, List and Goodin. 2001: Democracy has value because majority voting tracks the truth under certain conditions.
-
-  - Estund 1997: Democracy has value because it is has a fair procedure and yields the best results.
-
-  - Arneson 2004: Democracy isn't intrinsically just. It has value because it is (contingently and uncertainly) the best system for realising justice.
-
-  - Frey and Stutzer 2005: People value political participation. Democracy has value because it increases utility not just from good policy but also by allowing people to participate.
-
-  - Cohen 2002: Laws and policies are legitimate to the extent that they are publicly justified to the citizens of the community.
-
-  - Singer 1973: Democracy is a peaceful and fair compromise the conflicting desires of everyone's dictatorial rule.
-
-  - Schumpter 1956: Responsible elites competing for the peoples vote is the best way to distribute power in the public interest. 
-
-  - Mill 1861: Democracy has value because it considers everyone's interests, more reliable for making the right decisions, and transforms the moral character of participants.
-
-  - Elster 1986: "The task of politics is not only to eliminate inefficiency [as in markets], but also to create justice--a goal to which the aggregation of political preferences is a quite incongruous means"
-
-  - Sen 1999: Democracy has value because it promotes policies that improve the well being of citizens and allows them to shape the norms and values of that well being.
-
-  - Rousseau: A general will is necessary for legitimate authority. Democracy has value because it discovers the general will in a manor that is equal and universal.
-
-  - Gould 1988: Democracy is valuable because only it can give individuals a chance of self government.
-
-  - Rawls 1971: Justice demands a liberal and egalitarian democracy.
-
-  - Rorty
-
-  - Christiano 2004:
-
-  - Buchanan & Tullock 1965: Elites will expand their power and create inefficient government, so more social functions should be performed by the market.
-
-  - Plato: The people lack the necessary expertise for ruling so elites should rule.
-
-
-  - will of the people
-
-  - self determination/check on abuse of power  
-
-  - promotes freedom
-
-  - embodies freedom
-
-  - promotes equality
-
-  - embodies equality
-
-
-
-
 Highlight the key features of any minimalist conception of democracy and outline my conception. Something along the lines of "collective autonomy characterised by political equality".
 
 
 ## Authority & Justification
 
-What is authority? Authority is the giving of content independent & pre-emptive reasons for others to act. It is to take action just because someone one believes to have authority said so.
+What is political authority? Political authority is what gives us reasons to obey the state.  But not just any reason will do.  We might have moral duties towards other citizens or governments for a variety of reasons but only some of these reasons stem from political authority.
 
-  - de facto vs dejure
-  - internal vs external
-  - right to rule vs obligation to obey vs justification for action.
+Some of these other reasons are universal moral duties to all people. Other reasons might be purely prudential - the difference between de jure and de facto authority (examine Webber).  These reasons might be internally or externally imposed.
 
-How can authority be justified?
+It is only a special type of moral reason for action that constitutes legitimate political authority.  This can be interpreted as the right to rule vs the obligation to obey vs a justification for action.
+
+Someone or something has authority when their giving of content independent & pre-emptive reasons for action is sufficient to generate obligations of obedience.  It is to take action just because someone one believes to have authority said so.
+
+So how can political authority be justified?
 
   - the difference between permissible vs ideal vs obligating justifications
   - associate obligations
@@ -107,16 +57,28 @@ But what does it mean to justify?
   - reasons for belief
   - coherence & non-contradiction
 
-So any account of political authority must show
+While the claim here is that we must believe the state has authority, does any belief count?
 
-  - it gives moral reasons for action
+  - visit Webber and the idea that any belief will do.
+  - why is this bad? Poor beliefs, contradictory beliefs, state Brainwashing...
+
+So we must believe the state has political authority for the right reasons. We need to know that our beliefs are warranted.  Let's look at some potential candidates for when our beliefs are warranted.
+
+  - Rawls offers us public justification. Reasons that reasonable people would reasonably accept. Demonstrate why this is too strong a criteria.
+
+  - Rorty offers us anti-foundationalism. Demonstrate why this is too weak a criteria.
+
+So any account of political authority must show that:
+
+  - it gives moral reasons for obeying
   - they are content independent
   - they are binding on subject
-  - that subjects are bound to particular states
   - that all subjects must obey all laws.
+  - that subjects are bound to particular states
 
 For democracy to justify political authority, it must show why the orders of democratic states give us reasons for actions, without reference to the content of those orders, and in a way that pre-empts other countervailing reasons for actions. 
   
+  - vindication vs justification vs rationalisation
 
 ## Confusion over Consent
 
@@ -142,21 +104,6 @@ But states claim authority without the consent of all members.  To impose the co
 Neither can hypothetical consent create obligations.  The an essential element of consent is its voluntary nature.  Counterfactual claims - you ought have consented - do not have this voluntary element so they cannot be consent.  The normative work must come from someone else, so hypothetical consent theories are really natural duty or associative obligation theories.
 
 So because the sovereign claims of the state do not permit non-consent, consent to political authority cannot be given (so long as the state is non-voluntary).
-
-TO READ
-
-  - Beran 1987 The Consent Theory of Political Obligation, London: Croom Helm.
-  - Estlund 2008 Democratic Authority: A Philosophical Framework, Princeton, NJ: Princeton University Press. pp. 117–58
-  - Gilbert 1993 “Group Membership and Political Obligation,” The Monist, 76: 119–31., 
-  - Gilbert 2006. A Theory of Political Obligation, Oxford: Oxford University Press.
-  - Gilbert 2013. Joint Commitment: How We Make the Social World, Oxford: Oxford University Press.
-  - Horton 2010, Political Obligation, 2nd edition, Basingstoke: Palgrave Macmillan. pp. 34–36; 
-  - Klosko 2005 Political Obligations, Oxford: Oxford University Press. pp. 123–29 
-  - Murphy & Gilbert (in Edmundson 1999, p. 320), The Duty to Obey the Law: Selected Philosophical Readings, Lanham, Md: Rowman & Littlefield.
-  - Plamenatz (1968, Postscript) Consent, Freedom, and Political Obligation, 2nd edition, Oxford: Oxford University Press.
-  - Simmons (1979, chaps. 3 and 4) Moral Principles and Political Obligations, Princeton, NJ: Princeton University Press.
-  - Sreenivasan 2009  “Oh But You Should Have: Estlund on Normative Consent,” Iyyun: The Jerusalem Philosophical Quarterly, 58: 62–72.
-  - Steinberger 2004, The Idea of the State, Cambridge: Cambridge University Press. p. 218
 
 
 ## The Problem of the People
@@ -216,3 +163,5 @@ Even if they can be shown to be fair, different procedures produce different out
 How do we reconcile these disagreements?  Using any democratic procedure results in an infinite regress.
 
 And neither can we consent to them if the results are binding on those who don't consent.
+
+Doxtrinal Paradox http://dave.kinkead.com.au/thoughts/the-contradiction-of-majority-rule/

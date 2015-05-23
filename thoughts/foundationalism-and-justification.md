@@ -1,3 +1,10 @@
+---
+layout: post
+title: Foundationalism & Justification
+category: philosophy
+date: 13 Oct 2013
+---
+
 # Foundationalism & Justification
 
 Contemporary accounts of democracy can be roughly divided into those justified on external grounds and those justified from internal ones.  External, or foundationalist justifications, all rely on some pre-democratic notion or principle upon which their account is built such as freedom, equality or autonomy.  Internal, or anti-foundationalist justifications, on the other hand, claim that any attempt to justify democracy on something outside its practice is disingenuous because those alleged foundations can only be interpreted through the prism of existing practices [@rorty2006]. We can only, anti-foundationalists claim, compare actual non-ideal practices against other potentially realisable non-ideal practices.

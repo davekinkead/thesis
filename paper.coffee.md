@@ -199,11 +199,15 @@ Running a Monte Carlo simulation hundreds of thousands of times for a range of p
 
 We can examine the results from any perspective of the tuple.  In the graph below, we see the impact of repartitioning on the epistemic virtue of a polity with an epistemic base rate of 0.6 from the perspective of clustering (each line representing the number of polities the space was partitioned into).  
 
-![Epistemic virtue by cluster factor](graphs/epi-600-c.png)
+<figure>
+<div id="epistemic-by-cluster" class="graph"></div>
+<figcaption>Epistemic virtue by cluster factor</figcaption></figure>
 
 The likelihood of any randomly selected voter in the space being correct is 0.6. When agents are uniformly distributed across the space by belief (ie no clustering of agent belief is present), the epistemic virtue of majority voting  - the likelihood that the majority vote of any polity is the correct choice - is very high (0.85-0.97).  This quickly deteriorates as clustering of agent belief increases however, with no epistemic virtue of majority voting evident once agent clustering reaches 0.5.  This hold true for all levels of partition numbers and epistemic base rates > 0.51.
 
-![Epistemic virtue by partition number](graphs/epi-600-p.png)
+<figure>
+<div id="epistemic-by-partition" class="graph"></div>
+<figcaption>Epistemic virtue by partition number</figcaption></figure>
 
 Examining the same data from the perspective of partition number, we see little impact of partition number on epistemic virtue for higher cluster factors, and only limited impact for low levels of clustering, concordant with Condorcet's Theorem [^explain].  This relationship holds for all epistemic base rates between 0.51 and 0.99.
 
@@ -246,7 +250,9 @@ We can judge these content-relative outcomes by defining the fidelity of a democ
 
 Running the same Monte Carlo simulation for the same variables as for the epistemic simulation yields a different set of results to those of the content-independent one.  Below, we see the fidelity of individual preference to majority vote for a distribution of agents with a 60:40 preference for some choice A or B over a range of clustering and partition variables, viewed by degree of clustering.
 
-![Preference realisation by cluster factor](graphs/pref-600-c.png)
+<figure>
+<div id="preference-by-cluster" class="graph"></div>
+<figcaption>Preference fidelity by clustering</figcaption></figure>
 
 Again, when viewed by degree of clustering, the impact of re-partitioning on preference realisation is stark.  When agents are uniformly distributed by preference across the space, the likelihood of an individual's preference being realised by majority vote is identical to that of any two random agents preference being the same i.e. the preference base rate.
 
@@ -254,7 +260,9 @@ As clustering of agent preferences increases however, the fidelity between indiv
 
 In contrast with the epistemic simulation of democracy however, the impact of agent clustering is reversed.  Majority voting has the greatest likelihood of fidelity with individual preference, and therefore greatest value from a content-relative perspective, when agents are highly clustered.  This contrasts sharply with the content-independent perspective where the greatest epistemic value of majority voting was found with a completely uniform agent distribution.
 
-![Preference realisation by partion number](graphs/pref-600-p.png)
+<figure>
+<div id="preference-by-partition" class="graph"></div>
+<figcaption>Preference fidelity by partition number</figcaption></figure>
 
 The number of polities a space is partitioned into plays only a limited role in individual-majority preference fidelity. As the space is partioned into increasing numbers of polities, fidelity increases slightly when preference are highly clustered, but the influence of partition number is significantly less than the impact of preference clustering.
 
@@ -331,34 +339,33 @@ A number of helper functions are necessary for the simulation to work, as well a
       results
 
     save = (type, results) ->
-      fs.writeFile "graphs/#{type}.json", JSON.stringify( results, null, 2 ) , (err) ->
+      fs.writeFile "assets/#{type}.json", JSON.stringify(results) , (err) ->
         if err then console.log err
 
     runEpistemicSimulation = () ->
       results = []
-      for e in [0..5]
+      for e in [0..10]
         e = 500 + e*50
-        e = 510 if e is 500
         for p in [0..5]
           p = (p+1)*5
-          for c in [0..5]
-            c = c/5
+          for c in [0..10]
+            c = c / 10
             es = simulateDemocracy( 'virtue', {'right': e, 'wrong': 1000-e}, p, c, 1000 )
-            results.push { e: e, p: p, c: c, value: ave(es.trials).toFixed(15) }
+            results.push { "baserate": e, "paritions": p, "clustering": c.toFixed(2), "epistemic virtue": ave(es.trials).toFixed(15) }
             process.stdout.write "Running #{results.length * 1000} epistemic trials\r"
       save 'epistemic', results
       
       
     runPreferenceSimulation = () ->
       results = []
-      for f in [0..5]
-        f = 500 + f*100
+      for f in [0..10]
+        f = 500 + f*50
         for p in [0..5]
           p = (p+1)*5
-          for c in [0..5]
-            c = c/5
+          for c in [0..10]
+            c = c / 10
             ps = simulateDemocracy( 'fidelity', {'chocolate': f, 'vanilla': 1000-f}, p, c, 1000 )
-            results.push { f: f, p: p, c: c, value: ave(ps.trials).toFixed(15) }
+            results.push { baserate: f, partitions: p, clustering: c.toFixed(2), "preference fidelity": ave(ps.trials).toFixed(15) }
             process.stdout.write "Running #{results.length * 1000} preference trials\r"
       save 'preference', results
     
@@ -370,3 +377,7 @@ Finally, we capture terminal inputs to start up the simulation.  To run the simu
     process.argv.forEach (val, index, array) ->
       runEpistemicSimulation() if val is 'epistemic'
       runPreferenceSimulation() if val is 'preference'
+
+<script src="assets/d3.v3.min.js"></script>
+<script src="assets/dimple.v2.1.2.min.js"></script>
+<script src="assets/graph.js"></script>

@@ -11,6 +11,49 @@ And I'm going to do this by showing that three existential paradoxes of democrat
 My conclusion will be that democratic states, at least as we know them, can never justify their claims to authority but can only rationalise them.
 
 
+## Authority & Justification
+
+What's the difference between the state and the mafia?  There are some obvious ones: size, ethnic heritage, access to resources etc.  But let's ignore these for a moment and focus on more relevant descriptive and normative criteria.  Both groups exercise power over particular geographical areas.  Both groups offer a non-voluntary policing and protection service.  Both groups extract rents in return for that service.  And both groups use violence against those they ostensibly claim to serve in order to further their aims.
+
+The key difference between the state and the mafia then, is normative.  While both claim power and want obedience, and while we have strong prudential reasons for obeying bother, only in the case of the state do we have independent extra-prudential reasons for compliance.  We have moral reasons to support and obey the state whereas we might have moral reasons to activity thwart the mafia.  This is what we mean by political authority.
+
+Political authority is what gives us reasons to obey the state.  But not just any reason will do.  We might have moral duties towards other citizens or governments for a variety of reasons but only some of these reasons stem from political authority.  Some of these other reasons are universal moral duties to all people. Other reasons might be purely prudential - the difference between de jure and de facto authority (examine Webber here).  These reasons might be internally or externally imposed.
+
+It is only a special type of moral reason for action that constitutes legitimate political authority.  This can be interpreted as the right to rule vs the obligation to obey vs a justification for action.  Authority as the right to rule captures too little of the concept.  Ruling becomes vacuous if there is no corresponding obligation to obey.  Authority as a justification for action however captures too much.  There might be many situations when a state's actions against a people are justified but they lack authority over those people.  Unilateral responses to externalities like climate change, or encroachment into a neutral party's territory during war are some examples of this.  Only when people have obligations to obey, may we say that those with the corresponding right to rule have authority.
+
+Following from @green our working definition of legitimate or _de jure_ authority might be something like this.
+
+> Someone or something has authority when their giving of content independent & pre-emptive reasons for action is sufficient to generate obligations of obedience.  When a subject has sufficient reasons to take action just because someone one believes to have authority said so.
+
+So any account of political authority must show that (following @green and @simmons):
+
+  - it gives subjects moral reasons for obeying
+  - those reasons are content independent
+  - those reasons are binding on subject
+  - that all subjects must obey all laws.
+  - that subjects are bound to particular states
+
+So how can political authority be justified?  Or stated another way, under what conditions is authority _legitimate_? A first step is to distinguish between justifications that generate permissibility, obligation, and the ideal.  Another step is to examine types of moral obligations - associate, transactional, and natural duty obligation. 
+
+Next, we must examine what it means to justify something.  While my claim is that we must believe the state has authority, does any belief count?  Here I segway to another critique of Webber and show why unfounded beliefs, contradictory or incoherent beliefs, or state brainwashing are insufficient for justifying authority.
+  
+We must believe the state has political authority for the right reasons. We need to know that our beliefs are warranted.  A number of accounts of when our beliefs are warranted _warrant_ are available.  @rawls offers public justification. A belief is warranted when it is supported by reasons that reasonable people would reasonably accept. This account is too strong however - it requires too much.  It fails to adequately address a criteria for reasonableness which has lead to significant debate (see @quong & @gaus).  In contrast, @rorty offers us anti-foundationalism. But this account is too weak.  It doesn't place sufficient demands on the quality of belief or its transmission.
+
+Instead, I propose we adopt a minimalist account of the epistemic requirements of political justification - warranted transmission:
+
+>  A subject s's justification for belief p based on evidence e transmits to p's logical consequence belief q iff:  
+>
+>    i)   s has justification for believing p based on e,  
+>    ii)  s knows that q is deducible from p, and  
+>    iii) s has justification for believing q in virtue of the satisfaction of (i) and (ii).  
+
+Logical consequence is the key here.  It eliminates incoherent or contradictory beliefs while being truth agnostic.  It means that validity in prior to posterior belief is a necessary condition for political authority.  And the consequence of this is that any account of political authority which is invalid cannot warrant the belief that that authority is legitimate.
+
+We now have a framework for analysing democratic authority in the rest of this thesis.  Democratic authority may be rationalised - by offering reasons to make it tolerable _post hoc_.  Democratic authority may be vindicated - by showing that certain desirable states of affairs are a probable consequent of it (see @cohen1971). Or democratic authority may be justified - shown to be legitimate by offering reasons that are warranted.
+
+I will show that no current account of democracy can justify political authority.
+
+
 ## Defining Democracy
 
 Democracy can be described descriptively or normatively. While many accounts are descriptive, they often have normative elements.
@@ -33,52 +76,6 @@ But it can also be described normatively. These accounts try to show why democra
 
 Highlight the key features of any minimalist conception of democracy and outline my conception. Something along the lines of "collective autonomy characterised by political equality".
 
-
-## Authority & Justification
-
-What is political authority? Political authority is what gives us reasons to obey the state.  But not just any reason will do.  We might have moral duties towards other citizens or governments for a variety of reasons but only some of these reasons stem from political authority.
-
-Some of these other reasons are universal moral duties to all people. Other reasons might be purely prudential - the difference between de jure and de facto authority (examine Webber).  These reasons might be internally or externally imposed.
-
-It is only a special type of moral reason for action that constitutes legitimate political authority.  This can be interpreted as the right to rule vs the obligation to obey vs a justification for action.
-
-Someone or something has authority when their giving of content independent & pre-emptive reasons for action is sufficient to generate obligations of obedience.  It is to take action just because someone one believes to have authority said so.
-
-So how can political authority be justified?
-
-  - the difference between permissible vs ideal vs obligating justifications
-  - associate obligations
-  - transactional obligations
-  - natural duty obligations
-
-But what does it mean to justify?
-
-  - epistemic requirements of justification
-  - reasons for belief
-  - coherence & non-contradiction
-
-While the claim here is that we must believe the state has authority, does any belief count?
-
-  - visit Webber and the idea that any belief will do.
-  - why is this bad? Poor beliefs, contradictory beliefs, state Brainwashing...
-
-So we must believe the state has political authority for the right reasons. We need to know that our beliefs are warranted.  Let's look at some potential candidates for when our beliefs are warranted.
-
-  - Rawls offers us public justification. Reasons that reasonable people would reasonably accept. Demonstrate why this is too strong a criteria.
-
-  - Rorty offers us anti-foundationalism. Demonstrate why this is too weak a criteria.
-
-So any account of political authority must show that:
-
-  - it gives moral reasons for obeying
-  - they are content independent
-  - they are binding on subject
-  - that all subjects must obey all laws.
-  - that subjects are bound to particular states
-
-For democracy to justify political authority, it must show why the orders of democratic states give us reasons for actions, without reference to the content of those orders, and in a way that pre-empts other countervailing reasons for actions. 
-  
-  - vindication vs justification vs rationalisation
 
 ## Confusion over Consent
 

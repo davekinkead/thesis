@@ -6,7 +6,7 @@ This is an argument about democratic authority.  About why and whether we have r
 
 I'm going to defend the thesis that if political authority requires justification, then democracy cannot justify political authority.
 
-And I'm going to do this by showing that three existential paradoxes of democratic theory - paradoxes relating to the who, what, and how of democratic activity - undermine even the most minimal accounts of political justification.
+And I'm going to do this by showing that existential paradoxes of democratic theory - paradoxes relating to the who, what, and how of democratic activity - undermine even the most minimal accounts of political justification.
 
 My conclusion will be that democratic states, at least as we know them, can never justify their claims to authority but can only rationalise them.
 
@@ -51,30 +51,45 @@ Logical consequence is the key here.  It eliminates incoherent or contradictory 
 
 We now have a framework for analysing democratic authority in the rest of this thesis.  Democratic authority may be rationalised - by offering reasons to make it tolerable _post hoc_.  Democratic authority may be vindicated - by showing that certain desirable states of affairs are a probable consequent of it (see @cohen1971). Or democratic authority may be justified - shown to be legitimate by offering reasons that are warranted.
 
-I will show that no current account of democracy can justify political authority.
+I will show that no account of democracy adequately justifies political authority.
 
 
 ## Defining Democracy
 
-Democracy can be described descriptively or normatively. While many accounts are descriptive, they often have normative elements.
+Democracy can mean many things. A theory, an ideal, a system of government, a set of social practices.  It can be applied to many contexts.  States, organisations, families, humanity, even non-human groups.  The analysis of democracy and of democratic theories can be a descriptive or normative endeavour.  While many accounts of are descriptive, they often have normative elements.  Of these, my focus is exclusively on normative democratic theories and how they attempt to justify the political authority of the state.
 
-Of the normative accounts, some simply assume democracy to be required and attempt to show what form is best, while others do not and attempt to justify democracy ab initio.
+Of the normative accounts, some simply assume democracy to be required and attempt to show what form is best.  Others attempt to justify democracy _ab initio_.  Contemporary accounts tend to fall into the former group, while classical accounts fall into the latter.
 
-Democracy can be described descriptively. These accounts try to show what democracy is.
+A lit review illustrating these themes...
 
-  - descriptive vs normative
-  - assumes democracy vs justifies democracy
+  - instrumental vs intrinsic
+  - transformative vs aggregative
+  - necessary and/or sufficient
 
-Lit review of descriptive characterisations of democratic
+We can see a few distinct argument forms for justifying democratic authority:
 
-  - Aristotle
-  - Madison & Hamilton
-  - Dahl
-  - Tilly
+  1. Democracy brings about good things
+  2. Good things are sufficient to warrant authority
+  3. Therefore democratic authority is warranted
 
-But it can also be described normatively. These accounts try to show why democracy has value.
+---
 
-Highlight the key features of any minimalist conception of democracy and outline my conception. Something along the lines of "collective autonomy characterised by political equality".
+  1. Democracy is good
+  2. Good is sufficient to warrant authority
+  3. Therefore democratic authority is warranted
+
+---
+
+  1. Authority is necessary
+  2. Democracy is best/least worst form of authority
+  3. Therefore democractic authority is warranted
+
+---
+
+  1. Only democracy can bring about the good sufficient to warrant authority
+  2. Therefore democratic authority is warranted
+
+Some accounts of democratic authority mix all 4
 
 
 ## Confusion over Consent
@@ -100,26 +115,22 @@ But states claim authority without the consent of all members.  To impose the co
 
 Neither can hypothetical consent create obligations.  The an essential element of consent is its voluntary nature.  Counterfactual claims - you ought have consented - do not have this voluntary element so they cannot be consent.  The normative work must come from someone else, so hypothetical consent theories are really natural duty or associative obligation theories.
 
-So because the sovereign claims of the state do not permit non-consent, consent to political authority cannot be given (so long as the state is non-voluntary).
+So because the sovereign claims of the state do not permit non-consent, consent to political authority cannot be given (so long as the state is non-voluntary).  And because consent cannot be given to a democratic state, consent cannot warrant democratic authority.
 
 
 ## The Problem of the People
 
-Consequentialist accounts of democracy justify political authority by reference to the outcomes of democratic processes.
+Democracy begins with the people but democratic theory can't explain who they should be.  That's because the matter of who the people are is temporally and logically prior to anything they decide.  Any attempt to answer the question of inclusion - who the people ought be - democratically, results in an infinite regress.  Before we can vote on who gets to vote, we must first vote on who gets to vote for who gets to vote.
 
-These processes however, are a function of who is included in those processes.
+Many accounts of democracy justify political authority by reference to the outcomes of democratic processes.  Democracy brings about good things.  These outcomes might be judged according to some content independent criteria - that say, democracy tracks the truth.  They might be judged according to some content relative criteria - that democracy maximises individual preferences. Or they might be judged according to some content-indifferent criteria - that democracy improves the moral character of its citizens.
 
-So any consequential account of democratic authority needs to provide a corresponding account of democratic inclusion.
+The outcomes of these processes however, are a function of who is included in those processes.  Including different people amongst _the people_ can change the outcome of the democratic process.  Sometimes, in the case of knife edge decisions, including or excluding a single voter will result in a different outcome.  Other times, millions of voters would need to be substituted for the result to be different.  How and when different accounts of inclusion affect the outcomes of democratic processes depends on the composition of voters and their distribution across a political space.
 
-But there is considerable debate about over who the people should be. There are no clear answers.  This is the Boundary Problem.
+Different accounts of inclusion will support or undermine different accounts of democracy depending on the composition and distribution of voters.  As such, any account of democracy that is based on the instrumental value of democratic outputs must also offer a corresponding, and congruent, account of inclusion.  Failure to do so will mean that any claim of democratic authority's legitimacy is not warranted.
 
-Furthermore, different consequentialist accounts of democracy require different accounts of democratic inclusion.  
+But no account of democracy offers a corresponding account of inclusion that is compatible with the current system of nation-states.  Furthermore, many of the existing accounts of inclusion such as those based on historical accident, culture, or nationality are not sufficiently congruent with instrumental accounts of democratic authority. Thus, no existing democratic state is justifiable on instrumental grounds, and it is doubtful that any democratic state could be.
 
-These accounts of inclusion are incompatible with each other rendering different consequentialist accounts of democracy incompatible.
-
-So without a compatible and coherent account of democratic inclusion, consequential accounts of democratic authority are rendered vacuous.
-
-  - possible inclusion of how this affects intrinsic accounts of democracy
+But what of vindication or rationalisation of instrumentalist accounts?  Include a qualification that some vindication might be possible but justification isn't.  
 
 
 ## Liberalism and its Limits
@@ -161,4 +172,4 @@ How do we reconcile these disagreements?  Using any democratic procedure results
 
 And neither can we consent to them if the results are binding on those who don't consent.
 
-Doxtrinal Paradox http://dave.kinkead.com.au/thoughts/the-contradiction-of-majority-rule/
+Doctrinal Paradox http://dave.kinkead.com.au/thoughts/the-contradiction-of-majority-rule/

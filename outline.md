@@ -13,13 +13,13 @@ My conclusion will be that democratic states, at least as we know them, can neve
 
 ## Authority & Justification
 
-What's the difference between the state and the mafia?  There are some obvious ones: size, ethnic heritage, access to resources etc.  But let's ignore these for a moment and focus on more relevant descriptive and normative criteria.  Both groups exercise power over particular geographical areas.  Both groups offer a non-voluntary policing and protection service.  Both groups extract rents in return for that service.  And both groups use violence against those they ostensibly claim to serve in order to further their aims.
+What's the difference between the state and the mafia?  There are some obvious ones of course: size, ethnic heritage, access to resources etc.  But let's ignore these for a moment and focus on more relevant descriptive and normative criteria.  Both groups exercise power over particular geographical areas.  Both groups offer a non-voluntary policing and protection service.  Both groups extract rents in return for that service.  And both groups use violence against those they ostensibly claim to serve in order to further their aims.
 
-The key difference between the state and the mafia then, is normative.  While both claim power and want obedience, and while we have strong prudential reasons for obeying bother, only in the case of the state do we have independent extra-prudential reasons for compliance.  We have moral reasons to support and obey the state whereas we might have moral reasons to activity thwart the mafia.  This is what we mean by political authority.
+The key difference between the state and the mafia then, is normative.  While both claim power and want obedience, and while we have strong prudential reasons for obeying them, only in the case of the state do we have independent extra-prudential reasons for compliance.  We have moral reasons to support and obey the state whereas we might even have moral reasons to actively thwart the mafia.  This is what we mean by political authority.
 
 Political authority is what gives us reasons to obey the state.  But not just any reason will do.  We might have moral duties towards other citizens or governments for a variety of reasons but only some of these reasons stem from political authority.  Some of these other reasons are universal moral duties to all people. Other reasons might be purely prudential - the difference between de jure and de facto authority (examine Webber here).  These reasons might be internally or externally imposed.
 
-It is only a special type of moral reason for action that constitutes legitimate political authority.  This can be interpreted as the right to rule vs the obligation to obey vs a justification for action.  Authority as the right to rule captures too little of the concept.  Ruling becomes vacuous if there is no corresponding obligation to obey.  Authority as a justification for action however captures too much.  There might be many situations when a state's actions against a people are justified but they lack authority over those people.  Unilateral responses to externalities like climate change, or encroachment into a neutral party's territory during war are some examples of this.  Only when people have obligations to obey, may we say that those with the corresponding right to rule have authority.
+It is only a special type of moral reason for action that constitutes _legitimate_ political authority.  This can be interpreted as the right to rule, the obligation to obey, or simply a justification for coercive action.  Authority as the right to rule captures too little of the concept.  Ruling becomes vacuous if there is no corresponding obligation to obey.  Authority as a justification for action however captures too much.  There might be many situations when a state's actions against a people are justified but they lack authority over those people.  Unilateral responses to externalities like climate change, or encroachment into a neutral party's territory during war are some examples of this.  Only when people have obligations to obey, may we say that those with the corresponding right to rule have authority.
 
 Following from @green our working definition of legitimate or _de jure_ authority might be something like this.
 
@@ -135,6 +135,14 @@ But what of vindication or rationalisation of instrumentalist accounts?  Include
 
 ## Liberalism and its Limits
 
+Democracy requires limits to its own power
+Those limits can't be determined democratically
+There are competing, incompatible, non-democratic limits
+There is no way to reconcile those accounts
+Democracy cannot warrant authority
+
+---
+
 Democracy requires limits. Without constraints to the scope of democratic authority, naked majoritarianism can quickly descend into tyranny.
 
   - Democracy may require some limits to protect political expression and function (free speech & association)
@@ -159,6 +167,15 @@ But doesn't constitutional majoritarianism act as a hand-break to tyranny?  Yes 
 
 
 ## Paradoxes of Procedure
+
+Congruent procedures are necessary for democracy to function
+No procedure is congruent
+Democracy can never warrant authority
+
+  - preference aggregation & arrow's theorm
+  - judgement aggregation & docrinal paradox
+
+---
 
 Every realisation of democracy must have some agreed upon way of making decisions.
 

@@ -16,6 +16,15 @@ Democracy cannot warrant authority
 
 ---
 
+Feedback / Objections
+
+  - Why is referenda a problem?
+  - Maybe it doesn't matter.  We need democracy, there is no better way of determining limits so go with consitituionalism
+  - Does the concept of democracy dictate its own limits - autonomy must be realised
+  - So what if its arbitrary. Can legitimacy arise from arbitrary starts?
+  - Maybe we don't need perfection. Any liberalism will do.
+  - Be clearer on how this paradox relates to my project. It only undermines obligation imposing ideas of democracy
+
 # The Limits of Liberalism
 
 This is an argument about the compatibility, or rather _incompatibility_, of liberalism and democracy.  For much of it's modern history, democracy has been synonymous with _liberal democracy_, the system of government associated with the free and fair election of the legislative and executive branches, the rule of law, and constitutional checks and balances that limit the power of government and protect the individual freedoms and rights of the people.

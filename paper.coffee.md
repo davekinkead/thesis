@@ -351,7 +351,7 @@ A number of helper functions are necessary for the simulation to work, as well a
           for c in [0..10]
             c = c / 10
             es = simulateDemocracy( 'virtue', {'right': e, 'wrong': 1000-e}, p, c, 1000 )
-            results.push { "baserate": e, "paritions": p, "clustering": c.toFixed(2), "epistemic virtue": ave(es.trials).toFixed(15) }
+            results.push { "baserate": e, "partitions": p, "clustering": c.toFixed(2), "epistemic virtue": ave(es.trials).toFixed(15) }
             process.stdout.write "Running #{results.length * 1000} epistemic trials\r"
       save 'epistemic', results
       

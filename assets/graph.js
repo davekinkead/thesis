@@ -5,36 +5,34 @@ var ep = dimple.newSvg("#epistemic-by-partition", 700, 400);
 var pc = dimple.newSvg("#preference-by-cluster", 700, 400);
 var pp = dimple.newSvg("#preference-by-partition", 700, 400);
 
-d3.json("graphs/epistemic.json", function(data) {
+var renderChart = function(id, slice, xLabel, yLabel, series) {
 
-  slice = dimple.filterData(data, "baserate", "600");
-
-  var chart = new dimple.chart(ec, slice);
+  var chart = new dimple.chart(id, slice);
   chart.setBounds(60, 30, 605, 305);
-  var x = chart.addCategoryAxis("x", "clustering");
-  x.addOrderRule("clustering");
+  var x = chart.addCategoryAxis("x", xLabel);
+  x.addOrderRule(xLabel);
   var y = chart.addMeasureAxis("y", "epistemic virtue");
   y.overrideMin = 0.5;
   y.overrideMax = 1.0;
-  var s = chart.addSeries("paritions", dimple.plot.line);
+  var s = chart.addSeries(series, dimple.plot.line);
   s.interpolation = "cardinal";
-  chart.draw();
+  chart.draw(); 
+}
 
-  var chart = new dimple.chart(ep, slice);
-  chart.setBounds(60, 30, 605, 305);
-  var x = chart.addCategoryAxis("x", "paritions");
-  x.addOrderRule("paritions");
-  var y = chart.addMeasureAxis("y", "epistemic virtue");
-  y.overrideMin = 0.5;
-  y.overrideMax = 1.0;
-  var s = chart.addSeries("clustering", dimple.plot.line);
-  s.interpolation = "cardinal";
-  chart.draw();
+d3.json("assets/epistemic.json", function(data) {
+
+  var slice = dimple.filterData(data, "baserate", '600');
+  renderChart(ec, slice, 'clustering', 'epistemic virtue', 'partitions');
+  renderChart(ep, slice, 'partitions', 'epistemic virtue', 'clustering');
+
 });
 
-d3.json("graphs/preference.json", function(data) {
+d3.json("assets/preference.json", function(data) {
 
-  slice = dimple.filterData(data, "baserate", "600");
+  var slice = dimple.filterData(data, "baserate", "600");
+  renderChart(ec, slice, 'clustering', 'epistemic virtue', 'partitions');
+
+
 
   var chart = new dimple.chart(pc, slice);
   chart.setBounds(60, 30, 605, 305);
@@ -50,7 +48,7 @@ d3.json("graphs/preference.json", function(data) {
   var chart = new dimple.chart(pp, slice);
   chart.setBounds(60, 30, 605, 305);
   var x = chart.addCategoryAxis("x", "partitions");
-  x.addOrderRule("paritions");
+  x.addOrderRule("partitions");
   var y = chart.addMeasureAxis("y", "preference fidelity");
   y.overrideMin = 0.5;
   y.overrideMax = 1.0;

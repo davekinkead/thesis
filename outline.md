@@ -2,11 +2,9 @@
 
 ## Introduction
 
-This is an argument about democratic authority.  About why and whether we have reasons to act as directed by democratic governments.
+This is an argument about authority; more specifically though, it's an argument about democratic authority and how what we typically think are justifications of democratic authority are in actual fact rationalisations of political authority. That's because accounts of democratic authority, all of them, fail to adequately justify the authority of the state.  What is left are mere rationalisation; attempts to make the coercive power of the state more palatable to those it coerces.
 
-I'm going to defend the thesis that if political authority requires justification, then democracy cannot justify political authority.
-
-And I'm going to do this by showing that existential paradoxes of democratic theory - paradoxes relating to the who, what, and how of democratic activity - undermine even the most minimal accounts of political justification.
+I'm going to defend the thesis that if political authority requires justification, then democracy cannot justify political authority.  And I'm going to do this by showing how the existential paradoxes of democratic theory - paradoxes relating to the who, what, and how of democratic activity - undermine even the most minimal accounts of political justification.  
 
 My conclusion will be that democratic states, at least as we know them, can never justify their claims to authority but can only rationalise them.
 
@@ -118,7 +116,7 @@ Neither can hypothetical consent create obligations.  The an essential element o
 So because the sovereign claims of the state do not permit non-consent, consent to political authority cannot be given (so long as the state is non-voluntary).  And because consent cannot be given to a democratic state, consent cannot warrant democratic authority.
 
 
-## The Problem of the People
+## The Paradox of the People
 
 Democracy begins with the people but democratic theory can't explain who they should be.  That's because the matter of who the people are is temporally and logically prior to anything they decide.  Any attempt to answer the question of inclusion - who the people ought be - democratically, results in an infinite regress.  Before we can vote on who gets to vote, we must first vote on who gets to vote for who gets to vote.
 
@@ -133,9 +131,12 @@ But no account of democracy offers a corresponding account of inclusion that is 
 But what of vindication or rationalisation of instrumentalist accounts?  Include a qualification that some vindication might be possible but justification isn't.  
 
 
-## Liberalism and its Limits
+## The Limits of Limits
+
+## The Limits of Limits
 
 Democracy requires limits to its own power
+Those limits must be specific to democracy's claims
 Those limits can't be determined democratically
 There are competing, incompatible, non-democratic limits
 There is no way to reconcile those accounts
@@ -143,33 +144,44 @@ Democracy cannot warrant authority
 
 ---
 
-Democracy requires limits. Without constraints to the scope of democratic authority, naked majoritarianism can quickly descend into tyranny.
+Democracy requires limits.  A line in the sand to demarcate what belongs in the realm of the public and what belongs to the private. Limits to the scope of its power are essential for a functioning democracy.
 
-  - Democracy may require some limits to protect political expression and function (free speech & association)
-  - Liberalism goes beyond this (freedom of religion, sexual expression etc)
+Without constraints to the scope of democratic authority, naked majoritarianism can quickly descend into tyranny.  As theorists from Aristotle to Acton have observed - power corrupts and absolute power corrupts absolutely.  History is littered with the debris of states whose popularly elected leaders became despots once elected and whose power was not checked.  
 
-Democracy without limits also lacks value. 
+But the concern here is not only for curtailing the power of potential tyrants in a representative democracy but also to prevent the tyranny of the majority in direct decisions.  Montesquieu, Tocqueville, Maddison, & Hamilton were all acutely aware of how persistent minorities and abuse by alliances or majorities can undermine democratic values and functions.
 
-  - illustrate with the thought experiment of democratic totalitarianism
+Now some of these limits are essential to the functioning of healthy democracy.  A free press, a secret ballot, and freedom to express opinion and associate are all essential ingredients for public discourse and free and fair elections.  Without these, democracy becomes a hollow empty shell - democracy in name only.  These limits are purely functional.
 
-Constitutional liberalism is typically offered as the solution. By specifying a set of rights that cannot be infringed by the majority, tyranny is held at bay.
+But some of these limits are necessary for democracy to have value.  Liberalism and democracy are distinct political concepts.  Illiberal democracy and liberal non-democracy, while not nearly as common as liberal democracy, are perfectly valid conjunctions.  And while distinct, the complementary nature of the democracy and liberalism is a critical part of why so many desire democratic rule over other forms of government.  These limits are substantive.
 
-Liberalism requires a priority of rights.  Some rights are incompatible with others. But there will always be reasonable disagreement about the priority of rights in liberal societies.
+One way to demonstrate this is by a thought experiment of totalitarian democracy.  Imaging a society of total popular sovereignty and perfect political equality where every facet of life is decided by direct decision.  What to where, what to eat, where to holiday, are all decisions that are made by majority vote.  This dystopian democracy satisfies all the requirements of democracy but seems to be something that few would value.
 
-No objective account of optimal liberty exists.  Even if it did exist, it is quite possible that there would be a set of equally optimal but incompatible priorities of rights.
+And some of these limits are specific to particular conceptions and justifications of democracy.  Democratic authority justified on the grounds of liberty requires limits that protect individual freedoms.  Democratic authority justified on the grounds of equality requires limits that ensure political equality - one vote one value, constraints on money in politics etc.
 
-This disagreement cannot be solved democratically.  To do so would be to replace liberal constraints with (super) majoritarianism.
 
-But doesn't constitutional majoritarianism act as a hand-break to tyranny?  Yes but this then undermines substantive justifications of democracy.
+Limits then, are essential to democracy.  And these limits are specific to particular conceptions of democracy.  So how can we determine what these limits ought be?  One way we can’t determine them is democratically.  That’s because any democratic action is a collective action.  The limits to democracy are limits to what can be determined democratically.  So using a collective action to determine what is immune from collective action is self-effacing. The very act of doing so places the scope of what is private and protected into the scope of the public.
 
-  - democracy as freedom can't be justified when the majority can override specific rights
-  - democracy as equality can't be justified when the majority can override procedural and substantive equality
+So what about extra-democratic limits?  Constitutional liberalism is typically offered as a solution to this dilemma. By specifying a set of rights that cannot be infringed by the majority, and formalising those constraints in a constitution, personal freedom is promoted and tyranny is held at bay.  While plausible, constitutional liberalism as a solution is undermined by the conditions of liberalism itself.
+
+Liberalism requires a priority of rights.  It requires that certain ideals and behaviours are valued over others.   But some rights are incompatible with others. My right to privacy is incompatible with your right to know what I am doing.  Your right to bear arms is incompatible with my right to be protected from mass shootings.  And while it is certainly true that some rights, or sets of rights, are more compatible that others, the notion of rights and their correlative duties means that my right to ø will always be incompatible with your right to stop me ø-ing.
+
+We now have the problem of determining this priority of rights.  And one way of doing this would be to point to some objective set of optimal liberties.  But of course, no objective account of optimal liberty exists.  Even if it did exist, it is quite possible that there would be a set of equally optimal but incompatible priorities of rights.  It seems highly problematic to determine the priority of incommensurable but competing value of say liberty and equality.
+
+Compounding this problem is Rawls’ observation that the conditions of liberalism produce a plurality of conceptions of the good. In liberal societies, there will always be reasonable disagreement about the priority of rights.  Rawls’ solution is for liberal societies to determine this priority democratically but as we have already seen, this approach is incoherent.
+
+Other substantive constraints to democracy’s scope face similar problems.  Democracy as justice can't be justified when the majority can override specific rights.  So it must first reach agreement on which form of justice is to be prioritised - procedural, substantive, historical, or future. Democracy as equality can't be justified when the majority can override procedural and substantive equality.  So it must first reach agreement on which form of equality is prioritised - of means, of opportunity
+
+But what of constitutional constraints?  All modern democracies have formal legal constraints  that limit the powers of the executive, legislative, and judiciary.  And typically, these limits can be altered democratically via referenda. Don’t these limits work and aren’t they democratic?
+
+To a degree, yes.  It’s certainly true that constitutional constraints promote a functional democracy. And it’s true that they tend to limit abuses of power.  In this regard, they seem much better than no constraints at all - acting as a kind of hand-break on tyranny.  But the inability of democratic theory to explain and justify why the particular constraints in particular constitutions should be there rather than equally justifiable alternatives makes them some what arbitrary
+
+If democratic authority requires coherent justifications, then our inability to justify the particular limits essential to democracy means that democratic authority can’t be justified.
 
 
 ## Paradoxes of Procedure
 
-Congruent procedures are necessary for democracy to function
-No procedure is congruent
+Procedures are necessary for democracy to function
+No procedure is congruent with democratic values
 Democracy can never warrant authority
 
   - preference aggregation & arrow's theorm

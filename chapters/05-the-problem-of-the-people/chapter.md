@@ -1,5 +1,5 @@
 ---
-title: The Problem of the People
+title: The Paradox of the People
 author: Dave Kinkead
 email: d.kinkead@uq.edu.au
 status: first draft
@@ -7,17 +7,20 @@ license: CC-BY-SA
 bibliography: /Users/dave/Dropbox/Research/Reading Notes/.library.bibtex
 ---
 
-# The problem of the people
+# The Paradox of the people
+
+  - 1000 word summary of thesis to date
+    - 250 words on authority
+    - 500 words on justification
+    - 250 words on democratic justifications
+
+  - what this chapter will show
+
+  - the problem of the people
+
 
 ---
 
-> Many accounts of democracy justify political authority on the grounds that democratic procedures produce desirable results.  But exactly who is included in any democratic process has a fundamental influence on the outcome of that processes.  Enfranchising one group rather than another, bounding a polity here rather than there, will typically result in different outcomes for identical democratic procedures.
-
-> Democratic theory however, is silent on who ought be included amongst the people.  It must be, because the issue of who the people are is logically and temporally   what they decide.  This inability of democratic theory to provide a suitable account of democratic inclusion has become known in the literature as the Boundary Problem.
-
-> Despite a growing awareness of the Boundary Problem, there is a complete absence of work quantifying the extent of the problem and the conditions under which it manifests.  This paper seeks to address the gap in democratic theory by conducting a detailed examination of the issue using formal modelling and computer simulation.  I show that rather than being a issue concerning democratic theory in general, the Boundary Problem affects different accounts of democratic authority in different ways.
-
-> Simultaneously a philosophical argument and a computer simulation, this paper is written in [literate coffeescript](http://coffeescript.org/), allowing the code described by the text to be executed with the command `coffee -l filename`.  The following links outline [installation](http://coffeescript.org/#installation) and [dependency](https://npmjs.org/doc/install.html) requirements.
 
 ---
 

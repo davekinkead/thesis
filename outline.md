@@ -133,17 +133,6 @@ But what of vindication or rationalisation of instrumentalist accounts?  Include
 
 ## The Limits of Limits
 
-## The Limits of Limits
-
-Democracy requires limits to its own power
-Those limits must be specific to democracy's claims
-Those limits can't be determined democratically
-There are competing, incompatible, non-democratic limits
-There is no way to reconcile those accounts
-Democracy cannot warrant authority
-
----
-
 Democracy requires limits.  A line in the sand to demarcate what belongs in the realm of the public and what belongs to the private. Limits to the scope of its power are essential for a functioning democracy.
 
 Without constraints to the scope of democratic authority, naked majoritarianism can quickly descend into tyranny.  As theorists from Aristotle to Acton have observed - power corrupts and absolute power corrupts absolutely.  History is littered with the debris of states whose popularly elected leaders became despots once elected and whose power was not checked.  

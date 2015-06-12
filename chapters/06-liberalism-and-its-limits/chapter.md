@@ -7,6 +7,15 @@ license: CC-BY-SA-NC
 bibliography: /Users/dave/Dropbox/Research/readings/.library.bibtex
 ---
 
+Democracy requires limits to its own power
+Those limits must be specific to democracy's claims
+Those limits can't be determined democratically
+There are competing, incompatible, non-democratic limits
+There is no way to reconcile those accounts
+Democracy cannot warrant authority
+
+---
+
 # The Limits of Liberalism
 
 This is an argument about the compatibility, or rather _incompatibility_, of liberalism and democracy.  For much of it's modern history, democracy has been synonymous with _liberal democracy_, the system of government associated with the free and fair election of the legislative and executive branches, the rule of law, and constitutional checks and balances that limit the power of government and protect the individual freedoms and rights of the people.

@@ -237,9 +237,9 @@ We can summarise this insight by stating that the Boundary Problem only becomes 
 
 Not all instrumental accounts of democracy are epistemic however.  Utilitarians justify democracy on the grounds that it promotes the greatest happiness.  Majority voting maximizes the expected utility of voter preferences when each individual has an equal chance of preferring each of two alternatives [@rae].  But one needn't be a card carrying utilitarian to employ such an approach.  @rousseau argued that majority rule realises the general will of the people and this gives us reasons to obey, while social choice theorists hold that majority voting realises individual choice when collectively binding decisions must be made (@may1952).
 
-While these accounts of democracy are considerably different, they all share a similarity in that the value of democracy stems from some content-relative criteria - of fidelity between individual preference and collective outcome.  It is not the contents of the outcome of a democratic process that matters per se, but rather how well this collective outcome matches the wants, preferences, or intent of individual participants.
+While these accounts of democracy are considerably different, they all share a similarity in that the value of democracy stems from some content-relative criteria - of fidelity between individual preference and collective outcomes.  It is not the contents of the outcome of a democratic process that matters per se, but rather how well this collective outcome matches the wants, preferences, or intent of individual participants.
 
-We can judge these content-relative outcomes by defining the fidelity of a democratic process as the likelihood that an individual's preference is the same as, or compatible, with the majority outcome.  Formalising fidelity as individual-collective choice equivalence we get: 
+We can judge these content-relative outcomes by defining the fidelity of a democratic procedure as the likelihood that an individual's preference is the same as, or compatible, with the majority outcome.  Formalising fidelity as individual-collective choice equivalence we get: 
     
     
     Space::fidelity = () ->
@@ -253,15 +253,15 @@ We can judge these content-relative outcomes by defining the fidelity of a democ
       winners / population 
 
 
-Running the same Monte Carlo simulation for the same variables as for the epistemic simulation yields a different set of results to those of the content-independent one.  Below, we see the fidelity of individual preference to majority vote for a distribution of agents with a 60:40 preference for some choice A or B over a range of clustering and partition variables, viewed by degree of clustering.
+Running the same Monte Carlo simulation with the same parameters as the epistemic simulation yields a different set of results to those of the content-independent one.  Below, we see the fidelity of individual preference to majority vote for a distribution of agents with a 60:40 preference for some choice A or B over a range of clustering and partition variables, viewed by degree of clustering.
 
 <figure>
 <div id="preference-by-cluster" class="graph"></div>
 <figcaption>Preference fidelity by clustering</figcaption></figure>
 
-Again, when viewed by degree of clustering, the impact of re-partitioning on preference realisation is stark.  When agents are uniformly distributed by preference across the space, the likelihood of an individual's preference being realised by majority vote is identical to that of any two random agents preference being the same i.e. the preference base rate.
+Again, when viewed by degree of clustering, the polity composition on preference realisation is stark.  When agents are uniformly distributed by preference across the space, the likelihood of an individual's preference being realised by majority vote is identical to that of any two random agents preference being the same i.e. the preference base rate.
 
-As clustering of agent preferences increases however, the fidelity between individual and majority preference increases significantly. At its most extreme, there is near certainty that individual preference will be realised by a majority vote when the distribution of agents across the political space is fully clusters i.e. agents are completely segregated by preference.  This relationship holds for all preference base rates.
+As clustering of agent preferences across the space increases however, the fidelity between individual and majority preference increases significantly. At its most extreme, there is near certainty that individual preference will be realised by a majority vote when the distribution of agents across the political space is fully clusters i.e. agents are completely segregated by preference.  This relationship holds for all preference base rates.
 
 In contrast with the epistemic simulation of democracy however, the impact of agent clustering is reversed.  Majority voting has the greatest likelihood of fidelity with individual preference, and therefore greatest value from a content-relative perspective, when agents are highly clustered.  This contrasts sharply with the content-independent perspective where the greatest epistemic value of majority voting was found with a completely uniform agent distribution.
 
@@ -318,21 +318,22 @@ In other words...
 - different accounts of authority that have incompatible accounts of inclusion are themselves incompatible
 
 
-## Epilogue
+## Appendix
 
-A number of helper functions are necessary for the simulation to work, as well as initiate the Monte Carlo runs.  
+!! Tidy up vote algorithm
 
-!! I can move a lot of the in paper code down to here...
+A number of helper functions are necessary for the simulation to work.  First let's define some simple statistical functions.
 
 
-
-    fs       = require 'fs'
     sum      = (arr) -> arr.reduce (a,b) -> a + b
     ave      = (arr) -> sum(arr) / arr.length
     variance = (arr) ->
       mean = ave(arr)
       (arr.reduce ( (a,b) -> a + (mean-b)*(mean-b)), 0) / arr.length
     stdev    = (arr) -> Math.sqrt( variance arr)
+
+
+Next, we need to run the simulation.  The following function runs a simulation for the given parameters and number of trials.
 
 
     simulateDemocracy = (account, agents, partitions, clustering, trials) ->
@@ -343,45 +344,44 @@ A number of helper functions are necessary for the simulation to work, as well a
         results.trials.push space[account]( space.partition partitions )
       results
 
-    save = (type, results) ->
-      fs.writeFile "assets/#{type}.json", JSON.stringify(results) , (err) ->
+
+The results now need to be saved.  We'll save them in to a local file in JSON format for ease of consumption later on.
+
+
+    fs = require 'fs'
+    save = (name, results) ->
+      fs.writeFile "assets/#{name}.json", JSON.stringify(results) , (err) ->
         if err then console.log err
 
-    runEpistemicSimulation = () ->
+
+Now we need to bootstrap the simulation.  We run it by assigning a name, metric, and some choices for the agents to vote on.
+
+
+    runSimulation = (name, metric, choices) ->
+      bases = [0..10]
+      partitions = [1..6]
+      clusters = [0..10]
       results = []
-      for e in [0..10]
-        e = 500 + e*50
-        for p in [0..5]
-          p = (p+1)*5
-          for c in [0..10]
+
+      for b in bases
+        b = 500 + b*50
+        for p in partitions
+          p = p * 5
+          for c in clusters
             c = c / 10
-            es = simulateDemocracy( 'virtue', {'right': e, 'wrong': 1000-e}, p, c, 1000 )
-            results.push { "baserate": e, "partitions": p, "clustering": c.toFixed(2), "epistemic virtue": ave(es.trials).toFixed(15) }
-            process.stdout.write "Running #{results.length * 1000} epistemic trials\r"
-      save 'epistemic', results
-      
-      
-    runPreferenceSimulation = () ->
-      results = []
-      for f in [0..10]
-        f = 500 + f*50
-        for p in [0..5]
-          p = (p+1)*5
-          for c in [0..10]
-            c = c / 10
-            ps = simulateDemocracy( 'fidelity', {'chocolate': f, 'vanilla': 1000-f}, p, c, 1000 )
-            results.push { baserate: f, partitions: p, clustering: c.toFixed(2), "preference fidelity": ave(ps.trials).toFixed(15) }
-            process.stdout.write "Running #{results.length * 1000} preference trials\r"
-      save 'preference', results
+            sim = simulateDemocracy( metric, {"#{choices[0]}": b, "#{choices[1]}": 1000-b}, p, c, 1000 )
+            results.push { "baserate": b, "partitions": p, "clustering": c.toFixed(2), "#{name} #{metric}": ave(sim.trials).toFixed(15) }
+            process.stdout.write "Running #{results.length * 1000} #{name} trials\r"
+      save name, results
     
-    module.exports = { simulate: simulateDemocracy }
 
 Finally, we capture terminal inputs to start up the simulation.  To run the simulation of epistemic democracy, use the command `coffee paper.coffee.md epsitemic`.  This will execute the code embedded described in the paper above.
 
 
     process.argv.forEach (val, index, array) ->
-      runEpistemicSimulation() if val is 'epistemic'
-      runPreferenceSimulation() if val is 'preference'
+      runSimulation('epistemic', 'virtue', ['right', 'wrong']) if val is 'epistemic'
+      runSimulation('preference', 'fidelity', ['red', 'blue']) if val is 'preference'
+
 
 <script src="assets/d3.v3.min.js"></script>
 <script src="assets/dimple.v2.1.2.min.js"></script>

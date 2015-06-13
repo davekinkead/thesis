@@ -107,13 +107,13 @@ An agent represents a political actor or citizen.  They are simple folk who hold
       constructor: (@belief) ->
 
 
-Agents exist within a space which represents the problem domain.  A space is constructed by specifying an agent profile of how many agents hold which belief, preference, or virtue.  These belief are stipulative.  They are defined at the start of the simulation and form its parameters.  For example, an agent profle of  `{ 'chocolate': 400, 'vanilla': 600 }` would create a space with 400 agents whose preference is chocolate and 600 whose preference is vanilla.
+Agents exist within a space which represents the problem domain.  A space is constructed by specifying a profile of how many agents hold which belief, preference, or virtue.  These belief are stipulative.  They are defined at the start of the simulation and form its parameters.  For example, a profle of  `{ 'chocolate': 400, 'vanilla': 600 }` would create a space with 400 agents whose preference is chocolate and 600 whose preference is vanilla.
 
 
     class Space
-      constructor: (agent_profile) ->
+      constructor: (profile) ->
         @agents = []
-        for belief, believers of agent_profile
+        for belief, believers of profile
           for n in [1..believers]
             @agents.push new Agent(belief)
 
@@ -131,13 +131,15 @@ Agents in our space will be distributed according to a cluster factor which dete
         @agents = @agents.concat quota.splice limit, 1
 
 
-Spaces are partitioned into polities.  A polity represents a unit of political association that holds some degree of sovereignty regarding specific issues, such as a nation-state, province, or local council.  Most political spaces are partitioned in some way - the world is divided into countries, countries are divided into states or provinces, states are divided into electorates etc.   
+Spaces are partitioned into polities.  A polity represents a unit of political association that holds some degree of sovereignty regarding specific issues, such as a nation-state, province, or local council.  Most political spaces are partitioned in some way - the world is divided into countries, countries are divided into states or provinces, states are divided into electorates etc.
 
-How we partition a space - how we decide who will be included in which political association - forms the crux of the Boundary Problem and there are many ways to do this.  Amongst accounts of democratic inclusion we find proposals to group agents according to nationality, cultural or linguistic salience, degree of economic or social interdependence, by who is affected by a policy or issue, or even to not partition at all. 
+How we partition a space - how we decide who will be included in which political association - forms the crux of the Boundary Problem and there are many competing theories concerning how to partition.  Amongst accounts of democratic inclusion we find proposals to group agents according to nationality, cultural or linguistic salience, degree of economic or social interdependence, by who is affected by a policy or issue, or even to not partition at all [^world].
 
-While numerous accounts of inclusion exist in political theory, the combination of actual possible partitions of any space is orders of magnitude greater [^combos].  Given the myriad of potential accounts of inclusion and subsequent partitions of a space, a stochastic algorithm to divide the space into different polities will be used to generate a sample of partitions.  This allows the simulation to be agnostic with regards to the specific account of democratic inclusion while capturing a wide variety of possible agent compositions.
+[^world]: Who says we should have a global democracy....
 
-[^combos]: The possible number of different partitions is the sum of binomial coefficients of agents and the number groups they are partitioned into.  This increases exponentially as the number of agents and groups increases, making a simulating all possible partitions within a reasonable time frame is beyond the capacity of desktop computing.
+While numerous accounts of inclusion exist in political theory, the combination of actual possible partitions of any space is orders of magnitude greater [^combos].  To simplify the model and remain agnosting about particular theories of inclusion while capturing a wide variety of possible agent compositions, a stochastic algorithm to divide the space into different polities will be used to generate a random sample of polities.  
+
+[^combos]: The possible number of different partitions is the sum of binomial coefficients of agents and the number groups they are partitioned into.  This increases exponentially as the number of agents and groups increases, making a simulating all possible partitions within a reasonable time frame is beyond the capacity of current desktop computing.
 
 The partitioning algorithm recursively divides the largest polity of the space at a random point until the desired number of polities have been produced - each characterised by a differing number and composition of agents. 
 
@@ -154,6 +156,7 @@ The partitioning algorithm recursively divides the largest polity of the space a
         k--
       this
 
+--figure here to visually explain the model--
 
 Democracies make collective decisions - it's why they exist.  The decision procedure for our model democracy will be a naive majority vote on a binary issue.  This is the simplest decision mechanism to model and it will assume that agents vote sincerely and deterministically according to their belief.
 
@@ -167,11 +170,11 @@ Democracies make collective decisions - it's why they exist.  The decision proce
       votes
 
 
-With our model defined, the relationship between accounts of democracy and accounts of inclusion can now be explored by running Monte Carlo simulations of the model for various combinations of agent, clusterings, and partitions [^monte].  
+With our model now defined, the relationship between accounts of democracy and accounts of inclusion can now be explored by running Monte Carlo simulations of the model for various combinations of agent, clusterings, and partitions [^monte].  
 
 At the beginning of each simulation, a space is created with a fixed agent profile, clustering factor, and polity number.  During each run, the space is partitioned into the desired number of polities which then vote, with the results being recorded for statistical analysis.  
 
-This partition-vote-measure loop is repeated 1000 times, generating in a probability density function of the vote for each belief-cluster-partition tuple.  These results are then assessed against three classes of instrumental accounts of democracy to examine the conditions under which accounts of inclusion affect accounts of democracy.
+This partition-vote-measure loop is repeated 1000 times, generating in a probability density function of the votes in each polity for each belief-cluster-partition tuple.  These results are then assessed against three classes of instrumental accounts of democracy to examine the conditions under which accounts of inclusion affect accounts of democracy.
 
 [^monte]: Monte Carlo simulations are class of computational algorithms that rely on statistical sampling from repeated simulation trials to generate numerical results. [see @fishman1996 for a full treatment of their use in computer simulation].
 

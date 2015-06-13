@@ -1,4 +1,32 @@
-var renderChart = function(id, slice, xLabel, yLabel, series) {
+
+function renderChart(id, data, base, xLabel, yLabel, series) {
+
+  var slice = dimple.filterData(data, 'baserate', base);
+  var baserate = dimple.getUniqueValues(data, 'baserate');
+
+  var title = d3.select(id)
+    .html('')
+    .append('div')
+    .attr('style', 'text-align: center; margin-bottom: 0;');
+
+  title
+    .append('span')
+    .attr('style', 'margin-right: 0.5em;')
+    .text('Base Rate');
+
+  var select = title.append('select').on('change', function() {
+      return renderChart(id, data, this.value, xLabel, yLabel, series);
+  });
+
+  baserate.forEach(function(b) {
+    select.append('option')
+    .attr('value', b)
+    .attr('selected', function() {
+      if (b == base) 
+        return 'selected';
+    })
+    .text((b / 1000).toPrecision(2));
+  });
 
   var canvas = dimple.newSvg(id, 700, 400);
   var chart = new dimple.chart(canvas, slice);
@@ -18,16 +46,12 @@ var renderChart = function(id, slice, xLabel, yLabel, series) {
 
 d3.json('assets/epistemic.json', function(data) {
 
-  var slice = dimple.filterData(data, 'baserate', '600');
-  renderChart('#epistemic-by-cluster', slice, 'clustering', 'epistemic virtue', 'partitions');
-  renderChart('#epistemic-by-partition', slice, 'partitions', 'epistemic virtue', 'clustering');
-
+  renderChart('#epistemic-by-cluster', data, '600', 'clustering', 'epistemic virtue', 'partitions');
+  renderChart('#epistemic-by-partition', data, '600', 'partitions', 'epistemic virtue', 'clustering');
 });
 
 d3.json('assets/preference.json', function(data) {
 
-  var slice = dimple.filterData(data, 'baserate', '600');
-  renderChart('#preference-by-cluster', slice, 'clustering', 'preference fidelity', 'partitions');
-  renderChart('#preference-by-partition', slice, 'partitions', 'preference fidelity', 'clustering');
-
+  renderChart('#preference-by-cluster', data, '600', 'clustering', 'preference fidelity', 'partitions');
+  renderChart('#preference-by-partition', data, '600', 'partitions', 'preference fidelity', 'clustering');
 });

@@ -15,19 +15,19 @@ bibliography: /Users/dave/Dropbox/Research/Reading Notes/.library.bibtex
 
 ## Introduction
 
-There are many ways one might justify democracy [^definitions].  A common approach is to point to the desirable outcomes that democratic procedures bring about. Democracy in this light leads to good policy.  
+There are many ways one might justify democracy [^definitions].  One common approach is to point to the desirable outcomes that democratic procedures bring about. Democracy in this light leads to good policy.  
 
-Sometimes the desirability of these outcomes is judged according to some independent criteria.  According to these accounts, there is some external standard for measuring the quality of a decision.  Epistemic accounts of democracy like Condorcet's Jury Theorem [@condorcet] or David Estund's Epistemic Proceduralism [@estlund] are like this.  Truth exists independently of our beliefs and democratic processes track the truth, so this gives us reason to value democracy.
+Sometimes the desirability of these outcomes is judged according to some independent criteria.  According to these accounts, there is some external standard for measuring the quality of a decision.  Epistemic accounts of democracy like Condorcet's Jury Theorem [@condorcet] or David Estund's Epistemic Proceduralism [@estlund] are like this.  Truth exists independently of our beliefs; democratic processes track the truth; so this gives us reason to value democracy.
 
 Other times, we might judge the quality of democratic outcomes against some agent relative criteria.  Rather than rely on something external, the desirability of a particular result is assessed against some internal standard.  It isn't the collective decisions of democracy that matter _per se_ but how those collective decisions correspond with individual choices.  We see this in utilitarian justifications of democracy where majority voting maximizes the expected utility of voter preferences [@rae].  But one needn't be a utilitarian to employ such an approach - @rousseau for example, argued that majority rule realises the general will of the people and this gives us reasons value it.
 
-And for others still, it is not the content of democratic decision making that matters so much as the effects that democratic processes have on the participants.  This is what @mill had in mind when he argued that democracy transforms the moral character of its participants.  Democratic participation makes good citizens.
+And for others still, it is not the particular content of democratic decision making that matters so much as the effects that democratic processes have on the participants.  Democracy changes people.  This is what @mill had in mind when he argued that democracy transforms the moral character of its participants.  Democratic participation makes good citizens.
 
-Call these accounts of democracy _consequentialist_ [^consequentialist].
+Call these accounts of democracy _instrumental_ [^instrumental].
 
 [^definitions]: The term justification has been used in a variety of ways within political theory.  Sometimes it is used normatively to describe the content of reasons that might _legitimate_ democratic authority.  Other times it is used descriptively to to describe the giving of such reasons.  In this paper I use _justifications of democracy_ and _accounts of democracy_ synonymously to mean any normative theory of democracy's value.
 
-[^consequentialist]: Of course not all accounts of democracy are consequentialist.  Some times democracy is justified intrinsically by appealing to substantive ideals like equality or justice.  Unless explicitly stated, _democracy_ in this paper refers exclusively those consequentialist conceptions where outcomes do the normative of explaining democracy's value.
+[^instrumental]: Of course not all accounts of democracy are instrumental.  Some times democracy is justified intrinsically by appealing to substantive ideals like equality or justice.  Unless explicitly stated, _democracy_ in this paper refers exclusively those instrumental conceptions where outcomes do the normative of explaining democracy's value.
 
   * * * 
 
@@ -35,9 +35,9 @@ The outcome of any democratic procedure is a function, in part, of who gets to p
 
 Some democratic processes are deterministic.  People vote according to their belief or preference and the voting procedures employed determines a winning outcome.  This is true for both _naive voting_, where voters believe they alone determine the outcome, as well as _strategic voting_, where voters support a choice other than their sincere preference in an attempt to increase the likelihood of an acceptable outcome [@feddersen1999]. 
 
-In both cases, the outcome of a democratic process is fully a function of who participates in that process.  On one extreme, when voters are fully polarised, including or excluding a single voter will change the outcome of the democratic process.  At the other extreme, complete consensus, over 50% of voters would need to be replaced for the outcome to change.
+In both cases, the outcome of a democratic process is fully a function of who participates in that process.  On one extreme, when voters are fully polarised, including or excluding a single voter will change the outcome of the democratic process.  At the other extreme of complete consensus, over 50% of voters would need to be replaced for the outcome to change.
 
-Other democratic processes however, are indeterministic. This may be because voters themselves don't know how they will vote until the moment they cast their ballot, or because the decision mechanism itself is indeterminate, as in the case of sortition or selection by lottery.  Yet even in these cases, the outcome of a democratic processes remain a function of who is included in that process because changing participants changes the likelihood of particular outcomes.
+Other democratic processes however, are indeterministic. This may be because voters themselves don't know how they will vote until the moment they cast their ballot, or because the decision mechanism itself is indeterminate, as in the case of sortition or selection by lottery.  Yet even in these cases, the outcome of a democratic processes remain a function of who is included in that process, because changing participants changes the likelihood of particular outcomes.
 
 _Who_ votes determines _what_ is decided.
 
@@ -45,16 +45,16 @@ _Who_ votes determines _what_ is decided.
 
 So when democracy is justified by way of its outcomes, and those outcomes are determined by who is included in the democratic process, the question of _who should be included_ becomes a matter of fundamental importance for those accounts of democracy.
 
-Yet the question of who ought be included in a political association - of how the demos ought be bounded - presents a challenge to democratic theory.  Attempting to answer the question of inclusion democratically results in an infinite regress.  To vote on who gets to participate in a democracy first requires the identification of some prior group to make this decision, and to identify that prior group democratically requires the identification a prior prior group, _ad infinitum_.  
+Yet the question of who ought be included in a political association - of how the demos ought be bounded - presents a challenge to democratic theory.  If we attempt to answer the question of inclusion _democratically_, an infinite regress results.  To vote on who gets to participate in a democracy first requires the identification of some prior group to make this decision, and to identify that prior group democratically requires the identification a prior prior group, _ad infinitum_.  
 
-In what has become known as the _Boundary Problem of Democratic Theory_ [^other-names], no account of inclusion is compatible with a broad range of justifications of democracy.  Accounts of inclusion based on the status quo make the democratic outcomes contingent upon the accidents of history; those based on nationality lack a clear and objective criteria of what nationality is; cultural and linguistic salience ignores the reality of multiculturalism; and accounts based on coercion and affected interests are incompatible with the current system of nation-states [^treatment].
+In what has become known as the _Boundary Problem of Democratic Theory_ [^other-names], no account of inclusion can be shown to be compatible with a broad range of justifications of democracy.  Accounts of inclusion based on the status quo make the democratic outcomes contingent upon the accidents of history; those based on nationality lack a clear and objective criteria of what nationality is; cultural and linguistic salience as a criteria for inclusion ignores the reality of multiculturalism and multi-linguistic communities; and accounts based on coercion and affected interests are incompatible with the current system of nation-states [^treatment].
 
 [^other-names]: A large footnote on who has called this problem what...
 
 [^treatment]: See @whelan1983 for the seminal analysis of the challenges that the Boundary Problem presents as well as more recent work by @dahl1989, @arrhenius2005, @bergström2007, @goodin2007, @miller2009, @agné2010, @abizadeh2012, @schaffer2012, @song2012, and @erman2014.
 
 
-The question I wish to explore in this paper is _when is the Boundary Problem a problem for consequentialist accounts of democracy_?  Addressing _why_ the Boundary Problem is a problem, or _how_ it might be solved is not the focus of this paper. Rather, I wish to explore the relationship between accounts of inclusion and accounts of democracy and advance three claims that relate to any answer to the question of who the people ought be:
+The question I wish to explore in this paper is _when is the Boundary Problem a problem for instrumental accounts of democracy_?  Addressing _why_ the Boundary Problem is a problem, or _how_ it might be solved is not my aim. Rather, I wish to explore the relationship between accounts of inclusion and accounts of democracy and advance three claims that impact any answer to the question of who the people ought be:
 
   1.  That accounts of democracy must be compatible with accounts of inclusion.
 
@@ -62,15 +62,19 @@ The question I wish to explore in this paper is _when is the Boundary Problem a 
 
   3.  That different accounts of democracy that have incompatible accounts of inclusion are themselves incompatible.
 
-The first claim advances the existing literature on the Boundary Problem by making the link between inclusion and justifications of democracy explicit.  Often, political theorists approach the problem of inclusion from a cosmopolitan position, arguing that the question is primarily about justice.  Other times, the concern is related to whether or not an answer is internally consistent with democracy, or whether it actually is a paradox of founding.  Only rarely however, is the link between the problem of inclusion and the value of democracy addressed, and typically this is only ever implicit.  I will show that any consequential account of democracy's value must be compatible with it's corresponding claim of democratic inclusion.
+The first claim advances the existing literature on the Boundary Problem by making the link between inclusion and justifications of democracy explicit.  Often, political theorists approach the problem of inclusion from a cosmopolitan position, arguing that the question is primarily about justice [^cosmo].  Other times, the concern is related to whether or not an answer is internally consistent with democracy, or whether it actually is a paradox of founding [^coherence].  Only rarely however, is the link between the problem of inclusion and the value of democracy addressed, and typically this is only ever implicit.  I will show that any consequential account of democracy's value must be compatible with it's corresponding claim of democratic inclusion.
 
-The second claim offers something new.  Different accounts of democracy require different accounts of inclusion.  As we shall see, accounts of democracy based on content-independent criteria require different accounts of inclusion to those based on content-relative criteria. Content-indifferent accounts of democracy by contrast, are compatible with a wide variety of accounts of inclusions, and are therefore less challenged by the Boundary Problem.
+[^cosmo]: Who are the cosmos...
 
-Which leads us to the third claim: whenever differing accounts of inclusion are incompatible, their corresponding accounts of democracy must also be incompatible. Because of the necessary relationship between democratic inclusion and justification, certain accounts of democracy cannot be mixed.  
+[^coherence]: Who are the democrats...
 
-Political theorists however, frequently combine these incompatible justifications of democracy.  Mill as just one example justifies democratic rule on the ground that it is more reliable in determining the right decision (a content-independent criteria), takes into consideration the preferences of all (a content-relative criteria), and transforms the moral character of participants (a content-indifferent criteria).
+The second claim offers something new.  Different accounts of democracy require different accounts of inclusion.  As we shall see, accounts of democracy based on content-independent criteria require different accounts of inclusion to those based on content-relative criteria. Content-indifferent accounts of democracy by contrast, are compatible with a wider variety of accounts of inclusions, and are therefore less affected by the Boundary Problem.
 
-To reiterate, this is not an argument about _how_ or _why_ the Boundary Problem is a problem for democratic theory.  The Boundary Problem raises a number of challenges for democracy but here I focus exclusively on it relates to accounts of democratic justification.  As such, I don't seek to explain who should be included in the demos, nor what principles might guide us to an answer. Rather, this paper is an examination of _when_ the Boundary Problem is a problem - of when accounts of democratic inclusion undermine accounts of democracy's value.
+Which leads to the third claim: whenever differing accounts of inclusion are incompatible, their corresponding accounts of democracy must also be incompatible.  The necessary relationship between democratic inclusion and justification entails means that accounts of democracy cannot be mixed if their supporting accounts of inclusion are not compatible.
+
+Political theorists however, frequently combine incompatible justifications of democracy.  Mill as just one example justifies democratic rule on the ground that it is more reliable in determining the right decision (a content-independent criteria), takes into consideration the preferences of all (a content-relative criteria), and transforms the moral character of participants (a content-indifferent criteria).  The relationship between democratic inclusion and justification has broader implications than is currently recognised.
+
+To reiterate, this is not an argument about _how_ or _why_ the Boundary Problem is a problem for democratic theory.  The Boundary Problem raises a number of challenges for democracy but here I focus exclusively on how it relates to instrumental accounts of democratic justification.  As such, I don't seek to explain who should be included in the demos, nor what principles might guide us to an answer. Rather, this paper is an examination of _when_ the Boundary Problem is a problem - of when accounts of democratic inclusion undermine accounts of democracy's value.
 
 
 ## Methodology
@@ -83,9 +87,9 @@ Although rarely used in philosophy, a third approach that offers considerable in
 
 But another approach would be to simulate _theory_.  All theories are abstractions of reality, so simulating theory simply formalises those abstractions. This type of simulation can be thought of as a coherence constrain on particular theories. By making the assumptions and abstractions of a theory explicit in code, we can see if the predictions and claims of that theory are entailed or at least made probable.  We can show that a theoretical model is coherent even if we can't show that the theory's assumptions do in fact hold true in reality.
 
-What follows then is both a description of a model of democracy as well as a simulation of that model.  It attempts to capture the key claims of consequentialist accounts of democracy and explore how changing the make up of the polity affects the democratic processes of that polity.  The simulation process begins by defining a simple model of democracy consisting of naive voters populating some political space.  Methods of inclusion and voting are then defined.
+What follows then is both a description of a model of democracy as well as a simulation of that model.  It attempts to capture the key claims of instrumental accounts of democracy and explore how changing the make up of the polity affects the democratic processes of that polity.  The simulation process begins by defining a simple model of democracy consisting of naive voters populating some political space.  Methods of inclusion and voting are then defined.
 
-Next, three types of consequentialist accounts of democracy - content-independent, content-relative, and content-indifferent - are formalised and simulated in the model over a wide variety of input values.  Finally, the relationship between democratic inclusion and democratic outcomes is explored by examining how different compositions of agents lead to different results. 
+Next, three types of instrumental accounts of democracy - content-independent, content-relative, and content-indifferent - are formalised and simulated in the model over a wide variety of input values.  Finally, the relationship between democratic inclusion and democratic outcomes is explored by examining how different compositions of agents lead to different results. 
 
 A form of literate programming [^lit], this paper embeds executable source code within the description of the model.  Simulation code is indicated by `indented code blocks`.  The reader need not understand the embedded code or coffeescript syntax however, in order to understand the simulation.  The code, it's purpose, and function will be fully explained in the surrounding text. It's presence serves to formalise the assumptions of the model in much the same way as one might include mathematical symbolism to formalise a proof, and to promote reproducibility and testability of the research herein.
 
@@ -167,7 +171,7 @@ With our model defined, the relationship between accounts of democracy and accou
 
 At the beginning of each simulation, a space is created with a fixed agent profile, clustering factor, and polity number.  During each run, the space is partitioned into the desired number of polities which then vote, with the results being recorded for statistical analysis.  
 
-This partition-vote-measure loop is repeated 1000 times, generating in a probability density function of the vote for each belief-cluster-partition tuple.  These results are then assessed against three classes of consequentialist accounts of democracy to examine the conditions under which accounts of inclusion affect accounts of democracy.
+This partition-vote-measure loop is repeated 1000 times, generating in a probability density function of the vote for each belief-cluster-partition tuple.  These results are then assessed against three classes of instrumental accounts of democracy to examine the conditions under which accounts of inclusion affect accounts of democracy.
 
 [^monte]: Monte Carlo simulations are class of computational algorithms that rely on statistical sampling from repeated simulation trials to generate numerical results. [see @fishman1996 for a full treatment of their use in computer simulation].
 
@@ -230,7 +234,7 @@ But where we draw boundaries of our democracies becomes critically important for
 
 ##  Content Relative Outcomes
 
-Not all consequentialist accounts of democracy are epistemic however.  Utilitarians justify democracy on the grounds that it promotes the greatest happiness.  Majority voting maximizes the expected utility of voter preferences when each individual has an equal chance of preferring each of two alternatives [@rae].  But one needn't be a card carrying utilitarian to employ such an approach.  @rousseau argued that majority rule realises the general will of the people and this gives us reasons to obey, while social choice theorists hold that majority voting realises individual choice when collectively binding decisions must be made (@may1952).
+Not all instrumental accounts of democracy are epistemic however.  Utilitarians justify democracy on the grounds that it promotes the greatest happiness.  Majority voting maximizes the expected utility of voter preferences when each individual has an equal chance of preferring each of two alternatives [@rae].  But one needn't be a card carrying utilitarian to employ such an approach.  @rousseau argued that majority rule realises the general will of the people and this gives us reasons to obey, while social choice theorists hold that majority voting realises individual choice when collectively binding decisions must be made (@may1952).
 
 While these accounts of democracy are considerably different, they all share a similarity in that the value of democracy stems from some content-relative criteria - of fidelity between individual preference and collective outcome.  It is not the contents of the outcome of a democratic process that matters per se, but rather how well this collective outcome matches the wants, preferences, or intent of individual participants.
 
@@ -308,7 +312,7 @@ Many justifications of democracy employ this type of hybrid approach.  Mill for 
 
 In other words...
 
-- any consequentialist account of democracy must be compatible with accounts of democratic inclusion 
+- any instrumental account of democracy must be compatible with accounts of democratic inclusion 
 - different accounts of authority require differing, sometimes incompatible accounts of inclusion
 - different accounts of authority that have incompatible accounts of inclusion are themselves incompatible
 

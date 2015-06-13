@@ -4,7 +4,7 @@ author: Dave Kinkead
 email: d.kinkead@uq.edu.au
 status: draft
 license: CC-BY-SA
-bibliography: /Users/dave/Dropbox/Research/Reading Notes/.library.bibtex
+bibliography: /Users/dave/Dropbox/Research/readings/.library.bibtex
 ---
 
 > This is an argument about democratic inclusion and justifications of democracy.  I show that any account of democracy that relies on the outcomes of democracy processes to show democracy's value must have a congruent account of inclusion.
@@ -17,11 +17,11 @@ bibliography: /Users/dave/Dropbox/Research/Reading Notes/.library.bibtex
 
 There are many ways one might justify democracy [^definitions].  One common approach is to point to the desirable outcomes that democratic procedures bring about. Democracy in this light leads to good policy.  
 
-Sometimes the desirability of these outcomes is judged according to some independent criteria.  According to these accounts, there is some external standard for measuring the quality of a decision.  Epistemic accounts of democracy like Condorcet's Jury Theorem [@condorcet] or David Estund's Epistemic Proceduralism [@estlund] are like this.  Truth exists independently of our beliefs; democratic processes track the truth; so this gives us reason to value democracy.
+Sometimes the desirability of these outcomes is judged according to some independent criteria.  According to these accounts, there is some external standard for measuring the quality of a decision.  Epistemic accounts of democracy like Condorcet's Jury Theorem [@condorcet1976] or David Estund's Epistemic Proceduralism [@estlund2009] are like this.  Truth exists independently of our beliefs; democratic processes track the truth; so this gives us reason to value democracy.
 
-Other times, we might judge the quality of democratic outcomes against some agent relative criteria.  Rather than rely on something external, the desirability of a particular result is assessed against some internal standard.  It isn't the collective decisions of democracy that matter _per se_ but how those collective decisions correspond with individual choices.  We see this in utilitarian justifications of democracy where majority voting maximizes the expected utility of voter preferences [@rae].  But one needn't be a utilitarian to employ such an approach - @rousseau for example, argued that majority rule realises the general will of the people and this gives us reasons value it.
+Other times, we might judge the quality of democratic outcomes against some agent relative criteria.  Rather than rely on something external, the desirability of a particular result is assessed against some internal standard.  It isn't the collective decisions of democracy that matter _per se_ but how those collective decisions correspond with individual choices.  We see this in utilitarian justifications of democracy where majority voting maximizes the expected utility of voter preferences [@rae].  But one needn't be a utilitarian to employ such an approach - @rousseau1920 for example, argued that majority rule realises the general will of the people and this gives us reasons value it.
 
-And for others still, it is not the particular content of democratic decision making that matters so much as the effects that democratic processes have on the participants.  Democracy changes people.  This is what @mill had in mind when he argued that democracy transforms the moral character of its participants.  Democratic participation makes good citizens.
+And for others still, it is not the particular content of democratic decision making that matters so much as the effects that democratic processes have on the participants.  Democracy changes people.  This is what @mill1862 had in mind when he argued that democracy transforms the moral character of its participants.  Democratic participation makes good citizens.
 
 Call these accounts of democracy _instrumental_ [^instrumental].
 
@@ -299,7 +299,7 @@ Talk about Mill & Rousseau...
 
 ## Conclusion
 
-!! Yes, I need to rewrite this conclusion - do not bother reading yet....
+!! Need to rewrite this....
 
 While I've only examined two accounts of democratic authority from the wide array of accounts offered by political theorists, the data from the simulation allows us to make the number inferences.
 
@@ -386,3 +386,7 @@ Finally, we capture terminal inputs to start up the simulation.  To run the simu
 <script src="assets/d3.v3.min.js"></script>
 <script src="assets/dimple.v2.1.2.min.js"></script>
 <script src="assets/graph.js"></script>
+
+---
+
+## Bibliography

@@ -19,7 +19,7 @@ There are many ways one might justify democracy [^definitions].  One common appr
 
 Sometimes the desirability of these outcomes is judged according to some independent criteria.  According to these accounts, there is some external standard for measuring the quality of a decision.  Epistemic accounts of democracy like Condorcet's Jury Theorem [@condorcet1976] or David Estund's Epistemic Proceduralism [@estlund2009] are like this.  Truth exists independently of our beliefs; democratic processes track the truth; so this gives us reason to value democracy.
 
-Other times, we might judge the quality of democratic outcomes against some agent relative criteria.  Rather than rely on something external, the desirability of a particular result is assessed against some internal standard.  It isn't the collective decisions of democracy that matter _per se_ but how those collective decisions correspond with individual choices.  We see this in utilitarian justifications of democracy where majority voting maximizes the expected utility of voter preferences [@rae].  But one needn't be a utilitarian to employ such an approach - @rousseau1920 for example, argued that majority rule realises the general will of the people and this gives us reasons value it.
+Other times, we might judge the quality of democratic outcomes against some agent relative criteria.  Rather than rely on something external, the desirability of a particular result is assessed against some internal standard.  It isn't the collective decisions of democracy that matter _per se_ but how those collective decisions correspond with individual choices.  We see this in utilitarian justifications of democracy where majority voting maximizes the expected utility of voter preferences [@rae1969].  But one needn't be a utilitarian to employ such an approach - @rousseau1920 for example, argued that majority rule realises the general will of the people and this gives us reasons value it.
 
 And for others still, it is not the particular content of democratic decision making that matters so much as the effects that democratic processes have on the participants.  Democracy changes people.  This is what @mill1862 had in mind when he argued that democracy transforms the moral character of its participants.  Democratic participation makes good citizens.
 
@@ -27,7 +27,7 @@ Call these accounts of democracy _instrumental_ [^instrumental].
 
 [^definitions]: The term justification has been used in a variety of ways within political theory.  Sometimes it is used normatively to describe the content of reasons that might _legitimate_ democratic authority.  Other times it is used descriptively to to describe the giving of such reasons.  In this paper I use _justifications of democracy_ and _accounts of democracy_ synonymously to mean any normative theory of democracy's value.
 
-[^instrumental]: Of course not all accounts of democracy are instrumental.  Some times democracy is justified intrinsically by appealing to substantive ideals like equality or justice.  Unless explicitly stated, _democracy_ in this paper refers exclusively those instrumental conceptions where outcomes do the normative of explaining democracy's value.
+[^instrumental]: Of course not all accounts of democracy are instrumental.  Sometimes democracy is justified intrinsically by appealing to substantive ideals like equality or justice.  Unless explicitly stated, _democracy_ in this paper refers exclusively those instrumental conceptions where outcomes do the normative of explaining democracy's value.
 
   * * * 
 
@@ -49,7 +49,7 @@ Yet the question of who ought be included in a political association - of how th
 
 In what has become known as the _Boundary Problem of Democratic Theory_ [^other-names], no account of inclusion can be shown to be compatible with a broad range of justifications of democracy.  Accounts of inclusion based on the status quo make the democratic outcomes contingent upon the accidents of history; those based on nationality lack a clear and objective criteria of what nationality is; cultural and linguistic salience as a criteria for inclusion ignores the reality of multiculturalism and multi-linguistic communities; and accounts based on coercion and affected interests are incompatible with the current system of nation-states [^treatment].
 
-[^other-names]: A large footnote on who has called this problem what...
+[^other-names]: The _Boundary Problem of Democratic Theory_ has gone by a number of names in political theory.  @dahl1989 [p. 193] has called it "the problem of the unit" while @goodin2007 [p.42] refers to it as the problem of "constituting the demos".  Most other theorists have settled on "the Boundary Problem".
 
 [^treatment]: See @whelan1983 for the seminal analysis of the challenges that the Boundary Problem presents as well as more recent work by @dahl1989, @arrhenius2005, @bergström2007, @goodin2007, @miller2009, @agné2010, @abizadeh2012, @schaffer2012, @song2012, and @erman2014.
 
@@ -64,9 +64,9 @@ The question I wish to explore in this paper is _when is the Boundary Problem a 
 
 The first claim advances the existing literature on the Boundary Problem by making the link between inclusion and justifications of democracy explicit.  Often, political theorists approach the problem of inclusion from a cosmopolitan position, arguing that the question is primarily about justice [^cosmo].  Other times, the concern is related to whether or not an answer is internally consistent with democracy, or whether it actually is a paradox of founding [^coherence].  Only rarely however, is the link between the problem of inclusion and the value of democracy addressed, and typically this is only ever implicit.  I will show that any consequential account of democracy's value must be compatible with it's corresponding claim of democratic inclusion.
 
-[^cosmo]: Who are the cosmos...
+[^cosmo]: See @goodin2007, @agné2010, @abizadeh2012, @saunders2012, and @erman2014 for arguments from the cosmopolitan perspective.
 
-[^coherence]: Who are the democrats...
+[^coherence]: See @whelan1983, @arrhenius2005, @bergström2007, @miller2009, @schaffer2012, @song2012, and @espejo2014 for work concerned with how the Boundary Problem affects democratic legitimacy and territorial states.
 
 The second claim offers something new.  Different accounts of democracy require different accounts of inclusion.  As we shall see, accounts of democracy based on content-independent criteria require different accounts of inclusion to those based on content-relative criteria. Content-indifferent accounts of democracy by contrast, are compatible with a wider variety of accounts of inclusions, and are therefore less affected by the Boundary Problem.
 
@@ -135,7 +135,7 @@ Spaces are partitioned into polities.  A polity represents a unit of political a
 
 How we partition a space - how we decide who will be included in which political association - forms the crux of the Boundary Problem and there are many competing theories concerning how to partition.  Amongst accounts of democratic inclusion we find proposals to group agents according to nationality, cultural or linguistic salience, degree of economic or social interdependence, by who is affected by a policy or issue, or even to not partition at all [^world].
 
-[^world]: Who says we should have a global democracy....
+[^world]: As @goodin2007 [p. 55] observes, "Virtually (maybe literally) everyone in the world — and indeed everyone in all possible future worlds — should be entitled to vote on any proposal or any proposal for proposals". 
 
 While numerous accounts of inclusion exist in political theory, the combination of actual possible partitions of any space is orders of magnitude greater [^combos].  To simplify the model and remain agnosting about particular theories of inclusion while capturing a wide variety of possible agent compositions, a stochastic algorithm to divide the space into different polities will be used to generate a random sample of polities.  
 
@@ -226,20 +226,20 @@ The relationship between content-independent justifications of democracy and dem
 
   2. Each polity satisfies the competency requirement even when the political space does.
 
-When the distribution of voter belief is uniform, where we draw the boundaries of our democracies is largely irrelevant for content-independent accounts of democracy. Any account of democratic inclusion is likely to be compatible with accounts of democratic authority in this case.
+When the distribution of voter belief is uniform, where we draw the boundaries of our democracies is largely irrelevant for content-independent accounts of democracy. Any account of democratic inclusion will do.
 
-But when the distribution of voter belief is clustered, where we draw boundaries of our democracies becomes critically important. In this case, any compatible account of democratic inclusion will need to demonstrate that each polity statisfies the competency requirement for epistemic justifications.  
+But when the distribution of voter belief is clustered, where we draw boundaries of our democracies becomes very important. In this case, any compatible account of democratic inclusion will need to demonstrate that each polity statisfies the competency requirement for epistemic justifications.  
 
-We can summarise this insight by stating that the Boundary Problem only becomes a problem for content-independent justifications of democracy when homogeneity of voter belief is high within polities but low between them.
+We can summarise this insight by stating that the Boundary Problem only becomes a problem for content-independent justifications of democracy when homogeneity of voter belief is high within polities but low between them.  In these instances, how we bound the demos and draw political borders is critical.
 
 
 ##  Content Relative Outcomes
 
-Not all instrumental accounts of democracy are epistemic however.  Utilitarians justify democracy on the grounds that it promotes the greatest happiness.  Majority voting maximizes the expected utility of voter preferences when each individual has an equal chance of preferring each of two alternatives [@rae].  But one needn't be a card carrying utilitarian to employ such an approach.  @rousseau argued that majority rule realises the general will of the people and this gives us reasons to obey, while social choice theorists hold that majority voting realises individual choice when collectively binding decisions must be made (@may1952).
+Not all instrumental accounts of democracy are epistemic however.  Utilitarians justify democracy on the grounds that it promotes the greatest happiness.  Majority voting maximizes the expected utility of voter preferences when each individual has an equal chance of preferring each of two alternatives [@rae1969].  But one needn't be a card carrying utilitarian to employ such an approach.  @rousseau1920 argued that majority rule realises the general will of the people and this gives us reasons to obey, while social choice theorists hold that majority voting realises individual choice when collectively binding decisions must be made (@may1952).
 
-While these accounts of democracy are considerably different, they all share a similarity in that the value of democracy stems from some content-relative criteria - of fidelity between individual preference and collective outcomes.  It is not the contents of the outcome of a democratic process that matters per se, but rather how well this collective outcome matches the wants, preferences, or intent of individual participants.
+While these accounts of democracy differ in many ways, they all share a similarity in that the value of democracy stems from some content-relative criteria - of fidelity between individual preference and collective outcomes.  It is not the contents of the outcome of a democratic process that matters per se, but rather how well this collective outcome matches the wants, preferences, or intent of individual participants.
 
-We can judge these content-relative outcomes by defining the fidelity of a democratic procedure as the likelihood that an individual's preference is the same as, or compatible, with the majority outcome.  Formalising fidelity as individual-collective choice equivalence we get: 
+We can judge these content-relative outcomes by defining the fidelity of a democratic procedure as the likelihood that an individual's preference is the same as, or compatible, with the majority outcome.  Formalising fidelity as individual-collective choice equivalence we get:
     
     
     Space::fidelity = () ->
@@ -259,22 +259,23 @@ Running the same Monte Carlo simulation with the same parameters as the epistemi
 <div id="preference-by-cluster" class="graph"></div>
 <figcaption>Preference fidelity by clustering</figcaption></figure>
 
-Again, when viewed by degree of clustering, the polity composition on preference realisation is stark.  When agents are uniformly distributed by preference across the space, the likelihood of an individual's preference being realised by majority vote is identical to that of any two random agents preference being the same i.e. the preference base rate.
+Again, when viewed by degree of clustering, the effect of polity composition on preference realisation is stark.  When agents are uniformly distributed by preference across the space (i.e. when clustering is low), the likelihood of an individual's preference being realised by majority vote is identical to that of any two random agents preference being the same (i.e. the preference base rate).
 
-As clustering of agent preferences across the space increases however, the fidelity between individual and majority preference increases significantly. At its most extreme, there is near certainty that individual preference will be realised by a majority vote when the distribution of agents across the political space is fully clusters i.e. agents are completely segregated by preference.  This relationship holds for all preference base rates.
+As clustering of agent preferences across the space increases however, the fidelity between individual and majority preference increases significantly. At its most extreme, there is near certainty that individual preference will be realised by a majority vote when the distribution of agents across the political space is fully clustered - when agents are completely segregated by preference.  This relationship holds for all preference base rates, although it is more pronounced when the preference base rate - the ratio of competing preferences - is lower.
 
-In contrast with the epistemic simulation of democracy however, the impact of agent clustering is reversed.  Majority voting has the greatest likelihood of fidelity with individual preference, and therefore greatest value from a content-relative perspective, when agents are highly clustered.  This contrasts sharply with the content-independent perspective where the greatest epistemic value of majority voting was found with a completely uniform agent distribution.
+In contrast with the epistemic simulation of democracy however, the impact of agent clustering on outcome quality is reversed.  Majority voting has the greatest likelihood of fidelity with individual preference, and therefore greatest value from a content-relative perspective, when agents are highly clustered.  This contrasts sharply with the content-independent perspective where the greatest epistemic value of majority voting was found with a completely uniform agent distribution.
 
 <figure>
 <div id="preference-by-partition" class="graph"></div>
 <figcaption>Preference fidelity by partition number</figcaption></figure>
 
-The number of polities a space is partitioned into plays only a limited role in individual-majority preference fidelity. As the space is partioned into increasing numbers of polities, fidelity increases slightly when preference are highly clustered, but the influence of partition number is significantly less than the impact of preference clustering.
+The number of polities a space is partitioned into has only a limited effect in individual-majority preference fidelity. As the space is partioned into increasing numbers of polities, fidelity increases slightly when preference are highly clustered, but the influence of partition number is significantly less than the impact of preference clustering.
 
-The key implication from this analysis is that accounts of democratic authority based on preference realisation and the fidelity of individual with group preference require an account of democratic inclusion that ensures that: 
+The key implication from this analysis is that accounts of democracy based on preference realisation and the fidelity of individual with group preference require an account of democratic inclusion that ensures that: 
 
-1. Polities are sufficiently small.
-2. Voters are sufficiently homogeneous in preference.
+  1. Polities are sufficiently small.
+
+  2. Voters are sufficiently homogeneous in preference.
 
 Restated, where we draw political boundaries is irrelevant for content-relative accounts of democracy if the distribution of voters by preference is highly clustered.  Where we draw boundaries is very important however, when the distribution of voters by preference is uniform.  The Boundary Problem only becomes a problem for content-relative justifications of democracy when homogeneity of voter preferences is low within polities but high between them.
 

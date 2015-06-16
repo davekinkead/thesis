@@ -282,6 +282,19 @@ Restated, where we draw political boundaries is irrelevant for content-relative 
 
 ## Content Indifferent Outcomes
 
+A third type of instrumental justification of democracy is concerned not with the specific content of democratic outcomes, but with their beneficial side effects.  It is not the content of the outcome of a vote or policy deliberation that matter _per se_, rather it is the effect that democratic participation has on citizens that is valuable.  Democracy in this light is transformative.
+
+Public life as a means to personal improvement is an idea that can be traced back to Aristotle.  Rousseau thought democracy necessary to the realisation of moral autonomy:
+
+> ... what man acquires in the civil state, moral liberty, which alone makes him truly master of himself; for the mere impulse of appetite is slavery, while obedience to a law which we prescribe to ourselves is liberty.  
+> -- @rousseau1920 [§ 1.8.3]
+
+For Mill, democracy was the means to improve the moral character of the people.  The weighing of different people's interests, being guided by other's rules, and applying principles that furthered the common good enhanced a citizen's moral capacities:
+
+> Still more salutary is the moral part of the instruction afforded by the participation of the private citizen, if even rarely, in public functions ... He is made to feel himself one of the public, and whatever is for their benefit to be for his benefit.  
+> -- @mill1862 [Ch 3]
+
+
 
 !! This part is still under development...
 

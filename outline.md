@@ -2,11 +2,11 @@
 
 ## Introduction
 
-This is an argument about authority; more specifically though, it's an argument about democratic authority and how what we typically think are justifications of democratic authority are in actual fact rationalisations of political authority. That's because accounts of democratic authority, all of them, fail to adequately justify the authority of the state.  What is left are mere rationalisation; attempts to make the coercive power of the state more palatable to those it coerces.
+This is an argument about authority; more specifically though, it's an argument about democratic authority and how what we typically think are justifications of democratic authority are in actual fact rationalisations of it. That's because accounts of democratic authority, all of them, fail to adequately justify the authority of the state.  What is left are a collection of sometimes connected reasons to obey; attempts to make the coercive power of the state more palatable to those it coerces.  Sometime persuasive, but never coherent.
 
-I'm going to defend the thesis that if political authority requires justification, then democracy cannot justify political authority.  And I'm going to do this by showing how the existential paradoxes of democratic theory - paradoxes relating to the who, what, and how of democratic activity - undermine even the most minimal accounts of political justification.  
+I'm going to defend the thesis that if political authority requires justification, then democracy cannot justify political authority.  And I'm going to do this by showing how paradoxes at the foundations of democratic theory - paradoxes relating to the who, what, and how of democratic activity - undermine even the most minimal accounts of political justification.
 
-My conclusion will be that democratic states, at least as we know them, can never justify their claims to authority but can only rationalise them.
+My conclusion will be that democratic states, at least as we know them, can never justify their claims to authority but can only rationalise them.  Of course, this is not to say that democracy lacks any value.  There are a number of very good reasons for valuing democracy, or preferring it to alternative regimes.  Neither is it to say that future democratic states will be unable to coherently justify political authority.  But while democratic states claim sovereignty to the scope that they do, democratic theory cannot give coherent reasons to obey them.
 
 
 ## Authority & Justification
@@ -58,36 +58,36 @@ Democracy can mean many things. A theory, an ideal, a system of government, a se
 
 Of the normative accounts, some simply assume democracy to be required and attempt to show what form is best.  Others attempt to justify democracy _ab initio_.  Contemporary accounts tend to fall into the former group, while classical accounts fall into the latter.
 
-A lit review illustrating these themes...
+I am yet to finalise how this chapter will be structured but I need to address the following themes from the literature:
 
   - instrumental vs intrinsic
   - transformative vs aggregative
-  - necessary and/or sufficient
+  - necessary vs sufficient justifications
+  - liberal
+  - egalitarian
+  - deliberative
+  - radical
 
-We can see a few distinct argument forms for justifying democratic authority:
+Almost all accounts of democracy can be viewed through one of the following patterns:
+
+Instrumentally Sufficient
 
   1. Democracy brings about good things
   2. Good things are sufficient to warrant authority
   3. Therefore democratic authority is warranted
 
----
+Intrinsically sufficient
 
   1. Democracy is good
   2. Good is sufficient to warrant authority
   3. Therefore democratic authority is warranted
 
----
+Pragmatically necessary
 
   1. Authority is necessary
   2. Democracy is best/least worst form of authority
-  3. Therefore democractic authority is warranted
+  3. Therefore democratic authority is warranted
 
----
-
-  1. Only democracy can bring about the good sufficient to warrant authority
-  2. Therefore democratic authority is warranted
-
-Some accounts of democratic authority mix all 4
 
 
 ## Confusion over Consent
@@ -126,9 +126,11 @@ The outcomes of these processes however, are a function of who is included in th
 
 Different accounts of inclusion will support or undermine different accounts of democracy depending on the composition and distribution of voters.  As such, any account of democracy that is based on the instrumental value of democratic outputs must also offer a corresponding, and congruent, account of inclusion.  Failure to do so will mean that any claim of democratic authority's legitimacy is not warranted.
 
-But no account of democracy offers a corresponding account of inclusion that is compatible with the current system of nation-states.  Furthermore, many of the existing accounts of inclusion such as those based on historical accident, culture, or nationality are not sufficiently congruent with instrumental accounts of democratic authority. Thus, no existing democratic state is justifiable on instrumental grounds, and it is doubtful that any democratic state could be.
+Epistemic justifications of democracy for example, require a composition of citizens sufficiently diverse and competent for collective judgement aggregation to outperform some form of epistocracy or even random selection.  Preference realisation justifications of democracy by contrast, require citizens to be sufficiently homogeneous for democratic preference aggregation to have value.  These accounts of democracy require incompatible accounts of inclusion, and given the same demos, the requirements of of only one account of democracy can be met.
 
-But what of vindication or rationalisation of instrumentalist accounts?  Include a qualification that some vindication might be possible but justification isn't.  
+But of course, no account of democracy offers a corresponding account of inclusion that is compatible with the current system of nation-states.  Furthermore, many of the existing accounts of inclusion such as those based on historical accident, culture, or nationality are not sufficiently congruent with instrumental accounts of democratic authority. Thus, no existing democratic state is justifiable on instrumental grounds, and it is doubtful that any democratic state could be.
+
+
 
 
 ## The Limits of Limits
@@ -147,7 +149,6 @@ One way to demonstrate this is by a thought experiment of totalitarian democracy
 
 And some of these limits are specific to particular conceptions and justifications of democracy.  Democratic authority justified on the grounds of liberty requires limits that protect individual freedoms.  Democratic authority justified on the grounds of equality requires limits that ensure political equality - one vote one value, constraints on money in politics etc.
 
-
 Limits then, are essential to democracy.  And these limits are specific to particular conceptions of democracy.  So how can we determine what these limits ought be?  One way we can’t determine them is democratically.  That’s because any democratic action is a collective action.  The limits to democracy are limits to what can be determined democratically.  So using a collective action to determine what is immune from collective action is self-effacing. The very act of doing so places the scope of what is private and protected into the scope of the public.
 
 So what about extra-democratic limits?  Constitutional liberalism is typically offered as a solution to this dilemma. By specifying a set of rights that cannot be infringed by the majority, and formalising those constraints in a constitution, personal freedom is promoted and tyranny is held at bay.  While plausible, constitutional liberalism as a solution is undermined by the conditions of liberalism itself.
@@ -162,9 +163,9 @@ Other substantive constraints to democracy’s scope face similar problems.  Dem
 
 But what of constitutional constraints?  All modern democracies have formal legal constraints  that limit the powers of the executive, legislative, and judiciary.  And typically, these limits can be altered democratically via referenda. Don’t these limits work and aren’t they democratic?
 
-To a degree, yes.  It’s certainly true that constitutional constraints promote a functional democracy. And it’s true that they tend to limit abuses of power.  In this regard, they seem much better than no constraints at all - acting as a kind of hand-break on tyranny.  But the inability of democratic theory to explain and justify why the particular constraints in particular constitutions should be there rather than equally justifiable alternatives makes them some what arbitrary
+To a degree, yes.  It’s certainly true that constitutional constraints promote a functional democracy.  And it’s true that they tend to limit abuses of power.  In this regard, any constitutional constraint is much better than no constraints at all - acting as a kind of hand-break on tyranny.  But the inability of democratic theory to explain and justify why the particular constraints in particular constitutions should be there rather than equally justifiable alternatives makes them some what arbitrary.  The content of these constraints must be specific and relevant to the particular conception of democratic value these constraints are supposed to promote and enable.  And without a coherent way of specifying them so that they are congruent with a particular vision of democracy, then they are largely arbitrary.
 
-If democratic authority requires coherent justifications, then our inability to justify the particular limits essential to democracy means that democratic authority can’t be justified.
+So if democratic authority requires coherent justifications, then our inability to justify the particular limits essential to democracy means that democratic authority can’t be justified.
 
 
 ## Paradoxes of Procedure

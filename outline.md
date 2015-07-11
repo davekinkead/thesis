@@ -17,7 +17,7 @@ The key difference between the state and the mafia then, is normative.  While bo
 
 Political authority is what gives us reasons to obey the state.  But not just any reason will do.  We might have moral duties towards other citizens or governments for a variety of reasons but only some of these reasons stem from political authority.  Some of these other reasons are universal moral duties to all people. Other reasons might be purely prudential - the difference between de jure and de facto authority (examine Webber here).  These reasons might be internally or externally imposed.
 
-It is only a special type of moral reason for action that constitutes _legitimate_ political authority.  This can be interpreted as the right to rule, the obligation to obey, or simply a justification for coercive action.  Authority as the right to rule captures too little of the concept.  Ruling becomes vacuous if there is no corresponding obligation to obey.  Authority as a justification for action however captures too much.  There might be many situations when a state's actions against a people are justified but they lack authority over those people.  Unilateral responses to externalities like climate change, or encroachment into a neutral party's territory during war are some examples of this.  Only when people have obligations to obey, may we say that those with the corresponding right to rule have authority.
+It is only a special type of moral reason for action that constitutes _legitimate_ political authority.  This can be interpreted as the right to rule, the obligation to obey, or simply a justification for coercive action.  But authority as the right to rule captures too little of the concept.  Ruling in this sense becomes vacuous if there is no corresponding obligation to obey.  Authority as a justification for action however captures too much.  There might be many situations when a state's actions against a people are justified but they lack authority over those people.  Unilateral responses to externalities like climate change, or encroachment into a neutral party's territory during war are some examples of this.  Only when people have obligations to obey, may we say that those with the corresponding right to rule have authority.
 
 Following from @green our working definition of legitimate or _de jure_ authority might be something like this.
 
@@ -43,7 +43,7 @@ Instead, I propose we adopt a minimalist account of the epistemic requirements o
 >
 >    i)   s has justification for believing p based on e,  
 >    ii)  s knows that q is deducible from p, and  
->    iii) s has justification for believing q in virtue of the satisfaction of (i) and (ii).  
+>    iii) s has justification for believing q in virtue of the satisfaction of (i) and (ii).
 
 Logical consequence is the key here.  It eliminates incoherent or contradictory beliefs while being truth agnostic.  It means that validity in prior to posterior belief is a necessary condition for political authority.  And the consequence of this is that any account of political authority which is invalid cannot warrant the belief that that authority is legitimate.
 

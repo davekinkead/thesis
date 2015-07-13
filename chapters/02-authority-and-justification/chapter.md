@@ -7,6 +7,20 @@ license: All Rights Reserved
 bibliography: /Users/dave/Dropbox/Research/readings/.library.bibtex
 ---
 
+## Structrue
+
+- what is authority
+  - authority is the giving of reasons
+
+- what does it mean for it to be justified
+  - trichotomy of justification, vindication, rationalisation
+  - epistemic requirements of justification
+  - hypothetical entailment of obedience
+  - evidence to support premises
+  - how I will use this.
+  - integrate into trichotomy
+
+
 What's the difference between the state and a criminal organisation?  There are some obvious ones of course: size, ethnic heritage, access to resources etc.  But let's ignore these for a moment and focus on more relevant descriptive and normative criteria.  Both groups exercise power over particular geographical areas.  Both groups offer non-voluntary policing and protection services.  Both groups extract rents in return for those services.  And both groups use violence against those they ostensibly claim to serve in order to further their aims.
 
 The key difference between the state and the mafia then, is normative.  While both claim power and want obedience, and while we have strong prudential reasons for obeying them, only in the case of the state do we have independent extra-prudential reasons for compliance.  We have moral reasons to support and obey the state that we do not have towards the mafia.  In fact, we might even have moral reasons to actively resist or thwart criminal gangs.  This is what we mean by political authority.

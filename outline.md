@@ -70,7 +70,7 @@ I am yet to finalise how this chapter will be structured but I need to address t
   - deliberative
   - radical
 
-Almost all accounts of democracy can be viewed through one of the following patterns:
+Almost all accounts of democracy can captured in the following logical form:
 
 Instrumentally Sufficient
 
@@ -90,6 +90,7 @@ Pragmatically necessary
   2. Democracy is best/least worst form of authority
   3. Therefore democratic authority is warranted
 
+Each of the following chapters will demonstrate why at least one of these justifications forms fails by showing that the account is impossible, or that there is insufficient evidence accept the premises of the justificatory account.
 
 
 ## Confusion over Consent
@@ -180,25 +181,18 @@ So if democratic authority requires coherent justifications, then our inability 
 
 ## Paradoxes of Procedure
 
-Procedures are necessary for democracy to function
-No procedure is congruent with democratic values
-Democracy can never warrant authority
+This chapter still requires a fair bit of work.  The basic argument is this:
 
-  - preference aggregation & arrow's theorm
-  - judgement aggregation & docrinal paradox
+  1. Procedures are necessary for democracy to function
+  2. No procedure is congruent with democratic values
+  3. Therefore democracy can never warrant authority
+
+The first part of the chapter will examine paradoxes of preference aggregation such as Arrow's Impossibility theorem, and of judgement aggregation such as the doctrinal paradox.  These undermine instrumental justifications of democracy.  Many of the most common democratic procedures are incoherent in that they can't satisfy democratic ideals.
+
+The second part examines how procedural paradoxes affect intrinsic justifications of democracy.  Substantive ideals such as fairness and equality have competing and incompatible conceptions.  Should we prioritise procedural fairness over distributive fairness or historical fairness? Should telic or deontic egalitarianism get priority?  How can we decide this given reasonable disagreement?
+
+Absent unanimous consensus, we need some procedure to reconcile these disagreements.  But using any democratic procedure results in an infinite regress - we need to agree on a procedure to agree on a procedure.  And neither can we consent to them if the results are binding on those who don't consent.
 
 ---
-
-Every realisation of democracy must have some agreed upon way of making decisions.
-
-Many of the most common democratic procedures are incoherent in that they can't satisfy the criteria of democratic fairness.
-
-  - lit review of social choice theory and voting paradoxes.
-
-Even if they can be shown to be fair, different procedures produce different outcomes.  Those different outcomes affect citizens differently.  Disagreement about which procedure to use is inevitable.
-
-How do we reconcile these disagreements?  Using any democratic procedure results in an infinite regress.
-
-And neither can we consent to them if the results are binding on those who don't consent.
 
 Doctrinal Paradox http://dave.kinkead.com.au/thoughts/the-contradiction-of-majority-rule/

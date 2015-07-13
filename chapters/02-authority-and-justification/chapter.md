@@ -3,7 +3,7 @@ title: Authority and Justification
 author: Dave Kinkead
 email: d.kinkead@uq.edu.au
 status: draft
-license: CC-BY-SA
+license: All Rights Reserved
 bibliography: /Users/dave/Dropbox/Research/readings/.library.bibtex
 ---
 

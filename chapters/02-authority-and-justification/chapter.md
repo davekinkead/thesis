@@ -7,9 +7,7 @@ license: All Rights Reserved
 bibliography: /Users/dave/Dropbox/Research/readings/.library.bibtex
 ---
 
-## Structrue
-
-- what is authority?
+## Authority
 
   - power vs authority. authority is normative. it should be obeyed
 
@@ -19,7 +17,7 @@ bibliography: /Users/dave/Dropbox/Research/readings/.library.bibtex
 
   - de facto vs de jure. both requires belief of subjects. practical reasons require this (see also @green1990:11)
 
-  - Webber. acceptance defines legitimate
+  - Webber. acceptance defines legitimate 
 
   - Hobbes disagrees. any successful power is legitimate
 
@@ -29,11 +27,12 @@ bibliography: /Users/dave/Dropbox/Research/readings/.library.bibtex
 
   - Wolff. There can be no right reasons for authority.
 
-  - There is a difference. Authority can therefore exist without being justified. @green1990:60
+  - There is a difference. Authority can therefore exist without being justified. @green1990:60,  @Rawls1993
   
   - Authority as *legitimate coercion* merely requires a moral justification for the imposition of an agent's political power over others. (weak moral bonds between subject & authority) 
 
-  - Authority as *capacity to impose duties* upon subjects. (moderate moral bond)
+  - Authority as *capacity to impose duties* upon subjects. (moderate moral bond) @dworkin1986:191 legitimate authority without obligations.
+
 
   - Authority as a *right to rule*. 
 
@@ -41,7 +40,7 @@ bibliography: /Users/dave/Dropbox/Research/readings/.library.bibtex
 
   - There is also a distinction here between internal authority (who must be obeyed) and external authority (who may not be interfered with) (strong moral bonds for internal authorities)
 
-  - Legitimate authorities give subjects moral reasons for obeying
+  - Legitimate authorities give subjects moral reasons for obeying.  But can it also just make coercion morally permissible?
 
   - Authorities issue content independent reasons to act.  We can act contrary to the _balance of reasons_ without acting _contrary to reason._ @green1990:37  It is exclusionary.
 
@@ -58,15 +57,33 @@ bibliography: /Users/dave/Dropbox/Research/readings/.library.bibtex
   - conclusion: Legitimate authority requires subjects to believe they have obligations to obey for they right reasons.
 
 
-- what does it mean for it to be justified
-  - trichotomy of justification, vindication, rationalisation
+## Justification
+
+  - The language of justification is problematic.
+
+  - Simmons: justification vs legitimisation
+
+  - Cohen: Justification vs vindication
+
+  - Daggar: establishment vs application of power
+
+  - Rawls: Public justification. Legitimacy vs justice.
+
+  - My trichotomy of justification, vindication, rationalisation.
+
   - epistemic requirements of justification
-  - hypothetical entailment of obedience
-  - evidence to support premises
-  - how I will use this.
+
+  - epistemic warrant
+
+  - the entailment requirement
+
+  - the evidentiary requirement 
+
   - integrate into trichotomy
 
-What is needed: an account that establishes the legitimate authority of the state plus evidence that warrants this has in fact occurred.
+  - how I will use this.
+
+  - What is needed: an account that establishes the legitimate authority of the state plus evidence that warrants this has in fact occurred.
 
 ---
 

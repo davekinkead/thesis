@@ -284,7 +284,7 @@ Restated, where we draw political boundaries is irrelevant for content-relative 
 
 A third type of instrumental justification of democracy is concerned not with the specific content of democratic outcomes, but with their beneficial side effects.  It is not the content of the outcome of a vote or policy deliberation that matter _per se_, rather it is the effect that democratic participation has on citizens that is valuable.  Democracy in this light is transformative.
 
-Public life as a means to personal improvement is an idea that can be traced back to Aristotle.  Rousseau thought democracy necessary to the realisation of moral autonomy:
+Public life as a means to personal improvement is an idea that can be traced back to the Greeks.  More recently, Rousseau thought democracy a necessary condition for the realisation of moral autonomy:
 
 > ... what man acquires in the civil state, moral liberty, which alone makes him truly master of himself; for the mere impulse of appetite is slavery, while obedience to a law which we prescribe to ourselves is liberty.  
 > -- @rousseau1920 [§ 1.8.3]
@@ -294,22 +294,24 @@ For Mill, democracy was the means to improve the moral character of the people. 
 > Still more salutary is the moral part of the instruction afforded by the participation of the private citizen, if even rarely, in public functions ... He is made to feel himself one of the public, and whatever is for their benefit to be for his benefit.  
 > -- @mill1862 [Ch 3]
 
+We might call these types of intrusmental justifications of democracy _content indifferent_, not because the content of democratic outcomes doesn't matter but because the content is not the _only_ thing that matters.
 
+One way to formalise this ...
 
-!! This part is still under development...
+- charater improvement is a function of the process
+- charater improvement is a function of the process and other agent character (setting moral examples)
 
-A third type of consequential justification of democracy is that transforms the moral character of participants.
-
-Talk about Mill & Rousseau...
-
+Just the process
 
     Space::character = () ->
-      correctVotes = 0
-      for polity in @polities
-        election = vote polity
-        correctVotes += 1 if election.winner is 'right'
-      correctVotes / @polities.length
+      average_character = ave @polities.map (polity) ->
+        1
 
+<!--
+<figure>
+<div id="character-by-partition" class="graph"></div>
+<figcaption>Preference fidelity by partition number</figcaption></figure>
+-->
 
 ## Conclusion
 
@@ -395,7 +397,7 @@ Finally, we capture terminal inputs to start up the simulation.  To run the simu
     process.argv.forEach (val, index, array) ->
       runSimulation('epistemic', 'virtue', ['right', 'wrong']) if val is 'epistemic'
       runSimulation('preference', 'fidelity', ['red', 'blue']) if val is 'preference'
-
+      runSimulation('character', 'character', ['good egg', 'bad apple']) if val is 'character'
 
 <script src="assets/d3.v3.min.js"></script>
 <script src="assets/dimple.v2.1.2.min.js"></script>

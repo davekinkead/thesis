@@ -9,8 +9,54 @@ bibliography: /Users/dave/Dropbox/Research/readings/.library.bibtex
 
 ## Structrue
 
-- what is authority
-  - authority is the giving of reasons
+- what is authority?
+
+  - power vs authority. authority is normative. it should be obeyed
+
+  - natural language use. noun vs verb subject vs object
+
+  - political vs epistemic (see @green1990:26-27 @hurd2001 & @raz1986 for dissent)
+
+  - de facto vs de jure. both requires belief of subjects. practical reasons require this (see also @green1990:11)
+
+  - Webber. acceptance defines legitimate
+
+  - Hobbes disagrees. any successful power is legitimate
+
+  - Hart. there is a difference
+
+  - Acceptance for the right reasons.
+
+  - Wolff. There can be no right reasons for authority.
+
+  - There is a difference. Authority can therefore exist without being justified. @green1990:60
+  
+  - Authority as *legitimate coercion* merely requires a moral justification for the imposition of an agent's political power over others. (weak moral bonds between subject & authority) 
+
+  - Authority as *capacity to impose duties* upon subjects. (moderate moral bond)
+
+  - Authority as a *right to rule*. 
+
+  - Authority can be held by diverse institutions: legislative, judicial, executive, administrative etc.
+
+  - There is also a distinction here between internal authority (who must be obeyed) and external authority (who may not be interfered with) (strong moral bonds for internal authorities)
+
+  - Legitimate authorities give subjects moral reasons for obeying
+
+  - Authorities issue content independent reasons to act.  We can act contrary to the _balance of reasons_ without acting _contrary to reason._ @green1990:37  It is exclusionary.
+
+  - __Morality__ Political obligation is a moral reason for action. An account of PO must show why this moral obligation exists. @green1990:225-228
+  
+  - __Content Independence__ An account of PO must show why we ought obey independent of a command's contents.
+  
+  - __Bindingness__ PO must bind regardless of the moral weightiness of a command
+  
+  - __Particularity__ An account of PO must show why we are bound to _this_ state rather than another
+  
+  - __Universality__ Why must we obey all obey all laws.  In a just state, there can be no laws that are morally inert.
+
+  - conclusion: Legitimate authority requires subjects to believe they have obligations to obey for they right reasons.
+
 
 - what does it mean for it to be justified
   - trichotomy of justification, vindication, rationalisation
@@ -20,6 +66,9 @@ bibliography: /Users/dave/Dropbox/Research/readings/.library.bibtex
   - how I will use this.
   - integrate into trichotomy
 
+What is needed: an account that establishes the legitimate authority of the state plus evidence that warrants this has in fact occurred.
+
+---
 
 What's the difference between the state and a criminal organisation?  There are some obvious ones of course: size, ethnic heritage, access to resources etc.  But let's ignore these for a moment and focus on more relevant descriptive and normative criteria.  Both groups exercise power over particular geographical areas.  Both groups offer non-voluntary policing and protection services.  Both groups extract rents in return for those services.  And both groups use violence against those they ostensibly claim to serve in order to further their aims.
 

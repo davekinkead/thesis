@@ -11,14 +11,24 @@ Noun:
     The power or right to give orders, make decisions, and enforce obedience: "he had absolute authority over his subordinates".
     The right to act in a specified way, delegated from one person or organization to another.
 
+
+> To say that a state has authority in the normative sense is to say something normative about the relationship between the state and its subjects.
+
+
 Authority can be characterised along a range of dimensions:
 
   - Normative authority (*de jure*) vs descriptive authority (*de facto*).  Authority is de jure just if it is legitimate in a normative sense. Authority is de facto simply if the state maintains public order and it's rules are generally obeyed.  Some accounts also rely on sufficient subjects believing the authority is legitimate.
+  
   - Political authority vs political power.  The latter is merely the ability realise one's will over subjects differing desires.  If de facto authority doesn't require a pro attitude, then the difference between authority and power is that the former is successful in maintaining public order.
+  
   - Theoretical vs practical.  Theoretical authorities give reasons for beliefs. Practical authorities give reasons for actions
+  
   - Authority as *legitimate coercion* merely requires a moral justification for the imposition of an agent's political power over others. (weak moral bonds between subject & authority)
+
   - Authority as *capacity to impose duties* upon subjects. (moderate moral bond)
+
   - Authority as a *right to rule*. There is also a distinction here between internal authority (who must be obeyed) and external authority (who may not be interfered with) (strong moral bonds for internal authorities)
+
   - Authority can held held by diverse institutions: legislative, judicial, executive, administrative etc.
 
 The distinction between legitimate coercion, imposition of duties and right to rule seems vague.  Can a state maintain order (necessary for de facto authority) without coercive action against non-compliance?  Can a state rule without the imposition of duties?  
@@ -74,12 +84,14 @@ Follow up readings
 ### Leslie Green 1990
 
 The defining characteristic of the state is that it claims supreme authority over its subjects.
-- "All modern states claim authority over their citizens and that is one thing that distinguishes them from bands of robbers" p1
+
+> All modern states claim authority over their citizens and that is one thing that distinguishes them from bands of robbers. -- p1
 
 Legitimacy is not a necessary condition for the existence of the state.
 
 Just rule is a necessary but not sufficient condition for authority.
-- "A state is legitimate only if, all things considered, its rule is morally justified" p5
+
+> "A state is legitimate only if, all things considered, its rule is morally justified" p5
 
 The exercise of authority is the mean to which states achieve their objectives. Its value is conditional upon the justice of those ends. p5
 
@@ -108,7 +120,7 @@ Appeals to authority are alternatives to appeals to reason.  They seeks to gener
 
 Authority can be distinguished from advice (practical vs theoretical authority) via the intention of its proclamations and reactions to non-compliance. p26
 
-"Expert advice gives seasons for belief, not action" p27
+"Expert advice gives reasons for belief, not action" p27
 
 We are in no way bound to follow the advice of experts, only those in authority. p27
 
@@ -116,7 +128,7 @@ Authority relations are always triadic: A has authority over B in relation to ma
 
 "Authoritative injunctions are purported to be categorical, to bind. But that does not entail that authority must be absolute" p29
 
-"Authority bunds us to act even when we disagree with its requirements." p32
+"Authority binds us to act even when we disagree with its requirements." p32
 
 Authorities issue content independent reasons to act.  We can act contrary to the _balance of reasons_ without acting _contrary to reason._ p37
 

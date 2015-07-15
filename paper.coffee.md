@@ -282,36 +282,41 @@ Restated, where we draw political boundaries is irrelevant for content-relative 
 
 ## Content Indifferent Outcomes
 
-A third type of instrumental justification of democracy is concerned not with the specific content of democratic outcomes, but with their beneficial side effects.  It is not the content of the outcome of a vote or policy deliberation that matter _per se_, rather it is the effect that democratic participation has on citizens that is valuable.  Democracy in this light is transformative.
+A third type of instrumental justification of democracy is concerned not with the specific content of democratic outcomes, but with their beneficial side effects.  It is not the result of a vote or policy deliberation that matter _per se_, rather it is the effect that democratic participation has on citizens that is valuable.  Democracy on this account is _transformative_.
 
-Public life as a means to personal improvement is an idea that can be traced back to the Greeks.  More recently, Rousseau thought democracy a necessary condition for the realisation of moral autonomy:
+Public life as the path to personal improvement is an idea that can be traced back to the Greeks.  More recently, Rousseau thought democracy a necessary condition for the realisation of moral autonomy:
 
 > ... what man acquires in the civil state, moral liberty, which alone makes him truly master of himself; for the mere impulse of appetite is slavery, while obedience to a law which we prescribe to ourselves is liberty.  
 > -- @rousseau1920 [§ 1.8.3]
 
-For Mill, democracy was the means to improve the moral character of the people.  The weighing of different people's interests, being guided by other's rules, and applying principles that furthered the common good enhanced a citizen's moral capacities:
+For Mill, democracy was the means to improve the moral character of the people.  The weighing of different people's interests, being guided by other's rules, and applying principles that advanced the common good, enhanced a citizen's moral capacities:
 
 > Still more salutary is the moral part of the instruction afforded by the participation of the private citizen, if even rarely, in public functions ... He is made to feel himself one of the public, and whatever is for their benefit to be for his benefit.  
 > -- @mill1862 [Ch 3]
 
-We might call these types of intrusmental justifications of democracy _content indifferent_, not because the content of democratic outcomes doesn't matter but because the content is not the _only_ thing that matters.
+We might call these types of instrumental justifications of democracy _content indifferent_, not because the content of democratic outcomes doesn't matter but because the content is not the _only_ thing that matters [^isolation].
 
-One way to formalise this ...
+[^isolation]: Content indifferent justifications are not typically used in isolation.  Both Mill and Rousseau used these content indifferent justifications in conjunction with other instrumental justifications of democracy such as strategic value, truth divination, and preference articulation.
 
-- charater improvement is a function of the process
-- charater improvement is a function of the process and other agent character (setting moral examples)
+One way to formalise this account is to stipulate that agent character improves consistently across all citizens when they vote.  This would model an agent-blind process in which every voter's character improves to the same degree, regardless of how politically active they are or who they interact with.  A more plausible model however would see agent character improve dependent on who they interact with.  Win-at-all-costs politics characterised by media manipulation and voter apathy should be less likely transform the character of participants than contests marked by honest and open debate.  
 
-Just the process
+In the formalisation below, agent character improves relative to the average character of their polity, with more virtuous polities improving their citizen's character to a greater extent than less virtuous ones.  `Good eggs` are assigned a random character value between `0.5` and `1.0` while `bad apples` are assigned on below `0.5`.
 
     Space::character = () ->
-      average_character = ave @polities.map (polity) ->
-        1
+      average_character = @polities.map (polity) ->
+        console.log polity.map (agent) ->
+          agent.belief
+    
 
-<!--
+
+<figure>
+<div id="character-by-cluster" class="graph"></div>
+<figcaption>Character improvement by clustering</figcaption></figure>
+
+
 <figure>
 <div id="character-by-partition" class="graph"></div>
-<figcaption>Preference fidelity by partition number</figcaption></figure>
--->
+<figcaption>Character improvement by partition number</figcaption></figure>
 
 ## Conclusion
 

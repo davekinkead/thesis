@@ -9,13 +9,38 @@ bibliography: /Users/dave/Dropbox/Research/readings/.library.bibtex
 
 ## Authority
 
+> To punish me for my contempt for authority, fate made me an authority myself.  
+> ― Albert Einstein
+
   - power vs authority. authority is normative. it should be obeyed
+
+What's the difference between the state and the Mafia?  There are some obvious descriptive differences that immediately spring to mind - size, ethnic heritage, access to resources etc.  These don't seem to be relevant to the comparison however. States amongst themselves vary on all these criteria so perhaps similarities can be more informative.  Both the state and criminal organisations exercise power over particular geographical areas.  Both offer non-voluntary policing and protection services.  Both groups extract rents in return for those services.  And both use violence against those they ostensibly claim to serve in order to further their aims.
+
+The key difference between the state and the mafia then, is normative [^def-normative].  While both claim power and demand obedience, and while both give us strong prudential reasons for obeying them, only in the case of the state do we have independent extra-prudential reasons for compliance.  We have moral reasons to support and obey the state that we do not have towards the Mafia.  In fact, we might even have moral reasons to actively resist or thwart criminal gangs.  This is what we mean by political authority.
+
+[^def-normative]: By normative, I simply mean action guiding. This can encompass moral, legal, or prudential reasons for action.
 
   - natural language use. noun vs verb subject vs object
 
-  - political vs epistemic (see @green1990:26-27 @hurd2001 & @raz1986 for dissent)
+Despite being a fundamental subject of analysis in political philosophy, the word itself and how it is used can easily confuse.  On one hand, we use it to describe people or institutions who wield a particular flavour of power.  We talk about people _in_ authority, how the authorities might be _coming for us_ in the night, or even the _Waste System Authority of Eastern Montgomery County_ [^wsaemc].  In this sense, authority is a grammatical subject, a role, a position, or a place.
 
-  - de facto vs de jure. both requires belief of subjects. practical reasons require this (see also @green1990:11)
+On the other we use it to describe a particular quality these subjects have - the power or right to make decisions, to give orders, and to enforce obedience.  We talk about the authority _of_ the law, tyrant who _holds_ complete authority, the speaker who _lacks_ it  Authority here is an object, a trait, a characteristic or quality.
+
+[^wsaemc]: http://www.montcopa.org/index.aspx?NID=597
+
+  - political vs epistemic (see @green1990 pp26-27 @hurd2001 & @raz1986 for dissent)
+
+The source of one's authority is equally confusing.  Authority can be derived from knowledge, skill, or expertise.  Einstein's authority in physics was a result of his pre-eminence in the field, HLA Hart's authority as a jurist came from his knowledge of the law.  Even the inanimate and the ideal can hold authority if they possess some special value or reliability [@green1990 :26].  The Bible's authority is derived from who it's authors were and whose word it documents; Jowett's or Bloom's translation of _The Republic_ are authoritative thanks to their fidelity to the original.  When authority is derived from some special knowledge, we might call it _theoretical_ or _epistemic_ authority.
+
+The subject of this inquiry is an all together different type of authority however.  It is an authority that can not only motivate our actions for prudential reasons, but also one that can morally justify sanctions against us if we ignore it.  When we talk about the _authority of the state_, we are not referring to a governments expertise in deciding what's the right thing to do, we are referring to their issuing of commands and moral justification for punishing non-compliance.  To say that a court has authority to hear a case, that a police officer has authority to arrest, or that a legislature has authority to pass a law, means simply that their instructions are binding.  This is a _practical_ or _political_ authority.
+
+The distinction between between _political_ and _epistemic_ authority is not so clear cut.
+
+--> Hurd's & Raz dissent here
+
+...As @green1990 [p26] observed however, the difference between political and epistemic authority is revelled in how the authority reacts to non-compliance by a subject.
+
+  - de facto vs de jure. both requires belief of subjects. practical reasons require this. see also [@green1990 p11]
 
   - Webber. acceptance defines legitimate 
 
@@ -27,7 +52,7 @@ bibliography: /Users/dave/Dropbox/Research/readings/.library.bibtex
 
   - Wolff. There can be no right reasons for authority.
 
-  - There is a difference. Authority can therefore exist without being justified. @green1990:60,  @Rawls1993
+  - There is a difference. Authority can therefore exist without being justified. [@green1990 :60],  @rawls1993
   
   - Authority as *legitimate coercion* merely requires a moral justification for the imposition of an agent's political power over others. (weak moral bonds between subject & authority) 
 
@@ -42,9 +67,9 @@ bibliography: /Users/dave/Dropbox/Research/readings/.library.bibtex
 
   - Legitimate authorities give subjects moral reasons for obeying.  But can it also just make coercion morally permissible?
 
-  - Authorities issue content independent reasons to act.  We can act contrary to the _balance of reasons_ without acting _contrary to reason._ @green1990:37  It is exclusionary.
+  - Authorities issue content independent reasons to act.  We can act contrary to the _balance of reasons_ without acting _contrary to reason._ @green1990 :37  It is exclusionary.
 
-  - __Morality__ Political obligation is a moral reason for action. An account of PO must show why this moral obligation exists. @green1990:225-228
+  - __Morality__ Political obligation is a moral reason for action. An account of PO must show why this moral obligation exists. @green1990 :225-228
   
   - __Content Independence__ An account of PO must show why we ought obey independent of a command's contents.
   

@@ -41,6 +41,8 @@ In part three, I will examine how different accounts of democratic inclusion aff
 
 ## No Good Answers
 
+
+
   - choose themselves
   - question begging
   - infinite regress

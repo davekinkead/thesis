@@ -12,11 +12,13 @@ bibliography: /Users/dave/Dropbox/Research/Reading Notes/.library.bibtex
 
 Democracy begins with the people.  They come together, unite as one and declare:
 
-> We the people of the United States ...[^usa]
+> We the People of the United States ... do ordain and establish this Constitution for the United States of America. [^usa]
 
-> Le peuple français proclame ...[^france]
+> Whereas the people of New South Wales, Victoria, South Australia, Queensland, and Tasmania ... have agreed to unite in one indissoluble Federal Commonwealth ... [^australia]
 
-> 日本国民は ...[^japan]
+> ... le peuple français proclame à nouveau que tout être humain, sans distinction de race, de religion ni de croyance, possède des droits inaliénables et sacrés. [^france]
+
+> 日本国民は、... ここに主権が国民に存することを宣言し、この憲法を確定する。[^japan]
 
 The people are the basic unit of any democracy. They are it's _raison d'etre_, the source of it's power, of it's legitimacy, and of it's sovereignty.  As both a system of government and political theory, democracy starts with a determinant group of people, _the demos_, and proceeds to explain and justify how they should organise politically.
 
@@ -41,19 +43,40 @@ In part three, I will examine how different accounts of democratic inclusion aff
 
 ## No Good Answers
 
+Before considering the various proposed solutions to the problem of inclusion, it is worth considering why the people can't constitute themselves.  If two or more individuals meet and decide to act as one, why aren't they a _people_?  Cooperation arises in many situations, and large scale social cooperation can emerge even amongst individuals in competition for scares resources [@skrimms].  Why can't political associations arise from emergent behaviour?
 
+There is in fact, no reason that makes this impossible nor impermissible.  There are innumerable instances of voluntary associations, whether they be political parties, churches, or sporting clubs, forming and acting jointly.  In many cases, these organisations have rules and regulation laid down in constitutions that constrain what actions, individually or jointly, are _legitimate_.  
 
-  - choose themselves
-  - question begging
-  - infinite regress
-  - History is arbitrary.
-  - Nationality has no objective criteria
-  - Neither do other criteria of salience.
-  - The all coerced principle answers the wrong question.
-  - All affected principle in incompatible with westphalian states.
-  - Issue based jurisdictions
-  - Who get's to propose
-  - A global demos.
+Emergent or _causa sui_ solutions become highly unlikely however, when applied to non-voluntary associations like political states.  In these cases any account of inclusion needs to justify why an individual is a member of one particular people even if they wish to be member of another.  Accounts of democratic inclusion, for Westphalian states at least, must also justify why other individuals should be excluded from one particular people even if they wish to be included amongst them.
+
+If people cannot decide to become a people individually (in the Westphalian sense), then neither can they decide to become a people collectively.  Why shouldn't the solution to the problem of democratic inclusion be a democratic one?  The reason of course, is that any collective action requires a subject, _the people_ in this case, to act collectively.  But if the answer to the question of _who should the people should_ is _whoever the people decide_, then our account of inclusion is question begging - we cannot accept the conclusion without accepting the premises.  We become entangled in a logic of vicious circularity when ever the people asking the question are the same people in the answer.
+
+Yet if the people asking the question are not the same people in the answer, then we have a different but equally intractable problem.  Before we can decide who the people should be democratically, we need to first decide which people will do the deciding.  And in order to decide that matter democratically, we need to identify a prior people to decide who gets to decide who gets to decide _ad infinitum_.  When our answer and questioners are the same people, we become trapped in a loop of circular logic.  When they are different people we stumble into an infinite regress.  An account of democratic inclusion cannot be decided democratically.
+
+The matter cannot be solved democratically.  We must therefore look at _extra democratic_ solutions.  The most common of these, and the one that seems to underpin _actual_ democracies is 
+
+--> History is arbitrary.
+
+Another common criteria for inclusion is nationality.
+
+Nationality has no objective criteria
+
+Neither do other criteria of salience.
+
+A far more promising candidate that has obvious normative appeal is the _All-Coerced Principle_.
+
+> > "being coerced by a demos does generate a claim for inclusion that is far stronger than any claim that the affected interests principle is likely to generate" @miller p225
+
+The all coerced principle answers the wrong question.
+
+All affected principle in incompatible with westphalian states.
+
+Issue based jurisdictions
+
+Who get's to propose
+
+A global demos.
+
 
 ## Democrats, Cosmopolitans, & Anarchists
 
@@ -89,7 +112,7 @@ Again, not fatal
 
 ## Instrumental Justifications
 
-There are many ways one might justify democratic authority.  In [chapter 3], we saw that one common approach is to point to the desirable outcomes that democratic procedures bring about. Democracy, according to some, identifies the right answers, produces benefiticial consequences, and leads to good policy.  We call these accounts of democracy _instrumental_. 
+We have already seen that there are many ways one might justify democratic authority.  In [chapter 3], we saw that one common approach is to point to the desirable outcomes that democratic procedures bring about. Democracy, according to some, identifies the right answers, produces benefiticial consequences, and leads to good policy.  We call these accounts of democracy _instrumental_. 
 
 Sometimes the desirability of these outcomes is judged according to some independent criteria.  According to these accounts, there is some external standard for measuring the quality of a decision.  Epistemic accounts of democracy like Condorcet's Jury Theorem [@condorcet1976] or David Estund's Epistemic Proceduralism [@estlund2009] are like this.  Truth exists independently of our beliefs; democratic processes track the truth; so this gives us reason to value democracy.
 
@@ -118,3 +141,5 @@ Neither can non-democratic accounts of inclusion help.  Many of these lack the s
 The all-affected principle says that anyone affected by some law should have a say in the matter.  This results in either a single global demos or issue specific demoi.  A global demos is compatible with content-independent instrumental justifications but content-relative ones.  Overlapping demoi are compatible with content-relative instrumental justifications but not content-independent ones.  And neither are compatible with the current Westphalian system of states.  
 
 Thus, no existing democratic state is justifiable on instrumental grounds, and it is doubtful that any democratic state could be.  Not only is it the case that the actual conditions necessary for instrumental accounts to be entailed are not realised, but the inability to identify the most appropriate account of inclusion means instrumental justifications of democratic authority are not internally coherent.
+
+> The boundary problem "thus present(s) an important practical limit to the scope of democracy as a method of making collective decisions." [@whelan1983 p13]

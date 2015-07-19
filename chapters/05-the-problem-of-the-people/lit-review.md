@@ -286,7 +286,7 @@ It is a question primarily about people rather than territory and is driven by t
   - political seccession 
   - immigration
 
-It is not obvious that democracy is any help on this issue. "Ateempts to propose criteria from the outside simply reveal a disagreement about what makes a person fit to participate in democratic politics" p202
+It is not obvious that democracy is any help on this issue. "Attempts to propose criteria from the outside simply reveal a disagreement about what makes a person fit to participate in democratic politics" p202
 
 This might be because "there is no simple entailment from democratic principles to the choice of political unit...or it might mean that the criteria ... are not themselves democratic." p203
 
@@ -391,9 +391,7 @@ He describes the logic of Boundary Problem as:
 
 > "Since democracy means rule by the people, there can be no democracy prior to the delimitation of a people; and since there can be no democracy prior to the delimitation of a people, the delimitation of the people cannot itself be democratically decided, according to this argument." p382
 
-His thesis is "that some people are excluded from the politics of deciding who the people are, is not a logical predicament inherent in all founding decisions." p382
-
-It is only problematic when those "who will be excluded from the political order once founded are not allowed to influence the boundary drawing in the same ways as are they who will be included." p382
+x
 
 > "a political order or community founded through procedures which provide equal participation to people who will live within as well as beyond the political order once founded is not created in any perplexing opposition to the concept of democracy from which the paradox of founding emanated in the first place" p382
 
@@ -415,7 +413,7 @@ The problem with unanimous consent is:
 
 > "In the vision of social contract theory, the founding of legitimate, or even democratically legitimate, states has been seen to consist in a unanimous vote among the contracting parties" p386
 
-> "adherence to unanimous voting does not address the objec- tion that the group of people who were permitted to participate in the unanimous decision could and perhaps should have been composed in some other way – most importantly that someone who was in fact excluded should actually have been included" p386
+> "adherence to unanimous voting does not address the objection that the group of people who were permitted to participate in the unanimous decision could and perhaps should have been composed in some other way – most importantly that someone who was in fact excluded should actually have been included" p386
 
 > "it is undemocratic to delimit the people through a political process which begins with the exclusion of some people." p387
 
@@ -500,7 +498,7 @@ Cultural nationalism relies on ethnic considerations pp869-873
 
 > "We need to know who is _legitimately_ in or out because self-referential doctrines purport to furnish a ground for legitimizing political power, and constituting political boundaries is one of the most important ways in which political power is exercised over persons" p873
 
-> "Thus political power is legitimized not by tradition, not by virtue, not by genealogy, but by the demos itself." .... "Specifying the ground for democratic legitimacy therefore clearly re- quires specifying both (a) what procedures give legiti- mate expression to the people’s collective will and (b) who the people in question is." p874
+> "Thus political power is legitimized not by tradition, not by virtue, not by genealogy, but by the demos itself." .... "Specifying the ground for democratic legitimacy therefore clearly requires specifying both (a) what procedures give legitimate expression to the people’s collective will and (b) who the people in question is." p874
 
 > "It is a problem that arises precisely because the democratic principle of legitimacy is not only self-referential, but also constitutively political: It assumes that the ground of legitimacy is the people’s politically expressed collective will, itself some function of individual members’ wills."p874
 
@@ -819,3 +817,7 @@ Future avenues: p475
   - Dahl 1979 paper on “Procedural Democracy
 
   - Ivor Jennings “On the surface it seemed reasonable: Let the people decide. It was in fact ridiculous be- cause the people cannot decide until somebody decides who are the people” (1956, 56).
+
+
+
+> if there were no prior convention, where, unless the election were unanimous, would be the obligation on the minority to submit to the choice of the majority? [@rousseau ch5]

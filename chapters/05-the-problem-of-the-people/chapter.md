@@ -7,6 +7,17 @@ license: CC-BY-SA
 bibliography: /Users/dave/Dropbox/Research/Reading Notes/.library.bibtex
 ---
 
+- who the people are is important 1000
+  - democracy & size
+
+- there are no good ways to determine this 2000
+- that's a problem 4000
+  - recall account of justification 500
+  - democrats 750
+  - Cosmos 750
+  - anarchists 2000
+
+  5500 by 1200
 
 # The Paradox of the People
 
@@ -22,7 +33,7 @@ Democracy begins with the people.  They come together, unite as one and declare:
 
 The people are the basic unit of any democracy. They are it's _raison d'etre_, the source of it's power, of it's legitimacy, and of it's sovereignty.  As both a system of government and political theory, democracy starts with a determinant group of people, _the demos_, and proceeds to explain and justify how they should organise politically.
 
-But who exactly are _the people_? More importantly, who _should_ they be?  Where should we draw our borders and why?  Who gets to vote?  And who should have a say in answering these questions?  Who ought be included in the _demos_ and who ought be excluded has a profound effect on the realisation of justice, the coherence of democratic theory, and the legitimacy of democratic authority.  These questions have collectively become known as the Boundary Problem of democratic theory and answering them properly is of fundamental importance to democracy and the legitimacy of democratic authority.
+But who exactly are _the people_? More importantly, who _should_ they be?  Where should we draw our borders and why?  Who gets to vote?  And who should have a say in answering these questions?  Who ought be included in the _demos_ and who ought be excluded has a profound effect on the realisation of justice, the coherence of democratic theory, and the legitimacy of democratic authority.  These questions have collectively become known as the _Boundary Problem_ of democratic theory [^naming] and answering them properly is of fundamental importance to democracy and the legitimacy of democratic authority.
 
 In [chapter 3], we saw that democracy is sometime justified on procedural grounds.  Democratic authority on this account, is legitimate because it is constituted according to some appropriate procedure.  But the appropriateness of all procedures is context-dependent.  What is fair or just in one context, or for one group of people, may not be fair or just in another.  Answering the question of who the people ought be one way rather than another can therefore change the appropriateness of the procedure.
 
@@ -30,42 +41,80 @@ Other times, democracy is justified on substantive grounds.  Democratic authorit
 
 And for others still, democracy is justified on instrumental grounds.  Democratic authority on this account, is legitimate because it is the best way to produce certain valuable ends.  Democracy tracks the truth, it forms the general will, it transforms the moral character of citizens.  Those ends however, are a function of which procedures are used and who participates in those procedures.  They are a function of  who is included amongst _the people_.  Enfranchising some people rather than others, or drawing the borders of a state in one location rather than another, will typically result in different outcomes for identical democratic procedures.
 
---> Size of a democratic people determines both its citizen effectiveness and system capacity (see Dahl 1973 Size & Democracy).
+--> [MONDAY] Size of a democratic people determines both its citizen effectiveness and system capacity (see Dahl 1973 Size & Democracy).
+
+How the demos is constituted affects not only claims of democratic legitimacy but also the nature of democracies themselves. 
+
+The optimal size of a democracy, according to the Greeks, was a trade off between self sufficiency and a knowledge of other citizen's character.  ...example.
+
+Modern political theorists like Rousseau and Montesquieu link political systems to size. Smaller states ought be republics, - larger ought be aristocracies, largest monarchies.
+
+> for the constitution of a State to be at its best, it is possible to fix limits that will make it neither too large for good government, nor too small for self-maintenance.  In every body politic there is a maximum strength which it cannot exceed and which it only loses by increasing in size. Every extension of the social tie means its relaxation; and, generally speaking, a small State is stronger in proportion than a great one. 
+
+> The same laws cannot suit so many diverse provinces with different customs, situated in the most various climates, and incapable of enduring a uniform government. [@rousseau Ch9]
+
+> the right relation therefore is that the land should suffice for the maintenance of the inhabitants, and that there should be as many inhabitants as the land can maintain. [@rousseau Ch10]
+
+Dahl and Tufte [@dahl1973] argue that the size of a polity impacts the system capacity of a democracy and and citizen effectiveness. Size tends to break the link between autonomy and participation
+
+Higher densities of populations have higher spillover effects and require greater levels of coordination.
+<---
 
 Who the people are affects what democracies do and what democracy is.  Democratic theory, however, is silent on who they people should be.  It can't, because who the people are is a matter logically and temporally prior to that of what they do and how they do it. Democratic answers are either viciously circular in that they must first presuppose the answer to the question they ask, or result in an infinite regress of deciding who gets to decide who gets to decide who gets to decide.
 
-Non-democratic solutions however, fair little better.  A number of principles to settle the question - historical accident, nationality, cultural or linguistic salience, the all-coerced principle, and the all-affected principle - have been proposed but none offer an adequate solution. Despite the best efforts of political theorists in the last 30 years, there is a total lack of consensus as to how we might answer the question of who the people should be.  
+Non-democratic solutions however, fair little better.  A number of principles to settle the question - historical accident, nationality, cultural or linguistic salience, the all-coerced principle, and the all-affected principle - have been proposed but none offer an adequate solution. 
 
-In the part one of this chapter, I will survey the various attempts to solve the Boundary Problem ...
+Despite the best efforts of political theorists in the last 30 years, there is a total lack of consensus as to how we might answer the question of who the people should be.  It is a "fundamental issue in democratic theory" [@arrhenius2005 p1] with "no theoretical solution to the puzzle, only pragmatic ones". A problem that presents "an important practical limit to the scope of democracy as a method of making collective decisions" [@whelan1983 p13] but one "almost totally neglected by all the great political philosophers who write about democracy" [@dahl1970 pp59-60]. 
 
-In part two, I will explore how these different solutions succeed and fail for different projects within democratic theory....
+--> In the part one of this chapter, I will survey the various accounts of political inclusion that are found in the literature.  Typically, who the people are is simply presumed.....
 
-In part three, I will examine how different accounts of democratic inclusion affect different justifications of democracy and show that this proves fatal for instrumental justifications of democratic authority.
+--> In part two, I will explore how these different accounts of inclusion succeed and fail for different projects within democratic theory.  Ideally, there would be a democratic answer to the question to inclusion but as we will see shortly, this is logically impossible.  The challenge for some theorists, those I call _the Democrats_, is to identify an account of inclusion that is compatible with substantive democratic values.  ...
+
+- cosmos
+- anarchists
+
+In part three, I will explore the concerns of the Anarchists in greater detail.  Certain justifications of democratic authority, _instrumental_ ones, are fully dependent on the content of the outcomes of democratic processes.  Different accounts of inclusion lead to different _peoples_, and different _peoples_ lead to different outcomes.  First, I show that any instrumental justification of democratic authority _must_ offer a corresponding congruent account of inclusion. No instrumental justification of democratic authority does this so no instrumental justification of democratic authority satisfies the evidentiary requirement of political justification outlined in [chapter 2].  
+
+Then, I demonstrate that the most common instrumental justifications of democratic authority require different, and incompatible accounts of inclusion, therefore rendering these justifications incompatible themselves.  Because many accounts of democracy include multiple, and incompatible instrumental justifications, these accounts also fail to satisfy the entailment criterion of justification.
 
 
 ## No Good Answers
 
-Before considering the various proposed solutions to the problem of inclusion, it is worth considering why the people can't constitute themselves.  If two or more individuals meet and decide to act as one, why aren't they a _people_?  Cooperation arises in many situations, and large scale social cooperation can emerge even amongst individuals in competition for scares resources [@skrimms].  Why can't political associations arise from emergent behaviour?
+Before considering the various proposed solutions to the problem of inclusion, it is worth considering why the people can't constitute themselves.  If two or more individuals meet and decide to act as one, why aren't they a _people_?  Cooperation arises in many situations, and large scale social cooperation can emerge even amongst individuals in competition for scares resources [see @skrimms].  Why can't political associations arise from emergent cooperation or consent to a social contract from a state of nature when these ideas were clearly on the minds of early political theorists?
 
-There is in fact, no reason that makes this impossible nor impermissible.  There are innumerable instances of voluntary associations, whether they be political parties, churches, or sporting clubs, forming and acting jointly.  In many cases, these organisations have rules and regulation laid down in constitutions that constrain what actions, individually or jointly, are _legitimate_.  
+> When any number of men have so consented to make one community or government, they are thereby presently incorporated, and make one body politic, wherein the majority have a right to act and conclude the rest. [@locke §95]
 
-Emergent or _causa sui_ solutions become highly unlikely however, when applied to non-voluntary associations like political states.  In these cases any account of inclusion needs to justify why an individual is a member of one particular people even if they wish to be member of another.  Accounts of democratic inclusion, for Westphalian states at least, must also justify why other individuals should be excluded from one particular people even if they wish to be included amongst them.
+> At once, in place of the individual personality of each contracting party, this act of association creates a moral and collective body, composed of as many members as the assembly contains votes, and receiving from this act its unity, its common identity, its life and its will. [@rousseau ch6]
 
-If people cannot decide to become a people individually (in the Westphalian sense), then neither can they decide to become a people collectively.  Why shouldn't the solution to the problem of democratic inclusion be a democratic one?  The reason of course, is that any collective action requires a subject, _the people_ in this case, to act collectively.  But if the answer to the question of _who should the people should_ is _whoever the people decide_, then our account of inclusion is question begging - we cannot accept the conclusion without accepting the premises.  We become entangled in a logic of vicious circularity when ever the people asking the question are the same people in the answer.
+> Which is as much as to say, to appoint one man, or assembly of men, to bear their person; and every one to own and acknowledge himself to be author of whatsoever he that so beareth their person shall act, or cause to be acted, in those things which concern the common peace and safety; and therein to submit their wills, every one to his will, and their judgements to his judgement. [@hobbes XVII]
 
-Yet if the people asking the question are not the same people in the answer, then we have a different but equally intractable problem.  Before we can decide who the people should be democratically, we need to first decide which people will do the deciding.  And in order to decide that matter democratically, we need to identify a prior people to decide who gets to decide who gets to decide _ad infinitum_.  When our answer and questioners are the same people, we become trapped in a loop of circular logic.  When they are different people we stumble into an infinite regress.  An account of democratic inclusion cannot be decided democratically.
+There is nothing in short, that makes this type of process impossible nor impermissible.  There are innumerable instances of voluntary associations, whether they be political parties, churches, or sporting clubs, forming and acting jointly.  In many cases, these associations are large and complex organisations; in many cases, these organisations have rules and regulation laid down in constitutions that constrain what actions, individually or jointly, are _legitimate_.  Why not states?
 
-The matter cannot be solved democratically.  We must therefore look at _extra democratic_ solutions.  The most common of these, and the one that seems to underpin _actual_ democracies is 
+Because states are non-voluntary.  _Causa sui_ accounts of inclusion like emergence or consent become highly problematic when applied to any non-voluntary association.  For Hobbes, Locke, and Rousseau, the need for unanimous agreement to inclusion is explicit.  These accounts fail to justify why an individual is a member of one particular people even if they wish to be member of another.  Without unanimous or prior agreement, there can no obligation for the minority to submit to the choice of the majority [@rousseau ch5]. Furthermore, it is not clear how agreement to cooperate at one time obligates the contracting parties, and especially their descendants, to continued cooperation. 
+
+Accounts of democratic inclusion must also justify why other individuals should be excluded from one particular people even if they wish to be included amongst them. Agné presses this challenge to consent based accounts:
+
+> Adherence to unanimous voting does not address the objection that the group of people who were permitted to participate in the unanimous decision could and perhaps should have been composed in some other way – most importantly that someone who was in fact excluded should actually have been included. [@agné2010 p386]
+
+Social contract and consent theories are an utter failure as a response to the boundary problem because civic boundaries pose an externality problem on outsiders and require the consent of everyone.  "Boundaries require not just consent, but serial consent." [ @abizadeh2012 p875]
+
+If people cannot decide to become a people individually (in the Westphalian sense), then neither can they decide to become a people collectively.  But why shouldn't the solution to the problem of democratic inclusion be a democratic one?  The reason of course, is that any collective action requires a subject, _the people_ in this case, to act collectively.  If the answer to the question of _who should the people should_ is _whoever the people decide_, then our account of inclusion is question begging - we cannot accept the conclusion without accepting the premises.  We become entangled in a logic of vicious circularity whenever the people asking the question are the same people in the answer.
+
+If the people asking the question are not the same people in the answer however, then we have a different but equally intractable problem.  Before we can decide who the people should be democratically, we need to first decide which people will do the deciding.  And in order to decide _that_ matter democratically, we need to identify a prior people to decide who gets to decide who gets to decide _ad infinitum_.  When our answer and questioners are the same people, we become trapped in a loop of circular logic.  When they are different people we stumble into an infinite regress.  The question of inclusion cannot be decided democratically.
 
 
-*Territorial States*
+### Territorial States & History
+
+If the matter cannot be solved democratically, we must therefore look for _extra democratic_ solutions.  The most common of these, and one that seems to underpin most _actual_ democracies is historical.
+
+
 
 The people can be defined by historical accident - those in a state are the people. But this can't solve the boundary problem when territorial issues are in dispute.
 
 > "Democracy can be practiced for making collective decisions once the collectivity has been defined, but democratic methods themselves are inadequate to establish the bounds of the collectivity, whose existence democratic theory simple pre-supposes." [@whelan 
 p22]
 
-*Nationality*
+### Nationality
 
 Another common criteria for inclusion is nationality.  The people of France should be composed of the French.
 
@@ -80,7 +129,7 @@ Nationality and ethnicity have also been suggested as ways to demarcate the peop
   - The nationalist principle is non-voluntaristic. 
 
 
-*Geography & Salience*
+### Geography & Salience
 
 Human distribution seems to drive grouping and connection. Those closest share common ends. Yet...
 
@@ -89,6 +138,11 @@ Economic patterns develop in response to political boundaries, just as much as t
 
 
 These reasons seem to clash with democratic values such s voluntarism, freedom and rationality. [@whelan p31]
+
+
+### Coercion
+
+> It's appeal is obvious - "the all-affected principle seems to expound some classical democratic notions about autonomy and consent...." Aristotle's "ruling and being ruled in turn"....Roman law "what concerns all, all must discuss and approve" ... "liberty means living according to laws that you have given yourself" @schaffer p3
 
 A far more promising candidate that has obvious normative appeal is the _All-Coerced Principle_.
 
@@ -106,6 +160,10 @@ Yet, every decision affects people differently. Constituency would need to be de
 
 Deeper still, determining who is affected by an issue requires a prior determination of constituency, which cannot be made by those affected as this is the very question to be settled. p19
 
+> But the AAP requires a complementary theory about affectedness - this might be an objective claim or subjective one.  @schaffer p4
+
+
+
 All affected principle in incompatible with westphalian states.
 
 Issue based jurisdictions
@@ -117,11 +175,21 @@ A global demos.
 These other principles fail to 'command general respect' [@whelan p40]
 
 
+
+
+
 ## Democrats, Cosmopolitans, & Anarchists
 
-There seem to be no viable solutions to the Boundary Problem.
+--> There seems to be no clear solution to the Boundary Problem.  Each account of inclusion discussed above offers some ....  
 
-While some solutions may work for some accounts of democracy, no solution works for all.
+--> But while some solutions may work for some accounts of democracy, no solution works for all.
+
+Just like there is a diverse range of justifications for democratic authority, there is a diversity in perspectives and projects within political and democratic theory.  In this section, I offers three new perspectives on the Boundary Problem through the eyes of what I call the Democrat, the Cosmopolitan, and the Anarchist[^1]. Different accounts of inclusion may support different democratic perspectives and projects but no single account of inclusion can support them all.  
+
+### The Democrat 
+
+- why it can't be answered democratically
+- the conflict of extra-democratic solutions with democratic values
 
 The Democrat is primarily concerned with answering the question democratically.  This may relate to the intractability of the Boundary Problem with procedural accounts of democracy, or the conflict of non-democratic solutions with substantive democratic values.
 
@@ -137,6 +205,11 @@ The primacy of liberty however, conflicts with the primacy of solidarity.  One c
 
 So even if Democrats themselves could agree on a solution to the Boundary Problem, would that solution be acceptable to the Cosmopolitan or Anarchist?  While there may be mutually acceptable answers between Radical Democratic and Cosmopolitan, it's unlikely any solution would be acceptable to the Anarchist.  This is because few justifications of democratic authority rely on appeals to substantive democratic ideals for the simple reason that they lack what AJ Simmons calls the _particularity requirement_ - why our allegence is owed to this democratic authority rather than another.
 
+
+### Cosmos
+
+- the conflict of solutions with cosmopolitan values
+- the conflict of cosmo solutions with democratic values
 
 The cosmopolitan's chief concern is whether the answer accords with normative principles that aren't limited to are particular people.  _Ceteris paribus_, humans have equal moral worth regardless of which polity they reside in.  The Cosmopolitan's approach to the Boundary Problem is concerned with the fairness of different groups of being subjected to different political frameworks and the normative question of who should be included and why.  
 
@@ -190,13 +263,19 @@ The anarchist is concerned with how any answer affects democracy's ability to le
 
 ### The Anarchist
 
-Many accounts of democracy justify the authority of a democratic state by way of reference to particular outcomes or states of affairs that democratic processes bring about.  A democratic authority might be a legitimate authority because democratic processes track the truth better than others, best promotes the common good, best realise individual preferences in groups or best ensure the needs of all members of society are realised.
+- challenges vs illegitimacy
+- how instrumental accounts are fatally undermined
 
-Incorrectly bounding the demos undermines some democratic accounts of legitimacy making but not others.  Some solutions to the Boundary Problem are compatible with some accounts of democratic authority, but many are not.  So the anarchist is content with any answer in which the account of democratic inclusion is congruent with the account of democratic authority.
-
-Some solutions to the Boundary Problem are compatible with some accounts of democratic authority, but many are not.  So the anarchist is content with any answer in which the account of democratic inclusion is congruent with the account of democratic authority.  Yet those answers to the Boundary Problem which are congruent with accounts of democracy authority are typcially incompatibale with Cosmopolitan conceptions. 
+> To the extent that the unit within which majority rule operates is unjustifiable, then majority rule is unjustifiable in that unit. @dahl1989 p193
 
 
+Recall from [chapter 2] what it means to justify and account of political authority.
+
+--> requirements of authority
+
+--> requirements of justification
+
+--> 
 
 ## Instrumental Failures
 

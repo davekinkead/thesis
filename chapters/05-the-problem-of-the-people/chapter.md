@@ -17,7 +17,7 @@ bibliography: /Users/dave/Dropbox/Research/Reading Notes/.library.bibtex
   - Cosmos 750
   - anarchists 2000
 
-  5500 by 1200
+  6000 by 1500
 
 # The Paradox of the People
 
@@ -66,16 +66,13 @@ Non-democratic solutions however, fair little better.  A number of principles to
 
 Despite the best efforts of political theorists in the last 30 years, there is a total lack of consensus as to how we might answer the question of who the people should be.  It is a "fundamental issue in democratic theory" [@arrhenius2005 p1] with "no theoretical solution to the puzzle, only pragmatic ones". A problem that presents "an important practical limit to the scope of democracy as a method of making collective decisions" [@whelan1983 p13] but one "almost totally neglected by all the great political philosophers who write about democracy" [@dahl1970 pp59-60]. 
 
---> In the part one of this chapter, I will survey the various accounts of political inclusion that are found in the literature.  Typically, who the people are is simply presumed.....
+In the part one of this chapter, I will survey the various accounts of political inclusion that are found in the literature.  Typically, who the people are is simply presumed by theorists writing on democracy.  Democracy means _rule of the people_ but the vast majority of political philosophy focus on the nature of the _kratos_ rather than the nature of the _demos_.  When consideration is given to who the people should be, it is typically descriptive criteria like nationality, culture, history, or geography that are given.  Occasionally however, normative accounts are offered like the All-Coerced Principle or the All-Affected Principle.  Despite their intuitive appeal however, these principles fail to offer an adequate solution to the Boundary Problem for a variety of reasons.
 
---> In part two, I will explore how these different accounts of inclusion succeed and fail for different projects within democratic theory.  Ideally, there would be a democratic answer to the question to inclusion but as we will see shortly, this is logically impossible.  The challenge for some theorists, those I call _the Democrats_, is to identify an account of inclusion that is compatible with substantive democratic values.  ...
+In part two, I will explore how these different accounts of inclusion succeed and fail for different projects within democratic theory.  Ideally, any answer to the question to inclusion would be democratic but as we will see shortly, this is logically impossible.  The challenge for some theorists, those I call _the Democrats_, is to either explain how analysis of democracy's _kratos_ can proceed without a democratic explanation of the _demos_; or to identify an account of inclusion that is compatible with substantive democratic values.  The Boundary Problem concerns more than just democratic compatibility however. For those theorists I call _the Cosmopolitans_, the challenge is to offer an account of inclusion that doesn't conflict with substantive universal values such as justice and fairness, and offers a justification for the externalities that arise when one people make decision that affect another.
 
-- cosmos
-- anarchists
+Then there are those theorists I call _the Anarchists_.  The Anarchist is concerned primarily with how accounts of inclusion support or undermine accounts of democratic authority.  In part three, I will explore the concerns of the Anarchists in greater detail.  Certain justifications of democratic authority, _instrumental_ ones, are fully dependent on the content of the outcomes of democratic processes.  Different accounts of inclusion lead to different _peoples_, and different _peoples_ lead to different outcomes.  First, I show that any instrumental justification of democratic authority _must_ offer a corresponding congruent account of inclusion. No instrumental justification of democratic authority does this so no instrumental justification of democratic authority satisfies the evidentiary requirement of political justification outlined in [chapter 2].  
 
-In part three, I will explore the concerns of the Anarchists in greater detail.  Certain justifications of democratic authority, _instrumental_ ones, are fully dependent on the content of the outcomes of democratic processes.  Different accounts of inclusion lead to different _peoples_, and different _peoples_ lead to different outcomes.  First, I show that any instrumental justification of democratic authority _must_ offer a corresponding congruent account of inclusion. No instrumental justification of democratic authority does this so no instrumental justification of democratic authority satisfies the evidentiary requirement of political justification outlined in [chapter 2].  
-
-Then, I demonstrate that the most common instrumental justifications of democratic authority require different, and incompatible accounts of inclusion, therefore rendering these justifications incompatible themselves.  Because many accounts of democracy include multiple, and incompatible instrumental justifications, these accounts also fail to satisfy the entailment criterion of justification.
+Then, I demonstrate that the most common instrumental justifications of democratic authority require different, and incompatible accounts of inclusion, therefore rendering these justifications incompatible themselves.  Because many accounts of democracy include multiple, and incompatible instrumental justifications, these accounts also fail to satisfy the entailment criterion of justification.  My conclusion is that the Boundary Problem is problematic for all accounts of democracy and fatal for instrumental justifications of democratic authority.
 
 
 ## No Good Answers
@@ -105,27 +102,27 @@ If the people asking the question are not the same people in the answer however,
 
 ### Territorial States & History
 
-If the matter cannot be solved democratically, we must therefore look for _extra democratic_ solutions.  The most common of these, and one that seems to underpin most _actual_ democracies is historical.
+--> If the matter cannot be solved democratically, we must therefore look for _extra democratic_ solutions.  The most common of these, and one that seems to underpin most _actual_ democracies is historical.
 
-
-
-The people can be defined by historical accident - those in a state are the people. But this can't solve the boundary problem when territorial issues are in dispute.
+--> The people can be defined by historical accident - those in a state are the people. But this can't solve the boundary problem when territorial issues are in dispute.
 
 > "Democracy can be practiced for making collective decisions once the collectivity has been defined, but democratic methods themselves are inadequate to establish the bounds of the collectivity, whose existence democratic theory simple pre-supposes." [@whelan 
 p22]
 
 ### Nationality
 
-Another common criteria for inclusion is nationality.  The people of France should be composed of the French.
+Another common criteria for inclusion is nationality.  France should be ruled by the French. Britain by the British.  The nationalist principle - that states should correspond with pre-existing national units - has intuitive appeal thanks largely to the primacy of the nation-state in modern international relations.  The International Covenant on Civil and Political Rights, the International Covenant on Economic, Social and Cultural Rights, and the United Nations Declaration on the Rights of Indigenous Peoples all recognise the right of all peoples to self-determination. 
 
-Nationality has no objective criteria
+--> nationalism (see Walzer 1985) in Song
 
-Nationality and ethnicity have also been suggested as ways to demarcate the people - the UN recognises the right of self-determination for peoples.  The objections to these are many:
+Nationality with it's shared cultural, linguistic, and historical bonds seems to provide strong support for the solidarity necessary in any political association.  This common sense of identity and share customs is also common to almost all independence movements of the last quarter millennium.  Basque separatism for example, is motivated in part because many people see themselves as part of the Basque and not Spanish nation.
 
-  - "No single objective criterion of nationality appears definitive." [@whelan1983 p29]
-  - States govern many nations of people.
-  - State determine nations as much as nations determine states ie the Soviet people, the Yugoslavian people.
-  - People may wish to align themselves non-ethnically.
+Yet the idea of nationality is a chimera that lacks any definitive objective criterion [@whelan1984 p29, @espejo2014 p468].  If France should be ruled the French then who exactly are the French?  To answer _anyone in France_ would be circular so some pre-political explanation is needed.  Language and culture are insufficient unless many citizens of Belgium, Switzerland, and Canada are to be enfranchised whilst many current citizen of France are disenfranchised.  Neither is biological ethnicity lest citizenship depend on one's DNA.  The nationalist principle relies on too much ethnic considerations - considerations that are at odds with democratic citizenship [@abizadeh2012 p869].
+
+Neither does nationality provide the exclusivity necessary for state sovereignty.  States can contain many nations and nations can exist across states.  Canada, Switzerland and Belgium are explicitly multi-national and multi-linguistic states but almost all states are comprised of many nationalities.  The Roma exist across many states but lack one of their own.  Further muddying the waters is the bi-causal relationship between nationality and statehood.  The fact that we can talk of the Soviet, Yugoslavian, or even the French people demonstrates that States can determine nationality just as much as nationality can determine statehood.  Nationality also fails to identify the appropriate size and level of statehood.  Is one British, English, or a Londoner first?  If France should be ruled by the French, shouldn't Alsace be ruled by the Alsatians and Paris by the Parisians?  Nationality can be too many things for it to define who the people ought be.
+
+> The Nationalist doesn't address the issue because relies on a pre-democratic claim to justify the people, which cannot justify democracy. @agne p385
+
   - The nationalist principle is non-voluntaristic. 
 
 
@@ -142,17 +139,21 @@ These reasons seem to clash with democratic values such s voluntarism, freedom a
 
 ### Coercion
 
-> It's appeal is obvious - "the all-affected principle seems to expound some classical democratic notions about autonomy and consent...." Aristotle's "ruling and being ruled in turn"....Roman law "what concerns all, all must discuss and approve" ... "liberty means living according to laws that you have given yourself" @schaffer p3
+The previous principles for bounding the demos failed because they were too descriptive.  They are principles which according to [@whelan p40] "fail to command general respect".  A far more promising candidate that has obvious normative appeal is the _All-Coerced Principle_.  The appeal of this principle is immediate - anyone subject to the coercive power of the state should be given some say in how and when that power is applied.  Coercion is at odds with basic human and democratic values.  It undermines the autonomy of the person coerced [@miller2009 p221] and given the Fundamental Liberal Principle - the _a priori_ assumption in favour of freedom [Gaus 1996] - offers us a very strong demand for political inclusion.  Many theorists like [@schaffer p3] see the All-Coerced Principle expounded in many classical political works - Aristotle's "ruling and being ruled in turn" or Roman law's "what concerns all, all must discuss and approve". 
 
-A far more promising candidate that has obvious normative appeal is the _All-Coerced Principle_.
+Yet the All-Coerced principle answers the wrong question.  As a necessary condition for inclusion it is straight forward enough.  If one is subject to the coercive power of the democratic state, then one is entitled to be enfranchised in that state. 
 
-> > "being coerced by a demos does generate a claim for inclusion that is far stronger than any claim that the affected interests principle is likely to generate" @miller p225
+
+
+> "being coerced by a demos does generate a claim for inclusion that is far stronger than any claim that the affected interests principle is likely to generate" @miller p225
 
 The all coerced principle answers the wrong question.
 
 Two key principles are the affected-interests and coercion principles.  It's possible to be affected without being coerced but not vice versa. [@miller2009 p214]
 
 *All-Affected Principle* @whelan
+
+> Two key principles are the affected-interests and coercion principles.  It's possible to be affected without being coerced but not vice versa. @miller2009 p214 
 
 Intuitively, all those affected by some policy ought have a voice in making it. (p16) The intuition is clear when burdens are to be imposed but not so clear that those receiving benefits ought have a say in the matter. (p17)
 
@@ -171,8 +172,6 @@ Issue based jurisdictions
 Who get's to propose
 
 A global demos.
-
-These other principles fail to 'command general respect' [@whelan p40]
 
 
 

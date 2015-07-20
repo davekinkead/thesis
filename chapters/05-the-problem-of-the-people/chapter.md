@@ -7,18 +7,6 @@ license: CC-BY-SA
 bibliography: /Users/dave/Dropbox/Research/Reading Notes/.library.bibtex
 ---
 
-- who the people are is important 1000
-  - democracy & size
-
-- there are no good ways to determine this 2000
-- that's a problem 4000
-  - recall account of justification 500
-  - democrats 750
-  - Cosmos 750
-  - anarchists 2000
-
-  6000 by 1500
-
 # The Paradox of the People
 
 Democracy begins with the people.  They come together, unite as one and declare:
@@ -41,38 +29,23 @@ Other times, democracy is justified on substantive grounds.  Democratic authorit
 
 And for others still, democracy is justified on instrumental grounds.  Democratic authority on this account, is legitimate because it is the best way to produce certain valuable ends.  Democracy tracks the truth, it forms the general will, it transforms the moral character of citizens.  Those ends however, are a function of which procedures are used and who participates in those procedures.  They are a function of  who is included amongst _the people_.  Enfranchising some people rather than others, or drawing the borders of a state in one location rather than another, will typically result in different outcomes for identical democratic procedures.
 
---> [MONDAY] Size of a democratic people determines both its citizen effectiveness and system capacity (see Dahl 1973 Size & Democracy).
+How the demos is constituted affects not only claims of democratic legitimacy but also the nature of democracies themselves.  The South Pacific island democracy of Tuvalu has a population of just over 10,500 people [^cite].  India, the worlds largest democracy, has a population of over 1.2 billion.  The types of governance, administration, and procedures that are appropriate for each country are vastly different.  For the Greeks, the optimal size for a democracy was the city.  Too small, and the state would be unable to sustain itself and be vulnerable to imperial neighbours. Too large, and the necessary social bonds of political life would be diluted.  Anything larger than the city-state could only be ruled by a monarch with far reaching powers.
 
-How the demos is constituted affects not only claims of democratic legitimacy but also the nature of democracies themselves. 
-
-The optimal size of a democracy, according to the Greeks, was a trade off between self sufficiency and a knowledge of other citizen's character.  ...example.
-
-Modern political theorists like Rousseau and Montesquieu link political systems to size. Smaller states ought be republics, - larger ought be aristocracies, largest monarchies.
-
-> for the constitution of a State to be at its best, it is possible to fix limits that will make it neither too large for good government, nor too small for self-maintenance.  In every body politic there is a maximum strength which it cannot exceed and which it only loses by increasing in size. Every extension of the social tie means its relaxation; and, generally speaking, a small State is stronger in proportion than a great one. 
-
-> The same laws cannot suit so many diverse provinces with different customs, situated in the most various climates, and incapable of enduring a uniform government. [@rousseau Ch9]
-
-> the right relation therefore is that the land should suffice for the maintenance of the inhabitants, and that there should be as many inhabitants as the land can maintain. [@rousseau Ch10]
-
-Dahl and Tufte [@dahl1973] argue that the size of a polity impacts the system capacity of a democracy and and citizen effectiveness. Size tends to break the link between autonomy and participation
-
-Higher densities of populations have higher spillover effects and require greater levels of coordination.
-<---
+Size isn't the only concern here.  Different conceptions of the demos result in different mixes of culture, language, and ideas.  "The same laws cannot suit so many diverse provinces with different customs, situated in the most various climates, and incapable of enduring a uniform government" [@rousseau Ch9].  Solidarity amongst homogeneous societies might be easier to find but heterogeneous groups tend be more dynamic, innovative, and productive [@haug1967].  The size of a polity impacts the system capacity of a democracy and and citizen effectiveness.  Increasing polity size tends to break the link between autonomy and participation, decreases the responsiveness of politicians, but increases state power and influence [@dahl1973].  Higher densities of populations permit deeper cooperation but have higher spillover effects and require greater levels of coordination.
 
 Who the people are affects what democracies do and what democracy is.  Democratic theory, however, is silent on who they people should be.  It can't, because who the people are is a matter logically and temporally prior to that of what they do and how they do it. Democratic answers are either viciously circular in that they must first presuppose the answer to the question they ask, or result in an infinite regress of deciding who gets to decide who gets to decide who gets to decide.
 
-Non-democratic solutions however, fair little better.  A number of principles to settle the question - historical accident, nationality, cultural or linguistic salience, the all-coerced principle, and the all-affected principle - have been proposed but none offer an adequate solution. 
+Non-democratic solutions however, fair little better.  A number of principles to settle the question - historical accident, nationality, cultural or linguistic salience, the All-Coerced Principle, and the All-Affected Principle - have been proposed but none offer an adequate solution. 
 
 Despite the best efforts of political theorists in the last 30 years, there is a total lack of consensus as to how we might answer the question of who the people should be.  It is a "fundamental issue in democratic theory" [@arrhenius2005 p1] with "no theoretical solution to the puzzle, only pragmatic ones". A problem that presents "an important practical limit to the scope of democracy as a method of making collective decisions" [@whelan1983 p13] but one "almost totally neglected by all the great political philosophers who write about democracy" [@dahl1970 pp59-60]. 
 
 In the part one of this chapter, I will survey the various accounts of political inclusion that are found in the literature.  Typically, who the people are is simply presumed by theorists writing on democracy.  Democracy means _rule of the people_ but the vast majority of political philosophy focus on the nature of the _kratos_ rather than the nature of the _demos_.  When consideration is given to who the people should be, it is typically descriptive criteria like nationality, culture, history, or geography that are given.  Occasionally however, normative accounts are offered like the All-Coerced Principle or the All-Affected Principle.  Despite their intuitive appeal however, these principles fail to offer an adequate solution to the Boundary Problem for a variety of reasons.
 
-In part two, I will explore how these different accounts of inclusion succeed and fail for different projects within democratic theory.  Ideally, any answer to the question to inclusion would be democratic but as we will see shortly, this is logically impossible.  The challenge for some theorists, those I call _the Democrats_, is to either explain how analysis of democracy's _kratos_ can proceed without a democratic explanation of the _demos_; or to identify an account of inclusion that is compatible with substantive democratic values.  The Boundary Problem concerns more than just democratic compatibility however. For those theorists I call _the Cosmopolitans_, the challenge is to offer an account of inclusion that doesn't conflict with substantive universal values such as justice and fairness, and offers a justification for the externalities that arise when one people make decision that affect another.
+In part two, I will explore how these different accounts of inclusion succeed and fail for different projects within democratic theory.  Ideally, any answer to the question to inclusion would be democratic but as we will see shortly, this is logically impossible.  The challenge for some theorists, those I call _the Democrats_, is to either explain how analysis of democracy's _kratos_ can proceed without a democratic explanation of the _demos_; or to identify an account of inclusion that is compatible with substantive democratic values.  The Boundary Problem concerns more than just democratic compatibility however. For those theorists I call _the Cosmopolitans_, the challenge is to offer an account of inclusion that doesn't conflict with substantive universal values such as justice and fairness, and offers a justification for the externalities that arise when one people make decision that affect another.  Then there are those theorists I call _the Anarchists_.  The Anarchist is concerned primarily with how accounts of inclusion support or undermine accounts of democratic authority.  
 
-Then there are those theorists I call _the Anarchists_.  The Anarchist is concerned primarily with how accounts of inclusion support or undermine accounts of democratic authority.  In part three, I will explore the concerns of the Anarchists in greater detail.  Certain justifications of democratic authority, _instrumental_ ones, are fully dependent on the content of the outcomes of democratic processes.  Different accounts of inclusion lead to different _peoples_, and different _peoples_ lead to different outcomes.  First, I show that any instrumental justification of democratic authority _must_ offer a corresponding congruent account of inclusion. No instrumental justification of democratic authority does this so no instrumental justification of democratic authority satisfies the evidentiary requirement of political justification outlined in [chapter 2].  
+In part three, I will explore the concerns of the Anarchists in greater detail.  Certain justifications of democratic authority, _instrumental_ ones, are fully dependent on the content of the outcomes of democratic processes.  Different accounts of inclusion lead to different _peoples_, and different _peoples_ lead to different outcomes.  First, I show that any instrumental justification of democratic authority _must_ offer a corresponding congruent account of inclusion. No instrumental justification of democratic authority does this so no instrumental justification of democratic authority satisfies the evidentiary requirement of political justification outlined in [chapter 2].  
 
-Then, I demonstrate that the most common instrumental justifications of democratic authority require different, and incompatible accounts of inclusion, therefore rendering these justifications incompatible themselves.  Because many accounts of democracy include multiple, and incompatible instrumental justifications, these accounts also fail to satisfy the entailment criterion of justification.  My conclusion is that the Boundary Problem is problematic for all accounts of democracy and fatal for instrumental justifications of democratic authority.
+Finally, I demonstrate that the most common instrumental justifications of democratic authority require different, and incompatible accounts of inclusion, therefore rendering these justifications incompatible themselves.  Because many accounts of democracy include multiple, and incompatible instrumental justifications, these accounts also fail to satisfy the entailment criterion of justification.  My conclusion is that the Boundary Problem is problematic for all accounts of democracy and fatal for instrumental justifications of democratic authority.
 
 
 ## No Good Answers
@@ -100,16 +73,16 @@ If people cannot decide to become a people individually (in the Westphalian sens
 If the people asking the question are not the same people in the answer however, then we have a different but equally intractable problem.  Before we can decide who the people should be democratically, we need to first decide which people will do the deciding.  And in order to decide _that_ matter democratically, we need to identify a prior people to decide who gets to decide who gets to decide _ad infinitum_.  When our answer and questioners are the same people, we become trapped in a loop of circular logic.  When they are different people we stumble into an infinite regress.  The question of inclusion cannot be decided democratically.
 
 
-### Territorial States & History
+**History**
 
---> If the matter cannot be solved democratically, we must therefore look for _extra democratic_ solutions.  The most common of these, and one that seems to underpin most _actual_ democracies is historical.
+The problem can't be solved by looking inwardly to the people themselves so answers must be found outside the demos, to _extra democratic_ solutions.  The most common of these, and one that seems to underpin most _actual_ democracies is historical.  Who the people are today should be the same as who the people were yesterday....
 
 --> The people can be defined by historical accident - those in a state are the people. But this can't solve the boundary problem when territorial issues are in dispute.
 
 > "Democracy can be practiced for making collective decisions once the collectivity has been defined, but democratic methods themselves are inadequate to establish the bounds of the collectivity, whose existence democratic theory simple pre-supposes." [@whelan 
 p22]
 
-### Nationality
+**Nationality**
 
 Another common criteria for inclusion is nationality.  France should be ruled by the French. Britain by the British.  The nationalist principle - that states should correspond with pre-existing national units - has intuitive appeal thanks largely to the primacy of the nation-state in modern international relations.  The International Covenant on Civil and Political Rights, the International Covenant on Economic, Social and Cultural Rights, and the United Nations Declaration on the Rights of Indigenous Peoples all recognise the right of all peoples to self-determination.  Nationality with it's shared cultural, linguistic, and historical bonds seems to provide strong support for the solidarity necessary in any political association.  This common sense of identity and share customs is also common to almost all independence movements of the last quarter millennium.  Basque separatism for example, is motivated in part because many people see themselves as part of the Basque and not Spanish nation.
 
@@ -117,23 +90,16 @@ Yet the idea of nationality is a chimera that lacks any definitive objective cri
 
 Neither does nationality provide the exclusivity necessary for state sovereignty.  States can contain many nations and nations can exist across states.  Canada, Switzerland and Belgium are explicitly multi-national and multi-linguistic states but almost all states are comprised of many nationalities.  The Roma exist across many states but lack one of their own.  Further muddying the waters is the bi-causal relationship between nationality and statehood.  The fact that we can talk of the Soviet, Yugoslavian, or even the French people demonstrates that States can determine nationality just as much as nationality can determine statehood.  Nationality also fails to identify the appropriate size and level of statehood.  Is one British, English, or a Londoner first?  If France should be ruled by the French, shouldn't Alsace be ruled by the Alsatians and Paris by the Parisians?  Nationality can be too many things for it to define who the people ought be.
 
-> The Nationalist doesn't address the issue because relies on a pre-democratic claim to justify the people, which cannot justify democracy. @agne p385
+Closely related to history and nationality as criteria of inclusion are geography and economic salience.  Physical proximity has always been a key driver of cooperation and those geographically closest typically share common ends.  Economic interconnection parallel geographic one and provide strong _prima facie_ reason for association.
 
-  - The nationalist principle is non-voluntaristic. 
-
-
-### Geography & Salience
-
-Human distribution seems to drive grouping and connection. Those closest share common ends. Yet...
-
-Physical features are a matter of perspective. Rivers divide as much as unite communities. Mountains are boarders only to those who live on the plains. p37
+Yet physical features are a matter of perspective. Rivers divide as as often as they unite communities.  Mountain ranges are borders only to those who live on the plains [@whelan1983 p37]
 Economic patterns develop in response to political boundaries, just as much as they form common bonds. p35
 
 
 These reasons seem to clash with democratic values such s voluntarism, freedom and rationality. [@whelan p31]
 
 
-### Coercion
+**Coercion**
 
 The previous principles for bounding the demos failed because they were too descriptive.  They are principles which according to [@whelan p40] "fail to command general respect".  A far more promising candidate that has obvious normative appeal is the _All-Coerced Principle_.  The appeal of this principle is immediate - anyone subject to the coercive power of the state should be given some say in how and when that power is applied.  Coercion is at odds with basic human and democratic values.  It undermines the autonomy of the person coerced [@miller2009 p221] and given the Fundamental Liberal Principle - the _a priori_ assumption in favour of freedom [Gaus 1996] - offers us a very strong demand for political inclusion.  Many theorists like [@schaffer p3] see the All-Coerced Principle expounded in many classical political works - Aristotle's "ruling and being ruled in turn" or Roman law's "what concerns all, all must discuss and approve". 
 
@@ -181,10 +147,12 @@ A global demos.
 
 Just like there is a diverse range of justifications for democratic authority, there is a diversity in perspectives and projects within political and democratic theory.  In this section, I offers three new perspectives on the Boundary Problem through the eyes of what I call the Democrat, the Cosmopolitan, and the Anarchist[^1]. Different accounts of inclusion may support different democratic perspectives and projects but no single account of inclusion can support them all.  
 
-### The Democrat 
+**The Democrat**
 
 - why it can't be answered democratically
 - the conflict of extra-democratic solutions with democratic values
+
+> The Nationalist doesn't address the issue because relies on a pre-democratic claim to justify the people, which cannot justify democracy. [@agne p385]
 
 The Democrat is primarily concerned with answering the question democratically.  This may relate to the intractability of the Boundary Problem with procedural accounts of democracy, or the conflict of non-democratic solutions with substantive democratic values.
 
@@ -201,7 +169,7 @@ The primacy of liberty however, conflicts with the primacy of solidarity.  One c
 So even if Democrats themselves could agree on a solution to the Boundary Problem, would that solution be acceptable to the Cosmopolitan or Anarchist?  While there may be mutually acceptable answers between Radical Democratic and Cosmopolitan, it's unlikely any solution would be acceptable to the Anarchist.  This is because few justifications of democratic authority rely on appeals to substantive democratic ideals for the simple reason that they lack what AJ Simmons calls the _particularity requirement_ - why our allegence is owed to this democratic authority rather than another.
 
 
-### Cosmos
+**The Cosmopolitan**
 
 - the conflict of solutions with cosmopolitan values
 - the conflict of cosmo solutions with democratic values
@@ -214,7 +182,7 @@ For the Cosmopolitan, the problem in the Boundary Problem is that democratic inc
 
 Incorrectly bounding the demos means that many people are denied justice when the actions of one state (or members of that state) adversely impact by denying them any political recourse.  Incorrectly constituting the people is at offs with the Cosmopolitan's basic substantive ideals.  
 
-### Restorative justice
+**Restorative justice**
 
 The actions of some affect others.  The actions of some countries affect others.  The externalities of some states (or members of those states) often result in significant harm to others outside of that state.
 
@@ -227,7 +195,7 @@ The Boundary Problem means that many people are denied restorative justice when 
     "one simply cannot defend a plausible theory of domestic justice and legitimacy without first identifying the persons and territories that count as rightfully inside and rightfully outside a state’s boundaries of authority." p351
 
 
-### Distributive justice 
+**Distributive justice**
 
 The accidents of history and the biological lottery mean that the initial conditions of our lives, the set of rights, goods, and opportunities available to us at birth and beyond, vary greatly not just between members of our society but between members of societies themselves.
 
@@ -240,7 +208,7 @@ Inclusion in one people vs another results in individuals having (significantly)
 The grounds for inclusion is rarely one that can be considered fair (accidents of history) and thus conflicts with distributive justice.
 
 
-### Procedural justice
+**Procedural justice**
 
 _Ceteris paribus_, justice requires that the procedures of the state for resolving disputes and allocating resources be fair between people.  Equal people should be treated equally.
 
@@ -256,7 +224,7 @@ The anarchist is concerned with how any answer affects democracy's ability to le
 > 
 > -- @simmons2013 p332
 
-### The Anarchist
+**The Anarchist**
 
 - challenges vs illegitimacy
 - how instrumental accounts are fatally undermined
@@ -264,20 +232,23 @@ The anarchist is concerned with how any answer affects democracy's ability to le
 > To the extent that the unit within which majority rule operates is unjustifiable, then majority rule is unjustifiable in that unit. @dahl1989 p193
 
 
-Recall from [chapter 2] what it means to justify and account of political authority.
+Recall from [chapter 2] what it means to justify political authority.  Political authories issue content independent and pre-emptive reasons for action.  Authority, if it is to be distinguished from brute power, needs to have substantive normative content.  It must be able to impose political obligations to itself, on those that are subject to it.  These political obligations must be moral reasons for actions.  Prudential motivation, such as to avoid harm or punishment, is not enough.  
 
---> requirements of authority
+These reasons for action however, must be content independent.  The nature of authority is such that one doesn't obey because they good reasons were given, and neither because one agrees with them.  The nature of authority is such that one obeys because of _who_ gave the reasons.  These reasons must also be exclusionary.  If a state is to have political authority, then when its agents issue commands, these must trump other reasons for acting contrary to those commands.  When subjects obey an authority, they are not weighing a balance of reasons to act but rather act because authority pre-empts other reasons for action.  Finally, any account of political authority must show why subjects are bound to particular authorities - why subjects are should be citizens of this state, rather than another.
+
 
 --> requirements of justification
 
---> 
+--> general impact of the boundary problem on general accounts
+
 
 ## Instrumental Failures
 
+The Anarchist concern about the Boundary Problem turns out to be graver than has been addressed in the literature to date.  The inability to adequately answer the question of who the people should be is certainly problematic for accounts of democratic authority but the challenges presented thus far have not been fatal to democracy's claims of legitimacy.  For certain accounts however, it is.  
 
-We have already seen that common way to justify democratic authority is _instrumentally_.  Instrumental accounts rely on the desirable outcomes that democratic procedures bring about. Democracy, instrumentalists claim, identifies the right answers, produces beneficial consequences, or leads to good policy.  
+We have already seen that a common way to justify democratic authority is _instrumentally_.  In this final part, I press the anarchist challenge further and demonstrate how the question of who the people should be fatally undermines the evidentiary requirement for all instrumental justifications of democratic authority, and the entailment requirement for some of them.
 
-Sometimes the desirability of these outcomes is judged according to some independent criteria.  According to these accounts, there is some external standard for measuring the quality of a decision.  Epistemic accounts of democracy like Condorcet's Jury Theorem [@condorcet1976] or David Estund's Epistemic Proceduralism [@estlund2009] are like this.  Truth exists independently of our beliefs; democratic processes track the truth; so this gives us reason to value democracy.
+Instrumental accounts rely on the desirable outcomes that democratic procedures bring about. Democracy, instrumentalists claim, identifies the right answers, produces beneficial consequences, or leads to good policy.  Sometimes the desirability of these outcomes is judged according to some independent criteria.  According to these accounts, there is some external standard for measuring the quality of a decision.  Epistemic accounts of democracy like Condorcet's Jury Theorem [@condorcet1976] or David Estund's Epistemic Proceduralism [@estlund2009] are like this.  Truth exists independently of our beliefs; democratic processes track the truth; so this gives us reason to value democracy.
 
 Other times, we might judge the quality of democratic outcomes against some agent relative criteria.  Rather than rely on something external, the desirability of a particular result is assessed against some internal standard.  It isn't the collective decisions of democracy that matter _per se_ but how those collective decisions correspond with individual choices.  We see this in utilitarian justifications of democracy where majority voting maximizes the expected utility of voter preferences [@rae1969].  But one needn't be a utilitarian to employ such an approach - @rousseau1920 for example, argued that majority rule realises the general will of the people and this gives us reasons value it.
 
@@ -289,15 +260,25 @@ Other democratic processes however, are indeterministic. This may be because vot
 
 Even with identical procedures however, who is included in a particular democracy affects the outcomes of that democracy.  Enfranchising some people rather than others, drawing the political line on a map in one location rather than another, will often result in different outcomes than would have otherwise occurred, even for identical democratic procedures.  Sometimes, in the case of knife edge decisions, including or excluding a single voter will result in a different outcome.  Other times, millions of voters would need to be substituted for the result to be different.  In cases of complete consensus, over 50% of voters within a democracy would need to be replaced for the outcome to change.
 
-Both the means for deciding democratic outcomes and ends that instrumentalist accounts of democracy value vary considerably.  Determinate or indeterminate processes. Content-independent, content-relative, or content-indifferent outcomes.  They all share one similarity however - _who_ votes determines _what_ is decided.  In all cases, for any given democratic procedure, the outcome of that democratic procedure is fully a function of who participates in that process. _Who_ votes determines _what_ is decided.
+Both the means for deciding democratic outcomes and ends that instrumentalist accounts of democracy value can vary considerably.  Democratic processes can be determinate or indeterminate. Outcomes can be judged as content-independent, content-relative, or content-indifferent.  But they all share one similarity - _who_ votes determines _what_ is decided.  In all cases, for any given democratic procedure, the outcome of that democratic procedure is fully a function of who participates in that process. _Who_ votes determines _what_ is decided.
 
-How and when different accounts of inclusion affect the outcomes of democratic processes however, depends on the composition of voters and their distribution across a political space.  Any political association can be constituted differently to how it currently is.  The world is divided into 196 recognised sovereign states but these divisions are arbitrary - the results of the accidents of history.  There is no reason that the world couldn't be divided into 1000 states, 100, 10, or even one (the range could be anywhere between 1 and 7 billion assuming a single person state).  
+How and when different accounts of inclusion affect the outcomes of democratic processes however, depends on the composition of voters and their distribution across a political space.  Any political association can be constituted differently to how it currently is.  The world is divided into 196 recognised sovereign states but these divisions are largely arbitrary - the results of the accidents of history.  There is no reason that the world couldn't be divided into 1000 states, 100, 10, or even one (the range could be anywhere between 1 and 7 billion assuming a single person state).  
 
-And for each set of states, their borders could be draw almost anywhere, even with constraints of contiguity and proportionality imposed (constraints that aren't present in our current political divisions).  And for each potential state, the same potential partitions apply internally as nations are divided into states, and states into local government areas.  Given the multitude of possible political associations, and the fact that different associations will produce different democratic outcomes, some account of democratic inclusion is required for these instrumental accounts.
+For each set of states, their borders could be draw almost anywhere, even with constraints of contiguity and proportionality imposed (constraints that aren't present in our current political divisions).  And for each potential state, the same potential partitions apply internally as nations are divided into states, and states into local government areas.  Given the multitude of possible political associations, and the fact that different associations will produce different democratic outcomes, some account of democratic inclusion is required for these instrumental accounts.  The variability of possible polities demands specificity.
 
-Different accounts of inclusion will support or undermine different accounts of democracy depending on the composition and distribution of voters.  Different borders will produce different results, and different accounts of democracy require different accounts of inclusion.  Content independent justifications of democracy like Condorcet's or Estlund's for example, require a composition of citizens sufficiently diverse and competent for collective judgement aggregation to outperform some form of epistocracy or even random selection.  Without this diversity within polities, democracy has no epistemic value.
+Different accounts of inclusion will support or undermine different accounts of democracy depending on the composition and distribution of voters.  Different borders will produce different results, different results justify different accounts of democracy, therefore different accounts of democracy require different accounts of inclusion.  Content independent justifications of democracy such as Condorcet's or Estlund's, require a composition of citizens sufficiently diverse and competent for collective judgement aggregation to outperform some form of epistocracy or even random selection.  Condorcet's Jury Theorem for example, requires that there is a better than average chance that any independent voter is correct on some issue.  But even when this is true for some distribution of voters, it is not necessarily true for any partition of voters.
 
-Content-relative justifications of democracy like preference realisation accounts by contrast, require citizens to be sufficiently homogeneous for democratic preference aggregation to have value.  They only work when most voters have similar values (or can at least always work better given some other account of inclusion).  These accounts of democracy require incompatible accounts of inclusion, and given the same demos, the requirements of of only one account of democracy can be met. As such, any account of democracy that is based on the instrumental value of democratic outputs must also offer a corresponding, and congruent, account of inclusion.  Failure to do so will mean that any claim of democratic authority's legitimacy is not warranted.
+If the epistemic competence (or what ever content-independent criterion underpins the instrumental account of democracy) is tightly clustered, then how the demos is constituted becomes crucially important. Elsewhere [^under-review] I have demonstrated that clustering of the epistemic competence amongst agents in any political space undermines instrumental justifications of democracy when alternative partitions of the space are possible.  
+
+In the figure below, we see how the epistemic virtue of majority voting in a hypothetical political space - the difference between the underlying epistemic competence of individual agents and that of the majority - is large when agents are uniformly distributed across the space.  As agents become more clustered however (represented here on a scale of 0.0 for no clustering and 1.0 for complete clustering), the epistemic performance of majority voting decreases until there is not difference between majority vote and randomly selecting an individual voter.
+
+![Figure 1: Epistemic virtue by clustering](../../assets/epi-600-c.png)
+
+This means that when agents or voter competence is uniformly distributed, the question of who the people are is irrelevant for content-independent instrumental justifications of democratic authority.  Any account of inclusion will do.  But when voter competence is not uniformly distributed, the question of who the people are becomes critical.  The more clustered agents or voter competence is, the more necessary a congruent account of inclusion becomes.  When voter competence is highly clustered, only a few accounts of inclusion will be compatible with a content-independent justifications of democracy.  Content-independent justifications of democracy require homogeneity between polities but heterogeneity within them.  Without this characteristic, democracy has no epistemic value.
+
+[^under-review]: See my 'Border and Legitimacy' (under review) @kinkead2015 for a detailed discussion of this.  Pre-print available at http://dave.kinkead.com.au/modelling-the-boundary-problem/
+
+Content-relative justifications of democracy such as preference realisation accounts by contrast, require citizens to be sufficiently homogeneous for democratic preference aggregation to have value.  They only work when most voters have similar values (or can at least always work better given some other account of inclusion).  These accounts of democracy require incompatible accounts of inclusion, and given the same demos, the requirements of of only one account of democracy can be met. As such, any account of democracy that is based on the instrumental value of democratic outputs must also offer a corresponding, and congruent, account of inclusion.  Failure to do so will mean that any claim of democratic authority's legitimacy is not warranted.
 
 The dilemma for democracy is that while these instrumental accounts of democracy require the articulation of a supporting account of inclusion, democratic theory cannot offer any answers to the question of inclusion.  That's because any attempt to answer the question of inclusion - who the people ought be - democratically, results in an infinite regress.  Before we can vote on who gets to vote, we must first vote on who gets to vote for who gets to vote.
 

@@ -7,11 +7,11 @@ license: CC-BY-SA
 bibliography: /Users/dave/Dropbox/Research/readings/.library.bibtex
 ---
 
-> This is an argument about democratic inclusion and justifications of democracy.  I show that any account of democracy that relies on the outcomes of democracy processes to show democracy's value must have a congruent account of inclusion.
+> This is an argument about the relationship between democratic inclusion and instrumental justifications of democracy.  I demonstrate that any account of democracy that relies on the outcomes of democracy processes to show democracy's value must have a congruent account of inclusion.  Not only that, but because different accounts of democracy rely on different and incompatible accounts of inclusion, these accounts of democracy are themselves incompatible.
 
-> There are many possible accounts of democratic inclusion.  The differences in each make them incompatible with each other to certain degrees.  I argue that any incompatibility in accounts of inclusion can infect accounts of democracy and render them incompatible with each other.
+> This paper is unique in that is simultaneously a philosophical argument and a computer simulation.  Written in [literate coffeescript](http://coffeescript.org/), the code descibed in the paper can also be executed by a computer to demonstrate the argument being described.  The reader may generate both the argument in PDF, or the simulation and results in HTML with the command `coffee paper.coffee.md epistemic`.  
 
-> Simultaneously a philosophical argument and a computer simulation, this paper is written in [literate coffeescript](http://coffeescript.org/), allowing the code described by the text to be executed with the command `coffee -l filename`.  The following links outline [installation](http://coffeescript.org/#installation) and [dependency](https://npmjs.org/doc/install.html) requirements.
+> The following links outline [paper](https://github.com/davekinkead/modelling-the-boundary-problem), [installation](http://coffeescript.org/#installation), and [dependency](https://npmjs.org/doc/install.html) requirements.
 
 ## Introduction
 
@@ -156,7 +156,6 @@ The partitioning algorithm recursively divides the largest polity of the space a
         k--
       this
 
---figure here to visually explain the model--
 
 Democracies make collective decisions - it's why they exist.  The decision procedure for our model democracy will be a naive majority vote on a binary issue.  This is the simplest decision mechanism to model and it will assume that agents vote sincerely and deterministically according to their belief.
 

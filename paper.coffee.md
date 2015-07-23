@@ -223,14 +223,11 @@ These results indicate that the epistemic virtue of majority voting is dependent
 The relationship between content-independent justifications of democracy and democratic inclusion is now clearer. Epistemic justifications of democracy require accounts of inclusion that ensures that:
 
   1. Polities are sufficiently large for the Condorcet effect to emerge.
+  2. Any partition of a space that satisfied the competency requirement must also satisfy the competency requirement.
 
-  2. Each polity satisfies the competency requirement even when the political space does.
+When the distribution of voter belief is uniform, where we draw the boundaries of our democracies is largely irrelevant for content-independent accounts of democracy. Any account of democratic inclusion will do.  But when the distribution of voter belief is clustered, where we draw boundaries of our democracies becomes very important. In this case, any compatible account of democratic inclusion will need to demonstrate that each polity statisfies the competency requirement for epistemic justifications.  
 
-When the distribution of voter belief is uniform, where we draw the boundaries of our democracies is largely irrelevant for content-independent accounts of democracy. Any account of democratic inclusion will do.
-
-But when the distribution of voter belief is clustered, where we draw boundaries of our democracies becomes very important. In this case, any compatible account of democratic inclusion will need to demonstrate that each polity statisfies the competency requirement for epistemic justifications.  
-
-We can summarise this insight by stating that the Boundary Problem only becomes a problem for content-independent justifications of democracy when homogeneity of voter belief is high within polities but low between them.  In these instances, how we bound the demos and draw political borders is critical.
+We can summarise this finding by stating that the Boundary Problem only becomes a problem for content-independent justifications of democracy when homogeneity of voter belief is high within polities but low between them.  In these instances, how we bound the demos and draw political borders is critical.  Content-independent justifications require accounts of inclusion that generate sufficiently large, externally homogeneous polities.
 
 
 ##  Content Relative Outcomes
@@ -271,42 +268,40 @@ In contrast with the epistemic simulation of democracy however, the impact of ag
 
 The number of polities a space is partitioned into has only a limited effect in individual-majority preference fidelity. As the space is partioned into increasing numbers of polities, fidelity increases slightly when preference are highly clustered, but the influence of partition number is significantly less than the impact of preference clustering.
 
-The key implication from this analysis is that accounts of democracy based on preference realisation and the fidelity of individual with group preference require an account of democratic inclusion that ensures that: 
+The key implication from this analysis is that accounts of democracy based on content-relative criteria such as the fidelity of individual with group preference require an account of democratic inclusion that ensures that: 
 
   1. Polities are sufficiently small.
+  2. Voters are as homogeneous as possible.
 
-  2. Voters are sufficiently homogeneous in preference.
-
-Restated, where we draw political boundaries is irrelevant for content-relative accounts of democracy if the distribution of voters by preference is highly clustered.  Where we draw boundaries is very important however, when the distribution of voters by preference is uniform.  The Boundary Problem only becomes a problem for content-relative justifications of democracy when homogeneity of voter preferences is low within polities but high between them.
+Restated, where we draw political boundaries is irrelevant for content-relative accounts of democracy if the distribution of voters by preference is highly clustered.  Just about any account of inclusion will generate homogeneous polities.  Where we draw boundaries is very important however, when the distribution of voters by preference is uniform.  The Boundary Problem only becomes a problem for content-relative justifications of democracy when homogeneity of voter preferences is low within polities but high between them.  Content-independent justifications require accounts of inclusion that generate sufficiently small, internally homogeneous polities.
 
 
 ## Content Indifferent Outcomes
 
 A third type of instrumental justification of democracy is concerned not with the specific content of democratic outcomes, but with their beneficial side effects.  It is not the result of a vote or policy deliberation that matter _per se_, rather it is the effect that democratic participation has on citizens that is valuable.  Democracy on this account is _transformative_.
 
-Public life as the path to personal improvement is an idea that can be traced back to the Greeks.  More recently, Rousseau thought democracy a necessary condition for the realisation of moral autonomy:
+Public life as the path to personal improvement is an idea that can be traced back to the Greeks.  More recently, @rousseau1920 [§ 1.8.3] thought democracy a necessary condition for the realisation of moral autonomy:
 
 > ... what man acquires in the civil state, moral liberty, which alone makes him truly master of himself; for the mere impulse of appetite is slavery, while obedience to a law which we prescribe to ourselves is liberty.  
-> -- @rousseau1920 [§ 1.8.3]
 
-For Mill, democracy was the means to improve the moral character of the people.  The weighing of different people's interests, being guided by other's rules, and applying principles that advanced the common good, enhanced a citizen's moral capacities:
+For @mill1862 [Ch 3], democracy was the means to improve the moral character of the people.  The weighing of different people's interests, being guided by other's rules, and applying principles that advanced the common good, enhanced a citizen's moral capacities:
 
 > Still more salutary is the moral part of the instruction afforded by the participation of the private citizen, if even rarely, in public functions ... He is made to feel himself one of the public, and whatever is for their benefit to be for his benefit.  
-> -- @mill1862 [Ch 3]
 
 We might call these types of instrumental justifications of democracy _content indifferent_, not because the content of democratic outcomes doesn't matter but because the content is not the _only_ thing that matters [^isolation].
 
 [^isolation]: Content indifferent justifications are not typically used in isolation.  Both Mill and Rousseau used these content indifferent justifications in conjunction with other instrumental justifications of democracy such as strategic value, truth divination, and preference articulation.
 
-One way to formalise this account is to stipulate that agent character improves consistently across all citizens when they vote.  This would model an agent-blind process in which every voter's character improves to the same degree, regardless of how politically active they are or who they interact with.  A more plausible model however would see agent character improve dependent on who they interact with.  Win-at-all-costs politics characterised by media manipulation and voter apathy should be less likely transform the character of participants than contests marked by honest and open debate.  
+One way to formalise this account is to stipulate that agent character improves consistently across all citizens when they vote (or deliberate).  This would model an agent-blind process in which every voter's character improves to the same degree, regardless of how politically active they are or who they interact with.  A more plausible model however would see agent character improve dependent on who they interact with.  Win-at-all-costs politics characterised by media manipulation and voter apathy seem less likely to transform the character of participants than contests marked by honest and open debate.  
 
-In the formalisation below, agent character improves relative to the average character of their polity, with more virtuous polities improving their citizen's character to a greater extent than less virtuous ones.  `Good eggs` are assigned a random character value between `0.5` and `1.0` while `bad apples` are assigned on below `0.5`.
+In the formalisation below, agent character improves relative to the average character of their polity, with more virtuous polities improving their citizen's character to a greater extent than less virtuous ones.  `Good eggs` are assigned a random value representing moral character between `0.5` and `1.0` while `bad apples` are assigned one below `0.5`.
+
 
     Space::character = () ->
-      average_character = @polities.map (polity) ->
-        console.log polity.map (agent) ->
-          agent.belief
-    
+      for polity in @polities
+        average_character = polity.map (agent) ->
+           character = if agent.belief is 'good' then 0.5 else 0.0 
+           character += Math.random() / 2
 
 
 <figure>
@@ -318,7 +313,27 @@ In the formalisation below, agent character improves relative to the average cha
 <div id="character-by-partition" class="graph"></div>
 <figcaption>Character improvement by partition number</figcaption></figure>
 
+From both perspectives, it is clear that partition number and degree of clustering have little impact how the moral character is transformed by democracy in this model.  As such, any account of inclusion is compatible with content-indifferent accounts of democracy.  Any account of inclusion will do.
+
+
 ## Conclusion
+
+The claims of some justifications of democracy are not entailed in all circumstances.  How we answer the question of _who the people should be_ can either support or undermine these accounts.  Content-independent accounts like Condorcet's Jury Theorem are unlikely to hold true when people are highly clustered by belief or epistemic competence.  When clustering is present, democracy has no epistemic virtue.  Content-relative accounts like preference realisation by contrast, are likely to be entailed when peoples preferences or values are evenly spread.  A uniform distribution undermines claim that democracy maximised preferences or best realises personal values.  Meanwhile, content-indifferent accounts perform equally well irrespective of how people are distributed.
+
+The implication of inclusion on instrumental justifications of democracy is clear.  If we are to accept the claims of these accounts, then they must provide a corresponding and congruent account of inclusion.  The impact of voter composition on the outcomes of democratic processes places an addition constraint upon these accounts of democracy, such that any instrumental account of democracy must also offer corresponding account of inclusion.
+
+This is true even when their presumptive conditions are realised for some political space. if that space is partition in any way, then those presumptive conditions may not be realised for any partition of that space.  The likelihood of this occurring is function of how clustered the space is with regards to the relevant criteria for whatever justification of democracy is being used.
+
+
+
+  1.  That accounts of democracy must be compatible with accounts of inclusion.
+
+  2.  That different accounts of democracy require differing, sometimes incompatible accounts of inclusion.
+
+  3.  That different accounts of democracy that have incompatible accounts of inclusion are themselves incompatible.
+
+
+
 
 !! Need to rewrite this....
 
@@ -340,8 +355,6 @@ In other words...
 
 
 ## Appendix
-
-!! Tidy up vote algorithm
 
 A number of helper functions are necessary for the simulation to work.  First let's define some simple statistical functions.
 
@@ -402,7 +415,7 @@ Finally, we capture terminal inputs to start up the simulation.  To run the simu
     process.argv.forEach (val, index, array) ->
       runSimulation('epistemic', 'virtue', ['right', 'wrong']) if val is 'epistemic'
       runSimulation('preference', 'fidelity', ['red', 'blue']) if val is 'preference'
-      runSimulation('character', 'character', ['good egg', 'bad apple']) if val is 'character'
+      runSimulation('character', 'character', ['good', 'bad']) if val is 'character'
 
 <script src="assets/d3.v3.min.js"></script>
 <script src="assets/dimple.v2.1.2.min.js"></script>

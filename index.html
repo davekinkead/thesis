@@ -484,13 +484,13 @@ stroke: #000;
 <body class="normal">
   <div id="wrapper">
       <blockquote>
-<p>This is an argument about democratic inclusion and justifications of democracy. I show that any account of democracy that relies on the outcomes of democracy processes to show democracy's value must have a congruent account of inclusion.</p>
+<p>This is an argument about the relationship between democratic inclusion and instrumental justifications of democracy. I show that any account of democracy that relies on the outcomes of democracy processes to demonstrate democracy's value must have a congruent account of inclusion. Not only that, but because different accounts of democracy rely on different and incompatible accounts of inclusion, these accounts of democracy are themselves incompatible.</p>
 </blockquote>
 <blockquote>
-<p>There are many possible accounts of democratic inclusion. The differences in each make them incompatible with each other to certain degrees. I argue that any incompatibility in accounts of inclusion can infect accounts of democracy and render them incompatible with each other.</p>
+<p>This paper is unique in that is simultaneously a philosophical argument and a computer simulation. Written in <a href="http://coffeescript.org/">literate coffeescript</a>, the code descibed in the paper can also be run by the coffeescript compiler to demonstrate the argument being described by the paper. The reader may generate both the argument in PDF, or the simulation and results in HTML with the command <code>coffee paper.coffee.md</code>.</p>
 </blockquote>
 <blockquote>
-<p>Simultaneously a philosophical argument and a computer simulation, this paper is written in <a href="http://coffeescript.org/">literate coffeescript</a>, allowing the code described by the text to be executed with the command <code>coffee -l filename</code>. The following links outline <a href="http://coffeescript.org/#installation">installation</a> and <a href="https://npmjs.org/doc/install.html">dependency</a> requirements.</p>
+<p>The following links outline <a href="https://github.com/davekinkead/modelling-the-boundary-problem">paper</a>, <a href="http://coffeescript.org/#installation">installation</a>, and <a href="https://npmjs.org/doc/install.html">dependency</a> requirements.</p>
 </blockquote>
 <h2 id="introduction">Introduction</h2>
 <p>There are many ways one might justify democracy.<a href="#fn1" class="footnoteRef" id="fnref1"><sup>1</sup></a> One common approach is to point to the desirable outcomes that democratic procedures bring about. Democracy in this light leads to good policy.</p>
@@ -562,7 +562,6 @@ stroke: #000;
     @polities.sort (a,b) -&gt; b.length-a.length
     k--
   this</code></pre>
-<p>--figure here to visually explain the model--</p>
 <p>Democracies make collective decisions - it's why they exist. The decision procedure for our model democracy will be a naive majority vote on a binary issue. This is the simplest decision mechanism to model and it will assume that agents vote sincerely and deterministically according to their belief.</p>
 <pre><code>vote = (polity) -&gt;
   votes = {}
@@ -656,30 +655,38 @@ Preference fidelity by partition number
 </ol>
 <p>Restated, where we draw political boundaries is irrelevant for content-relative accounts of democracy if the distribution of voters by preference is highly clustered. Where we draw boundaries is very important however, when the distribution of voters by preference is uniform. The Boundary Problem only becomes a problem for content-relative justifications of democracy when homogeneity of voter preferences is low within polities but high between them.</p>
 <h2 id="content-indifferent-outcomes">Content Indifferent Outcomes</h2>
-<p>A third type of instrumental justification of democracy is concerned not with the specific content of democratic outcomes, but with their beneficial side effects. It is not the content of the outcome of a vote or policy deliberation that matter <em>per se</em>, rather it is the effect that democratic participation has on citizens that is valuable. Democracy in this light is transformative.</p>
-<p>Public life as a means to personal improvement is an idea that can be traced back to the Greeks. More recently, Rousseau thought democracy a necessary condition for the realisation of moral autonomy:</p>
+<p>A third type of instrumental justification of democracy is concerned not with the specific content of democratic outcomes, but with their beneficial side effects. It is not the result of a vote or policy deliberation that matter <em>per se</em>, rather it is the effect that democratic participation has on citizens that is valuable. Democracy on this account is <em>transformative</em>.</p>
+<p>Public life as the path to personal improvement is an idea that can be traced back to the Greeks. More recently, Rousseau thought democracy a necessary condition for the realisation of moral autonomy:</p>
 <blockquote>
 <p>... what man acquires in the civil state, moral liberty, which alone makes him truly master of himself; for the mere impulse of appetite is slavery, while obedience to a law which we prescribe to ourselves is liberty.<br />-- <span class="citation" data-cites="rousseau1920">Rousseau (1920, sec. 1.8.3)</span></p>
 </blockquote>
-<p>For Mill, democracy was the means to improve the moral character of the people. The weighing of different people's interests, being guided by other's rules, and applying principles that furthered the common good enhanced a citizen's moral capacities:</p>
+<p>For Mill, democracy was the means to improve the moral character of the people. The weighing of different people's interests, being guided by other's rules, and applying principles that advanced the common good, enhanced a citizen's moral capacities:</p>
 <blockquote>
 <p>Still more salutary is the moral part of the instruction afforded by the participation of the private citizen, if even rarely, in public functions ... He is made to feel himself one of the public, and whatever is for their benefit to be for his benefit.<br />-- <span class="citation" data-cites="mill1862">Mill (1862 Ch 3)</span></p>
 </blockquote>
-<p>We might call these types of intrusmental justifications of democracy <em>content indifferent</em>, not because the content of democratic outcomes doesn't matter but because the content is not the <em>only</em> thing that matters.</p>
-<p>One way to formalise this ...</p>
-<ul>
-<li>charater improvement is a function of the process</li>
-<li>charater improvement is a function of the process and other agent character (setting moral examples)</li>
-</ul>
-<p>Just the process</p>
+<p>We might call these types of instrumental justifications of democracy <em>content indifferent</em>, not because the content of democratic outcomes doesn't matter but because the content is not the <em>only</em> thing that matters.<a href="#fn12" class="footnoteRef" id="fnref12"><sup>12</sup></a></p>
+<p>One way to formalise this account is to stipulate that agent character improves consistently across all citizens when they vote. This would model an agent-blind process in which every voter's character improves to the same degree, regardless of how politically active they are or who they interact with. A more plausible model however would see agent character improve dependent on who they interact with. Win-at-all-costs politics characterised by media manipulation and voter apathy should be less likely transform the character of participants than contests marked by honest and open debate.</p>
+<p>In the formalisation below, agent character improves relative to the average character of their polity, with more virtuous polities improving their citizen's character to a greater extent than less virtuous ones. <code>Good eggs</code> are assigned a random character value between <code>0.5</code> and <code>1.0</code> while <code>bad apples</code> are assigned on below <code>0.5</code>.</p>
 <pre><code>Space::character = () -&gt;
-  average_character = ave @polities.map (polity) -&gt;
-    1</code></pre>
-<!--
+  average_character = @polities.map (polity) -&gt;
+    console.log polity.map (agent) -&gt;
+      agent.belief</code></pre>
 <figure>
-<div id="character-by-partition" class="graph"></div>
-<figcaption>Preference fidelity by partition number</figcaption></figure>
--->
+<div id="character-by-cluster" class="graph">
+
+</div>
+<figcaption>
+Character improvement by clustering
+</figcaption>
+</figure>
+<figure>
+<div id="character-by-partition" class="graph">
+
+</div>
+<figcaption>
+Character improvement by partition number
+</figcaption>
+</figure>
 <h2 id="conclusion">Conclusion</h2>
 <p>!! Need to rewrite this....</p>
 <p>While I've only examined two accounts of democratic authority from the wide array of accounts offered by political theorists, the data from the simulation allows us to make the number inferences.</p>
@@ -781,6 +788,7 @@ save = (name, results) -&gt;
 <li id="fn9"><p>The possible number of different partitions is the sum of binomial coefficients of agents and the number groups they are partitioned into. This increases exponentially as the number of agents and groups increases, making a simulating all possible partitions within a reasonable time frame is beyond the capacity of current desktop computing.<a href="#fnref9">↩</a></p></li>
 <li id="fn10"><p>Monte Carlo simulations are class of computational algorithms that rely on statistical sampling from repeated simulation trials to generate numerical results. <span class="citation" data-cites="fishman1996">(see Fishman 1996 for a full treatment of their use in computer simulation)</span>.<a href="#fnref10">↩</a></p></li>
 <li id="fn11"><p>Condorcet's Jury Theorem posits that the likelihood of majority rule selecting the correct outcome increases as the number of voters increases (assuming voters have an independent better than even chance of voting correctly). We should expect to see a gradual decrease in epistemic virtue as the same number of voters in the space are partitioned into increasing numbers of polities.<a href="#fnref11">↩</a></p></li>
+<li id="fn12"><p>Content indifferent justifications are not typically used in isolation. Both Mill and Rousseau used these content indifferent justifications in conjunction with other instrumental justifications of democracy such as strategic value, truth divination, and preference articulation.<a href="#fnref12">↩</a></p></li>
 </ol>
 </section>
 

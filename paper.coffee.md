@@ -322,36 +322,11 @@ The claims of some justifications of democracy are not entailed in all circumsta
 
 The implication of inclusion on instrumental justifications of democracy is clear.  If we are to accept the claims of these accounts, then they must provide a corresponding and congruent account of inclusion.  The impact of voter composition on the outcomes of democratic processes places an addition constraint upon these accounts of democracy, such that any instrumental account of democracy must also offer corresponding account of inclusion.
 
-This is true even when their presumptive conditions are realised for some political space. if that space is partition in any way, then those presumptive conditions may not be realised for any partition of that space.  The likelihood of this occurring is function of how clustered the space is with regards to the relevant criteria for whatever justification of democracy is being used.
+Different accounts of democracy require different accounts of inclusion.  As can be seen from the simulation of the epistemic and preference realisation models, the corresponding account of inclusions needed are incompatible.  Content-independent justifications require accounts of inclusion that generate sufficiently large, externally homogeneous, and typically, internally heterogeneous polities.  Content-independent justifications require the opposite.  They require accounts of inclusion that generate sufficiently small, internally homogeneous, and typically, externally heterogeneous polities.  These accounts of inclusion are obviously incompatible.  How we answer the question of _who should the people be_ for one account of democracy will not be same for another account of democracy.
 
+So if instrumental justifications of democracy require different accounts of inclusion, and those accounts of inclusion are incompatible, then certain instrumental justifications of democracy are themselves incompatible.  One simply cannot maintain that democratic authority is justified because it has both epistemic virtue and realises individual preferences.  Yet many justifications of democracy do exactly this. Mill for example, justifies democracy on both epistemic and strategic grounds, arguing that democratic authority is legitimate because it generally reaches good decisions and is forced to consider the preferences of all citizens.  The incompatibility of accounts of inclusion that these approaches require however, demonstrates that this type of hybrid justification is incoherent.
 
-
-  1.  That accounts of democracy must be compatible with accounts of inclusion.
-
-  2.  That different accounts of democracy require differing, sometimes incompatible accounts of inclusion.
-
-  3.  That different accounts of democracy that have incompatible accounts of inclusion are themselves incompatible.
-
-
-
-
-!! Need to rewrite this....
-
-While I've only examined two accounts of democratic authority from the wide array of accounts offered by political theorists, the data from the simulation allows us to make the number inferences.
-
-Firstly, on both epistemic and strategic accounts of democracy, the method of inclusion used to bound the demos has a clear impact on the outcome of a democratic process, in this case simple majority voting.  Given a some fixed distribution of agents over a political space, how we partition that space has a causal effect on the the outcomes of a voting process within that space.
-
-Secondly, the impact of the inclusion method is not just different but contradictory for epistemic and perference realisation accounts of democratic authority.  Epistemicly accounts of authority require accounts of inclusion that generate large polities with uniformly distributed agent beliefs.  Preference realisation accounts of authority on the other hand, require accounts of inclusion that generate small polities with highly clustered agent preference.
-
-Thirdly, the conflicting nature of the required accounts of inclusion for epistemic and perference realisation accounts of authority mean that these accounts are incompatible with each other.  One cannot maintain that democratic authority is justified because it has both epistemic virtue and realises individual preferences.  
-
-Many justifications of democracy employ this type of hybrid approach.  Mill for example, justifies democracy on both epistemic and strategic grounds, arguing that democratic authority is legitimate because it generally reaches good decisions and is forced to consider the preferences of all citizens.  The incompatibility of accounts of inclusion that these approaches require however, demonstrates that this type of justification is incoherent.
-
-In other words...
-
-- any instrumental account of democracy must be compatible with accounts of democratic inclusion 
-- different accounts of authority require differing, sometimes incompatible accounts of inclusion
-- different accounts of authority that have incompatible accounts of inclusion are themselves incompatible
+Of course, this incompatibility constraint does not apply to all instrumental justifications of democracy.  Content-indifferent justifications like Mill's moral transformation account can work with any distribution of voter character.  For content-indifferent accounts, any account of inclusion will do.  The accounts of inclusion required by these types of justification are compatible with those required for either content-independent or content-relative justifications.  But not, however, with both.
 
 
 ## Appendix

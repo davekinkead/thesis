@@ -1,12 +1,12 @@
 ---
-title: Bootstrapping Democracy
+title: Democracy's Paradox
 author: Dave Kinkead
 email: d.kinkead@uq.edu.au
-status: PhD thesis outline
+status: PhD thesis draft
 license: All rights reserved
 ---
 
-# Bootstrapping Democracy
+# Democracy's Paradox
 
 This is an argument about authority; more specifically though, it's an argument about democratic authority and how what we typically think are justifications of democratic authority are in actual fact rationalisations of political authority. That's because accounts of democratic authority, all of them, fail to adequately justify the authority of the state.  What is left are mere rationalisation; attempts to make the coercive power of the state more palatable to those it coerces.
 

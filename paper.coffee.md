@@ -32,11 +32,9 @@ Call these accounts of democracy _instrumental_ [^instrumental].
 
   * * * 
 
-The outcome of any democratic procedure is a function, in part, of who gets to participate in that procedure.  Enfranchising some people rather than others, drawing the political line on a map in one location rather than another, will often result in different outcomes than would have otherwise occurred, even for identical democratic procedures.  Who is included in a particular democracy affects the outcomes of that democracy.
+The outcome of any democratic procedure is a function, in part, of who gets to participate in that procedure.  Enfranchising some people rather than others, drawing the political line on a map in one location rather than another, will often result in different outcomes than would have otherwise occurred, even when the same procedures are used.  Who is included in a particular democracy affects the outcomes of that democracy.
 
-Some democratic processes are deterministic.  People vote according to their belief or preference and the voting procedures employed determines a winning outcome.  This is true for both _naive voting_, where voters believe they alone determine the outcome, as well as _strategic voting_, where voters support a choice other than their sincere preference in an attempt to increase the likelihood of an acceptable outcome [@feddersen1999]. 
-
-In both cases, the outcome of a democratic process is fully a function of who participates in that process.  On one extreme, when voters are fully polarised, including or excluding a single voter will change the outcome of the democratic process.  At the other extreme of complete consensus, over 50% of voters would need to be replaced for the outcome to change.
+Some democratic processes are deterministic.  Given the same inputs for some democratic system, the result will always be the same.  People vote according to their belief or preference and the voting procedures employed determines a winning outcome.  This is true for both _naive voting_, where voters believe they alone determine the outcome, as well as _strategic voting_, where voters support a choice other than their sincere preference in an attempt to increase the likelihood of an acceptable outcome [@feddersen1999].  For both naive and strategic voting, the outcome of a democratic process is fully a function of who participates in that process.  On one extreme, when voters are fully polarised, including or excluding a single voter will change the outcome of the democratic process.  At the other extreme of complete consensus, over 50% of voters would need to be replaced for the outcome to change.
 
 Other democratic processes however, are indeterministic. This may be because voters themselves don't know how they will vote until the moment they cast their ballot, or because the decision mechanism itself is indeterminate, as in the case of sortition or selection by lottery.  Yet even in these cases, the outcome of a democratic processes remain a function of who is included in that process, because changing participants changes the likelihood of particular outcomes.
 
@@ -46,16 +44,17 @@ _Who_ votes determines _what_ is decided.
 
 So when democracy is justified by way of its outcomes, and those outcomes are determined by who is included in the democratic process, the question of _who should be included_ becomes a matter of fundamental importance for those accounts of democracy.
 
-Yet the question of who ought be included in a political association - of how the demos ought be bounded - presents a challenge to democratic theory.  If we attempt to answer the question of inclusion _democratically_, an infinite regress results.  To vote on who gets to participate in a democracy first requires the identification of some prior group to make this decision, and to identify that prior group democratically requires the identification a prior prior group, _ad infinitum_.  
+Yet the question of who ought be included in a political association - of how the _demos_ ought be bounded - presents a challenge to democratic theory.  If we attempt to answer the question of inclusion _democratically_, an infinite regress results.  To vote on who gets to participate in a democracy first requires the identification of some prior group to make this decision, and to identify that prior group democratically requires the identification a prior prior group, _ad infinitum_.  
 
-In what has become known as the _Boundary Problem of Democratic Theory_ [^other-names], no account of inclusion can be shown to be compatible with a broad range of justifications of democracy.  Accounts of inclusion based on the status quo make the democratic outcomes contingent upon the accidents of history; those based on nationality lack a clear and objective criteria of what nationality is; cultural and linguistic salience as a criteria for inclusion ignores the reality of multiculturalism and multi-linguistic communities; and accounts based on coercion and affected interests are incompatible with the current system of nation-states [^treatment].
+In what has become known as the _Boundary Problem of Democratic Theory_ [^other-names], no account of inclusion can be shown to be compatible with a broad range of justifications of democracy.  Accounts of inclusion based on the status quo make the democratic outcomes contingent upon the accidents of history; those based on nationality lack a clear and objective criteria of what nationality is; cultural and linguistic salience as a criteria for inclusion ignores the reality of multiculturalism and multilingual communities; and accounts based on coercion and affected interests are incompatible with the current system of nation-states [^treatment].
 
 [^other-names]: The _Boundary Problem of Democratic Theory_ has gone by a number of names in political theory.  @dahl1989 [p. 193] has called it "the problem of the unit" while @goodin2007 [p.42] refers to it as the problem of "constituting the demos".  Most other theorists have settled on "the Boundary Problem".
 
 [^treatment]: See @whelan1983 for the seminal analysis of the challenges that the Boundary Problem presents as well as more recent work by @dahl1989, @arrhenius2005, @bergström2007, @goodin2007, @miller2009, @agné2010, @abizadeh2012, @schaffer2012, @song2012, and @erman2014.
 
+The Boundary Problem is a "fundamental issue in democratic theory" [@arrhenius2005 p1] with "no theoretical solution to the puzzle, only pragmatic ones". It is a problem that presents "an important practical limit to the scope of democracy as a method of making collective decisions" [@whelan1983 p13] but one "almost totally neglected by all the great political philosophers who write about democracy" [@dahl1970 pp59-60].  While a vexing issue for all accounts of democracy, the Boundary Problem is especially problematic for instrumental accounts that rely on the content of specific outcomes.  
 
-The question I wish to explore in this paper is _when is the Boundary Problem a problem for instrumental accounts of democracy_?  Addressing _why_ the Boundary Problem is a problem, or _how_ it might be solved is not my aim. Rather, I wish to explore the relationship between accounts of inclusion and accounts of democracy and advance three claims that impact any answer to the question of who the people ought be:
+The question I wish to explore in this paper then is _when is the Boundary Problem a problem for instrumental accounts of democracy_?  Addressing _why_ the Boundary Problem is a problem, or _how_ it might be solved is not my aim. Rather, I wish to explore the relationship between accounts of inclusion and accounts of democracy and advance three claims that impact any answer to the question of who the people ought be:
 
   1.  That accounts of democracy must be compatible with accounts of inclusion.
 
@@ -200,15 +199,15 @@ In our simulation, the epistemic virtue of a simple majority vote can be measure
       correctVotes / @polities.length
 
 
-Running a Monte Carlo simulation hundreds of thousands of times for a range of partition numbers (5 to 30), cluster factors (0.0 to 1.0) and epistemic base rates (0.5 to 1.0) yields a probability distribution of the expected correct majority vote for each base-rate-partition-cluster tuple.
+Running a Monte Carlo simulation hundreds of thousands of times for a range of partition numbers (5 to 30), cluster factors (0.0 to 1.0) and epistemic base rates (0.5 to 1.0) yields a four dimensional data cube of probability distributions for the expected correct majority vote in each base-rate-partition-cluster tuple.
 
-We can examine the results from any perspective of the tuple.  In the graph below, we see the impact of repartitioning on the epistemic virtue of a polity with an epistemic base rate of 0.6 from the perspective of clustering (each line representing the number of polities the space was partitioned into).  
+We can examine the results from any perspective or slice of the data cube.  In the graph below, we see the impact of repartitioning on epistemic virtue at an epistemic base rate of 0.6 from the perspective of clustering.  The vertical axis represents epistemic virtue and the horizontal axis, the degree of clustering.  Each line represents the number of polities the space was partitioned into, ranging from 5 to 30 partitons.  (Interactive graphs are available at [http://dave.kinkead.com.au/modelling-the-boundary-problem](http://dave.kinkead.com.au/modelling-the-boundary-problem))  
 
 <figure>
 <div id="epistemic-by-cluster" class="graph"></div>
 <figcaption>Epistemic virtue by cluster factor</figcaption></figure>
 
-The likelihood of any randomly selected voter in the space being correct is 0.6. When agents are uniformly distributed across the space by belief (ie no clustering of agent belief is present), the epistemic virtue of majority voting  - the likelihood that the majority vote of any polity is the correct choice - is very high (0.82-0.97).  This quickly deteriorates as clustering of agent belief increases however, with no epistemic virtue of majority voting evident once agent clustering reaches 0.5.  This hold true for all levels of partition numbers and epistemic base rates > 0.5.
+The likelihood of any randomly selected voter in the space being correct is 0.6. When agents are uniformly distributed across the space by belief (ie no clustering of agent belief is present), the epistemic virtue of majority voting  - the likelihood that the majority vote of any polity is the correct choice - is very high (0.82-0.97).  This quickly deteriorates as clustering of agent belief increases however, with no epistemic virtue of majority voting evident once agent clustering reaches 0.5.  This holds true for all levels of partition numbers and epistemic base rates > 0.5.
 
 <figure>
 <div id="epistemic-by-partition" class="graph"></div>
@@ -227,7 +226,7 @@ The relationship between content-independent justifications of democracy and dem
 
 When the distribution of voter belief is uniform, where we draw the boundaries of our democracies is largely irrelevant for content-independent accounts of democracy. Any account of democratic inclusion will do.  But when the distribution of voter belief is clustered, where we draw boundaries of our democracies becomes very important. In this case, any compatible account of democratic inclusion will need to demonstrate that each polity statisfies the competency requirement for epistemic justifications.  
 
-We can summarise this finding by stating that the Boundary Problem only becomes a problem for content-independent justifications of democracy when homogeneity of voter belief is high within polities but low between them.  In these instances, how we bound the demos and draw political borders is critical.  Content-independent justifications require accounts of inclusion that generate sufficiently large, externally homogeneous polities.
+We can summarise this finding by stating that the Boundary Problem only becomes a problem for content-independent justifications of democracy when homogeneity of voter belief or competence is high within polities but low between them.  In these instances, how we bound the _demos_ and draw political borders is critical.  Content-independent justifications require accounts of inclusion that generate sufficiently large, externally homogeneous polities.  Polities needs to be large and have similar voter composition otherwise only some of them can be justified by content-independent accounts. 
 
 
 ##  Content Relative Outcomes
@@ -236,7 +235,7 @@ Not all instrumental accounts of democracy are epistemic however.  Utilitarians 
 
 While these accounts of democracy differ in many ways, they all share a similarity in that the value of democracy stems from some content-relative criteria - of fidelity between individual preference and collective outcomes.  It is not the contents of the outcome of a democratic process that matters per se, but rather how well this collective outcome matches the wants, preferences, or intent of individual participants.
 
-We can judge these content-relative outcomes by defining the fidelity of a democratic procedure as the likelihood that an individual's preference is the same as, or compatible, with the majority outcome.  Formalising fidelity as individual-collective choice equivalence we get:
+We can judge these content-relative outcomes by defining the fidelity of a democratic procedure as the likelihood that an individual's preference is the same as, or compatible with, the majority outcome.  Formalising fidelity as individual-collective choice equivalence we get:
     
     
     Space::fidelity = () ->
@@ -273,7 +272,7 @@ The key implication from this analysis is that accounts of democracy based on co
   1. Polities are sufficiently small.
   2. Voters are as homogeneous as possible.
 
-Restated, where we draw political boundaries is irrelevant for content-relative accounts of democracy if the distribution of voters by preference is highly clustered.  Just about any account of inclusion will generate homogeneous polities.  Where we draw boundaries is very important however, when the distribution of voters by preference is uniform.  The Boundary Problem only becomes a problem for content-relative justifications of democracy when homogeneity of voter preferences is low within polities but high between them.  Content-independent justifications require accounts of inclusion that generate sufficiently small, internally homogeneous polities.
+Restated, where we draw political boundaries is largely irrelevant for content-relative accounts of democracy if the distribution of voters by preference is highly clustered.  Just about any account of inclusion will likely generate homogeneous polities.  Where we draw boundaries is very important however, when the distribution of voters by preference is uniform.  The Boundary Problem only becomes a problem for content-relative justifications of democracy when homogeneity of voter preferences is low within polities but high between them.  Content-independent justifications require accounts of inclusion that generate sufficiently small, internally homogeneous polities.
 
 
 ## Content Indifferent Outcomes
@@ -320,7 +319,7 @@ From both perspectives, it is clear that partition number and degree of clusteri
 
 The claims of some justifications of democracy are not entailed in all circumstances.  How we answer the question of _who the people should be_ can either support or undermine these accounts.  Content-independent accounts like Condorcet's Jury Theorem are unlikely to hold true when people are highly clustered by belief or epistemic competence.  When clustering is present, democracy has no epistemic virtue.  Content-relative accounts like preference realisation by contrast, are likely to be entailed when peoples preferences or values are evenly spread.  A uniform distribution undermines claim that democracy maximised preferences or best realises personal values.  Meanwhile, content-indifferent accounts perform equally well irrespective of how people are distributed.
 
-The implication of inclusion on instrumental justifications of democracy is clear.  If we are to accept the claims of these accounts, then they must provide a corresponding and congruent account of inclusion.  The impact of voter composition on the outcomes of democratic processes places an addition constraint upon these accounts of democracy, such that any instrumental account of democracy must also offer corresponding account of inclusion.
+The implication of inclusion on instrumental justifications of democracy is clear.  If we are to accept the claims of these accounts, then they must provide a corresponding and congruent account of inclusion.  The impact of voter composition on the outcomes of democratic processes places an addition constraint upon these accounts of democracy, such that any instrumental account of democracy must also offer a corresponding account of inclusion.
 
 Different accounts of democracy require different accounts of inclusion.  As can be seen from the simulation of the epistemic and preference realisation models, the corresponding account of inclusions needed are incompatible.  Content-independent justifications require accounts of inclusion that generate sufficiently large, externally homogeneous, and typically, internally heterogeneous polities.  Content-independent justifications require the opposite.  They require accounts of inclusion that generate sufficiently small, internally homogeneous, and typically, externally heterogeneous polities.  These accounts of inclusion are obviously incompatible.  How we answer the question of _who should the people be_ for one account of democracy will not be same for another account of democracy.
 
@@ -331,7 +330,7 @@ Of course, this incompatibility constraint does not apply to all instrumental ju
 
 ## Appendix
 
-A number of helper functions are necessary for the simulation to work.  First let's define some simple statistical functions.
+A number of helper functions are necessary for the simulation to work as an independent program.  As these are not germane to the argument, the have been extracted to here.  First let's define some simple statistical functions.
 
 
     sum      = (arr) -> arr.reduce (a,b) -> a + b

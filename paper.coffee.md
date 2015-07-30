@@ -383,8 +383,13 @@ Now we need to bootstrap the simulation.  We run it by assigning a name, metric,
           p = p * 5
           for c in clusters
             c = c / 10
-            sim = simulateDemocracy( metric, {"#{choices[0]}": b, "#{choices[1]}": 1000-b}, p, c, 1000 )
-            results.push { "baserate": b, "partitions": p, "clustering": c.toFixed(2), "#{name} #{metric}": ave(sim.trials).toFixed(15) }
+            sim = simulateDemocracy metric, 
+              {"#{choices[0]}": b, "#{choices[1]}": 1000-b}, p, c, 1000
+            results.push { 
+              "baserate": b, 
+              "partitions": p, 
+              "clustering": c.toFixed(2), 
+              "#{name} #{metric}": ave(sim.trials).toFixed(15) }
             process.stdout.write "Running #{results.length * 1000} #{name} trials\r"
       save name, results
     

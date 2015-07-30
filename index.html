@@ -43,10 +43,12 @@ src: local('Vollkorn Bold Italic'), local('Vollkorn-BoldItalic'), url(http://fon
 
 body {
 -webkit-font-smoothing: antialiased;
-font-family: "Vollkorn", "Comic sans", sans-serif;
+font-family: "Vollkorn", sans-serif;
 font-weight: normal;
 font-size: 0.8764em / 1.75em;
-margin: 0; }
+margin: 0;
+padding: 0;
+}
 
 
 li {
@@ -117,6 +119,7 @@ body, p, div {
 color: #222;
 word-wrap: break-word; 
 line-height: 1.6;
+max-width: 100%;
 }
 
 a {
@@ -371,7 +374,10 @@ border-radius: 4px;
 color: #222; }
 
 pre code {
-border: none; }
+  border: none; 
+  overflow: scroll;
+  max-width: 95%;
+}
 
 @media screen {
 ::selection {
@@ -745,8 +751,13 @@ save = (name, results) -&gt;
       p = p * 5
       for c in clusters
         c = c / 10
-        sim = simulateDemocracy( metric, {&quot;#{choices[0]}&quot;: b, &quot;#{choices[1]}&quot;: 1000-b}, p, c, 1000 )
-        results.push { &quot;baserate&quot;: b, &quot;partitions&quot;: p, &quot;clustering&quot;: c.toFixed(2), &quot;#{name} #{metric}&quot;: ave(sim.trials).toFixed(15) }
+        sim = simulateDemocracy metric, 
+          {&quot;#{choices[0]}&quot;: b, &quot;#{choices[1]}&quot;: 1000-b}, p, c, 1000
+        results.push { 
+          &quot;baserate&quot;: b, 
+          &quot;partitions&quot;: p, 
+          &quot;clustering&quot;: c.toFixed(2), 
+          &quot;#{name} #{metric}&quot;: ave(sim.trials).toFixed(15) }
         process.stdout.write &quot;Running #{results.length * 1000} #{name} trials\r&quot;
   save name, results</code></pre>
 <p>Finally, we capture terminal inputs to start up the simulation. To run the simulation of epistemic democracy, use the command <code>coffee paper.coffee.md epsitemic</code>. This will execute the code embedded described in the paper above.</p>

@@ -56,8 +56,8 @@ d3.json('assets/preference.json', function(data) {
   renderChart('#preference-by-partition', data, '600', 'partitions', 'preference fidelity', 'clustering');
 });
 
-d3.json('assets/character.json', function(data) {
+d3.json('assets/moral.json', function(data) {
 
-  renderChart('#character-by-cluster', data, '600', 'clustering', 'character character', 'partitions');
-  renderChart('#character-by-partition', data, '600', 'partitions', 'character character', 'clustering');
+  renderChart('#character-by-cluster', data, '600', 'clustering', 'moral character', 'partitions');
+  renderChart('#character-by-partition', data, '600', 'partitions', 'moral character', 'clustering');
 });

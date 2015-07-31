@@ -11,7 +11,7 @@ bibliography: /Users/dave/Dropbox/Research/readings/.library.bibtex
 
 > This paper is unique in that is simultaneously a philosophical argument and a computer simulation.  Written in [literate coffeescript](http://coffeescript.org/), the code descibed in the paper can also be run by the coffeescript compiler to demonstrate the argument being described by the paper.  The reader may generate both the argument in PDF, or the simulation and results in HTML with the command `coffee paper.coffee.md`.  
 
-> The following links outline [paper](https://github.com/davekinkead/modelling-the-boundary-problem), [installation](http://coffeescript.org/#installation), and [dependency](https://npmjs.org/doc/install.html) requirements.
+> Best viewed in HTML with interactive graphs, the following links outline [paper](https://github.com/davekinkead/modelling-the-boundary-problem), [installation](http://coffeescript.org/#installation), and [dependency](https://npmjs.org/doc/install.html) requirements.  A PDF version is also available with static images.
 
 
 ## Introduction
@@ -291,37 +291,45 @@ For @mill1862 [Ch 3], democracy was the means to improve the moral character of 
 
 > Still more salutary is the moral part of the instruction afforded by the participation of the private citizen, if even rarely, in public functions ... He is made to feel himself one of the public, and whatever is for their benefit to be for his benefit.  
 
-We might call these types of instrumental justifications of democracy _content indifferent_, not because the content of democratic outcomes doesn't matter but because the content is not the _only_ thing that matters [^isolation].
+We might call these types of instrumental justifications of democracy _content indifferent_, because it's not the content of democratic outcomes that matters _per se_ but rather some side effect of democratic activity that matters [^isolation].
 
 [^isolation]: Content indifferent justifications are not typically used in isolation.  Both Mill and Rousseau used these content indifferent justifications in conjunction with other instrumental justifications of democracy such as strategic value, truth divination, and preference articulation.
 
-One way to formalise this account is to stipulate that agent character improves consistently across all citizens when they vote (or deliberate).  This would model an agent-blind process in which every voter's character improves to the same degree, regardless of how politically active they are or who they interact with.  A more plausible model however would see agent character improve dependent on who they interact with.  Win-at-all-costs politics characterised by media manipulation and voter apathy seem less likely to transform the character of participants than contests marked by honest and open debate.  
+One way to formalise this type of account is to stipulate that agent character improves consistently for all citizens when they vote (or deliberate).  This would model an agent-blind process in which every voter's character improves to the same degree, regardless of how politically active they are or who they interact with.  A more plausible model however, would see agent character improve dependent on _who_ they interact with.  Win-at-all-costs politics characterised by media manipulation and voter apathy seem less likely to postively transform the character of participants than contests marked by honest and open debate.
 
-In the formalisation below, agent character improves relative to the average character of their polity, with more virtuous polities improving their citizen's character to a greater extent than less virtuous ones.  `Good eggs` are assigned a random value representing moral character between `0.5` and `1.0` while `bad apples` are assigned one below `0.5`.
+In the formalisation below, agent character improves relative to the average character of their polity, with more virtuous polities improving their citizen's character to a greater extent than less virtuous ones.  `Good eggs` are assigned a random value representing moral character between `0.5` and `1.0` while `bad apples` are assigned one below `0.5`.  Democractic activity here 'closes the gap' between an agent's actual and maximum character potential, by a factor determined by the average character in their polity.
 
 
     Space::character = () ->
+      polity_improvements = []
       for polity in @polities
-        average_character = polity.map (agent) ->
-           character = if agent.belief is 'good' then 0.5 else 0.0 
-           character += Math.random() / 2
+        characters = polity.map (agent) ->
+          character = if agent.belief is 'good' then 0.5 else 0.0 
+          character += Math.random() / 2
+        average_character_in_polity = ave characters
+        gap_closed = ave characters.map (val) ->
+          (1 - val) * average_character_in_polity + val
+        polity_improvements.push gap_closed
+      ave polity_improvements
 
 
 <figure>
 <div id="character-by-cluster" class="graph"></div>
 <figcaption>Character improvement by clustering</figcaption></figure>
 
+When viewed from the perspective of clustering, a small effect on moral character is noticable.  With little agent clustering across the space, the improvement in an agent's moral character is strong (at a base rate of 0.6, average improvment is approximately 0.8).  As clustering increases, character improvement is less strong (0.75 for the same parameters).  Unlike content-independent and content-relative justifications in which changes in clustering can completely undermine the relevant instrumental effect, the effect of content-indifferent accounts is still present across all custering levels.
 
 <figure>
 <div id="character-by-partition" class="graph"></div>
 <figcaption>Character improvement by partition number</figcaption></figure>
 
-From both perspectives, it is clear that partition number and degree of clustering have little impact how the moral character is transformed by democracy in this model.  As such, any account of inclusion is compatible with content-indifferent accounts of democracy.  Any account of inclusion will do.
+Viewed from the perspective of partition numbers, no change in moral character is observerable.  Differences in the transformative impact of democracy on an agent's moral character appear to be fully dependent on the degree of clustering across the space.
 
+While less clustering is optimal for content-indifferent acconts of democracy, any partition of a space will result in a postitive transformative effect as modelled here.  Any account of inclusion will do.  Content-indifferent justifications of democracy are compatible with both content-independent and content-relative accounts.
 
 ## Conclusion
 
-The claims of some justifications of democracy are not entailed in all circumstances.  How we answer the question of _who the people should be_ can either support or undermine these accounts.  Content-independent accounts like Condorcet's Jury Theorem are unlikely to hold true when people are highly clustered by belief or epistemic competence.  When clustering is present, democracy has no epistemic virtue.  Content-relative accounts like preference realisation by contrast, are likely to be entailed when peoples preferences or values are evenly spread.  A uniform distribution undermines claim that democracy maximised preferences or best realises personal values.  Meanwhile, content-indifferent accounts perform equally well irrespective of how people are distributed.
+The claims of some justifications of democracy are not entailed in all circumstances.  How we answer the question of _who the people should be_ can either support or undermine these accounts.  Content-independent accounts like Condorcet's Jury Theorem are unlikely to hold true when people are highly clustered by belief or epistemic competence.  When clustering is present, democracy has no epistemic virtue.  Content-relative accounts like preference realisation by contrast, are likely to be entailed when peoples preferences or values are evenly spread.  A uniform distribution undermines claim that democracy maximised preferences or best realises personal values.  Meanwhile, content-indifferent accounts perform almost equally well irrespective of how people are distributed.
 
 The implication of inclusion on instrumental justifications of democracy is clear.  If we are to accept the claims of these accounts, then they must provide a corresponding and congruent account of inclusion.  The impact of voter composition on the outcomes of democratic processes places an addition constraint upon these accounts of democracy, such that any instrumental account of democracy must also offer a corresponding account of inclusion.
 
@@ -400,7 +408,7 @@ Finally, we capture terminal inputs to start up the simulation.  To run the simu
     process.argv.forEach (val, index, array) ->
       runSimulation('epistemic', 'virtue', ['right', 'wrong']) if val is 'epistemic'
       runSimulation('preference', 'fidelity', ['red', 'blue']) if val is 'preference'
-      runSimulation('character', 'character', ['good', 'bad']) if val is 'character'
+      runSimulation('moral', 'character', ['good', 'bad']) if val is 'character'
 
 <script src="assets/d3.v3.min.js"></script>
 <script src="assets/dimple.v2.1.2.min.js"></script>

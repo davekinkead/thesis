@@ -511,7 +511,7 @@ stroke: #000;
 <p>This paper is unique in that is simultaneously a philosophical argument and a computer simulation. Written in <a href="http://coffeescript.org/">literate coffeescript</a>, the code descibed in the paper can also be run by the coffeescript compiler to demonstrate the argument being described by the paper. The reader may generate both the argument in PDF, or the simulation and results in HTML with the command <code>coffee paper.coffee.md</code>.</p>
 </blockquote>
 <blockquote>
-<p>The following links outline <a href="https://github.com/davekinkead/modelling-the-boundary-problem">paper</a>, <a href="http://coffeescript.org/#installation">installation</a>, and <a href="https://npmjs.org/doc/install.html">dependency</a> requirements.</p>
+<p>Best viewed in HTML with interactive graphs, the following links outline <a href="https://github.com/davekinkead/modelling-the-boundary-problem">paper</a>, <a href="http://coffeescript.org/#installation">installation</a>, and <a href="https://npmjs.org/doc/install.html">dependency</a> requirements. A PDF version is also available with static images.</p>
 </blockquote>
 <h2 id="introduction">Introduction</h2>
 <p>There are many ways one might justify democracy.<a href="#fn1" class="footnoteRef" id="fnref1"><sup>1</sup></a> One common approach is to point to the desirable outcomes that democratic procedures bring about. Democracy in this light leads to good policy.</p>
@@ -685,14 +685,20 @@ Preference fidelity by partition number
 <blockquote>
 <p>Still more salutary is the moral part of the instruction afforded by the participation of the private citizen, if even rarely, in public functions ... He is made to feel himself one of the public, and whatever is for their benefit to be for his benefit.</p>
 </blockquote>
-<p>We might call these types of instrumental justifications of democracy <em>content indifferent</em>, not because the content of democratic outcomes doesn't matter but because the content is not the <em>only</em> thing that matters.<a href="#fn13" class="footnoteRef" id="fnref13"><sup>13</sup></a></p>
-<p>One way to formalise this account is to stipulate that agent character improves consistently across all citizens when they vote (or deliberate). This would model an agent-blind process in which every voter's character improves to the same degree, regardless of how politically active they are or who they interact with. A more plausible model however would see agent character improve dependent on who they interact with. Win-at-all-costs politics characterised by media manipulation and voter apathy seem less likely to transform the character of participants than contests marked by honest and open debate.</p>
-<p>In the formalisation below, agent character improves relative to the average character of their polity, with more virtuous polities improving their citizen's character to a greater extent than less virtuous ones. <code>Good eggs</code> are assigned a random value representing moral character between <code>0.5</code> and <code>1.0</code> while <code>bad apples</code> are assigned one below <code>0.5</code>.</p>
+<p>We might call these types of instrumental justifications of democracy <em>content indifferent</em>, because it's not the content of democratic outcomes that matters <em>per se</em> but rather some side effect of democratic activity that matters.<a href="#fn13" class="footnoteRef" id="fnref13"><sup>13</sup></a></p>
+<p>One way to formalise this type of account is to stipulate that agent character improves consistently for all citizens when they vote (or deliberate). This would model an agent-blind process in which every voter's character improves to the same degree, regardless of how politically active they are or who they interact with. A more plausible model however, would see agent character improve dependent on <em>who</em> they interact with. Win-at-all-costs politics characterised by media manipulation and voter apathy seem less likely to postively transform the character of participants than contests marked by honest and open debate.</p>
+<p>In the formalisation below, agent character improves relative to the average character of their polity, with more virtuous polities improving their citizen's character to a greater extent than less virtuous ones. <code>Good eggs</code> are assigned a random value representing moral character between <code>0.5</code> and <code>1.0</code> while <code>bad apples</code> are assigned one below <code>0.5</code>. Democractic activity here 'closes the gap' between an agent's actual and maximum character potential, by a factor determined by the average character in their polity.</p>
 <pre><code>Space::character = () -&gt;
+  polity_improvements = []
   for polity in @polities
-    average_character = polity.map (agent) -&gt;
-       character = if agent.belief is &#39;good&#39; then 0.5 else 0.0 
-       character += Math.random() / 2</code></pre>
+    characters = polity.map (agent) -&gt;
+      character = if agent.belief is &#39;good&#39; then 0.5 else 0.0 
+      character += Math.random() / 2
+    average_character_in_polity = ave characters
+    gap_closed = ave characters.map (val) -&gt;
+      (1 - val) * average_character_in_polity + val
+    polity_improvements.push gap_closed
+  ave polity_improvements</code></pre>
 <figure>
 <div id="character-by-cluster" class="graph">
 
@@ -701,6 +707,7 @@ Preference fidelity by partition number
 Character improvement by clustering
 </figcaption>
 </figure>
+<p>When viewed from the perspective of clustering, a small effect on moral character is noticable. With little agent clustering across the space, the improvement in an agent's moral character is strong (at a base rate of 0.6, average improvment is approximately 0.8). As clustering increases, character improvement is less strong (0.75 for the same parameters). Unlike content-independent and content-relative justifications in which changes in clustering can completely undermine the relevant instrumental effect, the effect of content-indifferent accounts is still present across all custering levels.</p>
 <figure>
 <div id="character-by-partition" class="graph">
 
@@ -709,9 +716,10 @@ Character improvement by clustering
 Character improvement by partition number
 </figcaption>
 </figure>
-<p>From both perspectives, it is clear that partition number and degree of clustering have little impact how the moral character is transformed by democracy in this model. As such, any account of inclusion is compatible with content-indifferent accounts of democracy. Any account of inclusion will do.</p>
+<p>Viewed from the perspective of partition numbers, no change in moral character is observerable. Differences in the transformative impact of democracy on an agent's moral character appear to be fully dependent on the degree of clustering across the space.</p>
+<p>While less clustering is optimal for content-indifferent acconts of democracy, any partition of a space will result in a postitive transformative effect as modelled here. Any account of inclusion will do. Content-indifferent justifications of democracy are compatible with both content-independent and content-relative accounts.</p>
 <h2 id="conclusion">Conclusion</h2>
-<p>The claims of some justifications of democracy are not entailed in all circumstances. How we answer the question of <em>who the people should be</em> can either support or undermine these accounts. Content-independent accounts like Condorcet's Jury Theorem are unlikely to hold true when people are highly clustered by belief or epistemic competence. When clustering is present, democracy has no epistemic virtue. Content-relative accounts like preference realisation by contrast, are likely to be entailed when peoples preferences or values are evenly spread. A uniform distribution undermines claim that democracy maximised preferences or best realises personal values. Meanwhile, content-indifferent accounts perform equally well irrespective of how people are distributed.</p>
+<p>The claims of some justifications of democracy are not entailed in all circumstances. How we answer the question of <em>who the people should be</em> can either support or undermine these accounts. Content-independent accounts like Condorcet's Jury Theorem are unlikely to hold true when people are highly clustered by belief or epistemic competence. When clustering is present, democracy has no epistemic virtue. Content-relative accounts like preference realisation by contrast, are likely to be entailed when peoples preferences or values are evenly spread. A uniform distribution undermines claim that democracy maximised preferences or best realises personal values. Meanwhile, content-indifferent accounts perform almost equally well irrespective of how people are distributed.</p>
 <p>The implication of inclusion on instrumental justifications of democracy is clear. If we are to accept the claims of these accounts, then they must provide a corresponding and congruent account of inclusion. The impact of voter composition on the outcomes of democratic processes places an addition constraint upon these accounts of democracy, such that any instrumental account of democracy must also offer a corresponding account of inclusion.</p>
 <p>Different accounts of democracy require different accounts of inclusion. As can be seen from the simulation of the epistemic and preference realisation models, the corresponding account of inclusions needed are incompatible. Content-independent justifications require accounts of inclusion that generate sufficiently large, externally homogeneous, and typically, internally heterogeneous polities. Content-independent justifications require the opposite. They require accounts of inclusion that generate sufficiently small, internally homogeneous, and typically, externally heterogeneous polities. These accounts of inclusion are obviously incompatible. How we answer the question of <em>who should the people be</em> for one account of democracy will not be same for another account of democracy.</p>
 <p>So if instrumental justifications of democracy require different accounts of inclusion, and those accounts of inclusion are incompatible, then certain instrumental justifications of democracy are themselves incompatible. One simply cannot maintain that democratic authority is justified because it has both epistemic virtue and realises individual preferences. Yet many justifications of democracy do exactly this. Mill for example, justifies democracy on both epistemic and strategic grounds, arguing that democratic authority is legitimate because it generally reaches good decisions and is forced to consider the preferences of all citizens. The incompatibility of accounts of inclusion that these approaches require however, demonstrates that this type of hybrid justification is incoherent.</p>
@@ -764,7 +772,7 @@ save = (name, results) -&gt;
 <pre><code>process.argv.forEach (val, index, array) -&gt;
   runSimulation(&#39;epistemic&#39;, &#39;virtue&#39;, [&#39;right&#39;, &#39;wrong&#39;]) if val is &#39;epistemic&#39;
   runSimulation(&#39;preference&#39;, &#39;fidelity&#39;, [&#39;red&#39;, &#39;blue&#39;]) if val is &#39;preference&#39;
-  runSimulation(&#39;character&#39;, &#39;character&#39;, [&#39;good&#39;, &#39;bad&#39;]) if val is &#39;character&#39;</code></pre>
+  runSimulation(&#39;moral&#39;, &#39;character&#39;, [&#39;good&#39;, &#39;bad&#39;]) if val is &#39;character&#39;</code></pre>
 <script src="assets/d3.v3.min.js"></script>
 <script src="assets/dimple.v2.1.2.min.js"></script>
 <script src="assets/graph.js"></script>

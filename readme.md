@@ -31,12 +31,11 @@ Hopefully, this will mean that only the `public` branch will be visible, unless 
 
 
 
-
 ## Presentations
 
-I presented a work-in-progress to the Munich Centre for Mathematical Philosophy on 23 Apr 2014 and at the Australian National University on 7 Jul 2014.  A copy of the [presentation](munich.coffee.md) is now available here and (shortly) on iTunes University.
+I presented a work-in-progress to the Munich Centre for Mathematical Philosophy on 23 Apr 2014 and at the Australian National University on 7 Jul 2014.  A copy of the presentation is now available on iTunes University.
 
 **Dave Kinkead**  
 University of Queensland
 
-July 2014
+July 2015

@@ -206,7 +206,7 @@ In our simulation, the epistemic virtue of a simple majority vote can be measure
 
 Running a Monte Carlo simulation hundreds of thousands of times for a range of partition numbers (5 to 30), cluster factors (0.0 to 1.0) and epistemic base rates (0.5 to 1.0) yields a four dimensional data cube of probability distributions for the expected correct majority vote in each base-rate-partition-cluster tuple.
 
-We can examine the results from any perspective or slice of the data cube.  In the graph below, we see the impact of repartitioning on epistemic virtue at an epistemic base rate of 0.6 from the perspective of clustering.  The vertical axis represents epistemic virtue and the horizontal axis, the degree of clustering.  Each line represents the number of polities the space was partitioned into, ranging from 5 to 30 partitons.  (Interactive graphs are available at [http://dave.kinkead.com.au/modelling-the-boundary-problem](http://dave.kinkead.com.au/modelling-the-boundary-problem))  
+We can examine the results from any perspective or slice of the data cube.  In the graph below, we see the impact of repartitioning on epistemic virtue at an epistemic base rate of 0.6 from the perspective of clustering.  The vertical axis represents epistemic virtue and the horizontal axis, the degree of clustering.  Each line represents the number of polities the space was partitioned into, ranging from 5 to 30 partitions.
 
 <figure>
 <div id="epistemic-by-cluster" class="graph"></div>

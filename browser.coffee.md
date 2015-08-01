@@ -21,7 +21,7 @@ Next, we'll grab create our svg canvas, apply some event listeners and add it to
                   running = if running is true then false else true
       
 
-Let's make a colour function
+Let's make a colour function to add some visual oomph.
 
 
     colour_on = (d, attribute) ->
@@ -32,7 +32,7 @@ Let's make a colour function
       "##{red}00#{blue}"
 
 
-Now we need to createsvg circles to represent our agents and bind them to the actual agents from the simulation.  The `d` in the functions here is the D3js accessor to the agent data.
+Now we need to create svg circles that represent our agents and bind them to the actual agents from the simulation.  The `d` in the functions here is the D3.js accessor to the agent data.
 
   
     populate = () ->
@@ -61,11 +61,14 @@ We then write a loop where each svg circle triggers the move function for its bo
       .attr "cx", (d) -> d.x
       .attr "cy", (d) -> d.y
 
+Let's make the simulation conditional on a global `running` value so we can turn it on and off.
+
+
     run = () ->
       move() unless running is false
 
 
-Finally, we run the loop continuous with a half second pause.
+Finally, we run the loop continuously with a one second pause.
 
 
     setInterval run, 1000

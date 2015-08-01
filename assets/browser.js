@@ -91,7 +91,12 @@ School = (function() {
 
 })();
 
-schools = [];
+Student.prototype.move = function(school, range) {
+  this.school = school;
+  this.x = fake_gausian(range) + this.school.x;
+  this.y = fake_gausian(range) + this.school.y;
+  return this;
+};
 
 tick = function(student) {
   var bad, good;
@@ -104,15 +109,10 @@ tick = function(student) {
   }
 };
 
+schools = [];
+
 fake_gausian = function(range) {
   return Math.random() * range / 8 + Math.random() * range / 8 + Math.random() * range / 8 - range / 4;
-};
-
-Student.prototype.move = function(school, range) {
-  this.school = school;
-  this.x = fake_gausian(range) + this.school.x * 1.1;
-  this.y = fake_gausian(range) + this.school.y;
-  return this;
 };
 
 build = function(width, height) {

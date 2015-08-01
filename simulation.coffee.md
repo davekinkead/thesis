@@ -7,46 +7,48 @@
 ## Model
 
 
-Students have academic ability measured from `0.0` to `1.0`.  No claim is made to how this relates to IQ, EQ, drive, knowledge etc.  For the purpose of graphical display, schools also have locational coordinates.
+Students have academic ability measured from `0.0` to `1.0`.  No claim is made to how this relates to IQ, EQ, drive, knowledge etc.  For the purpose of graphical display, students also have locational cartesian coordinates to indicate what school they attend.
 
 
     class Student
       constructor: (@ability) ->
 
 
-Schools are modelled as collections of students upon whom they have some form of academic impact.  In short, schools teach students.  This impact results in a change in the students academic ability.  No claim is made to how this impact comes about such as via teacher performance or curricular changes.  The only stipulation is that the process of schooling is the causal mechanism.  
+Schools are modelled as collections of students upon whom they have some capacity for academic impact.  In short, schools teach students.  This impact results in a change in the students academic ability.  No claim is made to how this impact comes about such as via teacher performance or curricular changes.  The only stipulation is that the process of schooling is the sole causal mechanism of the model.  
 
-The causal impact of a school on academic performance ranges from `-1.0`  to `1.0` and assumed to be fixed for the duration of the simulation. 
+The causal impact of a school on academic performance ranges from `-1.0`  to `1.0` and assumed to be fixed for the duration of the simulation.  What does this impact score relate to exactly? The model is agnostic here so this could represent actual impact on academic ability, relative impact, or even counter-factual impact - how the student's ability would have changed relatie to some mean of `0.0`.  
 
 
     class School
       constructor: (@impact) ->
 
 
-Schools teach students.  This is modelled by applying the schools impact to the students ability in a transformation function.
+A schools impact value reflects its capacity to alter the academic ability of its students.  This is modelled through a `teach` mechanism which is essentially a transformation function of a school's impact onto a student's ability.  Again, the model is agnostic to how this occurs.
 
 
 <!--     School::teach = (student) ->
       student.learn(impact) -->
 
 
-School effectiveness is measured by testing student ability on standardised testing.  This is treated as a deterministic measure of student ability.
+School performance is measured by testing student ability on standardised testing.  This is treated as a deterministic measure of student ability.
 
 <!-- 
     School::test = (student) ->
       @performance += student.ability -->
 
 
-Each year, students apply to a school.  There preference will be dictated by relative school performance.
+Each year, some students graduate and new students enrole. students apply to a school.  A student's preference for school will be dictated by relative school performance - as measured by student performance.
 
 
-<!--     Student::apply = (schools) ->
-      schools.sort () ->
-        school.performance -->
+    Student::move = (school, range) ->
+      @school = school
+      @x = fake_gausian(range) + @school.x
+      @y = fake_gausian(range) + @school.y
+      return this
+
 
 Do some stuff...
 
-    schools = []
 
     tick = (student) ->
       [good, bad] = schools
@@ -56,18 +58,13 @@ Do some stuff...
 
 Let's also create a function to graphically put the students "in" the school
 
+    schools = []
 
     fake_gausian = (range) ->
       Math.random()*range/8 + Math.random()*range/8 + Math.random()*range/8 - range/4
 
-    Student::move = (school, range) ->
-      @school = school
-      @x = fake_gausian(range) + @school.x *1.1
-      @y = fake_gausian(range) + @school.y
-      return this
 
-
-Finally, a build function to populate the simulation.
+Finally, a build function to populate the simulation.  We can specify a range of parameters here to change the initial conditions of the simulation.
 
     
     build = (width, height) ->

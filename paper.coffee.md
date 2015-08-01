@@ -24,9 +24,22 @@ My hypothesis is that desipite both schools having no causal impact on student p
 
 In short, we can infer very little about school performance from student results.
 
-Click on the simulation to start / stop it.
+---
 
-<div id="space"></div>
+## Outline
+
+- introduction about the paper & methodology
+- background on school performance measurement
+- methodology
+- simulation 1: random allocation with no causal impact
+- simulation 2: random allocation with causal impact
+- compare 1 and 2
+- simulation 3: skewed allocation with negative impact
+
+
+The first simulation will go here.  Click on the simulation to start / stop it.
+
+<div id="simulation-1"></div>
 
 
 ---
@@ -125,11 +138,13 @@ We start with two schools. In each tick of the simulation, students will apply t
 
 # Browser Code
 
+--> I need to extract and encapsulate this code.  The API should look something like `[school-a: {impact: 0.0, students: 0.5}, school-b: {impact: 0.5, students: 0.2}]` 
+
+
 This is the browser file where we pull together different parts of the simulation and wrap it up in the browser.  We'll start out by importing our libraries and defining any global variables we might need.
 
 
     d3 = require './assets/d3.min.js'
-    simulation = require './simulation.coffee.md'
     running = false
     height = window.innerHeight  - 40 || 600
     width = window.innerWidth - 40 || 600
@@ -138,7 +153,7 @@ This is the browser file where we pull together different parts of the simulatio
 Next, we'll grab create our svg canvas, apply some event listeners and add it to the DOM.
 
 
-    canvas = d3.select("#space")
+    canvas = d3.select("#simulation-1")
                 .append("svg:svg")
                 .attr("height", height)
                 .attr("width", width)
@@ -198,4 +213,6 @@ Finally, we run the loop continuously with a one second pause.
 
     setInterval run, 1000
 
+
+<script type="text/javascript" src="assets/d3.min.js"></script>
 <script type="text/javascript" src="assets/simulation.js"></script>

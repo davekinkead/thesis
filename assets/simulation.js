@@ -78,15 +78,13 @@ module.exports = simulation = {
 
 d3 = require('./assets/d3.min.js');
 
-simulation = require('./simulation.coffee.md');
-
 running = false;
 
 height = window.innerHeight - 40 || 600;
 
 width = window.innerWidth - 40 || 600;
 
-canvas = d3.select("#space").append("svg:svg").attr("height", height).attr("width", width).on("click", function() {
+canvas = d3.select("#simulation-1").append("svg:svg").attr("height", height).attr("width", width).on("click", function() {
   return running = running === true ? false : true;
 });
 
@@ -139,78 +137,4 @@ setInterval(run, 1000);
 
 
 
-},{"./assets/d3.min.js":1,"./simulation.coffee.md":3}],3:[function(require,module,exports){
-var School, Student, build, fake_gausian, schools, simulation, tick;
-
-Student = (function() {
-  function Student(ability) {
-    this.ability = ability;
-  }
-
-  return Student;
-
-})();
-
-School = (function() {
-  function School(impact) {
-    this.impact = impact;
-  }
-
-  return School;
-
-})();
-
-Student.prototype.move = function(school, range) {
-  this.school = school;
-  this.x = fake_gausian(range) + this.school.x;
-  this.y = fake_gausian(range) + this.school.y;
-  return this;
-};
-
-tick = function(student) {
-  var bad, good;
-  good = schools[0], bad = schools[1];
-  if (student.ability > 0.65 && Math.random() < 0.05) {
-    student.move(good, good.y * 4);
-  }
-  if (student.ability < 0.35 && Math.random() < 0.05) {
-    return student.move(bad, bad.y * 4);
-  }
-};
-
-schools = [];
-
-fake_gausian = function(range) {
-  return Math.random() * range / 8 + Math.random() * range / 8 + Math.random() * range / 8 - range / 4;
-};
-
-build = function(width, height) {
-  var bad, good, n, school, student, students;
-  good = new School(0.0);
-  good.x = width * 0.25;
-  good.y = height * 0.5;
-  schools.push(good);
-  bad = new School(0.0);
-  bad.x = width * 0.75;
-  bad.y = height * 0.5;
-  schools.push(bad);
-  return students = (function() {
-    var i, results;
-    results = [];
-    for (n = i = 1; i <= 1000; n = ++i) {
-      school = n % 2 === 0 ? good : bad;
-      student = new Student(Math.random());
-      results.push(student.move(school, width));
-    }
-    return results;
-  })();
-};
-
-module.exports = simulation = {
-  build: build,
-  tick: tick
-};
-
-
-
-},{}]},{},[2]);
+},{"./assets/d3.min.js":1}]},{},[2]);

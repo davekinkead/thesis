@@ -5,13 +5,14 @@ email: d.kinkead@uq.edu.au
 status: pre-review draft
 license: CC-BY-SA
 bibliography: /Users/dave/Dropbox/Research/readings/.library.bibtex
+csl: https://raw.githubusercontent.com/citation-style-language/styles/master/journal-of-applied-philosophy.csl
 ---
 
 # Borders & Legitimacy
 
 > This is an argument about the relationship between democratic inclusion and instrumental justifications of democracy.  I show that any account of democracy that relies on the outcomes of democracy processes to demonstrate democracy's value must have a congruent account of inclusion.  Not only that, but because different accounts of democracy rely on different and incompatible accounts of inclusion, these accounts of democracy are themselves incompatible.
 
-> This paper is unique in that is simultaneously a philosophical argument and a computer simulation.  Written in [literate coffeescript](http://coffeescript.org/), the code descibed in the paper can also be run by the coffeescript compiler to demonstrate the argument being described by the paper.  The reader may generate both the argument in PDF, or the simulation and results in HTML with the command `coffee paper.coffee.md`.  
+> This paper is unique in that is simultaneously a philosophical argument and a computer simulation.  Written in [literate coffeescript](http://coffeescript.org/), the code described in the paper can also be run by the coffeescript compiler to demonstrate the argument being described by the paper.  The reader may generate both the argument in PDF, or the simulation and results in HTML with the command `coffee paper.coffee.md`.  
 
 > Best viewed in HTML with interactive graphs, the following links outline [paper](https://github.com/davekinkead/modelling-the-boundary-problem), [installation](http://coffeescript.org/#installation), and [dependency](https://npmjs.org/doc/install.html) requirements.  A PDF version is also available with static images.
 
@@ -22,7 +23,7 @@ There are many ways one might justify democracy [^definitions].  One common appr
 
 Sometimes the desirability of these outcomes is judged according to some independent criteria.  According to these accounts, there is some external standard for measuring the quality of a decision.  Epistemic accounts of democracy like Condorcet's Jury Theorem [@condorcet1976] or David Estund's Epistemic Proceduralism [@estlund2009] are like this.  Truth exists independently of our beliefs; democratic processes track the truth; so this gives us reason to value democracy.
 
-Other times, we might judge the quality of democratic outcomes against some agent relative criteria.  Rather than rely on something external, the desirability of a particular result is assessed against some internal standard.  It isn't the collective decisions of democracy that matter _per se_ but how those collective decisions correspond with individual choices.  We see this in utilitarian justifications of democracy where majority voting maximizes the expected utility of voter preferences [@rae1969].  But one needn't be a utilitarian to employ such an approach - @rousseau1920 for example, argued that majority rule realises the general will of the people and this gives us reasons value it.
+Other times, we might judge the quality of democratic outcomes against some agent relative criteria.  Rather than rely on something external, the desirability of a particular result is assessed against some internal standard.  It isn't the collective decisions of democracy that matter _per se_ but how those collective decisions correspond with individual choices.  We see this in utilitarian justifications of democracy where majority voting maximises the expected utility of voter preferences [@rae1969].  But one needn't be a utilitarian to employ such an approach - @rousseau1920 for example, argued that majority rule realises the general will of the people and this gives us reasons value it.
 
 And for others still, it is not the particular content of democratic decision making that matters so much as the effects that democratic processes have on the participants.  Democracy changes people.  This is what @mill1862 had in mind when he argued that democracy transforms the moral character of its participants.  Democratic participation makes good citizens.
 
@@ -91,7 +92,7 @@ But a third approach, although rarely used in philosophy, offers considerable in
 
 An alternative approach would be to simulate _theory_.  All theories are abstractions of reality, so simulating theory simply formalises into code the abstractions that theorists have made for centuries.  This type of simulation can be thought of as coherence testing particular theories. By making the assumptions and abstractions of a theory explicit in code, we can see if the predictions and claims of the theory are entailed, or at least made probable.  We can show that a theoretical model is coherent even if we can't show that the theory's assumptions do in fact hold true in reality.
 
-What follows in the remander of this paper is both a description of a model of democracy as well as a simulation of that model.  It attempts to capture the key claims of instrumental accounts of democracy and explore how changing the composition of a polity affects the democratic processes of that polity.  
+What follows in the remainder of this paper is both a description of a model of democracy as well as a simulation of that model.  It attempts to capture the key claims of instrumental accounts of democracy and explore how changing the composition of a polity affects the democratic processes of that polity.  
 
 The simulation process begins by defining a simple model of democracy consisting of naive voters populating some abstract political space.  Methods of inclusion and voting are then defined.  Next, three instrumental accounts of democracy - content-independent, content-relative, and content-indifferent - are formalised and simulated in the model over a wide variety of parameters.  Finally, the relationship between democratic inclusion and democratic outcomes is explored by examining how different compositions of agents lead to different results. 
 
@@ -111,7 +112,7 @@ An agent represents a political actor or citizen.  They are simple folk who hold
       constructor: (@belief) ->
 
 
-Agents exist within a space which represents the problem domain.  A space is constructed by specifying a profile of how many agents hold which belief, preference, or virtue.  These belief are stipulative.  They are defined at the start of the simulation and form its parameters.  For example, a profle of  `{ 'chocolate': 400, 'vanilla': 600 }` would create a space with 400 agents whose preference is chocolate and 600 whose preference is vanilla.
+Agents exist within a space which represents the problem domain.  A space is constructed by specifying a profile of how many agents hold which belief, preference, or virtue.  These belief are stipulative.  They are defined at the start of the simulation and form its parameters.  For example, a profile of  `{ 'chocolate': 400, 'vanilla': 600 }` would create a space with 400 agents whose preference is chocolate and 600 whose preference is vanilla.
 
 
     class Space
@@ -213,7 +214,7 @@ We can examine the results from any perspective or slice of the data cube.  In t
 
 The likelihood of any randomly selected voter in the space being correct is 0.6. When agents are uniformly distributed across the space by belief (i.e. no clustering of agent belief is present), the epistemic virtue of majority voting  - the likelihood that the majority vote of any polity is the correct choice - is very high (0.82-0.97).  This quickly deteriorates as clustering of agent belief increases however, with no epistemic virtue of majority voting evident once agent clustering reaches 0.5.  This holds true for all levels of partition numbers and epistemic base rates > 0.5, although the effect diminishes as diversity across the space diminishes [^diversity].
 
-[^diversity]: A general principle about polity likeness is observable.  For any given distribution of agents across a space, the more internally homogeneous a polity is, them more externally heterogeneous it must be, and vice versa.  This is most pronouced when agent diversity within the space is high, i.e. when epistemic or preference base rates are close to 0.5, but the relationship deceases as the diviersity in the decreases, i.e. when the base rates approach 0.0 or 1.0.
+[^diversity]: A general principle about polity likeness is observable.  For any given distribution of agents across a space, the more internally homogeneous a polity is, them more externally heterogeneous it must be, and vice versa.  This is most pronounced when agent diversity within the space is high, i.e. when epistemic or preference base rates are close to 0.5, but the relationship deceases as the diversity in the decreases, i.e. when the base rates approach 0.0 or 1.0.
 
 <figure>
 <div id="epistemic-by-partition" class="graph"></div>
@@ -223,21 +224,21 @@ Examining the same data from the perspective of partition number, we see little 
 
 [^explain]: Condorcet's Jury Theorem posits that the likelihood of majority rule selecting the correct outcome increases as the number of voters increases (assuming voters have an independent better than even chance of voting correctly).  We should expect to see a gradual decrease in epistemic virtue as the same number of voters in the space are partitioned into increasing numbers of polities.
 
-These results indicate that the epistemic virtue of majority voting is dependent not only on individual agent belief having a greater than 50% likelihood of being correct, but also on how those agent beliefs are distributed across the political space.  A key stipulation of the Jury Theorem is that there must a better than average chance of any voter being correct - we might call this the _competency requirement_.  This simulation shows that when clustering of agent belief is present, even if the comeptency requirement is met for the space as a whole, it is not necessarily met for every partition of that space.  Furthermore, as clustering of agent belief across the space increases, the likelihood that every partition of the space satisfies the competency criteria decreases.
+These results indicate that the epistemic virtue of majority voting is dependent not only on individual agent belief having a greater than 50% likelihood of being correct, but also on how those agent beliefs are distributed across the political space.  A key stipulation of the Jury Theorem is that there must a better than average chance of any voter being correct - we might call this the _competency requirement_.  This simulation shows that when clustering of agent belief is present, even if the competency requirement is met for the space as a whole, it is not necessarily met for every partition of that space.  Furthermore, as clustering of agent belief across the space increases, the likelihood that every partition of the space satisfies the competency criteria decreases.
 
 The relationship between content-independent justifications of democracy and democratic inclusion is now clearer. Epistemic justifications of democracy require accounts of inclusion that ensures that:
 
   1. Polities are sufficiently large for the Condorcet effect to emerge.
   2. Any partition of a space that satisfied the competency requirement must also satisfy the competency requirement.
 
-When the distribution of voter belief is uniform, where we draw the boundaries of our democracies is largely irrelevant for content-independent accounts of democracy. Any account of democratic inclusion will do.  But when the distribution of voter belief is clustered, where we draw boundaries of our democracies becomes very important. In this case, any compatible account of democratic inclusion will need to demonstrate that each polity statisfies the competency requirement for epistemic justifications.  
+When the distribution of voter belief is uniform, where we draw the boundaries of our democracies is largely irrelevant for content-independent accounts of democracy. Any account of democratic inclusion will do.  But when the distribution of voter belief is clustered, where we draw boundaries of our democracies becomes very important. In this case, any compatible account of democratic inclusion will need to demonstrate that each polity satisfies the competency requirement for epistemic justifications.  
 
 We can summarise this finding by stating that the Boundary Problem only becomes a problem for content-independent justifications of democracy when homogeneity of voter belief or competence is high within polities but low between them.  In these instances, how we bound the _demos_ and draw political borders is critical.  Content-independent justifications require accounts of inclusion that generate sufficiently large, externally homogeneous polities.  Polities needs to be large and have similar voter composition otherwise only some of them can be justified by content-independent accounts. 
 
 
 ##  Content Relative Outcomes
 
-Not all instrumental accounts of democracy are epistemic however.  Utilitarians justify democracy on the grounds that it promotes the greatest happiness.  Majority voting maximizes the expected utility of voter preferences when each individual has an equal chance of preferring each of two alternatives [@rae1969].  But one needn't be a card carrying utilitarian to employ such an approach.  @rousseau1920 argued that majority rule realises the general will of the people and this gives us reasons to obey, while social choice theorists hold that majority voting realises individual choice when collectively binding decisions must be made (@may1952).
+Not all instrumental accounts of democracy are epistemic however.  Utilitarians justify democracy on the grounds that it promotes the greatest happiness.  Majority voting maximises the expected utility of voter preferences when each individual has an equal chance of preferring each of two alternatives [@rae1969].  But one needn't be a card carrying utilitarian to employ such an approach.  @rousseau1920 argued that majority rule realises the general will of the people and this gives us reasons to obey, while social choice theorists hold that majority voting realises individual choice when collectively binding decisions must be made (@may1952).
 
 While these accounts of democracy differ in many ways, they all share a similarity in that the value of democracy stems from some content-relative criteria - of fidelity between individual preference and collective outcomes.  It is not the contents of the outcome of a democratic process that matters per se, but rather how well this collective outcome matches the wants, preferences, or intent of individual participants.
 
@@ -297,9 +298,9 @@ We might call these types of instrumental justifications of democracy _content i
 
 [^isolation]: Content indifferent justifications are not typically used in isolation.  Both Mill and Rousseau used these content indifferent justifications in conjunction with other instrumental justifications of democracy such as strategic value, truth divination, and preference articulation.
 
-One way to formalise this type of account is to stipulate that agent character improves consistently for all citizens when they vote (or deliberate).  This would model an agent-blind process in which every voter's character improves to the same degree, regardless of how politically active they are or who they interact with.  A more plausible model however, would see agent character improve dependent on _who_ they interact with.  Win-at-all-costs politics characterised by media manipulation and voter apathy seem less likely to postively transform the character of participants than contests marked by honest and open debate.
+One way to formalise this type of account is to stipulate that agent character improves consistently for all citizens when they vote (or deliberate).  This would model an agent-blind process in which every voter's character improves to the same degree, regardless of how politically active they are or who they interact with.  A more plausible model however, would see agent character improve dependent on _who_ they interact with.  Win-at-all-costs politics characterised by media manipulation and voter apathy seem less likely to positively transform the character of participants than contests marked by honest and open debate.
 
-In the formalisation below, agent character improves relative to the average character of their polity, with more virtuous polities improving their citizen's character to a greater extent than less virtuous ones.  `Good eggs` are assigned a random value representing moral character between `0.5` and `1.0` while `bad apples` are assigned one below `0.5`.  Democractic activity here 'closes the gap' between an agent's actual and maximum character potential, by a factor determined by the average character in their polity.
+In the formalisation below, agent character improves relative to the average character of their polity, with more virtuous polities improving their citizen's character to a greater extent than less virtuous ones.  `Good eggs` are assigned a random value representing moral character between `0.5` and `1.0` while `bad apples` are assigned one below `0.5`.  Democratic activity here 'closes the gap' between an agent's actual and maximum character potential, by a factor determined by the average character in their polity.
 
 
     Space::character = () ->
@@ -319,15 +320,15 @@ In the formalisation below, agent character improves relative to the average cha
 <div id="character-by-cluster" class="graph"></div>
 <figcaption>Character improvement by clustering</figcaption></figure>
 
-When viewed from the perspective of clustering, a small effect on moral character is noticable.  With little agent clustering across the space, the improvement in an agent's moral character is strong (at a base rate of 0.6, average improvment is approximately 0.8).  As clustering increases, character improvement is less strong (0.75 for the same parameters).  Unlike content-independent and content-relative justifications in which changes in clustering can completely undermine the relevant instrumental effect, the effect of content-indifferent accounts is still present across all custering levels.
+When viewed from the perspective of clustering, a small effect on moral character is noticeable.  With little agent clustering across the space, the improvement in an agent's moral character is strong (at a base rate of 0.6, average improvement is approximately 0.8).  As clustering increases, character improvement is less strong (0.75 for the same parameters).  Unlike content-independent and content-relative justifications in which changes in clustering can completely undermine the relevant instrumental effect, the effect of content-indifferent accounts is still present across all clustering levels.
 
 <figure>
 <div id="character-by-partition" class="graph"></div>
 <figcaption>Character improvement by partition number</figcaption></figure>
 
-Viewed from the perspective of partition numbers, no change in moral character is observerable.  Differences in the transformative impact of democracy on an agent's moral character appear to be fully dependent on the degree of clustering across the space.
+Viewed from the perspective of partition numbers, no change in moral character is observer able.  Differences in the transformative impact of democracy on an agent's moral character appear to be fully dependent on the degree of clustering across the space.
 
-While less clustering is optimal for content-indifferent acconts of democracy, any partition of a space will result in a postitive transformative effect as modelled here.  Any account of inclusion will do.  Content-indifferent justifications of democracy are compatible with both content-independent and content-relative accounts.
+While less clustering is optimal for content-indifferent accounts of democracy, any partition of a space will result in a positive transformative effect as modelled here.  Any account of inclusion will do.  Content-indifferent justifications of democracy are compatible with both content-independent and content-relative accounts.
 
 ## Conclusion
 
@@ -404,7 +405,7 @@ Now we need to bootstrap the simulation.  We run it by assigning a name, metric,
       save name, results
     
 
-Finally, we capture terminal inputs to start up the simulation.  To run the simulation of epistemic democracy, use the command `coffee paper.coffee.md epsitemic`.  This will execute the code embedded described in the paper above.
+Finally, we capture terminal inputs to start up the simulation.  To run the simulation of epistemic democracy, use the command `coffee paper.coffee.md epistemic`.  This will execute the code embedded described in the paper above.
 
 
     process.argv.forEach (val, index, array) ->
@@ -415,7 +416,3 @@ Finally, we capture terminal inputs to start up the simulation.  To run the simu
 <script src="assets/d3.v3.min.js"></script>
 <script src="assets/dimple.v2.1.2.min.js"></script>
 <script src="assets/graph.js"></script>
-
----
-
-## Bibliography

@@ -1,5 +1,5 @@
 ---
-title: Borders & Legitimacy
+title: Democracy, Borders, & Legitimacy
 author: Dave Kinkead
 email: d.kinkead@uq.edu.au
 status: pre-review draft
@@ -8,7 +8,7 @@ bibliography: /Users/dave/Dropbox/Research/readings/.library.bibtex
 csl: https://raw.githubusercontent.com/citation-style-language/styles/master/journal-of-applied-philosophy.csl
 ---
 
-# Borders & Legitimacy
+# Democracy, Borders, & Legitimacy
 
 > This is an argument about the relationship between democratic inclusion and instrumental justifications of democracy.  I show that any account of democracy that relies on the outcomes of democracy processes to demonstrate democracy's value must have a congruent account of inclusion.  Not only that, but because different accounts of democracy rely on different and incompatible accounts of inclusion, these accounts of democracy are themselves incompatible.
 

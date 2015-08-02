@@ -181,6 +181,24 @@ So if democratic authority requires coherent justifications, then our inability 
 
 ## Paradoxes of Procedure
 
+Democracies make decisions. It's why they exist.  All accounts of democracy, instrumental or intrinsic, transformative or aggregative, procedural or substantive, require specific procedures in order to make decisions that are collectively binding.
+
+Different democratic procedures may produce different outcomes.  Plurality voting for example, penalises minor parties in representative electoral systems.  Proportional voting by contrast doesn't.  A vote tallied using the Condorcet methods can produce a different result to one using a Borda count, and to one using approval voting.  Given the same group of voters and question to be decided, deterministic procedures like preferential voting will result in the same output every time.  Indeterminate procedures like sortition however, will not.
+
+_How_ people decide affects _what_ people decide.
+
+Sometimes, democracy is justified by the claim that it is the best system for realising individual preferences in a collective setting.  But preferences are transitive.  If you prefer chocolate to vanilla, and vanilla to pistachio, then assuming you are rational, you should also prefer chocolate to pistachio.
+
+Democracy must also be fair.  Fairness is essential to any democratic procedure.  The notion of political equality that is so central to the democratic ideal means that democracy is the antithesis of dictatorship.  In a democracy, everyone is entitled to an equal say, and no one gets to decide how others should vote.
+
+Yet preference transitivity and fairness turnout to be incompatible when applied to decision procedures.  As @arrow1963 demonstrates with his Impossibility Thesis, no voting system can be designed that always satisfies the requirements of fairness, transitivity, and rational aggregation.  It is impossible for any non-cardinal aggregation procedure to simultaneously be non-dictatorial, collectively rational (if every voter prefers alternative X over alternative Y, then the group prefers X over Y), universal, and Pareto optimal.  There appears to be no coherent way to aggregate collective preferences.
+
+Other times, democracy is justified on epistemic grounds.  Democracy, it is said, has a tendency to track the truth, and that is why we should accept democratic decisions as binding.  To believe something to be true however, one must have warrant to believe so.  Any non-tautological belief requires the satisfaction of an entailment and evidentiary criteria.  To be justified in believing some belief _q_, one must first be justified in believing _p_ entails or supports _q_, and that there is sufficient evidence to believe _p_ in the first place.
+
+
+
+
+
 This chapter still requires a fair bit of work.  The basic argument is this:
 
   1. Procedures are necessary for democracy to function

@@ -31,11 +31,12 @@ In short, we can infer very little about school performance from student results
 - introduction about the paper & methodology
 - background on school performance measurement
 - methodology
-- simulation 1: random allocation with no causal impact
+- simulation sanity check: no movement, causal impact each way
+- simulation shifting averages: random allocation with no causal impact
 - simulation 2: random allocation with causal impact
 - compare 1 and 2
 - simulation 3: skewed allocation with negative impact
-
+- conclusion and insights
 
 The first simulation will go here.  Click on the simulation to start / stop it.
 

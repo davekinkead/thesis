@@ -108,7 +108,7 @@ display = function(id, params) {
   var canvas, draw, runner, sim, tick;
   runner = false;
   sim = new Simulation(params);
-  canvas = d3.select("#" + id).append("svg:svg").attr("height", height).attr("width", width).on("click", function() {
+  canvas = d3.select("#" + id).append("svg:svg").attr("height", height * 0.8).attr("width", width).on("click", function() {
     if (runner) {
       clearInterval(runner);
       return runner = false;

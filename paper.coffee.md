@@ -144,7 +144,7 @@ We will be running multiple simulations in the browser so will need a way of ren
       sim = new Simulation params
       canvas = d3.select("##{id}")
         .append("svg:svg")
-        .attr("height", height)
+        .attr("height", height*0.8)
         .attr("width", width)
         .on "click", () ->
           if runner

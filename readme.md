@@ -32,6 +32,6 @@ In short, we can infer very little about school performance from student results
 
 ## TODO
 
-  - [] Fix simulation CSS position
-  - [] Add narrative outline
-  - [] Add dynamic parameters
+  - [x] Fix simulation CSS position
+  - [x] Add narrative outline
+  - [x] Add dynamic parameters

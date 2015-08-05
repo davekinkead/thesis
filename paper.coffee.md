@@ -26,59 +26,70 @@ In short, we can infer very little about school performance from student results
 
 ---
 
-## Structure
 
-- introduction about the paper & methodology
+## Introduction
+
+- introduce the idea
+- quality and limit the claims
+- this is an argument for epistemic skepticism about school performance
+
+
+## School Performance
+
 - background on school performance measurement
-- methodology
-- simulation sanity check: no movement, causal impact each way
-- simulation shifting averages: random allocation with no causal impact
-- simulation 2: random allocation with causal impact
-- compare 1 and 2
-- simulation 3: skewed allocation with negative impact
-- conclusion and insights
+
+
+## Methodology
+
+- a justification of agent based modelling and simulation
 
 
 ## Model
 
-
-Define the Student
-
-Students have academic ability measured from `0.0` to `1.0`.  No claim is made to how this relates to IQ, EQ, drive, knowledge etc.
+We begin by modelling students.  Students are simple creatures who have an academic ability measured from `0.0` to `1.0`.  No claim is made to how this relates to IQ, EQ, drive, knowledge, etc. but the value is absolute rather than relative.  It is stipulated, however, that the average ability for any new student is `0.5`.
 
 
     class Student
       constructor: (@ability) ->
 
 
-Define the School
-
-Schools are modelled as collections of students upon whom they have some capacity for academic impact.  In short, schools teach students.  This impact results in a change in the students academic ability.  No claim is made to how this impact comes about such as via teacher performance or curricular changes.  The only stipulation is that the process of schooling is the sole causal mechanism of the model.  
+Next we model schools.  Schools are modelled as collections of students upon whom they have some capacity for academic impact.  In short, schools teach students.  This impact results in a change in the students academic ability.  No claim is made to how this impact comes about such as via teacher performance or curricular changes.  The only stipulation is that the process of schooling is the sole causal mechanism of the model.  Schools also have an id so we can keep track of them.  
 
 
     class School
       constructor: (@id, @impact) ->
 
 
-The causal impact of a school on academic performance ranges from `-1.0`  to `1.0` and assumed to be fixed for the duration of the simulation.  What does this impact score relate to exactly? The model is agnostic here so this could represent actual impact on academic ability, relative impact, or even counter-factual impact - how the student's ability would have changed relatie to some mean of `0.0`.  
+The causal impact of a school on academic performance ranges from `-1.0`  to `1.0` and assumed to be fixed for the duration of the simulation.  What does this impact score relate to exactly? The model is agnostic here so this could represent actual impact on academic ability, relative impact, or even counter-factual impact - how the student's ability would have changed relatie to some mean of `0.0`. 
 
-This is the sim
+
+    teach = (student) ->
+      student.ability = Math.min student.ability * (1 + student.school.impact), 1.0
+
+
+
+!! Need to fix this to place bounded limits on it.
+
+Finally, we create a class to encapusate the simulation itself.  We instantiate the simulation with a profile contain information about schools and student distribution.  We then use the profile to create the students and schools as desired.
 
 
     class Simulation
-      constructor: (profile) ->
-        @schools = [new School(0, 0.0), new School(1, 0.0)]
+      constructor: (@profile) ->
+        @schools = for school, i in @profile.schools
+            new School(i, school.impact)
         @students = for n in [1..1000]
           student = new Student Math.random()
           student.school = @schools[n % 2]
           student
 
 
-every tick remove a random % from each school.  
+We now need our simulation to do something.  During each tick in the simulation (a generic time period that could represent terms, semesters, or years), a percentage of students graduate and leave the school.  These students are in turn replaced by new enrollments.  A certain percentage of those enrolling will be selective however. 
 
-A % cohort will be reset (graduate and enroll) and choose a new school.  If we are simulating selectivity, then any student with a better than average score will go to the higher performing school 
+[Note about selection].
 
-They choose a new school by 
+Of these selective students the best will enroll in the top performing school. [Note about school policies and how they can be modelled].
+
+The result is that the graduating cohort will be `reset` with some selectively reallocated.
 
 
     Simulation::graduate = () ->
@@ -93,21 +104,31 @@ They choose a new school by
         a + b
       @schools[1].score = total / one.length
 
-      @schools.sort (a, b) ->
-        b.score - a.score
+      [best, worst] = if @schools[0].score > @schools[1].score
+          [@schools[0], @schools[1]]
+        else 
+          [@schools[1], @schools[0]]
 
       @students.map (student) =>
         if Math.random() > 0.8
           student.ability = Math.random()
-          if Math.random() > 0.0
-            student.school = if student.ability > 0.5 then @schools[0] else @schools[1]
+          if Math.random() < @profile.selectivity
+            student.school = if student.ability > 0.5 then @schools[best.id] else @schools[worst.id]
+
+
+We also provide an accessor method for the simulation to trigger the teaching.
+
+
+    Simulation::teach = () ->
+      @students.map (student) ->
+        teach student
 
 
 ## Browser Code
 
-Extract the browser code section to an external file and included it.
+!! I should extract the browser code section to an external file and `require` it as it really doesn't add to the arguments.
 
-Now we need to display the simulation.  To make things look pretty, we will use the [D3.js library](http://d3js.org/) by Mike Bostock.  We will also set some global variables.
+Now we need to display the simulation.  To make things look pretty, we will use the [D3.js library](http://d3js.org/) by Mike Bostock.  We will also set some global variables from the browser.
 
 
     d3      = require './assets/d3.min.js'
@@ -115,15 +136,12 @@ Now we need to display the simulation.  To make things look pretty, we will use 
     width   = window.innerWidth - 25 || 600
 
 
-This is where we argue things out....
-
-
-Let's make the simulation conditional on a global `running` value so we can turn it on and off.
+We will be running multiple simulations in the browser so will need a way of rendering them graphically.  Here we create a method for building a canvas and adding click events.  When a simulation is clicked, the interval runner starts and fires every 1000 milliseconds.
 
 
     display = (id, params) ->
       runner = false
-      sim = new Simulation {}
+      sim = new Simulation params
       canvas = d3.select("##{id}")
         .append("svg:svg")
         .attr("height", height)
@@ -137,45 +155,44 @@ Let's make the simulation conditional on a global `running` value so we can turn
               tick()
             , 1000
 
+
+Next, we draw our simulation.  We will represent our students as coloured circles and school allocation by cartisian proximity using D3.js.
+
+
       draw = () ->
         render sim
         students = canvas.selectAll "circle"
           .data sim.students
         students.enter().append "circle"
           .style "fill", (student) ->
-            colour_on student, 'ability'
+            colour student, 'ability'
           .style "opacity", 0.5
           .attr "r", 8
           .attr "cx", (d) -> d.x
           .attr "cy", (d) -> d.y 
 
+
+Every cycle of the interval runner triggers the `tick()` function.  This method calls the model to teach, graduate and render.
+
+
       tick = () ->
+        sim.teach()
         sim.graduate()
         render sim
         circles = canvas.selectAll "circle"
         circles.transition()
-          .duration 900
-          .style "fill", (d) -> colour_on d, 'ability'
+          .duration 1000
+          .style "fill", (d) -> colour d, 'ability'
           .attr "cx", (d) -> d.x
           .attr "cy", (d) -> d.y
 
       draw()
 
 
-Let's make a colour function to add some visual oomph.......
+We will display student ability graphically using colour.  Blue represents high ability and red low ability.  With a little bit of maths, we can convert ability on a range of 0.0 to 1.0 to a hexidecimal representation of Red-Green-Blue colour.
 
-    gausian = (range) ->
-      Math.random()*range/8 + Math.random()*range/8 + Math.random()*range/8 - range/4
 
-    render = (object) ->
-      object.schools.map (school) ->
-        school.x = width * (0.25 + 0.5 * school.id)
-        school.y = height * 0.5
-      object.students.map (student) ->
-        student.x = gausian(width/1.2) + student.school.x
-        student.y = gausian(width/1.2) + student.school.y
-
-    colour_on = (d, attribute) ->
+    colour = (d, attribute) ->
       red = Math.floor( (1-d[attribute])*255 ).toString 16
       blue = Math.floor( d[attribute]*255   ).toString 16
       red = "0#{red}" if red.length is 1
@@ -183,41 +200,86 @@ Let's make a colour function to add some visual oomph.......
       "##{red}00#{blue}"
 
 
-We display the simulation with the following code which builds a simulation for a set of parameters in a particular location on the page.
+To graphically represent school enrollment, we create a guasian overlay so all students in the same school clump together. 
+
+    gausian = (range) ->
+      Math.random()*range/8 + Math.random()*range/8 + Math.random()*range/8 - range/4
 
 
+Finally, we need a way to update the position of the students on a cartisian plane.
 
 
+    render = (simulation) ->
+      simulation.schools.map (school) ->
+        school.x = width * (0.25 + 0.5 * school.id)
+        school.y = height * 0.5
+      simulation.students.map (student) ->
+        student.x = gausian(width/1.2) + student.school.x
+        student.y = gausian(width/1.2) + student.school.y
 
-## Argument & Examples
 
-The first simulation will go here.  Click on the simulation to start / stop it.
+## Pure Impact
+
+Let's start with a sanity check.  We will begin the simulations modelling two schools that have no educational impact in a system with no selectivity.  What we should observe is not significant change within and between schools. Random enrollment and student ability is doing all the work here.
+
+Click on the simulation to start / stop it.
 
 
-    display 'simulation-1', { 
+    display 'sanity-check-1', { 
       schools: [
-        {impact: 0.0, students: 0.5}, 
-        {impact: 0.5, students: 0.2}
-      ], 
-      movement: true
+        {impact: 0.0}, 
+        {impact: 0.0}
+      ],
+      selectivity: 0.0
     }
 
 
-<div id="simulation-1"></div>
+<div id="sanity-check-1"></div>
 
-And here is the second simulation here...
+In the second simulation we will model two schools - one with the maximal positive education impact and one with the maximal negative impact.  The latter school will make students dumber!  We will also stipulate a selectivity level of `0.0` so no students should change schools.
+
+Both schools start with a uniform random distribution of students.  At every tick, both schools will teach, thereby impacting the students ability, and a percentage will graduate and be replaced with a new cohort of uniform random ability.  If the simulation works as expected, one school should perform well, and another poorly. 
 
 
-    display 'simulation-2', { 
+    display 'sanity-check-2', { 
       schools: [
-        {impact: 0.0, students: 0.5}, 
-        {impact: 0.5, students: 0.2}
-      ], 
-      movement: true
+        {impact: 1.0}, 
+        {impact: -1.0}
+      ],
+      selectivity: 0.0
     }
 
 
-<div id="simulation-2"></div>
+<div id="sanity-check-2"></div>
+
+The simulation delivers the expected results.  We can have confidence in our code.  Yay us!
+
+
+## Shifting Averages
+
+What happens when schools have no impact but selectivity is present?  In this scenario, any changes in school performance are soley the result of shifting averages.  Both schools are identical teaching wise but as soon as a performance imballance arises, we should expect to see run away performance differences.
+
+
+    display 'simulation-shifting-averages-1', { 
+      schools: [
+        {impact: 0.0}, 
+        {impact: 0.0}
+      ],
+      selectivity: 1.0
+    }
+
+
+<div id="simulation-shifting-averages-1"></div>
+
+
+## Head Starts
+
+- simulation: skewed allocation with negative impact.
+- a negative impact school should still outperform a positive one given a skewed enough start with high ability students
+
+
+## Conclusion
+
 
 <script type="text/javascript" src="assets/d3.min.js"></script>
 <script type="text/javascript" src="assets/simulation.js"></script> 

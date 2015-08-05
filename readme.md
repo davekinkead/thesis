@@ -29,3 +29,9 @@ And some further assumptions to be trialed:
 My hypothesis is that desipite both schools having no causal impact on student performance, the combination of a proxy measure, student choice, and selective mechanisms will result in very different relative performance.
 
 In short, we can infer very little about school performance from student results.
+
+## TODO
+
+  - [] Fix simulation CSS position
+  - [] Add narrative outline
+  - [] Add dynamic parameters

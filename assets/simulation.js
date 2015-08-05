@@ -108,7 +108,7 @@ display = function(id, params) {
   var canvas, draw, runner, sim, tick;
   runner = false;
   sim = new Simulation(params);
-  canvas = d3.select("#" + id).append("svg:svg").attr("height", height * 0.8).attr("width", width).on("click", function() {
+  canvas = d3.select("#" + id).append("svg:svg").attr("height", Math.max(width * 0.4, height * 0.8)).attr("width", width).on("click", function() {
     if (runner) {
       clearInterval(runner);
       return runner = false;
@@ -117,6 +117,11 @@ display = function(id, params) {
         return tick();
       }, 1000);
     }
+  });
+  canvas.append('text').attr("y", function() {
+    return height * .7;
+  }).attr("x", function() {
+    return width * .35;
   });
   draw = function() {
     var students;
@@ -136,13 +141,14 @@ display = function(id, params) {
     sim.graduate();
     render(sim);
     circles = canvas.selectAll("circle");
-    return circles.transition().duration(1000).style("fill", function(d) {
+    circles.transition().duration(1000).style("fill", function(d) {
       return colour(d, 'ability');
     }).attr("cx", function(d) {
       return d.x;
     }).attr("cy", function(d) {
       return d.y;
     });
+    return canvas.select("text").text((sim.schools[0].score.toFixed(5)) + " - Average Student Ability - " + (sim.schools[1].score.toFixed(5)));
   };
   return draw();
 };
@@ -166,7 +172,7 @@ gausian = function(range) {
 
 render = function(simulation) {
   simulation.schools.map(function(school) {
-    school.x = width * (0.25 + 0.5 * school.id);
+    school.x = width * (0.3 + 0.5 * school.id);
     return school.y = height * 0.5;
   });
   return simulation.students.map(function(student) {
@@ -189,9 +195,9 @@ display('sanity-check-1', {
 display('sanity-check-2', {
   schools: [
     {
-      impact: 1.0
+      impact: 0.5
     }, {
-      impact: -1.0
+      impact: -0.5
     }
   ],
   selectivity: 0.0
@@ -205,7 +211,7 @@ display('simulation-shifting-averages-1', {
       impact: 0.0
     }
   ],
-  selectivity: 1.0
+  selectivity: 0.5
 });
 
 

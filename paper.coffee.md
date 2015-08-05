@@ -7,7 +7,7 @@ status: vomit draft
 
 # What does student performance tell us about school effectiveness?
 
-Assessing teacher and school performance has become increasingly prevelent in many education systems. But directly measuring the causal impact of a school or pedagogy on student academic ability is difficult. Instead, student performance is used as a proxy for school performance.
+Assessing teacher and school performance has become increasingly prevalent in many education systems. But directly measuring the causal impact of a school or pedagogy on student academic ability is difficult. Instead, student performance is used as a proxy for school performance.
 
 But what exactly can we infer about school performance from student performance? A computer simulation can provide some insight.
 
@@ -20,7 +20,7 @@ Neither school has any causal impact on a student's academic ability. Instead, a
   - Students want to go to the highest performing school.
   - Schools are selective where possible.
 
-My hypothesis is that desipite both schools having no causal impact on student performance, the combination of a proxy measure, student choice, and selective mechanisms will result in very different relative performance.
+My hypothesis is that despite both schools having no causal impact on student performance, the combination of a proxy measure, student choice, and selective mechanisms will result in very different relative performance.
 
 In short, we can infer very little about school performance from student results.
 
@@ -29,9 +29,19 @@ In short, we can infer very little about school performance from student results
 
 ## Introduction
 
+For many parents, choosing a the right school for their children is a weighty decision.  For policy makers too, determining which schools are performing and which are not has a significant bearing on education policy and funding.  For everyone interested in education, measuring school performance is important.
+
+But there's a challenge is measuring school performance.  We can't.  Sure we have lots of measures - NAPLAN, SATs, A-Levels - but they are measuring student performance rather than school performance.  Beyond individual students, what we are really interested in is the impact of schools on student performance.  Does policy X improve student outcomes better than policy Y? Are charter schools better for a student's education than regular schools.  Does paying for private schooling make a difference?
+
+Because we can never run a standardised controlled experiment and fully fix all relevant variables, our causal claims about school, rather than student performance are somewhat tenuous.  Our metrics for school performance are proxies, and as proxies they are subject to some significant constraints of information theory.
+
+What we have to do is use a proxy - student performance - to infer school performance... 
+
+
+
 - introduce the idea
 - quality and limit the claims
-- this is an argument for epistemic skepticism about school performance
+- this is an argument for epistemic scepticism about school performance
 
 
 ## School Performance
@@ -93,6 +103,11 @@ The result is that the graduating cohort will be `reset` with some selectively r
 
 
     Simulation::graduate = () ->
+
+
+First get average school performace.
+
+
       [zero, one] = [[], []]
       @students.map (student) ->
         zero.push student.ability if student.school.id is 0
@@ -104,10 +119,18 @@ The result is that the graduating cohort will be `reset` with some selectively r
         a + b
       @schools[1].score = total / one.length
 
+
+Now determine which school is better.
+
+
       [best, worst] = if @schools[0].score > @schools[1].score
           [@schools[0], @schools[1]]
         else 
           [@schools[1], @schools[0]]
+
+
+And then reset a percentage of each school and re-enroll selectively as needed.
+
 
       @students.map (student) =>
         if Math.random() > 0.8
@@ -144,8 +167,8 @@ We will be running multiple simulations in the browser so will need a way of ren
       sim = new Simulation params
       canvas = d3.select("##{id}")
         .append("svg:svg")
-        .attr("height", height*0.8)
-        .attr("width", width)
+        .attr "height", Math.max(width * 0.4, height * 0.8)
+        .attr "width", width
         .on "click", () ->
           if runner
             clearInterval runner
@@ -154,6 +177,9 @@ We will be running multiple simulations in the browser so will need a way of ren
             runner = setInterval () ->
               tick()
             , 1000
+      canvas.append('text')
+        .attr "y", () -> height * .7
+        .attr "x", () -> width * .35
 
 
 Next, we draw our simulation.  We will represent our students as coloured circles and school allocation by cartisian proximity using D3.js.
@@ -170,6 +196,7 @@ Next, we draw our simulation.  We will represent our students as coloured circle
           .attr "r", 8
           .attr "cx", (d) -> d.x
           .attr "cy", (d) -> d.y 
+        
 
 
 Every cycle of the interval runner triggers the `tick()` function.  This method calls the model to teach, graduate and render.
@@ -185,6 +212,8 @@ Every cycle of the interval runner triggers the `tick()` function.  This method 
           .style "fill", (d) -> colour d, 'ability'
           .attr "cx", (d) -> d.x
           .attr "cy", (d) -> d.y
+        canvas.select "text"
+          .text "#{sim.schools[0].score.toFixed(5)} - Average Student Ability - #{sim.schools[1].score.toFixed(5)}"
 
       draw()
 
@@ -211,7 +240,7 @@ Finally, we need a way to update the position of the students on a cartisian pla
 
     render = (simulation) ->
       simulation.schools.map (school) ->
-        school.x = width * (0.25 + 0.5 * school.id)
+        school.x = width * (0.3 + 0.5 * school.id)
         school.y = height * 0.5
       simulation.students.map (student) ->
         student.x = gausian(width/1.2) + student.school.x
@@ -243,8 +272,8 @@ Both schools start with a uniform random distribution of students.  At every tic
 
     display 'sanity-check-2', { 
       schools: [
-        {impact: 1.0}, 
-        {impact: -1.0}
+        {impact: 0.5}, 
+        {impact: -0.5}
       ],
       selectivity: 0.0
     }
@@ -265,7 +294,7 @@ What happens when schools have no impact but selectivity is present?  In this sc
         {impact: 0.0}, 
         {impact: 0.0}
       ],
-      selectivity: 1.0
+      selectivity: 0.5
     }
 
 
@@ -279,6 +308,9 @@ What happens when schools have no impact but selectivity is present?  In this sc
 
 
 ## Conclusion
+
+
+Unless you are controlling for selectivity, there is very little you can reliably infer from proxy measures like student performance.
 
 
 <script type="text/javascript" src="assets/d3.min.js"></script>

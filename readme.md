@@ -33,6 +33,8 @@ In short, we can infer very little about school performance from student results
 ## TODO
 
   - [] Add student initial distribtion function
+  - [] Extract browswer only code
+  - [] Tidy up simulation code
   - [x] Fix simulation CSS position
   - [x] Add narrative outline
   - [x] Add dynamic parameters

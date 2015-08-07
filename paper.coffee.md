@@ -63,24 +63,16 @@ We begin by modelling students.  Students are simple creatures who have an acade
       constructor: (@ability) ->
 
 
-Next we model schools.  Schools are modelled as collections of students upon whom they have some capacity for academic impact.  In short, schools teach students.  This impact results in a change in the students academic ability.  No claim is made to how this impact comes about such as via teacher performance or curricular changes.  The only stipulation is that the process of schooling is the sole causal mechanism of the model.  Schools also have an id so we can keep track of them.  
+Next we model schools.  Schools are modelled as collections of students upon whom they have some capacity for academic impact.  In short, schools teach students.  This impact results in a change in the students academic ability.  No claim is made to how this impact comes about such as via teacher performance or curricular changes.  The only stipulation is that the process of schooling is the sole causal mechanism of the model.  Schools also have an id so we can keep track of them. 
+
+The causal impact of a school on academic performance ranges from `-1.0`  to `1.0` and assumed to be fixed for the duration of the simulation.  What does this impact score relate to exactly? The model is agnostic here so this could represent actual impact on academic ability, relative impact, or even counter-factual impact - how the student's ability would have changed relatie to some mean of `0.0`.  
 
 
     class School
       constructor: (@id, @impact) ->
 
 
-The causal impact of a school on academic performance ranges from `-1.0`  to `1.0` and assumed to be fixed for the duration of the simulation.  What does this impact score relate to exactly? The model is agnostic here so this could represent actual impact on academic ability, relative impact, or even counter-factual impact - how the student's ability would have changed relatie to some mean of `0.0`. 
-
-
-    teach = (student) ->
-      student.ability = Math.min student.ability * (1 + student.school.impact), 1.0
-
-
-
-!! Need to fix this to place bounded limits on it.
-
-Finally, we create a class to encapusate the simulation itself.  We instantiate the simulation with a profile contain information about schools and student distribution.  We then use the profile to create the students and schools as desired.
+Finally, we create a class to encapusate the simulation itself.  We instantiate the simulation with a profile containing information about schools and student distribution.  We then use the profile to create the students and schools as desired.
 
 
     class Simulation
@@ -93,20 +85,29 @@ Finally, we create a class to encapusate the simulation itself.  We instantiate 
           student
 
 
-We now need our simulation to do something.  During each tick in the simulation (a generic time period that could represent terms, semesters, or years), a percentage of students graduate and leave the school.  These students are in turn replaced by new enrollments.  A certain percentage of those enrolling will be selective however. 
+Now need our simulation to do something.  Events in the simulation will occur during a generic time perior called a `tick`.  A tick can represent any fixed period of time such as a term, semester, or year.  During each tick schools will `teach` students, some students will `graduate`, and some new students will `enrol`.
+
+A school's educational impact on students will be modelled by the `teach` method where a schools `impact` value affects a students `ability` value.  This could be modelling in a variety of ways but for simplicity we will just apply a linear factor with the result constrainted between `0.0` and `1.0`.
+
+
+    Simulation::teach = () ->
+      @students.map (student) ->
+        student.ability = Math.min student.ability * (1 + student.school.impact), 1.0
+
+
+In each tick, a certain percentage of students will graduate from each school.  These students are then replaced by new enrolments.
+
+
+
 
 [Note about selection].
 
-Of these selective students the best will enroll in the top performing school. [Note about school policies and how they can be modelled].
+Of these selective students the best will enrol in the top performing school. [Note about school policies and how they can be modelled].
 
-The result is that the graduating cohort will be `reset` with some selectively reallocated.
+The result is that the graduating cohort will be `reset` with some selectively reallocated.  First we calculate the average student ability for each school.
 
 
     Simulation::graduate = () ->
-
-
-First get average school performace.
-
 
       [zero, one] = [[], []]
       @students.map (student) ->
@@ -129,7 +130,7 @@ Now determine which school is better.
           [@schools[1], @schools[0]]
 
 
-And then reset a percentage of each school and re-enroll selectively as needed.
+And then reset a percentage of each school and re-enrol selectively as needed.
 
 
       @students.map (student) =>
@@ -139,19 +140,11 @@ And then reset a percentage of each school and re-enroll selectively as needed.
             student.school = if student.ability > 0.5 then @schools[best.id] else @schools[worst.id]
 
 
-We also provide an accessor method for the simulation to trigger the teaching.
-
-
-    Simulation::teach = () ->
-      @students.map (student) ->
-        teach student
-
-
 ## Browser Code
 
 !! I should extract the browser code section to an external file and `require` it as it really doesn't add to the arguments.
 
-Now we need to display the simulation.  To make things look pretty, we will use the [D3.js library](http://d3js.org/) by Mike Bostock.  We will also set some global variables from the browser.
+Now we need to display the simulation somehow.  To make things look pretty, we will use the [D3.js library](http://d3js.org/) by Mike Bostock.  We will also set some global variables from the browser such as height and width.
 
 
     d3      = require './assets/d3.min.js'
@@ -159,7 +152,7 @@ Now we need to display the simulation.  To make things look pretty, we will use 
     width   = window.innerWidth - 25 || 600
 
 
-We will be running multiple simulations in the browser so will need a way of rendering them graphically.  Here we create a method for building a canvas and adding click events.  When a simulation is clicked, the interval runner starts and fires every 1000 milliseconds.
+We will be running multiple simulations in the browser so will need a way of creating different ones.  Here we define a `display` method for creating a simulation and binding it to a canvas with click events.  When a simulation canvas is clicked, the interval runner starts and calls the `tick` method every 1000 milliseconds.  We will also append the school averages in text form.
 
 
     display = (id, params) ->
@@ -182,24 +175,7 @@ We will be running multiple simulations in the browser so will need a way of ren
         .attr "x", () -> width * .35
 
 
-Next, we draw our simulation.  We will represent our students as coloured circles and school allocation by cartisian proximity using D3.js.
-
-
-      draw = () ->
-        render sim
-        students = canvas.selectAll "circle"
-          .data sim.students
-        students.enter().append "circle"
-          .style "fill", (student) ->
-            colour student, 'ability'
-          .style "opacity", 0.5
-          .attr "r", 8
-          .attr "cx", (d) -> d.x
-          .attr "cy", (d) -> d.y 
-        
-
-
-Every cycle of the interval runner triggers the `tick()` function.  This method calls the model to teach, graduate and render.
+In every tick cycle, we run call simulation's `teach` and `graduate` methods.  We then `render` the simulation to calcuate the x & y coordinates for the students, and update the canvas.
 
 
       tick = () ->
@@ -215,10 +191,26 @@ Every cycle of the interval runner triggers the `tick()` function.  This method 
         canvas.select "text"
           .text "#{sim.schools[0].score.toFixed(5)} - Average Student Ability - #{sim.schools[1].score.toFixed(5)}"
 
+
+Finally, we `draw` the students on the canvas.  We will represent our students as coloured circles and schools by student proximity.
+
+
+      draw = () ->
+        render sim
+        students = canvas.selectAll "circle"
+          .data sim.students
+        students.enter().append "circle"
+          .style "fill", (student) ->
+            colour student, 'ability'
+          .style "opacity", 0.5
+          .attr "r", 8
+          .attr "cx", (d) -> d.x
+          .attr "cy", (d) -> d.y 
+        
       draw()
 
 
-We will display student ability graphically using colour.  Blue represents high ability and red low ability.  With a little bit of maths, we can convert ability on a range of 0.0 to 1.0 to a hexidecimal representation of Red-Green-Blue colour.
+In the browser code above, we have relied on a few helper methods.  The first of these represents student ability graphically using colour.  Blue represents high ability and red low ability.  With a little bit of maths, we can convert ability on a range of 0.0 to 1.0 to a hexidecimal representation of Red-Green-Blue colour.
 
 
     colour = (d, attribute) ->
@@ -229,13 +221,7 @@ We will display student ability graphically using colour.  Blue represents high 
       "##{red}00#{blue}"
 
 
-To graphically represent school enrollment, we create a guasian overlay so all students in the same school clump together. 
-
-    gausian = (range) ->
-      Math.random()*range/8 + Math.random()*range/8 + Math.random()*range/8 - range/4
-
-
-Finally, we need a way to update the position of the students on a cartisian plane.
+To display students and indicate school enrolment by student proximity, we create a guasian overlay so all students in the same school clump together.  Each student is assigned a randomised position centred on their school.
 
 
     render = (simulation) ->
@@ -246,12 +232,13 @@ Finally, we need a way to update the position of the students on a cartisian pla
         student.x = gausian(width/1.2) + student.school.x
         student.y = gausian(width/1.2) + student.school.y
 
+    gausian = (range) ->
+      Math.random()*range/8 + Math.random()*range/8 + Math.random()*range/8 - range/4
+
 
 ## Pure Impact
 
-Let's start with a sanity check.  We will begin the simulations modelling two schools that have no educational impact in a system with no selectivity.  What we should observe is not significant change within and between schools. Random enrollment and student ability is doing all the work here.
-
-Click on the simulation to start / stop it.
+Let's start with a sanity check.  We will begin the simulations modelling two schools that have no educational impact in a system with no selectivity.  What we should observe is not significant change within and between schools. Random enrolment and student ability is doing all the work here.
 
 
     display 'sanity-check-1', { 
@@ -262,6 +249,8 @@ Click on the simulation to start / stop it.
       selectivity: 0.0
     }
 
+
+Click on the simulation to start / stop it.
 
 <div id="sanity-check-1"></div>
 
@@ -300,11 +289,56 @@ What happens when schools have no impact but selectivity is present?  In this sc
 
 <div id="simulation-shifting-averages-1"></div>
 
+## Performance is Relative
+
+A school can appear to be performing even when it is doing nothing (or even worse).  Its performance can improve because a worse performing school is nearby
+
+First with no selectivity.
+
+
+    display 'simulation-relative-1', { 
+      schools: [
+        {impact: -0.05}, 
+        {impact: -0.1}
+      ],
+      selectivity: 0.0
+    }
+
+
+<div id="simulation-relative-1"></div>
+
+
+Now with lots.
+
+
+    display 'simulation-relative-2', { 
+      schools: [
+        {impact: -0.05}, 
+        {impact: -0.1}
+      ],
+      selectivity: 1.0
+    }
+
+
+<div id="simulation-relative-2"></div>
 
 ## Head Starts
 
 - simulation: skewed allocation with negative impact.
 - a negative impact school should still outperform a positive one given a skewed enough start with high ability students
+
+!! Need to add initial student distribution
+
+
+    display 'simulation-head-start-1', { 
+      schools: [
+        {impact: -0.5}, 
+        {impact: 0.0}
+      ],
+      selectivity: 0.5
+    }
+
+<div id="simulation-head-start-1"></div>
 
 
 ## Conclusion

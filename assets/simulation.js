@@ -33,7 +33,6 @@ Simulation = (function() {
   function Simulation(profile) {
     var i, n, school, student;
     this.profile = profile;
-    this.cohort = this.profile.cohort || 0.2;
     this.schools = (function() {
       var j, len, ref, results;
       ref = this.profile.schools;
@@ -255,7 +254,7 @@ display('simulation-head-start-1', {
       impact: 0.25
     }
   ],
-  selectivity: 0.5,
+  selectivity: 0.0,
   skew: 0.75
 });
 

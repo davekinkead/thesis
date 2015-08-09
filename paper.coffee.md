@@ -11,7 +11,7 @@ status: terse public draft
 
 >  School choice is a reality in many education systems.  I demonstrate that whenever school selectivity or student choice is involved, our inferences from student performance to school performance are severely limited.
 
-> Written in [Literate Coffeescript](http://coffeescript.org/), this paper is simultaneously a philosophical argument and a computer simulation that demonstrates the argument.  You can both read the paper in raw form and execute the simulation that it discusses.  Installation and dependency requirements are explained in the appendix.
+> Written in [Literate Coffeescript](http://Coffeescript.org/), this paper is simultaneously a philosophical argument and a computer simulation that demonstrates the argument.  You can both read the paper in raw form and execute the simulation that it discusses.  Installation and dependency requirements are explained in the appendix.
 
 >  A terse public draft of a work-in-progress, comments and feedback are welcome directly in [the source](https://github.com/davekinkead/school-performance) or via email.  Specifically, I am interested in argument structure and whether the claims are understandable and entailed by the argument.  It will most likely be heavily rewritten so please don't bother with spelling & grammar comments just yet.
 
@@ -362,6 +362,15 @@ In many modern education systems, choice of school and school selectiveness is a
 
 In many other systems, however, school choice is prevalent.  In these systems, it seems like the student to school performance inference is rather dubious.  Without controlling for selectivity, there is very little you can reliably infer about school performance from proxy measures like student performance.
 
+---
+
+> Running your own simulation is easy.  You just need to specify the parameters and call `display(target-location, parameters)` and add a target location in HTML `id="target-location"`
+
+> Make sure you've got [Coffeescript](http://Coffeescript.org/), and therefore [node.js](https://nodejs.org/), installed.  To transpile the code, you'll need [Browserify](https://www.npmjs.com/package/browserify) and [Coffeeify](https://www.npmjs.com/package/coffeeify) to run the command `browserify -t coffeeify paper.coffee.md > assets/simulation.js`.  This will turn the paper into javascript.
+
+> The javascript just transpiled is now included back into the paper, which we transpile into HTML, and view in the browser.  You can use any markdown to HTML converter you like for this such as [Pandoc](http://pandoc.org/).
+
+> Coincidently, the Coffeescript transpiler is written in Coffeescript itself so we are using Coffeescript to transpile Coffeescript to transpite Coffeescript into javascript which is then used by the same transpiled Coffeescript.  How deliciously meta!
 
 <script type="text/javascript" src="assets/d3.min.js"></script>
 <script type="text/javascript" src="assets/simulation.js"></script> 

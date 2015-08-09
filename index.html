@@ -1,47 +1,799 @@
-<!doctype>
-<html>
+<!DOCTYPE html>  
+<html lang="en">
 <head>
-  <meta charset="utf8"/>
-  <title>What does student performance tell us about school effectiveness? | Dave Kinkead</title>
-  <link rel="stylesheet" type="text/css" media="all" href="assets/styles.css"/>
-  <link href='http://fonts.googleapis.com/css?family=Lato:400,900' rel='stylesheet' type='text/css'>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <title>paper.coffee</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+/*
+This document has been created with Marked.app <http://marked2app.com>
+Please leave this notice in place, along with any additional credits below.
+---------------------------------------------------------------
+Title: Leviathan
+Author: Dave Kinkead <http://dave.kinkead.com.au>
+Description: A font focused theme inspired by Hobbes
+*/
+
+@font-face {
+font-family: 'Vollkorn';
+font-style: normal;
+font-weight: 400;
+src: local('Vollkorn Regular'), local('Vollkorn-Regular'), url(http://fonts.gstatic.com/s/vollkorn/v6/idGKtgpe38okB6bfeHMsLHYhjbSpvc47ee6xR_80Hnw.woff2) format('woff2'), url(http://fonts.gstatic.com/s/vollkorn/v6/BCFBp4rt5gxxFrX6F12DKnYhjbSpvc47ee6xR_80Hnw.woff) format('woff');
+}
+@font-face {
+font-family: 'Vollkorn';
+font-style: normal;
+font-weight: 700;
+src: local('Vollkorn Bold'), local('Vollkorn-Bold'), url(http://fonts.gstatic.com/s/vollkorn/v6/wMZpbUtcCo9GUabw9JODeogp9Q8gbYrhqGlRav_IXfk.woff2) format('woff2'), url(http://fonts.gstatic.com/s/vollkorn/v6/wMZpbUtcCo9GUabw9JODerrIa-7acMAeDBVuclsi6Gc.woff) format('woff');
+}
+@font-face {
+font-family: 'Vollkorn';
+font-style: italic;
+font-weight: 400;
+src: local('Vollkorn Italic'), local('Vollkorn-Italic'), url(http://fonts.gstatic.com/s/vollkorn/v6/Oiz0tNwvC-Nd29SBQWfWTAzyDMXhdD8sAj6OAJTFsBI.woff2) format('woff2'), url(http://fonts.gstatic.com/s/vollkorn/v6/Oiz0tNwvC-Nd29SBQWfWTL3hpw3pgy2gAi-Ip7WPMi0.woff) format('woff');
+}
+@font-face {
+font-family: 'Vollkorn';
+font-style: italic;
+font-weight: 700;
+src: local('Vollkorn Bold Italic'), local('Vollkorn-BoldItalic'), url(http://fonts.gstatic.com/s/vollkorn/v6/KNiAlx6phRqXCwnZZG51JGaVI6zN22yiurzcBKxPjFE.woff2) format('woff2'), url(http://fonts.gstatic.com/s/vollkorn/v6/KNiAlx6phRqXCwnZZG51JHbFhgvWbfSbdVg11QabG8w.woff) format('woff');
+}
+
+
+body {
+-webkit-font-smoothing: antialiased;
+font-family: "Vollkorn", sans-serif;
+font-weight: normal;
+font-size: 0.8764em / 1.75em;
+margin: 0;
+padding: 0;
+}
+
+li {
+  font-size: 110%; }
+li li {
+  font-size: 100%; }
+li p {
+  font-size: 100%;
+  margin: .5em 0; }
+
+h2, h3, h4, h5, h6 {
+font-weight: normal; }
+
+h1 {
+color: #111;
+font-size: 2.5em;
+font-weight: bold;
+line-height: 1.1em;
+margin: .6563em 0; 
+text-transform: capitalize;}
+
+h2 {
+color: #111;
+font-size: 1.7143em;
+line-height: 1.2em;
+margin: .875em 0; }
+
+h1, h2, h3 {
+text-align: center;
+padding: .3em 0; }
+
+h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
+color: #003057; }
+
+h2:before {
+content: "\2015  ";
+font-weight: normal;
+color: #aaa; }
+h2:after {
+content: "  \2015";
+font-weight: normal;
+color: #aaa; }
+
+h3 {
+color: #111;
+font-size: 2.5em;
+line-height: 1.2em;
+margin: .9em 0; }
+
+h4 {
+color: #111;
+font-size: 2.25em;
+line-height: 1.2em;
+margin: .3em 0; }
+
+h5 {
+color: #111;
+font-size: 2em;
+line-height: 1.2em;
+margin: .3em 0; }
+
+h6 {
+font-size: 1.5em;
+line-height: 1.2em;
+margin: .3em 0; }
+
+body, p, div {
+color: #222;
+word-wrap: break-word; 
+line-height: 1.6;
+max-width: 100%;
+}
+
+a {
+-webkit-transition: color .2s ease-in-out;
+-moz-transition: color .2s ease-in-out;
+-o-transition: color .2s ease-in-out;
+-ms-transition: color .2s ease-in-out;
+transition: color .2s ease-in-out;
+color: #004e8c;
+text-decoration: none; }
+a:hover {
+  color: #3593d9; }
+
+/*h2 em
+{
+
+color: #111;
+
+padding-left: 10px;
+
+text-shadow: 0 1px 0 #FFF
+}
+
+*/
+.footnote {
+color: #0d6ea1;
+font-size: .8em;
+vertical-align: super; }
+
+#wrapper img {
+max-width: 100%;
+height: auto; }
+
+dd {
+margin-bottom: 1em; }
+
+li > p:first-child {
+margin: 0; }
+
+ul ul, ul ol {
+margin-bottom: .4em; }
+ul ul {
+list-style: disc; }
+ul ul ul {
+  list-style: square; }
+  ul ul ul ul {
+    list-style: circle; }
+
+table {
+margin-bottom: 2em;
+padding: 0;
+font-size: 14px;
+border-collapse: collapse;
+-webkit-box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.35);
+-moz-box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.35);
+box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.35);
+width: 70%;
+margin: 0 auto 2em auto;
+border: 1px solid #ddd;
+border-collapse: separate;
+*border-collapse: collapse;
+/* IE7, collapse table to remove spacing */
+-webkit-border-radius: 4px;
+-moz-border-radius: 4px;
+border-radius: 4px; }
+table caption, table col, table colgroup, table table, table tbody, table td, table tfoot, table th, table thead, table tr {
+  border-spacing: 0;
+  font-family: OSPDIN,Helvetica,Arial,sans-serif;
+  font-weight: 400;
+  font-size: 24px; }
+table caption {
+  display: table-caption;
+  font-weight: 400;
+  font-size: 18px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-family: LeagueGothic;
+  word-spacing: .2em;
+  background: rgba(0, 0, 0, 0.75);
+  color: #EEE;
+  padding: 4px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  margin: 4px 0;
+  -webkit-box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.35);
+  -moz-box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.35);
+  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.35); }
+table col {
+  display: table-column; }
+table colgroup {
+  display: table-column-group; }
+table tbody {
+  display: table-row-group; }
+table tfoot {
+  display: table-footer-group; }
+table th, table td {
+  padding: 10px 10px 9px;
+  line-height: 18px;
+  text-align: left; }
+table th {
+  padding-top: 9px;
+  font-family: LeagueGothic;
+  font-size: 18px;
+  font-weight: normal !important;
+  text-transform: uppercase;
+  vertical-align: middle; }
+table td {
+  vertical-align: top;
+  border-top: 1px solid #ddd;
+  font-family: fjord,georgia,serif;
+  font-size: 14px !important; }
+table tbody th {
+  border-top: 1px solid #ddd;
+  vertical-align: top; }
+table th + th, table td + td, table th + td {
+  border-left: 1px solid #ddd; }
+table thead tr:first-child th:first-child, table tbody tr:first-child td:first-child {
+  -webkit-border-radius: 4px 0 0 0;
+  -moz-border-radius: 4px 0 0 0;
+  border-radius: 4px 0 0 0; }
+table thead tr:first-child th:last-child {
+  -webkit-border-radius: 0 4px 0 0;
+  -moz-border-radius: 0 4px 0 0;
+  border-radius: 0 4px 0 0; }
+table tr:nth-child(odd), table th:nth-child(odd), table td:nth-child(odd) {
+  background: rgba(255, 255, 255, 0.06); }
+table tr:nth-child(even), table td:nth-child(even) {
+  background: rgba(0, 0, 0, 0.06); }
+table tbody tr:first-child td:last-child {
+  -webkit-border-radius: 0 4px 0 0;
+  -moz-border-radius: 0 4px 0 0;
+  border-radius: 0 4px 0 0; }
+table tbody tr:last-child td:first-child {
+  -webkit-border-radius: 0 0 0 4px;
+  -moz-border-radius: 0 0 0 4px;
+  border-radius: 0 0 0 4px; }
+table tbody tr:last-child td:last-child {
+  -webkit-border-radius: 0 0 4px 0;
+  -moz-border-radius: 0 0 4px 0;
+  border-radius: 0 0 4px 0; }
+table tbody tr:nth-child(odd) {
+  background-color: rgba(0, 0, 0, 0.03); }
+
+figure {
+display: inline-block;
+position: relative;
+margin: 1em 0 2em; }
+
+figcaption {
+font-style: italic;
+text-align: center;
+background: white;
+color: #444;
+position: absolute;
+left: 0;
+bottom: -24px;
+width: 98%;
+padding: 1%;
+-webkit-transition: all .2s ease-in-out;
+-moz-transition: all .2s ease-in-out;
+-o-transition: all .2s ease-in-out;
+-ms-transition: all .2s ease-in-out;
+transition: all .2s ease-in-out; }
+
+ul {
+list-style: circle; }
+
+.poetry pre {
+display: block;
+font-family: Georgia, Garamond, serif !important;
+font-size: 110% !important;
+font-style: italic;
+line-height: 1.6em;
+margin-left: 1em; }
+.poetry pre code {
+  font-family: Georgia, Garamond, serif !important;
+  word-break: break-all;
+  word-break: break-word;
+  /* Non standard for webkit */
+  -webkit-hyphens: auto;
+  -moz-hyphens: auto;
+  hyphens: auto;
+  white-space: pre-wrap; }
+
+blockquote p {
+font-size: 110%;
+font-style: italic;
+line-height: 1.6em; }
+
+sup, sub, a.footnote {
+font-size: 1.4ex;
+height: 0;
+line-height: 1;
+position: relative;
+vertical-align: super; }
+
+sub {
+vertical-align: sub;
+top: -1px; }
+
+p {
+font-size: 1.1429em;
+line-height: 1.3125em;
+margin: 1.3125em 0; }
+
+dt, th {
+font-weight: 400; }
+
+dt {
+font-weight: 600; }
+
+pre, code, tt {
+color: #8b8074;
+font-family: "Courier New", monospace;
+font-size: 0.9rem;
+font-weight: bold;
+text-align: left;
+margin: 2em 0;
+font-weight: normal; }
+
+p code, li code {
+font-size: 14px; }
+
+tt {
+display: block;
+margin: 1.5em 0;
+line-height: 1.5; }
+
+span.amp {
+font-family: Baskerville, Palatino, "Book Antiqua", serif;
+font-style: italic; }
+
+code {
+background: #fff;
+border: 1px solid #ddd;
+padding: 2px;
+-webkit-border-radius: 4px;
+-moz-border-radius: 4px;
+border-radius: 4px;
+color: #222; }
+
+pre code {
+  border: none; 
+  overflow: scroll;
+  max-width: 95%;
+}
+
+@media screen {
+::selection {
+  background-color: rgba(101, 207, 255, 0.3); }
+
+h1::selection {
+  background-color: rgba(45, 156, 208, 0.3); }
+
+h2::selection {
+  background-color: rgba(90, 182, 224, 0.3); }
+
+h3::selection, h4::selection, h5::selection, h6::selection {
+  background-color: rgba(133, 201, 232, 0.3); }
+
+code::selection {
+  background-color: #333;
+  color: #eee; }
+code span::selection {
+  background-color: #333 !important;
+  color: #eee !important; }
+
+a::selection {
+  background-color: rgba(255, 230, 102, 0.5); }
+
+td::selection, th::selection, caption::selection {
+  background-color: rgba(180, 237, 95, 0.5); }
+
+.inverted {
+  background: #252a2a; }
+  .inverted #wrapper {
+    background: #252a2a; }
+  .inverted hr {
+    border-color: #333f40 !important; }
+  .inverted p, .inverted td, .inverted li, .inverted h1, .inverted h2, .inverted h3, .inverted h4, .inverted h5, .inverted h6, .inverted th, .inverted .math, .inverted caption, .inverted dd, .inverted dt {
+    color: #eee !important; }
+  .inverted h2, .inverted h3 {
+    border-color: rgba(200, 200, 200, 0.3); }
+  .inverted code {
+    background: #444;
+    padding: 2px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    color: #eee; }
+  .inverted pre code {
+    background: #f5f5f5;
+    padding: 7px;
+    color: #111; }
+  .inverted table tr:nth-child(odd), .inverted table th:nth-child(odd), .inverted table td:nth-child(odd) {
+    background: none; }
+  .inverted a {
+    color: #94dbff; }
+
+#wrapper {
+  padding: 20px; } 
+}
+
+path {
+stroke-width: 1;
+fill: none;
+}
+
+.axis {
+shape-rendering: crispEdges;
+}
+
+.x.axis line {
+stroke: lightgrey;
+}
+
+.x.axis .minor {
+stroke-opacity: .5;
+}
+
+.x.axis path {
+display: none;
+}
+
+.y.axis line, .y.axis path {
+fill: none;
+stroke: #000;
+}
+
+@media print {
+  body {
+    overflow: auto; 
+    font-size: 12px;
+    padding: 0 1em;
+  }
+
+  p {
+    line-height: 1.75em;
+  }
+
+  i {
+    font-weight: regular;
+  }
+
+  img, pre, blockquote, table, figure {
+    page-break-inside: avoid; 
+  }
+
+  #wrapper {
+    background: #fff;
+    color: #303030;
+    font-size: 85%;
+    padding: 10px;
+    position: relative;
+    text-indent: 0; 
+  } 
+
+  code {
+    font-size: 10px;
+    line-height: 1em;
+    border: none;
+  }
+
+  p code {
+    font-size: 10px;
+  }
+}
+
+h1, h2, h3, h4, h5, h6, p, ul, ol, img, pre {
+  max-width: 700px;
+  margin: 1em auto;
+}
+pre {
+  margin: 2em auto;
+  font-size: 90%;
+  line-height: 1.4em;
+}
+hr {
+  margin: 4em auto;
+  max-width: 700px;
+}
+</style>
+
 </head>
-<body>
-  <div id="info">
-	  <h1>What does student performance <br />tell us about school effectiveness?</h1>
+<body class="normal">
+  <div id="wrapper">
+      <h1 id="what-does-student-performance-tell-us-about-school-effectiveness">What does student performance tell us about school effectiveness?</h1>
+<blockquote>
+<p>This is an argument for epistemic scepticism about school performance measurement. Measuring school performance is important for many of us but because we can only use student performance as a proxy for school performance, we should be careful about what we infer from one to the other.</p>
+</blockquote>
+<blockquote>
+<p>School choice is a reality in many education systems. I demonstrate that whenever school selectivity or student choice is involved, our inferences from student performance to school performance are severely limited.</p>
+</blockquote>
+<blockquote>
+<p>Written in <a href="http://Coffeescript.org/">Literate Coffeescript</a>, this paper is simultaneously a philosophical argument and a computer simulation that demonstrates the argument. You can both read the paper in raw form and execute the simulation that it discusses. Installation and dependency requirements are explained in the appendix.</p>
+</blockquote>
+<blockquote>
+<p>A terse public draft of a work-in-progress, comments and feedback are welcome directly in <a href="https://github.com/davekinkead/school-performance">the source</a> or via email. Specifically, I am interested in argument structure and whether the claims are understandable and entailed by the argument. It will most likely be heavily rewritten so please don't bother with spelling &amp; grammar comments just yet.</p>
+</blockquote>
+<h2 id="introduction">Introduction</h2>
+<p>Measuring school performance is critical to many educational endeavours. Parents want to know which school will best educate their children; principles want to know if their leadership makes a difference; politicians and bureaucrats want to know if their policies work.</p>
+<p>Of course, this assumes we know what <em>school performance</em> means. Depending on who is asked, the phenomena that school performance measures, and the metrics by which it is measured, will likely be different. For some parents, school performance might mean the change in likelihood that their progeny is admitted tom some prestigious university. For some policy makers, school performance might mean the delivery cost for achieving particular standardised test scores. For many people however, school performance will typically mean the impact of some educational process on a student's <em>academic performance</em>.<a href="#fn1" class="footnoteRef" id="fnref1"><sup>1</sup></a></p>
+<hr />
+<p>One significant challenge of measuring school performance is that we can't measure it directly. School performance isn't something corporal or tactile that can be prodded and poked. School performance isn't real at all. It is the description we give to some causal process that affects things that do exist - students. Because we can't measure school performance directly, we must therefore use some proxy - student performance. We <em>infer</em> school performance by <em>observing</em> student performance, whether through examinations, continuous assessment, or some other measurement.</p>
+<p>But just how warranted is this inference? In some scenarios, inferring school performance from student performance is justified. In many other scenarios however, we have serious grounds for scepticism. And one such scenario is when some form of school selection is present. In this paper, I demonstrate how school choice - whether by student choice or school selectivity, make the inference from student to school performance very suspect.</p>
+<h2 id="methodology">Methodology</h2>
+<p>The measurement of school performance is now ubiquitous. NAPLAN, SATs, GCSEs - every modern education system today uses some form of school performance measurement. Yet none of these directly measure school performance. Instead, they measure the academic performance of collections of students to then <em>infer</em> school performance.</p>
+<p>But just how well does student performance act as a proxy for school performance. One way to examine this is with a computer simulation. Computer simulation allows us to stipulate school performance in our artificial reality and examine how well our proxy measures reflect it. If our proxy measures perform poorly in our controlled artificial reality, then they will also perform poorly in actual reality whenever similar conditions are present.</p>
+<p>Below, we will construct a simple agent-based model of school and student performance. We will simulate 1000 students of uniformly random ability, split into two schools and examine how four variables, student ability, school impact, and selectivity and skewness, combine to undermine any inference from student to school performance.</p>
+<p>Because the computer code is embedded within the argument, all of the assumptions of the model are explicit and open. The most important of these can be summarised as:</p>
+<ol type="1">
+<li>Students, if they can choose their school, will choose the perceived highest performing one.</li>
+<li>Schools, if they can be selective, will admit the highest ability students first.</li>
+</ol>
+<p>During the simulation, schools will teach students, increasing or decreasing student ability according to the school's impact. Some students will graduate and be replaced with new students of uniformly random ability. Depending on the selectivity parameter of the particular simulation, more of the higher ability enrolling students will enrol in the higher performing school.</p>
+<h2 id="model">Model</h2>
+<p>We begin by modelling students. Students are simple creatures who have an academic ability measured from <code>0.0</code> to <code>1.0</code>. This ability is randomly generated and is centred around a stipulated mean. No claim is made to how this relates to IQ, EQ, drive, knowledge, etc. but the value is absolute rather than relative.</p>
+<pre><code>class Student
+  constructor: (mean=0.5) -&gt;
+    @ability = Math.random()</code></pre>
+<p>Next we model schools. Schools are modelled as collections of students upon whom they have some capacity for academic impact. In short, schools teach students. This impact results in a change in the students academic ability. No claim is made to how this impact comes about such as via teacher performance or curricular changes. The only stipulation is that the process of schooling is the sole causal mechanism of the model. Schools also have an id so we can keep track of them.</p>
+<p>The causal impact of a school on academic performance ranges from <code>-1.0</code> to <code>1.0</code> and assumed to be fixed for the duration of the simulation. What does this impact score relate to exactly? The model is agnostic here so this could represent actual impact on academic ability, relative impact, or even counter-factual impact - how the student's ability would have changed relate to some mean of <code>0.0</code>.</p>
+<pre><code>class School
+  constructor: (@id, @impact) -&gt;</code></pre>
+<p>Finally, we create a class to encapsulate the simulation itself. We instantiate the simulation with a profile containing information about schools and student distribution. We then use the profile to create the students and schools as desired.</p>
+<pre><code>class Simulation
+  constructor: (@profile) -&gt;
+    @schools = for school, i in @profile.schools
+        new School(i, school.impact)
+    @students = for n in [1..1000]
+      student = new Student()
+      student.school = enrol student, @schools, @profile.skew
+      student</code></pre>
+<p>The initial distribution of students in schools is determined stochastically but tempered by any specified skewness in the simulation. The default <code>skew</code> value is <code>0.5</code> meaning that 50% of above average students are assigned to the first school, and 50% to the second. A <code>skew</code> value of <code>0.75</code> would see the first school assigned 50% of the above average students and 25% assigned to the second.</p>
+<pre><code>enrol = (student, schools, skew=0.5) =&gt;
+  choice = if student.ability &gt; 0.5
+    if Math.random() &lt; skew then 0 else 1
+  else
+    if Math.random() &gt; skew then 0 else 1
+  schools[choice]</code></pre>
+<p>Now need our simulation to do something. Events in the simulation will occur during a generic time perior called a <code>tick</code>. A tick can represent any fixed period of time such as a term, semester, or year. During each tick schools will <code>teach</code> students, some students will <code>graduate</code>, and some new students will <code>enrol</code>.</p>
+<p>A school's educational impact on students will be modelled by the <code>teach</code> method where a schools <code>impact</code> value affects a students <code>ability</code> value. This could be modelling in a variety of ways but for simplicity we will just apply a linear factor with the result constrained between <code>0.0</code> and <code>1.0</code>.</p>
+<pre><code>Simulation::teach = () -&gt;
+  @students.map (student) -&gt;
+    student.ability = Math.min student.ability * (1 + student.school.impact * 0.2), 1.0</code></pre>
+<p>In each tick, a certain percentage of students will graduate from each school. These students are then replaced by new enrolments. This will be modelled by re-randomising the graduating students ability. First we calculate the average student performance for each school during the last tick to determine which school is better.</p>
+<pre><code>Simulation::graduate = () -&gt;
+  [zero, one] = [[], []]
+  @students.map (student) -&gt;
+    zero.push student.ability if student.school.id is 0
+    one.push student.ability if student.school.id is 1
+  total = zero.reduce (a, b) -&gt;
+    a + b
+  @schools[0].score = total / zero.length
+  total = one.reduce (a, b) -&gt;
+    a + b
+  @schools[1].score = total / one.length
+  [best, worst] = if @schools[0].score &gt; @schools[1].score
+      [@schools[0], @schools[1]]
+    else 
+      [@schools[1], @schools[0]]</code></pre>
+<p>Next we replace the graduating students with new students of uniformly random ability. Depending on the selectivity parameter, some of them will want to enrol in the higher performing school. Given the model's assumptions, schools will select the highest ability students first.</p>
+<pre><code>  @students.map (student) =&gt;
+    if Math.random() &gt; 0.8
+      student.ability = Math.random()
+      if Math.random() &lt; @profile.selectivity
+        student.school = if student.ability &gt; 0.5 then @schools[best.id] else @schools[worst.id]</code></pre>
+<h2 id="browser-code">Browser Code</h2>
+<p>!! I would like to extract this browser code section to an external file and <code>require</code> it as it really doesn't add to the arguments. There are some challenges to this so I will leave it in for now.</p>
+<p>Now we need to display the simulation somehow. To make things look pretty, we will use the <a href="http://d3js.org/">D3.js library</a> by Mike Bostock. We will also set some global variables from the browser such as height and width.</p>
+<pre><code>d3      = require &#39;./assets/d3.min.js&#39;
+height  = window.innerHeight - 25 || 600
+width   = window.innerWidth - 25 || 600</code></pre>
+<p>We will be running multiple simulations in the browser so will need a way of creating different ones. Here we define a <code>display</code> method for creating a simulation and binding it to a canvas with click events. When a simulation canvas is clicked, the interval runner starts and calls the <code>tick</code> method every 1000 milliseconds. We will also append the school averages in text form.</p>
+<pre><code>display = (id, params) -&gt;
+  runner = false
+  sim = new Simulation params
+  canvas = d3.select(&quot;##{id}&quot;)
+    .append(&quot;svg:svg&quot;)
+    .attr &quot;height&quot;, Math.max(width * 0.4, height * 0.8)
+    .attr &quot;width&quot;, width
+    .on &quot;click&quot;, () -&gt;
+      if runner
+        clearInterval runner
+        runner = false
+      else 
+        runner = setInterval () -&gt;
+          tick()
+        , 1000
+  canvas.append(&#39;text&#39;)
+    .attr &quot;y&quot;, () -&gt; height * .7
+    .attr &quot;x&quot;, () -&gt; width * .35</code></pre>
+<p>In every tick cycle, we run call simulation's <code>teach</code> and <code>graduate</code> methods. We then <code>render</code> the simulation to calculate the x &amp; y coordinates for the students, and update the canvas.</p>
+<pre><code>  tick = () -&gt;
+    sim.teach()
+    sim.graduate()
+    render sim
+    circles = canvas.selectAll &quot;circle&quot;
+    circles.transition()
+      .duration 1000
+      .style &quot;fill&quot;, (d) -&gt; colour d, &#39;ability&#39;
+      .attr &quot;cx&quot;, (d) -&gt; d.x
+      .attr &quot;cy&quot;, (d) -&gt; d.y
+    canvas.select &quot;text&quot;
+      .text &quot;#{sim.schools[0].score.toFixed(5)} - Average Student Ability - #{sim.schools[1].score.toFixed(5)}&quot;</code></pre>
+<p>Finally, we <code>draw</code> the students on the canvas. We will represent our students as coloured circles and schools by student proximity.</p>
+<pre><code>  draw = () -&gt;
+    render sim
+    students = canvas.selectAll &quot;circle&quot;
+      .data sim.students
+    students.enter().append &quot;circle&quot;
+      .style &quot;fill&quot;, (student) -&gt;
+        colour student, &#39;ability&#39;
+      .style &quot;opacity&quot;, 0.5
+      .attr &quot;r&quot;, 8
+      .attr &quot;cx&quot;, (d) -&gt; d.x
+      .attr &quot;cy&quot;, (d) -&gt; d.y 
+    
+  draw()</code></pre>
+<p>In the browser code above, we have relied on a few helper methods. The first of these represents student ability graphically using colour. Blue represents high ability and red low ability. With a little bit of maths, we can convert ability on a range of 0.0 to 1.0 to a hexadecimal representation of Red-Green-Blue colour.</p>
+<pre><code>colour = (d, attribute) -&gt;
+  red = Math.floor( (1-d[attribute])*255 ).toString 16
+  blue = Math.floor( d[attribute]*255   ).toString 16
+  red = &quot;0#{red}&quot; if red.length is 1
+  blue = &quot;0#{blue}&quot; if blue.length is 1 
+  &quot;##{red}00#{blue}&quot;</code></pre>
+<p>To display students and indicate school enrolment by student proximity, we create a Gaussian overlay so all students in the same school clump together. Each student is assigned a randomised position centred on their school.</p>
+<pre><code>render = (simulation) -&gt;
+  simulation.schools.map (school) -&gt;
+    school.x = width * (0.3 + 0.5 * school.id)
+    school.y = height * 0.5
+  simulation.students.map (student) -&gt;
+    student.x = gausian(width/1.2) + student.school.x
+    student.y = gausian(width/1.2) + student.school.y
 
-    <p>Assessing teacher and school performance has become increasingly prevelent in many education systems.  But directly measuring the causal impact of a school or pedagogy on student academic ability is difficult.  Instead, student performance is used as a proxy for school performance.</p>
+gausian = (range) -&gt;
+  Math.random()*range/8 + Math.random()*range/8 + Math.random()*range/8 - range/4</code></pre>
+<h2 id="pure-impact">Pure Impact</h2>
+<p>It's time to run the simulations but first, let's start with a sanity check. We will begin with 1000 students of uniform random ability split evenly into two schools that have no educational impact, in a system with no selectivity. What we <em>should</em> observe is no significant change within and between schools. Random enrolment and student ability is doing all the work here.</p>
+<pre><code>display &#39;sanity-check-1&#39;, { 
+  schools: [{impact: 0.0}, {impact: 0.0}],
+  selectivity: 0.0
+}</code></pre>
+<p>Click on the simulation at any time to start / stop it.</p>
+<figure>
+<div id="sanity-check-1">
 
-    <p>But what exactly can we infer about school performance from student performance?  A computer simulation can provide some insight.</p>
+</div>
+<figcaption>
+Simulation 1: No impact, no selectivity.
+</figcaption>
+</figure>
+<p>Good. The results are as expected. During each tick, the schools <code>teach</code> method has no impact on student ability, some students graduate and are replaced with new students. As such, school performance, measures by average student ability, remains close to 0.5.</p>
+<p>Next, we will model the same students in two schools, this time one with positive education impact and one with negative impact, again with no selectivity. While both schools will start with similar student ability levels, the <code>teach</code> method <em>should</em> see performance in the first school increase while it decreases in the second.</p>
+<pre><code>display &#39;sanity-check-2&#39;, { 
+  schools: [{impact: 0.5}, {impact: -0.5}],
+  selectivity: 0.0
+}</code></pre>
+<figure>
+<div id="sanity-check-2">
 
-    <p>Two schools are populated with a random allocation of students of differing ability.  High academic ability students are blue, low ability students are red.</p>
+</div>
+<figcaption>
+Simulation 2: School impact, no selectivity.
+</figcaption>
+</figure>
+<p>Again, the simulation delivers the expected results. In both cases, the simulation performed as expected and our inference from student performance to school performance is warranted.</p>
+<h2 id="shifting-averages">Shifting Averages</h2>
+<p>What happens when selectivity is introduced? In the next scenario, we take parameters of Simulation 1 - no school impact - but introduce selectivity into the model. Because both schools are identical in terms of their causal impact, any changes are the result of school choice.</p>
+<pre><code>display &#39;simulation-shifting-averages-1&#39;, { 
+  schools: [{impact: 0.0}, {impact: 0.0}],
+  selectivity: 0.5
+}</code></pre>
+<figure>
+<div id="simulation-shifting-averages-1">
 
-    <p>Neither school has any causal impact on a student's academic ability.  Instead, at the end of each year, students choose which school they wish to attend based on their perception of school performance.  We make the following assumptions:</p>
+</div>
+<figcaption>
+Simulation 3: No impact but with selectivity.
+</figcaption>
+</figure>
+<p>While both schools' performance is similar when the simulation begins, any minor imbalance in relative performance caused by random variation in new student ability results in a run-away effect. As soon as one school is perceived to perform better than others, school selectivity ensures that students who can choose schools, choose the school with the higher percentage of high ability students.</p>
+<p>Recall that the impact of schools is stipulated as zero. The significant differences in school performance are completely explained by selectivity.</p>
+<h2 id="performance-is-relative">Performance is Relative</h2>
+<p>The previous simulation showed how significant performances differences can arise even when schools are causally identical. The next simulations demonstrate how a school with negative educational impact can appear to positively impact student ability.</p>
+<p>Let's begin with two schools with negative impact of differing levels but with no selectivity present. In this case the average performance of both schools should decrease, propped up only by new enrolments whose average ability is <code>0.5</code>.</p>
+<pre><code>display &#39;simulation-relative-1&#39;, { 
+  schools: [{impact: -0.25}, {impact: -0.5}],
+  selectivity: 0.0
+}</code></pre>
+<figure>
+<div id="simulation-relative-1">
 
-    <ul>
-      <li>School performance is measured by student performance.</li>
-      <li>Students (or schools) don't know that schools have no causal impact.</li>
-      <li>Students want to go to the highest performing school.</li>
-      <li>Schools are selective where possible.</li>
-    </ul>
+</div>
+<figcaption>
+Simulation 4: Negative impact, no selectivity.
+</figcaption>
+</figure>
+<p>Now, we introduce selectivity to the same schools and students.</p>
+<pre><code>display &#39;simulation-relative-2&#39;, { 
+  schools: [{impact: -0.25}, {impact: -0.5}],
+  selectivity: 1.0
+}</code></pre>
+<figure>
+<div id="simulation-relative-2">
 
-    <p>My hypothesis is that desipite both schools having no causal impact on student performance, the combination of a proxy measure, student choice, and selective mechanisms will result in very different relative performance.</p>
+</div>
+<figcaption>
+Simulation 5: Negative impact with selectivity.
+</figcaption>
+</figure>
+<p>With selectivity, a negative impact school performs like a positive impact one. The mere presence of a lower impact school combined with selectivity results in the higher ability students enrolling in the least worse school, thereby <em>inflating</em> its performance. School performance is determined not only by the causal impact of a school but also by the relative performance of other schools.</p>
+<h2 id="lucky-starts">Lucky Starts</h2>
+<p>In previous simulations, we have looked at scenarios where both schools started with statistically similar distributions of students. In the next, we add a new parameter, <code>skew</code>, that alters the initial enrolment of students. Every simulation is constituted of 1000 students of uniformly random ability (mean of 0.5) but a <code>skew</code> value of <code>0.75</code> here means that 75% of the above average, and therefore 25% of the below average students, will initially be enrolled in the first school.</p>
+<pre><code>display &#39;simulation-head-start-1&#39;, { 
+  schools: [{impact: -0.25}, {impact: 0.25}],
+  selectivity: 0.0,
+  skew: 0.75
+}</code></pre>
+<figure>
+<div id="simulation-head-start-1">
 
-    <p>In short, we can infer very little about school performance from student results.</p>
+</div>
+<figcaption>
+Simulation 6: Mixed impact with skew.
+</figcaption>
+</figure>
+<p>As expected, any skewness in the initial distribution when selectivity is absent is eliminated given enough time. In each tick, the causal impact of schools affects student ability, and every enrolling cohort normalises school performance to a degree. The first school, while appearing to perform strongly initially, eventually performs poorly, with the opposite occurring in the second school.</p>
+<pre><code>display &#39;simulation-head-start-2&#39;, { 
+  schools: [{impact: -0.25}, {impact: 0.25}],
+  selectivity: 0.75,
+  skew: 0.75
+}</code></pre>
+<figure>
+<div id="simulation-head-start-2">
 
-    <p>Click on the simulation to <a href="#space">start / stop</a> it.</p>
-  </div>
-  <div id="space">
-  </div>
+</div>
+<figcaption>
+Simulation 7: Mixed impact with skew and selection.
+</figcaption>
+</figure>
+<p>Once selectivity is added though, school performance no longer reflects school impact. Given a sufficiently skewed initial distribution of students, the possibility of school choice results in a negative impact school performing like a positive impact one, and a positive impact school performing like a negative impact one.</p>
+<h2 id="conclusion">Conclusion</h2>
+<p>!! I'm not sure how strong I will make my conclusion or whether I will point to specific systems with/without selectivity. Currently, I'm thinking the following would be appropriate.</p>
+<p>We want to measure school performance but cannot do so directly. Instead, we rely on student performance as a proxy, and <em>infer</em> school performance from student results.</p>
+<p>As these simulations clearly demonstrate, there are many times when this inference is not justified, especially when school choice is present.</p>
+<p>How applicable is this model to the real world, and therefore how sceptical should we be of student to school performance in general? The answer depends on how representative the assumptions in the model are of reality. If selectivity is present, then we should be very sceptical of inferring much at all about school performance.</p>
+<p>In many modern education systems, choice of school and school selectiveness is a minor issue. In some school systems, the most pressing factor for many parents is whether their children turn left or right when walking out the front door. Schools here are uniformly good (or bad) and most students are allocated to a school based on residency.</p>
+<p>In many other systems, however, school choice is prevalent. In these systems, it seems like the student to school performance inference is rather dubious. Without controlling for selectivity, there is very little you can reliably infer about school performance from proxy measures like student performance.</p>
+<hr />
+<blockquote>
+<p>Running your own simulation is easy. You just need to specify the parameters and call <code>display(target-location, parameters)</code> and add a target location in HTML <code>id=&quot;target-location&quot;</code></p>
+</blockquote>
+<blockquote>
+<p>Make sure you've got <a href="http://Coffeescript.org/">Coffeescript</a>, and therefore <a href="https://nodejs.org/">node.js</a>, installed. To transpile the code, you'll need <a href="https://www.npmjs.com/package/browserify">Browserify</a> and <a href="https://www.npmjs.com/package/coffeeify">Coffeeify</a> to run the command <code>browserify -t coffeeify paper.coffee.md &gt; assets/simulation.js</code>. This will turn the paper into javascript.</p>
+</blockquote>
+<blockquote>
+<p>The javascript just transpiled is now included back into the paper, which we transpile into HTML, and view in the browser. You can use any markdown to HTML converter you like for this such as <a href="http://pandoc.org/">Pandoc</a>.</p>
+</blockquote>
+<blockquote>
+<p>Coincidently, the Coffeescript transpiler is written in Coffeescript itself so we are using Coffeescript to transpile Coffeescript to transpite Coffeescript into javascript which is then used by the same transpiled Coffeescript. How deliciously meta!</p>
+</blockquote>
+<script type="text/javascript" src="assets/d3.min.js"></script>
+<script type="text/javascript" src="assets/simulation.js"></script>
+<div class="references">
 
-    <p>Right now, this is a proof of concept as the full range of assumptions are yet to be modelled.</p>
-  <footer>
-  	copyright 2015 <a href="http://dave.kinkead.com.au">Dave Kinkead</a> | content licensed under <a href="https://creativecommons.org/licenses/by-sa/3.0/">CC-BY-SA</a> | code under <a href="http://opensource.org/licenses/MIT">MIT.</a>
-  </footer>
+</div>
+<section class="footnotes">
+<hr />
+<ol>
+<li id="fn1"><p>Obviously, the term <em>academic performance</em> will also have a variety of interpretations. Here, I take <em>academic performance</em> to mean the extent to which a student has achieved their educational goals. This might relate to <em>declarative knowledge</em>, the learning and appropriate recall of particular facts. It might relate to <em>procedural knowledge</em>, the application of skill and know-how. Or it might relate to some combination of both, broadly construed. In this paper I am agnostic to what <em>academic performance</em> means within these constraints as my argument is applicable however it is interpreted.<a href="#fnref1">↩</a></p></li>
+</ol>
+</section>
 
-  <a href="https://github.com/davekinkead/school-performance"><img style="position: fixed; top: 0; right: 0; border: 0;" src="https://camo.githubusercontent.com/e7bbb0521b397edbd5fe43e7f760759336b5e05f/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f6769746875622f726962626f6e732f666f726b6d655f72696768745f677265656e5f3030373230302e706e67" alt="Fork me on GitHub" data-canonical-src="https://s3.amazonaws.com/github/ribbons/forkme_right_green_007200.png"></a>
-  
-  <!-- This should be the last element of the html -->
-  <script type="text/javascript" src="assets/browser.js"></script>
+    </div>
 </body>
 </html>

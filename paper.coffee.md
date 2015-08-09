@@ -24,10 +24,6 @@ Of course, this assumes we know what _school performance_ means.  Depending on w
 
 [^academic]: Obviously, the term _academic performance_ will also have a variety of interpretations.  Here, I take _academic performance_ to mean the extent to which a student has achieved their educational goals.  This might relate to _declarative knowledge_, the learning and appropriate recall of particular facts.  It might relate to _procedural knowledge_, the application of skill and know-how.  Or it might relate to some combination of both, broadly construed.  In this paper I am agnostic to what _academic performance_ means within these constraints as my argument is applicable however it is interpreted.
 
-
-  * * * 
-
-
 One significant challenge of measuring school performance is that we can't measure it directly.  School performance isn't something corporal or tactile that can be prodded and poked.  School performance isn't real at all.  It is the description we give to some causal process that affects things that do exist - students.  Because we can't measure school performance directly, we must therefore use some proxy - student performance.  We _infer_ school performance by _observing_ student performance, whether through examinations, continuous assessment, or some other measurement.
 
 But just how warranted is this inference?  In some scenarios, inferring school performance from student performance is justified.  In many other scenarios however, we have serious grounds for scepticism.  And one such scenario is when some form of school selection is present.  In this paper, I demonstrate how school choice - whether by student choice or school selectivity, make the inference from student to school performance very suspect.

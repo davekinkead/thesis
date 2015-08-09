@@ -39,11 +39,6 @@ What we have to do is use a proxy - student performance - to infer school perfor
 
 
 
-- introduce the idea
-- quality and limit the claims
-- this is an argument for epistemic scepticism about school performance
-
-
 ## School Performance
 
 - background on school performance measurement
@@ -84,6 +79,9 @@ Finally, we create a class to encapusate the simulation itself.  We instantiate 
           student = new Student()
           student.school = enrol student, @schools, @profile.skew
           student
+
+
+The initial distribution of students in schools is determined stochastically but tempered by any specified skewedness in the simulation.  The default `skew` value is `0.5` meaning that 50% of above average students are assigned to the first school, and 50% to the second.  A `skew` value of `0.75` would see the first school assigned 50% of the above average students and 25% assigned to the second.
 
 
     enrol = (student, schools, skew=0.5) =>
@@ -297,6 +295,7 @@ What happens when schools have no impact but selectivity is present?  In this sc
 
 <div id="simulation-shifting-averages-1"></div>
 
+
 ## Performance is Relative
 
 A school can appear to be performing even when it is doing nothing (or even worse).  Its performance can improve because a worse performing school is nearby
@@ -306,8 +305,8 @@ First with no selectivity.
 
     display 'simulation-relative-1', { 
       schools: [
-        {impact: -0.05}, 
-        {impact: -0.1}
+        {impact: -0.25}, 
+        {impact: -0.5}
       ],
       selectivity: 0.0
     }
@@ -321,8 +320,8 @@ Now with lots.
 
     display 'simulation-relative-2', { 
       schools: [
-        {impact: -0.05}, 
-        {impact: -0.1}
+        {impact: -0.25}, 
+        {impact: -0.5}
       ],
       selectivity: 1.0
     }
@@ -335,18 +334,27 @@ Now with lots.
 - simulation: skewed allocation with negative impact.
 - a negative impact school should still outperform a positive one given a skewed enough start with high ability students
 
-!! Need to add initial student distribution
-
 
     display 'simulation-head-start-1', { 
-      schools: [{impact: -0.5}, {impact: 0.0}],
+      schools: [{impact: -0.25}, {impact: 0.25}],
       selectivity: 0.5,
-      skew: 0.95
+      skew: 0.75
     }
 
 
 <div id="simulation-head-start-1"></div>
 
+
+
+
+    display 'simulation-head-start-2', { 
+      schools: [{impact: -0.25}, {impact: 0.25}],
+      selectivity: 0.75,
+      skew: 0.75
+    }
+
+
+<div id="simulation-head-start-2"></div>
 
 ## Conclusion
 

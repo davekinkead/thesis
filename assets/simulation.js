@@ -72,7 +72,7 @@ enrol = (function(_this) {
 
 Simulation.prototype.teach = function() {
   return this.students.map(function(student) {
-    return student.ability = Math.min(student.ability * (1 + student.school.impact), 1.0);
+    return student.ability = Math.min(student.ability * (1 + student.school.impact * 0.2), 1.0);
   });
 };
 
@@ -227,9 +227,9 @@ display('simulation-shifting-averages-1', {
 display('simulation-relative-1', {
   schools: [
     {
-      impact: -0.05
+      impact: -0.25
     }, {
-      impact: -0.1
+      impact: -0.5
     }
   ],
   selectivity: 0.0
@@ -238,9 +238,9 @@ display('simulation-relative-1', {
 display('simulation-relative-2', {
   schools: [
     {
-      impact: -0.05
+      impact: -0.25
     }, {
-      impact: -0.1
+      impact: -0.5
     }
   ],
   selectivity: 1.0
@@ -249,13 +249,25 @@ display('simulation-relative-2', {
 display('simulation-head-start-1', {
   schools: [
     {
-      impact: -0.5
+      impact: -0.25
     }, {
-      impact: 0.0
+      impact: 0.25
     }
   ],
   selectivity: 0.5,
-  skew: 0.95
+  skew: 0.75
+});
+
+display('simulation-head-start-2', {
+  schools: [
+    {
+      impact: -0.25
+    }, {
+      impact: 0.25
+    }
+  ],
+  selectivity: 0.75,
+  skew: 0.75
 });
 
 

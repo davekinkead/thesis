@@ -56,11 +56,17 @@ What we have to do is use a proxy - student performance - to infer school perfor
 
 ## Model
 
-We begin by modelling students.  Students are simple creatures who have an academic ability measured from `0.0` to `1.0`.  No claim is made to how this relates to IQ, EQ, drive, knowledge, etc. but the value is absolute rather than relative.  It is stipulated, however, that the average ability for any new student is `0.5`.
+We begin by modelling students.  Students are simple creatures who have an academic ability measured from `0.0` to `1.0`.  This ability is randomly generated and is centred around a stipulated mean.  No claim is made to how this relates to IQ, EQ, drive, knowledge, etc. but the value is absolute rather than relative. 
 
 
     class Student
-      constructor: (@ability) ->
+      constructor: (mean=0.5) ->
+        @ability = Math.random()
+        # range = (mean) -> 
+        #   Math.min(1-mean, mean) * 2
+        # floor = (mean) ->
+        #   Math.max(mean-0.5, 0) * 2
+        # @ability = floor(mean) + Math.random() * range(mean)
 
 
 Next we model schools.  Schools are modelled as collections of students upon whom they have some capacity for academic impact.  In short, schools teach students.  This impact results in a change in the students academic ability.  No claim is made to how this impact comes about such as via teacher performance or curricular changes.  The only stipulation is that the process of schooling is the sole causal mechanism of the model.  Schools also have an id so we can keep track of them. 
@@ -80,9 +86,17 @@ Finally, we create a class to encapusate the simulation itself.  We instantiate 
         @schools = for school, i in @profile.schools
             new School(i, school.impact)
         @students = for n in [1..1000]
-          student = new Student Math.random()
-          student.school = @schools[n % 2]
+          student = new Student()
+          student.school = enrol student, @schools, @profile.skew
           student
+
+
+    enrol = (student, schools, skew=0.5) =>
+      choice = if student.ability > 0.5
+        if Math.random() < skew then 0 else 1
+      else
+        if Math.random() > skew then 0 else 1
+      schools[choice]
 
 
 Now need our simulation to do something.  Events in the simulation will occur during a generic time perior called a `tick`.  A tick can represent any fixed period of time such as a term, semester, or year.  During each tick schools will `teach` students, some students will `graduate`, and some new students will `enrol`.
@@ -108,7 +122,6 @@ The result is that the graduating cohort will be `reset` with some selectively r
 
 
     Simulation::graduate = () ->
-
       [zero, one] = [[], []]
       @students.map (student) ->
         zero.push student.ability if student.school.id is 0
@@ -331,12 +344,11 @@ Now with lots.
 
 
     display 'simulation-head-start-1', { 
-      schools: [
-        {impact: -0.5}, 
-        {impact: 0.0}
-      ],
-      selectivity: 0.5
+      schools: [{impact: -0.5}, {impact: 0.0}],
+      selectivity: 0.5,
+      skew: 0.95
     }
+
 
 <div id="simulation-head-start-1"></div>
 

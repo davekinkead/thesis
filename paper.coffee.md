@@ -62,11 +62,6 @@ We begin by modelling students.  Students are simple creatures who have an acade
     class Student
       constructor: (mean=0.5) ->
         @ability = Math.random()
-        # range = (mean) -> 
-        #   Math.min(1-mean, mean) * 2
-        # floor = (mean) ->
-        #   Math.max(mean-0.5, 0) * 2
-        # @ability = floor(mean) + Math.random() * range(mean)
 
 
 Next we model schools.  Schools are modelled as collections of students upon whom they have some capacity for academic impact.  In short, schools teach students.  This impact results in a change in the students academic ability.  No claim is made to how this impact comes about such as via teacher performance or curricular changes.  The only stipulation is that the process of schooling is the sole causal mechanism of the model.  Schools also have an id so we can keep track of them. 
@@ -106,7 +101,7 @@ A school's educational impact on students will be modelled by the `teach` method
 
     Simulation::teach = () ->
       @students.map (student) ->
-        student.ability = Math.min student.ability * (1 + student.school.impact), 1.0
+        student.ability = Math.min student.ability * (1 + student.school.impact * 0.2), 1.0
 
 
 In each tick, a certain percentage of students will graduate from each school.  These students are then replaced by new enrolments.

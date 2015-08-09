@@ -370,6 +370,8 @@ In many other systems, however, school choice is prevalent.  In these systems, i
 
 > The javascript just transpiled is now included back into the paper, which we transpile into HTML, and view in the browser.  You can use any markdown to HTML converter you like for this such as [Pandoc](http://pandoc.org/).
 
+> All the source code for this simulation is contained in this argument.  You can [view the repo here](https://github.com/davekinkead/school-performance).
+
 > Coincidently, the Coffeescript transpiler is written in Coffeescript itself so we are using Coffeescript to transpile Coffeescript to transpite Coffeescript into javascript which is then used by the same transpiled Coffeescript.  How deliciously meta!
 
 <script type="text/javascript" src="assets/d3.min.js"></script>

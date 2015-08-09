@@ -33,6 +33,7 @@ Simulation = (function() {
   function Simulation(profile) {
     var i, n, school, student;
     this.profile = profile;
+    this.cohort = this.profile.cohort || 0.2;
     this.schools = (function() {
       var j, len, ref, results;
       ref = this.profile.schools;

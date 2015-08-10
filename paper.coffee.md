@@ -15,6 +15,12 @@ status: terse public draft
 
 >  A terse public draft of a work-in-progress, comments and feedback are welcome directly in [the source](https://github.com/davekinkead/school-performance) or via email.  Specifically, I am interested in argument structure and whether the claims are understandable and entailed by the argument.  It will most likely be heavily rewritten so please don't bother with spelling & grammar comments just yet.
 
+## General Comments/feedback
+
+!! Make it more explicit that this is an argument about epistemic inference.  Acknowledge other considerations but show why they are irrelevant.
+
+!! Try: We believe schools affect student performance (however measured).  We can't measure this causal impact directly (and therefore can't know it with certainty) so we _infer_ it from aggregate student performance.  Using a simulation, we can know the causal impact with certainty because we stipulate it.  So now we can assess the quality of the student to school performance inference.  The model shows that this inference isn't warranted in many occasions.  Therefore the student to school inference is not warranted in real life (unless we explicitly control for the variables covered in the model)
+
 
 ## Introduction
 
@@ -279,6 +285,8 @@ Recall that the impact of schools is stipulated as zero.  The significant differ
 
 
 ## Performance is Relative
+
+!! Be clear here in what I mean about `relative performance`.  I'm not saying performance _is_ relative, I'm saying that the performance of other schools matters.
 
 The previous simulation showed how significant performances differences can arise even when schools are causally identical.  The next simulations demonstrate how a school with negative educational impact can appear to positively impact student ability.  
 

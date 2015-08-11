@@ -57,7 +57,7 @@ We begin by modelling students.  Students are simple creatures who have an acade
 
 
     class Student
-      constructor: (mean=0.5) ->
+      constructor: () ->
         @ability = Math.random()
 
 

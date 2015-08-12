@@ -16,6 +16,22 @@ csl: https://raw.githubusercontent.com/citation-style-language/styles/master/jou
 
 > Best viewed in HTML with interactive graphs, the following links outline [paper](https://github.com/davekinkead/modelling-the-boundary-problem), [installation](http://coffeescript.org/#installation), and [dependency](https://npmjs.org/doc/install.html) requirements.  A PDF version is also available with static images.
 
+!! Hugh's feedback
+
+- more clarity on how instrumental accounts work.  set up the target.
+- compare my methodolgy to skrymms.
+- clarify naive voting.
+
+- theoretical conclusions are too strong
+  - 
+
+- good applied conclusions to flesh out.  flag these points.
+  - diverse polity more like be right but less likely to make everyone happy
+  - how might this apply to climate change / war?
+  - "We can't have it both ways" or "having our cake and eating it too."
+  - flag need to examine relation between dviersity and epistemic competence
+  - what is the implication for vertical separation of powers on fact vs value.  ** new paper
+  - 
 
 ## Introduction
 
@@ -94,7 +110,7 @@ An alternative approach would be to simulate _theory_.  All theories are abstrac
 
 What follows in the remainder of this paper is both a description of a model of democracy as well as a simulation of that model.  It attempts to capture the key claims of instrumental accounts of democracy and explore how changing the composition of a polity affects the democratic processes of that polity.  
 
-The simulation process begins by defining a simple model of democracy consisting of naive voters populating some abstract political space.  Methods of inclusion and voting are then defined.  Next, three instrumental accounts of democracy - content-independent, content-relative, and content-indifferent - are formalised and simulated in the model over a wide variety of parameters.  Finally, the relationship between democratic inclusion and democratic outcomes is explored by examining how different compositions of agents lead to different results. 
+The simulation process begins by defining a simple model of democracy consisting of naive voters populating some abstract political space.  Methods of inclusion and voting are then defined.  Next, three instrumental accounts of democracy - content-independent, content-relative, and content-indifferent - are formalised and simulated in the model over a wide variety of parameters.  Finally, the relationship between democratic inclusion and democratic outcomes is explored by examining how different compositions of agents lead to different results.
 
 A form of literate programming [^lit], this paper embeds executable source code within the description of the model.  Simulation code is indicated by `indented code blocks`.  The reader need not understand the embedded code or syntax in order to understand the simulation however.  The code, it's purpose, and function will be fully explained in the surrounding text. It's presence serves to formalise the assumptions of the model in much the same way as one might include mathematical symbolism to formalise a proof, and to promote reproducibility and testability of the research herein.
 
@@ -278,6 +294,8 @@ The key implication from this analysis is that accounts of democracy based on co
 
   1. Polities are sufficiently small.
   2. Voters are as internally homogeneous as possible.
+
+!! This is what Rousseau said! His work explicity about city states, not countries like France.
 
 Restated, where we draw political boundaries is largely irrelevant for content-relative accounts of democracy if the distribution of voters by preference is highly clustered.  Just about any account of inclusion will likely generate internally homogeneous polities.  Where we draw boundaries is very important however, when the distribution of voters by preference is uniform.  The Boundary Problem only becomes a problem for content-relative justifications of democracy when homogeneity of voter preferences is low within polities but high between them.  Content-independent justifications require accounts of inclusion that generate sufficiently small, internally homogeneous polities.
 

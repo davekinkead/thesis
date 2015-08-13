@@ -22,16 +22,20 @@ csl: https://raw.githubusercontent.com/citation-style-language/styles/master/jou
 - compare my methodolgy to skrymms.
 - clarify naive voting.
 
-- theoretical conclusions are too strong
-  - 
-
 - good applied conclusions to flesh out.  flag these points.
   - diverse polity more like be right but less likely to make everyone happy
   - how might this apply to climate change / war?
   - "We can't have it both ways" or "having our cake and eating it too."
   - flag need to examine relation between dviersity and epistemic competence
   - what is the implication for vertical separation of powers on fact vs value.  ** new paper
-  - 
+  - use empiric evidence of juries to support these claims
+  - computational jurisprudence.
+
+- theoretical conclusions are too strong
+  - even if you can't have both, democracy can still better than other alternatives.
+  - my claims weaken but don't undermine instrumental justifications.
+
+- motivational paper for sociology and political science - does diversity track competence.
 
 ## Introduction
 

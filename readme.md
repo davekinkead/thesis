@@ -8,9 +8,15 @@ license: CC BY SA
 
 # What does student performance tell us about school effectiveness?
 
-Assessing teacher and school performance has become increasingly prevelent in many education systems. But directly measuring the causal impact of a school or pedagogy on student academic ability is difficult. Instead, student performance is used as a proxy for school performance.
+The assessment of school performance has become prevalent in many education systems.  Parents, educators, and bureaucrats all want to know how much teachers, principals, and policy are impacting student ability and learning.  However, because we can’t directly observe the causal impact of policy or pedagogy on students, we must instead rely on indirect measures or proxies such as aggregate student results to measure school performance.
 
-But what exactly can we infer about school performance from student performance? A computer simulation can provide some insight.
+How robust is this inference from student results to school performance though?  A fundamental limitation of traditional empiric approaches for measuring school performance is that we can never know for sure.  We simply hope our proxy measurements are accurate and then extrapolate the cause.
+
+In this paper, I develop a simple model of student and school performance and use computer simulation to explore the relationship between student results and school performance under a variety of parameters.  I simulate a number of scenarios that show when the student to school performance inference is and is not warranted.
+
+Simulation allows us to avoid the limitations of empiric approaches.  By stipulating the cause and observing the effects, we can assess the quality of empiric inference when the causal mechanism isn’t known.  If the inference from student to school performance isn’t warranted when the causal mechanism is known, then it can’t be warranted when it isn’t known.
+
+I demonstrate that whenever two common conditions, school choice and student selectivity, are present, then we cannot reliably infer anything about school performance from student results.
 
 Two schools are populated with a random allocation of students of differing ability. High academic ability students are blue, low ability students are red.  Neither school has any causal impact on a student's academic impact. Instead, at the end of each year, students choose which school they wish to attend based on their perception of school performance. 
 

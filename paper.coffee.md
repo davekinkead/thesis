@@ -24,11 +24,11 @@ status: terse public draft
 ## Introduction
 
 
-I take it as uncontested the claim that schooling somehow affects student ability.  However we measure the academic ability of students - whether by _declarative knowledge_, the learning and appropriate recall of particular facts; or by _procedural knowledge_, the application of skill and know-how - few people if any would claim that school policies, pedogogy, and environment have no causal impact on students.  After all, we as a society invest significant amounts of time and money in various endeavours like NAPLAN **INSERT OTHERS** trying to measure exactly this.
+I take it as uncontested the claim that schooling somehow affects student ability.  However we measure the academic ability of students - whether by _declarative knowledge_, the learning and appropriate recall of particular facts; or by _procedural knowledge_, the application of skill and know-how - few people if any would claim that school policies, pedogogy, and environment have no causal impact on students.  After all, as a society we invest significant amounts of time and money in various endeavours like NAPLAN **INSERT OTHERS** trying to measure exactly this.
 
-There are a variety of causal theories that could explain how schools affect student ability.... EXPLAIN THEM....  ...  Regardless of which the causal theory is in use, we might call the causal impact of schooling on student ability _school performance_.
+There are a variety of causal theories that could explain how schools affect student ability.... EXPLAIN THEM....  ...  Regardless of which causal theory is in use, we might label the causal impact of schooling on student ability _school performance_.
 
-Measuring school performance however, faces an epistemic challenge.  Because we can't measure the causal impact of schools directly, we can't know this causal impact with certainty.  Instead, we _infer_ the causal impact of schools on student ability by way of proxy measures such as student results.  NAPLAN, SATs, GCSEs - measurements of student results are now ubiquitous in every education system.  If student results improve, then we can _infer_ that some aspect of schooling _caused_ this; that school performance has improved.  
+Measuring school performance of course, faces a significant epistemic challenge.  Because we can't measure the causal impact of schools directly, we can't know this it with certainty.  Instead, we _infer_ the causal impact of schools on student ability by way of proxy measures such as student results.  NAPLAN, SATs, GCSEs - measurements of student results are now ubiquitous in every education system.  If student results improve, then we can _infer_ that some aspect of schooling _caused_ this; that school performance has improved.  
 
 Perhaps.
 
@@ -40,49 +40,22 @@ So just how warranted is this inference from student results to school performan
 
 If infering from observable effects to their causes is difficult, then judging the quality of the inference mechanism is even harder.  To do so requires some standard against which we can make comparisons, but our knowledge of this standard is limited by the same problem of inference.  How can we judge the quality of the inference from student results to school performance if can't be certain what is the cause of student results in the first place?  We lack the epsitemological foundations to properly ground our second order judgements.
 
-Computer simulation however, offers us a way out of this problem. Simulation allows us to not only model how we think the world _is_, but to also stipulate how we think the world _should be_.  It allows us to know the causal relationships in the model with certainty because they are explicitly defined in code.  With causality known, we can then observe the empiric data and assess the quality of the inference mechanism.
+Computer simulation however, offers us one way out of this problem. Simulation allows us to not only model how we think the world _is_, but to also stipulate how we think the world _should be_.  It allows us to know the causal relationships in the model with certainty because they are explicitly stipulated in code.  With causality known, we can then observe the empiric data and assess the quality of the inference mechanism.
 
-What follows in this paper is a simulation of a very simple model of school performance encompasing a just handful of variables.  First I describe and define a model of students and schools.  Student ability is created at random and students are randomly allocated to schools.  A school's causal impact is stipulated however, and this varies between schools.  Schools causally impact student's ability by 'teaching' and this impact is measured via student results.  Over time, some students graduate and new students enroll.  
+What follows in this paper is a simulation of a simple model of school performance, encompasing a just handful of variables.  First I describe and define a model of students and schools.  Student ability is created at random and students are randomly allocated to schools.  A school's causal impact is stipulated however, and this varies between schools.  Schools causally impact student's ability by 'teaching' and this impact is measured via student results.  Over time, some students graduate and new students enroll.  By measuring student results, we can infer school performance.
 
-Because the causal impact of a school on student ability is known by stipulation, we can assess how accurately empiric data about student performance maps to the stipulated causal impact of the school.  If the inference isn't warranted when the causal mechanism is known by stipulation, then the inference can't be warranted when the causal mechanism is uncertain.  This simulation will therefore allow us to say when the _student result to school performance_ inference might be warranted, and when it cannot be warranted.
+Because the causal impact of a school on student ability is known by stipulation, we can assess how accurately empiric data about student results maps to the stipulated causal impact of the school.  If the inference isn't warranted when the causal mechanism is stipulated, then the inference can't be warranted when the causal mechanism is unkown.  This simulation will therefore allow us to say when the _student result to school performance_ inference might be warranted, and when it cannot be warranted.
 
-Written in [Literate Coffeescript](http://Coffeescript.org/), this paper is simultaneously a philosophical argument and a computer simulation that demonstrates the claims of the argument.  Literate Programming (@knuth1972) involves embedding computer code within a written argument and has much to offer scholarly writing.  Firstly, it ensures that all assumptions of the model are explicit.  Computer programs are deterministic, so all the instruction nescessary for the simulation to rule have to be made explicit.  
+Written in [Literate Coffeescript](http://Coffeescript.org/), this paper is simultaneously a philosophical argument and a computer simulation that demonstrates the claims of the argument.  Literate Programming (@knuth1972) involves embedding computer code within a written argument and has much to offer scholarly writing.  Firstly, it ensures that all assumptions of the model are explicit.  Computer programs are deterministic, so all the instruction nescessary for the simulation to run have to be explicitly documented.  
 
-Literate Programming also allays concerns relating to validation and replication.  Often, simulations are 'black boxes' of code - opaique to the reader and reviewer alike.  Because all the code nescessary for the simulation is embedded in the paper, replication is a simple as running the command `browserify -t coffeeify paper.coffee.md > assets/simulation.js`.  Installation instructions can be found in the appendix. [Best viewed in HTML](http://blind-review.github.io/school-performance/) to take advantage of the interactive visualisations, a static version but less engaging version of this paper is available in PDF or print.
+Literate Programming also allays concerns relating to validation and replication.  Often, simulations are 'black boxes' of code - opaique to the reader and reviewer alike.  Because all the code nescessary for the simulation is embedded in the paper, replication is as simple as running the command `browserify -t coffeeify paper.coffee.md > assets/simulation.js`.  Installation instructions can be found in the appendix. 
 
-
-## Model
-
-
-.
-
-
-
-One significant challenge of measuring school performance is that we can't measure it directly.  School performance isn't something corporal or tactile that can be prodded and poked.  School performance isn't real at all.  It is the description we give to some causal process that affects things that do exist - students.  Because we can't measure school performance directly, we must therefore use some proxy - student performance.  We _infer_ school performance by _observing_ student performance, whether through examinations, continuous assessment, or some other measurement.
-
-But just how warranted is this inference?  In some scenarios, inferring school performance from student performance is justified.  In many other scenarios however, we have serious grounds for scepticism.  And one such scenario is when some form of school selection is present.  In this paper, I demonstrate how school choice - whether by student choice or school selectivity, make the inference from student to school performance very suspect.
-g
-
-## Methodology
-
-
-The measurement of school performance is now ubiquitous. NAPLAN, SATs, GCSEs - every modern education system today uses some form of school performance measurement.  Yet none of these directly measure school performance.  Instead, they measure the academic performance of collections of students to then _infer_ school performance.
-
-But just how well does student performance act as a proxy for school performance.  One way to examine this is with a computer simulation.  Computer simulation allows us to stipulate school performance in our artificial reality and examine how well our proxy measures reflect it.  If our proxy measures perform poorly in our controlled artificial reality, then they will also perform poorly in actual reality whenever similar conditions are present.
-
-Below, we will construct a simple agent-based model of school and student performance.  We will simulate 1000 students of uniformly random ability, split into two schools and examine how four variables, student ability, school impact, and selectivity and skewness, combine to undermine any inference from student to school performance.
-
-Because the computer code is embedded within the argument, all of the assumptions of the model are explicit and open.  The most important of these can be summarised as:
-
-  1. Students, if they can choose their school, will choose the perceived highest performing one.
-  2. Schools, if they can be selective, will admit the highest ability students first.
-
-During the simulation, schools will teach students, increasing or decreasing student ability according to the school's impact.  Some students will graduate and be replaced with new students of uniformly random ability.  Depending on the selectivity parameter of the particular simulation, more of the higher ability enrolling students will enrol in the higher performing school.
+I make no assumptions about the readers progamming knowledge.  All the code in the paper is written to be as informative as possible and is fully described in the text.  Any code that is not germain to the argument has been placed in the appendix. [Best viewed in HTML](http://blind-review.github.io/school-performance/) to take advantage of the interactive visualisations, a static, but less engaging, version of this paper is available in PDF or print.
 
 
 ## Model
 
-We begin by modelling students.  Students are simple creatures who have an academic ability measured from `0.0` to `1.0`.  This ability is randomly generated and is centred around a stipulated mean.  No claim is made to how this relates to IQ, EQ, drive, knowledge, etc. but the value is absolute rather than relative. 
+We begin by modelling students.  Students are simple creatures who have an academic ability measured from a minimum of `0.0` to a maximum of `1.0`.  Academic ability is broadly construed and can be interpreted as any attribute of value that can be influenced by schooling.  This ability is randomly generated and is centred around a stipulated mean.
 
 
     class Student
@@ -90,16 +63,14 @@ We begin by modelling students.  Students are simple creatures who have an acade
         @ability = Math.random()
 
 
-Next we model schools.  Schools are modelled as collections of students upon whom they have some capacity for academic impact.  In short, schools teach students.  This impact results in a change in the students academic ability.  No claim is made to how this impact comes about such as via teacher performance or curricular changes.  The only stipulation is that the process of schooling is the sole causal mechanism of the model.  Schools also have an id so we can keep track of them. 
-
-The causal impact of a school on academic performance ranges from `-1.0`  to `1.0` and assumed to be fixed for the duration of the simulation.  What does this impact score relate to exactly? The model is agnostic here so this could represent actual impact on academic ability, relative impact, or even counter-factual impact - how the student's ability would have changed relate to some mean of `0.0`.  
+Next we model schools.  Schools are modelled as collections of students upon whom they have some causal impact on academic ability.  In short, schools teach students.  The causal impact of a school on academic performance ranges from `-1.0` to `1.0` and assumed to be fixed for the duration of the simulation.  Again, no claim is made to how this educational impact is transmitted to student ability.  Policy, pedogogy, or the school environment are all possible causal mechanisms.  The key assumption is that `@impact` is the only causal mechanism at work.  Schools also have an id so we can keep track of them. 
 
 
     class School
       constructor: (@id, @impact) ->
 
 
-Finally, we create a class to encapsulate the simulation itself.  We instantiate the simulation with a profile containing information about schools and student distribution.  We then use the profile to create the students and schools as desired.
+Finally, we create a class to encapsulate the simulation itself.  We construct the simulation with a profile containing information about schools and student distribution.  We then create 1000 students of random ability and enrol them in the schools according to the simulation profile.
 
 
     class Simulation
@@ -112,20 +83,20 @@ Finally, we create a class to encapsulate the simulation itself.  We instantiate
           student
 
 
-The initial distribution of students in schools is determined stochastically but tempered by any specified skewness in the simulation.  The default `skew` value is `0.5` meaning that 50% of above average students are assigned to the first school, and 50% to the second.  A `skew` value of `0.75` would see the first school assigned 50% of the above average students and 25% assigned to the second.
+Events in the simulation will occur during a generic time perior called a `tick`.  A tick can represent any fixed period of time such as a term, semester, or year.  During each tick schools will `teach` students, some students will `graduate`, and some new students will `enrol`.
+
+The initial enrolment of students between schools is determined by a skew factor ranging from `0.0`, meaning all the below average abiltity students in the first school, to `1.0`, all the above average ability students in the first school.  The default value of `0.5` results in an even distribution of students by ability.  Subsequent enrolments will be random.
 
 
     enrol = (student, schools, skew=0.5) =>
-      choice = if student.ability > 0.5
+      school_id = if student.ability > 0.5
         if Math.random() < skew then 0 else 1
       else
         if Math.random() > skew then 0 else 1
-      schools[choice]
+      schools[school_id]
 
 
-Now need our simulation to do something.  Events in the simulation will occur during a generic time perior called a `tick`.  A tick can represent any fixed period of time such as a term, semester, or year.  During each tick schools will `teach` students, some students will `graduate`, and some new students will `enrol`.
-
-A school's educational impact on students will be modelled by the `teach` method where a schools `impact` value affects a students `ability` value.  This could be modelling in a variety of ways but for simplicity we will just apply a linear factor with the result constrained between `0.0` and `1.0`.
+Schools causally impact students' ability by `teaching`.  Again, this could represent a variety of causal mechanisms such as pedogogy, policy, or environment.  The causal impact on student ability is linear and a constraint is applied to ensure ability remains between `0.0` and `1.0`.
 
 
     Simulation::teach = () ->
@@ -133,7 +104,7 @@ A school's educational impact on students will be modelled by the `teach` method
         student.ability = Math.min student.ability * (1 + student.school.impact * 0.2), 1.0
 
 
-In each tick, a certain percentage of students will graduate from each school.  These students are then replaced by new enrolments.  This will be modelled by re-randomising the graduating students ability.  First we calculate the average student performance for each school during the last tick to determine which school is better.
+In each tick, a some students will graduate from and new students will enrol.  The is acheived by  This will be modelled by re-randomising the graduating students ability.  First we calculate the average student performance for each school during the last tick to determine which school is better.
 
 
     Simulation::graduate = () ->
@@ -162,6 +133,146 @@ Next we replace the graduating students with new students of uniformly random ab
           if Math.random() < @profile.selectivity
             student.school = if student.ability > 0.5 then @schools[best.id] else @schools[worst.id]
 
+      display = () ->
+
+
+## Pure Impact
+
+It's time to run the simulations but first, let's start with a sanity check.  We will begin with 1000 students of uniform random ability split evenly into two schools that have no educational impact, in a system with no selectivity.  What we _should_ observe is no significant change within and between schools.  Random enrolment and student ability is doing all the work here.
+
+
+    sanity_check_1 = { 
+      schools: [{impact: 0.0}, {impact: 0.0}],
+      selectivity: 0.0
+    }
+
+
+Click on the simulation at any time to start / stop it.
+
+<figure>
+<div id="sanity-check-1"></div>
+<figcaption>Simulation 1: No impact, no selectivity.</figcaption></figure>
+
+Good. The results are as expected. During each tick, the schools `teach` method has no impact on student ability, some students graduate and are replaced with new students.  As such, school performance, measures by average student ability, remains close to 0.5.
+
+Next, we will model the same students in two schools, this time one with positive education impact and one with negative impact, again with no selectivity.  While both schools will start with similar student ability levels, the `teach` method _should_ see performance in the first school increase while it decreases in the second. 
+
+
+    # display 'sanity-check-2', { 
+    #   schools: [{impact: 0.5}, {impact: -0.5}],
+    #   selectivity: 0.0
+    # }
+
+<figure>
+<div id="sanity-check-2"></div>
+<figcaption>Simulation 2: School impact, no selectivity.</figcaption></figure>
+
+Again, the simulation delivers the expected results.  In both cases, the simulation performed as expected and our inference from student performance to school performance is warranted.
+
+
+## Shifting Averages
+
+What happens when selectivity is introduced?  In the next scenario, we take parameters of Simulation 1 - no school impact - but introduce selectivity into the model.  Because both schools are identical in terms of their causal impact, any changes are the result of school choice.
+
+
+    # display 'simulation-shifting-averages-1', { 
+    #   schools: [{impact: 0.0}, {impact: 0.0}],
+    #   selectivity: 0.5
+    # }
+
+
+<figure>
+<div id="simulation-shifting-averages-1"></div>
+<figcaption>Simulation 3: No impact but with selectivity.</figcaption></figure>
+
+While both schools' performance is similar when the simulation begins, any minor imbalance in relative performance caused by random variation in new student ability results in a run-away effect.  As soon as one school is perceived to perform better than others, school selectivity ensures that students who can choose schools, choose the school with the higher percentage of high ability students.
+
+Recall that the impact of schools is stipulated as zero.  The significant differences in school performance are completely explained by selectivity.
+
+
+## Performance is Relative
+
+!! Be clear here in what I mean about `relative performance`.  I'm not saying performance _is_ relative, I'm saying that the performance of other schools matters.
+
+The previous simulation showed how significant performances differences can arise even when schools are causally identical.  The next simulations demonstrate how a school with negative educational impact can appear to positively impact student ability.  
+
+Let's begin with two schools with negative impact of differing levels but with no selectivity present.  In this case the average performance of both schools should decrease, propped up only by new enrolments whose average ability is `0.5`.
+
+
+    # simulation_relative_1 = { 
+    #   schools: [{impact: -0.25}, {impact: -0.5}],
+    #   selectivity: 0.0
+    # }
+
+
+<figure>
+<div id="simulation-relative-1"></div>
+<figcaption>Simulation 4: Negative impact, no selectivity.</figcaption></figure>
+
+Now, we introduce selectivity to the same schools and students.
+
+
+    # relative_2 = { 
+    #   schools: [{impact: -0.25}, {impact: -0.5}],
+    #   selectivity: 1.0
+    # }
+
+
+<figure>
+<div id="simulation-relative-2"></div>
+<figcaption>Simulation 5: Negative impact with selectivity.</figcaption></figure>
+
+With selectivity, a negative impact school performs like a positive impact one.  The mere presence of a lower impact school combined with selectivity results in the higher ability students enrolling in the least worse school, thereby _inflating_ its performance.  School performance is determined not only by the causal impact of a school but also by the relative performance of other schools.
+
+
+## Lucky Starts
+
+In previous simulations, we have looked at scenarios where both schools started with statistically similar distributions of students.  In the next, we add a new parameter, `skew`, that alters the initial enrolment of students.  Every simulation is constituted of 1000 students of uniformly random ability (mean of 0.5) but a `skew` value of `0.75` here means that 75% of the above average, and therefore 25% of the below average students, will initially be enrolled in the first school.
+
+
+    # head_start_1 = { 
+    #   schools: [{impact: -0.25}, {impact: 0.25}],
+    #   selectivity: 0.0,
+    #   skew: 0.75
+    # }
+
+
+<figure>
+<div id="simulation-head-start-1"></div>
+<figcaption>Simulation 6: Mixed impact with skew.</figcaption></figure>
+
+As expected, any skewness in the initial distribution when selectivity is absent is eliminated given enough time.  In each tick, the causal impact of schools affects student ability, and every enrolling cohort normalises school performance to a degree.  The first school, while appearing to perform strongly initially, eventually performs poorly, with the opposite occurring in the second school.
+
+
+    # head_start_2 = { 
+    #   schools: [{impact: -0.25}, {impact: 0.25}],
+    #   selectivity: 0.75,
+    #   skew: 0.75
+    # }
+
+
+<figure>
+<div id="simulation-head-start-2"></div>
+<figcaption>Simulation 7: Mixed impact with skew and selection.</figcaption></figure>
+
+Once selectivity is added though, school performance no longer reflects school impact.  Given a sufficiently skewed initial distribution of students, the possibility of school choice results in a negative impact school performing like a positive impact one, and a positive impact school performing like a negative impact one.
+
+
+## Conclusion
+
+!! I'm not sure how strong I will make my conclusion or whether I will point to specific systems with/without selectivity.  Currently, I'm thinking the following would be appropriate.
+
+We want to measure school performance but cannot do so directly.  Instead, we rely on student performance as a proxy, and _infer_ school performance from student results.
+
+As these simulations clearly demonstrate, there are many times when this inference is not justified, especially when school choice is present.
+
+How applicable is this model to the real world, and therefore how sceptical should we be of student to school performance in general?  The answer depends on how representative the assumptions in the model are of reality.  If selectivity is present, then we should be very sceptical of inferring much at all about school performance.
+
+In many modern education systems, choice of school and school selectiveness is a minor issue.  In some school systems, the most pressing factor for many parents is whether their children turn left or right when walking out the front door. Schools here are uniformly good (or bad) and most students are allocated to a school based on residency.
+
+In many other systems, however, school choice is prevalent.  In these systems, it seems like the student to school performance inference is rather dubious.  Without controlling for selectivity, there is very little you can reliably infer about school performance from proxy measures like student performance.
+
+---
 
 ## Browser Code
 
@@ -178,7 +289,8 @@ Now we need to display the simulation somehow.  To make things look pretty, we w
 We will be running multiple simulations in the browser so will need a way of creating different ones.  Here we define a `display` method for creating a simulation and binding it to a canvas with click events.  When a simulation canvas is clicked, the interval runner starts and calls the `tick` method every 1000 milliseconds.  We will also append the school averages in text form.
 
 
-    display = (id, params) ->
+    display = (id, params) =>
+      console.log params
       runner = false
       sim = new Simulation params
       canvas = d3.select("##{id}")
@@ -259,143 +371,10 @@ To display students and indicate school enrolment by student proximity, we creat
       Math.random()*range/8 + Math.random()*range/8 + Math.random()*range/8 - range/4
 
 
-## Pure Impact
+    window.onload = () ->
+      console.log sanity_check_1
+      display 'sanity-check-1', sanity_check_1
 
-It's time to run the simulations but first, let's start with a sanity check.  We will begin with 1000 students of uniform random ability split evenly into two schools that have no educational impact, in a system with no selectivity.  What we _should_ observe is no significant change within and between schools.  Random enrolment and student ability is doing all the work here.
-
-
-    display 'sanity-check-1', { 
-      schools: [{impact: 0.0}, {impact: 0.0}],
-      selectivity: 0.0
-    }
-
-
-Click on the simulation at any time to start / stop it.
-
-<figure>
-<div id="sanity-check-1"></div>
-<figcaption>Simulation 1: No impact, no selectivity.</figcaption></figure>
-
-Good. The results are as expected. During each tick, the schools `teach` method has no impact on student ability, some students graduate and are replaced with new students.  As such, school performance, measures by average student ability, remains close to 0.5.
-
-Next, we will model the same students in two schools, this time one with positive education impact and one with negative impact, again with no selectivity.  While both schools will start with similar student ability levels, the `teach` method _should_ see performance in the first school increase while it decreases in the second. 
-
-
-    display 'sanity-check-2', { 
-      schools: [{impact: 0.5}, {impact: -0.5}],
-      selectivity: 0.0
-    }
-
-<figure>
-<div id="sanity-check-2"></div>
-<figcaption>Simulation 2: School impact, no selectivity.</figcaption></figure>
-
-Again, the simulation delivers the expected results.  In both cases, the simulation performed as expected and our inference from student performance to school performance is warranted.
-
-
-## Shifting Averages
-
-What happens when selectivity is introduced?  In the next scenario, we take parameters of Simulation 1 - no school impact - but introduce selectivity into the model.  Because both schools are identical in terms of their causal impact, any changes are the result of school choice.
-
-
-    display 'simulation-shifting-averages-1', { 
-      schools: [{impact: 0.0}, {impact: 0.0}],
-      selectivity: 0.5
-    }
-
-
-<figure>
-<div id="simulation-shifting-averages-1"></div>
-<figcaption>Simulation 3: No impact but with selectivity.</figcaption></figure>
-
-While both schools' performance is similar when the simulation begins, any minor imbalance in relative performance caused by random variation in new student ability results in a run-away effect.  As soon as one school is perceived to perform better than others, school selectivity ensures that students who can choose schools, choose the school with the higher percentage of high ability students.
-
-Recall that the impact of schools is stipulated as zero.  The significant differences in school performance are completely explained by selectivity.
-
-
-## Performance is Relative
-
-!! Be clear here in what I mean about `relative performance`.  I'm not saying performance _is_ relative, I'm saying that the performance of other schools matters.
-
-The previous simulation showed how significant performances differences can arise even when schools are causally identical.  The next simulations demonstrate how a school with negative educational impact can appear to positively impact student ability.  
-
-Let's begin with two schools with negative impact of differing levels but with no selectivity present.  In this case the average performance of both schools should decrease, propped up only by new enrolments whose average ability is `0.5`.
-
-
-    display 'simulation-relative-1', { 
-      schools: [{impact: -0.25}, {impact: -0.5}],
-      selectivity: 0.0
-    }
-
-
-<figure>
-<div id="simulation-relative-1"></div>
-<figcaption>Simulation 4: Negative impact, no selectivity.</figcaption></figure>
-
-Now, we introduce selectivity to the same schools and students.
-
-
-    display 'simulation-relative-2', { 
-      schools: [{impact: -0.25}, {impact: -0.5}],
-      selectivity: 1.0
-    }
-
-
-<figure>
-<div id="simulation-relative-2"></div>
-<figcaption>Simulation 5: Negative impact with selectivity.</figcaption></figure>
-
-With selectivity, a negative impact school performs like a positive impact one.  The mere presence of a lower impact school combined with selectivity results in the higher ability students enrolling in the least worse school, thereby _inflating_ its performance.  School performance is determined not only by the causal impact of a school but also by the relative performance of other schools.
-
-
-## Lucky Starts
-
-In previous simulations, we have looked at scenarios where both schools started with statistically similar distributions of students.  In the next, we add a new parameter, `skew`, that alters the initial enrolment of students.  Every simulation is constituted of 1000 students of uniformly random ability (mean of 0.5) but a `skew` value of `0.75` here means that 75% of the above average, and therefore 25% of the below average students, will initially be enrolled in the first school.
-
-
-    display 'simulation-head-start-1', { 
-      schools: [{impact: -0.25}, {impact: 0.25}],
-      selectivity: 0.0,
-      skew: 0.75
-    }
-
-
-<figure>
-<div id="simulation-head-start-1"></div>
-<figcaption>Simulation 6: Mixed impact with skew.</figcaption></figure>
-
-As expected, any skewness in the initial distribution when selectivity is absent is eliminated given enough time.  In each tick, the causal impact of schools affects student ability, and every enrolling cohort normalises school performance to a degree.  The first school, while appearing to perform strongly initially, eventually performs poorly, with the opposite occurring in the second school.
-
-
-    display 'simulation-head-start-2', { 
-      schools: [{impact: -0.25}, {impact: 0.25}],
-      selectivity: 0.75,
-      skew: 0.75
-    }
-
-
-<figure>
-<div id="simulation-head-start-2"></div>
-<figcaption>Simulation 7: Mixed impact with skew and selection.</figcaption></figure>
-
-Once selectivity is added though, school performance no longer reflects school impact.  Given a sufficiently skewed initial distribution of students, the possibility of school choice results in a negative impact school performing like a positive impact one, and a positive impact school performing like a negative impact one.
-
-
-## Conclusion
-
-!! I'm not sure how strong I will make my conclusion or whether I will point to specific systems with/without selectivity.  Currently, I'm thinking the following would be appropriate.
-
-We want to measure school performance but cannot do so directly.  Instead, we rely on student performance as a proxy, and _infer_ school performance from student results.
-
-As these simulations clearly demonstrate, there are many times when this inference is not justified, especially when school choice is present.
-
-How applicable is this model to the real world, and therefore how sceptical should we be of student to school performance in general?  The answer depends on how representative the assumptions in the model are of reality.  If selectivity is present, then we should be very sceptical of inferring much at all about school performance.
-
-In many modern education systems, choice of school and school selectiveness is a minor issue.  In some school systems, the most pressing factor for many parents is whether their children turn left or right when walking out the front door. Schools here are uniformly good (or bad) and most students are allocated to a school based on residency.
-
-In many other systems, however, school choice is prevalent.  In these systems, it seems like the student to school performance inference is rather dubious.  Without controlling for selectivity, there is very little you can reliably infer about school performance from proxy measures like student performance.
-
----
 
 > Running your own simulation is easy.  You just need to specify the parameters and call `display(target-location, parameters)` and add a target location in HTML `id="target-location"`
 

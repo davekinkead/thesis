@@ -1,19 +1,18 @@
 ---
-title: What does student performance tell us about school effectiveness?
+title: What do student results tell us about school performance?
 author: Dave Kinkead
 email: d.kinkead@uq.edu.au
 status: terse public draft
 ---
 
-# What does student performance tell us about school effectiveness?
+# What do student results tell us about school performance?
 
->  This is an argument for epistemic scepticism about school performance measurement.  Measuring school performance is important for many of us but because we can only use student performance as a proxy for school performance, we should be careful about what we infer from one to the other.  
+> It seems likely that most people believe schooling somehow affects student ability.  After all, we as a society invest significant amounts of time and money in various endeavours like NAPLAN **INSERT OTHERS** trying to measure exactly this.  Yet these endeavours face an epistemic challenge.  Because we can't measure the causal impact of schools directly, we can't know this causal impact with certainty.  Instead, we _infer_ the causal impact of schools on student ability by way of proxy measures such as student results.  If student results improve, then we can _infer_ that some aspect of schooling _caused_ this.  Perhaps.
 
->  School choice is a reality in many education systems.  I demonstrate that whenever school selectivity or student choice is involved, our inferences from student performance to school performance are severely limited.
+> How warranted is this inference from student results to school performance?  With the aid of computer simulation, I investigate the robustness of this inference mechanism in a variety of common scenarios.  Simulation allows us to stipulate causal mechanisms that cannot be observed in the real word and measure how well our empiric inferences map actual causes.  I show that when selectivity, either by student or school, is present, the inference mechanism from student results to school performance is very poor.  And if our causal inferences fail when causes are known, they must also fail when causes are not known.
 
-> Written in [Literate Coffeescript](http://Coffeescript.org/), this paper is simultaneously a philosophical argument and a computer simulation that demonstrates the argument.  You can both read the paper in raw form and execute the simulation that it discusses.  Installation and dependency requirements are explained in the appendix.
+> Written in [Literate Coffeescript](http://Coffeescript.org/), this paper is an argument for epistemic scepticism about school performance measurement. Simultaneously a philosophical argument and a computer simulation that demonstrates the argument, it is best viewed in HTML as this offers the reader the chance to interact with simulation and visualisations. A static version suitable for PDF or print is currently under development.
 
->  A terse public draft of a work-in-progress, comments and feedback are welcome directly in [the source](https://github.com/davekinkead/school-performance) or via email.  Specifically, I am interested in argument structure and whether the claims are understandable and entailed by the argument.  It will most likely be heavily rewritten so please don't bother with spelling & grammar comments just yet.
 
 ## General Comments/feedback
 
@@ -24,7 +23,14 @@ status: terse public draft
 
 ## Introduction
 
+Schooling affects student ability.  However we might measure the academic ability of students, whether by --CITE EXAMPLES--, few people would claim that school policies, pedogogy, and environment have no causal impact on students.  
+
+There are a variety of causal mechanisms that can explain how schools affect student ability.... 
+
 Measuring school performance is critical to many educational endeavours.  Parents want to know which school will best educate their children; principles want to know if their leadership makes a difference; politicians and bureaucrats want to know if their policies work.
+
+
+
 
 Of course, this assumes we know what _school performance_ means.  Depending on who is asked, the phenomena that school performance measures, and the metrics by which it is measured, will likely be different. For some parents, school performance might mean the change in likelihood that their progeny is admitted tom some prestigious university.  For some policy makers, school performance might mean the delivery cost for achieving particular standardised test scores.  For many people however, school performance will typically mean the impact of some educational process on a student's _academic performance_ [^academic].
 

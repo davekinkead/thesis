@@ -8,10 +8,7 @@ return c>=ys?n?"M0,"+i+"A"+i+","+i+" 0 1,1 0,"+-i+"A"+i+","+i+" 0 1,1 0,"+i+"M0,
 var School, Simulation, Student, colour, d3, display, enrol, gausian, height, render, width;
 
 Student = (function() {
-  function Student(mean) {
-    if (mean == null) {
-      mean = 0.5;
-    }
+  function Student() {
     this.ability = Math.random();
   }
 

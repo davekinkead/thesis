@@ -23,18 +23,40 @@ status: terse public draft
 
 ## Introduction
 
-Schooling affects student ability.  However we might measure the academic ability of students, whether by --CITE EXAMPLES--, few people would claim that school policies, pedogogy, and environment have no causal impact on students.  
 
-There are a variety of causal mechanisms that can explain how schools affect student ability.... 
+I take it as uncontested the claim that schooling somehow affects student ability.  However we measure the academic ability of students - whether by _declarative knowledge_, the learning and appropriate recall of particular facts; or by _procedural knowledge_, the application of skill and know-how - few people if any would claim that school policies, pedogogy, and environment have no causal impact on students.  After all, we as a society invest significant amounts of time and money in various endeavours like NAPLAN **INSERT OTHERS** trying to measure exactly this.
 
-Measuring school performance is critical to many educational endeavours.  Parents want to know which school will best educate their children; principles want to know if their leadership makes a difference; politicians and bureaucrats want to know if their policies work.
+There are a variety of causal theories that could explain how schools affect student ability.... EXPLAIN THEM....  ...  Regardless of which the causal theory is in use, we might call the causal impact of schooling on student ability _school performance_.
+
+Measuring school performance however, faces an epistemic challenge.  Because we can't measure the causal impact of schools directly, we can't know this causal impact with certainty.  Instead, we _infer_ the causal impact of schools on student ability by way of proxy measures such as student results.  NAPLAN, SATs, GCSEs - measurements of student results are now ubiquitous in every education system.  If student results improve, then we can _infer_ that some aspect of schooling _caused_ this; that school performance has improved.  
+
+Perhaps.
+
+The limitations of causal knowledge are well known.  Causation cannot be observed directly - it can't be seen, heard, or touched.  Neither can it be know _a priori_.  Causal claims might be true or false, but they can never be contradictory (@hume EHU §4.2.16).  Instead, causal connections must be _inferred_ from their obverable, posited effects.  In order to discover the causes of effects, we try to hold all but a few variables fixed, and observe the co-variance between them in order to infer causality.
+
+In complex systems however, accurate causal inferences are especially challenging.  Common causes, feedback loop, under-determination, over-determination, and causal indeterminacy all strain the certainly of our inference mechanisms despite the best controls, protocols, and experimental design we might put in place.  Causal inference is difficult.  Infering school performance from student results in a complex education system with multiple confounders is even more difficult.
+
+So just how warranted is this inference from student results to school performance?  In some scenarios, inferring school performance from student performance might be perfectly justified.  Changes in student results might be largely or even wholly explainable by a school's causal impact.  In many other scenarios however, we might have serious grounds for scepticism.  Confounders such as parental age, XXX, YYY, or even a student's breakfast consumption might explain a great deal about differences in student results.
+
+If infering from observable effects to their causes is difficult, then judging the quality of the inference mechanism is even harder.  To do so requires some standard against which we can make comparisons, but our knowledge of this standard is limited by the same problem of inference.  How can we judge the quality of the inference from student results to school performance if can't be certain what is the cause of student results in the first place?  We lack the epsitemological foundations to properly ground our second order judgements.
+
+Computer simulation however, offers us a way out of this problem. Simulation allows us to not only model how we think the world _is_, but to also stipulate how we think the world _should be_.  It allows us to know the causal relationships in the model with certainty because they are explicitly defined in code.  With causality known, we can then observe the empiric data and assess the quality of the inference mechanism.
+
+What follows in this paper is a simulation of a very simple model of school performance encompasing a just handful of variables.  First I describe and define a model of students and schools.  Student ability is created at random and students are randomly allocated to schools.  A school's causal impact is stipulated however, and this varies between schools.  Schools causally impact student's ability by 'teaching' and this impact is measured via student results.  Over time, some students graduate and new students enroll.  
+
+Because the causal impact of a school on student ability is known by stipulation, we can assess how accurately empiric data about student performance maps to the stipulated causal impact of the school.  If the inference isn't warranted when the causal mechanism is known by stipulation, then the inference can't be warranted when the causal mechanism is uncertain.  This simulation will therefore allow us to say when the _student result to school performance_ inference might be warranted, and when it cannot be warranted.
+
+Written in [Literate Coffeescript](http://Coffeescript.org/), this paper is simultaneously a philosophical argument and a computer simulation that demonstrates the claims of the argument.  Literate Programming (@knuth1972) involves embedding computer code within a written argument and has much to offer scholarly writing.  Firstly, it ensures that all assumptions of the model are explicit.  Computer programs are deterministic, so all the instruction nescessary for the simulation to rule have to be made explicit.  
+
+Literate Programming also allays concerns relating to validation and replication.  Often, simulations are 'black boxes' of code - opaique to the reader and reviewer alike.  Because all the code nescessary for the simulation is embedded in the paper, replication is a simple as running the command `browserify -t coffeeify paper.coffee.md > assets/simulation.js`.  Installation instructions can be found in the appendix. [Best viewed in HTML](http://blind-review.github.io/school-performance/) to take advantage of the interactive visualisations, a static version but less engaging version of this paper is available in PDF or print.
+
+
+## Model
 
 
 
 
-Of course, this assumes we know what _school performance_ means.  Depending on who is asked, the phenomena that school performance measures, and the metrics by which it is measured, will likely be different. For some parents, school performance might mean the change in likelihood that their progeny is admitted tom some prestigious university.  For some policy makers, school performance might mean the delivery cost for achieving particular standardised test scores.  For many people however, school performance will typically mean the impact of some educational process on a student's _academic performance_ [^academic].
 
-[^academic]: Obviously, the term _academic performance_ will also have a variety of interpretations.  Here, I take _academic performance_ to mean the extent to which a student has achieved their educational goals.  This might relate to _declarative knowledge_, the learning and appropriate recall of particular facts.  It might relate to _procedural knowledge_, the application of skill and know-how.  Or it might relate to some combination of both, broadly construed.  In this paper I am agnostic to what _academic performance_ means within these constraints as my argument is applicable however it is interpreted.
 
 One significant challenge of measuring school performance is that we can't measure it directly.  School performance isn't something corporal or tactile that can be prodded and poked.  School performance isn't real at all.  It is the description we give to some causal process that affects things that do exist - students.  Because we can't measure school performance directly, we must therefore use some proxy - student performance.  We _infer_ school performance by _observing_ student performance, whether through examinations, continuous assessment, or some other measurement.
 
@@ -42,6 +64,7 @@ But just how warranted is this inference?  In some scenarios, inferring school p
 
 
 ## Methodology
+
 
 The measurement of school performance is now ubiquitous. NAPLAN, SATs, GCSEs - every modern education system today uses some form of school performance measurement.  Yet none of these directly measure school performance.  Instead, they measure the academic performance of collections of students to then _infer_ school performance.
 

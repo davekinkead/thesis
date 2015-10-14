@@ -11,7 +11,7 @@ status: terse public draft
 
 > How warranted is this inference from student results to school performance?  With the aid of computer simulation, I investigate the robustness of this inference mechanism in a variety of common scenarios.  Simulation allows us to stipulate causal mechanisms that cannot be observed in the real word and measure how well our empiric inferences map actual causes.  I show that when selectivity, either by student or school, is present, the inference mechanism from student results to school performance is very poor.  And if our causal inferences fail when causes are known, they must also fail when causes are not known.
 
-> Written in [Literate Coffeescript](http://Coffeescript.org/), this paper is an argument for epistemic scepticism about school performance measurement. Simultaneously a philosophical argument and a computer simulation that demonstrates the argument, it is best viewed in HTML as this offers the reader the chance to interact with simulation and visualisations. A static version suitable for PDF or print is currently under development.
+> Written in [Literate Coffeescript](http://Coffeescript.org/), this paper is an argument for epistemic scepticism about school performance measurement. Simultaneously a philosophical argument and a computer simulation that demonstrates the argument, it is [best viewed in HTML](http://blind-review.github.io/school-performance/) as this offers the reader the chance to interact with simulation and visualisations. A static version suitable for PDF or print is currently under development.
 
 
 ## General Comments/feedback

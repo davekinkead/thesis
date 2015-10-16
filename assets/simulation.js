@@ -73,8 +73,8 @@ Simulation.prototype.teach = function() {
   });
 };
 
-Simulation.prototype.graduate = function() {
-  var best, display, one, ref, ref1, total, worst, zero;
+Simulation.prototype.measure_performance = function() {
+  var best, one, ref, ref1, total, worst, zero;
   ref = [[], []], zero = ref[0], one = ref[1];
   this.students.map(function(student) {
     if (student.school.id === 0) {
@@ -92,7 +92,12 @@ Simulation.prototype.graduate = function() {
     return a + b;
   });
   this.schools[1].score = total / one.length;
-  ref1 = this.schools[0].score > this.schools[1].score ? [this.schools[0], this.schools[1]] : [this.schools[1], this.schools[0]], best = ref1[0], worst = ref1[1];
+  return ref1 = this.schools[0].score > this.schools[1].score ? [this.schools[0], this.schools[1]] : [this.schools[1], this.schools[0]], best = ref1[0], worst = ref1[1], ref1;
+};
+
+Simulation.prototype.graduate = function() {
+  var best, display, ref, worst;
+  ref = this.measure_performance(), best = ref[0], worst = ref[1];
   this.students.map((function(_this) {
     return function(student) {
       if (Math.random() > 0.8) {
@@ -158,7 +163,7 @@ relative_2 = {
       impact: -0.5
     }
   ],
-  selectivity: 0.6
+  selectivity: 0.5
 };
 
 head_start_1 = {
@@ -187,9 +192,9 @@ head_start_2 = {
 
 d3 = require('./assets/d3.min.js');
 
-height = window.innerHeight - 25 || 600;
-
 width = window.innerWidth - 25 || 600;
+
+height = width * 0.4;
 
 display = (function(_this) {
   return function(id, params) {
@@ -258,11 +263,11 @@ colour = function(d, attribute) {
 render = function(simulation) {
   simulation.schools.map(function(school) {
     school.x = width * (0.3 + 0.5 * school.id);
-    return school.y = height * 0.5;
+    return school.y = height * 0.6;
   });
   return simulation.students.map(function(student) {
     student.x = gausian(width / 1.2) + student.school.x;
-    return student.y = gausian(width / 1.2) + student.school.y;
+    return student.y = gausian(height / 0.5) + student.school.y;
   });
 };
 

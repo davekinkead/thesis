@@ -401,6 +401,15 @@ Finally, we trigger the various simulations outlined in the article once all the
 
 <script type="text/javascript" src="assets/d3.min.js"></script>
 <script type="text/javascript" src="assets/simulation.js"></script> 
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
+  ga('create', 'UA-50866139-1', 'kinkead.com.au');
+  ga('send', 'pageview');
+
+</script>
 
 ## Bibliography

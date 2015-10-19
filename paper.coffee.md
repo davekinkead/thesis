@@ -409,7 +409,6 @@ Finally, we trigger the various simulations outlined in the article once all the
 
   ga('create', 'UA-50866139-1', 'kinkead.com.au');
   ga('send', 'pageview');
-
 </script>
 
 ## Bibliography

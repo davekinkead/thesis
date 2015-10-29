@@ -63,6 +63,8 @@ Challenging CJT Assumptions
 
 -  Brighouse, H. and M. Fleurbaey, 2010, “Democracy and Proportionality.” Journal of Political Philosophy, 18: 137–155.
 
+- Cohen, J., 1986, “An epistemic conception of democracy,” Ethics, 97(1): 26–38.
+
 -  Chapman, B., 2002, “Rational Aggregation.” Politics, Philosophy and Economics, 1: 337–354.
 
 -  Condorcet, Nicolas de, 1785, Essay sur l'Application de l'Analyse à la Probabilité des Décisions Rendue à la Pluralité des Voix. Paris.

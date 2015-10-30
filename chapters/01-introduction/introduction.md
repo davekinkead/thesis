@@ -8,6 +8,8 @@ license: CC-BY-SA-NC
 
 # Beginnings
 
+Needs to be re-written for new project...
+
 Start with a snazzy **introduction** - maybe "This is a argument about authority and its justification".
 
 Cover my **motivations**. Why am I doing this, what's the point of it all?  There is something intuitively appealing about democracy.  For me, it stems from the idea of autonomy.  For an individual to live well, to realise self actualisation or eudaimonia, then at the very least they must be autonomous.  A necessary condition of the good life is that it is _your_ life, of your choosing and making.  Now this in no way denies the essential role that luck, others, and society play in the causal path of lives, but it does require that in order to live well, then we are capable of, and sufficiently do, author the rules that we live by, to choose our own behaviour and life path.

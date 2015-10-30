@@ -1,5 +1,7 @@
 # Thesis Outline
 
+Need to rewrite in lieu of project change
+
 ## Introduction
 
 This is an argument about authority.  More specifically though, it's an argument about democratic authority and how what we typically think are justifications of democratic authority, are in actual fact rationalisations of it.  That's because accounts of democratic authority, all of them, fail to adequately justify the authority of the state.  What we are left with is a collection of sporadically connected reasons to obey - attempts to make the coercive power of the state more palatable to those it coerces.  Reasons that are sometime persuasive, but never coherent.

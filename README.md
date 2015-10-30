@@ -14,13 +14,42 @@ So I now want to write the world's first computer executable philosophy thesis. 
 
 Here's what I think my thesis could look like.
 
-  1. Introduction.  Commentary on my project and each paper.
-  2. Methodology. A lit review and justification of computational approaches to political philosophy.
-  3. A New Challenge to the Jury Theorem.  I show whenever choices about inclusion need to be made, CDT assumptions don't necessarily hold internally even when they are true externally.
-  4. Borders and Legitimacy. I show that different types of instrumental justifications of democracy are incompatible.
-  5. Egalitarianism isn't Equal.  I show that under normal conditions, egalitarian justifications of democracy can't deliver political equality.
-  6. States of Nature.  I demonstrate the (in)compatibility of assumptions about the nature of man made by Hobbes, Locke, & Rousseau.
-  7. Is politics necessity.  I demonstrate the conditions when democratic necessity arguments are entailed.
-  8. Conclusion.
+## Introduction
+
+Commentary on my project and 1000 word summary of each paper.
+
+  
+## Philosophy & Simulation
+
+Methodology. A lit review and justification of computational approaches to political philosophy.
+
+
+## A New Challenge to the Jury Theorem
+
+This chapter introduces a new challenge to the Jury Theorem.  Condorcet's Jury Theorem (CJT) proves that the likelihood of a simple majority vote on some issue being correct increases to certainty as the number of voters increases to infinity, assuming that the average voter competence is better than 50%.
+
+Demonstrating that the assumption of voter competence holds true in real life proves difficult however.  Ascertaining voter competence empirically requires some independent way of determining the what correct choice is in actual fact.  Yet if this can be known independently, using CJT to justify democracy becomes redundant.  Instead, voter competence is simply presumed by appealing to the the Principle of Charity.  After all, if randomly flipping a coin yields at 50% likelihood of being correct on a binary issue, the addition of even a modicum of reason should increase that likelihood at least a little.
+
+Using computer simulation, I advance Goodin & Estlund's argument for the persuasiveness of democratic majorities and show that diversity of voter competence undermines the Principle of Charity.  To have any plausibility, the PoC should apply equally to indistinguishable polities.  This is not the case however.  Even if the assumptions of CJT hold true for one polity, it is unlikely they hold true for other indistinguishable polities.  Thus, we have even less reason to support the Principle of Charity than previously thought.
+
+(Alternatively, I show whenever choices about inclusion need to be made, CDT assumptions don't necessarily hold internally even when they are true externally.)
+
+
+## Instrumental Incompatibility. 
+
+I show that different types of instrumental justifications of democracy are incompatible.
+
+
+## Egalitarianism and Inequality
+
+Egalitarianism isn't Equal.  I show that under normal conditions, egalitarian justifications of democracy can't deliver political equality.
+
+
+## States of Nature.  
+
+I demonstrate the (in)compatibility of assumptions about the nature of man made by Hobbes, Locke, & Rousseau.
+
+
+## Conclusion.
 
 And that's that. I may have to change the authority stuff to democracy but why not?

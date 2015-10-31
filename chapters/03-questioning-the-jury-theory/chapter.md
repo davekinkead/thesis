@@ -37,20 +37,24 @@ But...
 
 ---
 
-- test the principle of charity regarding voter competence.
+1. Explain CJT
 
-- Clarify CJT & assumptions
-  - Competence: better than average chance of being correct. distinguish between token and type competence.
-  - Independence: chance of any two voters being correct is the product of both being correct.
+2. CJT relies on key assumptions.  What are they. How have they been challenged.
 
-- model 1: CJT with uniform competence > 0.5
-- model 2: CJT with random competence > 0.5 
+3. Model CJT. Explore 2 concepts on comptence.
 
-- introduce clustering & borders
+  - model 1: CJT with uniform competence > 0.5
+  - model 2: CJT with random competence > 0.5 
 
-- model 3: CJT 1 with borders
-- model 4: CJT 2 with borders
+4. Goodin & Estlund's claim
 
-- discussion of consequences
+5. Instroduce inclusion & partitioning
 
-- how can we know regional competence
+6. Anonymity and PoC
+
+7. Model inclusion undermining CJT
+
+  - model 3: CJT 1 with borders
+  - model 4: CJT 2 with borders
+
+8. Conclusion - we have little to justify the Principle of Charity!

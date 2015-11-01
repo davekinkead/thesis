@@ -328,7 +328,7 @@ In the formalisation below, agent character improves relative to the average cha
     Space::character = () ->
       polity_improvements = []
       for polity in @polities
-        characters = polity.map (agent) ->
+        characters = polity.manipulation (agent) ->
           character = if agent.belief is 'good' then 0.5 else 0.0 
           character += Math.random() / 2
         average_character_in_polity = ave characters

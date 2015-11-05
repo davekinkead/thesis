@@ -68,29 +68,35 @@ An anlytic solution as the base line.
 
 > Pn = SUM (n choose h) p^h (1-p)^(n-h)
 
-
     condorcet_likelihood = (voters, competence) ->
-      majority = Math.ceil(voters / 2)
-      n_choose_k(voters, majority) * Math.pow(competence, majority) *
-        Math.pow(1-competence, voters - majority)
+      majority = Math.floor (voters+1) / 2
+      [majority..voters].map (n) ->
+          n_choose_k(voters, n) * Math.pow(competence, n) *
+            Math.pow(1-competence, voters - n)
+        .reduce (a,b) ->
+          a + b
+
+
+The multiplicative formula for calculating binomial coefficients is more efficient to compute but even here, the analytic approach is limited by an integer size of 53 bits.  For example, 1000 choose 500 yields approximately 2.7e+299 permutations limiting the calculation of the Condorcet Jury Theorem analytically to just over 1000 voters.
+
 
     n_choose_k = (n,k) ->
       return 1 if k >= n
-      if k > n-k then k = n-k
-      accum = 1
-      for i in [1..k]
-        accum *= (n-(k-i))
-        accum = Math.round(accum/i)
-      accum
+      [1..k].map (i) ->
+          (n-(k-i)) / i
+        .reduce (a,b) ->
+          a * b
 
 
-    #   stirlings_approx(n) / (stirlings_approx(k) * stirlings_approx(n-k) )
-    #
-    # stirlings_approx = (n) ->
-    #   Math.round(Math.sqrt(2 * Math.PI * n) * Math.pow(n/Math.E, n))
+    analytic_jury_theorem = (results = []) ->
+      [1..100].map (n) ->
+        if n % 2 isnt 0
+          [30..70].map (c) ->
+            c = c/100
+            results.push {n: n, c: c, p: condorcet_likelihood(n, c)} unless n % 2 is 0
+      results
 
-    console.log n_choose_k(7, 3)
-    console.log condorcet_likelihood(100, 0.51)
+    # analytic_jury_theorem()
 
 Explain the ABM and relaxed assumptions
 
@@ -276,3 +282,37 @@ Simulate heteorogeneous voter competency.  Given the same voters, show how the d
 ## Conclusion
 
 We have little to justify the Principle of Charity!
+
+
+## Appendix
+
+Test the code
+
+
+    test = (argv) ->
+      console.log "10 choose 5 is #{n_choose_k 10, 5}" if argv[3] is 'n_choose_k'
+
+
+Be able to save data to disk
+
+
+    fs = require 'fs'
+    save = (name, results) ->
+      dir = "#{__dirname}/assets"
+      fs.mkdirSync dir unless fs.existsSync dir
+      fs.writeFile "#{dir}/#{name}.json", JSON.stringify(results) , (err) ->
+        if err then console.log err
+
+Run some simulations
+
+    generate = (argv) ->
+      console.log "Generating data for #{argv[3]}"
+      save 'analytic', analytic_jury_theorem() if argv[3] is 'analytic'
+
+
+You can now run any of these simulations to generate their results.
+
+
+    process.argv.map (val, index, array) ->
+      test array if val is 'test'
+      generate array if val is 'generate'

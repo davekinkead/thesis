@@ -10,11 +10,11 @@
   edition      =  {Winter 2013},
 }
 
-> Condorcet anticipated a key theme of modern social choice theory: majority rule is at once a plausible method of collective decision making and yet subject to some surprising problems. Resolving or bypassing these problems remains one of social choice theory's core concerns. 
+> Condorcet anticipated a key theme of modern social choice theory: majority rule is at once a plausible method of collective decision making and yet subject to some surprising problems. Resolving or bypassing these problems remains one of social choice theory's core concerns.
 
-## Epistemic justifications of democracy 
+## Epistemic justifications of democracy
 
-> Condorcet assumed that each individual is better than random at making a correct judgment (the competence assumption) and that different individuals' judgments are stochastically independent, given the state of the world (the independence assumption). 
+> Condorcet assumed that each individual is better than random at making a correct judgment (the competence assumption) and that different individuals' judgments are stochastically independent, given the state of the world (the independence assumption).
 
 > Formally, let V1, V2, …, Vn (capital letters) denote the random variables generating the specific individual votes v1, v2, …, vn (small letters), and let V = f(V1, V2, …, Vn) denote the resulting random variable representing the social decision v = f(v1, v2, …, vn) under a given aggregation rule f, such as majority rule.  [X denoting the state of the world (1 or 0)]
 

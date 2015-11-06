@@ -89,14 +89,22 @@ The multiplicative formula for calculating binomial coefficients is more efficie
 
 
     analytic_jury_theorem = (results = []) ->
-      [1..100].map (n) ->
+      [1..1000].map (n) ->
         if n % 2 isnt 0
           [30..70].map (c) ->
             c = c/100
-            results.push {n: n, c: c, p: condorcet_likelihood(n, c)} unless n % 2 is 0
+            tuple =
+              "Voters": n
+              "Voter Competence": c
+              "Majority Likelihood": condorcet_likelihood(n, c)
+            results.push tuple  unless n % 2 is 0
       results
 
-    # analytic_jury_theorem()
+
+<figure>
+<div id="analytic_jury_theorem" class="graph"></div>
+<figcaption>Preference fidelity by partition number</figcaption></figure>
+
 
 Explain the ABM and relaxed assumptions
 
@@ -316,3 +324,7 @@ You can now run any of these simulations to generate their results.
     process.argv.map (val, index, array) ->
       test array if val is 'test'
       generate array if val is 'generate'
+
+<script src="../../assets/d3.v3.min.js" type="text/javascript"></script>
+<script src="../../assets/dimple.v2.1.2.min.js" type="text/javascript"></script>
+<script src="assets/graph.js" type="text/javascript"></script>

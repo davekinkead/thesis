@@ -194,7 +194,6 @@ Then run a monte carlo simulation. 10000 voters into 10 polities.  How often do 
           .reduce((a,b) -> a + b) / 10
       console.log "Uneven  - " + winners.reduce((a,b) -> a + b) / winners.length
 
-      space = new Space with_uniform_voters(10000, c)
       winners = [1..1000].map (tick) ->
         polities = space.partition_into 10
         polities.map (polity) ->

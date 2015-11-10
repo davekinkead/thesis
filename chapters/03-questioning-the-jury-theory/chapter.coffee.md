@@ -91,7 +91,7 @@ CJT relies on key assumptions.  What are they. How have they been challenged.
   (Owen 1985 - Distribution-Free Generalization of the Condorcet Jury Theorem).
   (List & Goodin)
 
-Explain the ABM and relaxed assumptions.
+Explain the ABM with relaxed assumptions.
 
 The multiplicative formula for calculating binomial coefficients is more efficient to compute but even here, the analytic approach is limited by an integer size of 53 bits.  For example, 1000 choose 500 yields approximately 2.7e+299 permutations limiting the calculation of the Condorcet Jury Theorem analytically to just over 1000 voters.
 
@@ -105,7 +105,7 @@ Voters need to exist somewhere. We will call this the political space.
     class Space
       constructor: (@voters) ->
 
-Now we create voters with a uniform probabilistic competence function.
+Now we create voters with a stochastic competence function.
 
     with_uniform_voters = (total_number, average_competence) ->
       [1..total_number].map () ->
@@ -113,16 +113,28 @@ Now we create voters with a uniform probabilistic competence function.
           if Math.random() < average_competence then 1 else 0
         new Voter competence
 
+We can also relax the unform competency assumption.  The `with_symmetric_voters` function is almost identical to the `with_uniform_voters` function except voter competence is symmetrically distributed around the average competence, with voters then ordered by competence.
+
+    with_symmetric_voters = (total_number, average_competence) ->
+      [1..total_number].map () ->
+          (Math.random() - Math.random()) / 2 + average_competence
+        .sort (a,b) ->
+          a - b
+        .map (comp) ->
+          competence = () ->
+            if Math.random() < comp then 1 else 0
+          new Voter competence
+
 Measure voting outcomes in a space.  In the event of a tie we assume the worst.
 
     vote = (polity) ->
-      correct_votes = polity.voters.map (voter) ->
+      correct_votes = polity.map (voter) ->
           voter.competence()
         .reduce (total, competence) ->
           total + competence
-      if correct_votes / polity.voters.length > 0.5 then 1 else 0
+      if correct_votes / polity.length > 0.5 then 1 else 0
 
-Demonstrate relaxed CJT results and compare against analytic results.
+Demonstrate relaxed CJT results and compare against analytic results with some pretty graphical comparison. --perhaps an interactive graph with analytic, uniform, and symmetic overelayed-- In the meantime, run `coffee filename test analytic` and `coffee filename test uniform` to compare the two.
 
 
 ## Anonymity and the Principle of Charity
@@ -146,26 +158,49 @@ Demonstrate relaxed CJT results and compare against analytic results.
   Inverse Anonymity: For any polity formed by a partition rule in which the Principle of Charity is cannot be presumed to hold true, it cannot be presumed to hold true in any other possible polity formed by the same partition rule.
 
 
-
 ## Democratic Inclusion and Voter Competence
 
-Advance the claim that if voter competence as per relaxed CJT is distributed, then CJT no longer holds.
+Advance the claim that if voter competence as per relaxed CJT is unevenly distributed, then CJT no longer holds.
 
-Modelling here.
+Start with a way to distribute voters
 
-Distrbute voters across the space.
+    Space::distribute = ->
+      @voters
 
-    with_symmetric_voters = (total_number, average_competence) ->
-      [1..total_number].map () ->
-          (Math.random() - Math.random())/2 + average_competence
-        .sort (a,b) ->
-          a - b
-        .map (comp) ->
-          competence = () ->
-            if Math.random() < comp then 1 else 0
-          new Voter competence
+Now, some method to partition the space.  We want polities of random size.  Start with the number to divid. Cut it in two by picking a random number between 1 and it. Add the smallest to the list.
+
+    Space::partition_into = (partitions) ->
+      polities = [@voters]
+      while partitions > 1
+        partitions = Math.min partitions, @voters.length
+        polity = polities.shift()
+        cut = Math.floor( Math.random() * (polity.length - partitions) ) + 1
+        polities.push polity[...cut]
+        polities.push polity[cut..]
+        polities.sort (a,b) -> b.length-a.length
+        partitions--
+      polities
 
 
+Then run a monte carlo simulation. 10000 voters into 10 polities.  How often do majorities vote correctly?
+
+    test_paritions = (c=0.51) ->
+      c = parseFloat c
+      space = new Space with_symmetric_voters(10000, c)
+      winners = [1..1000].map (tick) ->
+        polities = space.partition_into 10
+        polities.map (polity) ->
+            vote(polity)
+          .reduce((a,b) -> a + b) / 10
+      console.log "Uneven  - " + winners.reduce((a,b) -> a + b) / winners.length
+
+      space = new Space with_uniform_voters(10000, c)
+      winners = [1..1000].map (tick) ->
+        polities = space.partition_into 10
+        polities.map (polity) ->
+            vote(polity)
+          .reduce((a,b) -> a + b) / 10
+      console.log "Uniform - " + winners.reduce((a,b) -> a + b) / winners.length
 
 ## Competence and its distribution
 
@@ -194,39 +229,39 @@ Test the code
       console.log "10 choose 5 is #{n_choose_k 10, 5}" if argv[3] is 'n_choose_k'
       test_uniform(argv[4]) if argv[3] is 'uniform'
       test_analytic(argv[4]) if argv[3] is 'analytic'
+      test_symmetric(argv[4]) if argv[3] is 'symmetric'
+      test_symmetric_dist(argv[4]) if argv[3] is 'symmetric_dist'
+      test_paritions(argv[4]) if argv[3] is 'partitions'
 
     test_analytic = (c=0.51) ->
       console.log "------Analytic at #{c} competence------"
       [1..20].map (n) ->
-        n = n*50+1
-        console.log "#{condorcet_likelihood(n, c).toFixed(6)} with #{n} voters"
+        n = n * 50 + 1
+        console.log "#{condorcet_likelihood(n, parseFloat c).toFixed(6)} with #{n} voters"
 
     test_uniform = (c=0.51) ->
       console.log "------Uniform at #{c} competence------"
       [1..20].map (n) ->
-        n = n*50+1
+        n = n * 50 + 1
         results = [1..1000].map () ->
-          simulation = new Space with_uniform_voters(n, c)
-          vote(simulation)
+          simulation = new Space with_uniform_voters(n, parseFloat c)
+          vote(simulation.voters)
         console.log "#{(results.reduce((a,b) -> a + b) / results.length).toFixed(6)} with #{n} voters"
 
+    test_symmetric = (c=0.51) ->
+      console.log "------Symmetric at #{c} competence------"
+      [1..20].map (n) ->
+        n = n * 50 + 1
+        results = [1..1000].map () ->
+          simulation = new Space with_symmetric_voters(n, parseFloat c)
+          vote(simulation.voters)
+        console.log "#{(results.reduce((a,b) -> a + b) / results.length).toFixed(6)} with #{n} voters"
 
     test_symmetric_dist = (c=0.51) ->
-      results = with_symmetric_voters(1000, c).map (voter) ->
-          voter.competence()
-        .reduce (a,b) ->
-          a + b
-      console.log results
-
-    test_symmetric_cjt = (c=0.51) ->
-      console.log "------Symmetric------"
-      [1..20].map (n) ->
-        n = n*50
-        results = [1..1000].map () ->
-          simulation = new Space with_symmetric_voters(n, c)
-          vote(simulation)
-
-        console.log "#{results.reduce((a,b) -> a + b) / results.length} with #{n} voters at #{c} competence"
+      [1..20].map ->
+        results = with_symmetric_voters(1000, parseFloat c).map (voter) ->
+            voter.competence()
+        console.log (results.reduce((a,b) -> a + b) / results.length).toFixed(6)
 
 Be able to save data to disk
 

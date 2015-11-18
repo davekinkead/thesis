@@ -46,32 +46,36 @@ Cordorcet's Jury Theorem offers proponents of democracy a powerful, if somewhat 
 
 ## Modelling the Jury Theorem
 
-The epsitemic value of Condorcet's Jury Theorem is typically demonstrated analytically.  How?  Give examples.
+The epsitemic value of Condorcet's Jury Theorem is typically demonstrated analytically.  (Give examples)
 
-In what follows, I depart from the tradtional analytic approach and use stochastic Agent Based Modelling.  When/why is this appropriate?
+Analytic approaches are not always the most useful implementation though. (Phil of Sim discussion)
 
-I want to show a new dimesional consideration and sensitivity to it.
+Agent based modelling offers something else...(what exactly) - sensitivity
 
 Explain literate programming.
 
-An anlytic solution as the base line.
+To verify that the agent based model of the jury theorem performs sufficiently well for our needs, we can compare it against an analytic implementation.
+
+Condorcet’s jury theorem calculates the probability that a majority of voters are correct on some issue as a function of the number of voters, the numbers needed for a majority, and the probability that each voter is correct.
 
 > Pn = SUM (n choose h) p^h (1-p)^(n-h)
 
-    condorcet_likelihood = (voters, competence) ->
-      majority = Math.floor (voters+1) / 2
+Implementing this analytically is straight forward, although this approach becomes computationally intractable in javascript once the number of voters increases beyond 1000.  
+
+    majority_likelihood = (voters, competence) ->
+      majority = Math.floor (voters + 1) / 2
       [majority..voters].map (n) ->
           n_choose_k(voters, n) * Math.pow(competence, n) *
             Math.pow(1-competence, voters - n)
-        .reduce (a,b) ->
-          a + b
+        .reduce (sum, increment) ->
+          sum + increment
 
-    n_choose_k = (n,k) ->
+    n_choose_k = (n, k) ->
       return 1 if k >= n
       [1..k].map (i) ->
           (n-(k-i)) / i
-        .reduce (a,b) ->
-          a * b
+        .reduce (sum, increment) ->
+          sum * increment
 
 <figure>
 <div id="analytic_jury_theorem" class="graph"></div>
@@ -107,16 +111,16 @@ Voters need to exist somewhere. We will call this the political space.
 
 Now we create voters with a stochastic competence function.
 
-    with_uniform_voters = (total_number, average_competence) ->
-      [1..total_number].map () ->
+    with_uniform_voters = (desired_number, average_competence) ->
+      [1..desired_number].map () ->
         competence = () ->
           if Math.random() < average_competence then 1 else 0
         new Voter competence
 
 We can also relax the unform competency assumption.  The `with_symmetric_voters` function is almost identical to the `with_uniform_voters` function except voter competence is symmetrically distributed around the average competence, with voters then ordered by competence.
 
-    with_symmetric_voters = (total_number, average_competence) ->
-      [1..total_number].map () ->
+    with_symmetric_voters = (desired_number, average_competence) ->
+      [1..desired_number].map () ->
           (Math.random() - Math.random()) / 2 + average_competence
         .sort (a,b) ->
           a - b
@@ -162,10 +166,20 @@ Demonstrate relaxed CJT results and compare against analytic results with some p
 
 Advance the claim that if voter competence as per relaxed CJT is unevenly distributed, then CJT no longer holds.
 
-Start with a way to distribute voters
+Start with a way to distribute voters.  Use a modified fisher-yates shuffle.  Take an ordered collection of voters and use a Fisher-Yates substitution to shuffle them.  Use a `skew` value to the determine exactly which elements get shuffled.
 
-    Space::distribute = ->
-      @voters
+    Space::distribute = (skew=1.0) ->
+      @voters = shuffle(@voters, skew)
+      this
+
+    shuffle = (list, skew=1.0) ->
+      i = list.length
+      return false if i is 0
+      while --i
+        if Math.random() < skew
+          j = Math.floor(Math.random() * (i+1))
+          [list[i], list[j]] = [list[j], list[i]] 
+      list
 
 Now, some method to partition the space.  We want polities of random size.  Start with the number to divid. Cut it in two by picking a random number between 1 and it. Add the smallest to the list.
 
@@ -184,22 +198,6 @@ Now, some method to partition the space.  We want polities of random size.  Star
 
 Then run a monte carlo simulation. 10000 voters into 10 polities.  How often do majorities vote correctly?
 
-    test_paritions = (c=0.51) ->
-      c = parseFloat c
-      space = new Space with_symmetric_voters(10000, c)
-      winners = [1..1000].map (tick) ->
-        polities = space.partition_into 10
-        polities.map (polity) ->
-            vote(polity)
-          .reduce((a,b) -> a + b) / 10
-      console.log "Uneven  - " + winners.reduce((a,b) -> a + b) / winners.length
-
-      winners = [1..1000].map (tick) ->
-        polities = space.partition_into 10
-        polities.map (polity) ->
-            vote(polity)
-          .reduce((a,b) -> a + b) / 10
-      console.log "Uniform - " + winners.reduce((a,b) -> a + b) / winners.length
 
 ## Competence and its distribution
 
@@ -231,12 +229,19 @@ Test the code
       test_symmetric(argv[4]) if argv[3] is 'symmetric'
       test_symmetric_dist(argv[4]) if argv[3] is 'symmetric_dist'
       test_paritions(argv[4]) if argv[3] is 'partitions'
+      test_shuffle(argv[4]) if argv[3] is 'shuffle'
+
+    test_shuffle = () ->
+      console.log "------Everybody's Shuffl'n------"
+      alphabet = [97..122].map (n) ->
+        String.fromCharCode n
+      console.log shuffle alphabet
 
     test_analytic = (c=0.51) ->
       console.log "------Analytic at #{c} competence------"
       [1..20].map (n) ->
         n = n * 50 + 1
-        console.log "#{condorcet_likelihood(n, parseFloat c).toFixed(6)} with #{n} voters"
+        console.log "#{majority_likelihood(n, parseFloat c).toFixed(6)} with #{n} voters"
 
     test_uniform = (c=0.51) ->
       console.log "------Uniform at #{c} competence------"
@@ -262,6 +267,34 @@ Test the code
             voter.competence()
         console.log (results.reduce((a,b) -> a + b) / results.length).toFixed(6)
 
+    test_paritions = (c=0.51) ->
+      c = parseFloat c
+
+      sim = (space) ->
+        [1..1000].map (tick) ->
+          polities = space.partition_into 10
+          polities.map (polity) ->
+              vote(polity)
+            .reduce((a,b) -> a + b) / 10
+
+      [0..20].map (d) ->
+        d = d * 0.05
+        space = new Space(with_symmetric_voters 10000, c).distribute(d)
+        console.log "----#{d}----#{space.voters.map((v) -> v.competence()).reduce((a,b) -> a + b) / space.voters.length}"
+        space.partition_into(10).map (p) ->
+          console.log p.map((v) -> v.competence()).reduce((a,b) -> a + b) / p.length
+
+        winners = sim(space)
+        console.log "Uneven  - " + winners.reduce((a,b) -> a + b) / winners.length
+
+        winners = sim(new Space(with_uniform_voters 10000, c).distribute(d))
+        console.log "Uniform - " + winners.reduce((a,b) -> a + b) / winners.length
+
+      space = new Space(with_symmetric_voters 10000, c)
+      winners = sim(space)
+      console.log "No Dist Uneven  - " + winners.reduce((a,b) -> a + b) / winners.length
+
+
 Be able to save data to disk
 
     fs = require 'fs'
@@ -281,7 +314,7 @@ Run some simulations
             tuple =
               "Voters": n
               "Voter Competence": c
-              "Majority Likelihood": condorcet_likelihood(n, c)
+              "Majority Likelihood": majority_likelihood(n, c)
             results.push tuple  unless n % 2 is 0
       results
 

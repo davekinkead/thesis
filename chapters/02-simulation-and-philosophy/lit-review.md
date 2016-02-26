@@ -133,6 +133,7 @@ Emergence
 
 ### Timothy Williamson
 
+
 > The models are typically presented in mathematical terms (p1)
 
 > When a system resists direct study, because it is so complex or hard to observe, model-building constitutes a key fall-back strategy. Studying a model often yields insight into the phenomena it models. 
@@ -205,6 +206,44 @@ Emergence
 
 
 ---
+
+Alexander, Joshua, and Weinberg, Jonathan. 201X. “The “Unreliability” of Epistemic Intuitions.” In Current Controversies in Experimental Philosophy, edited by Edouard Machery and Elizabeth O’Neill. London: Routledge.
+
+Arntzenius, Frank. 2008: “Gunk, topology, and measure,” Oxford Studies in Metaphysics, 4: 225-247.
+
+Carnap, Rudolf. 1947: Meaning and Necessity: A Study in Semantics and Modal Logic. Chicago: Chicago University Press.
+
+Ditmarsch, Hans van; Halpern, Joseph; Hoek, Wiebe van der; Kooi, Barteld. 2015: Handbook of Epistemic Logic. London: College Publications.
+
+Gettier, Edmund. 1963: “Is justified true belief knowledge?” Analysis, 23: 121-123.
+
+Godfrey-Smith, Peter. 2006a: “The strategy of model-based science.” Biology and Philosophy, 21: 725-740.
+
+Godfrey-Smith, Peter. 2006b: “Theories and models in metaphysics.” Harvard Review of Philosophy, 14: 4-19.
+
+Godfrey-Smith, Peter. 2012: “Metaphysics and the philosophical imagination.” Philosophical Studies, 160: 97-113.
+
+Hintikka, Jaakko. 1962. Knowledge and Belief. Ithaca, N.Y.: Cornell University Press.
+
+Howson, Colin, and Urbach, Peter. 1993: Scientific Reasoning: The Bayesian Approach, 2nd ed. Chicago: Open Court.
+
+Paul, Laurie. 2012: “Metaphysics as modelling: the handmaiden’s tale.” Philosophical Studies, 160: 1-29.
+
+Russell, Jeffrey Sanford. 2008: “The structure of gunk: adventures in the ontology of space.” Oxford Studies in Metaphysics, 4: 248-274.
+
+Weisberg, Michael. 2007: “Who is a modeler?” British Journal for the Philosophy of Science, 58, 207-233.
+
+Weisberg, Michael. 2013: Simulation and Similarity: Using Models to Understand the World. Oxford: Oxford University Press.
+
+Williamson, Timothy. 2000. Knowledge and its Limits. Oxford: Oxford University Press.
+
+Williamson, Timothy. 2013: “Gettier cases in epistemic logic.” Inquiry, 56: 1-14.
+
+Williamson, Timothy. 2014: “Very improbable knowing.” Erkenntnis, 79: 971-999.
+
+Williamson, Timothy. 2015: “A note on Gettier cases in epistemic logic.” Philosophical Studies, 172: 129-140.
+
+Wilson, Mark 2008: “Beware of the blob: cautions for would-be metaphysicians.” Oxford Studies in Metaphysics, 4: 275-320.
 
   -  Conradt, L. and C. List, 2009, “Group decisions in humans and animals: a survey.” Philosophical Transactions of the Royal Society, B 364: 719–742.
 

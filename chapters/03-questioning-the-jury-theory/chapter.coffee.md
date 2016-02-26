@@ -60,7 +60,7 @@ Condorcet’s jury theorem calculates the probability that a majority of voters 
 
 > Pn = SUM (n choose h) p^h (1-p)^(n-h)
 
-Implementing this analytically is straight forward, although this approach becomes computationally intractable in javascript once the number of voters increases beyond 1000.  
+Implementing this analytically is straight forward, although this approach becomes computationally intractable in javascript once the number of voters increases beyond 1000.
 
     majority_likelihood = (voters, competence) ->
       majority = Math.floor (voters + 1) / 2
@@ -178,7 +178,7 @@ Start with a way to distribute voters.  Use a modified fisher-yates shuffle.  Ta
       while --i
         if Math.random() < skew
           j = Math.floor(Math.random() * (i+1))
-          [list[i], list[j]] = [list[j], list[i]] 
+          [list[i], list[j]] = [list[j], list[i]]
       list
 
 Now, some method to partition the space.  We want polities of random size.  Start with the number to divid. Cut it in two by picking a random number between 1 and it. Add the smallest to the list.

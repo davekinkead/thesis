@@ -5,9 +5,6 @@ Computer simulation isn't very common in philosohy but the processes of creating
 Simulation is the 
 
 
-
-
-
 ## Simulation isn't new
 
 Computer simulation is new in philosophy but simulation itself isn't.

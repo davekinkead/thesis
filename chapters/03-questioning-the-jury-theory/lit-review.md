@@ -1,5 +1,49 @@
 # Lit Review
 
+## EPISTEMIC DEMOCRACY WITH DEFENSIBLE PREMISES
+
+DIETRICH & SPIEKERMANN 2013
+
+> The contemporary theory of epistemic democracy often draws on the Condorcet Jury Theorem to formally justify the ‘wisdom of crowds’. But this theorem is inapplicable in its current form, since one of its premises – voter independence – is notoriously violated. This premise carries responsibility for the theorem’s misleading conclusion that ‘large crowds are infallible’. We prove a more useful jury theorem: under defensible premises, ‘large crowds are fallible but better than small groups’. This theorem rehabilitates the importance of deliberation and education, which appear inessential in the classical jury framework. Our theorem is related to Ladha’s (1993) seminal jury theorem for interchangeable (‘indistinguishable’) voters based on de Finetti’s Theorem. We also prove a more general and simpler such jury theorem.
+
+> Put roughly: larger groups make better decisions, and very large groups are infallible. p88
+
+> If the asymptotic conclusion applied directly to modern democracies with their large populations, these democracies would be essentially infallible when making decisions between two alternatives by simple majority. p88
+
+> The CJT rests on two central premises. Stated roughly, the first premise is that the voters vote independently from each other, and the second premise is that each voter is competent, 
+
+> Most believe that ‘something’ is wrong with Condorcet’s premises, p89
+
+> deliberation and education may be crucial for the epistemic performance of groups, whereas the classical CJT suggests that they are inessential – since ‘crowds are infallible’ even without them – or even dangerous – since deliberation threatens voter independence.
+
+Extentions
+
+> For instance, Owen et al. (1989) prove that the asymptotic part also holds if judges are heterogeneous in competence, and Romeijn and Atkinson (2011) analyse cases of unknown competence. Different papers recognize that independence is hard to meet and/or prove jury theorems which weaken the independence assumption (e.g. Nitzan and Paroush 1984, Shapley and Grofman 1984, Boland 1989, Boland et al. 1989, Berg 1993, Estlund 1994, Kaniovski 2010, Spiekermann and Goodin 2012).
+
+Problems with indepdendence
+
+> To obtain a systematic account of voter (in)dependence, one must understand how the causal interactions in the voters’ institutional and deliberative environment create probabilistic dependence. p91
+
+> Many different notions of objectivity are compatible with that assumption, as long as the right, correct or better answer is a fact that is determined entirely independently from the votes of the individuals. This excludes procedural notions of rightness, where the ‘right’ solution is right just because it was arrived at by applying the appropriate procedure. p91
+
+
+## Epistemic Democracy: Generalizing the Condorcet Jury Theorem
+
+List & Goodin 2001
+
+
+
+## PROVING A DISTRIBUTION-FREE GENERALIZA TION OF THE CONDORCET JURY THEOREM*
+@owen1989
+
+> In particular, Grofman (1978) generalized the Condorcet Jury Theorem by replacing Assumption 2 (voter homo- geneity) with the assumption that voter competence is normally distributed with a variance equal to the binomial variance. p3
+
+> Theorem II also shows us that, for large n, except for the ‘knife-edge’ case p =t, if we know p (indeed if we merely know whether p is less than or greater than +, we would know virtually all we needed to estimate group competence.  p4
+
+> Part (3) of Theorem II, which gives the quite paradoxical result that groups which are on average ‘half-wits’ (a=+) can gener- ate a group judgmental competence anywhere from 0.39 to 0.61 - a result which does not ‘go away’ with increasing n.
+
+
+
 @InCollection{sep-social-choice,
   author       =  {List, Christian},
   title        =  {Social Choice Theory},
@@ -20,7 +64,7 @@
 
 > Condorcet's assumptions can be stated as follows:
 
-> Competence: For each individual i ∈ N and each state of the world x ∈ {−1,1}, Pr(Vi = x | X = x) = p > 1/2, where p is the same acrosndividuals and states.
+> Competence: For each individual i ∈ N and each state of the world x ∈ {−1,1}, Pr(Vi = x | X = x) = p > 1/2, where p is the same across individuals and states.
 
 > Independence: The votes of different individuals V1, V2, …, Vn are independent of each other, conditional on each value x ∈ {−1,1} of X.
 

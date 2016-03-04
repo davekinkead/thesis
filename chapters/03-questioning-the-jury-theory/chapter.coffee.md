@@ -2,7 +2,11 @@
 
 Working Title: Competence, Inclusion, and Legitimacy - A New challenge to Condorcet's Jury Theorem
 
+"Competence is not enough!"
+
 ## Outline
+
+> I show that even if the average voter competence is greater than 0.5, this is still not enough to justify CJT
 
 This chapter introduces a new challenge to the Jury Theorem.  Condorcet's Jury Theorem (CJT) proves that the likelihood of a simple majority vote on some issue being correct increases to certainty as the number of voters increases to infinity, assuming that the average voter competence is better than 50%.
 
@@ -13,35 +17,97 @@ Using computer simulation, I advance Goodin & Estlund's argument for the persuas
 
 ## My Argument
 
-  1. If the CJT is used to justify democracy, then voters must be competent.
+  1. If the CJT is used to justify democracy, then a number of conditions need to be satisfied (including average voter competence must be better than random).
 
-  - The competency assumption is difficult to demonstrate.
-  - The Principle of Charity is offered in lieu of demonstration.
+  2. The assumptions of CJT must be anonymous to similar polities.
 
-  2. If those assumptions are present, then majorities indicate competence (see Goodin's argument).
+  3. My simulation shows that (whenever CJT is applied to multiple polities), average voter competence is not enough - we also need even distribution of competence.  
 
-  3. If competence was consistent, then majorities would be consistent.
+  4. Acutal results show that these assumptions do not hold - competence isn't evenly spread.
 
-  4. But Majorities aren't consistent, therefore competence isn't consistent.
+    - the maths of CJT are symmetrical.  we can infer results -> competence (G&E)
+    - there is considerable variation of results in real life showing that competence is inconsistent accross issue and geography. Much more than CJT would imply.
+    - the anonymity condition makes the application of assumption of competence impossible (~B -> ~A) 
+    
 
-  5. The presumption of voter competence should be anonymous or polity blind.
-
-  6. Yet given (4), even if assumptions hold for one space, they don't necessarily hold for some other similar partition.
-
-  7. Therefore we have little to justify the presumption of voter competence.
+  - imagine Trump wins nationally but not in every state. TX votes red while CA votes blue. in order to use CJT, we need to grant the assumptions of competence and these assumptions must be anonymous - if its granted to TX, then it is granted to CA. But results show that the assumptions weren't satisfied in some states (and possibly nation as a whole).  
+  - Different results between similar electorates show that we cant the assumption to some.  And if we can't grant it to some, then we can't grant it to similar others.  Because we don't know which electorates can be granted the assumption a priori, we can't grant it to any!
 
 
+## Key Texts
+
+The persuasiveness of democratic majorities (Goodin & Estlund)
+The Epistemic Conception of Deliberative Democracy (Marti)
+
+Gordon, Stacy B. and Gary M. Segura. 1997. “Cross-National Variation in the Political Sophistication of Individuals: Capability or Choice?” Journal of Politics 59:126-­47.
+
+Group decision-making in animals Nature 421, 155-158 (9 January 2003) | doi:10.1038/nature01294; 
+
+  (Grofman 1975)
+  (Grofman 1978)
+  (Feld)
+  (Owen 1989 - Distribution-Free Generalization of the Condorcet Jury Theorem).
+  (List & Goodin)
 ---
 
 ## Introduction
 
-Cordorcet's Jury Theorem offers proponents of democracy a powerful, if somewhat utopian justification of majority rule.  Given group of people with a better than even chance of being correct on some issue, then the likelihood of the majority being correct approaches certainty as the number of people increase - assuming of course, some important conditions hold true.
+Of all the epistemic justifications of democratic rule, Condorcet's Jury Theorem is perhaps the most famous.  First outlined in the Marquis de Condorcet's 1785 work _Essai sur l’application de l’analyse à la probabilité des décisions rendues à la pluralité des voix_, it offers proponents of democracy a powerful, if somewhat utopian justification of majority rule.  Given a population of independent voters with a better than even chance of being correct on some binary issue, the likelihood of the majority vote being correct approaches certainty as the number of people increase.
 
-1. Explain CJT
+> Put roughly: larger groups make better decisions, and very large groups are infallible. p88
 
-  - What is the CJT
-  - How has it been used
-  - key assumptions
+Stated formally...
+
+          N
+    PN =  Σ (N!/[N–i]!i!)(pc)i (1–pc)N–i
+         i=m
+
+
+
+The theorem has found a number of contemporary propoents 
+  - list them
+  - start with Condorcet himself
+  - Quotes of it's power...
+
+  ‘Under what conditions will there be a degree of probability that the majority decision of an assembly or tribunal is true ...?’ (Baker, 1967, p. 139)
+
+Of course, Condorcet’s Jury Theorem relies heavily on a number of key assumptions that have not been left unchallenges by critics of epistemic instrumental justifications of democracy.  These can be characterised as assumptions regarding voters and assumptions regarding the choice.
+
+  1. **Voter Independence** Voters’ choices are independent of one another.
+
+> Although Condorcet's conclusion is robust to the presence of some interdependencies between individual votes, the structure of these interdependencies matters (e.g., Boland 1989; Ladha 1992; Estlund 1994; Dietrich and List 2004; Berend and Sapir 2007; Dietrich and Spiekermann 2013). If all individuals' votes are perfectly correlated with one another or mimic a small number of opinion leaders, the collective judgment is no more reliable than the judgment among a small number of independent individuals.
+
+> Ladha’s (1993)
+
+  2. **Voter Homogeneity** Voters are homogeneous, i.e., p, =p= p for all i.
+  - relaxed to average voter competence by @Grofman1978
+  - use quote by @owen1985
+  - (e.g., Grofman, Owen, and Feld 1983; Boland 1989; Kanazawa 1998)
+
+  5. **Voter Competence** The prior odds as to which of the two alternatives is the correct one are even.  
+
+  7. **Voter Sincerity** people vote sincerely
+
+> game-theoretic work challenges an implicit assumption of the jury theorem, namely that voters will always reveal their judgments truthfully...a voter expects a higher chance of bringing about a correct collective judgment by voting against his or her own private judgment than in line with it (Austin-Smith and Banks 1996; Feddersen and Pesendorfer 1998).
+  
+  3. **Simple Majority** The group decision rule is simple majority.
+  
+  4. **Dichotomous Choice** There are exactly two alternatives, only one of which is correct.
+
+  - List and Goodin 2001 show "different voting procedures are almost equally good truth-trackers."
+
+  5. **Objectively Correct**
+
+> Many different notions of objectivity are compatible with that assumption, as long as the right, correct or better answer is a fact that is determined entirely independently from the votes of the individuals. This excludes procedural notions of rightness, where the ‘right’ solution is right just because it was arrived at by applying the appropriate procedure. p91
+  
+
+
+
+> Dietrich (2008) has argued that Condorcet's two assumptions are never simultaneously justified, in the sense that, even when they are both true, one cannot obtain evidence to support both at once.
+
+
+I am happy to grant the assumptions of choice but I will show that the voter assumptions are insufficient.
+
 
 
 ## Modelling the Jury Theorem
@@ -84,16 +150,7 @@ Implementing this analytically is straight forward, although this approach becom
 
 ## Problematic assumptions
 
-CJT relies on key assumptions.  What are they. How have they been challenged.
 
-  - What are the key assumptions
-  - Summary of criticisms
-  - How have these assumptions been relaxed in later work.
-
-  (Grofman 1978)
-  (Feld)
-  (Owen 1985 - Distribution-Free Generalization of the Condorcet Jury Theorem).
-  (List & Goodin)
 
 Explain the ABM with relaxed assumptions.
 
@@ -101,15 +158,20 @@ The multiplicative formula for calculating binomial coefficients is more efficie
 
 Voters. Voters have competence to be right or wrong on some issue represented as `1` or `0`.
 
+
     class Voter
       constructor: (@competence) ->
 
+
 Voters need to exist somewhere. We will call this the political space.
+
 
     class Space
       constructor: (@voters) ->
 
+
 Now we create voters with a stochastic competence function.
+
 
     with_uniform_voters = (desired_number, average_competence) ->
       [1..desired_number].map () ->
@@ -117,7 +179,9 @@ Now we create voters with a stochastic competence function.
           if Math.random() < average_competence then 1 else 0
         new Voter competence
 
+
 We can also relax the unform competency assumption.  The `with_symmetric_voters` function is almost identical to the `with_uniform_voters` function except voter competence is symmetrically distributed around the average competence, with voters then ordered by competence.
+
 
     with_symmetric_voters = (desired_number, average_competence) ->
       [1..desired_number].map () ->
@@ -129,7 +193,9 @@ We can also relax the unform competency assumption.  The `with_symmetric_voters`
             if Math.random() < comp then 1 else 0
           new Voter competence
 
+
 Measure voting outcomes in a space.  In the event of a tie we assume the worst.
+
 
     vote = (polity) ->
       correct_votes = polity.map (voter) ->
@@ -137,6 +203,7 @@ Measure voting outcomes in a space.  In the event of a tie we assume the worst.
         .reduce (total, competence) ->
           total + competence
       if correct_votes / polity.length > 0.5 then 1 else 0
+
 
 Demonstrate relaxed CJT results and compare against analytic results with some pretty graphical comparison. --perhaps an interactive graph with analytic, uniform, and symmetic overelayed-- In the meantime, run `coffee filename test analytic` and `coffee filename test uniform` to compare the two.
 

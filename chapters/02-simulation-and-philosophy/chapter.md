@@ -7,7 +7,11 @@
 
 ## Philosophy & the Thought Experiement (2500)
 
+For as long as there has been philosophy, there have been thought experiments.  
+
 Philosophy is hollow without thought experiments
+
+
 
   - Ship of Theseus
   - The Ring of Gyges

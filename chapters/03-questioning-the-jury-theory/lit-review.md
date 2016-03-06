@@ -2,40 +2,29 @@
 
 ## de Condorcet, M. (1976). Essay on the application of mathematics to the theory of decision-making. In K.M. Baker (Ed.), Condorcet: Selected writings. Indianapolis: Bobbs-Merrill.
 
-## Grofman, B., Owen, G., & Feld, S. L. (1983). Thirteen theorems in search of the truth. Theory and Decision, 15, 261–278.
+## Thirteen theorems in search of the truth
 
-## Owen, G., Grofman, B., & Feld, S. L. (1989). Proving a distribution-free generalization of the Condorcet jury theorem. Mathematical Social Sciences, 17, 1–16.
+@Grofman, B., Owen, G., & Feld, S. L. (1983). Thirteen theorems in search of the truth. Theory and Decision, 15, 261–278.
 
-## Sah, R. J. (1991). Fallibility in human organizations and political systems. Journal of Economic Perspectives, 5(2), 67–88.
+> ABSTRACT. We review recent work on the accuracy of group judgmental processes as a function of (a) the competences (judgmental accuracies) of individual group members, (b) the group decision procedure, and (c) group size.This work on individual competence and group accuracy represents an important contribution to democratic theory and a useful Complement to the usual emphasis in the social choice literature on individual preference and preference aggregation mechanisms. The work reported on is rooted in a tradition which goes back to scholars such as Condorcet, Poisson, and Bayes.
 
-## Ladha, K. K. (1992). The Condorcet jury theorem, free speech, and correlated votes. American Journal of Political Science, 36(3), 617–634.
+All of the theorems in this paper deal with dichotomous choice, p262
 
-## Ben-Yashar, R. C., & Nitzan, S. (1997). The optimal decision rule for fixed-size committees in dichotomous choice situations: The general result. International Economic Review, 38(1), 175–186.
+Outlines standard notation on the subject. p263
 
-## Kanazawa, S. (1998). A brief note on a further refinement of the Condorcet Jury Theorem for heterogeneous groups. Mathematical Social Sciences, 35, 69–73.
+Assumptions for CJT p264
 
-## Feddersen, T., & Pesendorfer, W. (1998). Convicting the innocent: The inferiority of unanimous jury verdicts under strategic voting. American Political Science Review, 92, 23–35.
-
-## McLennan, A. (1998). Consequences of the Condorcet jury theorem for beneficial information aggregation by rational agents. American Political Science Review, 92, 413–418.
-
-## Paroush, J. (1998). Stay away from fair coins: A Condorcet jury theorem. Social Choice and Welfare, 15, 15–20.
-
-## Fey, M. (2003). A note on the Condorcet jury theorem with supermajority voting rules. Social Choice and Welfare, 20, 27–32.
-
-## List, C. (2004). On the significance of the absolute margin. British Journal for the Philosophy of Science, 55, 521–544.
-
-## Kirstein, R. (2006). The Condorcet jury-theorem with two independent error-probabilities. Paper 20, German Working Papers in Law and Economics.
-
-## Ben-Yashar, R., & Milchtaich, I. (2007). First and second best voting rules in committees. Social Choice and Welfare, 29(3), 453–480.
-
-## Kirsten, R. & Wangenheim, G. V. (2010). A generalized Condorcet jury theorem with two independent probabilities of error. Joint Discussion Paper Series in Economics No. 11–2010, MAGKS, 12 March. 
-
-## Romeijn, J.-W., & Atkinson, D. (2011). Learning juror competence: A generalized Condorcet jury theorem. Politics, Philosophy & Economics, 10(3), 237–262.
+> Voters' choices are independent of one another.
+> (2) Voters are homogeneous, i.e., Pi = P = P for all i.
+> (3) The group decision rule is simple majority.
+> (4) There are exactly two alternatives, only one of which is correct (or equivalently, > one of which is 'better' than the other).
+> (5) The prior odds as to which of the two alternatives is the correct
+> (better) one are even.
 
 
 ## Majority Systems and the Condorcet Jury Theorem
 
-Boland, P. J., 1989, “Majority systems and the Condorcet jury theorem.” Statistician, 38: 181–189.
+@Boland, P. J., 1989, “Majority systems and the Condorcet jury theorem.” Statistician, 38: 181–189.
 
 > Condorcet argued that there are situations [the CJT assumptions] where it is advisable to entrust a decision to a group of individuals of lesser competence than to a single individual of greater competence. p181
 
@@ -54,9 +43,45 @@ Graph on p186 - the greater the dependence, the less the CJT effect.  Increasing
 > Part (3) of Theorem II, which gives the quite paradoxical result that groups which are on average ‘half-wits’ (a=+) can gener- ate a group judgmental competence anywhere from 0.39 to 0.61 - a result which does not ‘go away’ with increasing n.
 
 
-## Sah, R. J. (1991). Fallibility in human organizations and political systems. Journal of Economic Perspectives, 5(2), 67–88.
+## The Condorcet Jury Theorem, Free Speech, and Correlated Votes
 
-## Ladha, K. K. (1992). The Condorcet jury theorem, free speech, and correlated votes. American Journal of Political Science, 36(3), 617–634.
+@Ladha, K. K. (1992). The Condorcet jury theorem, free speech, and correlated votes. American Journal of Political Science, 36(3), 617–634.
+
+Ladha generalises the CJT assumption related to correlated votes.
+
+Key assumptions: they vote individually and share a common goal.  This can be viewed as sincerity.
+
+Findings: CJT can be generalised for large groups but not for small ones.  The likelihood that the majority is correct is inversely related to the averages of the coefficients of correlation.
+
+Because of this, opposing views are critical to democratic function p618
+
+
+## Condorcet's jury theorem revisited
+
+@article{berg1993condorcet,
+  title={Condorcet's Jury theorem revisited},
+  author={Berg, Sven},
+  journal={European Journal of Political Economy},
+  volume={9},
+  number={3},
+  pages={437--446},
+  year={1993},
+  publisher={Elsevier}
+}
+
+> Abstract: With the aid of a simple discrete probability model, the Condorcet Jury Theorem is extended to situations where there is correlation between judgments. It is shown that negative intra-voter correlation improves on jury competence in the sense that the probability of a correct decision increases. Positive correlation, on the other hand, tends to decrease jury competence. Although dependence among jury members has the effect that jury competence no longer approaches infallibility as the size of the jury increases, jury competence is still better than individual competence.
+
+
+
+## Condorcet’s jury theorem in light of de Finetti’s theorem: Majority-rule voting with correlated votes
+
+@Ladha, K. K. (1993). Condorcet’s jury theorem in light of de Finetti’s theorem: Majority-rule voting with correlated votes. Social Choice and Welfare, 10, 69–85.
+
+> This paper generalizes Condorcet's jury theorem to the case of symmetrically dependent votes with the help of de Finetti's theorem. Thus, the paper relaxes Condorcet's assumption of independent voting while preserving his main result: In jury-type situations a majority of voters is more likely than any single voter to choose the better of two alternatives
+
+> This paper seeks to generalize CJT for symmetrically dependent votes p70
+
+> Condorcet's jury theorem is known to hold if (i) the votes are i.i.d., and (ii) each member votes for the true state, say s0, with some constant probability p > 0.5. This paper demonstrates that CJT would hold if (a) the votes are embeddable in an infinite sequence of exchangeable votes, and (b) each member votes for so with a random probability e such that e is either symmetrically or beta distributed with E(e) > 0.5. Thus, CJT is generalized to correlated votes because (i) implies (a) and (ii) implies (b)) p82
 
 
 ## Information Aggregation, Rationality, and the Condorcet Jury Theorem.
@@ -64,6 +89,17 @@ Graph on p186 - the greater the dependence, the less the CJT effect.  Increasing
 @Austen-Smith, D. and J. S. Banks, 1996, “Information Aggregation, Rationality, and the Condorcet Jury Theorem.” American Political Science Review, 90: 34–45.
 
 Condorcet’s Jury Theorem relies on the assumption that voting is sincere.  Austen-Smith and Banks show that sincere behaviour by all individuals is not even rational even when a common preference is held.
+
+
+## Ben-Yashar, R. C., & Nitzan, S. (1997). The optimal decision rule for fixed-size committees in dichotomous choice situations: The general result. International Economic Review, 38(1), 175–186.
+
+## Kanazawa, S. (1998). A brief note on a further refinement of the Condorcet Jury Theorem for heterogeneous groups. Mathematical Social Sciences, 35, 69–73.
+
+## Feddersen, T., & Pesendorfer, W. (1998). Convicting the innocent: The inferiority of unanimous jury verdicts under strategic voting. American Political Science Review, 92, 23–35.
+
+## McLennan, A. (1998). Consequences of the Condorcet jury theorem for beneficial information aggregation by rational agents. American Political Science Review, 92, 413–418.
+
+## Paroush, J. (1998). Stay away from fair coins: A Condorcet jury theorem. Social Choice and Welfare, 15, 15–20.
 
 
 ## When is Condorcet's Jury Theorem valid?
@@ -83,29 +119,96 @@ Lit review on relaxing assumptions:
 > We adopt the dichotomous choice model with independent and sincere voting, but without any restrictions on the distribution of the decisional competence of the team members. p482
 
 
-## Ben-Yashar, R. C., & Nitzan, S. (1997). The optimal decision rule for fixed-size committees in dichotomous choice situations: The general result. International Economic Review, 38(1), 175–186.
-
-## Kanazawa, S. (1998). A brief note on a further refinement of the Condorcet Jury Theorem for heterogeneous groups. Mathematical Social Sciences, 35, 69–73.
-
-## Feddersen, T., & Pesendorfer, W. (1998). Convicting the innocent: The inferiority of unanimous jury verdicts under strategic voting. American Political Science Review, 92, 23–35.
-
-## McLennan, A. (1998). Consequences of the Condorcet jury theorem for beneficial information aggregation by rational agents. American Political Science Review, 92, 413–418.
-
-## Paroush, J. (1998). Stay away from fair coins: A Condorcet jury theorem. Social Choice and Welfare, 15, 15–20.
-
-
 ## Epistemic Democracy: Generalizing the Condorcet Jury Theorem
 
 List & Goodin 2001
 
 
-## Fey, M. (2003). A note on the Condorcet jury theorem with supermajority voting rules. Social Choice and Welfare, 20, 27–32.
+## A note on the Condorcet Jury Theorem with supermajority voting rules
+
+@Fey, M. (2003). A note on the Condorcet jury theorem with supermajority voting rules. Social Choice and Welfare, 20, 27–32.
+
+> In this note, we examine the question of jury theorems with super-majority rules. We give two theorems, one dealing with homogeneous groups (in which voters are identically competent) and the other dealing with heterogeneous groups (in which voters differ in their ability to perceive which alternative is better). We show that, in large enough electorates, a jury theorem holds as long as the average competence of the voters is greater than the fraction of votes needed for passage. p28
+
 
 ## List, C. (2004). On the significance of the absolute margin. British Journal for the Philosophy of Science, 55, 521–544.
 
+
 ## Kirstein, R. (2006). The Condorcet jury-theorem with two independent error-probabilities. Paper 20, German Working Papers in Law and Economics.
 
+## Berend, D., & Sapir, L. (2007). Monotonicity in Condorcet’s jury theorem with dependent voters. Social Choice and Welfare, 28, 507–528.
+
+
+## Aggregation of correlated votes and Condorcet’s Jury Theorem
+
+@article{
+  author={Kaniovski,Serguei},
+  year={2010},
+  month={09},
+  title={Aggregation of correlated votes and Condorcet's Jury Theorem},
+  journal={Theory and Decision},
+  volume={69},
+  number={3},
+  pages={453-468},
+  keywords={Philosophy; Decision making; Juries; Theorems; Probability; Studies; 4330:Litigation; 9130:Experimental/theoretical; 2600:Management science/operations research},
+  isbn={00405833},
+  language={English},
+  url={http://search.proquest.com/docview/734373582?accountid=14723},
+  }
+}
+
+> Abstract: This paper proves two theorems for homogeneous juries that arise from different solutions to the problem of aggregation of dichotomous choice. In the first theorem, negative correlation increases the competence of the jury, while positive correlation has the opposite effect. An enlargement of the jury with positive correlation can be detrimental up to a certain size, beyond which it becomes beneficial. The second theorem finds a family of distributions for which correlation has no effect on a jury's competence. The approach allows us to compute the bounds on a jury's competence as the maximum and minimum probability of it being correct for a given individual competence and dependence structure.
+
+Condorcet's Assumptions
+
+> Condorcet’s Jury Theorem (CJT) is a mathematical formalization of his ideas. In its classic version the theorem rests on the following four assumptions: (a) the jury decides between two alternatives by voting under simple majority rule, (b) each juror has a more than an even probability of being correct (competence), (c) these probabilities are equal for all jurors (homogeneity), and (d) each juror votes independently. Then, 
+>
+> 1. any jury comprising an odd number of jurors is more likely than any single juror to select the correct alternative;
+> 2. this likelihood becomes a certainty as the size of the jury tends to infinity.
+> 
+> It is customary to refer to 1 as the non-asymptotic and 2 as the asymptotic part of the theorem. p454
+
+> The non-asymptotic part of the theorem does not generally hold for heterogeneous juries. p454
+
+> Ben-Yashar and Paroush (2000) propose a refinement of the CJT that remains valid regardless of the specific distribution of competence within a jury. They show the non-asymptotic part of CJT to hold if the average competence of a randomly chosen group of more than three jurors is higher than that of any single juror. Berend and Sapir (2005) extended this result to show that a random augmentation of a randomly chosen group always improves the competence of the group.
+
+> It shows that negative correlation increases the competence of the jury, while posi- tive correlation decreases the competence of the jury. It also shows that for positive correlation, an enlargement of the jury can be detrimental up to a certain size beyond which it becomes beneficial. The second theorem finds a family of distributions for which this probability under simple majority rule is independent of the correlation coefficient. p467
+
 ## Ben-Yashar, R., & Milchtaich, I. (2007). First and second best voting rules in committees. Social Choice and Welfare, 29(3), 453–480.
+
+
+# The Premises Of Condorcet’s Jury Theorem Are Not Simultaneously Justified
+
+@Dietrich2008
+
+> Condorcet’s famous jury theorem reaches an optimistic conclusion on the correctness of majority decisions, based on two controversial premises about voters: they are competent and vote independently, in a technical sense. I carefully analyse these premises and show that: (i) whether a premise is justified depends on the notion of probability considered and (ii) none of the notions renders both premises simultaneously justified. Under the perhaps most interesting notions, the independence assumption should be weakened. p56
+
+DJT needs to satisfy two conditions: independence and competence.
+
+Franz's Definition of CJT:
+
+> Roughly stated, the classic Condorcet Jury Theorem1 (CJT) asserts that if a group (jury, population, etc.) takes a majority vote between two alternatives of which exactly one is objectively “correct”, and if the voters satisfy two technical conditions, competence and independence, then the probability that the majority picks the correct alternative increases to one (certainty) as the group size tends to infinity.
+
+Central Claim: "unfortunately, in each case exactly one of the premises is not justified." p56
+
+> I accordingly label these versions the fixed-problem CJT and the variable-problem CJT ... In the fixed-problem CJT, competence is the problematic assumption, whereas in the variable-problem CJT, independence is problematic. So the two versions of the CJT, which might have appeared to be just notational variants, are in fact fundamentally distinct.
+
+> What has gone wrong in the argument? To justify the competence assumption, I have appealed to a variable decision problem, one that is picked at random from a class of relevant problems. But to justify the independence assumption, I have fixed (i.e. conditionalised on) the decision problem, with its particular body of evidence, process of group deliberation, and so on. One cannot have it both ways. p57
+
+> I believe that most arguments made in the literature for or against some premise are correct under the author’s notion of uncertainty, and incorrect under other notions.
+
+> I define a decision problem as the task of finding a certain correct alternative x (0 or 1) under certain circumstances c.  p58
+
+> Evidential circumstances are generally observable facts that support the correctness of alternative 0 or 1.
+
+> Non-evidential circumstances are events that carry no information on which alternative is correct but may affect different voters in their voting behaviour, such as room temperature while voting, whether birds are singing
+
+!!!
+
+> knowing whether [average competence] holds for this specific problem might be even harder than knowing the true state x in the first place.  To know whether (Com) holds, one would have to know whether the specific problem involves misleading evidence, which one can hardly know without knowing the true state x. p60
+
+> Importantly, though, an observer – the potential applier of the CJT, interested in whether the majority outcome is correct – can usually not know how easy or misleading the problem is, hence whether the voters are competent, individually or on average. Assessing whether (Com) holds for the specific problem might even be harder than assessing the correct alternative x in the first place. p61
+
 
 ## Page, S. E. (2008). The Difference: How the power of diversity creates better groups, firms, schools, and societies. Princeton, NJ: Princeton University Press.
 
@@ -182,6 +285,39 @@ Challenging CJT Assumptions
 > Dietrich (2008) has argued that Condorcet's two assumptions are never simultaneously justified, in the sense that, even when they are both true, one cannot obtain evidence to support both at once.
 
 > game-theoretic work challenges an implicit assumption of the jury theorem, namely that voters will always reveal their judgments truthfully...a voter expects a higher chance of bringing about a correct collective judgment by voting against his or her own private judgment than in line with it (Austin-Smith and Banks 1996; Feddersen and Pesendorfer 1998).
+
+
+
+## The generalized homogeneity assumption and the Condorcet jury theorem
+
+@article{ben2014generalized,
+  title={The generalized homogeneity assumption and the Condorcet jury theorem},
+  author={Ben-Yashar, Ruth},
+  journal={Theory and decision},
+  volume={77},
+  number={2},
+  pages={237--241},
+  year={2014},
+  publisher={Springer}
+}
+
+> Abstract: The Condorcet jury theorem (CJT) is based on the assumption of homogeneous voters who imperfectly know the correct policy. We reassess the validity of the CJT when voters are homogeneous and each knows the correct decision with an average probability of more than a half.
+
+> The seminal Condorcet jury theorem (CJT, 1785) states that the likelihood of a cor- rect majority decision becomes certain as the group size tends to infinity. p 237
+
+
+Note on relaxing assumptions:
+
+> Early expositions and generalizations were proposed by Hoeffding (1956), Grofman (1975), Grofman et al. (1983), Feld and Grofman (1984), Nitzan and Paroush (1982, 1985), Young (1988), Owen et al. (1989), Boland (1989). Ladha (1995) and Berg (1993) relaxed the independence assumption; Austen-Smith and Banks (1996), Ben-Yashar (2006), and Ben-Yashar and Milchtaich (2007) generalized the setting to a strategic voting model; Paroush (1998) emphasized the importance of boundedness away from one-half; Berg and Paroush (1998) studied hierarchical voting. CJT can be generalized to the case of heterogeneous voters. See, for example, Ben-Yashar and Zahavi (2011), Ben-Yashar and Danziger (2011), and Berend and Paroush (1998). Ben-Yashar and Paroush (2000) generalized the non-asymptotic part of the theorem. Berend and Sapir (2005) further generalized the non-asymptotic part of the theorem beyond the analysis of Ben-Yashar and Paroush. Baharad and Ben-Yashar (2009) studied the validity of the CJT under subjective probabilities.
+
+> One may wonder whether the CJT is valid when the average probabilities over the two possible states of nature (facing a good/bad alternative) for each voter is greater than 1/2. This study shows that, unexpectedly, the answer to this question is negative. p238-9
+
+> Within this framework, we show that larger groups, in most cases, are less likely to reach a correct collective decision. p238
+
+Conclusion
+
+> This paper studies the effect of adding two members who have two probabilities of voting correctly, p1 > 1/2 in one state and p2 < 1/2 in the other. We show that such an addition, for large groups, usually results in decreasing the likelihood of reaching a correct collective decision. Our conclusion is valid even-though we assume that the average of the two probabilities of each member exceeds 1/2. Our result is surprising because the particular homogeneity assumption of Condorcet implies that the addition of members increases the probability that the group will choose the correct collective decision through majority voting. Under the generalized homogeneity assumption this is no longer the case. p240
+
 
 
 ## Introducing difference into the Condorcet jury theorem

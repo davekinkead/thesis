@@ -8,6 +8,8 @@ Working Title: Competence, Inclusion, and Legitimacy - A New challenge to Condor
 
 > I show that even if the average voter competence is greater than 0.5, this is still not enough to justify CJT
 
+Condorcet’s Jury Theorem promises democrats a powerful, mathematical proof of democracy's epistemic value.
+
 This chapter introduces a new challenge to the Jury Theorem.  Condorcet's Jury Theorem (CJT) proves that the likelihood of a simple majority vote on some issue being correct increases to certainty as the number of voters increases to infinity, assuming that the average voter competence is better than 50%.
 
 Demonstrating that the assumption of voter competence holds true in real life proves difficult however.  Ascertaining voter competence empirically requires some independent way of determining the what correct choice is in actual fact.  Yet if this can be known independently, using CJT to justify democracy becomes redundant.  Instead, voter competence is simply presumed by appealing to the the Principle of Charity.  After all, if randomly flipping a coin yields at 50% likelihood of being correct on a binary issue, the addition of even a modicum of reason should increase that likelihood at least a little.
@@ -19,9 +21,18 @@ Using computer simulation, I advance Goodin & Estlund's argument for the persuas
 
   1. If the CJT is used to justify democracy, then a number of conditions need to be satisfied (including average voter competence must be better than random).
 
-  2. The assumptions of CJT must be anonymous to similar polities.
+  2. Voter competence is deemed present via 'charity'
 
-  3. My simulation shows that (whenever CJT is applied to multiple polities), average voter competence is not enough - we also need even distribution of competence.  
+  3. The assumptions of voter competence must be anonymous to similar polities.
+
+  4. Voter competence is not present in similar polities when distribution isn't even.
+
+  5. Distribution in real life isn't even!
+
+  6. Therefore we can't use charity to justify competence.
+
+
+  3. My simulation shows that (whenever CJT is applied to multiple polities), voter competence > 0.5 is not enough - we also need even distribution of competence.  
 
   4. Acutal results show that these assumptions do not hold - competence isn't evenly spread.
 
@@ -32,6 +43,184 @@ Using computer simulation, I advance Goodin & Estlund's argument for the persuas
 
   - imagine Trump wins nationally but not in every state. TX votes red while CA votes blue. in order to use CJT, we need to grant the assumptions of competence and these assumptions must be anonymous - if its granted to TX, then it is granted to CA. But results show that the assumptions weren't satisfied in some states (and possibly nation as a whole).  
   - Different results between similar electorates show that we cant the assumption to some.  And if we can't grant it to some, then we can't grant it to similar others.  Because we don't know which electorates can be granted the assumption a priori, we can't grant it to any!
+
+
+  - Condorcet’s Jury Theorem promises to offer democrats a powerful, mathematical proof of democracy's epistemic value.  First outlined in the Marquis de Condorcet's 1785 work _Essai sur l’application de l’analyse à la probabilité des décisions rendues à la pluralité des voix_, the theorem shows that a majority vote from a large enough group of marginally competent voters is better than a single expert at selecting the best answer to a dichotomous choice.  What's more, as the number of voters increases towards infinity, the likelihood of a majority vote being correct becomes certain.  If certain conditions are satisfied.
+
+  - Now Imagine a democracy in which all the necessary conditions of a CJT hold tue.  If this is the case, then a majority vote on any dichotomous choice is nearly certain to identify the best option.  Now imagine that same democracy paritioned into smaller political units - states, provinces, or electorates.  If the CJT conditions hold true for each partition, then each partition should also select the best option with near certainty.  
+
+  - Yet this is rarely the case in reality.  Different partitions of the same democracy vote differently in almost every poltical decision.  Given this reality, at least one of the CJT conditions in some of the partitions must therefore not hold true.  But which?
+
+  - In this paper, I demonstrate how the distribution of voter competence in a democracy determines how likely the voter competence condition holds true in any partition of that democracy.  I show that the more voter competence is clustered, the less the likelihood that any parition satisfies the voter competence condition.
+
+  - But how do we justify that the voter competence condition is satisfied in the first place?  To do so, supporters of CJT face nearly insurmountable challenges and thus typically resort to the principle of charity - that surely the average voter is at least marginally more competent that the toss of a coin.
+
+  - While the principle of charity sets a rather low epistemic bar to overcome, it also comes with another requirement - that it should be anonymous between polities.  To have any plausibility whatsoever, the principle of charity should apply equally to indistinguishable polities - if it is applied to one polity, it must be applied to all similar polities.
+
+  - As both empiric data and my simulation show however, different results from indistinguishable polities undermine the claim that the voter competence condition is satisfied in amongst like polities.  Ergo, if we can't apply the principle to one polity, we can't apply it to similar ones.  Thus, it seems that the principle of charity offers little justification for the claim that voters are competent. And without this condition satisfied, CJT fails to deliver on its promise.
+
+
+
+## Introduction
+
+Democracy has been justified via a variety of means.  Some democratic theorists claim democratic rule is legitimate because it involves the consent of the people (who).  Others have claim that democracy's legitimacy arises from the way it treats it citizens (who).  Others still say that democracy is justified because ... (who) and there are even those who say democracy can't be justified (wolff, simmons).
+
+One very popular and powerful justificiation of democracy however, is epistemic.  Through the wisdom of the crowds, democracy has the capacity to track the truth, to divine the right answer, and .....
+
+The literature on epistemic democracy is diverse.  Cover it....
+
+Of all the epistemic justifications of democratic rule, Condorcet's Jury Theorem is perhaps the most famous.  First outlined in the Marquis de Condorcet's 1785 work _Essai sur l’application de l’analyse à la probabilité des décisions rendues à la pluralité des voix_, it offers proponents of democracy a mathematically rigourous, if somewhat utopian justification of majority rule.  
+
+The ... of the Condorcet's Jury Theorem (herein CJT) is the counter intuitive proof that a large group of marginally competent people have a greater chance of identifying a correct answer than any single expert.  More explicitly, (define it here).
+
+--> Lit review here....
+
+  1. **Voter Independence** Voters’ choices are independent of one another.
+
+  2. **Voter Homogeneity** Voters are homogeneous, i.e., p, =p= p for all i.
+
+  5. **Voter Competence** The prior odds as to which of the two alternatives is the correct one are even.
+
+  7. **Voter Sincerity** people vote sincerely
+  
+  3. **Simple Majority** The group decision rule is simple majority.
+  
+  4. **Dichotomous Choice** There are exactly two alternatives, only one of which is correct.
+
+  5. **Objectively Correct** There is an objectively correct answer.
+
+
+The implication of CJT is hard to overstate.  Assuming individuals are better at selecting the correct answer than flipping a coin, then a majority vote of a small town of just a few thousand voters has a near certainty of identifying the correct answer to any binary choice.  Provided of course, the assumptions of the theorem hold.
+
+Whether or not the assumptions do in fact hold, or are even plausible, is the subject of much debate within the literature.  Quick lit review of challenges....
+
+Yet even if these assumptions were true, are there any plausible scenarios that would prevent CJT from being used to justify democracy?  I believe there are.  In what follows, I will demonstrate how CJT fails to justify actual democractic rule _even when all the requirements of CJT are notionally satisfied_.
+
+In Part One, I examine the assumptions of CJT in detail and develop an agent based model that visually demonstrates the epistemic virtue of CJT and validate it against the tradition analytic model normally found in the literature.  In Part Two, focus on the competence assumption and principle of charity which is typically invoked to justify it.  I then introduce the concept of political partitions - states, provinces, and electoratal boundaries - and extend the model to incorporate this reality.....
+
+
+## Modelling the Jury Theorem
+
+The epsitemic value of Condorcet's Jury Theorem is typically demonstrated analytically.  (Give examples)
+
+>        N
+>  PN =  Σ (N choose h) p^h (1-p)^(N-h)
+>       h=m
+  
+  
+>  N  = number of voters in the group (for simplicity, N will generally be taken to be >odd);
+>  m  = a majority = (N + 1)/2 for N odd;
+>  p  = justdgement competence of a voter in a homogeneous group
+>  PN = probability that at least a majority of voters will make the correct choice in a dichotomous choice situation;
+
+
+Analytic approaches are not always the most useful implementation though. (Phil of Sim discussion)
+
+Agent based modelling offers something else...(what exactly) - sensitivity (list has honey bee paper)
+
+A first step in agent based modelling however is to test the validity of it against an analytic approach.  This will give us confidence when we start to look at sensitivity and introduce new variables. To verify that the agent based model of the jury theorem performs sufficiently well for our needs, we can compare it against an analytic implementation.
+
+Condorcet’s jury theorem calculates the probability that a majority of voters are correct on some issue as a function of the number of voters, the numbers needed for a majority, and the probability that each voter is correct.
+
+
+
+Implementing this analytically is straight forward, although this approach becomes computationally intractable in javascript once the number of voters increases beyond 1000.
+
+
+>        N
+>  PN =  Σ (N choose h) p^h (1-p)^(N-h)
+>       h=m
+
+
+    majority_likelihood = (number_of_voters, voter_competence) ->
+      an_odd_majority(number_of_voters)
+        .map (voter_h) ->
+          n_choose_h(number_of_voters, voter_h) * 
+          Math.pow(voter_competence, voter_h) * 
+          Math.pow(1-voter_competence, number_of_voters - voter_h)
+        .reduce (sum, increment) ->
+          sum + increment
+
+    an_odd_majority = (voters) ->
+      voters = if voters % 2 is 1 then voters else voters + 1
+      majority = (voters + 1) / 2
+      [majority..voters]
+
+    n_choose_h = (n, h) ->
+      return 1 if h >= n
+      [1..h].map (i) ->
+          (n-(h-i)) / i
+        .reduce (sum, increment) ->
+          sum * increment
+
+<figure>
+<div id="analytic_jury_theorem" class="graph"></div>
+<figcaption>Preference fidelity by partition number</figcaption></figure>
+
+
+Analytic model in code
+
+ABM in code
+
+Demonstrate validty with graph
+
+
+## The principle of charity must be anonymous
+
+
+Of all the assumed conditions of CJT, the most plausible is that of voter competence.
+
+Ridicule voters
+
+But arent you better than a coin flip?  It is a very low standard.
+
+It is hard (expensive) to test competence.
+
+Instead, we might use a version of the principle of charity. (Goodin here)
+
+But we aren't talking about one democracy here - we are talking about many.  Introduce the idea of partioning.
+
+But if we statisfy the competency condition with the principle of charity, then this charity should be anonymous between similar polities.  User examples!
+
+Formulate it!
+
+> If the principle of charity presumes voter competence in one polity, then it must also presume voter competence in other similar polities.
+
+Clarify this claim!
+
+Simulate partitioning.
+
+Results!
+
+
+## Depending on how competence is distributed, similar polities perform differently
+
+- simulate skew
+- when we grant competency to one polity, we don't know if it applies in any partition
+
+
+## CJT also requires even distribution of compentence if we parition
+
+
+## Actual results show this is not the case
+
+- the maths of CJT are symmetrical.  we can infer results -> competence (G&E)
+- there is considerable variation of results in real life showing that competence is inconsistent accross issue and geography. Much more than CJT would imply.
+- the anonymity condition makes the application of assumption of competence impossible (~B -> ~A) 
+
+
+## Conclusion
+
+- We can't use CJT to justify democracy without knowing competency (or making selecting electorate boundaries for it.)
+
+
+
+
+
+
+
+
+
 
 
 ## Key Texts
@@ -50,102 +239,6 @@ Group decision-making in animals Nature 421, 155-158 (9 January 2003) | doi:10.1
   (List & Goodin)
 ---
 
-## Introduction
-
-Of all the epistemic justifications of democratic rule, Condorcet's Jury Theorem is perhaps the most famous.  First outlined in the Marquis de Condorcet's 1785 work _Essai sur l’application de l’analyse à la probabilité des décisions rendues à la pluralité des voix_, it offers proponents of democracy a powerful, if somewhat utopian justification of majority rule.  Given a population of independent voters with a better than even chance of being correct on some binary issue, the likelihood of the majority vote being correct approaches certainty as the number of people increase.
-
-> Put roughly: larger groups make better decisions, and very large groups are infallible. p88
-
-Stated formally...
-
-          N
-    PN =  Σ (N!/[N–i]!i!)(pc)i (1–pc)N–i
-         i=m
-
-
-
-The theorem has found a number of contemporary propoents 
-  - list them
-  - start with Condorcet himself
-  - Quotes of it's power...
-
-  ‘Under what conditions will there be a degree of probability that the majority decision of an assembly or tribunal is true ...?’ (Baker, 1967, p. 139)
-
-Of course, Condorcet’s Jury Theorem relies heavily on a number of key assumptions that have not been left unchallenges by critics of epistemic instrumental justifications of democracy.  These can be characterised as assumptions regarding voters and assumptions regarding the choice.
-
-  1. **Voter Independence** Voters’ choices are independent of one another.
-
-> Although Condorcet's conclusion is robust to the presence of some interdependencies between individual votes, the structure of these interdependencies matters (e.g., Boland 1989; Ladha 1992; Estlund 1994; Dietrich and List 2004; Berend and Sapir 2007; Dietrich and Spiekermann 2013). If all individuals' votes are perfectly correlated with one another or mimic a small number of opinion leaders, the collective judgment is no more reliable than the judgment among a small number of independent individuals.
-
-> Ladha’s (1993)
-
-  2. **Voter Homogeneity** Voters are homogeneous, i.e., p, =p= p for all i.
-  - relaxed to average voter competence by @Grofman1978
-  - use quote by @owen1985
-  - (e.g., Grofman, Owen, and Feld 1983; Boland 1989; Kanazawa 1998)
-
-  5. **Voter Competence** The prior odds as to which of the two alternatives is the correct one are even.  
-
-  7. **Voter Sincerity** people vote sincerely
-
-> game-theoretic work challenges an implicit assumption of the jury theorem, namely that voters will always reveal their judgments truthfully...a voter expects a higher chance of bringing about a correct collective judgment by voting against his or her own private judgment than in line with it (Austin-Smith and Banks 1996; Feddersen and Pesendorfer 1998).
-  
-  3. **Simple Majority** The group decision rule is simple majority.
-  
-  4. **Dichotomous Choice** There are exactly two alternatives, only one of which is correct.
-
-  - List and Goodin 2001 show "different voting procedures are almost equally good truth-trackers."
-
-  5. **Objectively Correct**
-
-> Many different notions of objectivity are compatible with that assumption, as long as the right, correct or better answer is a fact that is determined entirely independently from the votes of the individuals. This excludes procedural notions of rightness, where the ‘right’ solution is right just because it was arrived at by applying the appropriate procedure. p91
-  
-
-
-
-> Dietrich (2008) has argued that Condorcet's two assumptions are never simultaneously justified, in the sense that, even when they are both true, one cannot obtain evidence to support both at once.
-
-
-I am happy to grant the assumptions of choice but I will show that the voter assumptions are insufficient.
-
-
-
-## Modelling the Jury Theorem
-
-The epsitemic value of Condorcet's Jury Theorem is typically demonstrated analytically.  (Give examples)
-
-Analytic approaches are not always the most useful implementation though. (Phil of Sim discussion)
-
-Agent based modelling offers something else...(what exactly) - sensitivity
-
-Explain literate programming.
-
-To verify that the agent based model of the jury theorem performs sufficiently well for our needs, we can compare it against an analytic implementation.
-
-Condorcet’s jury theorem calculates the probability that a majority of voters are correct on some issue as a function of the number of voters, the numbers needed for a majority, and the probability that each voter is correct.
-
-> Pn = SUM (n choose h) p^h (1-p)^(n-h)
-
-Implementing this analytically is straight forward, although this approach becomes computationally intractable in javascript once the number of voters increases beyond 1000.
-
-    majority_likelihood = (voters, competence) ->
-      majority = Math.floor (voters + 1) / 2
-      [majority..voters].map (n) ->
-          n_choose_k(voters, n) * Math.pow(competence, n) *
-            Math.pow(1-competence, voters - n)
-        .reduce (sum, increment) ->
-          sum + increment
-
-    n_choose_k = (n, k) ->
-      return 1 if k >= n
-      [1..k].map (i) ->
-          (n-(k-i)) / i
-        .reduce (sum, increment) ->
-          sum * increment
-
-<figure>
-<div id="analytic_jury_theorem" class="graph"></div>
-<figcaption>Preference fidelity by partition number</figcaption></figure>
 
 
 ## Problematic assumptions

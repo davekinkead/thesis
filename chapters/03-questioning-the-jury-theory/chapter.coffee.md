@@ -67,32 +67,75 @@ Where:
 >  p  = justdgement competence of a voter in a homogeneous group
 >  PN = probability that at least a majority of voters will make the correct choice in a dichotomous choice situation;
 
-The normative implications of this formula are difficult to overstate.  Assuming that individuals are more competent at selecting the better of a dichotomous choice than the random toss of a coin, the majority vote by a large group of people will be better at selecting the best choice than that of an individual expert.  What's more, as the number of voters increases, the likelihood that the majority select the better option approaches certainty - a village of 1000 barely competent voters would have a 72% certainty of selecting the best option; a town of 10000 has 99.97% certainty.
+The normative implications of this formula are difficult to overstate.  As long as individuals are better at selecting the best option from a dichotomous choice than the random toss of a coin, then a majority vote by a large group of people will be better at selecting the best choice than that of an individual expert.  What's more, as the number of voters increases, the likelihood that the majority select the better option approaches certainty - a village of 1000 barely competent voters would have a 72% certainty of selecting the best option; a town of 10000 has 99.97% certainty.
 
 If certain important conditions are satisfied, that is.
 
-these conditinos....
+Exactly what those conditions are, whether they are plausibly realised, or whether they are even possible, has been the subject of much debate in the CJT literature.  From Condorcet himself, @baker1976 who re-ignigted academic interest in the theorem, and subsequent scholars, a number of necessary conditions have been introduced, relaxed, and challenged.  
+
+What follows is a short review:
+
+**Voter Competence**. The first key condition is that voters must have a better than even chance of selecting correct option and the prior odds as to which of the alternatives is the correct one are even. This condition is essential as the CJT has symetric implications.  While large enough majorities are almost certain to select the correct alternative when their competence is better than 50%, they are also nearly certain to select the incorrect alternative when their competence is worse than 50%.
+
+@Paroush1998 Paroush relaxes the competence requirement so that individual competence is bounded away from 0.5.  Individuals who are almost close to 0.5 do not (necessarily) contribute to the democratic decision making process. p19
+
+The competence difference between type I and II errors must not be too extreme. @kirstein2006 p11 demonstrates that a probability of a correct decision which is greater than 0.5 is neither sufficient, nor necessary for the jury decision to have higher quality than an individual decision.
+
+@list2004 List derives a more generalised version of the CJT that reinforces the importance of the absolute margin p(H|E) vs p(~H|E) but that this also depends on the prior p(H). The significance of the absolute margin can be reduced if the assumption of symmetric jurior competence is relaxed.
+
+**Voter Independence** Voters' choices are independent of one another.
+
+@boland1989 Boland generalizes CJT for when voter competence varies and there is some dependence between voters. Graph on p186 - the greater the dependence, the less the CJT effect.  Increasing R (the dependence between voters) is the same as decreasing N.
+
+@ladha1992 generalises the CJT assumption related to correlated votes. Key assumptions: they vote individually and share a common goal.  This can be viewed as sincerity.
+
+Findings: CJT can be generalised for large groups but not for small ones.  The likelihood that the majority is correct is inversely related to the averages of the coefficients of correlation. Because of this, opposing views are critical to democratic function p618
+
+@berg1993 It is shown that negative intra-voter correlation improves on jury competence in the sense that the probability of a correct decision increases. Positive correlation, on the other hand, tends to decrease jury competence. Although dependence among jury members has the effect that jury competence no longer approaches infallibility as the size of the jury increases, jury competence is still better than individual competence.
+
+@lahda1993 This paper seeks to generalize CJT for symmetrically dependent votes p70
 
 
-State the assumptions
 
-  1. **Voter Independence** Voters’ choices are independent of one another.
+**Voter Homogeneity** Voters are homogeneous, i.e., p, =p= p for all i.
 
-  2. **Voter Homogeneity** Voters are homogeneous, i.e., p, =p= p for all i.
+Grofman (1978) generalized the Condorcet Jury Theorem by replacing Assumption 2 (voter homogeneity) with the assumption that voter competence is normally distributed with a variance equal to the binomial variance. p3
 
-  5. **Voter Competence** The prior odds as to which of the two alternatives is the correct one are even.
+@owen1989 generalizes a distribution free results (except for knife edges)
 
-  7. **Voter Sincerity** people vote sincerely
-  
-  3. **Simple Majority** The group decision rule is simple majority.
-  
-  4. **Dichotomous Choice** There are exactly two alternatives, only one of which is correct.
+@Kanazawa1998 I demonstrate that, as long as CJT holds (in that the mean individual competence ≥(1/2)+(1/2n)), heterogeneous groups are better at making the correct decision than homogeneous groups for any given level of mean competence.
 
-  5. **Objectively Correct** There is an objectively correct answer.
+@fey2003 We show that, in large enough electorates, a jury theorem holds as long as the average competence of the voters is greater than the fraction of votes needed for passage. p28
 
-Who has relaxed them.
+@Kaniovski2010 proves two theorems for homogeneous juries that arise from different solutions to the problem of aggregation of dichotomous choice. It shows that negative correlation increases the competence of the jury, while positive correlation decreases the competence of the jury. It also shows that for positive correlation, an enlargement of the jury can be detrimental up to a certain size beyond which it becomes beneficial. The second theorem finds a family of distributions for which this probability under simple majority rule is independent of the correlation coefficient. p467
 
-Who has challenged them.
+@stone2014 This paper varies committee composition given the presence of opposing forms of bias within the population of potential committee members. Specifically, it offers a model in which opposite forms of bias are possible and then identifies the optimal composition for a committee deciding via majority rule. It thereby indicates how a committee might take maximal advantage of the presence of bias. p401
+
+**Simple Majority** The group decision rule is simple majority.
+
+@Ben-Yashar1997 For equally skilled voters, the optimal pairwise decision procedure is qualified majority rule.  In an uncertain dichotomous choice setting, the optimal procedure is qualified weighted majority rule. p185
+
+@Kanazawa1998 I also extend CJT to collective decision rules other than simple majority, and show that CJT holds for groups with supermajority decision rules if the mean individual competence is at least (π(n+1)/n) (where π=required majority).  The implication here is that simple majorities require a lower competence than super majorities. 
+
+
+**Dichotomous Choice** There are exactly two alternatives, only one of which is correct.
+
+@list2001 Generalizing the Condorcet Jury Theorem for a variety of decision procedures and choices. So long as the number of voters is reasonably large, virtually any of the social decision rules which have been commonly employed or recommended on democratic-proceduralist grounds seem to perform reasonably well (and nearly as well as any other) on epistemic-democratic grounds.
+
+
+@Dietrich2008 I carefully analyse these premises and show that: (i) whether a premise is justified depends on the notion of probability considered and (ii) none of the notions renders both premises simultaneously justified. Under the perhaps most interesting notions, the independence assumption should be weakened. p56 in each case exactly one of the premises is not justified." p56
+
+@ben2014 This paper studies the effect of adding two members who have two probabilities of voting correctly, p1 > 1/2 in one state and p2 < 1/2 in the other. We show that such an addition, for large groups, usually results in decreasing the likelihood of reaching a correct collective decision. Our conclusion is valid even-though we assume that the average of the two probabilities of each member exceeds 1/2. Our result is surprising because the particular homogeneity assumption of Condorcet implies that the addition of members increases the probability that the group will choose the correct collective decision through majority voting. Under the generalized homogeneity assumption this is no longer the case. p240
+
+
+**Voter Sincerity**.  Voters must vote sincerely based on their belief as to which alternative is the best.  Voters do not engage in strategic voting.
+
+@Austen-Smith1996 Condorcet’s Jury Theorem relies on the assumption that voting is sincere.  Austen-Smith and Banks show that sincere behaviour by all individuals is not even rational even when a common preference is held.
+
+**Objectively Correct** There is an objectively correct answer.
+
+- epistemic assumption but non-epistemic democrats disagree
+
 
 
 ## Modelling Condorcet’s Jury Theorem
@@ -129,10 +172,10 @@ Voters themselves are constructed with a `competency` value between `0.0` and `1
 The decision procedure for the collective choice is a _simple majority_.  If a majority of Voters vote correctly, then so does the Democracy.
 
 
-    Democracy::simple_majority = () ->
-      correct_voters = @voters.filter (voter) ->
+    simple_majority = (democracy) ->
+      correct_voters = democracy.voters.filter (voter) ->
         voter.vote() == 'correct'
-      if correct_voters.length > @voters.length / 2 then 'correct' else 'incorrect'
+      if correct_voters.length > democracy.voters.length / 2 then 'correct' else 'incorrect'
 
 
 With these four elements in place, all that is left to do is create a democracy, populate it with voters, and hold a vote.
@@ -143,18 +186,10 @@ With these four elements in place, all that is left to do is create a democracy,
         new Voter(competence)
 
 
-Running the simulation 1000 times shows us the likelihood that a simple majority gets it right.
+Running the simulation thousands of times over a range of values shows us the likelihood that a simple majority gets it right.  Data generated in appendix 2.
 
-Graph here and analysis....
+---> Demonstrate that CDJ works with graph
 
-    results = {correct: 0, incorrect: 0}
-    [1..1000].map (n) ->
-      democracy = new Democracy with_homgeneous_voters(11, 0.9)
-      results[democracy.simple_majority()]++
-    console.log results
-
-
----> Demonstrate that CDJ works
 
 ## Voter Competence & Anonymity
 
@@ -219,10 +254,15 @@ The inverse must also be true:
 
 An example may help.  If we can presume that voters are competent in Nevada, then we must presume they are competent in New Hampshire.  If they are competent in Australia, then they must be competent in Antugia.  Provided of course, there is no other evidence that the voters of one polity are more competent than another.
 
+We can simulate the anonymity by randomly partioning the `Democracy` into a number of different polities.....
+
+
+--> partition algorithm
+
 
 Simulate partitioning.
 
-Results!
+Results!  How do I compare ?  It should show that randomly partitioning makes no difference, hence random partitions are anonymous.
 
 
   Anonymity: For any polity formed by a partition rule in which the Principle of Charity is presumed to hold true, the Principle can also be presumed to hold true in any other possible polity formed by the same partition rule.
@@ -232,9 +272,34 @@ Results!
 ---
 
 
+## Voter Competence and its Distribution
+
+Recall the voter competence condition and how it has been relaxed.  Voter competence need no be homogeneous.
+
+Just as well because it isn't in real life.
+
+CJT is symetrical - We can infer voter competence from actual results.  
+ ----goodin & real life results
+
+
+What happens when anonymity and distribution mix?
+
+Simulate
+
+The POC is not anonymous to indistinguishable polities
+  - we are not justified in applying the POC to indistinguishable polities!!! 
+
+
+## Conclusion
+
+
+---
+
+## Supplimentry Code for Data Generation
 
 
 
+---
 
 ## The Equivalence of Analytic and Agent Based Models of Condorcet’s Jury Theorem
 
@@ -293,7 +358,6 @@ Implementing this analytically is straight forward, although this approach becom
         .reduce (sum, increment) ->
           sum * increment
 
-    console.log majority_likelihood 1000, 0.51
 
 
 

@@ -41,11 +41,11 @@ Graph on p186 - the greater the dependence, the less the CJT effect.  Increasing
 ## Proving A Distribution-free Generalization Of The Condorcet Jury Theorem
 @owen1989
 
-> In particular, Grofman (1978) generalized the Condorcet Jury Theorem by replacing Assumption 2 (voter homo- geneity) with the assumption that voter competence is normally distributed with a variance equal to the binomial variance. p3
+> In particular, Grofman (1978) generalized the Condorcet Jury Theorem by replacing Assumption 2 (voter homogeneity) with the assumption that voter competence is normally distributed with a variance equal to the binomial variance. p3
 
 > Theorem II also shows us that, for large n, except for the ‘knife-edge’ case p =t, if we know p (indeed if we merely know whether p is less than or greater than +, we would know virtually all we needed to estimate group competence.  p4
 
-> Part (3) of Theorem II, which gives the quite paradoxical result that groups which are on average ‘half-wits’ (a=+) can gener- ate a group judgmental competence anywhere from 0.39 to 0.61 - a result which does not ‘go away’ with increasing n.
+> Part (3) of Theorem II, which gives the quite paradoxical result that groups which are on average ‘half-wits’ (a=+) can generate a group judgmental competence anywhere from 0.39 to 0.61 - a result which does not ‘go away’ with increasing n.
 
 
 ## The Condorcet Jury Theorem, Free Speech, and Correlated Votes
@@ -155,7 +155,7 @@ Paroush relaxes the competence requirement so that individual competence is boun
 
 Lit review on relaxing assumptions:
 
-> Recently, there have been several attempts to generalize the popular version of CJT. Berg (1993a,b) and Ladha (1992, 1995) relax the indepen- dence assumption and allow for correlated votes. Grofman et al. (1983), Owen et al. (1989) and Paroush (1998) consider distribution-free team members' competence levels. Austen-Smith et al. (1996) analyze the case of insincere voting, and Louis et al. (1996) extend the dichotomous setup to a polychotomous one. The common denominator of all these studies is that they formulate only su cient conditions for the above Condorcet's belief. 
+> Recently, there have been several attempts to generalize the popular version of CJT. Berg (1993a,b) and Ladha (1992, 1995) relax the independence assumption and allow for correlated votes. Grofman et al. (1983), Owen et al. (1989) and Paroush (1998) consider distribution-free team members' competence levels. Austen-Smith et al. (1996) analyze the case of insincere voting, and Louis et al. (1996) extend the dichotomous setup to a polychotomous one. The common denominator of all these studies is that they formulate only su cient conditions for the above Condorcet's belief. 
 
 > We adopt the dichotomous choice model with independent and sincere voting, but without any restrictions on the distribution of the decisional competence of the team members. p482
 
@@ -246,7 +246,7 @@ Conclusion
 
 @Kirstein, R. (2006). The Condorcet jury-theorem with two independent error-probabilities. Paper 20, German Working Papers in Law and Economics.
 
-> The Condorcet jury-theorem is derived from the implicit assump- tion that jury members may only commit one type of error. In binary decision situations however, two error types may occur, the probabil- ity of which is independent of each other. Taking this into account leads to a generalization of the theorem.
+> The Condorcet jury-theorem is derived from the implicit assumption that jury members may only commit one type of error. In binary decision situations however, two error types may occur, the probability of which is independent of each other. Taking this into account leads to a generalization of the theorem.
 
 The argument:
 
@@ -297,7 +297,7 @@ Condorcet's Assumptions
 
 > Ben-Yashar and Paroush (2000) propose a refinement of the CJT that remains valid regardless of the specific distribution of competence within a jury. They show the non-asymptotic part of CJT to hold if the average competence of a randomly chosen group of more than three jurors is higher than that of any single juror. Berend and Sapir (2005) extended this result to show that a random augmentation of a randomly chosen group always improves the competence of the group.
 
-> It shows that negative correlation increases the competence of the jury, while posi- tive correlation decreases the competence of the jury. It also shows that for positive correlation, an enlargement of the jury can be detrimental up to a certain size beyond which it becomes beneficial. The second theorem finds a family of distributions for which this probability under simple majority rule is independent of the correlation coefficient. p467
+> It shows that negative correlation increases the competence of the jury, while positive correlation decreases the competence of the jury. It also shows that for positive correlation, an enlargement of the jury can be detrimental up to a certain size beyond which it becomes beneficial. The second theorem finds a family of distributions for which this probability under simple majority rule is independent of the correlation coefficient. p467
 
 ## Ben-Yashar, R., & Milchtaich, I. (2007). First and second best voting rules in committees. Social Choice and Welfare, 29(3), 453–480.
 
@@ -312,7 +312,7 @@ DJT needs to satisfy two conditions: independence and competence.
 
 Franz's Definition of CJT:
 
-> Roughly stated, the classic Condorcet Jury Theorem1 (CJT) asserts that if a group (jury, population, etc.) takes a majority vote between two alternatives of which exactly one is objectively “correct”, and if the voters satisfy two technical conditions, competence and independence, then the probability that the majority picks the correct alternative increases to one (certainty) as the group size tends to infinity.
+> Roughly stated, the classic Condorcet Jury Theorem (CJT) asserts that if a group (jury, population, etc.) takes a majority vote between two alternatives of which exactly one is objectively “correct”, and if the voters satisfy two technical conditions, competence and independence, then the probability that the majority picks the correct alternative increases to one (certainty) as the group size tends to infinity.
 
 Central Claim: "unfortunately, in each case exactly one of the premises is not justified." p56
 

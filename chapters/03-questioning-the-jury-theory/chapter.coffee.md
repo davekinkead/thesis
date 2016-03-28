@@ -4,7 +4,7 @@ Working Title: Competence, Inclusion, and Legitimacy - A New challenge to Condor
 
 "Competence is not enough!"
 
-## Outline
+## Abstract
 
 > I show that even if the average voter competence is greater than 0.5, this is still not enough to justify CJT
 
@@ -71,11 +71,25 @@ The normative implications of this formula are difficult to overstate.  As long 
 
 If certain important conditions are satisfied, that is.
 
-Exactly what those conditions are, whether they are plausibly realised, or whether they are even possible, has been the subject of much debate in the CJT literature.  From Condorcet himself, @baker1976 who re-ignigted academic interest in the theorem, and subsequent scholars, a number of necessary conditions have been introduced, relaxed, and challenged.  
+Exactly what those conditions are, whether they are plausibly realised, or whether they are even possible, has been the subject of much debate in the CJT literature.  While Condorcet himself only listed a few necessary conditions for his theorem, @baker1976, who re-ignigted academic interest in the theorem and subsequent scholars, have made futher implicit assumptions explicit:
 
-What follows is a short review:
+  1. **Voter Competence** - voters have a better than random chance of selecting the correct alternative.
 
-**Voter Competence**. The first key condition is that voters must have a better than even chance of selecting correct option and the prior odds as to which of the alternatives is the correct one are even. This condition is essential as the CJT has symetric implications.  While large enough majorities are almost certain to select the correct alternative when their competence is better than 50%, they are also nearly certain to select the incorrect alternative when their competence is worse than 50%.
+  2. **Voter Homogeneity** - all voters have the same likelihood of selecting the correct alternative.
+
+  3. **Voter Independence** - voters' choices are independent of one another.
+
+  4. **Simple Majority** - the group decision rule is a simple majority vote.
+
+  5. **Dichotomous Choice** - there are exactly two alternatives, only one of which is correct.
+
+  6. **Voter Sincerity** - voters share a common objective and vote according to their belief as to which alternative is the best.
+
+  7. **Objectively Correct** - there is an objectively correct answer.
+
+Contemporary work on CJT has resulted in both the generalisation and challenging of these conditions, with these challenges being both analytic and empiric.
+
+The requirement for **Voter Competence** is essential as the CJT has symetric implications.  While large enough majorities are almost certain to select the correct alternative when their competence is better than 50%, they are also nearly certain to select the incorrect alternative when their competence is worse than 50%.....
 
 @Paroush1998 Paroush relaxes the competence requirement so that individual competence is bounded away from 0.5.  Individuals who are almost close to 0.5 do not (necessarily) contribute to the democratic decision making process. p19
 
@@ -83,33 +97,20 @@ The competence difference between type I and II errors must not be too extreme. 
 
 @list2004 List derives a more generalised version of the CJT that reinforces the importance of the absolute margin p(H|E) vs p(~H|E) but that this also depends on the prior p(H). The significance of the absolute margin can be reduced if the assumption of symmetric jurior competence is relaxed.
 
-**Voter Independence** Voters' choices are independent of one another.
+@baker1976's original proof required **Voter Homogeneity** - that voters had the same competence as each other. This rather strict and empricially implausible requirement has since been relaxed in a number of ways.  @grofman1978 (p3) generalized the Condorcet Jury Theorem for normally distributed voter competence rather than voter homogeneity. @owen1989 later generalized the Theorem for distribution free results (except for knife edges when voter competence was very close to random).  As long as _average_ voter competence is better than random, CJT is still valid.
 
-@boland1989 Boland generalizes CJT for when voter competence varies and there is some dependence between voters. Graph on p186 - the greater the dependence, the less the CJT effect.  Increasing R (the dependence between voters) is the same as decreasing N.
+The importance of difference has also been proved in a variety of ways.  @kanazawa1998 demonstrated that heterogeneous groups are better than homogeneous ones at selecting the correct alternative for any given level of average competence greater than random.  @fey2003 examined the sensitivity of competence to majories and showed that, in large enough electorates, the CJT holds as long as the average competence of the voters is greater than the fraction of votes needed for passage.  @kaniovski2010 demonstrated that a negative correlation of voter competence increases the competence of the majority, while positive correlation decreases it. 
 
-@ladha1992 generalises the CJT assumption related to correlated votes. Key assumptions: they vote individually and share a common goal.  This can be viewed as sincerity.
+While heterogeneity can obviously exist between voters, it can also exist within them.  @kirstein2006 examined how individual differences between type I and II errors affects majority competence and demonstrated that groups with average competence below random can still outperform competent individuals, provided they have positive detection skills and are not too biased towards either type I or II errors.  More recently, @stone2014 has shown that opposite forms of bias within groups can be used to enhance majority competence.  Rather than relying on voter homogeneity, these recent ehancments to CJT show how voter diversity strengthens the epistemic claims of democracy.
 
-Findings: CJT can be generalised for large groups but not for small ones.  The likelihood that the majority is correct is inversely related to the averages of the coefficients of correlation. Because of this, opposing views are critical to democratic function p618
+More voters with higher competence increases the likelihood of a majority being correct but this relies on **Voter Independence**.  If average voter competence is high, but all voters just take their lead from a single expert, then a majority vote will have no more epistemic value than that of the single expert.  
+
+No actual democracy can satisfy this requirement though.  Politics is a collective endeavour where people attempt to pursuade and cajole others.  Some dependency is inevitable whenever voters have access to the same information and watch the same media.  Luckily however, the requirement for voter independence is not strict.
+
+@boland1989 generalized the CJT for when voter competence varies and there is some dependence between voters. The empistemic value of majority voting is reduced by dependence but not fatally so.  Increasing the dependence between voters has the same effect as decreasing the number of voters, so some dependency can be overcome with larger groups.  @ladha1992 further generalised the CJT for correlated votes amongst individuals who share a common goal. The likelihood that the majority is correct is inversely related to the averages of the coefficients of correlation, showing again the that opposing views are critical to democratic function.  He further proved teh CJT for symmetrically dependent votes (@lahda1993).
 
 @berg1993 It is shown that negative intra-voter correlation improves on jury competence in the sense that the probability of a correct decision increases. Positive correlation, on the other hand, tends to decrease jury competence. Although dependence among jury members has the effect that jury competence no longer approaches infallibility as the size of the jury increases, jury competence is still better than individual competence.
 
-@lahda1993 This paper seeks to generalize CJT for symmetrically dependent votes p70
-
-
-
-**Voter Homogeneity** Voters are homogeneous, i.e., p, =p= p for all i.
-
-Grofman (1978) generalized the Condorcet Jury Theorem by replacing Assumption 2 (voter homogeneity) with the assumption that voter competence is normally distributed with a variance equal to the binomial variance. p3
-
-@owen1989 generalizes a distribution free results (except for knife edges)
-
-@Kanazawa1998 I demonstrate that, as long as CJT holds (in that the mean individual competence ≥(1/2)+(1/2n)), heterogeneous groups are better at making the correct decision than homogeneous groups for any given level of mean competence.
-
-@fey2003 We show that, in large enough electorates, a jury theorem holds as long as the average competence of the voters is greater than the fraction of votes needed for passage. p28
-
-@Kaniovski2010 proves two theorems for homogeneous juries that arise from different solutions to the problem of aggregation of dichotomous choice. It shows that negative correlation increases the competence of the jury, while positive correlation decreases the competence of the jury. It also shows that for positive correlation, an enlargement of the jury can be detrimental up to a certain size beyond which it becomes beneficial. The second theorem finds a family of distributions for which this probability under simple majority rule is independent of the correlation coefficient. p467
-
-@stone2014 This paper varies committee composition given the presence of opposing forms of bias within the population of potential committee members. Specifically, it offers a model in which opposite forms of bias are possible and then identifies the optimal composition for a committee deciding via majority rule. It thereby indicates how a committee might take maximal advantage of the presence of bias. p401
 
 **Simple Majority** The group decision rule is simple majority.
 
@@ -193,14 +194,13 @@ Running the simulation thousands of times over a range of values shows us the li
 
 ## Voter Competence & Anonymity
 
-
 > A popular government, without popular information, is but a Prologue to a Farce or Tragedy, or perhaps both.  
 
 > -- James Madison
 
-Of all the assumed conditions of CJT, the most plausible is that of voter competence.
+While many of the conditions necessary for CJT to be entailed are contested, it is the condition of voter competence that I wish to focus on in this paper.  Voter competence is, somewhat paradoxically, simultaneously the most plausible and implausible of those outlined earlier.  One only needs to read the comments section of any tabloid, or watch a _vox populi_ on some comtemporary issue to see voter ignorance and apathy in action.  Yet, could anyone seriously contend that the average voter, one's fellow citizen, will perform _worse_ than a flipping coin when they head to the ballot box?  Such a claim, if substantiated, would be damming not just for CJT but democracy itself.
 
-An all too common complaint in the politial literature is that voters are woefully ill-informed and thus incapable of making competent political decisions.  Numerous political surveys from the 20th century show "that popular levels of information about public affairs are, from the point of view of an informed observer, astonishingly low" (@converse1975 p79).  Voters are "poorly informed and ill-equipped to select the best candidate" in elections (@patterson1993 p52).
+An all too common complaint in the politial literature is that voters are woefully ill-informed and thus incapable of making competent political decisions. Numerous political surveys from the 20th century show "that popular levels of information about public affairs are, from the point of view of an informed observer, astonishingly low" (@converse1975 p79).  Voters are "poorly informed and ill-equipped to select the best candidate" in elections (@patterson1993 p52).
 
 Popular retreat from public issues has coincied with an increasingly interconnected and complex world.  National policies have global impact .... thereby placing increasingly difficult, if not impossible intellectual demands on the average voter.
 
@@ -221,6 +221,8 @@ Yet demonstrating that the competence condition is satisfied does little to help
 If we have prior knowledge of voter competence, then universal franchise is not only unnecessary but a gross waste of resources (Brennan makes a similar point) if epistemic accuracy is our goal.  Elections and referenda incur significant social costs.  The proposes marriage equality peblecite is estimates to cost over $500 million while the 2012 presidential elections cost more that $2.1 billion.  A vote by a handful of experts whose competency is known performs (epistemically) just as well as a vote of tens of thousands marginally competent citizens but at a fraction of the cost.
 
 Alternatively, if we have prior knowledge of the correct choice, then CJT offers no additional epistemic value.  Why vote on a question whose answer is already known?  The questions that need to be put to a vote, the questions about which CJT promises so much about, are the ones to which the answer is contested in the first place.  Being able to conclusively demonstrate that the voter competence condition is satisfied voids any epistemic value that CJT offers. 
+
+--> see deitchric
 
 Instead, the voter competence condition must simply be presumed.  But on what grounds?
 
@@ -254,6 +256,13 @@ The inverse must also be true:
 
 An example may help.  If we can presume that voters are competent in Nevada, then we must presume they are competent in New Hampshire.  If they are competent in Australia, then they must be competent in Antugia.  Provided of course, there is no other evidence that the voters of one polity are more competent than another.
 
+Principles
+
+  Anonymity: For any polity formed by a partition rule in which the Principle of Charity is presumed to hold true, the Principle can also be presumed to hold true in any other possible polity formed by the same partition rule.
+
+  Inverse Anonymity: For any polity formed by a partition rule in which the Principle of Charity is cannot be presumed to hold true, it cannot be presumed to hold true in any other possible polity formed by the same partition rule.
+
+
 We can simulate the anonymity by randomly partioning the `Democracy` into a number of different polities.....
 
 
@@ -264,13 +273,7 @@ Simulate partitioning.
 
 Results!  How do I compare ?  It should show that randomly partitioning makes no difference, hence random partitions are anonymous.
 
-
-  Anonymity: For any polity formed by a partition rule in which the Principle of Charity is presumed to hold true, the Principle can also be presumed to hold true in any other possible polity formed by the same partition rule.
-
-  Inverse Anonymity: For any polity formed by a partition rule in which the Principle of Charity is cannot be presumed to hold true, it cannot be presumed to hold true in any other possible polity formed by the same partition rule.
-
----
-
+As we can see the principle of autonomy applies as expected when we randomly paritioning our democracy into many polities.  Given the stipulated conditions in the simulation, CJT demonstrates the epistemic power of both the original democracy and the anonymous paritions of it.
 
 ## Voter Competence and its Distribution
 

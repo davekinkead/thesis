@@ -17,62 +17,6 @@ Demonstrating that the assumption of voter competence holds true in real life pr
 Using computer simulation, I advance Goodin & Estlund's argument for the persuasiveness of democratic majorities and show that diversity of voter competence undermines the Principle of Charity.  To have any plausibility, the PoC should apply equally to indistinguishable polities.  This is not the case however.  Even if the assumptions of CJT hold true for one polity, it is unlikely they hold true for other indistinguishable polities.  Thus, we have even less reason to support the Principle of Charity than previously thought.
 
 
-## My Argument
-
-### Introduction
-
-### Assumptions & Modelling
-
-  1. CJT requires certain conditions to be satisfied.  Amongst those is voter competence.
-
-  - model CJT
-
-### Voter Competence
-
-  2. Voter competence is only justified by the POC
-
-  3. If we are justified in applying the POC then it must be anonymous to indistinguishable polities
-
-  - introduce paritioning
-  - if we are justified in applying to one polity, then we are justified in applying to other similar polities
-
-### Distribution of Competence
-
-  4. The POC is not anonymous to indistinguishable polities
-
-  - introduce competence distribution
-  - we are not justified in applying the POC to indistinguishable polities!!! 
-  - goodin & real life results
-
-### Conclusion
-
-  5. Therefore we are not justified in applying the POC
-
-
-### Appendix
-
-Appendix - demonstrate that analytic and ABM models are identical
-
-
-
-  3. My simulation shows that (whenever CJT is applied to multiple polities), voter competence > 0.5 is not enough - we also need even distribution of competence.  
-
-  4. Acutal results show that these assumptions do not hold - competence isn't evenly spread.
-
-  - the maths of CJT are symmetrical.  we can infer results -> competence (G&E)
-  - there is considerable variation of results in real life showing that competence is inconsistent accross issue and geography. Much more than CJT would imply.
-  - the anonymity condition makes the application of assumption of competence impossible (~B -> ~A) 
-  
-
-  - imagine Trump wins nationally but not in every state. TX votes red while CA votes blue. in order to use CJT, we need to grant the assumptions of competence and these assumptions must be anonymous - if its granted to TX, then it is granted to CA. But results show that the assumptions weren't satisfied in some states (and possibly nation as a whole).  
-  - Different results between similar electorates show that we cant the assumption to some.  And if we can't grant it to some, then we can't grant it to similar others.  Because we don't know which electorates can be granted the assumption a priori, we can't grant it to any!
-
-
-
-
-
-
-
 ## Introduction
 
 Democracy has been justified via a variety of means.  Some democratic theorists claim democratic rule is legitimate because it involves the consent of the people (who).  Others have claim that democracy's legitimacy arises from the way it treats it citizens (who).  Others still say that democracy is justified because ... (who) and there are even those who say democracy can't be justified (wolff, simmons).
@@ -86,6 +30,8 @@ Of all the epistemic justifications of democratic rule though, Condorcet's Jury 
 The implication of CJT is hard to overstate.  Assuming individuals are better at selecting the correct answer than flipping a coin, then a majority vote of a small town of just a few thousand voters has a near certainty of identifying the correct answer to any binary choice.  Provided of course, certain conditions hold.
 
 It is these necessary conditions, whether they are plausibly obtained in reality, and even their very possibility, that have been the subject of much debate within the literature.  In it's original formulation, CJT requires that _voters' choices are independent of one another_, that _voters are minimally competent_, that their _competence is homogeneous_, and that _voters act sincerely_.  It further requires that the question under consideration is a _dichotomous choice_, has an _objectively correct_ answer, and is determined by a _simple majority_.  These conditions have been both challenged by critics of CJT and relaxed by subsequent proofs.  Yet even if these assumptions were true, are there any plausible scenarios that would prevent CJT from being used to justify democracy?  I believe there are. 
+
+--->???
 
 Imagine a democracy in which all the necessary conditions of a CJT hold tue.  If this is the case, then a majority vote on any dichotomous choice is nearly certain to identify the best option.  Now imagine that same democracy paritioned into smaller political units - states, provinces, or electorates.  If the CJT conditions hold true for each partition, then each partition should also select the best option with near certainty.  
 
@@ -106,6 +52,8 @@ As both empiric data and my simulation show however, different results from indi
 
 ## Condorcet's Jury Theorem
 
+--> better segway
+
 The epsitemic value of Condorcet's Jury Theorem is typically demonstrated analytically (see XYZ).  @baker1976 for example, provides the seminal contemorary formuation:
 
 >        N
@@ -119,7 +67,11 @@ Where:
 >  p  = justdgement competence of a voter in a homogeneous group
 >  PN = probability that at least a majority of voters will make the correct choice in a dichotomous choice situation;
 
+The normative implications of this formula are difficult to overstate.  Assuming that individuals are more competent at selecting the better of a dichotomous choice than the random toss of a coin, the majority vote by a large group of people will be better at selecting the best choice than that of an individual expert.  What's more, as the number of voters increases, the likelihood that the majority select the better option approaches certainty - a village of 1000 barely competent voters would have a 72% certainty of selecting the best option; a town of 10000 has 99.97% certainty.
 
+If certain important conditions are satisfied, that is.
+
+these conditinos....
 
 
 State the assumptions
@@ -201,6 +153,8 @@ Graph here and analysis....
       results[democracy.simple_majority()]++
     console.log results
 
+
+---> Demonstrate that CDJ works
 
 ## Voter Competence & Anonymity
 
@@ -284,8 +238,13 @@ Results!
 
 ## The Equivalence of Analytic and Agent Based Models of Condorcet’s Jury Theorem
 
+It would be terribly embarrissing for the conclusions of this paper to have been derived from some careless coding error.  A simple typo could lead to ...., a calculation could be ..., or ....
 
-The epsitemic value of Condorcet's Jury Theorem is typically demonstrated analytically (see XYZ).  Let's being with Bakers's 1976 formulation of CJT 
+Concerns over the model's validity can be placated a number of ways.  Literate progamming is one way to validate the model _ex post facto_.  Explicitly embedded in the paper itself, the code can be inspected by and all and the simulation run by anyone reading the paper.  
+
+This approach in isolation however, only serves to indentify if something is wrong.  It cannot demonstrate if the simulation is right.  To demonstrate such fitness, the agent based model must be compared against a known model.  If both models deliver the same result (or at least statistically similar results given that the ABM approach uses the Monte Carlo method), we can confidently claim that the model is _validated_.
+
+The epsitemic value of Condorcet's Jury Theorem is typically demonstrated analytically (see XYZ).  Let's being with Bakers's 1976 formulation of CJT:
 
 
     #        N  
@@ -299,15 +258,13 @@ Where:
   - p  = the jusdgement competence of a voter in a homogeneous group  
   - PN = the probability that at least a majority of voters will make the correct choice in a dichotomous choice situation  
 
+The CJT states that the number of voters needs to be odd so we first enforce this and determine the corresponding majority.  We will use the function below to perform this check and return a range from the majority point to the total number of voters.
 
-The CJT states that the number of voters needs to be odd so we first enforce this and determine the corresponding majority.
 
-
-    an_odd_majority = (voters) ->
-      voters = if voters % 2 is 1 then voters else voters + 1
-      majority = (voters + 1) / 2
-      [majority..voters]
-
+    an_odd_majority = (number_of_voters) ->
+      number_of_voters = if number_of_voters % 2 is 1 then number_of_voters else number_of_voters + 1
+      majority_point = (number_of_voters + 1) / 2
+      [majority_point..number_of_voters]
 
 
 We can then formalise the majority likelihood as a function of the number of voters and their competence.  For each voter in the majority, we calculate the binomial coefficient and likelihood for the individual voter, and then sum the results.
@@ -323,7 +280,10 @@ We can then formalise the majority likelihood as a function of the number of vot
           sum + increment
 
 
-Implementing this analytically is straight forward, although this approach becomes computationally intractable in javascript once the number of voters increases beyond 1000.  The multiplicative formula for calculating binomial coefficients is more efficient to compute but even here, the analytic approach is limited by an integer size of 53 bits.  For example, 1000 choose 500 yields approximately 2.7e+299 permutations limiting the calculation of the Condorcet Jury Theorem analytically to just over 1000 voters.
+Implementing this analytically is straight forward, although this approach becomes computationally intractable in javascript once the number of voters increases beyond 1000.  Javascript's integers are constrainted to 2^53 while for example, 1000 choose 500 yields approximately 2.7e+299 permutations.  This limits the calculation of the Condorcet Jury Theorem analytically to just over 1000 voters with this algorithm [^other].
+
+[^other]: Even specialised languages such as Mathematica are only able to calculate update 5000 voters.
+
 
 
     n_choose_h = (n, h) ->

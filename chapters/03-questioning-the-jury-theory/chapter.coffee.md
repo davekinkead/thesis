@@ -145,19 +145,88 @@ No actual democracy can satisfy this requirement though.  Politics is a collecti
 
 ## Modelling Condorcet’s Jury Theorem
 
+The epsitemic value of Condorcet's Jury Theorem is typically demonstrated analytically.  For example, @baker1976's formulation outlined earlier is:
 
-The epsitemic value of Condorcet's Jury Theorem is typically demonstrated analytically (see XYZ).  Yet analytic approaches are not always the most useful implementation though. (Phil of Sim discussion)
 
---> flesh this out after chapter 2
+    #        N  
+    #  PN =  Σ (N choose h) p^h (1-p)^(N-h)  
+    #       h=m  
+---> use mathjax
 
---> should I put the analytic model here?
+Yet analytic approaches are not always the most useful implementation though.  One reason for this is that analytic approaches are often computationally intractable.  The binomial coefficient _n choose h_ above is one such example.  For example, the multiplicative formula:
+
+![Binomial coefficient multiplicative formula](https://upload.wikimedia.org/math/d/c/5/dc50ea2ca1b3c2e0de642b13d071faf6.png)
+
+We can implement this in coffeescript using a map reduce as:
+
+
+    n_choose_h = (n, h) ->
+      return 1 if h >= n
+      [1..h].map (i) ->
+          (n-h+i) / i
+        .reduce (sum, increment) ->
+          sum * increment
+
+
+While the code above is simple enough, this analtyic approach becomes problematic once the number of voters, _n_, increases beyond 1000.  Javascript's integers, which the Coffeescript above transpiles to, are limited to 2^53 bits in size but 1000 choose 500 for example, yields approximately 2.7e+299 permutations.  This limits the calculation of the Condorcet Jury Theorem analytically to just over 1000 voters with this algorithm [^other].
+
+[^other]: Even specialised languages such as Mathematica are only able to calculate up to 5000 voters.
+
+Another limitation of analytical approaches is that they lack the flexibility to explore the effects of changed assumptions .... sensitivity analysis ... For this reason, we will employ an agent based approach to modelling the Jury Theorem.
+
+Of course, it would be terribly embarrissing for the conclusions of this paper to have been derived from some careless coding error.  A simple typo could lead to ...., a calculation could be ..., or ....
+
+Concerns over the model's validity can be placated a number of ways.  Literate progamming is one way to validate the model _ex post facto_.  By explicitly embedded in the paper itself, the code can be inspected by and all and the simulation run by anyone reading the paper.  
+
+This approach in isolation however, only serves to indentify if something is wrong.  It cannot demonstrate if the simulation is right.  To demonstrate such fitness, the agent based model must be compared against a known model.  If both models deliver the same result (or at least statistically similar results given that the ABM approach uses the Monte Carlo method), we can confidently claim that the model is _validated_.  For this reason, we will begin with an analytic model.
+
+The CJT states that the number of voters needs to be odd so we must first enforce this and determine the corresponding majority.  We will use the function below to perform this check and return a range from the majority point to the total number of voters.
+
+
+    an_odd_majority = (number_of_voters) ->
+      number_of_voters = if number_of_voters % 2 is 1 
+        then number_of_voters 
+        else number_of_voters + 1
+      a_majority = (number_of_voters + 1) / 2
+      [a_majority..number_of_voters]
+
+
+We can then formalise the majority likelihood as a function of the number of voters and their competence.  For each voter in the majority, we calculate the binomial coefficient, likelihood for the individual voter, and then sum the results.
+
+
+    majority_likelihood = (number_of_voters, voter_competence) ->
+      an_odd_majority(number_of_voters)
+        .map (voter) ->
+          n_choose_h(number_of_voters, voter) * 
+          Math.pow(voter_competence, voter) * 
+          Math.pow(1-voter_competence, number_of_voters - voter)
+        .reduce (sum, increment) ->
+          sum + increment
+
+
+Now, all we need to do is generate the results for a variety of voters and competencies, and display the results.
+
+
+    analytic_jury_theorem = (results = []) ->
+      [1..1000].map (n) ->
+        if n % 2 isnt 0
+          [30..70].map (c) ->
+            c = c/100
+            tuple =
+              "Voters": n
+              "Voter Competence": c
+              "Majority Likelihood": majority_likelihood(n, c)
+            results.push tuple  unless n % 2 is 0
+      results
+
+
+---> Graph results.
 
 Agent based modelling offers something else...(what exactly) - sensitivity (list has honey bee paper)
 
-A first step in agent based modelling however is to test the validity of it against an analytic approach.  This will give us confidence when we start to look at sensitivity and introduce new variables. To verify that the agent based model of the jury theorem performs sufficiently well for our needs, we can compare it against an analytic implementation.  This is in the annex
-???
+A necessary first step however is to test the validity of it against an analytic approach.  This will give us confidence when we start to look at sensitivity and introduce new variables. To verify that the agent based model of the jury theorem performs sufficiently well for our needs, we can compare it against our analytic model using the same assumptions. 
 
-The modelling process is coneptually very simple.  We begin by modelling our entities and ensure that the necssary CJT voter conditions are met _ex ante_ by stipulating them in code.  Our model initially consists of just two entities - a `Democracy` that is populated by a number of `Voters`
+Our agent based model is very simple conceptually.  We'll begin by modelling our entities and ensure that the necssary CJT voter conditions are met _ex ante_ by stipulating them in code.  Our model initially consists of just two entities - a `Democracy` that is populated by a number of `Voters`
 
 
     class Democracy
@@ -198,7 +267,10 @@ While a `Democracy` may contain `Voters` with a variety of competencies, our fir
       [1..desired_number].map () ->
         new Voter(competence)
 
----> also need to do heterogeneous voters and compare all three below.        
+Later, we will use the relaxed voter competence condition for heterogeneous voters.
+
+
+    with_heterogeneous_voters = (desired_number, average_competence) ->
 
 
 With these elements in place, all that is left to do is create a democracy, populate it with voters, and hold a vote.  
@@ -308,17 +380,41 @@ As we can see the principle of autonomy applies as expected when we randomly par
 
 ## Voter Competence and its Distribution
 
-Recall the voter competence condition and how it has been relaxed.  Voter competence need no be homogeneous.
+Recall from earlier in the chapter how the voter competence condition has been relaxed.  Voters need not be homogeneous with regard to competence - the CJT still holds for distribution free heterogenous voters so long as the average competence is better than random.  Even this requirement has been relaxed when intra-voter bias between type I and II erros is diverse and voters have positive error detection skills.  In short, diverse, opposing views _strengthen_ the epistemic claims of democracy.
 
-Just as well because it isn't in real life.
+Which is just as well because voter competence is _not_ homogeneous.  It is obvious that the claim that voter competence can cluster is not impossible.  If for example, voter competence is correlated with income or party affiliation, then voter competence is clustered because these attributes are clustered.  That party affiliation clusters geographically is a truism of politics to which the language of _Red States_, _Blue States_, and _Swing States_ attests to.  Income too is clustered geographically and significantly within electorates. (Empricial data needed) 
 
-CJT is symetrical - We can infer voter competence from actual results.  
- ----goodin & real life results
+One needn't believe that income levels reflect a meritocracy or that one political party is objectively better than another to accept the claim voter competence is clustered however.  That's because both these attributes are strongly correlated with another, more important attribute that very likely affects voter competence - education level.  Voters with higher levels of education are more likely to vote for liberal policies (cite).  Voters with higher levels of education are more liekly to have higher income levels (cite).  And political affiation, income, and education level all cluster geographically. 
+
+Now one might dispute a direct causal connection between income and voter competence for example, but to dispute the connection between education level and voter competence is much harder. The consquence of which is to assert that voter competence - the likelihood that one can correctly identify an objectively better alternative - is innate and not affected by education.  That in effect expertise is not affected by education level.
+
+Perhaps the strongest argument for voter clustering however, is provided by the results of actual democratic elections.  I described earlier how CJT was symmetric, how it alternatively strengthed or weakened claims for the epistemic value of democracy depending on whether the level of voter competence was better or worse than average.  @goodin2004 however, offers another take on the symmetry of the Jury Theorem.  Just as knowning voter competence and voter numbers allows us to infer the likelihood that a majority decision is correct, knowning the size of the majority and voter numbers allows us to infer voter competence.
+
+If, for example, 60 percent of a large polity votes for a particular policy or candidate, then we can infer ..... (check his paper) .  The problem, as Goodin notes, is that we can't be sure which it is.
+--->
+
+---
+
+So far in this chapter we've introduced CJT and examined the conditions necessary for its realisation.  We implemented the Jury Theorem analytically and as an agent based model, with both homogeneous and heterogeneous voters, and seen that all three yield statistically identical results.  We've also explored justifications for claiming that the condition of voter competence is satisfied and I've argued that this can only be by presumption using a verstion of the Principle of Charity.  I've also argued that when using the Principle of Charity to presume voter competence, we are constrained by the Principle of Anonymity - that is we can presume voter competence for one polity, we can presume it for another.
+
+???
+
+So what impact, if any, does the distribution of voter competence have on the epistemic claims of CJT?  No research, as far as I am aware, addresses this issue.  This is, of course is entirly understandable.  When applied to an abstract political entity, it doesn't matter how voter competence is distributed within that entity, so long as voter competence is, on average, better than random.
+
+When applied to actual political entities whose voter competence can only be presumed however, the distribution of voter competence turns out to matter a great deal.  That's because when voter competence is clustered, then it become possible, likely even, that the Principle of Anonymity is violated.  When voter competence is clusterd, the justification for presuming voter competence - the Principle of Charity - can no longer be applied.
+
+We can see how this works be simulating a democracy with clustered voters.  Like before, we will generate a desired number of voters with average competence but this time we will specify how clustered the distrituion is with a value ranging from `0.0` indicating no clustering to `1.0` indicating all the competent voters neighbour each other. 
 
 
-What happens when anonymity and distribution mix?
+    with_clustered_voters = (desired_number, average_competence, clustering) ->
 
-Simulate
+
+In this simulation, we will ....
+
+
+The results here are striking.  As voter competence becomes increasingly clustered, the likelihood that .....
+
+Put another way.....
 
 The POC is not anonymous to indistinguishable polities
   - we are not justified in applying the POC to indistinguishable polities!!! 
@@ -326,291 +422,14 @@ The POC is not anonymous to indistinguishable polities
 
 ## Conclusion
 
+to be concluded
 
 ---
 
 ## Supplimentry Code for Data Generation
 
-First, we'll generate data for a democracy with homogeneous voters.  
-
 
     
-
-
----
-
-## The Equivalence of Analytic and Agent Based Models of Condorcet’s Jury Theorem
-
-It would be terribly embarrissing for the conclusions of this paper to have been derived from some careless coding error.  A simple typo could lead to ...., a calculation could be ..., or ....
-
-Concerns over the model's validity can be placated a number of ways.  Literate progamming is one way to validate the model _ex post facto_.  Explicitly embedded in the paper itself, the code can be inspected by and all and the simulation run by anyone reading the paper.  
-
-This approach in isolation however, only serves to indentify if something is wrong.  It cannot demonstrate if the simulation is right.  To demonstrate such fitness, the agent based model must be compared against a known model.  If both models deliver the same result (or at least statistically similar results given that the ABM approach uses the Monte Carlo method), we can confidently claim that the model is _validated_.
-
-The epsitemic value of Condorcet's Jury Theorem is typically demonstrated analytically (see XYZ).  Let's being with Bakers's 1976 formulation of CJT:
-
-
-    #        N  
-    #  PN =  Σ (N choose h) p^h (1-p)^(N-h)  
-    #       h=m  
-  
-Where: 
-
-  - N  = the number of voters in the group (for simplicity, N will generally be taken to be >odd)  
-  - m  = a majority or (N + 1)/2 for N odd  
-  - p  = the jusdgement competence of a voter in a homogeneous group  
-  - PN = the probability that at least a majority of voters will make the correct choice in a dichotomous choice situation  
-
-The CJT states that the number of voters needs to be odd so we first enforce this and determine the corresponding majority.  We will use the function below to perform this check and return a range from the majority point to the total number of voters.
-
-
-    an_odd_majority = (number_of_voters) ->
-      number_of_voters = if number_of_voters % 2 is 1 then number_of_voters else number_of_voters + 1
-      majority_point = (number_of_voters + 1) / 2
-      [majority_point..number_of_voters]
-
-
-We can then formalise the majority likelihood as a function of the number of voters and their competence.  For each voter in the majority, we calculate the binomial coefficient and likelihood for the individual voter, and then sum the results.
-
-
-    majority_likelihood = (number_of_voters, voter_competence) ->
-      an_odd_majority(number_of_voters)
-        .map (voter) ->
-          n_choose_h(number_of_voters, voter) * 
-          Math.pow(voter_competence, voter) * 
-          Math.pow(1-voter_competence, number_of_voters - voter)
-        .reduce (sum, increment) ->
-          sum + increment
-
-
-Implementing this analytically is straight forward, although this approach becomes computationally intractable in javascript once the number of voters increases beyond 1000.  Javascript's integers are constrainted to 2^53 while for example, 1000 choose 500 yields approximately 2.7e+299 permutations.  This limits the calculation of the Condorcet Jury Theorem analytically to just over 1000 voters with this algorithm [^other].
-
-[^other]: Even specialised languages such as Mathematica are only able to calculate update 5000 voters.
-
-
-
-    n_choose_h = (n, h) ->
-      return 1 if h >= n
-      [1..h].map (i) ->
-          (n-(h-i)) / i
-        .reduce (sum, increment) ->
-          sum * increment
-
-
-
-
-
-# Now we create voters with a stochastic competence function.
-
-#     with_uniform_voters = (desired_number, average_competence) ->
-#       [1..desired_number].map () ->
-#         competence = () ->
-#           if Math.random() < average_competence then 1 else 0
-#         new Voter competence
-
-
-# We can also relax the unform competency assumption.  The `with_symmetric_voters` function is almost identical to the `with_uniform_voters` function except voter competence is symmetrically distributed around the average competence, with voters then ordered by competence.
-
-
-#     with_symmetric_voters = (desired_number, average_competence) ->
-#       [1..desired_number].map () ->
-#           (Math.random() - Math.random()) / 2 + average_competence
-#         .sort (a,b) ->
-#           a - b
-#         .map (comp) ->
-#           competence = () ->
-#             if Math.random() < comp then 1 else 0
-#           new Voter competence
-
-
-# Measure voting outcomes in a space.  In the event of a tie we assume the worst.
-
-
-#     vote = (polity) ->
-#       correct_votes = polity.map (voter) ->
-#           voter.competence()
-#         .reduce (total, competence) ->
-#           total + competence
-#       if correct_votes / polity.length > 0.5 then 1 else 0
-
-
-# Demonstrate relaxed CJT results and compare against analytic results with some pretty graphical comparison. --perhaps an interactive graph with analytic, uniform, and symmetic overelayed-- In the meantime, run `coffee filename test analytic` and `coffee filename test uniform` to compare the two.
-
-
-# ---
-
-
-
-# ### Competence is not evenly distributed
-
-#   4. The POC is not anonymous to indistinguishable polities.
-
-#     - introduce competence distribution
-#     - we are not justified in applying the POC to indistinguishable polities!!! 
-#     - goodin & real life results
-
-#     - the maths of CJT are symmetrical.  we can infer results -> competence (G&E)
-#     - there is considerable variation of results in real life showing that competence is inconsistent accross issue and geography. Much more than CJT would imply.
-#     - the anonymity condition makes the application of assumption of competence impossible (~B -> ~A) 
-
-
-# Advance the claim that if voter competence as per relaxed CJT is unevenly distributed, then CJT no longer holds.
-
-# Start with a way to distribute voters.  Use a modified fisher-yates shuffle.  Take an ordered collection of voters and use a Fisher-Yates substitution to shuffle them.  Use a `skew` value to the determine exactly which elements get shuffled.
-
-#     Space::distribute = (skew=1.0) ->
-#       @voters = shuffle(@voters, skew)
-#       this
-
-#     shuffle = (list, skew=1.0) ->
-#       i = list.length
-#       return false if i is 0
-#       while --i
-#         if Math.random() < skew
-#           j = Math.floor(Math.random() * (i+1))
-#           [list[i], list[j]] = [list[j], list[i]]
-#       list
-
-# Now, some method to partition the space.  We want polities of random size.  Start with the number to divid. Cut it in two by picking a random number between 1 and it. Add the smallest to the list.
-
-#     Space::partition_into = (partitions) ->
-#       polities = [@voters]
-#       while partitions > 1
-#         partitions = Math.min partitions, @voters.length
-#         polity = polities.shift()
-#         cut = Math.floor( Math.random() * (polity.length - partitions) ) + 1
-#         polities.push polity[...cut]
-#         polities.push polity[cut..]
-#         polities.sort (a,b) -> b.length-a.length
-#         partitions--
-#       polities
-
-
-# Then run a monte carlo simulation. 10000 voters into 10 polities.  How often do majorities vote correctly?
-
-
-
-# ## Conclusion
-
-#   5. Therefore we are not justified in applying the POC
-
-
-# - We can't use CJT to justify democracy without knowing competency (or making selecting electorate boundaries for it.)
-
-
-
-
-
-
-
-# ## Key Texts
-
-# The persuasiveness of democratic majorities (Goodin & Estlund)
-# The Epistemic Conception of Deliberative Democracy (Marti)
-
-# Gordon, Stacy B. and Gary M. Segura. 1997. “Cross-National Variation in the Political Sophistication of Individuals: Capability or Choice?” Journal of Politics 59:126-­47.
-
-# Group decision-making in animals Nature 421, 155-158 (9 January 2003) | doi:10.1038/nature01294; 
-
-#   (Grofman 1975)
-#   (Grofman 1978)
-#   (Feld)
-#   (Owen 1989 - Distribution-Free Generalization of the Condorcet Jury Theorem).
-#   (List & Goodin)
-
-# ---
-
-
-# ## Appendix
-
-
-# ---> Move this to the annex
-
-
-
-
-# <figure>
-# <div id="analytic_jury_theorem" class="graph"></div>
-# <figcaption>Preference fidelity by partition number</figcaption></figure>
-
-
-
-
-# Test the code
-
-#     test = (argv) ->
-#       console.log "10 choose 5 is #{n_choose_k 10, 5}" if argv[3] is 'n_choose_k'
-#       test_uniform(argv[4]) if argv[3] is 'uniform'
-#       test_analytic(argv[4]) if argv[3] is 'analytic'
-#       test_symmetric(argv[4]) if argv[3] is 'symmetric'
-#       test_symmetric_dist(argv[4]) if argv[3] is 'symmetric_dist'
-#       test_paritions(argv[4]) if argv[3] is 'partitions'
-#       test_shuffle(argv[4]) if argv[3] is 'shuffle'
-
-#     test_shuffle = () ->
-#       console.log "------Everybody's Shuffl'n------"
-#       alphabet = [97..122].map (n) ->
-#         String.fromCharCode n
-#       console.log shuffle alphabet
-
-#     test_analytic = (c=0.51) ->
-#       console.log "------Analytic at #{c} competence------"
-#       [1..20].map (n) ->
-#         n = n * 50 + 1
-#         console.log "#{majority_likelihood(n, parseFloat c).toFixed(6)} with #{n} voters"
-
-#     test_uniform = (c=0.51) ->
-#       console.log "------Uniform at #{c} competence------"
-#       [1..20].map (n) ->
-#         n = n * 50 + 1
-#         results = [1..1000].map () ->
-#           simulation = new Space with_uniform_voters(n, parseFloat c)
-#           vote(simulation.voters)
-#         console.log "#{(results.reduce((a,b) -> a + b) / results.length).toFixed(6)} with #{n} voters"
-
-#     test_symmetric = (c=0.51) ->
-#       console.log "------Symmetric at #{c} competence------"
-#       [1..20].map (n) ->
-#         n = n * 50 + 1
-#         results = [1..1000].map () ->
-#           simulation = new Space with_symmetric_voters(n, parseFloat c)
-#           vote(simulation.voters)
-#         console.log "#{(results.reduce((a,b) -> a + b) / results.length).toFixed(6)} with #{n} voters"
-
-#     test_symmetric_dist = (c=0.51) ->
-#       [1..20].map ->
-#         results = with_symmetric_voters(1000, parseFloat c).map (voter) ->
-#             voter.competence()
-#         console.log (results.reduce((a,b) -> a + b) / results.length).toFixed(6)
-
-#     test_paritions = (c=0.51) ->
-#       c = parseFloat c
-
-#       sim = (space) ->
-#         [1..1000].map (tick) ->
-#           polities = space.partition_into 10
-#           polities.map (polity) ->
-#               vote(polity)
-#             .reduce((a,b) -> a + b) / 10
-
-#       [0..20].map (d) ->
-#         d = d * 0.05
-#         space = new Space(with_symmetric_voters 10000, c).distribute(d)
-#         console.log "----#{d}----#{space.voters.map((v) -> v.competence()).reduce((a,b) -> a + b) / space.voters.length}"
-#         space.partition_into(10).map (p) ->
-#           console.log p.map((v) -> v.competence()).reduce((a,b) -> a + b) / p.length
-
-#         winners = sim(space)
-#         console.log "Uneven  - " + winners.reduce((a,b) -> a + b) / winners.length
-
-#         winners = sim(new Space(with_uniform_voters 10000, c).distribute(d))
-#         console.log "Uniform - " + winners.reduce((a,b) -> a + b) / winners.length
-
-#       space = new Space(with_symmetric_voters 10000, c)
-#       winners = sim(space)
-#       console.log "No Dist Uneven  - " + winners.reduce((a,b) -> a + b) / winners.length
-
-
 Be able to save data to disk...
 
     fs = require 'fs'
@@ -620,19 +439,7 @@ Be able to save data to disk...
       fs.writeFile "#{dir}/#{name}.json", JSON.stringify(results) , (err) ->
         if err then console.log err
 
-# Run some simulations
 
-#     analytic_jury_theorem = (results = []) ->
-#       [1..1000].map (n) ->
-#         if n % 2 isnt 0
-#           [30..70].map (c) ->
-#             c = c/100
-#             tuple =
-#               "Voters": n
-#               "Voter Competence": c
-#               "Majority Likelihood": majority_likelihood(n, c)
-#             results.push tuple  unless n % 2 is 0
-#       results
 
     run = (argv) ->
       console.log "Generating data for #{argv[3]} - this may take some time"
@@ -644,7 +451,6 @@ You can now run any of these simulations to generate their results.
     process.argv.map (val, index, array) ->
       # test array if val is 'test'
       run array if val is 'run'
-
 
 <script src="../../assets/d3.v3.min.js" type="text/javascript"></script>
 <script src="../../assets/dimple.v2.1.2.min.js" type="text/javascript"></script>

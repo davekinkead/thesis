@@ -20,16 +20,6 @@ function renderChart(id, data, base, xLabel, yLabel, series) {
     .text(base + ' Voters')
     .append('div')
 
-  var select = title.append('input')
-  select
-    .attr('type', 'range')
-    .attr('min', Math.min.apply(null, voters))
-    .attr('max', Math.max.apply(null, voters))
-    .attr('value', base)
-    .on('change', function() {
-      return renderChart(id, data, odd(this.value), xLabel, yLabel, series);
-  });
-
   var canvas = dimple.newSvg(id, 700, 400);
   var chart = new dimple.chart(canvas, filteredData);
   chart.setBounds(60, 30, 605, 305);
@@ -37,10 +27,10 @@ function renderChart(id, data, base, xLabel, yLabel, series) {
   var y = chart.addMeasureAxis("y", yLabel);
   y.overrideMax = 1.0;
 
-  var s = chart.addSeries("Voters", dimple.plot.line);
+  var s = chart.addSeries("voters", dimple.plot.line);
   chart.draw();
 }
 
-d3.json('assets/analytic.json', function(data) {
-  renderChart('#analytic_jury_theorem', data, '101', 'Voter Competence', 'Majority Likelihood', 'Voters');
+d3.json('assets/demonstration.json', function(data) {
+  renderChart('#condorcets_jury_theorem', data, '1000', 'competence', 'likelihood', 'voters');
 });

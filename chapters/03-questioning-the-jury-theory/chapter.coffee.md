@@ -4,6 +4,10 @@ Working Title: Competence, Inclusion, and Legitimacy - A New challenge to Condor
 
 "Competence is not enough!"
 
+> A popular government, without popular information, is but a Prologue to a Farce or Tragedy, or perhaps both.  
+
+> -- James Madison
+
 ## Abstract
 
 > I show that even if the average voter competence is greater than 0.5, this is still not enough to justify CJT
@@ -19,7 +23,7 @@ Using computer simulation, I advance Goodin & Estlund's argument for the persuas
 
 ## Introduction
 
-Democracy has been justified via a variety of means.  Some democratic theorists claim democratic rule is legitimate because it involves the consent of the people (who).  Others have claim that democracy's legitimacy arises from the way it treats it citizens (who).  Others still say that democracy is justified because ... (who) and there are even those who say democracy can't be justified (wolff, simmons).
+Democracy has been justified via a variety of means.  Some democratic theorists claim democratic rule is legitimate because it involves the consent of the people (@locke1689).  Others have claim that democracy's legitimacy arises from the way it treats it citizens (who).  Others still say that democracy is justified because ... (who) and there are even those who say democracy can't be, or at least is yet to be, justified (@wolff1970, @simmons1976).
 
 One very popular and powerful justificiation of democracy however, is epistemic.  Through the wisdom of the crowds, democracy has the capacity to track the truth, to divine the right answer, and .....
 
@@ -144,19 +148,23 @@ No actual democracy can satisfy this requirement though.  Politics is a collecti
 
 The epsitemic value of Condorcet's Jury Theorem is typically demonstrated analytically (see XYZ).  Yet analytic approaches are not always the most useful implementation though. (Phil of Sim discussion)
 
+--> flesh this out after chapter 2
+
+--> should I put the analytic model here?
+
 Agent based modelling offers something else...(what exactly) - sensitivity (list has honey bee paper)
 
 A first step in agent based modelling however is to test the validity of it against an analytic approach.  This will give us confidence when we start to look at sensitivity and introduce new variables. To verify that the agent based model of the jury theorem performs sufficiently well for our needs, we can compare it against an analytic implementation.  This is in the annex
+???
 
-
-We being by modelling voters and ensure that the necssary CJT voter conditions are met _ex ante_ by stipulating them in the model.  Our model consists of a `Democracy` that is populated by `Voters`
+The modelling process is coneptually very simple.  We begin by modelling our entities and ensure that the necssary CJT voter conditions are met _ex ante_ by stipulating them in code.  Our model initially consists of just two entities - a `Democracy` that is populated by a number of `Voters`
 
 
     class Democracy
       constructor: (@voters) ->
 
 
-Voters themselves are constructed with a `competency` value between `0.0` and `1.0` representing the likelihood they vote correctly on some dichotomous choice.
+Voters themselves are constructed with a `competency` value between `0.0` and `1.0` representing the likelihood they will choose the correct alternative on some dichotomous choice.
 
 
     class Voter
@@ -167,42 +175,64 @@ Voters themselves are constructed with a `competency` value between `0.0` and `1
 
 
     Voter::vote = () ->
-      if @competence >= Math.random() then 'correct' else 'incorrect'
+      if @competence >= Math.random() 
+      then 'correct' 
+      else 'incorrect'
 
 
-The decision procedure for the collective choice is a _simple majority_.  If a majority of Voters vote correctly, then so does the Democracy.
+The decision procedure for the collective choice is a _simple majority_.  If a majority of `Voters` vote correctly, then so does the `Democracy`.
 
 
     simple_majority = (democracy) ->
       correct_voters = democracy.voters.filter (voter) ->
         voter.vote() == 'correct'
-      if correct_voters.length > democracy.voters.length / 2 then 'correct' else 'incorrect'
+      if correct_voters.length > democracy.voters.length / 2 
+      then 'correct' 
+      else 'incorrect'
 
 
-With these four elements in place, all that is left to do is create a democracy, populate it with voters, and hold a vote.
+While a `Democracy` may contain `Voters` with a variety of competencies, our first simulation will consist of homogeneous voters.
 
 
-    with_homgeneous_voters = (desired_number, competence) ->
+    with_homogeneous_voters = (desired_number, competence) ->
       [1..desired_number].map () ->
         new Voter(competence)
 
-
-Running the simulation thousands of times over a range of values shows us the likelihood that a simple majority gets it right.  Data generated in appendix 2.
-
----> Demonstrate that CDJ works with graph
+---> also need to do heterogeneous voters and compare all three below.        
 
 
-## Voter Competence & Anonymity
+With these elements in place, all that is left to do is create a democracy, populate it with voters, and hold a vote.  
 
-> A popular government, without popular information, is but a Prologue to a Farce or Tragedy, or perhaps both.  
+We will use the Monte Carlo method to generate data for a range of competence-voter number pair.  For each pair, we will run the simulation 1000 times to obtain a frequency based probability for the majority being correct.
 
-> -- James Madison
 
-While many of the conditions necessary for CJT to be entailed are contested, it is the condition of voter competence that I wish to focus on in this paper.  Voter competence is, somewhat paradoxically, simultaneously the most plausible and implausible of those outlined earlier.  One only needs to read the comments section of any tabloid, or watch a _vox populi_ on some comtemporary issue to see voter ignorance and apathy in action.  Yet, could anyone seriously contend that the average voter, one's fellow citizen, will perform _worse_ than a flipping coin when they head to the ballot box?  Such a claim, if substantiated, would be damming not just for CJT but democracy itself.
+    demonstrate_jury_theorem = (results=[]) ->
+      for competence in [40..60]
+        competence /= 100
+        for voters in [1..10]
+          voters *= 100
+          result = {competence: competence, voters: voters, correct:0, incorrect:0}
+          for n in [1..1000]
+            democracy = new Democracy with_homogeneous_voters(voters, competence)
+            result[simple_majority(democracy)] += 1
+          results.push {competence: competence, voters: voters, likelihood: result.correct / (result.correct + result.incorrect)}
+      results
+ 
 
-An all too common complaint in the politial literature is that voters are woefully ill-informed and thus incapable of making competent political decisions. Numerous political surveys from the 20th century show "that popular levels of information about public affairs are, from the point of view of an informed observer, astonishingly low" (@converse1975 p79).  Voters are "poorly informed and ill-equipped to select the best candidate" in elections (@patterson1993 p52).
+<figure>
+<div id="condorcets_jury_theorem" class="graph"></div>
+<figcaption>Condorcet’s Jury Theorem</figcaption></figure>
 
-Popular retreat from public issues has coincied with an increasingly interconnected and complex world.  National policies have global impact .... thereby placing increasingly difficult, if not impossible intellectual demands on the average voter.
+As we can see, .... analysis here ... the agent based model works
+
+
+## Voter Competence & the Principle of Anonymity
+
+While many of the conditions necessary for CJT to be entailed are contested, it is the condition of voter competence that is the primary concern in this chapter.  Voter competence is simultaneously, and somewhat paradoxically, the most plausible and implausible of the necessary conditions outlined earlier.  One need only to read the comments section of any tabloid, or watch a _vox populi_ on some comtemporary issue to see voter ignorance and apathy in action.  Yet, could anyone seriously contend that the average voter, one's fellow citizen, will perform _worse_ than a flipping coin when they head to the ballot box?  Such a claim, if substantiated, would be damming not just for CJT but democracy itself.
+
+An all too common complaint in the politial literature is that voters are woefully ill-informed and thus incapable of making competent political decisions. Numerous political surveys from the last 50 years show "that popular levels of information about public affairs are, from the point of view of an informed observer, astonishingly low" (@converse1975 p79).  Voters are "poorly informed and ill-equipped to select the best candidate" in elections (@patterson1993 p52).  ---> one more quote on voter apathy
+
+This popular retreat from public affairs has coincied with an increasingly interconnected and complex world.  National policies have global impact. (Examples)  thereby placing increasingly difficult, if not impossible intellectual demands on the average voter.
 
 @downs1952  rational ignorance
 
@@ -214,62 +244,63 @@ Low information rationality can help voters make informed choices but this relie
 
 > Reasoned choice does not require full information @lupia1998 p2  
 
-The challenge for supporters of CJT is obvious.  CJT is a double edged sword for democracy - just as large numbers of marginally competent voters makes a majority choice almost certainly correct, large numbers of marginally incompentent voters makes the same choice almost certainly incorrect.  Satisfying the voter competence conditition is essential not only for justifying democracy on epistemic grounds, but also for preventing CJT from undermining justifications of democracy.  Proponents of CJT must be justified in claiming that voters are, on average, competent.
+The challenge for supporters of CJT is obvious.  The symmetry of the Jury Theorem is a double edged sword for democracy - just as large numbers of marginally competent voters makes a majority choice almost certainly correct, large numbers of marginally incompentent voters makes the same choice almost certainly incorrect.  Satisfying the voter competence conditition is essential not only for justifying democracy on epistemic grounds, but also for preventing CJT from undermining other classes of justifications of democracy.  Proponents of CJT must therefore be justified in claiming that voters are, on average, competent but demonstrating this turns out to be excedingly problematic.
 
-Yet demonstrating that the competence condition is satisfied does little to help.  To do so requires some independent methods of determining either the competence of voters or the correct answer to the question under consideration. ....
+Demonstrating voter competence, or that any condition of reality for that matter, has been obtained analytically seems impossible.  Instead, voter competence must be demonstrated emprically by either knowing that voters are competent _a priori_ and therefore the majority choice is correct; or by knowing the correct choice _a priori_ and infering voter competence from the majority choice.
 
-If we have prior knowledge of voter competence, then universal franchise is not only unnecessary but a gross waste of resources (Brennan makes a similar point) if epistemic accuracy is our goal.  Elections and referenda incur significant social costs.  The proposes marriage equality peblecite is estimates to cost over $500 million while the 2012 presidential elections cost more that $2.1 billion.  A vote by a handful of experts whose competency is known performs (epistemically) just as well as a vote of tens of thousands marginally competent citizens but at a fraction of the cost.
+If we have prior knowledge of voter competence however, then universal franchise is not only unnecessary but a gross waste of resources if epistemic accuracy is our goal.  Elections and referenda increadably expensive.  The proposes marriage equality peblecite is estimates to cost over $500 million (cite) while the 2012 presidential elections cost more that $2.1 billion (cite).  A vote by a groups of experts whose competency is known is, epistemically at least, just as good as a vote of thousands marginally competent citizens but realisable at a just a fraction of the cost.[^brennan]
 
-Alternatively, if we have prior knowledge of the correct choice, then CJT offers no additional epistemic value.  Why vote on a question whose answer is already known?  The questions that need to be put to a vote, the questions about which CJT promises so much about, are the ones to which the answer is contested in the first place.  Being able to conclusively demonstrate that the voter competence condition is satisfied voids any epistemic value that CJT offers. 
+[^brennan]: Jason Brennan makes a similar argument in ....
 
---> see deitchric
+Alternatively, if we have prior knowledge of the correct choice, then CJT offers no additional epistemic value.  Why vote on a question whose answer is already known if the purpose of democracy is to determine the truth?  The questions that need to be put to a vote in a democracy, the questions about which CJT promises so much about, are the ones to which the answer is contested in the first place.  
 
-Instead, the voter competence condition must simply be presumed.  But on what grounds?
+@dietrich2008 (p60) raises a related concern about the role of misleading evidence.  Knowing whether or not the voter competence condition holds for a specific problem might in fact be even harder than knowing the correct answer in the first place.  To do so requires knowing if the question involves misleading evidence and this cannont be known without knowing the correct answer to the question.  Thus, it seems that being able to conclusively demonstrate that the voter competence condition is satisfied is either exceedingly diffuclt or undermines the epistemic value that CJT offers democracy in the first place.
 
-Firstly, the condition sets a very low standard to be acheived.  Can you reason better than a coin toss?
+All we are left with then, is the presumption of voter competence - a democratic version of the Principle of Charity.  As @goodin2004 (p136) notes "we ought (unless we have some special story to tell about how this case is unusual) ordinarily suppose that our fellow citizens are more likely to be right than wrong, and therefore that the winning outcome is quite probably the correct one."  But on what grounds might this princple be justified?
 
-Instead, we might use a version of the principle of charity - "we ought (unless we have some special story to tell about how this case is unusual) ordinarily suppose that our fellow citizens are more likely to be right than wrong, and therefore that the winning outcome is quite probably the correct one." @goodin2004 p136
+One significant reason is that the standard for the voter competence condition is exceedingly low.  CJT simply requires that voters are, on average, marginally better at selecting the correct choice from a range of alternatives than the prior odds of those alternatives.  If the choice is dichotomous, then voter need only be on average, better than flipping a coin.  Say what you will about voter ignorance and apathy, but ....
+
+This might be considered wistful thinking by some but for democrats there is no alternative - the symmetric nature of the Jury Theorem means that an electorate of incompentent voters undermines the normative claims of all democratic theories.
 
 ---
 
-Let's assume for the time being that we are justified in using the principle of charity to presume that the voter competence condition is satisfied - that the average voter is at least marginally better than tossing a coin at selecting the best answer to a dichtomous question.  If so, then what follows from this?
+Let's assume for the time being that we are justified in using the principle of charity to presume that the voter competence condition is satisfied - that the average voter is at least marginally better than tossing a coin at selecting the best answer to a dichtomous question.  If so, what follows from this?
 
-Much of democratic theory's scope of analysis is the polity - a single body politic whose political boundaries also form the boundaries of analysis.  In this sense, democratic theory is internally focused or inward looking.  Now this is not to say that democratic theory doesn't consider trans-national or trans-border issues - only that for any given theory, if it applies in one democracy, it should apply in anothers.  CJT is no different. It focuses on a single, abstract democracy.
+Much of democratic theory's scope of analysis is the polity - a single body politic whose political boundaries also form the boundaries of analysis.  In this sense, democratic theory can be said to be internally focused.  This is not to say that democratic theory doesn't consider transnational or transborder issues - only that for any given theory, if it applies in one democracy, it should apply in anothers.  CJT is no different. It focuses on a singular, abstract concept of democracy that can be applied to many actual democracies.
 
---> I'm trying to say the theory is singular
+Our actual political landscape by contrast is plural.  Our planet is divided into nation-states. Nations-states are divided into provinces, states, or regions.  These regions are then divided into electorates, local government areas, and council wards.  In short, our political reality is a partitioned one.
 
-Yet our actual political landscape by contrast is plural.  Our planet is divided into nation-states. Nations states are divided into provinces or states.  These are then divided into electorates.  In short, our political reality is partitioned.
+The application of a singular abstract political theory like CJT to our plural political reality there requires the invocation of another principle - the Principle of Anonymity [^anon].  By anonymous, I mean that the assumptions we apply should be neutral or blind between polities which have the same or similar evidence of (or lack thereof) to support them.  If we grant an assumption to one polity, then baring some special story about why they are different, we should grant that assumption to other polities.  The inverse also applies - if we can't grant the assumption to one polity, then baring special information, we can't grant it to another.
 
-The application of a singular abstract theory to a plural reality requires the invocation of another principle - that of anonymity [^anon].  By anonymous, I mean that the assumption of voter competence should be neutral or blind between polities which have the same or similar evidence of (or lack thereof) voter competence.
+[^anon]: I choose the term _anonymity_ as it is widely used in social choice theory for the apropos condition regrading individual voters, i.e. The group decision function treats each voter identically.  See @may1952 (p681) for a similar explaination.
 
+The Principle of Anonymity is especially important when we presume voter competence.  Because we lack prior information about both voter competence and the correct answer to some political choice, we must invoke the Principle of Charity to presume voter competence.  So if the Principle of Charity presumes voter competence in one polity, then it must also presume voter competence in other similar polities. And if the Principle of Charity cannot presume voter competence in one polity, then it cannont be presumed in other similar polities.
 
-[^anon]: I choose the term _anonymity_ as it is widely used in social choice theory for the apropos condition regrading individual voters, i.e. The group decision function treats each voter identically.  See @may1952 p681 and ..
+This is not, I would argue, a long bow to draw.  If we can presume that voters are on average competent in Australia, then we must presume they are on average competent in Austria.  If we can't presume they are competent in Nevada, then they can't presumt they are competent in New Hampshire.  Provided of course, there is no other evidence that the voters of one polity are more competent than another.
 
+---
 
-Principle of Anonymity:
+How might we then model and test this Principle of Anonymity?  We can begin by by randomly partioning the `Democracy` into a number of different polities. Rather than using homogeneous voters, we will create our democracy with heterogeneous voters with an average competence > 0.5.  We know from our earlier simulations that the analytic, homogeneous, and heterogeneous models produce statistically identical results.  Thus, while we can know _ex ante_ that the `Democracy` satifies the voter competence condition, we can't know with certainty that each of the polities does.  
 
-> If the principle of charity presumes voter competence in one polity, then it must also presume voter competence in other similar polities.
+Instead, we must presume they do using the Principle of Charity.  In this case, we have especially good grounds for the presumption becase we know that voters are on average, competent.  The Principle of Anonymity means that, baring counter evidence, if we can presume voter competence in one polity we can presume it in another.  And importantly, if we can't presume it in one, we can't presume it in other.
 
-The inverse must also be true:
-
-> If the principle of charity cannot presume voter competence in other similar polities, then it cannont be presumed in one polity.
-
-An example may help.  If we can presume that voters are competent in Nevada, then we must presume they are competent in New Hampshire.  If they are competent in Australia, then they must be competent in Antugia.  Provided of course, there is no other evidence that the voters of one polity are more competent than another.
-
-Principles
-
-  Anonymity: For any polity formed by a partition rule in which the Principle of Charity is presumed to hold true, the Principle can also be presumed to hold true in any other possible polity formed by the same partition rule.
-
-  Inverse Anonymity: For any polity formed by a partition rule in which the Principle of Charity is cannot be presumed to hold true, it cannot be presumed to hold true in any other possible polity formed by the same partition rule.
+We will partition the `Democracy` using an algorithm that recursively divides the largest parition at a random point until the desired number of polities have been produced - each characterised by a differing number and composition of `Voters`.  
 
 
-We can simulate the anonymity by randomly partioning the `Democracy` into a number of different polities.....
+    Democracy::partition = (k) ->
+      @polities = [@voters]
+      while k > 1
+        k = Math.min k, @voters.length
+        polity = @polities.shift()
+        cut = Math.floor( Math.random() * (polity.length - k) ) + 1
+        @polities.push polity[...cut]
+        @polities.push polity[cut..]
+        @polities.sort (a,b) -> b.length-a.length
+        k--
+      this
 
 
---> partition algorithm
-
-
-Simulate partitioning.
+Simulate it!
 
 Results!  How do I compare ?  It should show that randomly partitioning makes no difference, hence random partitions are anonymous.
 
@@ -300,6 +331,10 @@ The POC is not anonymous to indistinguishable polities
 
 ## Supplimentry Code for Data Generation
 
+First, we'll generate data for a democracy with homogeneous voters.  
+
+
+    
 
 
 ---
@@ -576,14 +611,14 @@ Implementing this analytically is straight forward, although this approach becom
 #       console.log "No Dist Uneven  - " + winners.reduce((a,b) -> a + b) / winners.length
 
 
-# Be able to save data to disk
+Be able to save data to disk...
 
-#     fs = require 'fs'
-#     save = (name, results) ->
-#       dir = "#{__dirname}/assets"
-#       fs.mkdirSync dir unless fs.existsSync dir
-#       fs.writeFile "#{dir}/#{name}.json", JSON.stringify(results) , (err) ->
-#         if err then console.log err
+    fs = require 'fs'
+    save = (name, results) ->
+      dir = "#{__dirname}/assets"
+      fs.mkdirSync dir unless fs.existsSync dir
+      fs.writeFile "#{dir}/#{name}.json", JSON.stringify(results) , (err) ->
+        if err then console.log err
 
 # Run some simulations
 
@@ -599,17 +634,18 @@ Implementing this analytically is straight forward, although this approach becom
 #             results.push tuple  unless n % 2 is 0
 #       results
 
-#     generate = (argv) ->
-#       console.log "Generating data for #{argv[3]}"
-#       save 'analytic', analytic_jury_theorem() if argv[3] is 'analytic'
+    run = (argv) ->
+      console.log "Generating data for #{argv[3]} - this may take some time"
+      # save 'analytic', analytic_jury_theorem() if argv[3] is 'analytic'
+      save 'demonstration', demonstrate_jury_theorem() if argv[3] is 'demonstration'
 
-# You can now run any of these simulations to generate their results.
+You can now run any of these simulations to generate their results.
 
-#     process.argv.map (val, index, array) ->
-#       test array if val is 'test'
-#       generate array if val is 'generate'
+    process.argv.map (val, index, array) ->
+      # test array if val is 'test'
+      run array if val is 'run'
 
 
-# <script src="../../assets/d3.v3.min.js" type="text/javascript"></script>
-# <script src="../../assets/dimple.v2.1.2.min.js" type="text/javascript"></script>
-# <script src="assets/graph.js" type="text/javascript"></script>
+<script src="../../assets/d3.v3.min.js" type="text/javascript"></script>
+<script src="../../assets/dimple.v2.1.2.min.js" type="text/javascript"></script>
+<script src="assets/graph.js" type="text/javascript"></script>

@@ -1,8 +1,14 @@
-# Chapter
+---
+title: A New challenge to Condorcet's Jury Theorem
+author: Dave Kinkead
+email: d.kinkead@uq.edu.au
+license: CC-BY-SA
+bibliography: /Users/dave/Dropbox/Research/readings/.library.bibtex
+csl: https://raw.githubusercontent.com/citation-style-language/styles/master/journal-of-applied-philosophy.csl
 
-Working Title: Competence, Inclusion, and Legitimacy - A New challenge to Condorcet's Jury Theorem
+---
 
-"Competence is not enough!"
+# Chapter 3
 
 > A popular government, without popular information, is but a Prologue to a Farce or Tragedy, or perhaps both.  
 
@@ -394,22 +400,20 @@ As we can see the principle of autonomy applies as expected when we randomly par
 
 ## Voter Competence and its Distribution
 
-Recall from earlier in the chapter how the voter competence condition has been relaxed.  Voters need not be homogeneous with regard to competence - the CJT still holds for distribution free heterogenous voters so long as the average competence is better than random.  Even this requirement has been relaxed when intra-voter bias between type I and II erros is diverse and voters have positive error detection skills.  In short, diverse, opposing views _strengthen_ the epistemic claims of democracy.
+Recall from earlier in the chapter how the voter competence condition has been relaxed.  Voters need not be homogeneous with regard to competence - the CJT still holds for distribution free heterogenous voters so long as the average competence is better than random, and even this requirement has been relaxed when intra-voter bias between type I and II erros is diverse and voters have positive error detection skills.  In short, diverse opposing views _strengthen_ the epistemic claims of democracy.
 
-Which is just as well because voter competence is _not_ homogeneous.  It is obvious that the claim that voter competence can cluster is not impossible.  If for example, voter competence is correlated with income or party affiliation, then voter competence is clustered because these attributes are clustered.  That party affiliation clusters geographically is a truism of politics to which the language of _Red States_, _Blue States_, and _Swing States_ attests to.  Income too is clustered geographically and significantly within electorates. (Empricial data needed) 
+Which is just as well because voter competence is _not_ homogeneous.  Instead, it clusters.  It is obvious that the claim that voter competence can cluster is not impossible.  If for example, voter competence is correlated with income or party affiliation, then voter competence is clustered because these attributes are clustered.  That party affiliation clusters geographically is a truism of politics to which the language of _Red States_, _Blue States_, and _Swing States_ attests to.  Income too is clustered geographically and significantly within electorates. (Empricial data needed) 
 
 One needn't believe that income levels reflect a meritocracy or that one political party is objectively better than another to accept the claim voter competence is clustered however.  That's because both these attributes are strongly correlated with another, more important attribute that very likely affects voter competence - education level.  Voters with higher levels of education are more likely to vote for liberal policies (cite).  Voters with higher levels of education are more liekly to have higher income levels (cite).  And political affiation, income, and education level all cluster geographically. 
 
 Now one might dispute a direct causal connection between income and voter competence for example, but to dispute the connection between education level and voter competence is much harder. The consquence of which is to assert that voter competence - the likelihood that one can correctly identify an objectively better alternative - is innate and not affected by education.  That in effect expertise is not affected by education level.
 
-Perhaps the strongest argument for voter clustering however, is provided by the results of actual democratic elections.  I described earlier how CJT was symmetric, how it alternatively strengthed or weakened claims for the epistemic value of democracy depending on whether the level of voter competence was better or worse than average.  @goodin2004 however, offers another take on the symmetry of the Jury Theorem.  Just as knowning voter competence and voter numbers allows us to infer the likelihood that a majority decision is correct, knowning the size of the majority and voter numbers allows us to infer voter competence.
+Perhaps the strongest argument for voter clustering however, is provided by the results of actual democratic elections.  I described earlier how CJT was symmetric, how it alternatively strengthed or weakened claims for the epistemic value of democracy depending on whether the level of voter competence was better or worse than random.  @goodin2004 however, offers another take on the symmetry of the Jury Theorem.  Just as knowning average voter competence and the number of voters allows us to infer the likelihood that a majority decision idenfies the best choice, knowning the size of the majority and number of voters allows us to infer voter competence.
 
-If, for example, 60 percent of a large polity votes for a particular policy or candidate, then we can infer ..... (check his paper) .  The problem, as Goodin notes, is that we can't be sure which it is.
---->
+Thanks to the law of large numbers, we can know that among a large group of independent voters, the average probability of an individual voting for a particular alternative is the same as the proportion of voters who actually voted for that alternative (@goodin2004 p134). So if, for example, 60 percent of a large polity votes for a particular policy or candidate, then thanks to the law of large numbers, we can infer that the average voter competence was either 60 percent or 40 percent.  The problem, as @goodin2004 notes, is that we can't be sure which it is.
 
-> The law of large numbers says that, among a large number of independent voters each equally likely to vote for the ith proposition øi, the probability of each voting for øi is the same as the proportion of them who did vote for øi, or pi = Vi @goodin2004 p134
+Thus, from the "simple fact that different elections are decided by different margins, it immediately follows that voter competences _must_ differ across different subject matters" (@goodin2004 p135).  Not only that, but the fact that different electorates within the same election are decided by different margins means that voter competence _must also_ differ accross electorates.
 
-> From the simple fact that different elections are decided by different margins, it immediately follows that voter competences must differ across different subject matters (insofar as voters vote purely on the basis of perceived truths). p135
 
 
 ---

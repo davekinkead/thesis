@@ -1,4 +1,5 @@
 
+"procedure-independent standard of correctness." @peter2008 p33
 
 # Now we create voters with a stochastic competence function.
 

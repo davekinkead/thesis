@@ -23,27 +23,37 @@ Using computer simulation, I advance Goodin & Estlund's argument for the persuas
 
 ## Introduction
 
-Democracy has been justified via a variety of means.  Some democratic theorists claim democratic rule is legitimate because it involves the consent of the people (@locke1689).  Others have claim that democracy's legitimacy arises from the way it treats it citizens (who).  Others still say that democracy is justified because ... (who) and there are even those who say democracy can't be, or at least is yet to be, justified (@wolff1970, @simmons1976).
+It is hard to separate democracy from the sharing of reasons.  Through the wisdom of the crowds, democracy has the capacity to track the truth, to divine the right answer, to discover shared beliefs, and even to create new knowledge.  Only in the shallowest conception of democracy could this ideal be limited to isolated individuals voting for their preferences much like one might order a hotel breakfast.  
 
-One very popular and powerful justificiation of democracy however, is epistemic.  Through the wisdom of the crowds, democracy has the capacity to track the truth, to divine the right answer, and .....
+This is not to say however, that the production of knowledge is the only value of democracy.  Democracy has been justified via a variety of means.  Some claim the value of democratic rule arises from the consent of the people (@locke1689).  Others have claim that democracy's value is derived from the way it treats it citizens (who), or the quality of democratic policies (@sen).   These claims may all be true but this does not diminish the value that free public discussion, so essential to democracy, creates.
 
-The literature on epistemic democracy is diverse.  Cover it....
+Theories of democracy that identify value in the knowledge that democracy shapes are _epistemic conceptions of democracy_.  The literature on epistemic democracy is diverse.  Cover it....
 
-Of all the epistemic justifications of democratic rule though, Condorcet's Jury Theorem is perhaps the most famous.  Condorcet’s Jury Theorem (herein CJT) promises to offer democrats a powerful and mathematical rigourous proof of democracy's epistemic value.  First outlined in the Marquis de Condorcet's 1785 work _Essai sur l’application de l’analyse à la probabilité des décisions rendues à la pluralité des voix_, the theorem shows that a majority vote from a large enough group of marginally competent voters is better than a single expert at selecting the best answer to a dichotomous choice.  What's more, as the number of voters increases towards infinity, the likelihood of a majority vote being correct becomes certain. 
+- David Estund's Epistemic Proceduralism [@estlund2009]
+- Deliberative
+- Habermas
+- cohen
+- Dewey?? Democracy as social inquiry
 
-The implication of CJT is hard to overstate.  Assuming individuals are better at selecting the correct answer than flipping a coin, then a majority vote of a small town of just a few thousand voters has a near certainty of identifying the correct answer to any binary choice.  Provided of course, certain conditions hold.
+Of all the epistemic justifications of democratic rule though, Condorcet's Jury Theorem is perhaps the most famous.  Condorcet’s Jury Theorem (herein CJT) promises to offer democrats a powerful and mathematical rigourous proof of democracy's epistemic value.  First outlined in the Marquis de Condorcet's 1785 work _Essai sur l’application de l’analyse à la probabilité des décisions rendues à la pluralité des voix_, the theorem shows that a majority vote from a large enough group of voters with a better than random chance of selecting the best answer to a dichotomous choice is better than the choice of a single expert.  What's more, as the number of voters increases towards infinity, the likelihood of a majority vote being correct becomes almost certain.
 
-It is these necessary conditions, whether they are plausibly obtained in reality, and even their very possibility, that have been the subject of much debate within the literature.  In it's original formulation, CJT requires that _voters' choices are independent of one another_, that _voters are minimally competent_, that their _competence is homogeneous_, and that _voters act sincerely_.  It further requires that the question under consideration is a _dichotomous choice_, has an _objectively correct_ answer, and is determined by a _simple majority_.  These conditions have been both challenged by critics of CJT and relaxed by subsequent proofs.  Yet even if these assumptions were true, are there any plausible scenarios that would prevent CJT from being used to justify democracy?  I believe there are. 
+The implications of CJT are hard to overstate.  Assuming individuals are better at selecting the correct or better answer than flipping a coin, then a majority vote of a small town of just a few thousand voters has a near certainty of identifying the correct answer to any binary choice.  Democracy has been mathematically proven to be infallible.
 
---->???
+Provided certain conditions hold.
+
+It is these conditions necessary for CJT, whether they are plausibly obtained in reality, and even their very possibility, that have been the subject of much debate within the literature.  In it's original formulation, CJT requires that _voters' choices are independent of one another_, that _voters are minimally competent_, that their _competence is homogeneous_, and that _voters act sincerely_.  It further requires that the question under consideration is a _dichotomous choice_, has an _objectively correct_ answer, and is determined by a _simple majority_.  These conditions have been both challenged by critics of CJT and relaxed by subsequent proofs.  Yet even if these conditions are realised, are there any plausible scenarios that would prevent CJT from being used to justify democracy?  
+
+I believe there are. 
+
+In this chapter, I introduce a new challenge to the Jury Theorem and advance the claim the these conditions are insufficient to realise the Jury Theorem's claims of democracy's near infallibility.  Even if we presume them all to be true, the distribution of voter competence plays a critical role in determining the epistemic value of majority voting.  Using computer simulation, I show exactly when the claims of Condorcet are justififed and when they are not.
+
+In Part One, I examine the assumptions of CJT in detail and develop an agent based model that visually demonstrates the epistemic virtue of CJT and validate it against the tradition analytic model normally found in the literature.  In Part Two, I focus on the voter competence condition and Principle of Charity which is typically invoked to justify it.  I argue that the Principle of Charity also requires the Principle of Anonymity to be coherent.
+
+Finally in Part Three, I demonstrate .....
 
 Imagine a democracy in which all the necessary conditions of a CJT hold tue.  If this is the case, then a majority vote on any dichotomous choice is nearly certain to identify the best option.  Now imagine that same democracy paritioned into smaller political units - states, provinces, or electorates.  If the CJT conditions hold true for each partition, then each partition should also select the best option with near certainty.  
 
 Yet this is rarely the case in reality.  Different partitions of the same democracy vote differently in almost every poltical decision.  Given this reality, at least one of the CJT conditions in some of the partitions must therefore not hold true.  But which?
-
-In Part One, I examine the assumptions of CJT in detail and develop an agent based model that visually demonstrates the epistemic virtue of CJT and validate it against the tradition analytic model normally found in the literature.  In Part Two, focus on the competence assumption and principle of charity which is typically invoked to justify it.  
-
-I then introduce the concept of political partitions - states, provinces, and electoratal boundaries - and extend the model to incorporate this reality.....
 
 In this paper, I demonstrate how the distribution of voter competence in a democracy determines how likely the voter competence condition holds true in any partition of that democracy.  I show that the more voter competence is clustered, the less the likelihood that any parition satisfies the voter competence condition.
 
@@ -58,7 +68,7 @@ As both empiric data and my simulation show however, different results from indi
 
 --> better segway
 
-The epsitemic value of Condorcet's Jury Theorem is typically demonstrated analytically (see XYZ).  @baker1976 for example, provides the seminal contemorary formuation:
+The epsitemic value of Condorcet's Jury Theorem is typically demonstrated analytically (see XYZ).  @baker1976 for example, provides the seminal forumation of the theorem:
 
 >        N
 >  PN =  Σ (N choose h) p^h (1-p)^(N-h)
@@ -139,6 +149,8 @@ No actual democracy can satisfy this requirement though.  Politics is a collecti
 
 **Objectively Correct** There is an objectively correct answer.
 
+- what about non-independent epistemic accounts
+- preference satisfaction
 - epistemic assumption but non-epistemic democrats disagree
 
 
@@ -151,7 +163,7 @@ The epsitemic value of Condorcet's Jury Theorem is typically demonstrated analyt
     #        N  
     #  PN =  Σ (N choose h) p^h (1-p)^(N-h)  
     #       h=m  
----> use mathjax
+
 
 Yet analytic approaches are not always the most useful implementation though.  One reason for this is that analytic approaches are often computationally intractable.  The binomial coefficient _n choose h_ above is one such example.  For example, the multiplicative formula:
 
@@ -318,6 +330,8 @@ Low information rationality can help voters make informed choices but this relie
 
 The challenge for supporters of CJT is obvious.  The symmetry of the Jury Theorem is a double edged sword for democracy - just as large numbers of marginally competent voters makes a majority choice almost certainly correct, large numbers of marginally incompentent voters makes the same choice almost certainly incorrect.  Satisfying the voter competence conditition is essential not only for justifying democracy on epistemic grounds, but also for preventing CJT from undermining other classes of justifications of democracy.  Proponents of CJT must therefore be justified in claiming that voters are, on average, competent but demonstrating this turns out to be excedingly problematic.
 
+> Majorities might reflect nothing more than systematic biases within the elec- torate, and bias ought epistemically be discounted. @goodin2004 p137
+
 Demonstrating voter competence, or that any condition of reality for that matter, has been obtained analytically seems impossible.  Instead, voter competence must be demonstrated emprically by either knowing that voters are competent _a priori_ and therefore the majority choice is correct; or by knowing the correct choice _a priori_ and infering voter competence from the majority choice.
 
 If we have prior knowledge of voter competence however, then universal franchise is not only unnecessary but a gross waste of resources if epistemic accuracy is our goal.  Elections and referenda increadably expensive.  The proposes marriage equality peblecite is estimates to cost over $500 million (cite) while the 2012 presidential elections cost more that $2.1 billion (cite).  A vote by a groups of experts whose competency is known is, epistemically at least, just as good as a vote of thousands marginally competent citizens but realisable at a just a fraction of the cost.[^brennan]
@@ -392,6 +406,11 @@ Perhaps the strongest argument for voter clustering however, is provided by the 
 
 If, for example, 60 percent of a large polity votes for a particular policy or candidate, then we can infer ..... (check his paper) .  The problem, as Goodin notes, is that we can't be sure which it is.
 --->
+
+> The law of large numbers says that, among a large number of independent voters each equally likely to vote for the ith proposition øi, the probability of each voting for øi is the same as the proportion of them who did vote for øi, or pi = Vi @goodin2004 p134
+
+> From the simple fact that different elections are decided by different margins, it immediately follows that voter competences must differ across different subject matters (insofar as voters vote purely on the basis of perceived truths). p135
+
 
 ---
 

@@ -9,7 +9,7 @@ var School, Simulation, Student, colour, d3, display, enrol, gausian, head_start
 
 Student = (function() {
   function Student() {
-    this.ability = Math.random();
+    this.achievement = Math.random();
   }
 
   return Student;
@@ -28,48 +28,53 @@ School = (function() {
 
 Simulation = (function() {
   function Simulation(profile) {
-    var i, n, school, student;
+    var i, id, results, school;
     this.profile = profile;
     this.schools = (function() {
-      var j, len, ref, results;
+      var i, len, ref, results;
       ref = this.profile.schools;
       results = [];
-      for (i = j = 0, len = ref.length; j < len; i = ++j) {
-        school = ref[i];
-        results.push(new School(i, school.impact));
+      for (id = i = 0, len = ref.length; i < len; id = ++i) {
+        school = ref[id];
+        results.push(new School(id, school.impact));
       }
       return results;
     }).call(this);
     this.students = (function() {
-      var j, results;
       results = [];
-      for (n = j = 1; j <= 1000; n = ++j) {
-        student = new Student();
-        student.school = enrol(student, this.schools, this.profile.skew);
-        results.push(student);
-      }
+      for (i = 1; i <= 1000; i++){ results.push(i); }
       return results;
-    }).call(this);
+    }).apply(this).map((function(_this) {
+      return function() {
+        var student;
+        student = new Student();
+        student.school = enrol(student, _this.schools, _this.profile.skew);
+        return student;
+      };
+    })(this));
   }
 
   return Simulation;
 
 })();
 
-enrol = (function(_this) {
-  return function(student, schools, skew) {
-    var school_id;
-    if (skew == null) {
-      skew = 0.5;
-    }
-    school_id = student.ability > 0.5 ? Math.random() < skew ? 0 : 1 : Math.random() > skew ? 0 : 1;
-    return schools[school_id];
-  };
-})(this);
+enrol = function(student, preferred, skew) {
+  var first, ref, second;
+  if (skew == null) {
+    skew = 0.5;
+  }
+  ref = student.achievement > 0.5 ? [0, 1] : [1, 0], first = ref[0], second = ref[1];
+  if (Math.random() < skew) {
+    return preferred[first];
+  } else {
+    return preferred[second];
+  }
+};
 
 Simulation.prototype.teach = function() {
   return this.students.map(function(student) {
-    return student.ability = Math.min(student.ability * (1 + student.school.impact * 0.2), 1.0);
+    student.achievement = student.achievement * (1 + student.school.impact * 0.2);
+    return student.achievement = Math.min(student.achievement, 1.0);
   });
 };
 
@@ -78,10 +83,10 @@ Simulation.prototype.measure_performance = function() {
   ref = [[], []], zero = ref[0], one = ref[1];
   this.students.map(function(student) {
     if (student.school.id === 0) {
-      zero.push(student.ability);
+      zero.push(student.achievement);
     }
     if (student.school.id === 1) {
-      return one.push(student.ability);
+      return one.push(student.achievement);
     }
   });
   total = zero.reduce(function(a, b) {
@@ -96,20 +101,21 @@ Simulation.prototype.measure_performance = function() {
 };
 
 Simulation.prototype.graduate = function() {
-  var best, display, ref, worst;
+  var best, ref, worst;
   ref = this.measure_performance(), best = ref[0], worst = ref[1];
-  this.students.map((function(_this) {
+  return this.students.map((function(_this) {
     return function(student) {
       if (Math.random() > 0.8) {
-        student.ability = Math.random();
+        student.achievement = Math.random();
         if (Math.random() < _this.profile.selectivity) {
-          return student.school = student.ability > 0.5 ? _this.schools[best.id] : _this.schools[worst.id];
+          return student.school = student.achievement > 0.5 ? _this.schools[best.id] : _this.schools[worst.id];
         }
       }
     };
   })(this));
-  return display = function() {};
 };
+
+display = function() {};
 
 sanity_check_1 = {
   schools: [
@@ -198,45 +204,45 @@ height = width * 0.4;
 
 display = (function(_this) {
   return function(id, params) {
-    var canvas, draw, runner, sim, tick;
+    var canvas, draw, runner, simulation, tick;
     runner = false;
-    sim = new Simulation(params);
+    simulation = new Simulation(params);
     canvas = d3.select("#" + id).append("svg:svg").attr("height", Math.max(width * 0.4, height * 0.8)).attr("width", width).on("click", function() {
       if (runner) {
         clearInterval(runner);
         return runner = false;
       } else {
         return runner = setInterval(function() {
-          return tick();
+          return tick(simulation);
         }, 1000);
       }
     });
     canvas.append('text').attr("y", function() {
       return height * .7;
     }).attr("x", function() {
-      return width * .35;
+      return width * .375;
     });
-    tick = function() {
+    tick = function(simulation) {
       var circles;
-      sim.teach();
-      sim.graduate();
-      render(sim);
+      simulation.teach();
+      simulation.graduate();
+      render(simulation);
       circles = canvas.selectAll("circle");
       circles.transition().duration(1000).style("fill", function(d) {
-        return colour(d, 'ability');
+        return colour(d, 'achievement');
       }).attr("cx", function(d) {
         return d.x;
       }).attr("cy", function(d) {
         return d.y;
       });
-      return canvas.select("text").text((sim.schools[0].score.toFixed(5)) + " - Average Student Ability - " + (sim.schools[1].score.toFixed(5)));
+      return canvas.select("text").text((simulation.schools[0].score.toFixed(5)) + " - Average Student achievement - " + (simulation.schools[1].score.toFixed(5)));
     };
     draw = function() {
       var students;
-      render(sim);
-      students = canvas.selectAll("circle").data(sim.students);
+      render(simulation);
+      students = canvas.selectAll("circle").data(simulation.students);
       return students.enter().append("circle").style("fill", function(student) {
-        return colour(student, 'ability');
+        return colour(student, 'achievement');
       }).style("opacity", 0.5).attr("r", 8).attr("cx", function(d) {
         return d.x;
       }).attr("cy", function(d) {

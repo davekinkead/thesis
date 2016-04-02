@@ -45,3 +45,16 @@ In short, we can infer very little about school performance from student results
   - [x] Fix simulation CSS position
   - [x] Add narrative outline
   - [x] Add dynamic parameters
+
+## PESA Feedback
+
+  - s-e implications of selectivity (martin thrupp)
+  - Policy Futures in Education (Mark Tesar)
+
+## PESA2015 Notes
+
+  - Visible Thinking Project
+  - Project Zero (Harvard Graduate School of Ed)
+  - Swipe right for scholarship!
+  - Michael Apple 9 Things for Critial Engagement
+  - 

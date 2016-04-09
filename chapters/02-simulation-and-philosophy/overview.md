@@ -1,8 +1,36 @@
 # Philosophy & Simulation
 
-Computer simulation isn't very common in philosohy but the processes of creating abstract models of reality has been part of philosophy from the beginning.
+Computational approaches have a great deal to offer philosophy - especially social philosophy.
 
-Simulation is the 
+  - quickly define computational philosophy & simulation
+
+Simulation offers insight in areas that traditional analytic and empiric appraches struggle.
+
+  - complexity and analytically intractable problems
+  - experiment better by isolating variables and rerunning one-off events
+  - emergence and discoverability
+
+But there are also limits to what simulation can do
+
+  - claims about reality are only as good as a simulations fidelity to reality
+  - address the "its not new knowledge" claim
+
+Simulation is still philosophy
+
+  - philosophy has always done thought experiments - history
+  - thought experiments are like simulation
+  - so simulation is very much philosophy
+
+
+---
+
+
+
+
+
+
+
+
 
 
 ## Simulation isn't new

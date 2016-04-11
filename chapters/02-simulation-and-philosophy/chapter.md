@@ -5,13 +5,63 @@
 - X also applies in the case of simulation
 - therefore philosophy is hollow without simulation
 
+
+## Introduction
+
+Computers are ubiquitous in our lives today.  Computer networks allow us to connect and communicate with billions of people around the planet in milli-seconds.  This connectedness is transforming they way people work - they allowing an increasing number of people to work remotely from a beach in Thailand or a ski slope in Austria.  For others, this connectedness is eroding job security as many functions from accounting to radiology are being outsourced to regions with lower wage costs.  And for many more people, they ..
+
+We are increasingly connecting not just to others but to computers themselves.  Whether its our smart phones becoming an extension of our minds (@chalmers), or Aritifical Intelligence agents becoming our assistants, our advisors, or even our bosses, computers are transforming how we live and work.
+
+Computational approaches to investigation are also becoming far more common place in academia.  Computational Biologists use mathematical models and computer simulation to study behavioural, biological, and social systems.
+
+These examples don't merely involve the use of computers to assist with endeavours like wordprocessesing - computers here are an essential element.
+
+Yet this isn't the case in philosophy. Compare and constrast.  
+
+Why is this so?
+
+This is ashame because computations approaches have much to offer philosophy in general and social philosophy in particular.
+
+Outline the argument.
+
+## What is Simulation?
+
+  - lit review
+  - humphreys
+  - winsberg
+  - hartmann
+  - Frigg and Reiss
+
+
+## A new type of knowledge
+
+  - complexity and analytically intractable problems
+    - too many calculations for humans
+    - problems without closed form expressions
+    - structural equations
+  - experiment better by isolating variables and rerunning one-off events
+  - emergence and discoverability
+    - discovery vs justification
+
+## Limits
+
+  - claims about reality are only as good as a simulations fidelity to reality
+  - address the "its not new knowledge" claim
+
+## Simulation is still philosophy
+
+  - philosophy has always done thought experiments - history
+  - thought experiments are like simulation
+  - so simulation is very much philosophy
+
+
+
+
 ## Philosophy & the Thought Experiement (2500)
 
 For as long as there has been philosophy, there have been thought experiments.  
 
 Philosophy is hollow without thought experiments
-
-
 
   - Ship of Theseus
   - The Ring of Gyges
@@ -82,34 +132,5 @@ What are their limitations
 
   - Peijnenburg 2003 argues that phil TE's are often contractictory and question begging
 
-## Thought Experiements are simulations (2500)
-
-Modelling vs thought exp vs simulation
 
 - TE are best thought of as a species of mental modelling.  mental simulation is a central aspect of cognition @nersessian1991 p431
-
-## What problems does simulation solve (2500)
-
-argument types in political Philosophy
-
-empiric vs rational
-
-## Literate Programming (1000)
-
-- what is it?
-  - interweive source code and documentation
-  - typical approaches focus on optimising....
-  - LP focuses on explaination
-
-- why use it?
-  - write in an order that aids explaination rather than compilation
-  - programming has 2 audences - compiler and human
-  - different tools are optimised for each (code and documentation)
-  - LP combines both into a single file 
-
-> Programming is best regarded as the process of creating _works of literature_. (@knuth1992 p ix)
-
-## Replication
-
-## Coffeescript (1000)
-

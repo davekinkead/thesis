@@ -8,8 +8,39 @@ about:
 	@echo "  - d.kinkead@uq.edu.au"
 	@echo "  - University of Queensland"
 
+index: 
+	@echo "Building front matter"
+	@make html
+	@pandoc -f markdown -t html5 -o index.html -s --include-in-header=css --filter pandoc-citeproc README.md
+	
+	@echo "</script></body></html>" > tail 
+	@ghead -n -2 index.html > body
+	@echo "<script>" | cat - assets/analytics.js > js
+	@cat body js tail > index.html
+	@rm  body css js tail
+
+
 introduction:
 	@echo "Building the Introduction"
+	@make html
+	@pandoc -f markdown -t html5 -o chapters/01-introduction/index.html -s --include-in-header=css --filter pandoc-citeproc chapters/01-introduction/chapter.md
+	
+	@echo "</script></body></html>" > tail 
+	@ghead -n -2 chapters/01-introduction/index.html > body
+	@echo "<script>" | cat - assets/analytics.js > js
+	@cat body js tail > chapters/01-introduction/index.html
+	@rm  body css js tail
+
+condorcet:
+	@echo "Building Condorcet Chapter"
+	@make html
+	@pandoc -f markdown -t html5 -o chapters/03-questioning-the-jury-theory/index.html -s --include-in-header=css --filter pandoc-citeproc chapters/03-questioning-the-jury-theory/chapter.coffee.md
+
+	@echo "</script></body></html>" > tail 
+	@ghead -n -2 chapters/03-questioning-the-jury-theory/index.html > body
+	@echo "<script>" | cat - assets/analytics.js > js
+	@cat body js tail > chapters/03-questioning-the-jury-theory/index.html
+	@rm  body css js tail
 
 hobbes:
 	@echo "Building Hobbes Chapter"
@@ -20,9 +51,9 @@ hobbes:
 
 	@echo "</script></body></html>" > tail 
 	@ghead -n -2 chapters/06-states-of-nature/index.html > body
-	@echo "<script>" | cat - simulation.js > sim
-	@cat body sim assets/analytics.js tail > chapters/06-states-of-nature/index.html
-	@rm  body sim tail css simulation.js
+	@echo "<script>" | cat - simulation.js > js
+	@cat body js assets/analytics.js tail > chapters/06-states-of-nature/index.html
+	@rm  body js tail css simulation.js
 
 html: 
 	@echo "Building the HTML"

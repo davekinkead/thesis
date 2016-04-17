@@ -4,8 +4,6 @@ author: Dave Kinkead
 email: d.kinkead@uq.edu.au
 license: CC-BY-SA-NC
 bibliography: /Users/dave/Dropbox/Research/readings/.library.bibtex
-csl: https://raw.githubusercontent.com/citation-style-language/styles/master/journal-of-applied-philosophy.csl
-
 ---
 
 # Chapter 3
@@ -115,7 +113,7 @@ The requirement for **Voter Competence** is essential as the CJT has symetric im
 
 The competence difference between type I and II errors must not be too extreme. @kirstein2006 p11 demonstrates that a probability of a correct decision which is greater than 0.5 is neither sufficient, nor necessary for the jury decision to have higher quality than an individual decision.
 
-@list2004 List derives a more generalised version of the CJT that reinforces the importance of the absolute margin p(H|E) vs p(~H|E) but that this also depends on the prior p(H). The significance of the absolute margin can be reduced if the assumption of symmetric jurior competence is relaxed.
+@list2004 derives a more generalised version of the CJT that reinforces the importance of the absolute margin p(H|E) vs p(~H|E) but that this also depends on the prior p(H). The significance of the absolute margin can be reduced if the assumption of symmetric jurior competence is relaxed.
 
 @baker1976's original proof required **Voter Homogeneity** - that voters had the same competence as each other. This rather strict and empricially implausible requirement has since been relaxed in a number of ways.  @grofman1978 (p3) generalized the Condorcet Jury Theorem for normally distributed voter competence rather than voter homogeneity. @owen1989 later generalized the Theorem for distribution free results (except for knife edges when voter competence was very close to random).  As long as _average_ voter competence is better than random, CJT is still valid.
 

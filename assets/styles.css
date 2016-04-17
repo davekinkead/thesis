@@ -33,7 +33,7 @@ html {
   color: #333;
 }
 
-h1, h2, h3, h4, h5, h6, p, ul, pre, figcaption, .footnotes {
+h1, h2, h3, h4, h5, h6, p, ul, pre, figcaption, ul, ol, .footnotes {
   padding-bottom: 1rem;
   max-width: 900px;
   margin: 0 auto;
@@ -56,7 +56,7 @@ blockquote {
   font-style: italic;
   padding: 0 1rem;
 }
-pre {
+pre, figure > img {
   margin-top: 0.5rem;
   margin-bottom: 1.5rem;
   padding-top: 1rem;
@@ -80,6 +80,9 @@ figcaption {
   text-align: center;
   padding-bottom: 2rem;
 }
+figure {
+  text-align: center;
+}
 sup, sub, a.footnote {
   font-size: 1.4ex;
   height: 0;
@@ -91,6 +94,12 @@ hr {
   margin: 4em auto;
   max-width: 700px;
 }
+ol, ul {
+  list-style-position: outside;
+}
+li {
+  padding-left: 1rem;
+}
 .simulation.fullscreen {
   /*padding: 1rem;*/
 }
@@ -99,4 +108,7 @@ hr {
 }
 .footnotes li {
   margin: 1rem 2rem;
+}
+.centered {
+  text-align: center;
 }

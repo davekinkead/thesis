@@ -120,28 +120,172 @@
 <h1 class="title">Games of Throwns</h1>
 <h2 class="author">Dave Kinkead</h2>
 </header>
+<ul>
+<li><p>I argue that Leviathan is either valid but with implausible premises or has plausible premises but is invalid.</p></li>
+<li>Leviathan is awesome!</li>
+<li>many theorists have attempted to use game theory to model hobbes</li>
+<li>it hasn't been fully successful - why?</li>
+<li>quick survey on the lit - who did what.</li>
+<li>summarise hobbes argument &amp; build model</li>
+<li>build games from lit</li>
+<li>show they don't work</li>
+<li><p>show how they can work</p></li>
+</ul>
+<ol type="1">
+<li>naive PD</li>
+<li>naive AG</li>
+</ol>
+<div id="space" class="simulation fullscreen">
+
+</div>
 <h2 id="modelling-hobbes-leviathan">Modelling Hobbes' Leviathan</h2>
+<p>--&gt; Move this below</p>
+<p>The most common approach to modelling Leviathan is to use a Prisoner's Dilemma (cite who).</p>
+<p>Why the PD?</p>
+<p>In a pure strategy Prisoner's Dilemma, players have the choice of cooperating (C) or defecting (D). Cooperation can describe a range of behaviours such as refraining from combat or conflict, the sharing of resources, or simply non-interference with others. Defection on the other hand can represent (cite Hobbes) .....</p>
+<p>In a Prisoner's Dilemma, the optimal strategy for each player is contingent on the other player's action (this is what makes it a <em>game</em>). The typical represention of the payoff matrix using ordinal preferences is like so:</p>
+<pre><code>#  2,2 | 4,1
+# -----------
+#  1,4 | 3,3</code></pre>
+<p>The socially optimal outcome is for both players to cooperate, yet no rational player would do so. If the other player cooperates, the best strategy is to defect (1 &gt; 2), and if the other player defects, then defection remains the best strategy (3 &gt; 4). As a symetric game, the same holds true for the other player. Mutual defection is the only Nash Equilibrium point.</p>
+<p>One interpretation of Hobbes is to model the state of nature as a single round Prisoner's Dilemma. If the game is played only once, then all rational players will defect (see XXX for a formal proof). But what of irrational players who cooperate in a altruistic lapse of judgement? This possibility is inconsequentual to Hobbes' argument. For the State of Nature to be a <em>war of all against all</em>, only the expectation of conflict is necessary for other rational agents to strike first. When confronted with altruists in a pure strategy Prisoner's Dilemma, the rational player defects and peace is impossible.</p>
+<p>The single round interpretation of the State of Nature is extremely implausible however. It requires that players only interact once .... yes death is a possibility but.... Hobbes also says that ....</p>
+<p>A far more plausible model is an iterated PD. List problems and then over come them....</p>
+<p>What about evolutionary models...</p>
+<p>We can now test the validity of Hobbes' argument as pure strategy evolutionary Prisoner's Dilemma. We will populate a simulation with 1000 cooperators and 1000 defectors and observe the local interaction.</p>
+<p>Explain evolutoinary stability....</p>
+<p>For Hobbe's argument as a PSPD to be invalid, we must observe an outbreak of cooperation in the state of nature.....</p>
+<p>If our rational defectors dominate the simulation, Hobbes' argument is plausible.<a href="#fn1" class="footnoteRef" id="fnref1"><sup>1</sup></a> Run enough times, we can even assign a frequence based probability to the likelihood of <em>war of all againt all</em> obtaining. Given Hobbes' definition or war, even an oscilating cycle of cooperators out populating defectors who then outpopulate cooperators is sufficient to demonstrate plausibility.</p>
+<figure>
+<div id="pure-prisoners-dilemma" class="simulation fullscreen">
+
+</div>
+<figcaption>
+Pure Strategy Prisoner's Dilemma. Click to start/stop.
+</figcaption>
+</figure>
+<p>The outcome of a PSPD overwhelming supports Hobbes' argument that the State of Nature is a war of all against all. From an initial state of equal strategies, defectors (in red) quickly out populates cooperators (blue). Thanks to the dynamics of local interaction, pockets of mutual cooperation remain but as neighbourhoods slowly change, these pockets also adjust their strategy to defection. Given these assumptions, Leviathan as a PSPD represents a valid argument.</p>
+<p>How plausible are these premises however....</p>
+<p>What about mixed strategies...</p>
+<p>We now introduce six additional mixed strategies based on the possible combinations of initial move, response to cooperation, and response to defection. In addition to always cooperating and always defecting, players can also adopt a <em>tit for tat</em> strategy, responding in kind based on the last interact, or a <em>perverse</em> strategy, taking the opposite action to the other players previous round moves. These four strategies can also be distinguished by their opening move by being <em>friendly</em> (cooperating) or <em>suspicious</em> (defecting). (See <span class="citation" data-cites="axelrod">(<span class="citeproc-not-found" data-reference-id="axelrod"><strong>???</strong></span>)</span> pxxx for a more detailed overview of these possibilities)</p>
+<p>In the next simulation, we will observe a Mixed Strategy Prisoner's Dilemma using the same assumptions as before but with equal numbers of the eight deterministic strategies outlined above. As before, after interacting with others in their neighbourhood for a number of turns, players will update their strategy to that of the best performing in the neighbourhood.</p>
+<figure>
+<div id="mixed-prisoners-dilemma" class="simulation fullscreen">
+
+</div>
+<figcaption>
+Mixed Strategy Prisoner's Dilemma. Click to start/stop.
+</figcaption>
+</figure>
 <h2 id="introduction">Introduction</h2>
-<p>Leviathan</p>
-<p>Many theorists have attempted to model Hobbes' account in a game theoretical mannor.</p>
-<p>This chapter attempts to investigate whether Hobbes' conclusion is entailed under a charitable reading and if not, what in his theory would need to change.</p>
-<h2 id="hobbes-game-theory">Hobbes &amp; Game Theory</h2>
-<p>Hobbes has been described as the proto-game theorist (by who?). And it's easy to see why. (explain).</p>
-<p>There is now a large body of work applying game theory to Hobbes [Footnote who]. Yet there is considerable disagreement on how exactly, Leviathan should be modelled.</p>
-<p>Review who has applied game theory and how. - Guathier ....</p>
-<p>What is the source of the disagreement?</p>
+<p>Leviathan represents...</p>
+<p>Hobbes has been described as the proto-game theorist (by who?). And it's easy to see why. (explain). Many theorists have attempted to model Hobbes' account in a game theoretical mannor.</p>
+<p>Summary of who has done what....</p>
+<p>Current approaches have been limited by their predominately analytic approach. How do they do it.... Exceptions...</p>
+<p>To comprehensively justify Hobbe's Leviathan with game theory, one must fulfil three requirements:</p>
+<ol type="1">
+<li><p>Accurately translate the premises of Hobbes' argument into a formalisation useful for game theoretic analysis.</p></li>
+<li><p>Show that those premises are at least a plausible description of reality.</p></li>
+<li><p>Demonstrate that the formalised premises entail Hobbes' conclusion, namely that the inevitable result of the state of nature is a <em>warre of all against all</em>.</p></li>
+</ol>
+<p>Extant literature is characterised by disagreement. Why</p>
 <ol type="1">
 <li>interpretation of the text</li>
 <li>methodological constraints</li>
 </ol>
-<p>I will avoid the debate in by modelling multiple games. I will overcome 2 by using an agent based approach</p>
+<p>This chapter attempts to investigate whether Hobbes' conclusion is entailed under a charitable reading and if not, what in his theory would need to change.</p>
+<p>In part....</p>
+<p>I argue that Hobbes' argument in Leviathan is either valid but based on implausible premises, or based on plausible premises but invalid.</p>
+<h2 id="lit-survey">Lit survey</h2>
+<ul>
+<li>Leviathan is awesome!</li>
+<li>many theorists have attempted to use game theory to model hobbes</li>
+<li>quick survey on the lit - who did what.</li>
+<li>it hasn't been fully successful - why?</li>
+<li>what will I do that is different.
+<ul>
+<li>use an agent based evolutionary causal model</li>
+<li>why is this a better idea.</li>
+</ul></li>
+</ul>
+<blockquote>
+<p>First, the ‘evolution’ treated by evolutionary game theory need not be biological evolution. ‘Evolution’ may, in this context, often be understood as cultural evolution, where this refers to changes in beliefs and norms over time. Second, the rationality assumptions underlying evolutionary game theory are, in many cases, more appropriate for the modelling of social systems than those assumptions underlying the traditional theory of games. Third, evolutionary game theory, as an explicitly dynamic theory, provides an important element missing from the traditional theory. SEP</p>
+</blockquote>
 <h2 id="leviathan">Leviathan</h2>
-<p>Outline Hobbes argument. Bring in support from secondary sources. Justify my interpretation.</p>
+<blockquote>
+<p>Outline Hobbes argument. Run though each premise and formalise it. Justify the premise. Bring in support from secondary sources.</p>
+</blockquote>
+<p>Leviathan<a href="#fn2" class="footnoteRef" id="fnref2"><sup>2</sup></a> is a .... What does is cover.... In it's simplest form however, it is an argument for .... It is a justification for why rational men should subjecate themselves completely to an absolute soveriegn - the Leviathan.</p>
+<p>I take the argument to be this:</p>
 <ol type="1">
+<li>Peace is possible with either no government, limited government, or absolute government</li>
+<li>Peace isn't possible without government</li>
+<li>Limited government is illusionary</li>
+<li><p>Peace is only possible with an absolute soveriegn</p></li>
 <li>Peace is only possible with an absolute soveriegn</li>
 <li>It is rational to desire peace</li>
-<li>Therefore it is rational to submit to an absolute soveriegn</li>
+<li><p>Therefore it is rational to submit to an absolute soveriegn</p></li>
 </ol>
+<p>Whist Hobbes offers an account of many things (for example....) it is premise 1 where most work is done and where most disagreement exists...</p>
+<p>How does Hobbes get there and how can we formalise this?</p>
+<p>We being with man. According to Hobbes, man is the atom of society...prior to...hyper individual, rational egoist...(cite Hobbes)</p>
+<pre><code>class Man
+  constructor: (@space, @strategy) -&gt;
+    # move step elsewhere
+    @step = @space.width * @space.height * 0.00005</code></pre>
+<p>Importantly, men are equal.</p>
+<p>Men have desires.</p>
+<p>Combined with equality, this leads to overlapping desires.</p>
+<pre><code>Man::means = 1</code></pre>
+<p>Some men seek glory</p>
+<pre><code>Man::glory = 1</code></pre>
+<p>Man exists in the State of Nature - a place where man's life is infamously <em>solitary, poor, nasty, brutish, and short</em>. This condition of <em>continual fear and danger of violent death</em> is however, Hobbes' conclusion. To model it as such would be question begging so our model of nature will consist simply of men.</p>
+<p>Mans live in a space which we define as a 2D space representing the problem domain. When we crate a space, we populate it with agents, and give it a neighbourhood depth value.</p>
+<pre><code>class Nature
+  constructor: (@height, @width, agent_profile) -&gt;
+    @populate agent_profile</code></pre>
+<p>N Comp -&gt; Conflict (theft)</p>
+<p>--&gt; model interaction here?</p>
+<p>N Comp -&gt; Pursuit of Power (aggression)</p>
+<pre><code>Man::power = () -&gt;
+  @means + @glory</code></pre>
+<p>Conflict -&gt; Pursuit of Power (protection) Conflict -&gt; Pursuit of Power (aggression) Conflict -&gt; Distrust Distrust -&gt; Conflict (stike first defense) Distrust -&gt; Pursuit of Power (protection) Pursuit of Power -&gt; P Comp P Comp -&gt; Conflict Glory -&gt; P Comp</p>
+<pre><code>#   power: () -&gt;
+#     @glory + @means
+
+
+
+# class Nature
+#   constructor: (@men)</code></pre>
+<p>The genisis of the war of all against all begins, according to Hobbes, with competition for resources. (source).</p>
+<p>Men desire self-preservation above all else. They compete for scares resources.</p>
+<p>This scarcity can't be soley for the goods necessary for survival however. If it were an essential fact of nature that there were insufficient goods for survival, then survival of all would be impossible even under a sovereign. Of course, scarcity could be a contingent fact of nature - in a war of all against all, there is little time to sow crops and tend to livestock, so there is too little for all. The security of the Leviathan could also provide the conditions necessary for increased productivity and surplus. Yet to simply assert that there are insufficient resources in the state of nature and sufficient in civil society would again be question begging.</p>
+<p>--&gt; three types of goods?</p>
+<p>Luckily for Hobbes, scarcity of the resources necessary for survival aren't essential for his argument. Even when mans current needs are satisfied, he must still compete (source). Because no individual can secure their own security, they must strive for more power in order to secure their future needs</p>
+<p>!!!! It is war that leads to shortages, not the other way around. The initial competition</p>
+<p>Introduce glory and the vanglorious man.</p>
+<p>This brings us to two types of men - the moderate and the dominator. The moderate .... The dominator ....</p>
+<hr />
+<pre><code># class Man
+#   constructor: (@strategy) -&gt;
+#     @glory = 1
+#     @means = 1
+
+#   power: () -&gt;
+#     @glory + @means</code></pre>
+<p>Conflict</p>
+<ul>
+<li>conflict outcome is an uncertain (stochastic) function of power differential (a random number compared to the proportion of power)</li>
+<li>A gains the <span class="citation" data-cites="means">(<span class="citeproc-not-found" data-reference-id="means"><strong>???</strong></span>)</span> of B and half their glory</li>
+</ul>
+<p>Strategies</p>
+<p>The Moderate - if a.power &gt; b.power (sufficiently) then a will steal from b else farm</p>
+<p>The Peacenik</p>
+<p>The Foole</p>
+<p>The Trigger</p>
+<ul>
+<li>distrust leads to strike first CH13</li>
+</ul>
 <p>In the state of nature</p>
 <ol type="1">
 <li>Everyone is motiviated for self-preservation (its a natural right)</li>
@@ -151,6 +295,18 @@
 <li>The result is a state of war of all against all.</li>
 </ol>
 <p>Only absolute power works</p>
+<h2 id="leviathan-as-game-theory">Leviathan as Game Theory</h2>
+<p>There is now a large body of work applying game theory to Hobbes [Footnote who]. Yet there is considerable disagreement on how exactly, Leviathan should be modelled.</p>
+<p>Review who has applied game theory and how. - Guathier ....</p>
+<p>What is the source of the disagreement?</p>
+<ol type="1">
+<li>interpretation of the text</li>
+<li>methodological constraints</li>
+</ol>
+<p>I will avoid the debate in by modelling multiple games. I will overcome 2 by using an agent based approach</p>
+<p>By far the most common approach is to model Leviathan as a Prisoner's Dilemma.....</p>
+<p>Single or iterative?</p>
+<p>Evolutionary?</p>
 <h2 id="modelling-leviathan">Modelling Leviathan</h2>
 <p>It is clear that there are two distinct arguments:</p>
 <ul>
@@ -172,26 +328,63 @@
 <p>Assurance Game</p>
 <p>Chicken Game</p>
 <hr />
-<h2 id="simulation-code">Simulation Code</h2>
-<p>First up, lets define the entities in our simulation. We'll start with two - agents and the space they exist in. Agents exist in a space hold a game strategy which is assigned randomly if none is provided. We also give them a step length in case they will be walking.</p>
-<pre><code>class Agent
-  constructor: (@space, @strategy) -&gt;
-    @strategy = strategies[Math.floor Math.random() * 2] if @strategies?
-    @step = 5</code></pre>
-<p>Agents live in a space which we define as a 2D space representing the problem domain. When we crate a space, we populate it with agents, and give it a neighbourhood depth value.</p>
-<pre><code>class Space
-  constructor: (@height, @width, agent_profile) -&gt;
-    @populate agent_profile</code></pre>
+<h2 id="nature-code">Nature Code</h2>
+<p>First up, lets define some payoff matrixes for various games. A Prisoner's Dilemma is a two (or more) player symmertic non-cooperative non-zero sum game that has payoffs for each player based on the behaviour of other players. We will create a generic function that returns a tuple representing conditional player outcomes, based on a tuple of player actions eg <code>[1,0]</code> for player 1 cooperate &amp; player 2 defect.</p>
+<pre><code>prisoners_dilemma = (game) -&gt;
+  payoffs = {
+    &quot;1,1&quot;: [3,3],
+    &quot;1,0&quot;: [1,4],
+    &quot;0,1&quot;: [4,1],
+    &quot;0,0&quot;: [2,2],
+  }
+  payoffs[game.toString()]
+
+
+stag_hunt = (game) -&gt;
+  payoffs = {
+    &quot;1,1&quot;: [3,3],
+    &quot;1,0&quot;: [0,1],
+    &quot;0,1&quot;: [1,0],
+    &quot;0,0&quot;: [1,1],
+  }
+  payoffs[game.toString()]      
+
+
+snow_drift = (game) -&gt;
+  payoffs = {
+    &quot;1,1&quot;: [3,3],
+    &quot;1,0&quot;: [1,5],
+    &quot;0,1&quot;: [5,1],
+    &quot;0,0&quot;: [0,0],
+  }
+  payoffs[game.toString()]</code></pre>
+<p>There are 8 possible deterministic single round strategies a player could employ in any 2 player game. These are specified by their inital move <code>i</code>, responding to cooperation move <code>c</code>, and responding to defection move <code>d</code>. We'll also name these and give them pretty colours and store them in a list.</p>
+<pre><code>strategies = {
+  &quot;ALLD&quot;: { i: 0, c: 0, d: 0, name: &quot;ALLD&quot;, color: &quot;crimson&quot; },
+  &quot;SPRV&quot;: { i: 0, c: 0, d: 1, name: &quot;SPRV&quot;, color: &quot;orange&quot; },
+  &quot;ST4T&quot;: { i: 0, c: 1, d: 0, name: &quot;ST4T&quot;, color: &quot;lightblue&quot; },
+  &quot;DTAC&quot;: { i: 0, c: 1, d: 1, name: &quot;DTAC&quot;, color: &quot;indigo&quot; },
+  &quot;CTAD&quot;: { i: 1, c: 0, d: 0, name: &quot;CTAD&quot;, color: &quot;maroon&quot; },
+  &quot;FPRV&quot;: { i: 1, c: 0, d: 1, name: &quot;FPRV&quot;, color: &quot;yellow&quot; },
+  &quot;FT4T&quot;: { i: 1, c: 1, d: 0, name: &quot;FT4T&quot;, color: &quot;blue&quot; },
+  &quot;ALLC&quot;: { i: 1, c: 1, d: 1, name: &quot;ALLC&quot;, color: &quot;navy&quot; }
+}</code></pre>
+<p>Next we model our agents. These agents exist in a space hold a game strategy which is assigned randomly if none is provided. We also give them a step length in case they will be walking.</p>
+<pre><code># class Man
+#   constructor: (@space, @strategy) -&gt;
+#     # @strategy = strategies[Math.floor Math.random() * strategies.length] if @strategies?
+#     # @strategy = strategies[strategy]
+#     @step = @space.width * @space.height * 0.00005</code></pre>
 <p>We populate our space from an agent profile. This profile contains an array such as <code>[0, 250, 250]</code> which tells our space to create 250 agents each based on the the 2nd and 3rd strategies profiles defined earlier.</p>
-<pre><code>Space::populate = (agent_profile) -&gt;
-  @agents = []
-  type = 0
-  for i,v in agent_profile
-    for n in [0..i]
-      @agents.push new Agent this, strategies[v]</code></pre>
-<p>Agents can be arranged in a space either deterministically or stochastically, and this arrangement can relate to either where they are (what x,y coordintate an agent occupies) or what they are (what type of agent is in that x,y coordintate). The cluster method accepts 2 arguments between <code>0.0</code> and <code>1.0</code> relating the degree of determinism concerning where an agent is located and what the agent is.</p>
+<pre><code>Nature.prototype.populate = (agent_profile) -&gt;
+  @agents = (for name, number of agent_profile
+      [1..number].map (n) =&gt;
+        new Man this, strategies[name])
+    .reduce (lhs, rhs) -&gt;
+      lhs.concat rhs</code></pre>
+<p>Mans can be arranged in a space either deterministically or stochastically, and this arrangement can relate to either where they are (what x,y coordintate an agent occupies) or what they are (what type of agent is in that x,y coordintate). The cluster method accepts 2 arguments between <code>0.0</code> and <code>1.0</code> relating the degree of determinism concerning where an agent is located and what the agent is.</p>
 <p>The what-algorithm is a modified Fisher-Yates shuffle that is applied stochastically if the what-cluster value is exceded. The where-algorithm orders agents in straight lines or stochastically if the where-cluster is exceded.</p>
-<pre><code>Space::cluster = (where, what) -&gt;
+<pre><code>Nature.prototype.cluster = (where, what) -&gt;
   #what
   for i in [@agents.length-1..1]
     unless what &gt; Math.random()
@@ -211,129 +404,39 @@
       x = block / 2
   @agents</code></pre>
 <p>In spacial arranements, everybody is next to somebody - their neighbour. A neighbourhood is simply a list of all the agents within an agent's depth perception. Here we return everyone within a square from an x, y coordinate.</p>
-<p>This could in future be extended to allow von Newman neighbourhoods, and Moore neighbourhoods</p>
-<pre><code>Space::neighbourhood = (x, y) -&gt;
+<pre><code>Nature.prototype.neighbourhood = (agent) -&gt;
   @depth = Math.sqrt(@width * @height / @agents.length) + 1
   neighbours = []
   for other in @agents
-    if x - other.space.depth &lt; other.x &lt; x + other.space.depth and y - other.space.depth &lt; other.y &lt; y + other.space.depth
+    if agent.x - other.space.depth &lt; other.x &lt; agent.x + other.space.depth and agent.y - other.space.depth &lt; other.y &lt; agent.y + other.space.depth
       neighbours.push other
   neighbours</code></pre>
-<p>Now, lets define some payoff matrixes for various games. We will create a generic function that returns a tuple representing conditional player outcomes, based on a tuple of player actions eg <code>[1,0]</code> for player 1 cooperate &amp; player 2 defect.</p>
-<pre><code>prisoners_dilemma = (game) -&gt;
-  payoffs = {
-    &quot;1,1&quot;: [3,3],
-    &quot;1,0&quot;: [0,5],
-    &quot;0,1&quot;: [5,0],
-    &quot;0,0&quot;: [1,1],
-  }
-  payoffs[game.toString()]
-
-prisoners_factor = (game) -&gt;
-  payoffs = {
-    &quot;1,1&quot;: [0.55,0.55],
-    &quot;1,0&quot;: [0,1],
-    &quot;0,1&quot;: [1,0],
-    &quot;0,0&quot;: [0.2,0.2],
-  }
-  payoffs[game.toString()]
-
-wee_wee_prank = (game) -&gt;
-  payoffs = {
-    &quot;1,1&quot;: [0,0],
-    &quot;1,0&quot;: [-1,5],
-    &quot;0,1&quot;: [5,-1],
-    &quot;0,0&quot;: [-1,-1],
-  }
-  payoffs[game.toString()]      
-
-stag_hunt = (game) -&gt;
-  payoffs = {
-    &quot;1,1&quot;: [3,3],
-    &quot;1,0&quot;: [0,1],
-    &quot;0,1&quot;: [1,0],
-    &quot;0,0&quot;: [1,1],
-  }
-  payoffs[game.toString()]      
-
-
-snow_drift = (game) -&gt;
-  payoffs = {
-    &quot;1,1&quot;: [3,3],
-    &quot;1,0&quot;: [1,5],
-    &quot;0,1&quot;: [5,1],
-    &quot;0,0&quot;: [0,0],
-  }
-  payoffs[game.toString()]
-
-console.log snow_drift &quot;1,0&quot;
-
-gang_war = (game) -&gt;
-  payoffs = {
-    &quot;1,1&quot;: [1,1],
-    &quot;1,0&quot;: [-4,3],
-    &quot;1,2&quot;: [-4,5],
-    &quot;1,3&quot;: [1,0],
-    &quot;0,1&quot;: [3,-3],
-    &quot;0,0&quot;: [-1,-1],
-    &quot;0,2&quot;: [-3,3],
-    &quot;0,3&quot;: [-10,0],
-    &quot;2,1&quot;: [5,-4],
-    &quot;2,0&quot;: [3,-4],
-    &quot;2,2&quot;: [-3,-3],
-    &quot;2,3&quot;: [-10,0],
-    &quot;3,1&quot;: [0,1],
-    &quot;3,0&quot;: [0,-10],
-    &quot;3,2&quot;: [0,-10],
-    &quot;3,3&quot;: [0,0],       
-  }
-  payoffs[game.toString()]</code></pre>
-<p>Next, lets define some strategies a player could employ in any 2 player game. These are specified by their inital move <code>i</code>, responding to cooperation move <code>c</code>, and responding to defection move <code>d</code>. We'll also name these and give them pretty colours and store them in a list.</p>
-<pre><code>strategies = [
-  { i: 1, c: 1, d: 1, name: &quot;FARM&quot;, color: &quot;green&quot; },
-  { i: 0, c: 0, d: 0, name: &quot;STEAL&quot;, color: &quot;blue&quot; },
-  { i: 2, c: 2, d: 2, name: &quot;GANG&quot;, color: &quot;red&quot; },
-  { i: 3, c: 3, d: 3, name: &quot;KING&quot;, color: &quot;goldenrod&quot; },
-  # { i: 0, c: 0, d: 0, name: &quot;ALLD&quot;, color: &quot;red&quot; },
-  # { i: 0, c: 0, d: 1, name: &quot;SPRV&quot;, color: &quot;green&quot; },
-  # { i: 0, c: 1, d: 0, name: &quot;ST4T&quot;, color: &quot;lightblue&quot; },
-  # { i: 0, c: 1, d: 1, name: &quot;DTAC&quot;, color: &quot;indigo&quot; },
-  # { i: 1, c: 0, d: 0, name: &quot;CTAD&quot;, color: &quot;yellow&quot; },
-  # { i: 1, c: 0, d: 1, name: &quot;FPRV&quot;, color: &quot;lime&quot; },
-  # { i: 1, c: 1, d: 0, name: &quot;FT4T&quot;, color: &quot;blue&quot; },
-  # { i: 1, c: 1, d: 1, name: &quot;ALLC&quot;, color: &quot;violet&quot; },
-]</code></pre>
-<p>Now we turn to our game. The browser will trigger the main game interface <code>interact(agent)</code> every tick. Each agent finds their neighbours and plays against them for a number or rounds, with the agent score calcuated from the payoff matrix. In every contest, we set the agent score and last_game values to 0. We also throw in some Brownian motion to encourage disequilibrium.</p>
-<pre><code>interact = (agent) -&gt;
-  agent.score = 5
+<p>Now we turn to our game. The browser will trigger the main game interface <code>contest(agent)</code> every tick. Each agent finds their neighbours and plays against them for a number or rounds, with the agent score calcuated from the payoff matrix. In every contest, we set the agent score and last_game values to 0. We also throw in some Brownian motion to encourage disequilibrium.</p>
+<pre><code>contest = (agent) -&gt;
+  agent.score = 0
   last_game = []
-  rounds = 1
-  neighbours = agent.space.neighbourhood(agent.x, agent.y)
+  rounds = 10
+  neighbours = agent.space.neighbourhood(agent)
   for neighbour in neighbours
     for round in [0..rounds]
       last_game = [agent.play(neighbour, last_game), neighbour.play(agent, last_game)]
-      scores = gang_war last_game
+      scores = prisoners_dilemma last_game
       agent.score += scores[0]
   walk agent
   agent
   </code></pre>
-<p>I'm also going to define a system wide tick rather than an agent based interaction.</p>
-<pre><code>tick = (space) -&gt;
-  console.log space</code></pre>
 <p>We also need to define the interaction between agents. The initial move is dictated by the agent's strategy while subsequent moves are based on an opponents last move.</p>
-<pre><code>Agent::play =  (neighbour, last_game) -&gt;
+<pre><code>Man.prototype.play =  (neighbour, last_game) -&gt;
   if last_game.length is 0 then @strategy.i else @next_move last_game
 
-Agent::next_move = (last_game) -&gt;
+Man.prototype.next_move = (last_game) -&gt;
   if last_game[1] is 1 then @strategy.c else @strategy.d</code></pre>
-<p>Agents also need to update their strategy after each round. We will do this only after all contests in a tick have finished and scores have been calculated. If the agent score is the equal highest score, then no change to strategy will be made.</p>
+<p>Mans also need to update their strategy after each round. We will do this only after all contests in a tick have finished and scores have been calculated.</p>
 <pre><code>update = (agent) -&gt;
-  neighbours = agent.space.neighbourhood(agent.x, agent.y)
+  neighbours = agent.space.neighbourhood(agent)
   max = neighbours.reduce (a, b) -&gt; {score: Math.max a.score, b.score}
-  return agent if agent.score is max or agent.strategy.i is 3
   winners = (neighbour for neighbour in neighbours when neighbour.score is max.score)
-  agent.strategy = winners[Math.floor Math.random() * winners.length].strategy
-  agent.strategy = strategies[0] if agent.score &lt; 0
+  agent.strategy = winners[Math.floor Math.random() * winners.length].strategy 
   agent</code></pre>
 <p>Let's also throw in some logic for walking our agents around the space. Movement could be intentionally directed or (as in this case), agents move to a random spot near by.</p>
 <pre><code>walk = (agent) -&gt;
@@ -348,192 +451,150 @@ Agent::next_move = (last_game) -&gt;
   agent</code></pre>
 <p>Now that we have defined our model, we need some functions to initiate and control behaviour. We will instantiate the simulation by invoking the <code>agents</code> function. This will create a space and populate it with agents according to our profile. We will set the cluster values so that agents are perfectly ordered in space but randomly allocated to a space. Try adjusting the facts to see what happens!</p>
 <pre><code>agents = (height, width) -&gt;
-  space = new Space height, width, [1985, 10, 5, 25]
-  space.cluster 1.0, 0.0</code></pre>
+  space = new Nature(height, width, [250, 250, 250, 250, 250, 250, 250, 250])
+  space.cluster 1.0, 1.0</code></pre>
 <p>Finally, we declare our public API so that other modules can access it.</p>
-<pre><code>module.exports = simulation = {agents: agents, interact: interact, update: update, tick: tick}</code></pre>
-<p>That's it. The simulation complete.</p>
-<hr />
-<h1 id="browser-code">Browser Code</h1>
-<p>This is the browser file where we pull together different parts of the simulation and wrap it up in the browser. We'll start out by importing our libraries and defining any global variables we might need.</p>
+<pre><code>module.exports = {agents: agents, contest: contest, update: update}</code></pre>
+<h1 id="appendix---supplimentary-code">Appendix - Supplimentary Code</h1>
 <pre><code>d3 = require &#39;d3&#39;
-running = false
-height = window.innerHeight || 600
-width = window.innerWidth || 600
-space = null
+buffer = 50
+height = window.innerHeight - buffer || 600
+width = window.innerWidth - buffer || 600</code></pre>
+<p>Let's also throw in some logic for walking our agents around the space. Movement could be intentionally directed or (as in this case), agents move to a random spot near by.</p>
+<pre><code># Man::walk = () -&gt;
+#   xRand = Math.random() * @space.step
+#   yRand = Math.random() * @space.step
+#   agent.x += xRand - @space.step / 2
+#   agent.x = xRand / 2 if agent.x &lt; 0
+#   agent.x = @space.width - xRand /2 if agent.x &gt; agent.space.width
+#   agent.y += yRand - agent.step / 2
+#   agent.y = yRand /2 if agent.y &lt; 0
+#   agent.y = agent.space.height - yRand / 2 if agent.y &gt; agent.space.height
+#   agent</code></pre>
+<p>Allocate agents in the space</p>
+<pre><code>Nature::position = (where, what) -&gt;
+  #what
+  for i in [@agents.length-1..1]
+    unless what &gt; Math.random()
+      j = Math.floor Math.random() * (i + 1)
+      [@agents[i], @agents[j]] = [@agents[j], @agents[i]]
 
-game = window.location.search.match /\?game=(.+)&amp;?/</code></pre>
-<p>Next, we'll grab create our svg canvas, apply some event listeners and add it to the DOM.</p>
-<pre><code>canvas = d3.select(&quot;#space&quot;)
-      .append(&quot;svg:svg&quot;)
-      .attr(&quot;height&quot;, height)
-      .attr(&quot;width&quot;, width)
-      .on &quot;click&quot;, () -&gt;
-        running = false
-        alert &#39;Simulation stopped&#39;
+  # where
+  block = Math.sqrt @width * @height / @agents.length
+  x = y = block / 2
+  for agent, position in @agents
+    hurdle = Math.random()
+    agent.x = if where &gt; hurdle then x else Math.floor Math.random() * @width
+    agent.y = if where &gt; hurdle then y else Math.floor Math.random() * @height
+    x += block if x &lt; @width
+    if x &gt; @width 
+      y += block
+      x = block / 2
+    agent.x + buffer / 4
+    agent.y + buffer / 4</code></pre>
+<p>Now to display the agents in the browser</p>
+<pre><code>display = (target, params) =&gt;
+  runner = false
+  simulation = new Nature height, width, params
+  simulation.position 1.0, 0.0
+  canvas = d3.select(&quot;##{target}&quot;)
+    .append(&quot;svg:svg&quot;)
+    .attr(&quot;height&quot;, height)
+    .attr(&quot;width&quot;, width)
+    .on &quot;click&quot;, () -&gt;
+      if runner
+        clearInterval runner
+        runner = false
+      else 
+        runner = setInterval () -&gt;
+          tick simulation
+        , 1000
 
-info = d3.select(&quot;#info&quot;)
-      .on &quot;click&quot;, () -&gt;
-        d3.select(&quot;#info p&quot;).style &quot;display&quot;, &quot;none&quot;
-        d3.select(&quot;#info h1&quot;).style &quot;font-size&quot;, &quot;1em&quot;</code></pre>
-<p>Now we need to createsvg circles to represent our agents and bind them to the actual agents from the simulation. The <code>d</code> in the functions here is the D3js accessor to the agent data.</p>
-<pre><code>populate = () -&gt;
-  space = simulation.agents(height, width)
-  canvas.selectAll &quot;circle&quot;
-    .data space
-    .enter().append &quot;circle&quot;
-    .style &quot;fill&quot;, (d) -&gt; d.strategy.color 
-    .style &quot;opacity&quot;, 0.5
-    .attr &quot;r&quot;, 8
-    .attr &quot;cx&quot;, (d) -&gt; d.x
-    .attr &quot;cy&quot;, (d) -&gt; d.y
+  tick = (simulation) -&gt;
+    circles = canvas.selectAll &quot;circle&quot;
+    circles.each (d) -&gt;
+        d = contest d
+      .each (d) -&gt;
+        d = update d
+      .transition()
+      .duration 500
+      .attr &quot;cx&quot;, (d) -&gt; d.x
+      .attr &quot;cy&quot;, (d) -&gt; d.y
+      # .attr &quot;r&quot;, (d) -&gt; 
+      #   if d.strategy.i is 3 then 10 else Math.max 3, (d.score / 10)
+      .attr &quot;title&quot;, (d) -&gt; &quot;#{d.strategy.name} - #{d.score}&quot;
+      .style &quot;fill&quot;, (d) -&gt; d.strategy.color</code></pre>
+<p>Set up</p>
+<pre><code>  populate = (simulation) -&gt;
+    canvas.selectAll &quot;circle&quot;
+      .data simulation.agents
+      .enter().append &quot;circle&quot;
+      .style &quot;fill&quot;, (d) -&gt; 
+        d.strategy.color 
+      .style &quot;opacity&quot;, 0.5
+      .attr &quot;r&quot;, 7.5
+      .attr &quot;cx&quot;, (d) -&gt; d.x
+      .attr &quot;cy&quot;, (d) -&gt; d.y
 
-populate()</code></pre>
-<p>We then write a loop where each svg circle triggers the move function for its bound agent.</p>
-<pre><code>move = () -&gt;
-  circles = canvas.selectAll &quot;circle&quot;
-  circles.each (d) -&gt;
-    d = simulation.interact d
-  .each (d) -&gt;
-    d = simulation.update d
-  .transition()
-  .duration 500
-  .attr &quot;cx&quot;, (d) -&gt; d.x
-  .attr &quot;cy&quot;, (d) -&gt; d.y
-  .attr &quot;r&quot;, (d) -&gt; 
-    if d.strategy.i is 3 then 10 else Math.max 3, (d.score / 10)
-  .attr &quot;title&quot;, (d) -&gt; &quot;#{d.strategy.name} - #{d.score}&quot;
-  .style &quot;fill&quot;, (d) -&gt; d.strategy.color
+  populate simulation</code></pre>
+<p>Finally....</p>
+<pre><code>window.onload = () -&gt;
+  display &#39;space&#39;, {&#39;ALLD&#39;: 1000, &#39;ALLC&#39;: 1000}
+  display &#39;pure-prisoners-dilemma&#39;, {&#39;ALLD&#39;: 1000, &#39;ALLC&#39;: 1000}
+  display &#39;mixed-prisoners-dilemma&#39;, {&#39;ALLD&#39;: 250, &#39;SPRV&#39;: 250, &#39;ST4T&#39;: 250, &#39;DTAC&#39;: 250,&#39;CTAD&#39;: 250,&#39;FPRV&#39;: 250,&#39;FT4T&#39;: 250,&#39;ALLC&#39;: 250}
 
-
-run = () -&gt;
-  move() unless running is false</code></pre>
-<p>Finally, we run the loop continuous with a half second pause.</p>
-<pre><code>setInterval run, 500</code></pre>
-<div id="space" class="simulation fullscreen">
-
-</div>
+  # [250, 250, 250, 250, 250, 250, 250, 250]</code></pre>
 <div class="references">
 
 </div>
+<section class="footnotes">
+<hr />
+<ol>
+<li id="fn1"><p>I say plausible here because a stochastic simulation with infinite possible runs obviously cannot definiately prove the impossibility of cooperation.<a href="#fnref1">↩</a></p></li>
+<li id="fn2"><p>Hobbes makes similar arguments in .... I will be using the english version of Leviathan...why...<a href="#fnref2">↩</a></p></li>
+</ol>
+</section>
 <script>
 (function e(t,n,r){function s(o,u){if(!n[o]){if(!t[o]){var a=typeof require=="function"&&require;if(!u&&a)return a(o,!0);if(i)return i(o,!0);var f=new Error("Cannot find module '"+o+"'");throw f.code="MODULE_NOT_FOUND",f}var l=n[o]={exports:{}};t[o][0].call(l.exports,function(e){var n=t[o][1][e];return s(n?n:e)},l,l.exports,e,t,n,r)}return n[o].exports}var i=typeof require=="function"&&require;for(var o=0;o<r.length;o++)s(r[o]);return s})({1:[function(require,module,exports){
-var Agent, Space, agents, canvas, d3, game, gang_war, height, info, interact, move, populate, prisoners_dilemma, prisoners_factor, run, running, simulation, snow_drift, space, stag_hunt, strategies, tick, update, walk, wee_wee_prank, width;
+var Man, Nature, agents, buffer, contest, d3, display, height, prisoners_dilemma, snow_drift, stag_hunt, strategies, update, walk, width;
 
-Agent = (function() {
-  function Agent(space1, strategy) {
+Man = (function() {
+  function Man(space1, strategy) {
     this.space = space1;
     this.strategy = strategy;
-    if (this.strategies != null) {
-      this.strategy = strategies[Math.floor(Math.random() * 2)];
-    }
-    this.step = 5;
+    this.step = this.space.width * this.space.height * 0.00005;
   }
 
-  return Agent;
+  return Man;
 
 })();
 
-Space = (function() {
-  function Space(height1, width1, agent_profile) {
+Man.prototype.means = 1;
+
+Man.prototype.glory = 1;
+
+Nature = (function() {
+  function Nature(height1, width1, agent_profile) {
     this.height = height1;
     this.width = width1;
     this.populate(agent_profile);
   }
 
-  return Space;
+  return Nature;
 
 })();
 
-Space.prototype.populate = function(agent_profile) {
-  var i, k, len, n, results, type, v;
-  this.agents = [];
-  type = 0;
-  results = [];
-  for (v = k = 0, len = agent_profile.length; k < len; v = ++k) {
-    i = agent_profile[v];
-    results.push((function() {
-      var l, ref, results1;
-      results1 = [];
-      for (n = l = 0, ref = i; 0 <= ref ? l <= ref : l >= ref; n = 0 <= ref ? ++l : --l) {
-        results1.push(this.agents.push(new Agent(this, strategies[v])));
-      }
-      return results1;
-    }).call(this));
-  }
-  return results;
-};
-
-Space.prototype.cluster = function(where, what) {
-  var agent, block, hurdle, i, j, k, l, len, position, ref, ref1, ref2, x, y;
-  for (i = k = ref = this.agents.length - 1; ref <= 1 ? k <= 1 : k >= 1; i = ref <= 1 ? ++k : --k) {
-    if (!(what > Math.random())) {
-      j = Math.floor(Math.random() * (i + 1));
-      ref1 = [this.agents[j], this.agents[i]], this.agents[i] = ref1[0], this.agents[j] = ref1[1];
-    }
-  }
-  block = Math.sqrt(this.width * this.height / this.agents.length);
-  x = y = block / 2;
-  ref2 = this.agents;
-  for (position = l = 0, len = ref2.length; l < len; position = ++l) {
-    agent = ref2[position];
-    hurdle = Math.random();
-    agent.x = where > hurdle ? x : Math.floor(Math.random() * this.width);
-    agent.y = where > hurdle ? y : Math.floor(Math.random() * this.height);
-    if (x < this.width) {
-      x += block;
-    }
-    if (x > this.width) {
-      y += block;
-      x = block / 2;
-    }
-  }
-  return this.agents;
-};
-
-Space.prototype.neighbourhood = function(x, y) {
-  var k, len, neighbours, other, ref, ref1, ref2;
-  this.depth = Math.sqrt(this.width * this.height / this.agents.length) + 1;
-  neighbours = [];
-  ref = this.agents;
-  for (k = 0, len = ref.length; k < len; k++) {
-    other = ref[k];
-    if ((x - other.space.depth < (ref1 = other.x) && ref1 < x + other.space.depth) && (y - other.space.depth < (ref2 = other.y) && ref2 < y + other.space.depth)) {
-      neighbours.push(other);
-    }
-  }
-  return neighbours;
+Man.prototype.power = function() {
+  return this.means + this.glory;
 };
 
 prisoners_dilemma = function(game) {
   var payoffs;
   payoffs = {
     "1,1": [3, 3],
-    "1,0": [0, 5],
-    "0,1": [5, 0],
-    "0,0": [1, 1]
-  };
-  return payoffs[game.toString()];
-};
-
-prisoners_factor = function(game) {
-  var payoffs;
-  payoffs = {
-    "1,1": [0.55, 0.55],
-    "1,0": [0, 1],
-    "0,1": [1, 0],
-    "0,0": [0.2, 0.2]
-  };
-  return payoffs[game.toString()];
-};
-
-wee_wee_prank = function(game) {
-  var payoffs;
-  payoffs = {
-    "1,1": [0, 0],
-    "1,0": [-1, 5],
-    "0,1": [5, -1],
-    "0,0": [-1, -1]
+    "1,0": [1, 4],
+    "0,1": [4, 1],
+    "0,0": [2, 2]
   };
   return payoffs[game.toString()];
 };
@@ -560,70 +621,140 @@ snow_drift = function(game) {
   return payoffs[game.toString()];
 };
 
-console.log(snow_drift("1,0"));
-
-gang_war = function(game) {
-  var payoffs;
-  payoffs = {
-    "1,1": [1, 1],
-    "1,0": [-4, 3],
-    "1,2": [-4, 5],
-    "1,3": [1, 0],
-    "0,1": [3, -3],
-    "0,0": [-1, -1],
-    "0,2": [-3, 3],
-    "0,3": [-10, 0],
-    "2,1": [5, -4],
-    "2,0": [3, -4],
-    "2,2": [-3, -3],
-    "2,3": [-10, 0],
-    "3,1": [0, 1],
-    "3,0": [0, -10],
-    "3,2": [0, -10],
-    "3,3": [0, 0]
-  };
-  return payoffs[game.toString()];
-};
-
-strategies = [
-  {
-    i: 1,
-    c: 1,
-    d: 1,
-    name: "FARM",
-    color: "green"
-  }, {
+strategies = {
+  "ALLD": {
     i: 0,
     c: 0,
     d: 0,
-    name: "STEAL",
+    name: "ALLD",
+    color: "crimson"
+  },
+  "SPRV": {
+    i: 0,
+    c: 0,
+    d: 1,
+    name: "SPRV",
+    color: "orange"
+  },
+  "ST4T": {
+    i: 0,
+    c: 1,
+    d: 0,
+    name: "ST4T",
+    color: "lightblue"
+  },
+  "DTAC": {
+    i: 0,
+    c: 1,
+    d: 1,
+    name: "DTAC",
+    color: "indigo"
+  },
+  "CTAD": {
+    i: 1,
+    c: 0,
+    d: 0,
+    name: "CTAD",
+    color: "maroon"
+  },
+  "FPRV": {
+    i: 1,
+    c: 0,
+    d: 1,
+    name: "FPRV",
+    color: "yellow"
+  },
+  "FT4T": {
+    i: 1,
+    c: 1,
+    d: 0,
+    name: "FT4T",
     color: "blue"
-  }, {
-    i: 2,
-    c: 2,
-    d: 2,
-    name: "GANG",
-    color: "red"
-  }, {
-    i: 3,
-    c: 3,
-    d: 3,
-    name: "KING",
-    color: "goldenrod"
+  },
+  "ALLC": {
+    i: 1,
+    c: 1,
+    d: 1,
+    name: "ALLC",
+    color: "navy"
   }
-];
+};
 
-interact = function(agent) {
+Nature.prototype.populate = function(agent_profile) {
+  var name, number;
+  return this.agents = ((function() {
+    var k, results, results1;
+    results = [];
+    for (name in agent_profile) {
+      number = agent_profile[name];
+      results.push((function() {
+        results1 = [];
+        for (var k = 1; 1 <= number ? k <= number : k >= number; 1 <= number ? k++ : k--){ results1.push(k); }
+        return results1;
+      }).apply(this).map((function(_this) {
+        return function(n) {
+          return new Man(_this, strategies[name]);
+        };
+      })(this)));
+    }
+    return results;
+  }).call(this)).reduce(function(lhs, rhs) {
+    return lhs.concat(rhs);
+  });
+};
+
+Nature.prototype.cluster = function(where, what) {
+  var agent, block, hurdle, i, j, k, l, len, position, ref, ref1, ref2, x, y;
+  for (i = k = ref = this.agents.length - 1; ref <= 1 ? k <= 1 : k >= 1; i = ref <= 1 ? ++k : --k) {
+    if (!(what > Math.random())) {
+      j = Math.floor(Math.random() * (i + 1));
+      ref1 = [this.agents[j], this.agents[i]], this.agents[i] = ref1[0], this.agents[j] = ref1[1];
+    }
+  }
+  block = Math.sqrt(this.width * this.height / this.agents.length);
+  x = y = block / 2;
+  ref2 = this.agents;
+  for (position = l = 0, len = ref2.length; l < len; position = ++l) {
+    agent = ref2[position];
+    hurdle = Math.random();
+    agent.x = where > hurdle ? x : Math.floor(Math.random() * this.width);
+    agent.y = where > hurdle ? y : Math.floor(Math.random() * this.height);
+    if (x < this.width) {
+      x += block;
+    }
+    if (x > this.width) {
+      y += block;
+      x = block / 2;
+    }
+  }
+  return this.agents;
+};
+
+Nature.prototype.neighbourhood = function(agent) {
+  var k, len, neighbours, other, ref, ref1, ref2;
+  this.depth = Math.sqrt(this.width * this.height / this.agents.length) + 1;
+  neighbours = [];
+  ref = this.agents;
+  for (k = 0, len = ref.length; k < len; k++) {
+    other = ref[k];
+    if ((agent.x - other.space.depth < (ref1 = other.x) && ref1 < agent.x + other.space.depth) && (agent.y - other.space.depth < (ref2 = other.y) && ref2 < agent.y + other.space.depth)) {
+      neighbours.push(other);
+    }
+  }
+  return neighbours;
+};
+
+contest = function(agent) {
   var k, l, last_game, len, neighbour, neighbours, ref, round, rounds, scores;
-  agent.score = 5;
+  agent.score = 0;
   last_game = [];
-  rounds = 1;
-  neighbours = agent.space.neighbourhood(agent.x, agent.y);
+  rounds = 10;
+  neighbours = agent.space.neighbourhood(agent);
   for (k = 0, len = neighbours.length; k < len; k++) {
     neighbour = neighbours[k];
     for (round = l = 0, ref = rounds; 0 <= ref ? l <= ref : l >= ref; round = 0 <= ref ? ++l : --l) {
       last_game = [agent.play(neighbour, last_game), neighbour.play(agent, last_game)];
-      scores = gang_war(last_game);
+      scores = prisoners_dilemma(last_game);
       agent.score += scores[0];
     }
   }
@@ -631,11 +762,7 @@ interact = function(agent) {
   return agent;
 };
 
-tick = function(space) {
-  return console.log(space);
-};
-
-Agent.prototype.play = function(neighbour, last_game) {
+Man.prototype.play = function(neighbour, last_game) {
   if (last_game.length === 0) {
     return this.strategy.i;
   } else {
@@ -643,7 +770,7 @@ Agent.prototype.play = function(neighbour, last_game) {
   }
 };
 
-Agent.prototype.next_move = function(last_game) {
+Man.prototype.next_move = function(last_game) {
   if (last_game[1] === 1) {
     return this.strategy.c;
   } else {
@@ -653,15 +780,12 @@ Agent.prototype.next_move = function(last_game) {
 
 update = function(agent) {
   var max, neighbour, neighbours, winners;
-  neighbours = agent.space.neighbourhood(agent.x, agent.y);
+  neighbours = agent.space.neighbourhood(agent);
   max = neighbours.reduce(function(a, b) {
     return {
       score: Math.max(a.score, b.score)
     };
   });
-  if (agent.score === max || agent.strategy.i === 3) {
-    return agent;
-  }
   winners = (function() {
     var k, len, results;
     results = [];
@@ -674,9 +798,6 @@ update = function(agent) {
     return results;
   })();
   agent.strategy = winners[Math.floor(Math.random() * winners.length)].strategy;
-  if (agent.score < 0) {
-    agent.strategy = strategies[0];
-  }
   return agent;
 };
 
@@ -703,83 +824,120 @@ walk = function(agent) {
 
 agents = function(height, width) {
   var space;
-  space = new Space(height, width, [1985, 10, 5, 25]);
-  return space.cluster(1.0, 0.0);
+  space = new Nature(height, width, [250, 250, 250, 250, 250, 250, 250, 250]);
+  return space.cluster(1.0, 1.0);
 };
 
-module.exports = simulation = {
+module.exports = {
   agents: agents,
-  interact: interact,
-  update: update,
-  tick: tick
+  contest: contest,
+  update: update
 };
 
 d3 = require('d3');
 
-running = false;
+buffer = 50;
 
-height = window.innerHeight || 600;
+height = window.innerHeight - buffer || 600;
 
-width = window.innerWidth || 600;
+width = window.innerWidth - buffer || 600;
 
-space = null;
-
-game = window.location.search.match(/\?game=(.+)&?/);
-
-canvas = d3.select("#space").append("svg:svg").attr("height", height).attr("width", width).on("click", function() {
-  running = false;
-  return alert('Simulation stopped');
-});
-
-info = d3.select("#info").on("click", function() {
-  d3.select("#info p").style("display", "none");
-  return d3.select("#info h1").style("font-size", "1em");
-});
-
-populate = function() {
-  space = simulation.agents(height, width);
-  return canvas.selectAll("circle").data(space).enter().append("circle").style("fill", function(d) {
-    return d.strategy.color;
-  }).style("opacity", 0.5).attr("r", 8).attr("cx", function(d) {
-    return d.x;
-  }).attr("cy", function(d) {
-    return d.y;
-  });
-};
-
-populate();
-
-move = function() {
-  var circles;
-  circles = canvas.selectAll("circle");
-  return circles.each(function(d) {
-    return d = simulation.interact(d);
-  }).each(function(d) {
-    return d = simulation.update(d);
-  }).transition().duration(500).attr("cx", function(d) {
-    return d.x;
-  }).attr("cy", function(d) {
-    return d.y;
-  }).attr("r", function(d) {
-    if (d.strategy.i === 3) {
-      return 10;
-    } else {
-      return Math.max(3, d.score / 10);
+Nature.prototype.position = function(where, what) {
+  var agent, block, hurdle, i, j, k, l, len, position, ref, ref1, ref2, results, x, y;
+  for (i = k = ref = this.agents.length - 1; ref <= 1 ? k <= 1 : k >= 1; i = ref <= 1 ? ++k : --k) {
+    if (!(what > Math.random())) {
+      j = Math.floor(Math.random() * (i + 1));
+      ref1 = [this.agents[j], this.agents[i]], this.agents[i] = ref1[0], this.agents[j] = ref1[1];
     }
-  }).attr("title", function(d) {
-    return d.strategy.name + " - " + d.score;
-  }).style("fill", function(d) {
-    return d.strategy.color;
+  }
+  block = Math.sqrt(this.width * this.height / this.agents.length);
+  x = y = block / 2;
+  ref2 = this.agents;
+  results = [];
+  for (position = l = 0, len = ref2.length; l < len; position = ++l) {
+    agent = ref2[position];
+    hurdle = Math.random();
+    agent.x = where > hurdle ? x : Math.floor(Math.random() * this.width);
+    agent.y = where > hurdle ? y : Math.floor(Math.random() * this.height);
+    if (x < this.width) {
+      x += block;
+    }
+    if (x > this.width) {
+      y += block;
+      x = block / 2;
+    }
+    agent.x + buffer / 4;
+    results.push(agent.y + buffer / 4);
+  }
+  return results;
+};
+
+display = (function(_this) {
+  return function(target, params) {
+    var canvas, populate, runner, simulation, tick;
+    runner = false;
+    simulation = new Nature(height, width, params);
+    simulation.position(1.0, 0.0);
+    canvas = d3.select("#" + target).append("svg:svg").attr("height", height).attr("width", width).on("click", function() {
+      if (runner) {
+        clearInterval(runner);
+        return runner = false;
+      } else {
+        return runner = setInterval(function() {
+          return tick(simulation);
+        }, 1000);
+      }
+    });
+    tick = function(simulation) {
+      var circles;
+      circles = canvas.selectAll("circle");
+      return circles.each(function(d) {
+        return d = contest(d);
+      }).each(function(d) {
+        return d = update(d);
+      }).transition().duration(500).attr("cx", function(d) {
+        return d.x;
+      }).attr("cy", function(d) {
+        return d.y;
+      }).attr("title", function(d) {
+        return d.strategy.name + " - " + d.score;
+      }).style("fill", function(d) {
+        return d.strategy.color;
+      });
+    };
+    populate = function(simulation) {
+      return canvas.selectAll("circle").data(simulation.agents).enter().append("circle").style("fill", function(d) {
+        return d.strategy.color;
+      }).style("opacity", 0.5).attr("r", 7.5).attr("cx", function(d) {
+        return d.x;
+      }).attr("cy", function(d) {
+        return d.y;
+      });
+    };
+    return populate(simulation);
+  };
+})(this);
+
+window.onload = function() {
+  display('space', {
+    'ALLD': 1000,
+    'ALLC': 1000
+  });
+  display('pure-prisoners-dilemma', {
+    'ALLD': 1000,
+    'ALLC': 1000
+  });
+  return display('mixed-prisoners-dilemma', {
+    'ALLD': 250,
+    'SPRV': 250,
+    'ST4T': 250,
+    'DTAC': 250,
+    'CTAD': 250,
+    'FPRV': 250,
+    'FT4T': 250,
+    'ALLC': 250
   });
 };
-
-run = function() {
-  if (running !== false) {
-    return move();
-  }
-};
-
-setInterval(run, 500);
 
 
 },{"d3":2}],2:[function(require,module,exports){

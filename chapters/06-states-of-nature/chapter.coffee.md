@@ -81,7 +81,46 @@ In the next simulation, we will observe a Mixed Strategy Prisoner's Dilemma usin
 
 The introduction of mixed strategies into the Prisoner's Dilemma results in a vastly different outcome for the game.  In the initial generations, friendly and cooperative strategies (blues) are rapidly displaced by suspicious, perverse, and non-cooperative ones (yellows and reds).  After a handful of generations however, clusters of friendly tit for tat emerge. Gradually, these clusters begin displacing more and more of their surroundings until they eventually displace all non-cooperative strategies.  The State of Nature as a Mixed Strategy Prisoner's Dilemma is _not_ a war of against all.
 
-The dymaics of the MSPD are are subtle and counter-intuative. 
+The dymaics of the MSPD are are subtle and counter-intuative.  Sublte because the path of tit for tat's spred in an evolutionary model is determined by local interaction....
+
+Counter-intuative because that despite tit for tat becoming the evolitionary STABLE? strategy, at no stage does it outperform alternate stratgies in any single iteraction.  When a player using tit for tat interacts with another cooperating player, both cooperate and obtain the socially optimal - but equal - payoff.  Tit for Tat and Always Cooperate tie.  When interacting with non-cooperating players however, Tit for Tat loses by a small margin.  In the first round, the defector has the advantage but in subsequent rounds, Tit for Tat ties in mutual defection, or wins against a perverse strategy.
+
+As long as there are other cooperating strategies in the neighbourhood, Tit for Tat accrues the highest total payoff and is therefore adopted by other players....
+
+We can understand this local interaction better by considering a simplified slice of the simulation above.  In the first, we see an interaction of players using always defect (D), Tit for Tat (T), and always cooperate (C).  Assume for simplicity that a player's neighbouthood only extends to their nearest neighbour and we have the following local interaction:
+
+> D1 D2 T3 T4 C5 C6
+
+In the first round, Cs and Ts mutally cooperate with each other, the Ds mutually defect, while T1 unilaterally cooperates with D2.  If we assign some cardinal utility values (4,3,2,1) to the ordinal preferences (1,2,3,4) we see the following payoffs after the first round for those players who interacted with two others.
+
+> D2: 6, T1: 4, T4: 6, C5: 6
+
+In the second and subsequent rounds however, T3 and the Ds mutally defect while the others mutally cooperate.  The payoffs are now:
+
+> D2: 4, T3: 5, T4: 6, C5: 6
+
+The ordering of aggregate scores after a number of rounds will therefore be [^ordinal]:
+
+> D2 < T3 < T4 & C5
+
+[^ordinal]: At this stage, this simplified analysis is open to the objection that it unjustifiably mixes cardinal and ordinal preferences.  This objection is valid when 1) the differences in cardinal perferences are large and 2) the number of rounds played between updating strategies are few.  The objection is unwarranted when the opposite is the case.
+
+When players update their strategies after a number of rounds, D2 will copy T3 and T3 will copy T4.  T4 and C5 will not update their stratgies as they have the greatest aggregate payoff in their neighbourhoods.  The new local interaction will now look like:
+
+> D1 T2 T3 T4 C5 C6
+
+This process repeats itself and T slowly displaces D (see @alexrod for a better explaination).
+
+The gradual dominace of tit for tat is however, wholly dependent on small beach heads of the strategy.  Tit for tat requires some cooperative neighbours to survive and at least one similar neighbour for replication.  A single player using tit for tat in a neighbourhood of defectors will adopt their stratgies because it underperforms locally.  A single player using tit for tat in a neighbourhood of defectors and cooperators will first adopt the cooperation as a strategy but will then be displaced by defectors.
+
+How likely is a beachhead to form?  Very!!!
+
+--> results from 1000 simulations
+
+--> Summary thus far
+
+
+
 
 ## Introduction
 

@@ -1,7 +1,6 @@
 #
 # Copyright Dave Kinkead (C) 2016
 #
-chapter = chapters/06-states-of-nature/
 
 about:
 	@echo "Computational Philosophy: A Thesis"

@@ -165,6 +165,7 @@ Pure Strategy Prisoner's Dilemma. Click to start/stop.
 </figcaption>
 </figure>
 <p>The outcome of a PSPD overwhelming supports Hobbes' argument that the State of Nature is a war of all against all. From an initial state of equal strategies, defectors (in red) quickly out populates cooperators (blue). Thanks to the dynamics of local interaction, pockets of mutual cooperation remain but as neighbourhoods slowly change, these pockets also adjust their strategy to defection. Given these assumptions, Leviathan as a PSPD represents a valid argument.</p>
+<p>--&gt; results from 1000 simulations</p>
 <p>How plausible are these premises however....</p>
 <p>What about mixed strategies...</p>
 <p>We now introduce six additional mixed strategies based on the possible combinations of initial move, response to cooperation, and response to defection. In addition to always cooperating and always defecting, players can also adopt a <em>tit for tat</em> strategy, responding in kind based on the last interact, or a <em>perverse</em> strategy, taking the opposite action to the other players previous round moves. These four strategies can also be distinguished by their opening move by being <em>friendly</em> (cooperating) or <em>suspicious</em> (defecting). (See <span class="citation" data-cites="axelrod">(<span class="citeproc-not-found" data-reference-id="axelrod"><strong>???</strong></span>)</span> pxxx for a more detailed overview of these possibilities)</p>
@@ -177,6 +178,35 @@ Pure Strategy Prisoner's Dilemma. Click to start/stop.
 Mixed Strategy Prisoner's Dilemma. Click to start/stop.
 </figcaption>
 </figure>
+<p>The introduction of mixed strategies into the Prisoner's Dilemma results in a vastly different outcome for the game. In the initial generations, friendly and cooperative strategies (blues) are rapidly displaced by suspicious, perverse, and non-cooperative ones (yellows and reds). After a handful of generations however, clusters of friendly tit for tat emerge. Gradually, these clusters begin displacing more and more of their surroundings until they eventually displace all non-cooperative strategies. The State of Nature as a Mixed Strategy Prisoner's Dilemma is <em>not</em> a war of against all.</p>
+<p>The dymaics of the MSPD are are subtle and counter-intuative. Sublte because the path of tit for tat's spred in an evolutionary model is determined by local interaction....</p>
+<p>Counter-intuative because that despite tit for tat becoming the evolitionary STABLE? strategy, at no stage does it outperform alternate stratgies in any single iteraction. When a player using tit for tat interacts with another cooperating player, both cooperate and obtain the socially optimal - but equal - payoff. Tit for Tat and Always Cooperate tie. When interacting with non-cooperating players however, Tit for Tat loses by a small margin. In the first round, the defector has the advantage but in subsequent rounds, Tit for Tat ties in mutual defection, or wins against a perverse strategy.</p>
+<p>As long as there are other cooperating strategies in the neighbourhood, Tit for Tat accrues the highest total payoff and is therefore adopted by other players....</p>
+<p>We can understand this local interaction better by considering a simplified slice of the simulation above. In the first, we see an interaction of players using always defect (D), Tit for Tat (T), and always cooperate (C). Assume for simplicity that a player's neighbouthood only extends to their nearest neighbour and we have the following local interaction:</p>
+<blockquote>
+<p>D1 D2 T3 T4 C5 C6</p>
+</blockquote>
+<p>In the first round, Cs and Ts mutally cooperate with each other, the Ds mutually defect, while T1 unilaterally cooperates with D2. If we assign some cardinal utility values (4,3,2,1) to the ordinal preferences (1,2,3,4) we see the following payoffs after the first round for those players who interacted with two others.</p>
+<blockquote>
+<p>D2: 6, T1: 4, T4: 6, C5: 6</p>
+</blockquote>
+<p>In the second and subsequent rounds however, T3 and the Ds mutally defect while the others mutally cooperate. The payoffs are now:</p>
+<blockquote>
+<p>D2: 4, T3: 5, T4: 6, C5: 6</p>
+</blockquote>
+<p>The ordering of aggregate scores after a number of rounds will therefore be:<a href="#fn2" class="footnoteRef" id="fnref2"><sup>2</sup></a></p>
+<blockquote>
+<p>D2 &lt; T3 &lt; T4 &amp; C5</p>
+</blockquote>
+<p>When players update their strategies after a number of rounds, D2 will copy T3 and T3 will copy T4. T4 and C5 will not update their stratgies as they have the greatest aggregate payoff in their neighbourhoods. The new local interaction will now look like:</p>
+<blockquote>
+<p>D1 T2 T3 T4 C5 C6</p>
+</blockquote>
+<p>This process repeats itself and T slowly displaces D (see <span class="citation" data-cites="alexrod">(<span class="citeproc-not-found" data-reference-id="alexrod"><strong>???</strong></span>)</span> for a better explaination).</p>
+<p>The gradual dominace of tit for tat is however, wholly dependent on small beach heads of the strategy. Tit for tat requires some cooperative neighbours to survive and at least one similar neighbour for replication. A single player using tit for tat in a neighbourhood of defectors will adopt their stratgies because it underperforms locally. A single player using tit for tat in a neighbourhood of defectors and cooperators will first adopt the cooperation as a strategy but will then be displaced by defectors.</p>
+<p>How likely is a beachhead to form? Very!!!</p>
+<p>--&gt; results from 1000 simulations</p>
+<p>--&gt; Summary thus far</p>
 <h2 id="introduction">Introduction</h2>
 <p>Leviathan represents...</p>
 <p>Hobbes has been described as the proto-game theorist (by who?). And it's easy to see why. (explain). Many theorists have attempted to model Hobbes' account in a game theoretical mannor.</p>
@@ -215,7 +245,7 @@ Mixed Strategy Prisoner's Dilemma. Click to start/stop.
 <blockquote>
 <p>Outline Hobbes argument. Run though each premise and formalise it. Justify the premise. Bring in support from secondary sources.</p>
 </blockquote>
-<p>Leviathan<a href="#fn2" class="footnoteRef" id="fnref2"><sup>2</sup></a> is a .... What does is cover.... In it's simplest form however, it is an argument for .... It is a justification for why rational men should subjecate themselves completely to an absolute soveriegn - the Leviathan.</p>
+<p>Leviathan<a href="#fn3" class="footnoteRef" id="fnref3"><sup>3</sup></a> is a .... What does is cover.... In it's simplest form however, it is an argument for .... It is a justification for why rational men should subjecate themselves completely to an absolute soveriegn - the Leviathan.</p>
 <p>I take the argument to be this:</p>
 <ol type="1">
 <li>Peace is possible with either no government, limited government, or absolute government</li>
@@ -551,7 +581,8 @@ width = window.innerWidth - buffer || 600</code></pre>
 <hr />
 <ol>
 <li id="fn1"><p>I say plausible here because a stochastic simulation with infinite possible runs obviously cannot definiately prove the impossibility of cooperation.<a href="#fnref1">↩</a></p></li>
-<li id="fn2"><p>Hobbes makes similar arguments in .... I will be using the english version of Leviathan...why...<a href="#fnref2">↩</a></p></li>
+<li id="fn2"><p>At this stage, this simplified analysis is open to the objection that it unjustifiably mixes cardinal and ordinal preferences. This objection is valid when 1) the differences in cardinal perferences are large and 2) the number of rounds played between updating strategies are few. The objection is unwarranted when the opposite is the case.<a href="#fnref2">↩</a></p></li>
+<li id="fn3"><p>Hobbes makes similar arguments in .... I will be using the english version of Leviathan...why...<a href="#fnref3">↩</a></p></li>
 </ol>
 </section>
 <script>

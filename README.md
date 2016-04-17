@@ -1,22 +1,29 @@
 ---
-title: Democracy's Paradox
+title: Parsing Democracy - Computational Approaches to Political Philosophy
 author: Dave Kinkead
 email: d.kinkead@uq.edu.au
 status: PhD thesis draft
 license: All rights reserved
 ---
 
-So here's the thing.  I've just past my final thesis review and all I need to do now is submit.  The only problem is that I've lost all motivation.  Bugger.
+Computers are ubiquitous in our lives today.  Computer networks allow us to connect and communicate with billions of people around the planet in milli-seconds.  This connectedness is transforming they way people work.  For some, that means working remotely from a beach in Thailand or a ski slope in Austria.  For others, this connectedness is eroding job security as many functions from accounting to radiology are being outsourced to regions with lower wage costs.  Either way computers are transforming our work.
 
-On the bright side though, I've got a paper that's been getting rave feedback by colleagues is currently under review at the Journal of Political Philosophy having made it past a desk rejection.
+Computational approaches to investigation are also becoming more common place in academia.  Computational Biologists use mathematical models and computer simulation to study behavioural, biological, and social systems.
 
-So I now want to write the world's first computer executable philosophy thesis.  I've got three computational papers in various stages of drafts and have a bunch of ideas for more.  That means I can submit a thesis by partial publication which only requires chapters to be under review, along with additional commentary about the project.
+These disciplines use computers not to simply augment or streamline the processes, like wordprocessing or digitial distribution of work, but to transform methodologies - to do things are are simple not possible without computers.
 
-Here's what I think my thesis could look like.
+One area of academia that lags the rest is philosophy.  The use of mathematics and proof has long been part of analytic philosophy at least but the use of computer modelling and simulation is only nascent.  Computational philosophy as a disciple does not yet exist.
 
-## Introduction
+This is unfortunate for philosophy because there are many areas of the disciple, especially political and moral philosophy, that could benefit from embracing computational approaches.  Political philosophy for example, involves the study of complex systems with emergent properties like human societies and economies.  As such, experimental data is difficult to observe and causal inferences are difficult to make.  Unlike the physical sciences, the social scientist and philosopher cannot hold variables fixed, make precise interventions, or re-run experiments with ease.
 
-Commentary on my project and 1000 word summary of each paper.
+It is here that computational approaches to philosophy can help.  It can overcome the existing epistemic limitations found in traditional philosophy methods - analytic intractability, the inability to experiment, and the challenge of complexity and emergent behaviour.
+
+This thesis is both an argument for great use of computational methods in philosopy, as well as a demonstration of how it can be used.  In the proceding chapters, I offer multiple examples of computational approaches to political philosophy, each one a challenge to the claims of democratic authority. 
+
+This is also, I believe, the world's first computer executable philosophy thesis.
+
+
+Here's what I think my thesis could look like.....
 
   
 ## Philosophy & Simulation
@@ -111,7 +118,26 @@ Will this be enough to seriously challenge egalitarian justifications of democra
 
 ## States of Nature.  
 
-I demonstrate the (in)compatibility of assumptions about the nature of man made by Hobbes, Locke, & Rousseau.
+So far I've demonstrated that a number of justications of democracy are unsatisfactory.  That their premises don't entail their conclusion, that additional conditions found in actual democracy's undermine their conclusions, or simply that their premises are incompatible with each other.
+
+Yet even if these charges that I level stick, they may not be fatal.  That's because even though these instrumental justifications of democracy may no longer be sufficient to justificy democratic authority, they may still demonstrate that democracy has _some_ value.
+
+> Democracy is the worst form of government, except for all the others we've tried from time to time.  
+> -- Winston Churchill
+
+As Churchill's quip points out, simply because democracy is not perfect, doesn't mean it lacks value.  By itself, an account of democracy may be insufficient to entail the justification of democratic authority. If however, we reject the anarchist view that a state isn't essential, then we now have a vialble justification.
+
+  1. The state's authority is necessary
+  2. Democracy is the least worst form of government
+  3. Therefore democratic authority is justified.
+
+The most famous justification of the authority of the state then, would have to be Hobbe's Leviathan.  In it, he offers us a complex yet subtle argument for why it is rational people to submit to absolute power.  Men, Hobbes claims, share similar desires, the most fundamental of which is self-presevation.  But the goods that ensure self-presevation are scares which leads to competition.  Competition leads to conflict, as some men seek to take from others, which in turn leads to distrust.  As there are no moral constraints upon the pursuit of self-presevation in the state of nature, the rational man strikes first.  Power becomes the currency of self-presevation - both to protect oneself from others and advance one's own aims.  Compounding this arms race for more power is the presence of vainglorious men who seek power for its own sake, requiring even men of modest desires to pursue power in response.
+
+Competition, distrust, and glory means that the state of nature is a war of all against all where life is solitary, poor, nasty, brutish, and short.  Cooperation in the state of nature is _impossible_, and the only path out is but submitting to an absolute sovereign.  Absolute authority is _necessary_.
+
+Hobbes has been called the _proto-game theorist_ of politics.  His description of the state of nature has distinct similarities to the mathematics of the Prisoner's Dilemma and assurance games like the Stag Hunt.  Unsurprisingly, analysing Hobbes' Leviathan using game theory has become popular with contemporary political philosophers.  Despite the significant body of work however, the current literature is divided among many issues - what is the best game for analysing the argument?  Is the problem conflict or the emergence of coventants? And how accurately do these games describe Hobbes' arguments.
+
+In this chapter I take a different approach.  By using a evolutionary causal model, I demonstrate that usign game theory to model Hobbe's argument results in either a valid argument with implausible premises or plausible premises with an invalid form.  
 
 
 ## Conclusion.

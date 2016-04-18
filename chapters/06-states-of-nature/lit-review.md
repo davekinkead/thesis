@@ -127,8 +127,7 @@ Hardin, Russell. 1991. Hobbesian political order. Political Theory 19: 156–80.
 Boonin-Vail, David. 1994. Thomas Hobbes and the science of moral virtue. Cambridge: Cam-
 bridge University Press.
 
-## Slomp, Gabriella, and Manfredi La Manna. 1996. Hobbes, Harsanyi and the edge of the
-abyss. Canadian Journal of Politial Science 29: 47–70.
+## Slomp, Gabriella, and Manfredi La Manna. 1996. Hobbes, Harsanyi and the edge of theabyss. Canadian Journal of Politial Science 29: 47–70.
 
 Advocates for a chicken game.
 
@@ -187,3 +186,25 @@ Hoekstra, Kinch. 2007. Hobbes on the natural condition of mankind. In The Cambri
 > These models may also be viewed as modules that, once evolved, may be put together to form more complex interactions. Evolutionary games may be studied from a both a static and dynamic point of view. Static analysis of equilibria reveals a lot about the structure of the interaction, and it can be carried out at a level of generality that does not commit one to a particular dynamics. But dynamic analysis sometimes reveals complexities that are not immediately apparent from the study of equilibria. Dynamic analyses may be mathematically challenging. Computer simulations are always available as a tool, but in these simple game-theoretic models, analytic methods are also applicable.  http://rstb.royalsocietypublishing.org/content/364/1518/771.short
 
 - evolutonary models can deal with limited or bounded rationality of agent where as traditional static utility base game theory cannot.
+
+
+# Why Hobbes’ State of Nature is Best Modeled by an Assurance Game
+M Moehler - Utilitas, 2009 - Cambridge Univ Press
+
+A paper to reconstruct Hobbes using game theory, not to critique him.
+
+> Modern social philosophy has been strongly influenced by the prisoner’s dilemma (PD) game. p297
+
+> The dilemma from the perspective of social philosophy is that it is never rational to cooperate in a (one-shot) PD game. Instead, defection is the strictly dominant strategy. p297
+
+> I argue that if one closely follows Hobbes’ line of reasoning in Leviathan, in particular his distinction between the second and the third law of nature, and the logic of his contractarian theory, then Hobbes’ state of nature is best translated into the language of game theory by an assurance game. p298
+
+> The one- shot PD game can model the interaction of Fooles, who misconstrue the game in the state of nature due to their short-sightedness. The assurance dilemma game can model the interaction of Fooles with prudent individuals. p298
+
+> According to Hobbes, the sovereign must exclude free riders from the cooperative framework, or even take their lives, if they are detected. p299
+
+> My aim is only to translate Hobbes’ state of nature argument, as closely as possible, into the language of standard game theory. p303
+
+Moehler is modelling how men behave in the state of nature and infering what actions the Leviathan must take.
+
+> In game-theoretic terms, the sovereign is assumed to play a grim strategy with the citizens once society is established. p299

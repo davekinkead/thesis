@@ -6,6 +6,10 @@ status: Rough Outline
 license: CC-BY-SA-NC
 ---
 
+- computational approaches have much to offer philosophy because they overcome the epistemic limitations associated with complexity, intractability, and emergence.
+
+- augmented argumentation offers additional benefits because it overcomes the key methodological challenges of simulation, namely reproducability and reliability.
+
 Computers are ubiquitous in our lives today.  Computer networks allow us to connect and communicate with billions of people around the planet in milli-seconds.  This connectedness is transforming they way people work.  For some, that means working remotely from a beach in Thailand or a ski slope in Austria.  For others, this connectedness is eroding job security as many functions from accounting to radiology are being outsourced to regions with lower wage costs.  Either way computers are transforming our work.
 
 Computational approaches to investigation are also becoming more common place in academia.  Computational Biologists use mathematical models and computer simulation to study behavioural, biological, and social systems.
@@ -17,6 +21,10 @@ One area of academia that lags the rest is philosophy.  The use of mathematics a
 This is unfortunate for philosophy because there are many areas of the disciple, especially political and moral philosophy, that could benefit from embracing computational approaches.  Political philosophy for example, involves the study of complex systems with emergent properties like human societies and economies.  As such, experimental data is difficult to observe and causal inferences are difficult to make.  Unlike the physical sciences, the social scientist and philosopher cannot hold variables fixed, make precise interventions, or re-run experiments with ease.
 
 It is here that computational approaches to philosophy can help.  It can overcome the existing epistemic limitations found in traditional philosophy methods - analytic intractability, the inability to experiment, and the challenge of complexity and emergent behaviour.
+
+Segway to political philosophy
+
+What are the key problems in democracy - making causal claims
 
 This thesis is both an argument for great use of computational methods in philosopy, as well as a demonstration of how it can be used.  In the proceding chapters, I offer multiple examples of computational approaches to political philosophy, each one a challenge to the claims of democratic authority. 
 
@@ -32,6 +40,9 @@ Methodology. A lit review and justification of computational approaches to polit
 
 
 ## A New Challenge to the Jury Theorem
+
+
+
 
 This chapter introduces a new challenge to the Jury Theorem.  Condorcet's Jury Theorem (CJT) proves that the likelihood of a simple majority vote on some issue being correct increases to certainty as the number of voters increases to infinity, assuming that the average voter competence is better than 50%.
 

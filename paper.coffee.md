@@ -1,8 +1,8 @@
 ---
 title: What can student results tell us about school performance?
-author: Dave Kinkead
+author: "by -----"
 email: d.kinkead@uq.edu.au
-status: PESA draft
+status: JPS Submission
 bibliography: /Users/dave/Dropbox/Research/readings/.library.bibtex
 csl: https://raw.githubusercontent.com/citation-style-language/styles/master/apa.csl
 ---

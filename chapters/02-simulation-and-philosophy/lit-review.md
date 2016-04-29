@@ -1,5 +1,44 @@
 # Lit Review
 
+
+## Who is a Modeler?, British Journal for Philosophy of Science, 58, 207-233.
+
+@Weisberg
+
+> I argue that modeling can be distinguished from other forms of theorizing by the procedures modelers use to represent and to study real-world phenomena: indirect representation and analysis. This differentiation between modelers and non-modelers is one component of the larger project of understanding the practice of modeling, its distinctive features, and the the strategies of abstraction and idealization it employs.
+
+> Characterizing modeling as a distinct kind of theorizing is the main subject of this paper. p3
+
+> I contend that there are important distinctions to be made among the differ- ent strategies of theorizing. One of these strategies involves modeling, but there is at least one other as well: what I will call abstract direct repre- sentation (ADR). p3
+
+> Modeling, I will argue, is the indirect theoretical investigation of a real world phenomenon using the model. p4
+
+> This happens in three stages. In the first stage, a theorist constructs a model. In the second, she analyzes, refines, and further articulates the properties and dynamics of the model. Finally, in the third stage, she assesses the relationship between the model and the world if such an assessment is appropriate. If the model is sufficiently similar to the world, then the analysis of the model is also, indirectly, an analysis of the properties of the real world phenomenon. Hence modeling involves indi- rect representation and analysis of real world phenomena via the mediation of models. p4
+
+
+
+## Models for Modelling
+
+@weisberg2008
+
+> This paper offers a new account of both concrete and mathematical models, with special emphasis on the intentions of theorists, which are necessary for evaluating the model-world relationship during the practice of modeling. Although mathematical models form the basis of most of contemporary modeling, my discussion begins with more traditional, concrete models such as the San Francisco Bay model.
+
+## Simulation and Similarity: Using Models to Understand the World (Oxford Studies in Philosophy of Science)
+ 
+Weisberg, Michael  
+Oxford University Press: Oxford, 2012  
+ISBN 978-0199933662 (pb)  
+
+> First he distinguishes three basic types of modelling and models – concrete, mathematical, and computational modelling (Chapter 2)
+
+> with Chapter 7 where he advocates modeling without a specific target, and urging the reader to think about generalized modeling, hypothetical modeling, and targetless modeling more thoroughly.
+
+> all types of idealization mentioned in Chapter 6 – the ‘Galilean idealization’ towards simplification, the ‘minimalist idealization’ towards core causality, and ‘multiple models idealization’ towards analytical subsets and synthetic relations thereafter – are manifestations of gaps between a model and its supposed target within the same do-main of models and modelling. 
+
+> identify the features of these systems that were most sailent to to their investigations @weisberg2013 p4
+
+> CH4 models are interpreted structures
+
 ## SEP: Computer Simulations in Science
 
 @InCollection{sep-simulations-science,

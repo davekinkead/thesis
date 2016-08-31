@@ -2,7 +2,7 @@
 title: What does student performance tell us about school effectiveness?
 author: Dave Kinkead
 email: d.kinkead@uq.edu.au
-status: proof-of-concept
+status: journal submission
 license: CC BY SA
 ---
 

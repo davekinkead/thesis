@@ -86,7 +86,7 @@ Strengths, doesn't require rational choice - can deal with irrationality (passio
 
 weaknesses.  This misses important interaction that can be found in ...
 
-More recently, agent based approaches to game theoretic analysis have emerged (cite who)  @axelrod ... @skrymms 
+More recently, agent based approaches to game theoretic analysis have emerged (cite who)  @axelrod ... @skryms 
 
 What are the advantages of agent based approaches.
 
@@ -335,7 +335,7 @@ Another approach to modelling Leviathan is to use a Stag Hunt. Who. Explain. als
 > First, the ‘evolution’ treated by evolutionary game theory need not be biological evolution. ‘Evolution’ may, in this context, often be understood as cultural evolution, where this refers to changes in beliefs and norms over time. Second, the rationality assumptions underlying evolutionary game theory are, in many cases, more appropriate for the modelling of social systems than those assumptions underlying the traditional theory of games. Third, evolutionary game theory, as an explicitly dynamic theory, provides an important element missing from the traditional theory.  SEP    
 
 
-> If  two  people  cooperate  in  prisoner’s  dilemma,  each  is choosing less rather than more. In prisoner’s dilemma, there is a conflict between individual rationality and mutual benefit @skrymms2004 p3
+> If  two  people  cooperate  in  prisoner’s  dilemma,  each  is choosing less rather than more. In prisoner’s dilemma, there is a conflict between individual rationality and mutual benefit @skryms2004 p3
 
 
 

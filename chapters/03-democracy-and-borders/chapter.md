@@ -19,7 +19,7 @@ csl: https://raw.githubusercontent.com/citation-style-language/styles/master/jou
 !! Hugh's feedback
 
 - more clarity on how instrumental accounts work.  set up the target.
-- compare my methodolgy to skrymms.
+- compare my methodolgy to skryms.
 - clarify naive voting.
 
 - good applied conclusions to flesh out.  flag these points.

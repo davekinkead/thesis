@@ -1,5 +1,5 @@
 ---
-title: "Parsing Democracy: Computational Approaches to Political Philosophy"
+title: "Argumentum in Silico: Computational Approaches to Philosophy"
 author: Dave Kinkead
 email: d.kinkead@uq.edu.au
 status: PhD thesis draft
@@ -19,17 +19,18 @@ license: CC-BY-NC-SA
 
 ## Abstract
 
-lorem ipsom
+This is an argument about method.  I am proposing a new computational philosophical methodology - _argumentum in silico_.  Modelling has been a part of philosophy since the beginning; simulation since computers were available.
+
+But rather than trying to use simulations to support or suppliment arguments, I use simulations _as_ argument.
 
 ## Table of Contents
 
  1. [Introduction](chapters/01-introduction/)
- 2. Simulation and Philosophy
- 3. Literate Programming and Augmented Argument
- 4. [Challenging the Jury Theory](chapters/03-questioning-the-jury-theory)
- 5. [Instrumental Conflict](chapters/04-instrumental-conflict)
- 6. Egalitarianism and Inequaltiy
- 7. [States of Nature](chapters/06-states-of-nature)
- 8. Conclusion
+ 2. [On Method](chapters/02-on-method)
+ 3. [Argumentum in Silico](chapters/03-argumentum-in-silico)
+ 4. [Democracy and Borders](chapters/04-democracy-and-borders)
+ 5. [States of Nature](chapters/05-states-of-nature)
+ 6. [School Performance](chapters/06-school-performance)
+ 7. [Is this really philosophy?](chapters/07-conclusion)
 
 </section>

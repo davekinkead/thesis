@@ -1,6 +1,9 @@
 # Lit Review
 
 
+
+
+
 ## Who is a Modeler?, British Journal for Philosophy of Science, 58, 207-233.
 
 @Weisberg
@@ -38,6 +41,7 @@ ISBN 978-0199933662 (pb)
 > identify the features of these systems that were most sailent to to their investigations @weisberg2013 p4
 
 > CH4 models are interpreted structures
+
 
 ## SEP: Computer Simulations in Science
 
@@ -245,6 +249,50 @@ Emergence
 
 
 ---
+
+@book{Winsberg2010-WINSIT-2,
+  year = {2010},
+  author = {Eric B. Winsberg},
+  publisher = {The University of Chicago Press},
+  title = {Science in the Age of Computer Simulation}
+}
+
+
+> Introduction -- Sanctioning models : theories and their scope -- Methodology for a virtual world -- A tale of two methods -- When theories shake hands -- Models of climate : values and uncertainties -- Reliability without truth -- Conclusion.
+
+---
+
+@article{Morrison2009-MORMMA-2,
+  journal = {Philosophical Studies},
+  title = {Models, Measurement and Computer Simulation: The Changing Face of Experimentation},
+  number = {1},
+  pages = {33--57},
+  publisher = {Springer},
+  author = {Margaret Morrison},
+  year = {2009},
+  volume = {143}
+}
+
+> The paper presents an argument for treating certain types of computer simulation as having the same epistemic status as experimental measurement. While this may seem a rather counterintuitive view it becomes less so when one looks carefully at the role that models play in experimental activity, particularly measurement. I begin by discussing how models function as “measuring instruments” and go on to examine the ways in which simulation can be said to constitute an experimental activity. By focussing on the connections between models and their various functions, simulation and experiment one can begin to see similarities in the practices associated with each type of activity. Establishing the connections between simulation and particular types of modelling strategies and highlighting the ways in which those strategies are essential features of experimentation allows us to clarify the contexts in which we can legitimately call computer simulation a form of experimental measurement. 
+
+---
+
+@article{Winsberg2003-WINSEM,
+  pages = {105--125},
+  journal = {Philosophy of Science},
+  number = {1},
+  volume = {70},
+  publisher = {University of Chicago Press},
+  title = {Simulated Experiments: Methodology for a Virtual World},
+  year = {2003},
+  author = {Eric Winsberg}
+}
+
+> This paper examines the relationship between simulation and experiment. Many discussions of simulation, and indeed the term "numerical experiments," invoke a strong metaphor of experimentation. On the other hand, many simulations begin as attempts to apply scientific theories. This has lead many to characterize simulation as lying between theory and experiment. The aim of the paper is to try to reconcile these two points of viewto understand what methodological and epistemological features simulation has in common with experimentation, while at the same time keeping a keen eye on simulation's ancestry as a form of scientific theorizing. In so doing, it seeks to apply some of the insights of recent work on the philosophy of experiment to an aspect of theorizing that is of growing philosophical interest: the construction of local models. 
+
+---
+
+
 
 Alexander, Joshua, and Weinberg, Jonathan. 201X. “The “Unreliability” of Epistemic Intuitions.” In Current Controversies in Experimental Philosophy, edited by Edouard Machery and Elizabeth O’Neill. London: Routledge.
 

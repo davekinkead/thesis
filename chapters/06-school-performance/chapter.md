@@ -1,24 +1,20 @@
 ---
 title: What can student results tell us about school performance?
-author: "by -----"
+author: Dave Kinkead
 email: d.kinkead@uq.edu.au
-status: JPS Submission
+status: PhD Chapter
 bibliography: /Users/dave/Dropbox/Research/readings/.library.bibtex
-csl: https://raw.githubusercontent.com/citation-style-language/styles/master/apa.csl
 ---
 
-> Most people would accept the claim that schooling somehow affects student achievement.  After all, as a society we invest significant amounts of time and money in various endeavours trying to measure exactly this.  Measuring the impact of schooling on student achievement however, faces a significant epistemic challenge.  Because we can't measure the causal impact of schooling on student achievement directly, we can't know this causal impact with certainty.  Instead, we _infer_ the causal impact of schooling on student achievement by way of proxy measures such as student results.  If student results improve, then we can _infer_ that some aspect of schooling _caused_ this...perhaps.
-
-> How warranted is this inference from student results to school performance?  With the aid of computer simulation, I investigate the robustness of this inference mechanism in a variety of common scenarios.  By eliminating errors and abstracting away confounders, computer simulation allows us to create the ideal conditions from which to assess the quality of this inference.
-
-> I show that under a variety of common scenarios, the inference from student results to school performance is not warranted - even under ideal conditions.  Because if we can't infer school performance reliably in ideal conditions, then we certainly can't do so in the non-ideal conditions of the real world.  This article advances the literature by demonstrating in inherent difficulty, and perhaps even pointlessness, of trying to infer _school performance from student results_.
 
 
 ## Introduction
 
-It seems obvious that schooling somehow affects student achievement.  However we measure the academic achievement of students - whether by _declarative knowledge_, the learning and appropriate recall of particular facts; or by _procedural knowledge_, the application of skill and know-how - few people, if any, would claim that school policies, pedagogy, and environment have _no_ causal impact on students.  After all, as a society we invest significant amounts of time and money in various endeavours like the National Assessment Program - Literacy and Numeracy (NAPLAN), Trends in International Mathematics and Science Study (TIMSS), and the Programme for International Student Assessment (PISA), trying to measure exactly this.
+Let's begin with a simple claim, one that I hope is incontrovertible --  that schooling somehow affects student results.  However we measure the academic achievement of students - whether by _declarative knowledge_, the learning and appropriate recall of particular facts; or by _procedural knowledge_, the application of skill and know-how -- few people, if any, would claim that school policies, pedagogy, and environment have _no_ causal impact on students.  
 
-Measuring school performance is therefore very important.  Parents want to know which school will best educate their children; principals want to know if their leadership makes a difference; politicians and bureaucrats want to know if their policies work.  To do this, we use a range of metrics: Standardised literacy and numeracy tests like NAPLAN; the Peabody Picture Vocabulary Test [@dunn1965]; IQ scores or the Wechsler Intelligence Scale for Children (WISC-IV) [@wechsler2003].  None of these assessments however, measure school performance directly.  Instead, they rely on a proxy measure - student results - to _infer_ school performance.  Thus, when student results improve, we can _infer_ that some aspect of schooling _caused_ this; that _school performance_ has improved [^def-performance].  
+So it follows that measuring school performance is important.  Parents want to know which school will best educate their children; principals want to know if their leadership makes a difference; politicians and bureaucrats want to know if their policies work and public resources are invested appropriately.  As a society we invest significant amounts of time and money in various endeavours like the National Assessment Program - Literacy and Numeracy (NAPLAN), Trends in International Mathematics and Science Study (TIMSS), and the Programme for International Student Assessment (PISA), trying to measure exactly this.
+
+To do this, we use a range of metrics: Standardised literacy and numeracy tests like NAPLAN; the Peabody Picture Vocabulary Test [@dunn1965]; IQ scores or the Wechsler Intelligence Scale for Children (WISC-IV) [@wechsler2003].  None of these assessments however, measure school performance directly.  Instead, they rely on a proxy measure - student results - to _infer_ school performance.  Thus, when student results improve, we can _infer_ that some aspect of schooling _caused_ this; that _school performance_ has improved [^def-performance].  
 
 Perhaps.
 

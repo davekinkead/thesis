@@ -3,5 +3,8 @@
     "browserify": "^13.0.0",
     "coffeeify": "^2.0.1",
     "d3": "^3.5.16"
+  },
+  "scripts": {
+    "build": "build.js"
   }
 }

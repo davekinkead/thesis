@@ -6,9 +6,19 @@ status: Rough Outline
 license: CC-BY-SA-NC
 ---
 
-- computational approaches have much to offer philosophy because they overcome the epistemic limitations associated with complexity, intractability, and emergence.
 
-- augmented argumentation offers additional benefits because it overcomes the key methodological challenges of simulation, namely reproducability and reliability.
+> "I see, my dear Theaetetus, that Theodorus had a true insight into your nature when he said that you were a philosopher, for wonder is the feeling of a philosopher, and philosophy begins in wonder." 
+> -- Theaeteus 155 d (tr. Benjamin Jowett)
+
+> “Philosophy begins in wonder. And at the end when philosophic thought has done its best the wonder remains.” 
+> -- AN Whitehead, Modes of Thought, p168
+
+
+Philosophy begins with wonder.  And at the beginning of philosophy, philosophy began with wonder.
+
+For me at least, this is still true.  I still experience the intellectual curisoity about the world that drives me to ask why....
+
+But I also experience a different kind of wonder, one about philosophy itself - philosophy as a discipling and philosophy as a method.  Why doesn't philosohy embrace technology more?
 
 Computers are ubiquitous in our lives today.  Computer networks allow us to connect and communicate with billions of people around the planet in milli-seconds.  This connectedness is transforming they way people work.  For some, that means working remotely from a beach in Thailand or a ski slope in Austria.  For others, this connectedness is eroding job security as many functions from accounting to radiology are being outsourced to regions with lower wage costs.  Either way computers are transforming our work.
 
@@ -16,9 +26,9 @@ Computational approaches to investigation are also becoming more common place in
 
 These disciplines use computers not to simply augment or streamline the processes, like wordprocessing or digitial distribution of work, but to transform methodologies - to do things are are simple not possible without computers.
 
-One area of academia that lags the rest is philosophy.  The use of mathematics and proof has long been part of analytic philosophy at least but the use of computer modelling and simulation is only nascent.  Computational philosophy as a disciple does not yet exist.
+Yet within the academy, philosophy remains a laggard.  The use of mathematics and proof has long been part of analytic philosophy at least but the use of computer modelling and simulation is only nascent.  Computational philosophy as a disciple does not yet exist.
 
-This is unfortunate for philosophy because there are many areas of the disciple, especially political and moral philosophy, that could benefit from embracing computational approaches.  Political philosophy for example, involves the study of complex systems with emergent properties like human societies and economies.  As such, experimental data is difficult to observe and causal inferences are difficult to make.  Unlike the physical sciences, the social scientist and philosopher cannot hold variables fixed, make precise interventions, or re-run experiments with ease.
+This is unfortunate for philosophy because there are many areas of the disciple, especially political, moral, and social philosophy, that could benefit from embracing computational approaches.  Political philosophy for example, involves the study of complex systems with emergent properties like human societies and economies.  As such, experimental data is difficult to observe and causal inferences are difficult to make.  Unlike the physical sciences, the social scientist and philosopher cannot hold variables fixed, make precise interventions, or re-run experiments with ease.
 
 It is here that computational approaches to philosophy can help.  It can overcome the existing epistemic limitations found in traditional philosophy methods - analytic intractability, the inability to experiment, and the challenge of complexity and emergent behaviour.
 
@@ -26,34 +36,21 @@ Segway to political philosophy
 
 What are the key problems in democracy - making causal claims
 
-This thesis is both an argument for great use of computational methods in philosopy, as well as a demonstration of how it can be used.  In the proceding chapters, I offer multiple examples of computational approaches to political philosophy, each one a challenge to the claims of democratic authority. 
+This thesis proposes and attempts to justify a new computational methodology for philosophy - _argumentum in silico_. 
+
+This thesis is both an argument for greater use of computational methods in philosopy, as well as a demonstration of how it can be used.  In the proceding chapters, I offer multiple examples of computational approaches to political philosophy, each one a challenge to the claims of democratic authority. 
 
 This is also, I believe, the world's first computer executable philosophy thesis.
 
 
 Here's what I think my thesis could look like.....
 
-  
-## Philosophy & Simulation
 
-Methodology. A lit review and justification of computational approaches to political philosophy.
-
-
-## A New Challenge to the Jury Theorem
+## Philsophy & Method
 
 
 
-
-This chapter introduces a new challenge to the Jury Theorem.  Condorcet's Jury Theorem (CJT) proves that the likelihood of a simple majority vote on some issue being correct increases to certainty as the number of voters increases to infinity, assuming that the average voter competence is better than 50%.
-
-Demonstrating that the assumption of voter competence holds true in real life proves difficult however.  Ascertaining voter competence empirically requires some independent way of determining the what correct choice is in actual fact.  Yet if this can be known independently, using CJT to justify democracy becomes redundant.  Instead, voter competence is simply presumed by appealing to the the Principle of Charity.  After all, if randomly flipping a coin yields at 50% likelihood of being correct on a binary issue, the addition of even a modicum of reason should increase that likelihood at least a little.
-
-Using computer simulation, I advance Goodin & Estlund's argument for the persuasiveness of democratic majorities and show that diversity of voter competence undermines the Principle of Charity.  To have any plausibility, the PoC should apply equally to indistinguishable polities.  This is not the case however.  Even if the assumptions of CJT hold true for one polity, it is unlikely they hold true for other indistinguishable polities.  Thus, we have even less reason to support the Principle of Charity than previously thought.
-
-(Alternatively, I show whenever choices about inclusion need to be made, CDT assumptions don't necessarily hold internally even when they are true externally.)
-
-
-## Instrumental Incompatibility. 
+## Democracy and Borders 
 
 
 Many accounts of democracy justify political authority by reference to the outcomes of democratic processes.  Democracy brings about good things.  These outcomes might be judged according to some content independent criteria - that say, democracy tracks the truth.  They might be judged according to some content relative criteria - that democracy maximises individual preferences. Or they might be judged according to some content-indifferent criteria - that democracy improves the moral character of its citizens.
@@ -74,6 +71,65 @@ The all-affected principle says that anyone affected by some law should have a s
 
 Thus, no existing democratic state is justifiable on instrumental grounds, and it is doubtful that any democratic state could be.  Not only is it the case that the actual conditions necessary for instrumental accounts to be entailed are not realised, but the inability to identify the most appropriate account of inclusion means instrumental justifications of democratic authority are not internally coherent.
 
+
+
+## States of Nature
+
+So far I've demonstrated that a number of justications of democracy are unsatisfactory.  That their premises don't entail their conclusion, that additional conditions found in actual democracy's undermine their conclusions, or simply that their premises are incompatible with each other.
+
+Yet even if these charges that I level stick, they may not be fatal.  That's because even though these instrumental justifications of democracy may no longer be sufficient to justificy democratic authority, they may still demonstrate that democracy has _some_ value.
+
+> Democracy is the worst form of government, except for all the others we've tried from time to time.  
+> -- Winston Churchill
+
+As Churchill's quip points out, simply because democracy is not perfect, doesn't mean it lacks value.  By itself, an account of democracy may be insufficient to entail the justification of democratic authority. If however, we reject the anarchist view that a state isn't essential, then we now have a vialble justification.
+
+  1. The state's authority is necessary
+  2. Democracy is the least worst form of government
+  3. Therefore democratic authority is justified.
+
+The most famous justification of the authority of the state then, would have to be Hobbe's Leviathan.  In it, he offers us a complex yet subtle argument for why it is rational people to submit to absolute power.  Men, Hobbes claims, share similar desires, the most fundamental of which is self-presevation.  But the goods that ensure self-presevation are scares which leads to competition.  Competition leads to conflict, as some men seek to take from others, which in turn leads to distrust.  As there are no moral constraints upon the pursuit of self-presevation in the state of nature, the rational man strikes first.  Power becomes the currency of self-presevation - both to protect oneself from others and advance one's own aims.  Compounding this arms race for more power is the presence of vainglorious men who seek power for its own sake, requiring even men of modest desires to pursue power in response.
+
+Competition, distrust, and glory means that the state of nature is a war of all against all where life is solitary, poor, nasty, brutish, and short.  Cooperation in the state of nature is _impossible_, and the only path out is but submitting to an absolute sovereign.  Absolute authority is _necessary_.
+
+Hobbes has been called the _proto-game theorist_ of politics.  His description of the state of nature has distinct similarities to the mathematics of the Prisoner's Dilemma and assurance games like the Stag Hunt.  Unsurprisingly, analysing Hobbes' Leviathan using game theory has become popular with contemporary political philosophers.  Despite the significant body of work however, the current literature is divided among many issues - what is the best game for analysing the argument?  Is the problem conflict or the emergence of coventants? And how accurately do these games describe Hobbes' arguments.
+
+In this chapter I take a different approach.  By using a evolutionary causal model, I demonstrate that usign game theory to model Hobbe's argument results in either a valid argument with implausible premises or plausible premises with an invalid form.  
+
+
+## School Performance
+
+
+
+> Most people would accept the claim that schooling somehow affects student achievement.  After all, as a society we invest significant amounts of time and money in various endeavours trying to measure exactly this.  Measuring the impact of schooling on student achievement however, faces a significant epistemic challenge.  Because we can't measure the causal impact of schooling on student achievement directly, we can't know this causal impact with certainty.  Instead, we _infer_ the causal impact of schooling on student achievement by way of proxy measures such as student results.  If student results improve, then we can _infer_ that some aspect of schooling _caused_ this...perhaps.
+
+> How warranted is this inference from student results to school performance?  With the aid of computer simulation, I investigate the robustness of this inference mechanism in a variety of common scenarios.  By eliminating errors and abstracting away confounders, computer simulation allows us to create the ideal conditions from which to assess the quality of this inference.
+
+> I show that under a variety of common scenarios, the inference from student results to school performance is not warranted - even under ideal conditions.  Because if we can't infer school performance reliably in ideal conditions, then we certainly can't do so in the non-ideal conditions of the real world.  This article advances the literature by demonstrating in inherent difficulty, and perhaps even pointlessness, of trying to infer _school performance from student results_.
+
+
+
+
+
+
+## Conclusion.
+
+And that's that. I may have to change the authority stuff to democracy but why not?
+
+---
+
+
+Cut this below...
+
+## A New Challenge to the Jury Theorem
+
+This chapter introduces a new challenge to the Jury Theorem.  Condorcet's Jury Theorem (CJT) proves that the likelihood of a simple majority vote on some issue being correct increases to certainty as the number of voters increases to infinity, assuming that the average voter competence is better than 50%.
+
+Demonstrating that the assumption of voter competence holds true in real life proves difficult however.  Ascertaining voter competence empirically requires some independent way of determining the what correct choice is in actual fact.  Yet if this can be known independently, using CJT to justify democracy becomes redundant.  Instead, voter competence is simply presumed by appealing to the the Principle of Charity.  After all, if randomly flipping a coin yields at 50% likelihood of being correct on a binary issue, the addition of even a modicum of reason should increase that likelihood at least a little.
+
+Using computer simulation, I advance Goodin & Estlund's argument for the persuasiveness of democratic majorities and show that diversity of voter competence undermines the Principle of Charity.  To have any plausibility, the PoC should apply equally to indistinguishable polities.  This is not the case however.  Even if the assumptions of CJT hold true for one polity, it is unlikely they hold true for other indistinguishable polities.  Thus, we have even less reason to support the Principle of Charity than previously thought.
+
+(Alternatively, I show whenever choices about inclusion need to be made, CDT assumptions don't necessarily hold internally even when they are true externally.)
 
 ## Egalitarianism and Inequality
 
@@ -127,30 +183,7 @@ Finally, we add influence to the model.  By influence I mean informal political 
 
 Will this be enough to seriously challenge egalitarian justifications of democracy? I have a strong hunch that it will undermine the application of these accounts to our actual democracies that use voting rather than sorting and have concentrated informal power structures.
 
-## States of Nature.  
 
-So far I've demonstrated that a number of justications of democracy are unsatisfactory.  That their premises don't entail their conclusion, that additional conditions found in actual democracy's undermine their conclusions, or simply that their premises are incompatible with each other.
+  - computational approaches have much to offer philosophy because they overcome the epistemic limitations associated with complexity, intractability, and emergence.
 
-Yet even if these charges that I level stick, they may not be fatal.  That's because even though these instrumental justifications of democracy may no longer be sufficient to justificy democratic authority, they may still demonstrate that democracy has _some_ value.
-
-> Democracy is the worst form of government, except for all the others we've tried from time to time.  
-> -- Winston Churchill
-
-As Churchill's quip points out, simply because democracy is not perfect, doesn't mean it lacks value.  By itself, an account of democracy may be insufficient to entail the justification of democratic authority. If however, we reject the anarchist view that a state isn't essential, then we now have a vialble justification.
-
-  1. The state's authority is necessary
-  2. Democracy is the least worst form of government
-  3. Therefore democratic authority is justified.
-
-The most famous justification of the authority of the state then, would have to be Hobbe's Leviathan.  In it, he offers us a complex yet subtle argument for why it is rational people to submit to absolute power.  Men, Hobbes claims, share similar desires, the most fundamental of which is self-presevation.  But the goods that ensure self-presevation are scares which leads to competition.  Competition leads to conflict, as some men seek to take from others, which in turn leads to distrust.  As there are no moral constraints upon the pursuit of self-presevation in the state of nature, the rational man strikes first.  Power becomes the currency of self-presevation - both to protect oneself from others and advance one's own aims.  Compounding this arms race for more power is the presence of vainglorious men who seek power for its own sake, requiring even men of modest desires to pursue power in response.
-
-Competition, distrust, and glory means that the state of nature is a war of all against all where life is solitary, poor, nasty, brutish, and short.  Cooperation in the state of nature is _impossible_, and the only path out is but submitting to an absolute sovereign.  Absolute authority is _necessary_.
-
-Hobbes has been called the _proto-game theorist_ of politics.  His description of the state of nature has distinct similarities to the mathematics of the Prisoner's Dilemma and assurance games like the Stag Hunt.  Unsurprisingly, analysing Hobbes' Leviathan using game theory has become popular with contemporary political philosophers.  Despite the significant body of work however, the current literature is divided among many issues - what is the best game for analysing the argument?  Is the problem conflict or the emergence of coventants? And how accurately do these games describe Hobbes' arguments.
-
-In this chapter I take a different approach.  By using a evolutionary causal model, I demonstrate that usign game theory to model Hobbe's argument results in either a valid argument with implausible premises or plausible premises with an invalid form.  
-
-
-## Conclusion.
-
-And that's that. I may have to change the authority stuff to democracy but why not?
+  - augmented argumentation offers additional benefits because it overcomes the key methodological challenges of simulation, namely reproducability and reliability.

@@ -5,7 +5,7 @@
   <meta name="generator" content="pandoc">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
   <meta name="author" content="Dave Kinkead">
-  <title>Parsing Democracy: Computational Approaches to Political Philosophy</title>
+  <title>Argumentum in Silico: A Computational Methodology of Philosophy</title>
   <style type="text/css">code{white-space: pre;}</style>
   <!--[if lt IE 9]>
     <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
@@ -46,7 +46,7 @@
     color: #333;
   }
   
-  h1, h2, h3, h4, h5, h6, p, ul, pre, figcaption, .footnotes {
+  h1, h2, h3, h4, h5, h6, p, ul, pre, figcaption, ul, ol, .footnotes {
     padding-bottom: 1rem;
     max-width: 900px;
     margin: 0 auto;
@@ -54,6 +54,7 @@
   }
   h1 {
     font-size: 2rem;
+    text-transform: capitalize;
   }
   h2 {
     font-size: 1.5rem;
@@ -104,9 +105,6 @@
     margin: 4em auto;
     max-width: 700px;
   }
-  .simulation.fullscreen {
-    /*padding: 1rem;*/
-  }
   .footnotes {
     /*list-style-position: outside;*/
   }
@@ -116,36 +114,55 @@
   .centered {
     text-align: center;
   }
-  </style>
+  
+  @media print {
+    * {
+      font-size: 14px;
+    }
+    body {
+      margin: 1cm 2cm;
+      text-align: justify;
+    }
+  
+    h1, h2, h3, p {
+      font-family: "Times New Roman", serif;
+      margin: 1rem auto;
+    }
+    svg {
+      max-width: 100%;
+      margin-top: -1rem;  
+    }
+    figcaption {
+      margin-top: -1rem;
+    }
+    .simulation {
+      page-break-inside: avoid;
+    }
+  }</style>
 </head>
 <body>
 <header>
-<h1 class="title">Parsing Democracy: Computational Approaches to Political Philosophy</h1>
+<h1 class="title">Argumentum in Silico: A Computational Methodology of Philosophy</h1>
 <h2 class="author">Dave Kinkead</h2>
 </header>
 <section class="centered">
 <h2 id="draft-version">~~ DRAFT VERSION ~~</h2>
 <blockquote>
-<p>A thesis (soon to be) submitted for the degree of Doctor of Philosophy at</p>
-</blockquote>
-<blockquote>
-<p>The University of Queensland in 2016</p>
-</blockquote>
-<blockquote>
-<p>School of Historical and Philosophical Inqury</p>
+<p>A thesis (soon to be) submitted for the degree of Doctor of Philosophy at<br />The University of Queensland in 2016<br />School of Historical and Philosophical Inqury</p>
 </blockquote>
 <h2 id="abstract">Abstract</h2>
-<p>lorem ipsom</p>
+<p>This is an argument about method. I am proposing a new computational philosophical methodology - <em>argumentum in silico</em>. Modelling has been a part of philosophy since the beginning; simulation since computers were available.</p>
+<p>But rather than trying to use simulations to support or suppliment arguments, I use simulations <em>as</em> argument.</p>
 <h2 id="table-of-contents">Table of Contents</h2>
 <ol type="1">
-<li><a href="chapters/01-introduction/">Introduction</a></li>
-<li>Simulation and Philosophy</li>
-<li>Literate Programming and Augmented Argument</li>
-<li><a href="chapters/03-questioning-the-jury-theory">Challenging the Jury Theory</a></li>
-<li><a href="chapters/04-instrumental-conflict">Instrumental Conflict</a></li>
-<li>Egalitarianism and Inequaltiy</li>
-<li><a href="chapters/06-states-of-nature">States of Nature</a></li>
-<li>Conclusion</li>
+<li><a href="chapters/01">Introduction</a></li>
+<li><a href="chapters/02">On Method</a></li>
+<li><a href="chapters/03">Argumentum in Silico</a></li>
+<li><a href="#">Maybe a chapter on Condorcet &amp; borders</a></li>
+<li><a href="chapters/04">Democracy and Borders</a></li>
+<li><a href="chapters/05">States of Nature</a></li>
+<li><a href="chapters/06">School Performance</a></li>
+<li><a href="chapters/07">Is this really philosophy?</a></li>
 </ol>
 </section>
 <div class="references">

@@ -1,237 +1,200 @@
-# On Method
-
-In which I answer the question - what is the method of philosophy?
 
 
-- systematic philosophers like Plato, Aristotle, Descartes, Spinoza, and Hegel.
+# Argumentum in Silico
 
+Thesis: That simulation as argument is a new and useful method of philosophy
 
-1. History of method 
+1. position -- we've seen how a lot of philosophy involves modelling & simulation is just modelling. (1000)
 
-## intro 1000
+  - The method of philosophy is a diverse one and it is hard to pin down - methodological pluralism
+  - we use conceptual analysis to understand concepts, their meaning and relationships -- we make distinctions.
+  - 
+  - we use argument to explain and justify -- argument is logical model
 
-  - thought experiment
-  - what is the method of philosophy?
-    - Sokolowski
-  - "philosophy begins in wonder" soc in http://classics.mit.edu/Plato/theatu.html
-  - examining the unexamined life
-  - philosophy as leftovers (james shaw)
-    - philosophy lacks a particular domain, it is universal
-  - unmasking ideologies and assumptions / exploration of ideas
-  - Wonderment & intellectual curiosity -> asking why like a 5 year old.
-  - objection: philosophy as a kind of writing, routy & Derrida
+2. motivate -- simulation also has the advantage of solving specific problems -- complexity (2000)
 
+3. motivate -- simulation has its own problems however -- reproducabiity & realism (2000)
 
-## Analysis
+4. solve -- simulation as argument solves these problems
 
-  Philosophy is almost synonymous with analysis.... breaking things down into their constituent parts, translating language into abstract form, working back to first principles, and reconstituing concepts into a synthesis of new knowledge...
-
-  Analysis can be traced to the very beginning of philosophy.  Euclid's gemotrey, Aristotles' Analytics, Plato's JTB ...
-
-  Here we can distinguish three distinct flavours of analysis - decompositional, regressive, and transformative ...
-
-  Decompositional ...
-
-  Regressive ... (working back to first principles)
-
-  Transformative ... (converting to another/logical form)
-
-  Scholastics ... moderns ... Kant's analytic/synthetic distinction
-
-  The linguistic turn ...
-
-  The cannonical biconditional universal proposition ...
-
-  In all these cases, a key element of analysis is the process of making distinctions ... Sokolowski
-
-  Does analysis do much at all? Meno / Moores paradox. How does analysis relate to knowledge?
-
-  It seems so - how has it been solved ....
-
-  Philosophers have done much more than make distinctions - Kripe uses N&N to do metaphysics
-
-  - linguistic turn
-  - making distinctions
-    - Sokolowski
-  - From Metaphysics to Ethics (frank jackson)
-  - Tim Williamson's 'The Philosophy of Philosophy'
+5. demonstrate??
 
 
 
-## Argument
 
 
-## Logic 
+> quote about simulation
+
+In the the last chapter, we saw how computer simulation is situated within the diverse set of methodologies found within philosophy.  Computer simulations share many likenesses with other pre-digital methods such as conceptual analysis, theorising, and modelling.  Computer simulation can be considered as the digital analog to philosophy's most recognisable method - the thought experiment. 
+
+In this chapter, I extend the function of computer simulation within the methodological framework of philosophy.  Specifically, I advance a new philosophical methodology that rather than simply using computers as an adjunct to analysis and argument, uses simulation as the argument and analysis itself.  
+
+We might call this method _digital philosophy_ -- which can be broadly construed to include any way of doing philosophy with computers.  This by itself is nothing new.  Philosophers have been using computers to inform their work for over 30 years now.  Famous examples include @axelrod1984, @skyrms1996, and @list.
+
+What set's my proposal apart from other forms of digital philosophy is the role simulation plays in the method. Digital philosophy to date has used simulation as a suppliment/anolog to the main work of writen argument.  Call this _argumentum cum silico_. I want to full integrate simulation into philosophy so that the simulation _is_ the argument itself.  Call this approach _argumentum in silico_ or _computational philosophy_.
 
 
-## Doubt
+## Simulation in Philosphy 
 
-  - argument  
-  - rationalism?
-  - empiricism?    
+** how have digital methods been used in philosophy **
 
+  - Digital Humanities
+  - wikis & open access (value: promotion & disemination)
+  - indexing & search (value: speed of research & productivity)
+  - text analysis (value: volume of research, new insights)
+  - network analysis (six degrees of francis bacon) (value: new insights, visual understanding)
 
-## Common Sense 1000
+** simulating complex systems **
 
+  - there are distinct epsitemic challenges in areas like political philosophy
+    - analytic intractability
+    - complexity
+    - emergence
 
-## Dialectic
+  - axelrod
 
-  - socratic
-  - hegel
-  - Rorty: Philosophy as a Kind of Writing: An Essay on Derrida
+  - skryms 
+    - @skyrms1996, 
+    - @skyrms2004, 
+    - @skyrms2010, 
+    - Co-evolutionary Dynamics of Collective Action with Signaling for a Quorum
+    - Inventing New Signals
 
-## Conti?
+  - list
 
-
-## Theorising
-
-
-## modelling
-
-
-## Thought Experiments
-  - Rethinking Intuition
-
-
-## X-Phi
-
-
-## Conclusion
-  - answer the question - what is philosophy.
+## Simulation as Argument
 
 
 
-2. Simulation as Argument
+  - cum vs in: what is the difference?
+  - how would this work?
+  - (knuth literate programming)
 
-  - argumentum in silico vs argumentum cum silico
-
-
-  - rehash the similarities of simulation and thought experiments
-  - outline the problems of simulation
+  - how does this address the problems of simulation?
     - reproducability
-    - realism
+    - simulates theory, not reality
 
-- Jay Rosenberg's "The Practice of Philosophy"
-- Kripke's Philosophical Troubles
-- Chris Daly's "Introduction to Philosophical Methods."
+  - how does it do more than just that?
+    - makes assumptions explicity (relate to qualities of philosophy)
+    - persuasiveness
+
+  - what is unique about this (what are the constraints)
+    - premises of key arguments are formalised in code
+    - simulation _is_ the argument
+    - proof by demonstration, in areas where proof is thought impossible
 
 
-- inquiry is about understanding (broadly construed), not just knowledge or truth?
+## The Complexity Problem
 
-> “The aim of philosophy, abstractly formulated, is to understand how things, in the broadest possible sense of the term, hang together, in the broadest possible sense of the term.” -- wilfred sellars
+  - many issues in philosophy are complex and can't be solved with analytic or empiric methods
+  - simulation can offer a solution
+  - monte carlo as a method, analytic vs statistically approximate answers
 
-> problems with no agreed method of solution, problems involving conceptual issues. -- craig skinner
+## The Problem with Simulations
 
-> the role of myth in plato
+Simulation faces similar problems to science 
 
-2. Simulation in Philosophy
+  - replication of experiment
+  - replication of results
+    - system differences
+    - floating point numbers
 
-- philosophy is hollow without thought experiments
-  - because of X
-- X also applies in the case of simulation
-- therefore philosophy is hollow without simulation
-- computational approaches have much to offer philosophy because they overcome the epistemic limitations associated with complexity, intractability, and emergence.
+But it also faces a more specific problem (similar to thought experiments)
+  
+  - realism: does the simulation have high enough fidelity with reality to make warranted inferences from simulation results to reality.
 
-- there are distinct epsitemic challenges in political philosophy
-  - analytic intractability
-  - complexity
-  - emergence
+
+    Verification:
+    Determine whether the sim correctly
+    implements the theory being investigated.
+    Design verification, debugging, consistency
+    checks
+
+    Validation (Confirmation):
+    Determine whether the
+    sim as implemented conforms to the target
+    Set initial conditions; run the sim; generate novel
+    predictions; compare with reality
+
+
+    There are many places where this confirmation process
+    can break down. E.g.,
+    Debugging
+    Wrong initial conditions
+    Wrong theory implemented
+    Inaccessible predictions: if we can only retrodict, can
+    we trust our sim?
+    The first three lead to disconfirmation; the last to distrust
+
+    There are analogues to each of these failures in real-world
+    experimentation:
+    Debugging/wrong initial conditions: Lead to incorrect
+    prediction
+    Wrong theory: Leads to incorrect prediction
+    Inaccessible predictions: if we can only retrodict can
+    we trust our theory?
+    Not if our theory is manufactured to fit the existing
+    data
+
+
+
+## The Problem of Persuasion
+
+  - how effective is argument at pursuading?
+  - counter intuitive results are often hard to accept
+
+
+
+---
+
+
+
+
+
+Outline
+
+## Simulation is philosophy too
+
+** philosophy is mainly modelling **
+  - what is a model
+  - review how modelling is used in philosophy
+  - what makes modelling philsophical?
+
+** simulation is modelling **
+  - non-computer simulations, though experiments?
+  - are there types of simulation that aren't models?
+
+** What do simulations do? **
+  - create knowledge?
+  - act as arguments?
+  - provide evidence?
+
+
+## An Example
+
+  - Schelling's models of segregation
+  - explain why it works
+
+
+  - just as philosophy is hollow without thought experiments, so too is it hollow without computational approaches
+  - computational approaches have much to offer philosophy because they overcome the epistemic limitations associated with complexity, intractability, and emergence.
+
 
 
 - given certain assumptions, calculate the likelihood of particular outcomes.
 
 
 
-## Introduction (TEs are a fundamental part of philosophy)
-
-> "Five years" says the sherif.  "That's what you're looking at. Five years in prison if you say nothing."
-
-> "But if you talk and turn state's evidence, well then, it'll just be a few years probation."
-
-> "Of course, if your accomplice talks first, then the deal's off.  But I'll still recommend early parole if you confess though." he continutes. "I'll let you stew over that awhile."
-
-> It was never your intention to get caught and wind up in a prison cell but that's where you find yourself - in a 3 by 3 metre interrigation room facing a two-way mirror.  Next door, your accomplice is facing the same choice as you: stay quite as planned, withhold the crucial evidence the police lack, and you'll only have to spend a few months in prison. There's just one catch. The sherrif has just offered you a deal to become a rat and implicate your accomplice. If you do, she gets five years and you walk away with a few months probation.  Your problem is that the sherrif is also about to offer the same deal to her.
-
-> Despite the best outcome for you both is to keep your lips closes and hold silent, the deal changes things considerably.  If your accomplice remains quite, you can rat her out and avoid prison - the two of you aren't that close anyway.  If she confesses and you don't then you'll be looking at five years instead of three.  And you know of course, that she knows this too.  So what should you do - make the best choice for both of you and stay silent or the best choice for yourself and confess?  What would a rational person do?
 
 ---
 
-This is a thought experiment - the famous _Prisoner's Dilemma_.  A form of conceptual analysis for illustrating an abstract theory and clarifying the nature of a problem or phenomenon.  Thought experiments have been described as "processes of hypothetical reasoning that proceeds by eliciting the consequences of some projected supposition which, for aught that one actually knows to the contrary, may well be false" (@rescher2005 p3). A peculular cross of experimentation and theorising (@horowitz&massey1991), or simply as "devices of the imagination used to investigate the nature of things" (@brown1997).  
 
-By framing the issue in narrative form, the thought experiment allows us to .... In this case, to better understand the conflict between individual and group rationality, and the inherent difficulties in motivaing rational and selfish individuals to work towards a common good.
+## Simulation
 
-Thought experiments have long been a part of philosophy.  Given there narrative, almost story telling like form that lends itself so well to oral traditions, it is likely that thought experiments actually pre-date written philosophy. According to @rescher2005 p2, pre-socratics "invented thought experimentation as a cognitive procedure and practiced it with great dedication and versatility".  Thales of Miletus (circa 620 BC) offers one of the first documented examples:
-
-> Suppose that a like wood and other similar substances, the Earth floats in a large body of water.
-
-
-Middle Ages ....
-
-
-> According to Grant (2007, 201), during the late Middle Ages “the imagination became a formidable instrument in natural philosophy and theology in ways that would have astonished” ancient Greek natural philosophers, especially Aristotle.
-
-
-Contemporary example ....
-
-
-The thought experiments described help us with our philosophical explaination, categorization, communication, and understanding.  This however, sounds a lot like run-of-the-mill conceptual analysis.  Are thought examples anything more this?  The similarities between the two methods are striking.  Conceptual analysis - the answering of questions based solely on one's grasp of the relevant concepts - is an integral part of metaphysics and philosophy (@jackson) and like the thought experiment, has been a tool of the philosopher since pre-Socratic times.  Conceptual analysis and thought experiments are deeply intertwined.  They are, according to @Nimtz2010 p189, "widely acknowledged to be essential to our armchair ways of doing philosophy". 
-
-Conceptual analysis deals in the currency of ideas.  Like thought experiments, conceptual analysis seeks to clarify and simplify abstract and complex ideas, and most importantly, the relation between them or as @jackson p28 describes it, the "entailment theses between matters described in some preferred vocabulary and matters described in other vocabularies".  Importantly, these ideas are can be and often are _a priori_.  Both thought experiments and conceptual analysis begin with suppositions of porported truth.  These desiderata are taken to hold true and through conditional or biconditional inference, some other concept is shown to obtain (or to not).  Recourse to empiric data and _a posteriori_ claims are unnecessary once we accept the premises involved.
-
-@Gettier1963's thought experiments about knowledge provide a good example.  Suppose that Smith has strong evidence for the proposition "Jones owns a Ford".  Her belief in this is justified because last month, she saw him driving one.  Smith has another friend Brown who is currently overseas but where, she does not know.  From the proposition "Jones owns a Ford", Smith can rightfully infer that "Either Jones owns a Ford or Brown is in Barcelona".  But unbeknownst to Smith, Jones sold his car last week and Brown just happened to be Barcelona. So Smith has a belief - "Either Jones owns a Ford or Brown is in Barcelona", that belief is justified, and that belief is true.  Yet we wouldn't consider this to be a case of knowledge.
-
-According to @chalmers&jackson p6, this is a paradigmatic case of "an a priori argument, in which empirical information played no essential role, and its conclusion ... [an] example of a non-obvious a priori truth".  Gettier's thought experiment is simultaniously conceptual analysis.
-
-But thought experiments are more than _just_ conceptual analysis.  They offer something more. @Peijnenburg&Atkinson2003 p306, for example claim that "in the view of almost everyone, a thought experiment should give sudden and exhilarating insight."  Unlike conceptual analysis in which focus can move back and forth between desiderata and entailment, thought experiments follow a more linear process where "we visualize some situation that we have set up in the imagination; we let it run or we carry out an operation; we see what happens; finally, we draw a conclusion" @brown1997.  
-
-Some philosophers see thought experiments as aids to conceptual analysis. @Cohnitz2006 p389 views thought experiments as constituting "the common ground from which we start our philosophical analysis", while @Kuhn1964 p263 claims that the "thought experiment is one of the essential analytic tools which are deployed during crises and which then help to promote basic conceptual reform".  For @Nimtz2010 p190 however, the reverse is true - conceptual analysis and the tacit semantic knowledge we possess is what "entitles us to hold true the counterfactuals on which philosophical thought experiments pivot".
-
-Another distinguishing and eponymous feature of thought experiments is their experimental nature.  Like scientific experiments, thought experiments allow us to control events, produce observations or intuitions, and confirm or disconfirm rival theories (@Blackburn 1994, p131).  They involve running a instance or model and following a logical or causal path. "Running a mental simulation is required for it to be both thought and experimental" (@Nersessian1991 p431).  Often, thought experiments offer the only alterative to scientific experimentation when physical, technological, ethical, or financial constraints make real ones impossible @Sorensen1992 p200)  In this regard, thought experiments provide evidence themselves which puts them on par with real-world experiments (@gendler2004).  
-
-TE & Models here...
-
-Unlike their real-world alternatives, thought experiments offer something science cannot - _a priori_ knowledge.  Thought experiments give us access to internal, instinctive knowledge @Kühne2006 p167) which in some domains like ethics, might be all we can hope for.  With them, "we seem able to get a grip on nature just by thinking" @SEP.  Alternatively, thought experiments act as a heuristic to deepen our understanding what we already know empirically, what @dennett has called _intuition pumps_.  Thought experiments that offer evidence or support for a theory might be called explainatory or _constructive_.
-
-Often however, thought experiments are used _destructively_ - by demonstrating some internal contradiction or impossibility.  This is exactly what @jjt p69 does when she asks us to consider the impermissability of abortion:
-
-> You wake up in the morning and find yourself back to back in bed with an unconscious violinist. A famous unconscious violinist. He has been found to have a fatal kidney ailment, and the Society of Music Lovers has canvassed all the available medical records and found that you alone have the right blood type to help. They have therefore kidnapped you, and last night the violinist's circulatory system was plugged into yours, so that your kidneys can be used to extract poisons from his blood as well as your own. 
-
-> The director of the hospital now tells you, "Look, we're sorry the Society of Music Lovers did this to you--we would never have permitted it if we had known. But still, they did it, and the violinist is now plugged into you. To unplug you would be to kill him. But never mind, it's only for nine months. By then he will have recovered from his ailment, and can safely be unplugged from you." Is it morally incumbent on you to accede to this situation? 
-
-Thought experiments like these transfer our understanding or intuitions from one domain and apply them to another.  Even if life begins at conception and a fetus has a right to life, Thompson's thought experiment clearly demonstrates that the moral impermissability of abortion is not entails from these claims - that we would still be morally justified in disconnecting the violinist.
-
-
-Not everyone agrees however...What are their limitations
-  - Peijnenburg 2003 argues that phil TE's are often contractictory and question begging
-  - only as good as their setting assumptions
-  - replication. when is a thought experiement a new one?
-  - problems data, intuition are cultural/context dependent
-  - philosophical challenge remains...
-
-> The primary philosophical challenge of thought experiments is simple: How can we learn about reality (if we can at all), just by thinking?
-
-
-Despite these objections, thought experiments remain a fundamental part of a philosopher's toolkit....
-
-> Derek Parfit, has defended their frequent use by stating that thought experiments arouse in us ‘strong beliefs’ (Parfit 1984, 200). (p307)
-
-> Philosophy without thought experiments seems almost hopeless.
-
-
-What's the value of TE? How are they used?
-
-  - evoke our intuitions (dennett)
-  - cheap and easy way to refute - galileo
-
-  - Sometimes thought experiments help to illustrate and clarify very abstract states of affairs, thereby accelerating the process of understanding (see Behmel, 2001). 
-
-  - real demonstration isn't possible (why) (see Sorensen, 1992, pp. 200–202).
-  - James McAllister has argued that in science thought experiments did not really occur before the time of Galileo (McAllister 1996).
-  - They can be reconstructed and replaced by actual experiments later (Norton 1986)
-
-  - they give us a common point around which we can collaborate see @cohntiz2006 p374
-
-> the function of thought experiments in philosophy is to prepare the common ground upon which theories to resolve philosophical puzzles are to be constructed. @cohntiz2006 p389
+  - what is simulation
+  - how is it used in philosophy
+  - how does it differ from modelling
+  - what is the relationship between simulation and thought experiements
 
 
 
@@ -350,6 +313,8 @@ Monte Carlo sim
 
 
 
+
+
 ## Computational Philosophy as a Method
 
 That's all well and good but how do we actually use simulation as a method what was the section I'm going to introduce an approach not calling computational philosophy or computational approaches to political philosophy.  I'm going to propose a new methodology computational approaches to political philosophy that overcomes the two biggest problems as I see them:
@@ -434,40 +399,6 @@ Advantages
 
 > The complexity was simply too daunting for my limited brain to handle; without literate programming, the whole enterprise would have flopped miserably. ... Literate programming is what you need to rise above the ordinary level of achievement.  @knuth interview with @binstock
 
-## conclusion
 
-  - phil without TE is hopeless
-  - sim is like TE
-  - sim overcomes many epistemic issues
-  - augmented argumentation takes things a step further
-
-
-
-
-Plato's Allegory of the Cave is a famous early example.
-
-Philosophy is hollow without thought experiments
-
-  - Ship of Theseus
-  - Allegory of the Cave
-
-  - First Meditations
-  - infinite god
-
-  - JJT abortion
-  - Searles Chinese Room
-
-
-  - an experiement done with thought. explaination is necessary
-  - isolate features under investigation
-  - observe what happens to our intituitons
-  - give us 'strong beleifs' (@parfit1984 p200)
-
-  - a species of mental modelling @Nersessian1991 p431
-
-
-  - different types
-  - different domains, not just 'science'
-  - they can be investigative, refuting, supporting
-  - SEP taxonomy
+---
 

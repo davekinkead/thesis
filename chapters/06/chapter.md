@@ -6,8 +6,6 @@ status: PhD Chapter
 bibliography: /Users/dave/Dropbox/Research/readings/.library.bibtex
 ---
 
-
-
 ## Introduction
 
 Let's begin with a simple claim, one that I hope is incontrovertible --  that schooling somehow affects student results.  However we measure the academic achievement of students - whether by _declarative knowledge_, the learning and appropriate recall of particular facts; or by _procedural knowledge_, the application of skill and know-how -- few people, if any, would claim that school policies, pedagogy, and environment have _no_ causal impact on students.  

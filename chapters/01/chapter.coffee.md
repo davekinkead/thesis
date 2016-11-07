@@ -6,27 +6,23 @@ status: Rough Outline
 license: CC-BY-SA-NC
 ---
 
+Philosophy is a discipline characterised by methodological pluralism --- there are many ways of doing philosophy.
 
-> "I see, my dear Theaetetus, that Theodorus had a true insight into your nature when he said that you were a philosopher, for wonder is the feeling of a philosopher, and philosophy begins in wonder." 
-> -- Theaeteus 155 d (tr. Benjamin Jowett)
+Many other disciplines have embraced digital methods but philosophy is somewhat a laggard in this respect.
 
-> “Philosophy begins in wonder. And at the end when philosophic thought has done its best the wonder remains.” 
-> -- AN Whitehead, Modes of Thought, p168
+Computer simulations are a lot like thought experiments _in silico_.  They allow us to model a theory, concept, or representation of reality
 
+---
 
-Philosophy begins with wonder.  And at the beginning of philosophy, philosophy began with wonder.
+# Offcuts Below
 
-For me at least, this is still true.  I still experience the intellectual curisoity about the world that drives me to ask why....
+Computers are ubiquitous in our lives today.  Computer networks allow us to connect and communicate with billions of people around the planet in milliseconds.  This connectedness is transforming they way people work.  For some, that means working remotely from a beach in Thailand or a ski slope in Austria.  For others, this connectedness is eroding job security as many functions from accounting to radiology are being outsourced to regions with lower wage costs.  Whether positive or negative computers are transforming the way we work today.
 
-But I also experience a different kind of wonder, one about philosophy itself - philosophy as a discipling and philosophy as a method.  Why doesn't philosohy embrace technology more?
+Unsurprisingly, computational approaches to investigation are also becoming more common place in academia.  Computational biologists use computers to simulate biological and social systems. Computational linguists use computers to develop statistical models of language structures.  Computational physicists use computers to derive numerical approximations of complex physical phenomena.  And computational philosophers use computers to ... well, there really aren't any computational philosophers.
 
-Computers are ubiquitous in our lives today.  Computer networks allow us to connect and communicate with billions of people around the planet in milli-seconds.  This connectedness is transforming they way people work.  For some, that means working remotely from a beach in Thailand or a ski slope in Austria.  For others, this connectedness is eroding job security as many functions from accounting to radiology are being outsourced to regions with lower wage costs.  Either way computers are transforming our work.
+The way these disciplines use computers is what makes them _computational_.  The use of digital devices is far more than the streamlining and augmenting of existing analogy processes -- replacing typing with word processing, or print with digital distribution of journals.  Instead, computational disciplines use digital _methodologies_.  They perform scholarship in ways that wouldn't be possible without computers.
 
-Computational approaches to investigation are also becoming more common place in academia.  Computational Biologists use mathematical models and computer simulation to study behavioural, biological, and social systems.
-
-These disciplines use computers not to simply augment or streamline the processes, like wordprocessing or digitial distribution of work, but to transform methodologies - to do things are are simple not possible without computers.
-
-Yet within the academy, philosophy remains a laggard.  The use of mathematics and proof has long been part of analytic philosophy at least but the use of computer modelling and simulation is only nascent.  Computational philosophy as a disciple does not yet exist.
+Yet within the academy, philosophy remains a digital laggard.  The use of mathematics and proof has long been part of analytic philosophy at least but the use of computer modelling and simulation is only nascent.  Computational philosophy as a disciple does not yet exist.
 
 This is unfortunate for philosophy because there are many areas of the disciple, especially political, moral, and social philosophy, that could benefit from embracing computational approaches.  Political philosophy for example, involves the study of complex systems with emergent properties like human societies and economies.  As such, experimental data is difficult to observe and causal inferences are difficult to make.  Unlike the physical sciences, the social scientist and philosopher cannot hold variables fixed, make precise interventions, or re-run experiments with ease.
 
@@ -47,6 +43,9 @@ Here's what I think my thesis could look like.....
 
 
 ## Philsophy & Method
+
+
+
 
 
 

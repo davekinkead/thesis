@@ -33,7 +33,7 @@ html {
   color: #333;
 }
 
-h1, h2, h3, h4, h5, h6, p, ul, pre, figcaption, ul, ol, .footnotes {
+h1, h2, h3, h4, h5, h6, p, ul, pre, figcaption, .footnotes {
   padding-bottom: 1rem;
   max-width: 900px;
   margin: 0 auto;
@@ -97,9 +97,6 @@ hr {
 }
 .footnotes li {
   margin: 1rem 2rem;
-}
-.centered {
-  text-align: center;
 }
 
 @media print {

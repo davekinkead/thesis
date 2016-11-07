@@ -6,16 +6,6 @@ status: Rough Outline
 license: CC-BY-SA-NC
 ---
 
-Philosophy is a discipline characterised by methodological pluralism --- there are many ways of doing philosophy.
-
-Many other disciplines have embraced digital methods but philosophy is somewhat a laggard in this respect.
-
-Computer simulations are a lot like thought experiments _in silico_.  They allow us to model a theory, concept, or representation of reality
-
----
-
-# Offcuts Below
-
 Computers are ubiquitous in our lives today.  Computer networks allow us to connect and communicate with billions of people around the planet in milliseconds.  This connectedness is transforming they way people work.  For some, that means working remotely from a beach in Thailand or a ski slope in Austria.  For others, this connectedness is eroding job security as many functions from accounting to radiology are being outsourced to regions with lower wage costs.  Whether positive or negative computers are transforming the way we work today.
 
 Unsurprisingly, computational approaches to investigation are also becoming more common place in academia.  Computational biologists use computers to simulate biological and social systems. Computational linguists use computers to develop statistical models of language structures.  Computational physicists use computers to derive numerical approximations of complex physical phenomena.  And computational philosophers use computers to ... well, there really aren't any computational philosophers.

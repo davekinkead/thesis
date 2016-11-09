@@ -214,8 +214,8 @@ Within analytic philosophy however, the question appears to be simpler.  Philoso
 
 ## Conclusion
 
-    - philosophy is methodological pluralism 
-    - but its mainly modelling
+  - philosophy is methodological pluralism 
+  - but its mainly modelling
 
 
 ---------------------------

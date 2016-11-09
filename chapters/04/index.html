@@ -1,510 +1,23 @@
-<!DOCTYPE html>  
-<html lang="en">
+<!DOCTYPE html>
+<html>
 <head>
   <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-  <title>paper.coffee</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <style>
-/*
-This document has been created with Marked.app <http://marked2app.com>
-Please leave this notice in place, along with any additional credits below.
----------------------------------------------------------------
-Title: Leviathan
-Author: Dave Kinkead <http://dave.kinkead.com.au>
-Description: A font focused theme inspired by Hobbes
-*/
-
-@font-face {
-font-family: 'Vollkorn';
-font-style: normal;
-font-weight: 400;
-src: local('Vollkorn Regular'), local('Vollkorn-Regular'), url(http://fonts.gstatic.com/s/vollkorn/v6/idGKtgpe38okB6bfeHMsLHYhjbSpvc47ee6xR_80Hnw.woff2) format('woff2'), url(http://fonts.gstatic.com/s/vollkorn/v6/BCFBp4rt5gxxFrX6F12DKnYhjbSpvc47ee6xR_80Hnw.woff) format('woff');
-}
-@font-face {
-font-family: 'Vollkorn';
-font-style: normal;
-font-weight: 700;
-src: local('Vollkorn Bold'), local('Vollkorn-Bold'), url(http://fonts.gstatic.com/s/vollkorn/v6/wMZpbUtcCo9GUabw9JODeogp9Q8gbYrhqGlRav_IXfk.woff2) format('woff2'), url(http://fonts.gstatic.com/s/vollkorn/v6/wMZpbUtcCo9GUabw9JODerrIa-7acMAeDBVuclsi6Gc.woff) format('woff');
-}
-@font-face {
-font-family: 'Vollkorn';
-font-style: italic;
-font-weight: 400;
-src: local('Vollkorn Italic'), local('Vollkorn-Italic'), url(http://fonts.gstatic.com/s/vollkorn/v6/Oiz0tNwvC-Nd29SBQWfWTAzyDMXhdD8sAj6OAJTFsBI.woff2) format('woff2'), url(http://fonts.gstatic.com/s/vollkorn/v6/Oiz0tNwvC-Nd29SBQWfWTL3hpw3pgy2gAi-Ip7WPMi0.woff) format('woff');
-}
-@font-face {
-font-family: 'Vollkorn';
-font-style: italic;
-font-weight: 700;
-src: local('Vollkorn Bold Italic'), local('Vollkorn-BoldItalic'), url(http://fonts.gstatic.com/s/vollkorn/v6/KNiAlx6phRqXCwnZZG51JGaVI6zN22yiurzcBKxPjFE.woff2) format('woff2'), url(http://fonts.gstatic.com/s/vollkorn/v6/KNiAlx6phRqXCwnZZG51JHbFhgvWbfSbdVg11QabG8w.woff) format('woff');
-}
-
-
-body {
--webkit-font-smoothing: antialiased;
-font-family: "Vollkorn", sans-serif;
-font-weight: normal;
-font-size: 0.8764em / 1.75em;
-margin: 0;
-padding: 0;
-}
-
-
-li {
-font-size: 110%; }
-li li {
-  font-size: 100%; }
-li p {
-  font-size: 100%;
-  margin: .5em 0; }
-
-h2, h3, h4, h5, h6 {
-font-weight: normal; }
-
-h1 {
-color: #111;
-font-size: 2.5em;
-font-weight: bold;
-line-height: 1.1em;
-margin: .6563em 0; 
-text-transform: capitalize;}
-
-h2 {
-color: #111;
-font-size: 1.7143em;
-line-height: 1.2em;
-margin: .875em 0; }
-
-h1, h2, h3 {
-text-align: center;
-padding: .3em 0; }
-
-h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
-color: #003057; }
-
-h2:before {
-content: "\2015  ";
-font-weight: normal;
-color: #aaa; }
-h2:after {
-content: "  \2015";
-font-weight: normal;
-color: #aaa; }
-
-h3 {
-color: #111;
-font-size: 2.5em;
-line-height: 1.2em;
-margin: .9em 0; }
-
-h4 {
-color: #111;
-font-size: 2.25em;
-line-height: 1.2em;
-margin: .3em 0; }
-
-h5 {
-color: #111;
-font-size: 2em;
-line-height: 1.2em;
-margin: .3em 0; }
-
-h6 {
-font-size: 1.5em;
-line-height: 1.2em;
-margin: .3em 0; }
-
-body, p, div {
-color: #222;
-word-wrap: break-word; 
-line-height: 1.6;
-max-width: 100%;
-}
-
-a {
--webkit-transition: color .2s ease-in-out;
--moz-transition: color .2s ease-in-out;
--o-transition: color .2s ease-in-out;
--ms-transition: color .2s ease-in-out;
-transition: color .2s ease-in-out;
-color: #004e8c;
-text-decoration: none; }
-a:hover {
-  color: #3593d9; }
-
-/*h2 em
-{
-
-color: #111;
-
-padding-left: 10px;
-
-text-shadow: 0 1px 0 #FFF
-}
-
-*/
-.footnote {
-color: #0d6ea1;
-font-size: .8em;
-vertical-align: super; }
-
-#wrapper img {
-max-width: 100%;
-height: auto; }
-
-hr {
-  margin: 4em 6em;
-}
-
-dd {
-margin-bottom: 1em; }
-
-li > p:first-child {
-margin: 0; }
-
-ul ul, ul ol {
-margin-bottom: .4em; }
-ul ul {
-list-style: disc; }
-ul ul ul {
-  list-style: square; }
-  ul ul ul ul {
-    list-style: circle; }
-
-table {
-margin-bottom: 2em;
-padding: 0;
-font-size: 14px;
-border-collapse: collapse;
--webkit-box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.35);
--moz-box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.35);
-box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.35);
-width: 70%;
-margin: 0 auto 2em auto;
-border: 1px solid #ddd;
-border-collapse: separate;
-*border-collapse: collapse;
-/* IE7, collapse table to remove spacing */
--webkit-border-radius: 4px;
--moz-border-radius: 4px;
-border-radius: 4px; }
-table caption, table col, table colgroup, table table, table tbody, table td, table tfoot, table th, table thead, table tr {
-  border-spacing: 0;
-  font-family: OSPDIN,Helvetica,Arial,sans-serif;
-  font-weight: 400;
-  font-size: 24px; }
-table caption {
-  display: table-caption;
-  font-weight: 400;
-  font-size: 18px;
-  text-transform: uppercase;
-  letter-spacing: 2px;
-  font-family: LeagueGothic;
-  word-spacing: .2em;
-  background: rgba(0, 0, 0, 0.75);
-  color: #EEE;
-  padding: 4px;
-  -webkit-border-radius: 4px;
-  -moz-border-radius: 4px;
-  border-radius: 4px;
-  margin: 4px 0;
-  -webkit-box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.35);
-  -moz-box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.35);
-  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.35); }
-table col {
-  display: table-column; }
-table colgroup {
-  display: table-column-group; }
-table tbody {
-  display: table-row-group; }
-table tfoot {
-  display: table-footer-group; }
-table th, table td {
-  padding: 10px 10px 9px;
-  line-height: 18px;
-  text-align: left; }
-table th {
-  padding-top: 9px;
-  font-family: LeagueGothic;
-  font-size: 18px;
-  font-weight: normal !important;
-  text-transform: uppercase;
-  vertical-align: middle; }
-table td {
-  vertical-align: top;
-  border-top: 1px solid #ddd;
-  font-family: fjord,georgia,serif;
-  font-size: 14px !important; }
-table tbody th {
-  border-top: 1px solid #ddd;
-  vertical-align: top; }
-table th + th, table td + td, table th + td {
-  border-left: 1px solid #ddd; }
-table thead tr:first-child th:first-child, table tbody tr:first-child td:first-child {
-  -webkit-border-radius: 4px 0 0 0;
-  -moz-border-radius: 4px 0 0 0;
-  border-radius: 4px 0 0 0; }
-table thead tr:first-child th:last-child {
-  -webkit-border-radius: 0 4px 0 0;
-  -moz-border-radius: 0 4px 0 0;
-  border-radius: 0 4px 0 0; }
-table tr:nth-child(odd), table th:nth-child(odd), table td:nth-child(odd) {
-  background: rgba(255, 255, 255, 0.06); }
-table tr:nth-child(even), table td:nth-child(even) {
-  background: rgba(0, 0, 0, 0.06); }
-table tbody tr:first-child td:last-child {
-  -webkit-border-radius: 0 4px 0 0;
-  -moz-border-radius: 0 4px 0 0;
-  border-radius: 0 4px 0 0; }
-table tbody tr:last-child td:first-child {
-  -webkit-border-radius: 0 0 0 4px;
-  -moz-border-radius: 0 0 0 4px;
-  border-radius: 0 0 0 4px; }
-table tbody tr:last-child td:last-child {
-  -webkit-border-radius: 0 0 4px 0;
-  -moz-border-radius: 0 0 4px 0;
-  border-radius: 0 0 4px 0; }
-table tbody tr:nth-child(odd) {
-  background-color: rgba(0, 0, 0, 0.03); }
-
-figure {
-display: inline-block;
-position: relative;
-margin: 1em 0 2em; }
-
-figcaption {
-font-style: italic;
-text-align: center;
-background: white;
-color: #444;
-position: absolute;
-left: 0;
-bottom: -24px;
-width: 98%;
-padding: 1%;
--webkit-transition: all .2s ease-in-out;
--moz-transition: all .2s ease-in-out;
--o-transition: all .2s ease-in-out;
--ms-transition: all .2s ease-in-out;
-transition: all .2s ease-in-out; }
-
-ul {
-list-style: circle; }
-
-.poetry pre {
-display: block;
-font-family: Georgia, Garamond, serif !important;
-font-size: 110% !important;
-font-style: italic;
-line-height: 1.6em;
-margin-left: 1em; }
-.poetry pre code {
-  font-family: Georgia, Garamond, serif !important;
-  word-break: break-all;
-  word-break: break-word;
-  /* Non standard for webkit */
-  -webkit-hyphens: auto;
-  -moz-hyphens: auto;
-  hyphens: auto;
-  white-space: pre-wrap; }
-
-blockquote p {
-font-size: 110%;
-font-style: italic;
-line-height: 1.6em; }
-
-sup, sub, a.footnote {
-font-size: 1.4ex;
-height: 0;
-line-height: 1;
-position: relative;
-vertical-align: super; }
-
-sub {
-vertical-align: sub;
-top: -1px; }
-
-p {
-font-size: 1.1429em;
-line-height: 1.3125em;
-margin: 1.3125em 0; }
-
-dt, th {
-font-weight: 400; }
-
-dt {
-font-weight: 600; }
-
-pre, code, tt {
-color: #8b8074;
-font-family: "Courier New", monospace;
-font-size: 0.9rem;
-font-weight: bold;
-text-align: left;
-margin: 2em 0;
-font-weight: normal; }
-
-pre {
-font-size: 90%;
-margin-left: 1em;
-margin-right: 1em;
-line-height: 1.4em;
-}
-
-p code, li code {
-font-size: 14px; }
-
-tt {
-display: block;
-margin: 1.5em 0;
-line-height: 1.5; }
-
-span.amp {
-font-family: Baskerville, Palatino, "Book Antiqua", serif;
-font-style: italic; }
-
-code {
-background: #fff;
-border: 1px solid #ddd;
-padding: 2px;
--webkit-border-radius: 4px;
--moz-border-radius: 4px;
-border-radius: 4px;
-color: #222; }
-
-pre code {
-  border: none; 
-  overflow: scroll;
-  max-width: 95%;
-}
-
-@media screen {
-::selection {
-  background-color: rgba(101, 207, 255, 0.3); }
-
-h1::selection {
-  background-color: rgba(45, 156, 208, 0.3); }
-
-h2::selection {
-  background-color: rgba(90, 182, 224, 0.3); }
-
-h3::selection, h4::selection, h5::selection, h6::selection {
-  background-color: rgba(133, 201, 232, 0.3); }
-
-code::selection {
-  background-color: #333;
-  color: #eee; }
-code span::selection {
-  background-color: #333 !important;
-  color: #eee !important; }
-
-a::selection {
-  background-color: rgba(255, 230, 102, 0.5); }
-
-td::selection, th::selection, caption::selection {
-  background-color: rgba(180, 237, 95, 0.5); }
-
-.inverted {
-  background: #252a2a; }
-  .inverted #wrapper {
-    background: #252a2a; }
-  .inverted hr {
-    border-color: #333f40 !important; }
-  .inverted p, .inverted td, .inverted li, .inverted h1, .inverted h2, .inverted h3, .inverted h4, .inverted h5, .inverted h6, .inverted th, .inverted .math, .inverted caption, .inverted dd, .inverted dt {
-    color: #eee !important; }
-  .inverted h2, .inverted h3 {
-    border-color: rgba(200, 200, 200, 0.3); }
-  .inverted code {
-    background: #444;
-    padding: 2px;
-    -webkit-border-radius: 4px;
-    -moz-border-radius: 4px;
-    border-radius: 4px;
-    color: #eee; }
-  .inverted pre code {
-    background: #f5f5f5;
-    padding: 7px;
-    color: #111; }
-  .inverted table tr:nth-child(odd), .inverted table th:nth-child(odd), .inverted table td:nth-child(odd) {
-    background: none; }
-  .inverted a {
-    color: #94dbff; }
-
-#wrapper {
-  padding: 20px; } 
-}
-
-path {
-stroke-width: 1;
-fill: none;
-}
-
-.axis {
-shape-rendering: crispEdges;
-}
-
-.x.axis line {
-stroke: lightgrey;
-}
-
-.x.axis .minor {
-stroke-opacity: .5;
-}
-
-.x.axis path {
-display: none;
-}
-
-.y.axis line, .y.axis path {
-fill: none;
-stroke: #000;
-}
-
-@media print {
-  body {
-    overflow: auto; 
-    font-size: 12px;
-    padding: 0 1em;
-  }
-
-  p {
-    line-height: 1.75em;
-  }
-
-  i {
-    font-weight: regular;
-  }
-
-  img, pre, blockquote, table, figure {
-    page-break-inside: avoid; 
-  }
-
-  #wrapper {
-    background: #fff;
-    color: #303030;
-    font-size: 85%;
-    padding: 10px;
-    position: relative;
-    text-indent: 0; 
-  } 
-
-  code {
-    font-size: 10px;
-    line-height: 1em;
-    border: none;
-  }
-
-  p code {
-    font-size: 10px;
-  }
-}
-</style>
-<style>#wrapper { max-width:700px; margin:0 auto }</style>
+  <meta name="generator" content="pandoc">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+  <meta name="author" content="Dave Kinkead">
+  <title>Democracy, Borders, &amp; Legitimacy</title>
+  <style type="text/css">code{white-space: pre;}</style>
+  <link rel="stylesheet" href="assets/styles.css">
+  <!--[if lt IE 9]>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
+  <![endif]-->
 </head>
-<body class="normal">
-  <div id="wrapper">
-      <h1 id="democracy-borders-legitimacy">Democracy, Borders, &amp; Legitimacy</h1>
+<body>
+<header>
+<h1 class="title">Democracy, Borders, &amp; Legitimacy</h1>
+<p class="author">Dave Kinkead</p>
+</header>
+<h1 id="democracy-borders-legitimacy">Democracy, Borders, &amp; Legitimacy</h1>
 <blockquote>
 <p>This is an argument about the relationship between democratic inclusion and instrumental justifications of democracy. I show that any account of democracy that relies on the outcomes of democracy processes to demonstrate democracy's value must have a congruent account of inclusion. Not only that, but because different accounts of democracy rely on different and incompatible accounts of inclusion, these accounts of democracy are themselves incompatible.</p>
 </blockquote>
@@ -514,6 +27,24 @@ stroke: #000;
 <blockquote>
 <p>Best viewed in HTML with interactive graphs, the following links outline <a href="https://github.com/davekinkead/modelling-the-boundary-problem">paper</a>, <a href="http://coffeescript.org/#installation">installation</a>, and <a href="https://npmjs.org/doc/install.html">dependency</a> requirements. A PDF version is also available with static images.</p>
 </blockquote>
+<p>!! Hugh's feedback</p>
+<ul>
+<li>more clarity on how instrumental accounts work. set up the target.</li>
+<li>compare my methodolgy to skryms.</li>
+<li><p>clarify naive voting.</p></li>
+<li>good applied conclusions to flesh out. flag these points.</li>
+<li>diverse polity more like be right but less likely to make everyone happy</li>
+<li>how might this apply to climate change / war?</li>
+<li>&quot;We can't have it both ways&quot; or &quot;having our cake and eating it too.&quot;</li>
+<li>flag need to examine relation between dviersity and epistemic competence</li>
+<li>what is the implication for vertical separation of powers on fact vs value. ** new paper</li>
+<li>use empiric evidence of juries to support these claims</li>
+<li><p>computational jurisprudence.</p></li>
+<li>theoretical conclusions are too strong</li>
+<li>even if you can't have both, democracy can still better than other alternatives.</li>
+<li><p>my claims weaken but don't undermine instrumental justifications.</p></li>
+<li><p>motivational paper for sociology and political science - does diversity track competence.</p></li>
+</ul>
 <h2 id="introduction">Introduction</h2>
 <p>There are many ways one might justify democracy.<a href="#fn1" class="footnoteRef" id="fnref1"><sup>1</sup></a> One common approach is to point to the desirable outcomes that democratic procedures bring about. Democracy in this light leads to good policy.</p>
 <p>Sometimes the desirability of these outcomes is judged according to some independent criteria. According to these accounts, there is some external standard for measuring the quality of a decision. Epistemic accounts of democracy like Condorcet's Jury Theorem<span class="citation" data-cites="condorcet1976"><a href="#fn2" class="footnoteRef" id="fnref2"><sup>2</sup></a></span> or David Estund's Epistemic Proceduralism<span class="citation" data-cites="estlund2009"><a href="#fn3" class="footnoteRef" id="fnref3"><sup>3</sup></a></span> are like this. Truth exists independently of our beliefs; democratic processes track the truth; so this gives us reason to value democracy.</p>
@@ -675,6 +206,7 @@ Preference fidelity by partition number
 <li>Polities are sufficiently small.</li>
 <li>Voters are as internally homogeneous as possible.</li>
 </ol>
+<p>!! This is what Rousseau said! His work explicity about city states, not countries like France.</p>
 <p>Restated, where we draw political boundaries is largely irrelevant for content-relative accounts of democracy if the distribution of voters by preference is highly clustered. Just about any account of inclusion will likely generate internally homogeneous polities. Where we draw boundaries is very important however, when the distribution of voters by preference is uniform. The Boundary Problem only becomes a problem for content-relative justifications of democracy when homogeneity of voter preferences is low within polities but high between them. Content-independent justifications require accounts of inclusion that generate sufficiently small, internally homogeneous polities.</p>
 <h2 id="content-indifferent-outcomes">Content Indifferent Outcomes</h2>
 <p>A third type of instrumental justification of democracy is concerned not with the specific content of democratic outcomes, but with their beneficial side effects. It is not the result of a vote or policy deliberation that matter <em>per se</em>, rather it is the effect that democratic participation has on citizens that is valuable. Democracy on this account is <em>transformative</em>.</p>
@@ -692,7 +224,7 @@ Preference fidelity by partition number
 <pre><code>Space::character = () -&gt;
   polity_improvements = []
   for polity in @polities
-    characters = polity.map (agent) -&gt;
+    characters = polity.manipulation (agent) -&gt;
       character = if agent.belief is &#39;good&#39; then 0.5 else 0.0 
       character += Math.random() / 2
     average_character_in_polity = ave characters
@@ -814,7 +346,5 @@ save = (name, results) -&gt;
 <li id="fn29"><p>Content indifferent justifications are not typically used in isolation. Both Mill and Rousseau used these content indifferent justifications in conjunction with other instrumental justifications of democracy such as strategic value, truth divination, and preference articulation.<a href="#fnref29">↩</a></p></li>
 </ol>
 </section>
-
-    </div>
 </body>
 </html>

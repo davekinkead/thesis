@@ -1,10 +1,74 @@
 # Lit Review
 
 
+## Conceptual Analysis
+
+> Conceptual analysis is one of the main traditional methods of philosophy, arguably dating back to Plato's early dialogues. The basic idea is that questions like 'What is knowledge?', 'What is justice?', or 'What is truth?' can be answered solely on the basis of one's grasp of the relevant concepts. The ideal result of a conceptual analysis would be a definition or analysis of the relevant X that is typically formulated as a necessary biconditional that states necessary and sufficient conditions for being X. For example, a typical formulation of the classical analysis of knowledge as justified true belief is: S knows that p iff (1) p is true, (2) S believes that p, and (3) S is justified in believing that p. Here, conditions (1) to (3) state individually necessary and jointly sufficient conditions for knowing that p. The standard procedure for testing such an analysis is by means of counterexamples, typically in the form of hypothetical cases as they are used in thought experiments. A counterexample may speak against the necessity of some of the conditions, or against the sufficiency of the conditions. For example, the classical analysis of knowledge was refuted by Gettier's (1963) famous counterexamples against the sufficiency of conditions (1) to (3). In such a situation, the analysis has to be refined until it is no longer subject to counterexamples, in which case it would constitute a successful conceptual analysis. Almost all of the elements of this traditional conception of conceptual analysis are controversial, but it still continues to guide a considerable amount of philosophical research. [http://philpapers.org/browse/conceptual-analysis]
+
+---
+
+@article{Hanna1998-HANCA,
+  author = {Robert Hanna},
+  year = {1998},
+  title = {Conceptual Analysis},
+  pages = {518--522},
+  journal = {Routledge Encyclopedia of Philosophy}
+}
+
+> The theory of conceptual analysis holds that concepts – general meanings of linguistic predicates – are the fundamental objects of philosophical inquiry, and that insights into conceptual contents are expressed in necessary ’conceptual truths’ (analytic propositions). [p518]
+
+These can be obtained via :
+
+  1. direct a priori definition of concepts;
+  2. indirect ’transcendental’ argumentation.
+
+@hanna1998 traces the tradition from Locke in EHC (general ideas and definitions) to Kant in CPR (analytic & synthetic ideas, a priori & a posteriori, constructive & transcidental proofs) to Frege to Moore (conceptual analysis) to Austin to Ryle (now Oxford analysis) to Grice & Strawson (American Analysis) until rebutted by Quine.  
+
+@hanna1998 defines CA as the conjunction of 5 theses: [p518]
+
+  1. The Content Thesis: A concept with intension and extension.
+  2. The Linguistic Thesis: The meaning of a predicate expression.
+  3. The Modal Thesis: conceptual truths are necessary and analytic.
+  4. The Knowledge Thesis: It produces important a priori knowledge.
+  5. The Metaphilosophical Thesis: All philosophical errors are confusions over concepts.
+
+The key idea is that concepts are avaiable to any competent language speaker, and can be known via logico-linguistic examination.
+
+A number of objections exist however: [p520]
+
+  1. The flight from intensions: Quine -> intensions are _ontologically mysterious_ and their role can be mimmiced by logico-linguistic devices.
+  2. The death of analyticy: Quine -> analycity is based on synonyms but accounts of synonyms end in circularity or vacuity therefore no boundary between analytic and synthetic exists.
+  3. The paradox of analysis: Langford -> CA requires establishing a relationship of identity between concepts but if ID is established they are the same thing, thus CA is non-informative & trivial.
+  4. Scientific essentialism: Putnam -> Water is H2O means concepts are necessary & a posteriori and if a priori, only contingently true.
+  5. Transcindental arguments presuppose verificationalism: Barry Stroud
+
+The problem for these objections is that in order to bite, they too must engage in conceptual analysis, or at least invoke concepts and conceptual truths. [p521]
+
+"Conceptual analysis is -- even in this mimimalistic way -- philosophically inescapable" [p521]
+
+
+---
+
+Two Dogmas of Empricism
+
+
+---
+
+@incollection{Grimm2011-GRIU,
+  editor = {D. Pritchard S. Berneker},
+  publisher = {Routledge},
+  booktitle = {The Routledge Companion to Epistemology},
+  author = {Stephen R. Grimm},
+  title = {Understanding},
+  year = {2011}
+}
 
 
 
-## Who is a Modeler?, British Journal for Philosophy of Science, 58, 207-233.
+## Modelling 
+
+
+### Who is a Modeler?, British Journal for Philosophy of Science, 58, 207-233.
 
 @Weisberg
 
@@ -20,13 +84,14 @@
 
 
 
-## Models for Modelling
+### Models for Modelling
 
 @weisberg2008
 
 > This paper offers a new account of both concrete and mathematical models, with special emphasis on the intentions of theorists, which are necessary for evaluating the model-world relationship during the practice of modeling. Although mathematical models form the basis of most of contemporary modeling, my discussion begins with more traditional, concrete models such as the San Francisco Bay model.
 
-## Simulation and Similarity: Using Models to Understand the World (Oxford Studies in Philosophy of Science)
+
+### Simulation and Similarity: Using Models to Understand the World (Oxford Studies in Philosophy of Science)
  
 Weisberg, Michael  
 Oxford University Press: Oxford, 2012  
@@ -43,7 +108,86 @@ ISBN 978-0199933662 (pb)
 > CH4 models are interpreted structures
 
 
-## SEP: Computer Simulations in Science
+## Model-Building in Philosophy
+
+@williamson
+
+
+> The models are typically presented in mathematical terms (p1)
+
+> When a system resists direct study, because it is so complex or hard to observe, model-building constitutes a key fall-back strategy. Studying a model often yields insight into the phenomena it models. 
+
+> When one model is replaced by another that captures more about how the phenomena work, science progresses.
+
+> progress may consist more in the development of better models than in the discovery of universal laws.
+
+> macroscopic phenomena are typically too complex and messy to obey many informative exceptionless generalizations framed in macroscopic terms.
+
+> Not only can philosophy make progress through model-building, it has been doing so for quite some time.
+
+> Philosophers of science use the word “model” in a confusing variety of ways, as do scientists themselves.  (p3)
+
+> “model-building” to identify a specific recognizable type of theoretical activity that some but not all scientists engage in, some but not all of the time (Godfrey-Smith 2006a; Weisberg 2007).
+
+> a model of something is a hypothetical example of it.
+
+> The point of the qualification “hypothetical” is that the example is presented by an explicit description in general terms, rather than by pointing to an actual case.
+
+> For the model-building methodology to work well, the description of the hypothetical example must be precise and specific enough to be formally tractable.
+
+> The mathematical clarity of the description helps make direct study of the model easier than direct study of the phenomenon itself.
+
+> Moreover, the mathematical consequences of the description may turn out to be similar enough to descriptions in similar terms of the observed behaviour of the target real-life phenomenon for the model to provide considerable theoretical insight into the target. (p3)
+
+> we might not have expected impossible models to have such cognitive value, but it has become clear that they can. (p3)
+
+> The purely logical consequences of the description do not depend on the intended interpretations of its non-logical terms; (p3)
+
+> the non-logical terms are not idle, for they are needed to co-ordinate comparisons with the real-life phenomenon. (p3)
+
+> They are typically intended to be easier to explore than the real thing; simplicity and idealization contribute to that. (p3)
+
+> To build a model is just to identify by description a hypothetical example which we intend to learn about in hope of thereby learning about the more general subject matter it exemplifies. (p4)
+
+> When we explore a model by valid deductive reasoning from the model description, we learn necessary truths of the general conditional form “If a given case satisfies the model description, then it satisfies this other description too.” (p4)
+
+> we can also learn unconditional though vaguer truths of the general form “This model description fits the phenomenon better than that one does in the following ways,” where the fit is usually approximate.  (p4)
+
+> The need for model-building is hardest to avoid where the complex, messy nature of the subject matter tends to preclude informative exceptionless universal generalizations. The paradigm of such complexity and mess is the human world. (p5)
+
+> The branch of epistemology known as formal epistemology is much concerned with model-building. (p5)
+
+> When one looks back on the vast body of results produced by model-building in formal epistemology over the past half-century, it seems idle to deny that considerable progress has been made in understanding the epistemic subtleties of many kinds of situation. (p6)
+
+> In the natural and social sciences, models are often tested by their predictions of measurable quantities. Models of epistemic logic typically make no such predictions, (p6)
+
+> Model-building is more relevant to showing that a conclusion does not follow from some premises. (p8)
+
+> model descriptions facilitate the construction of uncontentious logic-models with the appropriate mathematical structure. (p8)
+
+> when a model description seems informally consistent with a philosophical theory, one can often construct a corresponding logic-model on which the theory is true, and thereby demonstrate that it is logically consistent: it does not logically entail a contradiction. (p8)
+
+> Thus one advantage of model-building—not the only one— is to make us more efficient and accurate at mapping the logical space in which we are theorizing. Without such a map, we blunder about in a fog, bumping into unexpected obstacles, falling over cliffs. (p8)
+
+> Simplicity conduces to computational feasibility, so that we can in practice derive the model’s mathematical properties by deductive reasoning from its description.  (p8)
+
+> Simple models have other, less obvious advantages. The more adjustable parts a model has, the more opportunities it offers the model-builder to rig the results, to gerrymander the model by setting parameters and arranging structure in ad hoc ways to fit preconceived prejudices. (p9)
+
+> Although model-building already plays a significant role in philosophy, philosophers have not fully adjusted to its methodological implications. For instance, counterexamples play a much smaller role in a model-building enterprise than they do in traditional philosophy.  (p9)
+
+>  What defeats a model is not a counterexample but a better model, one that retains its predecessor’s successes while adding some more of its own. (p9)
+
+> Another respect in which rigorous-minded philosophers may find the method of model-building alien is that selecting and interpreting models is an art—in science as well as in philosophy. (p10)
+
+> Model-building already plays a significant role in contemporary philosophy. One neglected form of progress in philosophy over the past fifty years has been the development of better and better formal models of significant phenomena.  (p11)
+
+> Philosophy can do still better in the future by applying model-building methods more systematically and self-consciously. (p11)
+
+
+
+## Computer Simulation 
+
+### SEP: Computer Simulations in Science
 
 @InCollection{sep-simulations-science,
 	author       =	{Winsberg, Eric},
@@ -171,81 +315,6 @@ Emergence
 
 > Systems that produce emergent properties are mere mechanisms, but the mechanisms are very complex (they have very many independently interacting parts). As a result, there is no way to figure out exactly what will happen given a specific set of initial and boundary conditions, except to “crawl the causal web”.
 
-
-## Model-Building in Philosophy
-
-### Timothy Williamson
-
-
-> The models are typically presented in mathematical terms (p1)
-
-> When a system resists direct study, because it is so complex or hard to observe, model-building constitutes a key fall-back strategy. Studying a model often yields insight into the phenomena it models. 
-
-> When one model is replaced by another that captures more about how the phenomena work, science progresses.
-
-> progress may consist more in the development of better models than in the discovery of universal laws.
-
-> macroscopic phenomena are typically too complex and messy to obey many informative exceptionless generalizations framed in macroscopic terms.
-
-> Not only can philosophy make progress through model-building, it has been doing so for quite some time.
-
-> Philosophers of science use the word “model” in a confusing variety of ways, as do scientists themselves.  (p3)
-
-> “model-building” to identify a specific recognizable type of theoretical activity that some but not all scientists engage in, some but not all of the time (Godfrey-Smith 2006a; Weisberg 2007).
-
-> a model of something is a hypothetical example of it.
-
-> The point of the qualification “hypothetical” is that the example is presented by an explicit description in general terms, rather than by pointing to an actual case.
-
-> For the model-building methodology to work well, the description of the hypothetical example must be precise and specific enough to be formally tractable.
-
-> The mathematical clarity of the description helps make direct study of the model easier than direct study of the phenomenon itself.
-
-> Moreover, the mathematical consequences of the description may turn out to be similar enough to descriptions in similar terms of the observed behaviour of the target real-life phenomenon for the model to provide considerable theoretical insight into the target. (p3)
-
-> we might not have expected impossible models to have such cognitive value, but it has become clear that they can. (p3)
-
-> The purely logical consequences of the description do not depend on the intended interpretations of its non-logical terms; (p3)
-
-> the non-logical terms are not idle, for they are needed to co-ordinate comparisons with the real-life phenomenon. (p3)
-
-> They are typically intended to be easier to explore than the real thing; simplicity and idealization contribute to that. (p3)
-
-> To build a model is just to identify by description a hypothetical example which we intend to learn about in hope of thereby learning about the more general subject matter it exemplifies. (p4)
-
-> When we explore a model by valid deductive reasoning from the model description, we learn necessary truths of the general conditional form “If a given case satisfies the model description, then it satisfies this other description too.” (p4)
-
-> we can also learn unconditional though vaguer truths of the general form “This model description fits the phenomenon better than that one does in the following ways,” where the fit is usually approximate.  (p4)
-
-> The need for model-building is hardest to avoid where the complex, messy nature of the subject matter tends to preclude informative exceptionless universal generalizations. The paradigm of such complexity and mess is the human world. (p5)
-
-> The branch of epistemology known as formal epistemology is much concerned with model-building. (p5)
-
-> When one looks back on the vast body of results produced by model-building in formal epistemology over the past half-century, it seems idle to deny that considerable progress has been made in understanding the epistemic subtleties of many kinds of situation. (p6)
-
-> In the natural and social sciences, models are often tested by their predictions of measurable quantities. Models of epistemic logic typically make no such predictions, (p6)
-
-> Model-building is more relevant to showing that a conclusion does not follow from some premises. (p8)
-
-> model descriptions facilitate the construction of uncontentious logic-models with the appropriate mathematical structure. (p8)
-
-> when a model description seems informally consistent with a philosophical theory, one can often construct a corresponding logic-model on which the theory is true, and thereby demonstrate that it is logically consistent: it does not logically entail a contradiction. (p8)
-
-> Thus one advantage of model-building—not the only one— is to make us more efficient and accurate at mapping the logical space in which we are theorizing. Without such a map, we blunder about in a fog, bumping into unexpected obstacles, falling over cliffs. (p8)
-
-> Simplicity conduces to computational feasibility, so that we can in practice derive the model’s mathematical properties by deductive reasoning from its description.  (p8)
-
-> Simple models have other, less obvious advantages. The more adjustable parts a model has, the more opportunities it offers the model-builder to rig the results, to gerrymander the model by setting parameters and arranging structure in ad hoc ways to fit preconceived prejudices. (p9)
-
-> Although model-building already plays a significant role in philosophy, philosophers have not fully adjusted to its methodological implications. For instance, counterexamples play a much smaller role in a model-building enterprise than they do in traditional philosophy.  (p9)
-
->  What defeats a model is not a counterexample but a better model, one that retains its predecessor’s successes while adding some more of its own. (p9)
-
-> Another respect in which rigorous-minded philosophers may find the method of model-building alien is that selecting and interpreting models is an art—in science as well as in philosophy. (p10)
-
-> Model-building already plays a significant role in contemporary philosophy. One neglected form of progress in philosophy over the past fifty years has been the development of better and better formal models of significant phenomena.  (p11)
-
-> Philosophy can do still better in the future by applying model-building methods more systematically and self-consciously. (p11)
 
 
 ---

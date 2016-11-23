@@ -28,7 +28,8 @@ philosophy as methodological pluralism.
     - philosohy begins with wonder
     - doubt as a method
   2. Analysis
-    - how does it work
+    - what is it?
+    - how do philosophers do it?
     - is tied to ...
   3. Intuitions & Common Sense
     - how does it work

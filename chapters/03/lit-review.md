@@ -1,3 +1,31 @@
+# Lit Review
+
+
+## Digital Philosophy
+
+
+## Computational Philosophy to Date
+
+@article{Andre2015-ANDSMA-4,
+  journal = {Dissertatio},
+  year = {2015},
+  title = {Semantical Mutation, Algorithms and Programs},
+  author = {Porto Andr\'e},
+  pages = {44--76}
+}
+
+> The present article offers an explanation of perhaps Wittgenstein’s strangest and least intuitive thesis – the semantical mutation thesis – according to which one can never answer a mathematical conjecture because the new proof alters the very meanings of the terms involved in the original question. Instead of basing our justification on the distinction between mere calculation and proofs of isolated propositions, characteristic of Wittgenstein’s intermediary period, we generalize it to include conjectures involving effective procedures as well.
+
+@porto2015 takes @martin-lof1984's [p29] ideas that lamba terms are programs to demonstrate the plausibility of Wittgenstein's _semantical mutation thesis_.  Code is used as an example of the _possible_.
+
+> The  suggestion  is  thus  to  construe  the  rather  abstract-looking lambda-terms very  concretely,  as computer  programs. p54
+
+
+
+
+
+
+---
 
 
 # Argumentum in Silico

@@ -34,7 +34,7 @@ Some objections to the iterated game.
 
 > If the game is pure beggar-my-neighbour, then it is zero-sum and no Co-operative outcomes are possible p345 ie for positional goods like relative status.
 
-> Hobbes names Competition, Diffidence and Glory as the ‘three principal1 causes of quarrell’ that make the state of nature a state of war p345
+> Hobbes names Competition, Diffidence and Glory as the ‘three principal causes of quarrell’ that make the state of nature a state of war p345
 
 > Rational self-interested Co-operators would not need Leviathan or any other enforcing agency: they would all obey the Laws of Nature out of enlightened self-interest. However, the anarchist solution is precarious. It depends on the players’ all having sufficiently low discount rates and on there being enough-just enough-Co-operators in the society to sustain co- operation. p346
 

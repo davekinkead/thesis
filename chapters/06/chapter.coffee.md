@@ -1,447 +1,780 @@
 ---
-title: How does school choice affect school performance?
+title: Hobbes Chapter
 author: Dave Kinkead
-email: d.kinkead@uq.edu.au
-status: PhD Chapter
-bibliography: /Users/dave/Dropbox/Research/readings/.library.bibtex
 ---
 
-Over the last decade, measuring school performance has become the activity _de rigueur_ for those in charge of our education systems.  Parents want to know which school will best educate their children; principals want to know if their leadership makes a difference; politicians and bureaucrats want to know if their policies work and public resources are invested appropriately.  Today, most developed countries have some metric to do measure and compare school performance -- Adequate Yearly Progress (AYP) of No Child Left Behind (NCLB), Progress 8 scores, National Assessment Program - Literacy and Numeracy (NAPLAN), Trends in International Mathematics and Science Study (TIMSS), and the Programme for International Student Assessment (PISA).
+> In which I argue that Leviathan is either valid but with implausible premises or has plausible premises but is invalid.
 
-And why shouldn't it be?  Quality education is a key source of human capital, a critical driver of a country's international competitiveness in a global knowledge economy, and perhaps more importantly --- essential for a properly functioning society.  Every year we spend billions of dollars, pounds, and yuan in educating our children in kindergarten, school, and university, with much of this investment publicly funded.  Ensuring that scarce public funds are well spent is therefore a moral imperative --- and accurately measuring school performance an essential capability [^def-performance].
 
-[^def-performance]: I use the term _school performance_ here to broadly describe the causal impact that pedagogy, education policy, or even build environment has on student achievement.
+## New Code 
 
-Yet despite our desire to do so, measuring school performance isn't easy.  Broadly speaking, we can measure school performance in two ways: by the things schools do -- the practices, pedagogies, and processes they apply; or by the things schools produce -- the academic achievement of students, university or employment placement, or even perhaps by the quality of well-rounded citizens they produce.  Of these measures however, it is the latter that has come the most prevalent, especially via standardised literacy and numeracy tests.
 
-Measuring school performance by student achievement however, faces a significant epistemic challenge.  The relationship between schooling and student outcomes is a causal one.  Because we can't measure the causal impact of schooling on student achievement directly, we can't know this causal impact with certainty.  Instead, we must _infer_ the causal impact of schooling on student achievement by way of proxy measures such as standardised student test scores.  If student achievement improve, then we can _infer_ that some aspect of schooling _caused_ this.
+Hobbes makes certain claims about man and the state of nature.  These are ....
 
-Perhaps.
+He uses them to justify the necessity of a Leviathan.
 
-Just how warranted is this inference from student achievement to school performance?  The challenges associated with inferring school performance from student achievement have long been documented [@coleman1970] yet doing so remains popular.  This is understandable - measuring school performance via student acheivement is much easier than assessing fidelity with particular practices and in some circumstances, the inference is warranted.  But when school choice is available, whether by giving families a choice in the school their children attend or schools admitting students selectively, the inference from student acheivement to school performance breaks down.
+Let's reconstruct that...
 
-Using computer simulation, I develop a simple model in order to investigate the robustness of the inference from student achievement to school performance.  I then demonstrate how the introduction of school choice leads to a complete failure of the inference mechanism.  My argument is simple - _if an inference is unreliable in an ideal setting, then it is certainly unreliable in a non-ideal one_.  By eliminating measurement errors and abstracting away confounders, computer simulation allows us to create the ideal conditions from which to assess the quality of this inference.  Thus, if the conditions in this model are present in the real world, then we should be very sceptical inferring anything about school performance from student achievement.
+Man...
 
-If the conditions of the computer model are present in real life, if school choice is available, then we should be very skeptical infering from student achievement to performance from .
+    class Man
+      constructor: (scenario) ->
+        @strategy = assign_strategy(scenario.strategies)
+        @colour = @strategy.colour
+        @x = Math.random() * width
+        @y = Math.random() * height
 
+Nature...
 
-## Measuring School Performance
+    class Nature
+      tick: () ->
+          console.log 'tick'
 
-There are a variety of ways we might measure school performance.  One way is to _measure the things schools do_ -- the practices, pedagogies, and processes they apply.  If their application of a process is faithful to some standard, then we might judge them to be performing well.  If not, then we judge them poorly.  But a more common approach is to _measure the things schools produce_ -- how many students qualified for university, how many found well paying jobs, or especially how well students performed in tests.
+    Nature::populate = (scenario) ->
+        [1..scenario.number_of_men].map () ->
+          new Man scenario
 
-However we measure the academic achievement of students -- whether by _declarative knowledge_, the learning and appropriate recall of particular facts; or by _procedural knowledge_, the application of skill and know-how -- we have an abundance of existing data available to us and the tools needed to obtain more are relatively easy to administer -- standardised literacy and numeracy tests like NAPLAN; the Peabody Picture Vocabulary Test [@dunn1965]; IQ scores or the Wechsler Intelligence Scale for Children (WISC-IV) [@wechsler2003].  Measuring educational outputs is much simpler than measuring processes. Yet the metrics from these tools are just proxies for what we really want to know --- what is the educational impact of schooling upon students?   
 
-Accurately measuring school performance by proxies however, is hard.  The challenges associated with inferring school performance from student achievement have long been documented. Ecological models, for example, stress the important role non-school factors like family and neighbourhood have on student performance [@bronfenbrenner1994, @zubrick2000].  Further clouding our understanding are the often competing causal theories that attempt to explain how schools affect student achievement - peer effect [@hanushek2003], class size policies [@ehrenberg2001], or teacher training and qualifications [@kosgei2013].  How and to what degree schools themselves impact student achievement remains an open question. How much the changes in student achievement can be attributed to school performance is therefore, also uncertain.  
 
-Measuring school performance is hard because measuring causation is hard.  The limits of causal knowledge have been well documented in science and philosophy.  Causation cannot be observed directly -- it can't be seen, heard, or touched.  Neither can it be known _a priori_.  Causal claims might be true or false, but they are never contradictory [@hume1748 §4.2.16].  Instead, causal connections must be _inferred_ from their observable, posited effects.  In order to discover the causes of effects, we try to hold all but a few variables fixed, and observe the covariance between them in order to identify causality.  
+Scenarios ....
 
-In complex systems accurate causal inferences are especially challenging.  Common causes, feedback loops, under-determination, over-determination, and causal indeterminacy all strain the certainty of our inference mechanisms despite the best controls, protocols, and experimental design we might put in place.  Causal inference is difficult.  Inferring the causal impact of a school on student achievement in a complex education system with multiple confounders is especially difficult.  Yet infer it we must.  So an important question we need to ask is _just how warranted is this inference from student achievement to school performance_? 
+    assign_strategy = (strategies) ->
+      strategies[Math.floor(Math.random() * strategies.length)]
 
-In some scenarios, inferring school performance from student achievement might be perfectly justified.  Changes in student achievement might be largely or even wholly explainable by a school's causal impact.  In these instances, when students results improve, we can justifiably say that because the school's causal impact is largely responsible, the school performance has improved.  In many other scenarios however, we might have serious grounds for scepticism.  Confounders such as parental age and socio-economic status [@caro2009], birth weight, neighbourhood characteristics [@nghiem2015], or even a student's breakfast consumption [@adolphus2013] might explain a great deal about differences in student achievement.  In these cases, when the extent of a school's causal impact is uncertain, then we should question whether we can infer anything at all about school performance from changes in student achievement.
+    temporary = 
+      strategies: [
+        {colour: 'red'}, 
+        {colour: 'blue'}, 
+        {colour: 'green'}
+        ]
+      number_of_men: 2000
 
-If inferring from observable effects to their causes is difficult, then judging the quality of the inference mechanism is even harder.  Doing so requires some standard against which we can make comparisons but our knowledge of this standard is limited by the same problem of inference.  If we could somehow know independently the causal impact of schools upon students, then we could judge the qualify of our inference from empiric data.  But how can we judge the quality of the inference from student achievement to school performance if we can't be certain what is the cause of student achievement in the first place?  We lack the epistemological foundations to properly ground our second order judgements.
 
-This is a problem that empiric approaches cannot overcome. If we are to use empiric data from student achievement to make causal inferences about school performance, then we can't use that same data to judge the quality of the causal inference mechanism.  If however, we are to use the same empiric data to judge the quality of the inference, then we need to already know the cause - but if we already knew the cause, we wouldn't need to infer school performance via the proxy of student achievement in the first place.  We need another way.
+Browser ...
 
+    d3 = require 'd3'
+    buffer = 50
+    height = window.innerHeight - buffer || 600
+    width = window.innerWidth - buffer || 600
 
-## Methodology
+    tick = (simulation) ->
+      simulation.forEach (man) ->
+        man.x = man.x + 10
 
-Computer simulation offers us one way out of this problem. Simulation allows us to not only model how we think the world _is_, but to also specify how we think the world _should be_.  It allows us to know the causal relationships _within_ the model with certainty because they are explicitly stipulated in code _ex ante_.  With causality known by stipulation _a priori_, we can then observe the empiric data the simulation generates _a posteriori_ and assess the quality of the inference mechanism. We can judge how good the inference mechanism from student achievement to school performance really is - in our model at least.
+    display = (scenario) ->
+      running = false
+      nature = new Nature
+      simulation = nature.populate scenario
 
-The purpose of this simulation is therefore not to explain or predict the real world but to create a yard stick by which we can judge our causal inferences in the real world.  The model simplifies and abstracts away all possible confounding causes of student performance.  Importantly, it eliminates any errors when measuring student performance and stipulates that schooling is the _only_ cause of changes in student performance [^note-only].  This creates ideal conditions for assessing the quality of our second order judgements - the inference from student achievement to school performances.
+      canvas = d3.select("#temp")
+      canvas.append "svg:svg"
+        .attr "height", height
+        .attr "width", width
+        .on "click", () ->
+          if running is false 
+            running = setInterval () -> 
+                simulation.tick
+                render_simulation canvas
+              , 500
+          else
+            clearInterval running
+            running = false
+            console.log "stopping"
+        .selectAll "circle"
+          .data simulation
+          .enter().append "circle"
+          .style "opacity", 0.5
 
-[^note-only]: Again, the claim is not that schooling is the only causal factor in student performance in the _real world_, but that it is the only causal factor in the model because it has been programmed as such.
+      render_simulation(canvas)
 
-Because the causal impact of a school on student achievement in a simulation is known by stipulation, we can assess how accurately empiric data about student achievement maps to the stipulated causal impact of the school --- to our belief about school performance.  If the inference mechanism from student result to school performance is warranted in the simulation when the causal mechanism is known by stipulation, then we have some grounds to be confident about the inference mechanism in the real world, additional confounders not withstanding.  _But if the inference isn't warranted when the causal mechanism is known, then it can't be warranted when the causal mechanism is unknown._  This simulation will therefore allow us to say when the student result to school performance inference _might_ be warranted, and when it _cannot be_ warranted.  It will give us a yard stick against which we can judge _possibly_ or _definately not_.
 
-As will become obvious shortly, this article is different from typical philosophical fare.  Written in [Literate Coffeescript](http://Coffeescript.org/), this article is simultaneously a philosophical argument and a computer simulation that demonstrates the claims of the argument.  Literate Programming [@knuth1984] involves embedding computer code within a written argument and has much to offer scholarly writing.  Firstly, it ensures that all assumptions of the model are explicit.  Computer programs are deterministic, so all the instructions necessary for the simulation to run have to be explicitly documented.  Secondly, it allays concerns often directed at simulation -- the challenges of validation and replication.  Often, simulations are 'black boxes' of code - opaque to the reader and reviewer alike.  Because all the code necessary for the running simulation is embedded in the article, replication is as simple as following the installation instructions in the appendix.  
+    render_simulation = (canvas) ->
+      canvas.selectAll "circle"
+        .transition()
+        .duration 500
+        .style "fill", (man) -> man.colour
+        .attr "r", 7.5
+        .attr "cx", (man) -> man.x
+        .attr "cy", (man) -> man.y         
 
-Lastly, it enhances the persuasiveness of argument.  Compared to traditional static argument, the dynamic simulation offered in this paper allows the reader to experience the argument evolve from intial definitions as more premises are added.  This is especially useful when dealing with counter intuitive results that might require considerable concentratio and reflection to accept [^persuasiveness].
 
-[^persuasiveness]: This is not to say that persuasion should trump logical entailment but that a persuasive and valid argument is better than a valid one alone.  @kahneman2011 (p9) for example attributes the broad appeal of his and Tversky's work on heuristics biases to the inclusion of demonstrations that the reader could experience themself.
+make & display x agents based on size
 
-I make no assumptions about the reader's knowledge of computer programming.  Code is indicated by `monospace font and indented blocks`, is written to be as informative as possible, and is fully described in the surrounding text.  Any code that is not germane to the argument itself has been placed in the appendix. Coffeescript is used because it runs in any modern web browser and has a syntax close to natural language.  Best viewed in HTML at [http://blind-review.github.io/school-performance/](http://blind-review.github.io/school-performance/) to take advantage of the interactive visualisations, a static but less engaging version of this article is available in PDF or print.
 
-
-## A Model of School Performance
-
-We begin by defining a model of students.  Students have a level of academic achievement measured from a minimum of `0.0` to a maximum of `1.0`.  Academic achievement is broadly construed and can be interpreted as any attribute of value that can be influenced by schooling.  This achievement is randomly generated with a uniform distribution and is centred around a mean of `0.5`.
-
-
-    class Student
-      constructor: () ->
-        @achievement = Math.random()
-
-
-Next we model schools.  Schools are collections of students upon whose acheivement they causally impact.  In short, _schools teach students_.  The causal impact of a school on a student's academic performance ranges from `-1.0` (a strong negative impact) to `1.0` (a strong positive impact).  This impact is the same for all students and is fixed for the duration of the simulation.  Again, no claim is made about how educational impact is transmitted to student achievement in the real world.  Policy, pedagogy, or the school environment are all possible causal mechanisms compatible with this model.  The key stipulation is that `impact` is the _only_ causal mechanism at work.
-
-
-    class School
-      constructor: (@id, @impact) ->
-
-
-Finally, we create a class to encapsulate the simulation itself.  We will construct each simulations with a profile describing the desired attributes of the schools and student distribution.  We then create 1000 students of random achievement and assign them in the schools according to the stipulated profile.  The initial assignment of students between schools is determined by a skew factor ranging from `0.0` (all students of below average achievement are in the first school) to `1.0` (all students of above average achievement students are in the first school).  The default value of `0.5` results in an even distribution of students by achievement.  Subsequent enrolments will be random.
-
-
-    class Simulation
-      constructor: (@profile) ->
-        @schools = for school, id in @profile.schools
-          new School(id, school.impact)
-        @students = [1..1000].map () =>
-          student = new Student()
-          student.school = randomly_assign(student, @schools, @profile.skew)
-          student
-
-
-The initial assignment of students between schools is determined by a skew factor ranging from `0.0` (all students of below average achievement are in the first school) to `1.0` (all students of above average achievement students are in the first school).  The default value of `0.5` results in an even distribution of students by achievement.  Subsequent enrolments will be random.
-
-
-    randomly_assign = (student, schools, skew=0.5) ->
-      [first, second] = if student.achievement > 0.5 then [0,1] else [1,0]
-      if Math.random() < skew then schools[first] else schools[second]
-
-
-Events in the simulation will occur during a generic time period called a `tick`.  A tick can represent any fixed period of time such as a term, semester, or year.  During each tick schools will `teach` students, some students will `graduate`, and some new students will `enrol`.
-
-
-    Simulation::tick = () ->
-      @teach()
-      @graduate()
-      @enrol()
-
-
-Schools causally impact a student's achievement.  Schools teach and students learn.  Again, the actual causal mechanism the model describes could be a variety of influences such as pedagogy, policy, or classroom environment.  As a non-ecological model however, schooling is the _only_ mechanism by which student achievement can change within the model.  The causal impact on student achievement is assumed to be linear and a constraint is applied to ensure achievement remains between `0.0` and `1.0`.
-
-
-    Simulation::teach = () ->
-      transference=0.2
-      @students.forEach (student) ->
-        student.achievement = student.achievement * (student.school.impact * transference + 1)
-        student.achievement = Math.min student.achievement, 1.0
-
-
-During each tick, a percentage of students will graduate and be replaced by new students enrolling.  We will set the graduation rate at 20% per tick.
-
-
-    Simulation::graduate = (graduation_rate=0.2) ->
-      @graduates = @students.filter (student) ->
-        Math.random() < graduation_rate
-
-
-Depending on the _selectivity_ parameter, some students will attempt to enrol in the perceived best performing school.  If more than half of the total students are attempting to enrol in one particular school, the school will select the highest achieving students first so that all schools have roughly even numbers of students.
-
-
-    Simulation::enrol = () ->
-      [best, worst] = @rank_schools()
-
-      @graduates.forEach (student) =>
-        student.achievement = Math.random()
-        if Math.random() < @profile.selectivity
-          student.school = if student.achievement > 0.5 
-          then @schools[best.id] 
-          else @schools[worst.id]        
-
-
-Identifying the 'best' school requires us to rank schools based on student performance so we create a simple league table that all students have knowledge of.
-
-
-    Simulation::rank_schools = () ->
-      @measure_schools()
-      [best, worst] = if @schools[0].score > @schools[1].score
-      then [@schools[0], @schools[1]]
-      else [@schools[1], @schools[0]]
-
-
-Measuring school performance is then done by calculating the average student achievement in each school.  This acts as an error free method of student assessment which removes concerns about measurement validation from the model.  School performance will therefore perfectly track the academic achievement of the students enrolled.
-
-
-    Simulation::measure_schools = () ->
-      @schools.map (school) =>
-        students = @students.filter (student) ->
-          student.school.id is school.id
-        total = students.map (student) ->
-            student.achievement
-          .reduce (prev, curr) ->
-            prev + curr
-        school.score = total / students.length
-    
-
-We now have a complete model of students with initial uniformly random `achievement`; schools whose stipulated `impact` is the only mechanism for affecting student achievement; a perfect measure of school performance as average student achievement; methods for some student to graduate and new ones to enrol; and a means of varying how much _selectivity_ is present in the school system as well as the initial _skew_ of above average students.  In short, we have created _perfect conditions_ for measuring school performance.
-
-
-## Simulations
-
-With the model defined, we begin with a test to ensure the code is working as expected and ground our confidence in the simulation.  We will begin with students split evenly between the two schools.  We stipulate that schools have no causal impact on student achievement, and that there is no selectivity within the system.  Because enrolment is completely random and there is no causal impact from schools, what we _should_ observe is no significant change within and between schools.  
-
-The movement in the simulation visually represents a `tick`.  Student achievement is represented in colour - blue for > `0.5` and red for < `0.5` achievement.  The profile of the simulation is expressed in the code below and the simulation can be started or stopped by clicking on it.  
-
-
-    sanity_check_1 = { 
-      schools: [{impact: 0.0}, {impact: 0.0}],
-      selectivity: 0.0
-    }
-
-
-<figure class="simulation">
-<div id="sanity-check-1"></div>
-<figcaption>Simulation 1: No impact, no selectivity.</figcaption></figure>
-
-Running the simulation generates the expected results. During each tick, the `teach` method has no impact on student achievement because both schools have `0.0` impact. Some students graduate and are replaced with new students of random achievement.  As such, school performance, measured by average student achievement, remains close to 0.5.
-
-Next, we will model two schools with different causal impact - one positive and one negative - but again with no selectivity.  While both schools will start with similar student achievement levels, the `teach` method _should_ see student achievement in the first school increase while it decreases in the second. 
-
-
-    sanity_check_2 = { 
-      schools: [{impact: 0.5}, {impact: -0.5}],
-      selectivity: 0.0
-    }
-
-
-<figure class="simulation">
-<div id="sanity-check-2"></div>
-<figcaption>Simulation 2: School impact, no selectivity.</figcaption></figure>
-
-Again, the simulation generates the expected results with one school's performance stabilising at approximately `0.66` and the other at `0.33`.  In both cases, the simulation performed as expected and our inference from student achievement to school performance is warranted.  In these scenarios we can reliably infer school performance from student achievement.
-
-
-## School Performance as Shifting Averages
-
-Most schools systems have some degree of selectivity.  This might be selectivity on the part of the school where only the top achieving students are admitted; or it might be selectivity on the part of the students or parents who explicity choose one school over another.  Selectivity can also be implicit when for example, parents choose a 'good' neighbourhood with 'good' schools to live in.
-
- In the next scenario, we take parameters from Simulation 1 where schools have no causal impact on student achievement, but introduce selectivity into the model.  Because both schools are identical in terms of their causal impact, and school `impact` is the only causal mechanism in the model, _any changes in school performance must be the result of selectivity_.
-
-
-    shifting_averages = { 
-      schools: [{impact: 0.0}, {impact: 0.0}],
-      selectivity: 0.5
-    }
-
-
-<figure class="simulation">
-<div id="shifting-averages"></div>
-<figcaption>Simulation 3: No impact but with selectivity.</figcaption></figure>
-
-While the performance of both schools is approximately `0.5` when the simulation begins, any minor imbalance in relative performance caused by random variation in new student achievement results in a run-away effect.  As soon as one school is perceived to perform better than others, _selectivity_ ensures that students who do selectively enrol, choose the school with the higher percentage of high achievement students.  After a few ticks, the simulation stabilises with one school performing at approximate `0.63` and the other at `0.37`.
-
-Recall however that the impact of schools is stipulated as zero - both schools are identical.  Individual student achievement never changes because schools have no impact in this scenario.  The large differences in school performance are therefore completely explained by _selectivity_.  As selectivity and the percentage of students enrolling non-randomly increases, so too does the performance difference.  Differences in school performance as measured by student achievement are the result of nothing more than shifting averages of student achievement.  When selectivity is present, the inference from student achievement to school performance is unreliable.
-
-
-## Performance is Relative
-
-The previous simulation showed how significant performance differences can arise even when schools are causally identical.  The next simulations demonstrate how a school with a low or negative impact can appear to perform well above what it should.  We begin with two schools having differing levels of negative impact but with no selectivity.  In this case the average performance of both schools _should_ decrease, propped up only by new enrolments whose average achievement is `0.5`.
-
-
-    relative_1 = { 
-      schools: [{impact: -0.25}, {impact: -0.5}],
-      selectivity: 0.0
-    }
-
-
-<figure class="simulation">
-<div id="relative-1"></div>
-<figcaption>Simulation 4: Negative impact, no selectivity.</figcaption></figure>
-
-Again, the simulation results are as expected.  Both schools performed poorly but the school with the lowest causal impact performed the worst.  Next however, we introduce selectivity to the same schools and students.
-
-
-    relative_2 = { 
-      schools: [{impact: -0.25}, {impact: -0.5}],
-      selectivity: 0.5
-    }
-
-
-<figure class="simulation">
-<div id="relative-2"></div>
-<figcaption>Simulation 5: Negative impact with selectivity.</figcaption></figure>
-
-When selectivity is present, the inference from student achievement and school performance breaks down again.  The school with the negative but better causal impact performs far better than its causal impact says it should - increasing average student achievement from `0.4` in Simulation 4 to `0.5` in Simulation 5.  Meanwhile, the school with the worst causal impact performs much worse than it should - decreasing average student achievement from `0.33` to `0.22`.  The schools remained the same in both simulations.  The only change in the simulations, and therefore only causal of the change, was the introduction of selectivity.
-
-As selectivity increases, so too does the disconnect between perceived performance and causal impact. The mere presence of a school with lower causal impact on student achievement combined with selectivity results in the higher achievement students enrolling in the _least worst_ school, thereby _inflating_ that school's apparent performance.  Thus, school performance as measured by student achievement is determined not only by the causal impact of a school but also by the relative performance of other schools.  This is not to say that school performance _is_ relative, but rather that the performance of one school is affected by the performance of another, whenever selectivity is present.  Again, the inference from student achievement to school performance is unreliable.
-
-
-## Initial Conditions Matter
-
-In an egalitarian utopia, every child would have the same opportunities as every other.  The biological lottery wouldn't affect educational outcomes.  Obviously, this is not our reality -- initial conditions matter.  Until now, we have looked at scenarios where both schools started with similar initial random distributions of students.  In the next simulations, we add a new parameter, `skew`, that alters the initial enrolment of students.  
-We continue with the same 1000 students of random achievement (mean `0.5`) but set the initial distribution between schools.  A `skew` value of `0.75` here means that 75% of the above average, and therefore only 25% of the below average students, will initially be enrolled in the first school.  The default value of `0.5` means there is an equal distribution of achievement.
-
-In the next simulation, we stipulate that schools have different causal impact but the initial distribution of student achievement is skewed in favour of the school with the lowest impact.  No selectivity is present so we should expect the initial mismatch between school impact and performance to be corrected over time.
-
-
-    head_start_1 = { 
-      schools: [{impact: -0.25}, {impact: 0.25}],
-      selectivity: 0.0,
-      skew: 0.75
-    }
-
-
-<figure class="simulation">
-<div id="head-start-1"></div>
-<figcaption>Simulation 6: Mixed impact with skew.</figcaption>
+<figure>
+  <div id="temp" class="simulation fullscreen"></div>
+  <figcaption>Temp...</figcaption>
 </figure>
 
-As expected, any imbalance in the initial distribution when selectivity is absent is eliminated given enough time.  In each tick, the causal impact of schools affects student achievement, and every enrolling cohort normalises school performance to a degree.  The first school, while appearing to perform strongest initially, eventually performs poorly, with the opposite occurring in the second school.  
+## Introduction
 
-Next, we add selectivity to the same parameters and see how this changes performance.
+Hobbes has been described as the proto-game theorist.  Many theorists have attempted to model Hobbes' account in a game theoretical mannor.
+
+Summary of who has done what....
+
+Current approaches have been limited by their predominately analytic approach.  How do they do it....  Exceptions...
+
+To comprehensively justify Hobbe's Leviathan with game theory, one must fulfil three requirements:
+
+  1. Accurately translate the premises of Hobbes' argument into a formalisation useful for game theoretic analysis.
+
+  2. Show that those premises are at least a plausible description of reality.
+
+  3. Demonstrate that the formalised premises entail Hobbes' conclusion, namely that the inevitable result of the state of nature is a _warre of all against all_.
+
+Extant literature is characterised by disagreement.  Why
+
+  1. interpretation of the text
+  2. methodological constraints
+
+This chapter attempts to investigate whether Hobbes' conclusion is entailed under a charitable reading and if not, what in his theory would need to change.
+
+In part....
+
+I argue that Hobbes' argument in Leviathan is either valid but based on implausible premises, or based on plausible premises but invalid.
 
 
-    head_start_2 = { 
-      schools: [{impact: -0.25}, {impact: 0.25}],
-      selectivity: 0.5,
-      skew: 0.75
-    }
+## The Leviathan
+
+> Outline Hobbes argument.  Run though each premise and formalise it.  Justify the premise.  Bring in support from secondary sources.
+
+Leviathan [^source] is a ....  What does is cover....  In it's simplest form however, it is an argument for ....  It is a justification for why rational men should subjecate themselves completely to an absolute soveriegn - the Leviathan.
+
+[^source]: Hobbes makes similar arguments in .... I will be using the english version of Leviathan...why...
+
+I take the argument to be this:
+
+  1. Peace is possible with either no government, limited government, or absolute government
+  2. Peace isn't possible without government
+  3. Limited government is illusionary
+  4. Peace is only possible with an absolute soveriegn
+  5. It is rational to desire peace
+  6. Therefore it is rational to submit to an absolute soveriegn
 
 
-<figure class="simulation">
-<div id="head-start-2"></div>
-<figcaption>Simulation 7: Mixed impact with skew and selection.</figcaption></figure>
-
-Again, when selectivity is present school performance no longer reflects a school's stipulated causal impact.  A skewed initial distribution of students and selectivity results in a school with a negative causal impact performing better than a school with a postive causal impact.  Given a sufficiently skewed initial distribution, schools with negative causal impact can continue to outperform schools with positive impact.  Yet again, the presence of selectivity in the school system undermines the student achievement to school performance inference mechanism.
+Focus on the state of nature...
 
 
-## Discussion
+  - Natural Comp -> Conflict (theft) (M fight only when power diff in your favour)
+  - Natural Comp -> Pursuit of Power (aggression) ()
+  - Conflict -> Pursuit of Power (protection)
+  - Conflict -> Pursuit of Power (aggression)
+  - Conflict -> Distrust
+  - Distrust -> Conflict (stike first defense)
+  - Distrust -> Pursuit of Power (protection)
+  - Pursuit of Power -> P Comp
+  - P Comp -> Conflict
+  - Glory -> P Comp
 
-Measuring school performance is important but we cannot measure it directly.  Instead, we typically rely on student achievement as a proxy, and _infer_ school performance.  This of course, raises a number of epistemic challenges.  Few people if any would claim that current school performance measurement regimes that rely on student achievement as proxy data from standardised tests such as NAPLAN are perfect.  What these simulations demonstrate however, is that _if selectivity is present, then the inference from student achievement to school performance is unwarranted_.  If a causal inference mechanism isn't warranted when causes are known with certainty, then it seems highly impausible that the inference can be warranted when causes aren't known or observable.  
 
-The inference from student achievement to school performance is poor even under the very best epistemic conditions.  The model above allows us to stipulate the behaviour of much that is uncontrollable in the real world.  Within the model, our knowledge of student achievement is perfect and not affected by test errors, strategic teaching, or exam stress.  So too is our knowledge of the causal mechanism.  As a non-ecological model, we have stipulated that the only what student achievement can change in the simulation is via school impact.  We could not ask for more perfect conditions from which to _infer_ causal impact yet even here the link between proxy evidence and actual cause breaks down.  _We should therefore be very skeptical about inferring school performance from student achievement_.
+Whist Hobbes offers an account of many things (for example....) it is premise 1 where most work is done and where most disagreement exists...
 
-This is of course, a purely theoretical argument.  It remains an open empiric question just how well the simulation models reality, and how much selectivity occurs within our school systems.  Social scientists are likely to be better placed answering this question than philosophers are, but a few observations about the Australian context are germane.  Approximately 35% of all students currently attend a non-government school [@abs2014] indicating a minimum level of explicit selectivity.  Then there is selectivity within government schools.  Data on what percentage of students attend their _nearest_ school is difficult to find, as is data on parents moving to different school catchment zones because of perceived school performance, but anecdotal evidence suggests this too occurs.
+How does Hobbes get there and how can we formalise this?
 
-One might object to my conclusion by claiming that the model described doesn't accurately reflect the real world.  This is certainly true but not grounds to reject the conclusion.  All models are abstractions and simplifications of reality - that is their strength.  In this case, the model described presents a best case epistemic scenario for measuring school performance.  As such, the simplification of the model _strengthens_ the claims for epistemic skepticism towards school performance.
 
-Despite its simplicity, the model also appears to conform with empiric observation.  In the sanity check simulations, the model performed exactly as expected.  When selectivity was introduced, the simulation was compatible with recent Australian data. @nghiem2015 analysis of the Longitudinal Study of Australian Children showed that non-government (and therefore selectively enrolled) schools had higher average student NAPLAN results but once controlled, performed equally or worse in the case of Catholic schools.
+## An Agent Based Approach to Game Theory
 
-Some might also simply dispute my claim that student achievement are typically used for measuring school performance.  NAPLAN, Peabody, and Wechsler tests are intended for measuring student, not school performance.  Longitudinal [@zubrick2000], predictive [@lavin1965], and psychological studies of academic performance [@pintrich1990] all rely on these measures without making claims about school performance.  In short, they might argue that my conclusion may be entailed but that it is poorly targeted.  While it is certainly true that student achievement are used for much more than assessing school performance, student achievement are still used to infer school performance by parents, teachers, and policy makers alike.  NAPLAN is explicit on this - "[s]chools can gain detailed information about how they are performing, and they can identify strengths and weaknesses which may warrant further attention." [@naplan2015]
+Game theoretic analysis of Hobbes' Leviathan is typcially done via static game proof or informal argument.
 
-The impact of student intake and composition has long been acknowledged to play an important role in determining school performance [@thrupp1995, @thrupp1999, @thrupp2006].  What this simulation so graphically demonstrates is how these common scenarios further complicate research into school performance by undermining our inference mechanisms even in ideal settings.  _We should be very skeptical about inferring school performance from student achievement_.
+Define game
+
+The traditional approach to game theoretic analysis uses the formal methodology developed by @vonnewmann1944.  Here games are represented as either normal form (matrix) or extendend form (tree).
+
+Strengths, doesn't require rational choice - can deal with irrationality (passions, foole) and bounded rationality
+
+weaknesses.  This misses important interaction that can be found in ...
+
+More recently, agent based approaches to game theoretic analysis have emerged (cite who)  @axelrod ... @skryms 
+
+What are the advantages of agent based approaches.
+
+I'm doing something ... what.
+
+Build the framework....
+
+We being constructing our model by focusing on the actors in Leviathan - men and nature.  Man, according to Hobbes, is the atomic unit of society...prior to...hyper individual, rational egoist...(cite Hobbes)
+
+Men have a strategy that ...
+
+
+    # class Man
+    #   constructor: (@space, @strategy) ->
+    #     # move step elsewhere
+    #     @step = @space.width * @space.height * 0.000001
+
+
+
+Man exists in the State of Nature - a place where man's life is infamously _solitary, poor, nasty, brutish, and short_.  This condition of _continual fear and danger of violent death_ is however, Hobbes' conclusion.  To model it as such would be question begging so our model of nature will consist simply of men.
+
+We will define nature as a two dimensional space representing pre-civil society.  When we creae nature in a simulation, we populate it with an agent profile specifying how many men using which strategy the simulation will begin with.
+
+
+    # class Nature
+    #   constructor: (@height, @width, agent_profile) ->
+    #     @populate agent_profile
+
+
+Within the two dimentional spacial arranement of nature, everybody is next to somebody else - their neighbour.  A neighbourhood here is simply defined a list of all the agents within an agent's depth perception.  Here we return everyone within a square from an x, y coordinate.
+
+
+    # Nature::neighbourhood = (agent) ->
+    #   neighbours = []
+    #   for other in @agents
+    #     if agent.x - other.space.depth < other.x < agent.x + other.space.depth and agent.y - other.space.depth < other.y < agent.y + other.space.depth
+    #       neighbours.push other
+    #   neighbours
+
+
+
+
+
+## A Prisoner's Dilemma
+
+
+The most common approach to modelling Leviathan is to use a Prisoner's Dilemma (cite who).
+
+Why the PD?
+
+In a pure strategy Prisoner's Dilemma, players have the choice of cooperating (C) or defecting (D).  Cooperation can describe a range of behaviours such as refraining from combat or conflict, the sharing of resources, or simply non-interference with others.  Defection on the other hand can represent (cite Hobbes) .....
+
+In a Prisoner's Dilemma, the optimal strategy for each player is contingent on the other player's action (this is what makes it a _game_).  The typical represention of the payoff matrix using ordinal preferences is like so:
+
+
+    #  2,2 | 4,1
+    # -----------
+    #  1,4 | 3,3
+
+
+The socially optimal outcome is for both players to cooperate, yet no rational player would do so.  If the other player cooperates, the best strategy is to defect (1 > 2), and if the other player defects, then defection remains the best strategy (3 > 4).  As a symetric game, the same holds true for the other player.  Mutual defection is the only Nash Equilibrium point.
+
+--> rewrite
+First up, lets define some payoff matrixes for various games.  A Prisoner's Dilemma is a two (or more) player symmertic non-cooperative non-zero sum game that has payoffs for each player based on the behaviour of other players.  We will create a generic function that returns a tuple representing conditional player outcomes, based on a tuple of player actions eg `[1,0]` for player 1 cooperate & player 2 defect.
+
+
+    # prisoners_dilemma = (game) ->
+    #   payoffs = {
+    #     "1,1": [3,3],
+    #     "1,0": [1,4],
+    #     "0,1": [4,1],
+    #     "0,0": [2,2],
+    #   }
+    #   payoffs[game.toString()]
+
+
+
+One interpretation of Hobbes is to model the state of nature as a single round Prisoner's Dilemma.  If the game is played only once, then all rational players will defect (see XXX for a formal proof).  But what of irrational players who cooperate in a altruistic lapse of judgement?  This possibility is inconsequentual to Hobbes' argument.  For the State of Nature to be a _war of all against all_, only the expectation of conflict is necessary for other rational agents to strike first.  When confronted with altruists in a pure strategy Prisoner's Dilemma, the rational player defects and peace is impossible.
+
+> despite the fact that both players cooperating is Pareto efficient, the only Nash equilibrium is when both players choose to defect.
+
+The single round interpretation of the State of Nature is extremely implausible however.  It requires that players only interact once .... yes death is a possibility but....  Hobbes also says that ....
+
+!!! Threat of death & therefore minimax is the major objection.
+
+A far more plausible model is an iterated PD.  List problems and then over come them....
+
+What about evolutionary models...
+
+We can now test the validity of Hobbes' argument as pure strategy evolutionary Prisoner's Dilemma.  We will populate a simulation with 1000 cooperators and 1000 defectors and observe the local interaction.  
+
+Explain evolutoinary stability....this needs big justification.
+
+For Hobbe's argument as a PSPD to be invalid, we must observe an outbreak of cooperation in the state of nature.....
+
+If our rational defectors dominate the simulation, Hobbes' argument is plausible [^note-on-proof].  Run enough times, we can even assign a frequence based probability to the likelihood of _war of all againt all_ obtaining.  Given Hobbes' definition or war, even an oscilating cycle of cooperators out populating defectors who then outpopulate cooperators is sufficient to demonstrate plausibility.
+
+
+    # pure_prisoners_dilemma = 
+    #   id: 'pure-prisoners-dilemma'
+    #   game: prisoners_dilemma 
+    #   players: {'ALLD': 10, 'ALLC': 1990} 
+
+
+[^note-on-proof]: I say plausible here because a stochastic simulation with infinite possible runs obviously cannot definiately prove the impossibility of cooperation.
+
+<figure>
+  <div id="pure-prisoners-dilemma" class="simulation fullscreen"></div>
+  <figcaption>Pure Strategy Prisoner's Dilemma. Click to start/stop.</figcaption>
+</figure>
+
+The outcome of a PSPD overwhelming supports Hobbes' argument that the State of Nature is a war of all against all.  From an initial state of equal strategies, defectors (in red) quickly out populates cooperators (blue).  Thanks to the dynamics of local interaction, pockets of mutual cooperation remain but as neighbourhoods slowly change, these pockets also adjust their strategy to defection.  Given these assumptions, Leviathan as a PSPD represents a valid argument.
+
+--> results from 1000 simulations
+
+How plausible are these premises however....
+
+What about mixed strategies...
+
+!!! Explain the nuanced reasons for conflict in Hobbes - competition, distrust, glory
+
+!!! Hobbes explicitly endorses mixed strategies when discussing responses to the foole.
+
+
+We now introduce six additional mixed strategies based on the possible combinations of initial move, response to cooperation, and response to defection.  In addition to always cooperating and always defecting, players can also adopt a _tit for tat_ strategy, responding in kind based on the last interact, or a _perverse_ strategy, taking the opposite action to the other players previous round moves.  These four strategies can also be distinguished by their opening move by being _friendly_ (cooperating) or _suspicious_ (defecting).  (See @axelrod pxxx for a more detailed overview of these possibilities)
+
+In the next simulation, we will observe a Mixed Strategy Prisoner's Dilemma using the same assumptions as before but with equal numbers of the eight deterministic strategies outlined above.  As before, after interacting with others in their neighbourhood for a number of turns, players will update their strategy to that of the best performing in the neighbourhood.
+
+
+    # mixed_prisoners_dilemma = 
+    #   id: 'mixed-prisoners-dilemma'
+    #   game: prisoners_dilemma 
+    #   players: {'ALLD': 750, 'FT4T': 500, 'ALLC': 750}
+
+
+<figure>
+  <div id="mixed-prisoners-dilemma" class="simulation fullscreen"></div>
+  <figcaption>Mixed Strategy Prisoner's Dilemma. Click to start/stop.</figcaption>
+</figure>
+
+The introduction of mixed strategies into the Prisoner's Dilemma results in a vastly different outcome for the game.  In the initial generations, friendly and cooperative strategies (blues) are rapidly displaced by suspicious, perverse, and non-cooperative ones (yellows and reds).  After a handful of generations however, clusters of friendly tit for tat emerge. Gradually, these clusters begin displacing more and more of their surroundings until they eventually displace all non-cooperative strategies.  The State of Nature as a Mixed Strategy Prisoner's Dilemma is _not_ a war of against all.
+
+The dymaics of the MSPD are are subtle and counter-intuative.  Sublte because the path of tit for tat's spred in an evolutionary model is determined by local interaction....
+
+Counter-intuative because that despite tit for tat becoming the evolitionary STABLE? strategy, at no stage does it outperform alternate stratgies in any single iteraction.  When a player using tit for tat interacts with another cooperating player, both cooperate and obtain the socially optimal - but equal - payoff.  Tit for Tat and Always Cooperate tie.  When interacting with non-cooperating players however, Tit for Tat loses by a small margin.  In the first round, the defector has the advantage but in subsequent rounds, Tit for Tat ties in mutual defection, or wins against a perverse strategy.
+
+As long as there are other cooperating strategies in the neighbourhood, Tit for Tat accrues the highest total payoff and is therefore adopted by other players....
+
+We can understand this local interaction better by considering a simplified slice of the simulation above.  In the first, we see an interaction of players using always defect (D), Tit for Tat (T), and always cooperate (C).  Assume for simplicity that a player's neighbouthood only extends to their nearest neighbour and we have the following local interaction:
+
+> D1 D2 T3 T4 C5 C6
+
+In the first round, Cs and Ts mutally cooperate with each other, the Ds mutually defect, while T1 unilaterally cooperates with D2.  If we assign some cardinal utility values (4,3,2,1) to the ordinal preferences (1,2,3,4) we see the following payoffs after the first round for those players who interacted with two others.
+
+> D2: 6, T1: 4, T4: 6, C5: 6
+
+In the second and subsequent rounds however, T3 and the Ds mutally defect while the others mutally cooperate.  The payoffs are now:
+
+> D2: 4, T3: 5, T4: 6, C5: 6
+
+The ordering of aggregate scores after a number of rounds will therefore be [^ordinal]:
+
+> D2 < T3 < T4 & C5
+
+[^ordinal]: At this stage, this simplified analysis is open to the objection that it unjustifiably mixes cardinal and ordinal preferences.  This objection is valid when 1) the differences in cardinal perferences are large and 2) the number of rounds played between updating strategies are few.  The objection is unwarranted when the opposite is the case.
+
+When players update their strategies after a number of rounds, D2 will copy T3 and T3 will copy T4.  T4 and C5 will not update their stratgies as they have the greatest aggregate payoff in their neighbourhoods.  The new local interaction will now look like:
+
+> D1 T2 T3 T4 C5 C6
+
+This process repeats itself and T slowly displaces D (see @alexrod for a better explaination).
+
+The gradual dominace of tit for tat is however, wholly dependent on small beach heads of the strategy.  Tit for tat requires some cooperative neighbours to survive and at least one similar neighbour for replication.  A single player using tit for tat in a neighbourhood of defectors will adopt their stratgies because it underperforms locally.  A single player using tit for tat in a neighbourhood of defectors and cooperators will first adopt the cooperation as a strategy but will then be displaced by defectors.
+
+How likely is a beachhead to form?  Very!!!
+
+--> results from 1000 simulations
+
+--> Summary thus far
+
+
+## Stag Hunt
+
+Another approach to modelling Leviathan is to use a Stag Hunt. Who. Explain. also known as..
+
+
+    # stag_hunt = (game) ->
+    #   payoffs = {
+    #     "1,1": [3,3],
+    #     "1,0": [0,1],
+    #     "0,1": [1,0],
+    #     "0,0": [1,1],
+    #   }
+    #   payoffs[game.toString()]      
+
+
+
+
+    # pure_stag_hunt = 
+    #   id: 'pure-stag-hunt'
+    #   game: stag_hunt
+    #   players: {'ALLD': 1000, 'ALLC': 1000}
+
+
+<figure>
+  <div id="pure-stag-hunt" class="simulation fullscreen"></div>
+  <figcaption>Pure Strategy Stag Hunt. Click to start/stop.</figcaption>
+</figure>
+
+
+    # mixed_stag_hunt = 
+    #   id: 'mixed-stag-hunt'
+    #   game: stag_hunt
+    #   players: {'ALLD': 1000, 'FT4T': 500, 'ALLC': 500}
+
+
+<figure>
+  <div id="mixed-stag-hunt" class="simulation fullscreen"></div>
+  <figcaption>Mixed Strategy Stag Hunt. Click to start/stop.</figcaption>
+</figure>
+
+
+
+## Assurance Dilemma
+
+
+## Baysian Model
+
+
 
 ---
 
-# Appendix
-
-This article is written in Literate Coffeescript.  Literate programming has a great deal to offer the humanities, not least of which is that it makes replication available to all readers.  To build the simulation from the raw paper, download the project from [the repo](https://github.com/blind-review/school-performance) and type `make paper` in the command line.  Make sure you've got [Coffeescript](http://Coffeescript.org/) and [Pandoc](http://pandoc.org) installed first.
-
-Running a simulation with your own parameters is easy.  You just need to specify the parameters and call `display(target-location, parameters)` and add a target location in HTML `id="target-location"`
 
 
-## Browser Code
-
-Much of the browser code required in this simulation is not germane to the argument and so has been extracted here to the appendix.  It provided here so that the entire simulation is self contained within the paper itself.  
-
-To make things look pretty, we will use the [D3.js data visualisation library](http://d3js.org/) by Mike Bostock.  We will also set some global variables from the browser such as height and width.
+## Lit survey
 
 
-    d3      = require 'd3'
-    width   = window.innerWidth || 600
-    height  = width * 0.4
+  - Leviathan is awesome!
+  - many theorists have attempted to use game theory to model hobbes
+  - quick survey on the lit - who did what.
+  - it hasn't been fully successful - why?
+  - what will I do that is different.
+    - use an agent based evolutionary causal model
+    - why is this a better idea.
+
+> First, the ‘evolution’ treated by evolutionary game theory need not be biological evolution. ‘Evolution’ may, in this context, often be understood as cultural evolution, where this refers to changes in beliefs and norms over time. Second, the rationality assumptions underlying evolutionary game theory are, in many cases, more appropriate for the modelling of social systems than those assumptions underlying the traditional theory of games. Third, evolutionary game theory, as an explicitly dynamic theory, provides an important element missing from the traditional theory.  SEP    
 
 
-Because we will be running multiple simulations in the browser, we will need a way of creating different ones.  Here we define a `display` method for creating a simulation and binding it to a canvas with click events.  When a simulation canvas is clicked, the interval runner starts and calls the `tick` method every 1000 milliseconds.
+> If  two  people  cooperate  in  prisoner’s  dilemma,  each  is choosing less rather than more. In prisoner’s dilemma, there is a conflict between individual rationality and mutual benefit @skryms2004 p3
 
 
-    display = (id, params) =>
-      runner = false
-      simulation = new Simulation params
-      canvas = d3.select("##{id}")
-        .append("svg:svg")
-        .attr "height", "auto"
-        .attr "width", width
-        .attr "preserveAspectRatio", "xMidYMid meet"
-        .attr "viewBox", "0 0 #{width} #{Math.max(width * 0.4, height * 0.8)}"
-        .on "click", () ->
-          if runner
-            clearInterval runner
-            runner = false
-          else 
-            runner = setInterval () ->
-              tick simulation
-            , 1000
-      canvas.append('text')
-        .attr "y", () -> height * .85
-        .attr "x", () -> width * .33
+
+The genisis of the war of all against all begins, according to Hobbes, with competition for resources. (source).  
+
+Men desire self-preservation above all else.  They compete for scares resources. 
+
+This scarcity can't be soley for the goods necessary for survival however.  If it were an essential fact of nature that there were insufficient goods for survival, then survival of all would be impossible even under a sovereign.  Of course, scarcity could be a contingent fact of nature - in a war of all against all, there is little time to sow crops and tend to livestock, so there is too little for all.  The security of the Leviathan could also provide the conditions necessary for increased productivity and surplus.  Yet to simply assert that there are insufficient resources in the state of nature and sufficient in civil society would again be question begging.
+
+--> three types of goods?
+
+Luckily for Hobbes, scarcity of the resources necessary for survival aren't essential for his argument.  Even when mans current needs are satisfied, he must still compete (source).  Because no individual can secure their own security, they must strive for more power in order to secure their future needs
+
+!!!! It is war that leads to shortages, not the other way around.  The initial competition 
+
+Introduce glory and the vanglorious man.
+
+This brings us to two types of men - the moderate and the dominator.  The moderate .... The dominator ....
 
 
-In every tick cycle, we run call simulation's `teach` and `graduate` methods.  We then `render` the simulation to calculate the x & y coordinates for the students, and update the canvas.  
+---
 
 
-      tick = (simulation) ->
-        simulation.tick()
-        render simulation
-        draw canvas.selectAll "circle"        
 
 
-We then `draw` the students on the canvas.  We will represent our students as coloured circles and schools by student proximity.  We will also append the school averages in text form.
+
+ - distrust leads to strike first CH13
 
 
-      draw = (students) ->
-        students.transition()
-          .duration 1000
-          .style "fill", (d) -> colour d, 'achievement'
-          .style "opacity", 0.5
-          .attr "r", 8
-          .attr "cx", (d) -> d.x
-          .attr "cy", (d) -> d.y
-        canvas.select "text"
-          .text "#{simulation.schools[0].score.toFixed(5)} 
-            - Average Student achievement 
-            - #{simulation.schools[1].score.toFixed(5)}" 
+In the state of nature
+
+  1. Everyone is motiviated for self-preservation (its a natural right)
+  2. Competition for scare resources creates conflict 'a state of diffidence'
+  3. The only way to secure these resources is by acquiring more
+  4. Some are instrinsically motiviated by power as well
+  5. The result is a state of war of all against all.
+
+Only absolute power works
 
 
-Finally, we setup the initial rendering.
+
+## Leviathan as Game Theory
+
+There is now a large body of work applying game theory to Hobbes [Footnote who].  Yet there is considerable disagreement on how exactly, Leviathan should be modelled.
+
+Review who has applied game theory and how.
+  - Guathier
+  ....
+
+What is the source of the disagreement?
+
+  1. interpretation of the text
+  2. methodological constraints
+
+I will avoid the debate in by modelling multiple games.  I will overcome 2 by using an agent based approach
+
+By far the most common approach is to model Leviathan as a Prisoner's Dilemma.....
+
+Single or iterative?
+
+Evolutionary?
 
 
-      setup = () ->
-        render simulation
-        students = canvas.selectAll "circle"
-          .data simulation.students
-        students.enter()
-          .append "circle"
-          .style "fill", (student) ->
-            colour student, 'achievement'
-          .style "opacity", 0.5
-          .attr "r", 8
-          .attr "cx", (d) -> d.x
-          .attr "cy", (d) -> d.y 
-                     
-      setup()
 
 
-In the browser code above, we have relied on a few helper methods.  The first of these represents student achievement graphically using colour.  Blue represents high achievement and red low achievement.  With a little bit of maths, we can convert achievement on a range of 0.0 to 1.0 to a hexadecimal representation of Red-Green-Blue colour.
+
+## Modelling Leviathan
+
+It is clear that there are two distinct arguments:
+
+  - the source of war
+  - the solution to war
+
+As @eggers notes, much of the literature focuses on only one, or conflates the two.  Examples.
+
+What we need to do then is model both, and perhaps combine them.
+
+One reason this hasn't been done is that it is very difficult using analytic game theory. It's too complex.
+
+An agent based approach can overcome this.
+
+Build a basic model here.
+
+The Moving parts
+
+Iterative and evolutionary
+  - show how Hobbes would except this
+  - rebutt @eggers minimax claim
+
+Trigger and Foole
+
+Dominators and Moderates
 
 
-    colour = (d, attribute) ->
-      red = Math.floor( (1-d[attribute])*255 ).toString 16
-      blue = Math.floor( d[attribute]*255   ).toString 16
-      red = "0#{red}" if red.length is 1
-      blue = "0#{blue}" if blue.length is 1 
-      "##{red}00#{blue}"
+## States of Nature
+
+The purpose of this is to determine if Hobbes' conclusion is entailed.  Under which interpretations of Hobbes does the state of nature lead to _bellum omnina contra ommes_.
+
+Prisoner's Dilemma
+  - people are equal
+
+Assurance Game
+
+Chicken Game
 
 
-To display students and indicate school enrolment by student proximity, we create a Gaussian overlay so all students in the same school clump together.  Each student is assigned a randomised position centred on their school.
+
+---
+
+## Nature Code
+
+    # snow_drift = (game) ->
+    #   payoffs = {
+    #     "1,1": [3,3],
+    #     "1,0": [1,5],
+    #     "0,1": [5,1],
+    #     "0,0": [0,0],
+    #   }
+    #   payoffs[game.toString()]
 
 
-    render = (simulation) ->
-      simulation.schools.map (school) ->
-        school.x = width * (0.3 + 0.5 * school.id)
-        school.y = height * 0.6
-      simulation.students.map (student) ->
-        student.x = gausian(width/1.2) + student.school.x
-        student.y = gausian(height/0.5) + student.school.y
-
-    gausian = (range) ->
-      Math.random()*range/8 + Math.random()*range/8 + Math.random()*range/8 - range/4
+There are 8 possible deterministic single round strategies a player could employ in any 2 player game.  These are specified by their inital move `i`, responding to cooperation move `c`, and responding to defection move `d`.  We'll also name these and give them pretty colours and store them in a list.
 
 
-Finally, we trigger the various simulations outlined in the article once all the scripts have loaded.
+    # strategies = {
+    #   "ALLD": { i: 0, c: 0, d: 0, name: "ALLD", color: "crimson" },
+    #   "SPRV": { i: 0, c: 0, d: 1, name: "SPRV", color: "orange" },
+    #   "ST4T": { i: 0, c: 1, d: 0, name: "ST4T", color: "lightblue" },
+    #   "DTAC": { i: 0, c: 1, d: 1, name: "DTAC", color: "indigo" },
+    #   "CTAD": { i: 1, c: 0, d: 0, name: "CTAD", color: "maroon" },
+    #   "FPRV": { i: 1, c: 0, d: 1, name: "FPRV", color: "yellow" },
+    #   "FT4T": { i: 1, c: 1, d: 0, name: "FT4T", color: "blue" },
+    #   "ALLC": { i: 1, c: 1, d: 1, name: "ALLC", color: "navy" }
+    # }
 
+
+
+## Supplimentary Code
+
+We populate our space from an agent profile.  This profile contains an array such as `[0, 250, 250]` which tells our space to create 250 agents each based on the the 2nd and 3rd strategies profiles defined earlier.
+
+
+    # Nature::populate = (agent_profile) ->
+    #   @agents = (for name, number of agent_profile
+    #       [1..number].map (n) =>
+    #         new Man this, strategies[name])
+    #     .reduce (lhs, rhs) ->
+    #       lhs.concat rhs
+    #   @depth = Math.sqrt(@width * @height / @agents.length) + 1
+
+
+
+
+Mans can be arranged in a space either deterministically or stochastically, and this arrangement can relate to either where they are (what x,y coordintate an agent occupies) or what they are (what type of agent is in that x,y coordintate).  The cluster method accepts 2 arguments between `0.0` and `1.0` relating the degree of determinism concerning where an agent is located and what the agent is.
+
+The what-algorithm is a modified Fisher-Yates shuffle that is applied stochastically if the what-cluster value is exceded.  The where-algorithm orders agents in straight lines or stochastically if the where-cluster is exceded.
+
+
+    # Nature::cluster = (where, what) ->
+    #   #what
+    #   @agents = shuffle @agents
+
+    #   # where
+    #   block = Math.sqrt @width * @height / @agents.length
+    #   x = y = block / 2
+    #   for agent, position in @agents
+    #     hurdle = Math.random()
+    #     agent.x = if where > hurdle then x else Math.floor Math.random() * @width
+    #     agent.y = if where > hurdle then y else Math.floor Math.random() * @height
+    #     x += block if x < @width
+    #     if x > @width 
+    #       y += block
+    #       x = block / 2
+    #   @agents
+
+
+    # shuffle = (things) ->
+    #   for i in [things.length-1..1]
+    #     j = Math.floor Math.random() * (i + 1)
+    #     [things[i], things[j]] = [things[j], things[i]]
+
+
+Now we turn to our game.  The browser will trigger the main game interface `contest(agent)` every tick.  Each agent finds their neighbours and plays against them for a number or rounds, with the agent score calcuated from the payoff matrix.  In every contest, we set the agent score and last_game values to 0.  We also throw in some Brownian motion to encourage disequilibrium.
+
+
+    # contest = (agent, game) ->
+    #   agent.score = 0
+    #   last_game = []
+    #   rounds = 10
+    #   neighbours = shuffle agent.space.neighbourhood(agent)
+    #   for neighbour in neighbours
+    #     for round in [0..rounds]
+    #       last_game = [agent.play(neighbour, last_game), neighbour.play(agent, last_game)]
+    #       scores = game.call(game, last_game)
+    #       agent.score += scores[0]
+    #   walk agent
+    #   agent
+      
+
+We also need to define the interaction between agents.  The initial move is dictated by the agent's strategy while subsequent moves are based on an opponents last move.
+
+
+    # Man.prototype.play =  (neighbour, last_game) ->
+    #   if last_game.length is 0 then @strategy.i else @next_move last_game
+
+    # Man.prototype.next_move = (last_game) ->
+    #   if last_game[1] is 1 then @strategy.c else @strategy.d
+
+
+Men also need to update their strategy after each round.  We will do this only after all contests in a tick have finished and scores have been calculated.
+
+
+    # update = (agent) ->
+    #   neighbours = agent.space.neighbourhood(agent)
+    #   max = neighbours.reduce (a, b) -> 
+    #     {score: Math.max a.score, b.score}
+    #   winners = neighbours.filter (neighbour) ->
+    #     neighbour.score is max.score
+    #   unless agent in winners
+    #     agent.strategy = winners[Math.floor Math.random() * winners.length].strategy 
+    #   agent
+
+
+Let's also throw in some logic for walking our agents around the space.  Movement could be intentionally directed or (as in this case), agents move to a random spot near by.
+
+
+    # walk = (agent) ->
+    #   xRand = Math.random() * agent.step
+    #   yRand = Math.random() * agent.step
+    #   agent.x += xRand - agent.step / 2
+    #   agent.x = xRand / 2 if agent.x < 0
+    #   agent.x = agent.space.width - xRand /2 if agent.x > agent.space.width
+    #   agent.y += yRand - agent.step / 2
+    #   agent.y = yRand /2 if agent.y < 0
+    #   agent.y = agent.space.height - yRand / 2 if agent.y > agent.space.height
+    #   agent
+
+
+Now that we have defined our model, we need some functions to initiate and control behaviour.  We will instantiate the simulation by invoking the `agents` function.  This will create a space and populate it with agents according to our profile.  We will set the cluster values so that agents are perfectly ordered in space but randomly allocated to a space.  Try adjusting the facts to see what happens! 
+
+
+    # agents = (height, width) ->
+    #   space = new Nature(height, width, [250, 250, 250, 250, 250, 250, 250, 250])
+    #   space.cluster 1.0, 1.0
+
+
+Finally, we declare our public API so that other modules can access it.
+
+
+    # module.exports = {agents: agents, contest: contest, update: update}
+
+
+    # d3 = require 'd3'
+    # buffer = 50
+    # height = window.innerHeight - buffer || 600
+    # width = window.innerWidth - buffer || 600
+
+
+
+Allocate agents in the space
+
+
+    # Nature::position = (where, what) ->
+    #   #what
+    #   for i in [@agents.length-1..1]
+    #     unless what > Math.random()
+    #       j = Math.floor Math.random() * (i + 1)
+    #       [@agents[i], @agents[j]] = [@agents[j], @agents[i]]
+
+    #   # where
+    #   block = Math.sqrt @width * @height / @agents.length
+    #   x = y = block / 2
+    #   for agent, position in @agents
+    #     hurdle = Math.random()
+    #     agent.x = if where > hurdle then x else Math.floor Math.random() * @width
+    #     agent.y = if where > hurdle then y else Math.floor Math.random() * @height
+    #     x += block if x < @width
+    #     if x > @width 
+    #       y += block
+    #       x = block / 2
+    #     agent.x + buffer / 4
+    #     agent.y + buffer / 4
+
+
+Now to display the agents in the browser
+
+
+    # display = (params) =>
+    #   runner = false
+    #   simulation = new Nature height, width, params.players
+    #   simulation.position 1.0, 0.0
+    #   canvas = d3.select("##{params.id}")
+    #     .append("svg:svg")
+    #     .attr("height", height)
+    #     .attr("width", width)
+    #     .on "click", () ->
+    #       if runner
+    #         clearInterval runner
+    #         runner = false
+    #       else 
+    #         runner = setInterval () ->
+    #           tick simulation
+    #         , 1000
+
+    #   tick = (simulation) ->
+    #     circles = canvas.selectAll "circle"
+    #     circles.each (d) ->
+    #         d = contest d, params.game
+    #       .each (d) ->
+    #         d = update d
+    #       .transition()
+    #       .duration 500
+    #       .attr "cx", (d) -> d.x
+    #       .attr "cy", (d) -> d.y
+    #       # .attr "r", (d) -> 
+    #       #   if d.strategy.i is 3 then 10 else Math.max 3, (d.score / 10)
+    #       .attr "title", (d) -> "#{d.strategy.name} - #{d.score}"
+    #       .style "fill", (d) -> d.strategy.color
+
+
+Set up
+
+
+      # populate = (simulation) ->
+      #   canvas.selectAll "circle"
+      #     .data simulation.agents
+      #     .enter().append "circle"
+      #     .style "fill", (d) -> 
+      #       d.strategy.color 
+      #     .style "opacity", 0.5
+      #     .attr "r", 7.5
+      #     .attr "cx", (d) -> d.x
+      #     .attr "cy", (d) -> d.y
+
+      # populate simulation
+
+Finally....
 
     window.onload = () ->
-      display 'sanity-check-1', sanity_check_1
-      display 'sanity-check-2', sanity_check_2
-      display 'shifting-averages', shifting_averages
-      display 'relative-1', relative_1
-      display 'relative-2', relative_2
-      display 'head-start-1', head_start_1
-      display 'head-start-2', head_start_2
-
-
-## Bibliography
+      display temporary
+    #   display pure_prisoners_dilemma
+    #   display mixed_prisoners_dilemma
+    #   display pure_stag_hunt
+    #   display mixed_stag_hunt

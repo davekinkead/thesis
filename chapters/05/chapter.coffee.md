@@ -1,681 +1,442 @@
 ---
-title: Games of Throwns
+title: Democracy, Borders, & Legitimacy
 author: Dave Kinkead
+email: d.kinkead@uq.edu.au
+status: pre-review draft
+license: CC-BY-SA
+bibliography: /Users/dave/Dropbox/Research/readings/.library.bibtex
+csl: https://raw.githubusercontent.com/citation-style-language/styles/master/journal-of-applied-philosophy.csl
 ---
 
-  - !!! I argue that Leviathan is either valid but with implausible premises or has plausible premises but is invalid.
+# Democracy, Borders, & Legitimacy
 
+> This is an argument about the relationship between democratic inclusion and instrumental justifications of democracy.  I show that any account of democracy that relies on the outcomes of democracy processes to demonstrate democracy's value must have a congruent account of inclusion.  Not only that, but because different accounts of democracy rely on different and incompatible accounts of inclusion, these accounts of democracy are themselves incompatible.
+
+> This paper is unique in that is simultaneously a philosophical argument and a computer simulation.  Written in [literate coffeescript](http://coffeescript.org/), the code described in the paper can also be run by the coffeescript compiler to demonstrate the argument being described by the paper.  The reader may generate both the argument in PDF, or the simulation and results in HTML with the command `coffee paper.coffee.md`.  
+
+> Best viewed in HTML with interactive graphs, the following links outline [paper](https://github.com/davekinkead/modelling-the-boundary-problem), [installation](http://coffeescript.org/#installation), and [dependency](https://npmjs.org/doc/install.html) requirements.  A PDF version is also available with static images.
+
+!! Hugh's feedback
+
+- more clarity on how instrumental accounts work.  set up the target.
+- compare my methodolgy to skryms.
+- clarify naive voting.
+
+- good applied conclusions to flesh out.  flag these points.
+  - diverse polity more like be right but less likely to make everyone happy
+  - how might this apply to climate change / war?
+  - "We can't have it both ways" or "having our cake and eating it too."
+  - flag need to examine relation between dviersity and epistemic competence
+  - what is the implication for vertical separation of powers on fact vs value.  ** new paper
+  - use empiric evidence of juries to support these claims
+  - computational jurisprudence.
+
+- theoretical conclusions are too strong
+  - even if you can't have both, democracy can still better than other alternatives.
+  - my claims weaken but don't undermine instrumental justifications.
+
+- motivational paper for sociology and political science - does diversity track competence.
+
+-- why would we think agents are clustered by competence? None is needed because boundaries can be created that result in extreme clustering. Evidence: gerrymandering
 
 ## Introduction
 
-Hobbes has been described as the proto-game theorist (by who?).  And it's easy to see why.  (explain).  Many theorists have attempted to model Hobbes' account in a game theoretical mannor.
+There are many ways one might justify democracy [^definitions].  One common approach is to point to the desirable outcomes that democratic procedures bring about. Democracy in this light leads to good policy.  
 
-Summary of who has done what....
+Sometimes the desirability of these outcomes is judged according to some independent criteria.  According to these accounts, there is some external standard for measuring the quality of a decision.  Epistemic accounts of democracy like Condorcet's Jury Theorem [@condorcet1976] or David Estund's Epistemic Proceduralism [@estlund2009] are like this.  Truth exists independently of our beliefs; democratic processes track the truth; so this gives us reason to value democracy.
 
-Current approaches have been limited by their predominately analytic approach.  How do they do it....  Exceptions...
+Other times, we might judge the quality of democratic outcomes against some agent relative criteria.  Rather than rely on something external, the desirability of a particular result is assessed against some internal standard.  It isn't the collective decisions of democracy that matter _per se_ but how those collective decisions correspond with individual choices.  We see this in utilitarian justifications of democracy where majority voting maximises the expected utility of voter preferences [@rae1969].  But one needn't be a utilitarian to employ such an approach - @rousseau1920 for example, argued that majority rule realises the general will of the people and this gives us reasons value it.
 
-To comprehensively justify Hobbe's Leviathan with game theory, one must fulfil three requirements:
+And for others still, it is not the particular content of democratic decision making that matters so much as the effects that democratic processes have on the participants.  Democracy changes people.  This is what @mill1862 had in mind when he argued that democracy transforms the moral character of its participants.  Democratic participation makes good citizens.
 
-  1. Accurately translate the premises of Hobbes' argument into a formalisation useful for game theoretic analysis.
+Call these types accounts of democracy _instrumental_ [^instrumental].
 
-  2. Show that those premises are at least a plausible description of reality.
+[^definitions]: The term justification has been used in a variety of ways within political theory.  Sometimes it is used normatively to describe the content of reasons that might _legitimate_ democratic authority.  Other times it is used descriptively to to describe the giving of such reasons.  In this paper I use _justifications of democracy_ and _accounts of democracy_ synonymously to mean any normative theory of democracy's value.
 
-  3. Demonstrate that the formalised premises entail Hobbes' conclusion, namely that the inevitable result of the state of nature is a _warre of all against all_.
+[^instrumental]: Of course not all accounts of democracy are instrumental.  Sometimes democracy is justified intrinsically by appealing to substantive ideals like equality or justice.  Unless explicitly stated, _democracy_ in this paper refers exclusively those instrumental conceptions where outcomes do the normative of explaining democracy's value.
 
-Extant literature is characterised by disagreement.  Why
+  * * * 
 
-  1. interpretation of the text
-  2. methodological constraints
+The outcome of any democratic procedure is a function, in part, of who gets to participate in that procedure.  Enfranchising some people rather than others, drawing the political line on a map in one location rather than another, will often result in different outcomes than would have otherwise occurred, even when the same procedures are used.  Who is included in a particular democracy affects the outcomes of that democracy.
 
-This chapter attempts to investigate whether Hobbes' conclusion is entailed under a charitable reading and if not, what in his theory would need to change.
+Some democratic processes are deterministic.  Given the same inputs for some democratic system, the result will always be the same.  People vote according to their belief or preference and the voting procedures employed determines a winning outcome.  This is true for both _sincere voting_, where voters believe they alone determine the outcome, as well as _strategic voting_, where voters support a choice other than their sincere preference in an attempt to increase the likelihood of an acceptable outcome [@feddersen1999].  
 
-In part....
+For both sincere and strategic voting, the outcome of a democratic process is a fully function of who participates in that process.  On one extreme, when voters are completely polarised, including or excluding a single voter will change the outcome of the democratic process.  At the other extreme of complete consensus, over 50% of voters would need to be replaced for the outcome to change.
 
-I argue that Hobbes' argument in Leviathan is either valid but based on implausible premises, or based on plausible premises but invalid.
+Other democratic processes however, are indeterministic. This may be because voters themselves don't actually know how they will vote until the moment they cast their ballot, or because the decision mechanism itself is random, as in the case of sortition or selection by lottery.  Yet even in these cases, the outcome of a democratic processes remain a function of who is included in that process, because changing participants changes the likelihood of particular outcomes.
 
+_Who_ votes affects _what_ is decided.
 
-## The Leviathan
+  * * * 
 
-> Outline Hobbes argument.  Run though each premise and formalise it.  Justify the premise.  Bring in support from secondary sources.
+So when democracy is justified by way of its outcomes, and those outcomes are determined by who is included in the democratic process, the question of _who should be included_ becomes a matter of fundamental importance for those accounts of democracy.
 
-Leviathan [^source] is a ....  What does is cover....  In it's simplest form however, it is an argument for ....  It is a justification for why rational men should subjecate themselves completely to an absolute soveriegn - the Leviathan.
+Yet the question of who ought be included in a political association - of how the _demos_ ought be bounded - presents a challenge to democratic theory.  If we attempt to answer the question of inclusion _democratically_, an infinite regress results.  To vote on who gets to participate in a democracy first requires the identification of some prior group to make this decision, and to identify that prior group democratically requires the identification a prior prior group, _ad infinitum_.  
 
-[^source]: Hobbes makes similar arguments in .... I will be using the english version of Leviathan...why...
+In what has become known as the _Boundary Problem of Democratic Theory_ [^other-names], no account of inclusion can be shown to be compatible with a broad range of justifications of democracy.  Accounts of inclusion based on the status quo make the democratic outcomes contingent upon the accidents of history; those based on nationality lack a clear and objective criteria of what nationality is; cultural and linguistic salience as a criteria for inclusion ignores the reality of multiculturalism and multilingual communities; and accounts based on coercion and affected interests are incompatible with the current system of nation-states [^treatment].
 
-I take the argument to be this:
+[^other-names]: The _Boundary Problem of Democratic Theory_ has gone by a number of names in political theory.  @dahl1989 [p. 193] has called it "the problem of the unit" while @goodin2007 [p.42] refers to it as the problem of "constituting the demos".  Most other political theorists have settled on "the Boundary Problem".
 
-  1. Peace is possible with either no government, limited government, or absolute government
-  2. Peace isn't possible without government
-  3. Limited government is illusionary
-  4. Peace is only possible with an absolute soveriegn
+[^treatment]: See @whelan1983 for the seminal analysis of the challenges that the Boundary Problem presents as well as more recent work by @dahl1989, @arrhenius2005, @bergström2007, @goodin2007, @miller2009, @agné2010, @abizadeh2012, @schaffer2012, @song2012, and @erman2014.
 
-  1. Peace is only possible with an absolute soveriegn
-  2. It is rational to desire peace
-  3. Therefore it is rational to submit to an absolute soveriegn
+The Boundary Problem is a "fundamental issue in democratic theory" [@arrhenius2005 p1] with "no theoretical solution to the puzzle, only pragmatic ones". It is a problem that presents "an important practical limit to the scope of democracy as a method of making collective decisions" [@whelan1983 p13] but one "almost totally neglected by all the great political philosophers who write about democracy" [@dahl1970 pp59-60].  While a vexing issue for all accounts of democracy, the Boundary Problem is especially problematic for instrumental accounts that rely on the content of specific outcomes.  
 
+The question I wish to explore in this paper then is _when is the Boundary Problem a problem for instrumental accounts of democracy_?  Addressing _why_ the Boundary Problem is a problem, or _how_ it might be solved is not my aim. Rather, I wish to explore the relationship between accounts of inclusion and accounts of democracy and advance three claims that impact any answer to the question of who the people ought be:
 
-Focus on the state of nature...
+  1.  That accounts of democracy must be compatible with accounts of inclusion.
 
+  2.  That different accounts of democracy favour differing, sometimes incompatible accounts of inclusion.
 
-  - N Comp -> Conflict (theft) (M fight only when power diff in your favour)
-  - N Comp -> Pursuit of Power (aggression) ()
-  - Conflict -> Pursuit of Power (protection)
-  - Conflict -> Pursuit of Power (aggression)
-  - Conflict -> Distrust
-  - Distrust -> Conflict (stike first defense)
-  - Distrust -> Pursuit of Power (protection)
-  - Pursuit of Power -> P Comp
-  - P Comp -> Conflict
-  - Glory -> P Comp
+  3.  That different accounts of democracy that favour incompatible accounts of inclusion may themselves be incompatible.
 
+The first claim advances the existing literature on the Boundary Problem by making the link between inclusion and justifications of democracy explicit.  Often, political theorists approach the problem of inclusion from a cosmopolitan position, arguing that the question is primarily about justice [^cosmo].  Other times, the concern is related to whether or not an answer is internally consistent with democracy, or whether it actually is a paradox of founding [^coherence].  Only rarely, however, is the link between the problem of inclusion and the value of democracy addressed, and typically this is only ever implicit.  I will show that any instrumental account of democracy's value must be compatible with its corresponding claim of democratic inclusion.
 
-Whist Hobbes offers an account of many things (for example....) it is premise 1 where most work is done and where most disagreement exists...
+[^cosmo]: See @goodin2007, @agné2010, @abizadeh2012, @saunders2012, and @erman2014 for arguments from the cosmopolitan perspective.
 
-How does Hobbes get there and how can we formalise this?
+[^coherence]: See @whelan1983, @arrhenius2005, @bergström2007, @miller2009, @schaffer2012, @song2012, and @espejo2014 for work concerned with how the Boundary Problem affects democratic legitimacy and territorial states.
 
+The second claim offers something new.  Different accounts of democracy demand different accounts of inclusion.  As we shall see, accounts of democracy based on content-independent criteria require different accounts of inclusion to those based on content-relative criteria. Content-indifferent accounts of democracy by contrast, are compatible with a wider variety of accounts of inclusions, and are therefore less affected by the Boundary Problem.
 
-## An Agent Based Approach to Game Theory
+Which leads to the third claim: whenever differing accounts of inclusion are incompatible, their corresponding accounts of democracy must also be incompatible.  The necessary relationship between democratic inclusion and justification means that accounts of democracy cannot be mixed if their supporting accounts of inclusion are not compatible.
 
-Game theoretic analysis of Hobbes' Leviathan is typcially done via static game proof or informal argument.
+Political theorists however, frequently combine incompatible justifications of democracy.  Mill, as just one example, justifies democratic rule on the ground that it is more reliable in determining the right decision (a content-independent criteria), takes into consideration the preferences of all (a content-relative criteria), and transforms the moral character of participants (a content-indifferent criteria).  The relationship between democratic inclusion and justification has broader implications than is currently recognised.
 
-Define game
+To reiterate, this is not an argument about _how_ or _why_ the Boundary Problem is a problem for democratic theory.  The Boundary Problem raises a number of challenges for democracy but here I focus exclusively on how it relates to instrumental accounts of democratic justification.  As such, I don't seek to explain who should be included in the demos, nor what principles might guide us to an answer. Rather, this paper is an examination of _when_ the Boundary Problem is a problem - of when accounts of democratic inclusion undermine accounts of democracy's value.
 
-The traditional approach to game theoretic analysis uses the formal methodology developed by @vonnewmann1944.  Here games are represented as either normal form (matrix) or extendend form (tree).
 
-Strengths, doesn't require rational choice - can deal with irrationality (passions, foole) and bounded rationality
+## Methodology
 
-weaknesses.  This misses important interaction that can be found in ...
+How then can we examine the relationship between democratic inclusion and democratic authority?  How does changing the make up of the _demos_ changes the outcome of democratic processes? As philosophers, deductively reasoning from first principles or mutually agreed upon premises is a time-honoured approach.  We might first postulate some axioms of human nature and essential conditions of democracy before then demonstrating that certain states of affairs are necessary or possible, entailed or contradictory.  The obvious limitation with this approach however, is that many fundamental questions of political science, theory, and philosophy, are questions of empirical fact.  The biological and psychological forces that drive human behaviour, and the conditions under which actual democracies operate, are such that they cannot be deduced from self reflection whist sitting in a leather arm-chair.
 
-More recently, agent based approaches to game theoretic analysis have emerged (cite who)  @axelrod ... @skryms 
+Given the empirical nature of the investigation then, we could perhaps employ a scientific approach.  We might observe how actual democratic polities form and how different compositions of polities lead to different democratic outcomes.  Yet the complexity of human political systems makes causal claims all but impossible.  The lack of adequate sample sizes when using democratic states as relata, the non-linearity that arises from multiple interacting feedback loops, and the inability to hold variables fixed 'in the wild' impose severe limits on our causal modelling and explanations that are well known to social scientists.
 
-What are the advantages of agent based approaches.
+But a third approach, although rarely used in philosophy, offers considerable insight into this problem.  Computer simulation combines advantages of both approaches.  Typically, simulations are used to make predictions about the real world.  They attempt to model reality as accurately as possible before showing how changes in inputs lead to changes in the simulation.  Yet this is also the primary weakness of this approach.  How well does the simulation model reality?  If the model lacks fidelity with external world, then any inferences from the model will offer little insight into reality.  And given the empirical challenges of modelling complex human systems discussed above, the problems of simulating political reality look overwhelming.
 
-I'm doing something ... what.
+An alternative approach would be to simulate _theory_.  All theories are abstractions of reality, so simulating theory simply formalises into computer code the abstractions that theorists have made for centuries.  This type of simulation can be thought of as coherence testing particular theories. By making the assumptions and abstractions of a theory explicit in code, we can see if the predictions and claims of the theory are entailed, or at least made probable.  We can show that a theoretical model is coherent even if we can't show that the theory's assumptions do in fact hold true in reality.
 
-Build the framework....
+What follows in the remainder of this paper is both a description of a model of democracy as well as a simulation of that model.  It attempts to capture the key claims of instrumental accounts of democracy and explore how changing the composition of a polity affects the democratic processes of that polity.  
 
-We being constructing our model by focusing on the actors in Leviathan - men and nature.  Man, according to Hobbes, is the atomic unit of society...prior to...hyper individual, rational egoist...(cite Hobbes)
+The simulation process begins by defining a simple model of democracy consisting of naive voters populating some abstract political space.  Methods of inclusion and voting are then defined.  Next, three instrumental accounts of democracy - content-independent, content-relative, and content-indifferent - are formalised and simulated in the model over a wide variety of parameters.  Finally, the relationship between democratic inclusion and democratic outcomes is explored by examining how different compositions of agents lead to different results.
 
-Men have a strategy that ...
+A form of literate programming [^lit], this paper embeds executable source code within the description of the model.  Simulation code is indicated by `indented code blocks`.  The reader need not understand the embedded code or syntax in order to understand the simulation however.  The code, it's purpose, and function will be fully explained in the surrounding text. It's presence serves to formalise the assumptions of the model in much the same way as one might include mathematical symbolism to formalise a proof, and to promote reproducibility and testability of the research herein.
 
+[^lit]: Literate programming is a paradigm of computer programming that explains the logic of a system in essay like form, interspersed with snippets of source code that a compiler executes.  The aim is to prioritise human understanding of the program logic over compiler efficiency.  See @knuth1984 for an introduction to the topic.
 
-    class Man
-      constructor: (@space, @strategy) ->
-        # move step elsewhere
-        @step = @space.width * @space.height * 0.000001
 
+## A Model of Democracy
 
+The model comprises three distinct conceptual entities: a `Political Space` representing the problem domain, `Political Agents` who are distributed across the space, and partitions of the space that group agents into political units or `Polities`. 
 
-Man exists in the State of Nature - a place where man's life is infamously _solitary, poor, nasty, brutish, and short_.  This condition of _continual fear and danger of violent death_ is however, Hobbes' conclusion.  To model it as such would be question begging so our model of nature will consist simply of men.
+An agent represents a political actor or citizen.  They are simple folk who hold a single discrete value representing a belief, preference, character trait, or virtue - right or wrong, Republican or Democrat, chocolate or vanilla, virtuous or iniquitous. This is represented formally in code as:
 
-We will define nature as a two dimensional space representing pre-civil society.  When we creae nature in a simulation, we populate it with an agent profile specifying how many men using which strategy the simulation will begin with.
 
+    class Agent
+      constructor: (@belief) ->
 
-    class Nature
-      constructor: (@height, @width, agent_profile) ->
-        @populate agent_profile
 
+Agents exist within a space which represents the problem domain.  A space is constructed by specifying a profile of how many agents hold which belief, preference, or virtue.  These belief are stipulative.  They are defined at the start of the simulation and form its parameters.  For example, a profile of  `{ 'chocolate': 400, 'vanilla': 600 }` would create a space with 400 agents whose preference is chocolate and 600 whose preference is vanilla.
 
-Within the two dimentional spacial arranement of nature, everybody is next to somebody else - their neighbour.  A neighbourhood here is simply defined a list of all the agents within an agent's depth perception.  Here we return everyone within a square from an x, y coordinate.
 
+    class Space
+      constructor: (profile) ->
+        @agents = []
+        for belief, believers of profile
+          for n in [1..believers]
+            @agents.push new Agent(belief)
 
-    Nature::neighbourhood = (agent) ->
-      neighbours = []
-      for other in @agents
-        if agent.x - other.space.depth < other.x < agent.x + other.space.depth and agent.y - other.space.depth < other.y < agent.y + other.space.depth
-          neighbours.push other
-      neighbours
 
+Agents are distributed across the space in some way according to their belief.  This distribution could be perfectly uniform, with agents evenly spread across the space; or agents could be tightly clustered so that all agents of a similar belief are grouped together.
 
+Agents in our space will be distributed according to a cluster factor which determines the proximity of agents holding similar beliefs with one another.  A factor of `1.0` will result in a highly clustered space with all like agents grouped together, while `0.0` will result in a uniform random distribution of agent belief.
 
 
+    Space::distribute = (cluster=0.0) ->
+      quota = @agents
+      @agents = []
+      while quota.length > 0
+        limit = Math.round( Math.random() * quota.length * (1-cluster) )
+        @agents = @agents.concat quota.splice limit, 1
 
-## A Prisoner's Dilemma
 
+Spaces are partitioned into polities.  A polity represents a unit of political association that holds some degree of sovereignty regarding specific issues, such as a nation-state, province, or local council.  Most political spaces are partitioned in some way - the world is divided into countries, countries are divided into states or provinces, states are divided into electorates etc.
 
-The most common approach to modelling Leviathan is to use a Prisoner's Dilemma (cite who).
+How we partition a space - how we decide who will be included in which political association - forms the crux of the Boundary Problem and there are many competing theories concerning how to partition.  Amongst accounts of democratic inclusion we find proposals to group agents according to nationality, cultural or linguistic salience, degree of economic or social interdependence, by who is affected by a policy or issue, or even to not partition at all [^world].
 
-Why the PD?
+[^world]: As @goodin2007 [p. 55] observes, "Virtually (maybe literally) everyone in the world — and indeed everyone in all possible future worlds — should be entitled to vote on any proposal or any proposal for proposals". 
 
-In a pure strategy Prisoner's Dilemma, players have the choice of cooperating (C) or defecting (D).  Cooperation can describe a range of behaviours such as refraining from combat or conflict, the sharing of resources, or simply non-interference with others.  Defection on the other hand can represent (cite Hobbes) .....
+While numerous accounts of inclusion exist in political theory, the combination of actual possible partitions of any space is orders of magnitude greater [^combos].  To simplify the model and remain agnostic about particular theories of inclusion while capturing a wide variety of possible agent compositions, a stochastic algorithm to divide the space into different polities will be used to generate a random sample of polities.
 
-In a Prisoner's Dilemma, the optimal strategy for each player is contingent on the other player's action (this is what makes it a _game_).  The typical represention of the payoff matrix using ordinal preferences is like so:
+[^combos]: The possible number of different partitions is the sum of binomial coefficients of agents and the number groups they are partitioned into.  This increases exponentially as the number of agents and groups increases, making a simulating all possible partitions within a reasonable time frame is beyond the capacity of current desktop computing.
 
+The partitioning algorithm recursively divides the largest polity of the space at a random point until the desired number of polities have been produced - each characterised by a differing number and composition of agents.  
 
-    #  2,2 | 4,1
-    # -----------
-    #  1,4 | 3,3
 
+    Space::partition = (k) ->
+      @polities = [@agents]
+      while k > 1
+        k = Math.min k, @agents.length
+        polity = @polities.shift()
+        cut = Math.floor( Math.random() * (polity.length - k) ) + 1
+        @polities.push polity[...cut]
+        @polities.push polity[cut..]
+        @polities.sort (a,b) -> b.length-a.length
+        k--
+      this
 
-The socially optimal outcome is for both players to cooperate, yet no rational player would do so.  If the other player cooperates, the best strategy is to defect (1 > 2), and if the other player defects, then defection remains the best strategy (3 > 4).  As a symetric game, the same holds true for the other player.  Mutual defection is the only Nash Equilibrium point.
 
---> rewrite
-First up, lets define some payoff matrixes for various games.  A Prisoner's Dilemma is a two (or more) player symmertic non-cooperative non-zero sum game that has payoffs for each player based on the behaviour of other players.  We will create a generic function that returns a tuple representing conditional player outcomes, based on a tuple of player actions eg `[1,0]` for player 1 cooperate & player 2 defect.
+Democracies make collective decisions - it's why they exist.  The decision procedure for our model democracy will be a naive majority vote by each polity on a binary issue.  This is the simplest decision mechanism to model and it will assume that agents vote sincerely and deterministically according to their belief.
 
 
-    prisoners_dilemma = (game) ->
-      payoffs = {
-        "1,1": [3,3],
-        "1,0": [1,4],
-        "0,1": [4,1],
-        "0,0": [2,2],
-      }
-      payoffs[game.toString()]
+    vote = (polity) ->
+      votes = {}
+      for agent in polity
+        if votes.hasOwnProperty agent.belief then votes[agent.belief]++ else votes[agent.belief] = 1
+      max = Math.max.apply null, (num for belief, num of votes)
+      votes.winner = belief for belief, num of votes when num is max
+      votes
 
 
+With our model now defined, the relationship between accounts of democracy and accounts of inclusion can now be explored by running Monte Carlo simulations of the model for various combinations of agent, clusterings, and partitions [^monte].  
 
-One interpretation of Hobbes is to model the state of nature as a single round Prisoner's Dilemma.  If the game is played only once, then all rational players will defect (see XXX for a formal proof).  But what of irrational players who cooperate in a altruistic lapse of judgement?  This possibility is inconsequentual to Hobbes' argument.  For the State of Nature to be a _war of all against all_, only the expectation of conflict is necessary for other rational agents to strike first.  When confronted with altruists in a pure strategy Prisoner's Dilemma, the rational player defects and peace is impossible.
+At the beginning of each simulation, a space is created with a fixed agent profile, clustering factor, and polity number.  During each run, the space is partitioned into the desired number of polities which then vote, with the results being recorded for statistical analysis.  
 
-> despite the fact that both players cooperating is Pareto efficient, the only Nash equilibrium is when both players choose to defect.
+This partition-vote-measure loop is repeated 1000 times, generating in a probability density function of the votes in each polity for each belief-cluster-partition tuple.  These results are then assessed against three classes of instrumental accounts of democracy to examine the conditions under which accounts of inclusion affect accounts of democracy.
 
-The single round interpretation of the State of Nature is extremely implausible however.  It requires that players only interact once .... yes death is a possibility but....  Hobbes also says that ....
+[^monte]: Monte Carlo simulations are class of computational algorithms that rely on statistical sampling from repeated simulation trials to generate numerical results. [see @fishman1996 for a full treatment of their use in computer simulation].
 
-!!! Threat of death & therefore minimax is the major objection.
 
-A far more plausible model is an iterated PD.  List problems and then over come them....
+## Content Independent Outcomes
 
-What about evolutionary models...
+One common justification for democracy is epistemic - that democracy has instrumental value as a truth tracking processes.  Some of these epistemic accounts are relatively simple and Condorcet's Jury Theorem is one such example. Given a better-than-even chance of any voter being correct on some choice, then the likelihood of a majority vote being being correct on that choice approaches certainty as the number of voters increases [see @list2001].  
 
-We can now test the validity of Hobbes' argument as pure strategy evolutionary Prisoner's Dilemma.  We will populate a simulation with 1000 cooperators and 1000 defectors and observe the local interaction.  
+Others, like @estlund2009's Epistemic Proceduralism, are more nuanced.  Rather than valuing democracy on the basis of the outcome of a specific vote, democracy has legitimacy because much like a jury, its decision processes have a tendency to produce correct decisions. Even when the majority is wrong on a particular matter, the majority decision is still morally binding, so long as majority voting remains the more reliable procedure than alternatives.
 
-Explain evolutoinary stability....this needs big justification.
+While different, all epistemic accounts rely on the claim that democratic procedures, on average, are better at determining the correct result than alternate ones. Further more, these results are correct _independently_ of the decision procedure used.  
 
-For Hobbe's argument as a PSPD to be invalid, we must observe an outbreak of cooperation in the state of nature.....
+This type of justification requires some way of comparing the epistemic performance of different decision procedures and one intuitive way to do this is to assess them against some base line metric.  An obvious candidate for such a metric is the likelihood that any randomly selected voter holds the correct belief or votes correctly - what I will call the _epistemic base rate_ of a political space.  We can then judge the epistemic performance of a decision procedure against the epistemic base rate.  Call this difference a procedure's _epistemic virtue_.
 
-If our rational defectors dominate the simulation, Hobbes' argument is plausible [^note-on-proof].  Run enough times, we can even assign a frequence based probability to the likelihood of _war of all againt all_ obtaining.  Given Hobbes' definition or war, even an oscilating cycle of cooperators out populating defectors who then outpopulate cooperators is sufficient to demonstrate plausibility.
+In our simulation, the epistemic virtue of a simple majority vote can be measured as the frequency based probability that a polity votes correctly given the initial conditions of the space.  During each trial, the number of polities that voted correctly is measured and the impact of differing partitions assessed.  The correct answer to the question our agents vote on is known in advance because we stipulate it when we create agents with either `right` or `wrong` belief.
 
 
-    pure_prisoners_dilemma = 
-      id: 'pure-prisoners-dilemma'
-      game: prisoners_dilemma 
-      players: {'ALLD': 10, 'ALLC': 1990} 
+    Space::virtue = () ->
+      correctVotes = 0
+      for polity in @polities
+        election = vote polity
+        correctVotes += 1 if election.winner is 'right'
+      correctVotes / @polities.length
 
 
-[^note-on-proof]: I say plausible here because a stochastic simulation with infinite possible runs obviously cannot definiately prove the impossibility of cooperation.
+Running a Monte Carlo simulation hundreds of thousands of times for a range of partition numbers (5 to 30), cluster factors (0.0 to 1.0) and epistemic base rates (0.5 to 1.0) yields a four dimensional data cube of probability distributions for the expected correct majority vote in each base-rate-partition-cluster tuple.
+
+We can examine the results from any perspective or slice of the data cube.  In the graph below, we see the impact of repartitioning on epistemic virtue at an epistemic base rate of 0.6 from the perspective of clustering.  The vertical axis represents epistemic virtue and the horizontal axis, the degree of clustering.  Each line represents the number of polities the space was partitioned into, ranging from 5 to 30 partitions.
 
 <figure>
-  <div id="pure-prisoners-dilemma" class="simulation fullscreen"></div>
-  <figcaption>Pure Strategy Prisoner's Dilemma. Click to start/stop.</figcaption>
-</figure>
+<div id="epistemic-by-cluster" class="graph"></div>
+<figcaption>Epistemic virtue by cluster factor</figcaption></figure>
 
-The outcome of a PSPD overwhelming supports Hobbes' argument that the State of Nature is a war of all against all.  From an initial state of equal strategies, defectors (in red) quickly out populates cooperators (blue).  Thanks to the dynamics of local interaction, pockets of mutual cooperation remain but as neighbourhoods slowly change, these pockets also adjust their strategy to defection.  Given these assumptions, Leviathan as a PSPD represents a valid argument.
+The likelihood of any randomly selected voter in the space being correct is 0.6. When agents are uniformly distributed across the space by belief (i.e. no clustering of agent belief is present), the epistemic virtue of majority voting  - the likelihood that the majority vote of any polity is the correct choice - is very high (0.82-0.97).  This quickly deteriorates as clustering of agent belief increases however, with no epistemic virtue of majority voting evident once agent clustering reaches 0.5.  This holds true for all levels of partition numbers and epistemic base rates > 0.5, although the effect diminishes as diversity across the space diminishes [^diversity].
 
---> results from 1000 simulations
+[^diversity]: A general principle about polity likeness is observable.  For any given distribution of agents across a space, the more internally homogeneous a polity is, them more externally heterogeneous it must be, and vice versa.  This is most pronounced when agent diversity within the space is high, i.e. when epistemic or preference base rates are close to 0.5, but the relationship deceases as the diversity in the decreases, i.e. when the base rates approach 0.0 or 1.0.
 
-How plausible are these premises however....
+<figure>
+<div id="epistemic-by-partition" class="graph"></div>
+<figcaption>Epistemic virtue by partition number</figcaption></figure>
 
-What about mixed strategies...
+Examining the same data from the perspective of partition number, we see little impact of partition number on epistemic virtue for higher cluster factors, and only limited impact for low levels of clustering, concordant with Condorcet's Theorem [^explain].  This relationship holds for all epistemic base rates between 0.51 and 0.99.
 
-!!! Explain the nuanced reasons for conflict in Hobbes - competition, distrust, glory
+[^explain]: Condorcet's Jury Theorem posits that the likelihood of majority rule selecting the correct outcome increases as the number of voters increases (assuming voters have an independent better than even chance of voting correctly).  We should expect to see a gradual decrease in epistemic virtue as the same number of voters in the space are partitioned into increasing numbers of polities.
 
-!!! Hobbes explicitly endorses mixed strategies when discussing responses to the foole.
+These results indicate that the epistemic virtue of majority voting is dependent not only on individual agent belief having a greater than 50% likelihood of being correct, but also on how those agent beliefs are distributed across the political space.  A key stipulation of the Jury Theorem is that there must a better than average chance of any voter being correct - we might call this the _competency requirement_.  This simulation shows that when clustering of agent belief is present, even if the competency requirement is met for the space as a whole, it is not necessarily met for every partition of that space.  Furthermore, as clustering of agent belief across the space increases, the likelihood that every partition of the space satisfies the competency criteria decreases.
+
+The relationship between content-independent justifications of democracy and democratic inclusion is now clearer. Epistemic justifications of democracy require accounts of inclusion that ensures that:
+
+  1. Polities are sufficiently large for the Condorcet effect to emerge.
+  2. Any partition of a space that satisfied the competency requirement must also satisfy the competency requirement.
+
+When the distribution of voter belief is uniform, where we draw the boundaries of our democracies is largely irrelevant for content-independent accounts of democracy. Any account of democratic inclusion will do.  But when the distribution of voter belief is clustered, where we draw boundaries of our democracies becomes very important. In this case, any compatible account of democratic inclusion will need to demonstrate that each polity satisfies the competency requirement for epistemic justifications.  
+
+We can summarise this finding by stating that the Boundary Problem only becomes a problem for content-independent justifications of democracy when homogeneity of voter belief or competence is high within polities but low between them.  In these instances, how we bound the _demos_ and draw political borders is critical.  Content-independent justifications require accounts of inclusion that generate sufficiently large, externally homogeneous polities.  Polities needs to be large and have similar voter composition otherwise only some of them can be justified by content-independent accounts. 
 
 
-We now introduce six additional mixed strategies based on the possible combinations of initial move, response to cooperation, and response to defection.  In addition to always cooperating and always defecting, players can also adopt a _tit for tat_ strategy, responding in kind based on the last interact, or a _perverse_ strategy, taking the opposite action to the other players previous round moves.  These four strategies can also be distinguished by their opening move by being _friendly_ (cooperating) or _suspicious_ (defecting).  (See @axelrod pxxx for a more detailed overview of these possibilities)
+##  Content Relative Outcomes
 
-In the next simulation, we will observe a Mixed Strategy Prisoner's Dilemma using the same assumptions as before but with equal numbers of the eight deterministic strategies outlined above.  As before, after interacting with others in their neighbourhood for a number of turns, players will update their strategy to that of the best performing in the neighbourhood.
+Not all instrumental accounts of democracy are epistemic however.  Utilitarians justify democracy on the grounds that it promotes the greatest happiness.  Majority voting maximises the expected utility of voter preferences when each individual has an equal chance of preferring each of two alternatives [@rae1969].  But one needn't be a card carrying utilitarian to employ such an approach.  @rousseau1920 argued that majority rule realises the general will of the people and this gives us reasons to obey, while social choice theorists hold that majority voting realises individual choice when collectively binding decisions must be made (@may1952).
+
+While these accounts of democracy differ in many ways, they all share a similarity in that the value of democracy stems from some content-relative criteria - of fidelity between individual preference and collective outcomes.  It is not the contents of the outcome of a democratic process that matters per se, but rather how well this collective outcome matches the wants, preferences, or intent of individual participants.
+
+We can judge these content-relative outcomes by defining the fidelity of a democratic procedure as the likelihood that an individual's preference is the same as, or compatible with, the majority outcome.  Formalising fidelity as individual-collective choice equivalence we get:
+    
+    
+    Space::fidelity = () ->
+      winners = 0
+      population = 0
+      for polity in @polities
+        election = vote polity
+        for key, val of election
+          winners += val if key is election.winner
+          population += val unless key is 'winner'
+      winners / population 
 
 
-    mixed_prisoners_dilemma = 
-      id: 'mixed-prisoners-dilemma'
-      game: prisoners_dilemma 
-      players: {'ALLD': 750, 'FT4T': 500, 'ALLC': 750}
+Running the same Monte Carlo simulation with the same parameters as the epistemic simulation yields a different set of results to those of the content-independent one.  Below, we see the fidelity of individual preference to majority vote for a distribution of agents with a 60:40 preference for some choice A or B over a range of clustering and partition variables, viewed by degree of clustering.
+
+<figure>
+<div id="preference-by-cluster" class="graph"></div>
+<figcaption>Preference fidelity by clustering</figcaption></figure>
+
+Again, when viewed by degree of clustering, the effect of polity composition on preference realisation is stark.  When agents are uniformly distributed by preference across the space (i.e. when clustering is low), the likelihood of an individual's preference being realised by majority vote is identical to that of any two random agents preference being the same (i.e. the preference base rate).
+
+As clustering of agent preferences across the space increases however, the fidelity between individual and majority preference increases significantly. At its most extreme, there is near certainty that any individual preference will be realised by a majority vote of a polity when the distribution of agents across the political space is fully clustered - when agents are completely segregated by preference.  This relationship holds for all preference base rates, although it is more pronounced when the preference base rate - the ratio of competing preferences - is lower.
+
+In contrast with the epistemic simulation of democracy however, the impact of agent clustering on outcome quality is reversed.  Majority voting has the greatest likelihood of fidelity with individual preference, and therefore greatest value from a content-relative perspective, when agents are highly clustered.  This contrasts sharply with the content-independent perspective where the greatest epistemic value of majority voting was found with a completely uniform agent distribution.
+
+<figure>
+<div id="preference-by-partition" class="graph"></div>
+<figcaption>Preference fidelity by partition number</figcaption></figure>
+
+The number of polities a space is partitioned into has only a limited effect in individual-majority preference fidelity. As the space is partioned into increasing numbers of polities, fidelity increases slightly when preference are highly clustered, but the influence of partition number is significantly less than the impact of preference clustering.
+
+The key implication from this analysis is that accounts of democracy based on content-relative criteria such as the fidelity of individual with group preference require an account of democratic inclusion that ensures that: 
+
+  1. Polities are sufficiently small.
+  2. Voters are as internally homogeneous as possible.
+
+!! This is what Rousseau said! His work explicity about city states, not countries like France.
+
+Restated, where we draw political boundaries is largely irrelevant for content-relative accounts of democracy if the distribution of voters by preference is highly clustered.  Just about any account of inclusion will likely generate internally homogeneous polities.  Where we draw boundaries is very important however, when the distribution of voters by preference is uniform.  The Boundary Problem only becomes a problem for content-relative justifications of democracy when homogeneity of voter preferences is low within polities but high between them.  Content-independent justifications require accounts of inclusion that generate sufficiently small, internally homogeneous polities.
+
+
+## Content Indifferent Outcomes
+
+A third type of instrumental justification of democracy is concerned not with the specific content of democratic outcomes, but with their beneficial side effects.  It is not the result of a vote or policy deliberation that matter _per se_, rather it is the effect that democratic participation has on citizens that is valuable.  Democracy on this account is _transformative_.
+
+Public life as the path to personal improvement is an idea that can be traced back to the Greeks.  More recently, @rousseau1920 [§ 1.8.3] thought democracy a necessary condition for the realisation of moral autonomy:
+
+> ... what man acquires in the civil state, moral liberty, which alone makes him truly master of himself; for the mere impulse of appetite is slavery, while obedience to a law which we prescribe to ourselves is liberty.  
+
+For @mill1862 [Ch 3], democracy was the means to improve the moral character of the people.  The weighing of different people's interests, being guided by other's rules, and applying principles that advanced the common good, enhanced a citizen's moral capacities:
+
+> Still more salutary is the moral part of the instruction afforded by the participation of the private citizen, if even rarely, in public functions ... He is made to feel himself one of the public, and whatever is for their benefit to be for his benefit.  
+
+We might call these types of instrumental justifications of democracy _content indifferent_, because it's not the content of democratic outcomes that matters _per se_ but rather some side effect of democratic activity that matters [^isolation].
+
+[^isolation]: Content indifferent justifications are not typically used in isolation.  Both Mill and Rousseau used these content indifferent justifications in conjunction with other instrumental justifications of democracy such as strategic value, truth divination, and preference articulation.
+
+One way to formalise this type of account is to stipulate that agent character improves consistently for all citizens when they vote (or deliberate).  This would model an agent-blind process in which every voter's character improves to the same degree, regardless of how politically active they are or who they interact with.  A more plausible model however, would see agent character improve dependent on _who_ they interact with.  Win-at-all-costs politics characterised by media manipulation and voter apathy seem less likely to positively transform the character of participants than contests marked by honest and open debate.
+
+In the formalisation below, agent character improves relative to the average character of their polity, with more virtuous polities improving their citizen's character to a greater extent than less virtuous ones.  `Good eggs` are assigned a random value representing moral character between `0.5` and `1.0` while `bad apples` are assigned one below `0.5`.  Democratic activity here 'closes the gap' between an agent's actual and maximum character potential, by a factor determined by the average character in their polity.
+
+
+    Space::character = () ->
+      polity_improvements = []
+      for polity in @polities
+        characters = polity.manipulation (agent) ->
+          character = if agent.belief is 'good' then 0.5 else 0.0 
+          character += Math.random() / 2
+        average_character_in_polity = ave characters
+        gap_closed = ave characters.map (val) ->
+          (1 - val) * average_character_in_polity + val
+        polity_improvements.push gap_closed
+      ave polity_improvements
 
 
 <figure>
-  <div id="mixed-prisoners-dilemma" class="simulation fullscreen"></div>
-  <figcaption>Mixed Strategy Prisoner's Dilemma. Click to start/stop.</figcaption>
-</figure>
+<div id="character-by-cluster" class="graph"></div>
+<figcaption>Character improvement by clustering</figcaption></figure>
 
-The introduction of mixed strategies into the Prisoner's Dilemma results in a vastly different outcome for the game.  In the initial generations, friendly and cooperative strategies (blues) are rapidly displaced by suspicious, perverse, and non-cooperative ones (yellows and reds).  After a handful of generations however, clusters of friendly tit for tat emerge. Gradually, these clusters begin displacing more and more of their surroundings until they eventually displace all non-cooperative strategies.  The State of Nature as a Mixed Strategy Prisoner's Dilemma is _not_ a war of against all.
-
-The dymaics of the MSPD are are subtle and counter-intuative.  Sublte because the path of tit for tat's spred in an evolutionary model is determined by local interaction....
-
-Counter-intuative because that despite tit for tat becoming the evolitionary STABLE? strategy, at no stage does it outperform alternate stratgies in any single iteraction.  When a player using tit for tat interacts with another cooperating player, both cooperate and obtain the socially optimal - but equal - payoff.  Tit for Tat and Always Cooperate tie.  When interacting with non-cooperating players however, Tit for Tat loses by a small margin.  In the first round, the defector has the advantage but in subsequent rounds, Tit for Tat ties in mutual defection, or wins against a perverse strategy.
-
-As long as there are other cooperating strategies in the neighbourhood, Tit for Tat accrues the highest total payoff and is therefore adopted by other players....
-
-We can understand this local interaction better by considering a simplified slice of the simulation above.  In the first, we see an interaction of players using always defect (D), Tit for Tat (T), and always cooperate (C).  Assume for simplicity that a player's neighbouthood only extends to their nearest neighbour and we have the following local interaction:
-
-> D1 D2 T3 T4 C5 C6
-
-In the first round, Cs and Ts mutally cooperate with each other, the Ds mutually defect, while T1 unilaterally cooperates with D2.  If we assign some cardinal utility values (4,3,2,1) to the ordinal preferences (1,2,3,4) we see the following payoffs after the first round for those players who interacted with two others.
-
-> D2: 6, T1: 4, T4: 6, C5: 6
-
-In the second and subsequent rounds however, T3 and the Ds mutally defect while the others mutally cooperate.  The payoffs are now:
-
-> D2: 4, T3: 5, T4: 6, C5: 6
-
-The ordering of aggregate scores after a number of rounds will therefore be [^ordinal]:
-
-> D2 < T3 < T4 & C5
-
-[^ordinal]: At this stage, this simplified analysis is open to the objection that it unjustifiably mixes cardinal and ordinal preferences.  This objection is valid when 1) the differences in cardinal perferences are large and 2) the number of rounds played between updating strategies are few.  The objection is unwarranted when the opposite is the case.
-
-When players update their strategies after a number of rounds, D2 will copy T3 and T3 will copy T4.  T4 and C5 will not update their stratgies as they have the greatest aggregate payoff in their neighbourhoods.  The new local interaction will now look like:
-
-> D1 T2 T3 T4 C5 C6
-
-This process repeats itself and T slowly displaces D (see @alexrod for a better explaination).
-
-The gradual dominace of tit for tat is however, wholly dependent on small beach heads of the strategy.  Tit for tat requires some cooperative neighbours to survive and at least one similar neighbour for replication.  A single player using tit for tat in a neighbourhood of defectors will adopt their stratgies because it underperforms locally.  A single player using tit for tat in a neighbourhood of defectors and cooperators will first adopt the cooperation as a strategy but will then be displaced by defectors.
-
-How likely is a beachhead to form?  Very!!!
-
---> results from 1000 simulations
-
---> Summary thus far
-
-
-## Stag Hunt
-
-Another approach to modelling Leviathan is to use a Stag Hunt. Who. Explain. also known as..
-
-
-    stag_hunt = (game) ->
-      payoffs = {
-        "1,1": [3,3],
-        "1,0": [0,1],
-        "0,1": [1,0],
-        "0,0": [1,1],
-      }
-      payoffs[game.toString()]      
-
-
-
-
-    pure_stag_hunt = 
-      id: 'pure-stag-hunt'
-      game: stag_hunt
-      players: {'ALLD': 1000, 'ALLC': 1000}
-
+When viewed from the perspective of clustering, a small effect on moral character is noticeable.  With little agent clustering across the space, the improvement in an agent's moral character is strong (at a base rate of 0.6, average improvement is approximately 0.8).  As clustering increases, character improvement is less strong (0.75 for the same parameters).  Unlike content-independent and content-relative justifications in which changes in clustering can completely undermine the relevant instrumental effect, the effect of content-indifferent accounts is still present across all clustering levels.
 
 <figure>
-  <div id="pure-stag-hunt" class="simulation fullscreen"></div>
-  <figcaption>Pure Strategy Stag Hunt. Click to start/stop.</figcaption>
-</figure>
+<div id="character-by-partition" class="graph"></div>
+<figcaption>Character improvement by partition number</figcaption></figure>
 
+Viewed from the perspective of partition numbers, no change in moral character is observer able.  Differences in the transformative impact of democracy on an agent's moral character appear to be fully dependent on the degree of clustering across the space.
 
-    mixed_stag_hunt = 
-      id: 'mixed-stag-hunt'
-      game: stag_hunt
-      players: {'ALLD': 1000, 'FT4T': 500, 'ALLC': 500}
+While less clustering is optimal for content-indifferent accounts of democracy, any partition of a space will result in a positive transformative effect as modelled here.  Any account of inclusion will do.  Content-indifferent justifications of democracy are compatible with both content-independent and content-relative accounts.
 
+## Conclusion
 
-<figure>
-  <div id="mixed-stag-hunt" class="simulation fullscreen"></div>
-  <figcaption>Mixed Strategy Stag Hunt. Click to start/stop.</figcaption>
-</figure>
+The claims of some justifications of democracy are not entailed in all circumstances.  How we answer the question of _who the people should be_ can either support or undermine these accounts.  Content-independent accounts like Condorcet's Jury Theorem are unlikely to hold true when people are highly clustered by belief or epistemic competence.  When clustering is present, democracy has no epistemic virtue.  Content-relative accounts like preference realisation by contrast, are likely to be entailed when peoples preferences or values are evenly spread.  A uniform distribution undermines claim that democracy maximised preferences or best realises personal values.  Meanwhile, content-indifferent accounts perform almost equally well irrespective of how people are distributed.
 
+The implication of inclusion on instrumental justifications of democracy is clear.  If we are to accept the claims of these accounts, then they must provide a corresponding and congruent account of inclusion.  The impact of voter composition on the outcomes of democratic processes places an addition constraint upon these accounts of democracy, such that any instrumental account of democracy must also offer a corresponding account of inclusion.
 
+Different accounts of democracy require different accounts of inclusion.  As can be seen from the simulation of the epistemic and preference realisation models, the corresponding account of inclusions needed are incompatible.  Content-independent justifications require accounts of inclusion that generate sufficiently large, externally homogeneous, and typically, internally heterogeneous polities.  Content-independent justifications require the opposite.  They require accounts of inclusion that generate sufficiently small, internally homogeneous, and typically, externally heterogeneous polities.  These accounts of inclusion are obviously incompatible.  How we answer the question of _who should the people be_ for one account of democracy will not be same for another account of democracy.
 
-## Assurance Dilemma
+So if instrumental justifications of democracy require different accounts of inclusion, and those accounts of inclusion are incompatible, then certain instrumental justifications of democracy are themselves incompatible.  One simply cannot maintain that democratic authority is justified because it has both epistemic virtue and realises individual preferences.  Yet many justifications of democracy do exactly this. Mill for example, justifies democracy on both epistemic and strategic grounds, arguing that democratic authority is legitimate because it generally reaches good decisions and is forced to consider the preferences of all citizens.  The incompatibility of accounts of inclusion that these approaches require however, demonstrates that this type of hybrid justification is incoherent.
 
+Of course, this incompatibility constraint does not apply to all instrumental justifications of democracy.  Content-indifferent justifications like Mill's moral transformation account can work with any distribution of voter character.  For content-indifferent accounts, any account of inclusion will do.  The accounts of inclusion required by these types of justification are compatible with those required for either content-independent or content-relative justifications.  But not, however, with both.
 
-## Baysian Model
 
+## Appendix
 
+A number of helper functions are necessary for the simulation to work as an independent program.  As these are not germane to the central argument, the have been extracted from the paper's body to here.  
 
----
+First let's define some simple statistical functions.
 
 
+    sum      = (arr) -> arr.reduce (a,b) -> a + b
+    ave      = (arr) -> sum(arr) / arr.length
+    variance = (arr) ->
+      mean = ave(arr)
+      (arr.reduce ( (a,b) -> a + (mean-b)*(mean-b)), 0) / arr.length
+    stdev    = (arr) -> Math.sqrt( variance arr)
 
-## Lit survey
 
+Next, we need to run the simulation.  The following function runs a simulation for the given parameters and number of trials.
 
-  - Leviathan is awesome!
-  - many theorists have attempted to use game theory to model hobbes
-  - quick survey on the lit - who did what.
-  - it hasn't been fully successful - why?
-  - what will I do that is different.
-    - use an agent based evolutionary causal model
-    - why is this a better idea.
 
-> First, the ‘evolution’ treated by evolutionary game theory need not be biological evolution. ‘Evolution’ may, in this context, often be understood as cultural evolution, where this refers to changes in beliefs and norms over time. Second, the rationality assumptions underlying evolutionary game theory are, in many cases, more appropriate for the modelling of social systems than those assumptions underlying the traditional theory of games. Third, evolutionary game theory, as an explicitly dynamic theory, provides an important element missing from the traditional theory.  SEP    
+    simulateDemocracy = (account, agents, partitions, clustering, trials) ->
+      space = new Space agents
+      space.distribute clustering
+      results = { 'a': agents, 'p': partitions, 'c': clustering, 'trials': [] }
+      for trial in [1..trials]
+        results.trials.push space[account]( space.partition partitions )
+      results
 
 
-> If  two  people  cooperate  in  prisoner’s  dilemma,  each  is choosing less rather than more. In prisoner’s dilemma, there is a conflict between individual rationality and mutual benefit @skryms2004 p3
+The results now need to be saved.  We'll save them in to a local file in JSON format for ease of consumption later on.
 
 
+    fs = require 'fs'
+    save = (name, results) ->
+      fs.writeFile "assets/#{name}.json", JSON.stringify(results) , (err) ->
+        if err then console.log err
 
-The genisis of the war of all against all begins, according to Hobbes, with competition for resources. (source).  
 
-Men desire self-preservation above all else.  They compete for scares resources. 
+Now we need to bootstrap the simulation.  We run it by assigning a name, metric, and some choices for the agents to vote on.
 
-This scarcity can't be soley for the goods necessary for survival however.  If it were an essential fact of nature that there were insufficient goods for survival, then survival of all would be impossible even under a sovereign.  Of course, scarcity could be a contingent fact of nature - in a war of all against all, there is little time to sow crops and tend to livestock, so there is too little for all.  The security of the Leviathan could also provide the conditions necessary for increased productivity and surplus.  Yet to simply assert that there are insufficient resources in the state of nature and sufficient in civil society would again be question begging.
 
---> three types of goods?
+    runSimulation = (name, metric, choices) ->
+      bases = [0..10]
+      partitions = [1..6]
+      clusters = [0..10]
+      results = []
 
-Luckily for Hobbes, scarcity of the resources necessary for survival aren't essential for his argument.  Even when mans current needs are satisfied, he must still compete (source).  Because no individual can secure their own security, they must strive for more power in order to secure their future needs
+      for b in bases
+        b = 500 + b*50
+        for p in partitions
+          p = p * 5
+          for c in clusters
+            c = c / 10
+            sim = simulateDemocracy metric, 
+              {"#{choices[0]}": b, "#{choices[1]}": 1000-b}, p, c, 1000
+            results.push { 
+              "baserate": b, 
+              "partitions": p, 
+              "clustering": c.toFixed(2), 
+              "#{name} #{metric}": ave(sim.trials).toFixed(15) }
+            process.stdout.write "Running #{results.length * 1000} #{name} trials\r"
+      save name, results
+    
 
-!!!! It is war that leads to shortages, not the other way around.  The initial competition 
+Finally, we capture terminal inputs to start up the simulation.  To run the simulation of epistemic democracy, use the command `coffee paper.coffee.md epistemic`.  This will execute the code embedded described in the paper above.
 
-Introduce glory and the vanglorious man.
 
-This brings us to two types of men - the moderate and the dominator.  The moderate .... The dominator ....
+    process.argv.forEach (val, index, array) ->
+      runSimulation('epistemic', 'virtue', ['right', 'wrong']) if val is 'epistemic'
+      runSimulation('preference', 'fidelity', ['red', 'blue']) if val is 'preference'
+      runSimulation('moral', 'character', ['good', 'bad']) if val is 'character'
 
-
----
-
-
-
-
-
- - distrust leads to strike first CH13
-
-
-In the state of nature
-
-  1. Everyone is motiviated for self-preservation (its a natural right)
-  2. Competition for scare resources creates conflict 'a state of diffidence'
-  3. The only way to secure these resources is by acquiring more
-  4. Some are instrinsically motiviated by power as well
-  5. The result is a state of war of all against all.
-
-Only absolute power works
-
-
-
-## Leviathan as Game Theory
-
-There is now a large body of work applying game theory to Hobbes [Footnote who].  Yet there is considerable disagreement on how exactly, Leviathan should be modelled.
-
-Review who has applied game theory and how.
-  - Guathier
-  ....
-
-What is the source of the disagreement?
-
-  1. interpretation of the text
-  2. methodological constraints
-
-I will avoid the debate in by modelling multiple games.  I will overcome 2 by using an agent based approach
-
-By far the most common approach is to model Leviathan as a Prisoner's Dilemma.....
-
-Single or iterative?
-
-Evolutionary?
-
-
-
-
-
-## Modelling Leviathan
-
-It is clear that there are two distinct arguments:
-
-  - the source of war
-  - the solution to war
-
-As @eggers notes, much of the literature focuses on only one, or conflates the two.  Examples.
-
-What we need to do then is model both, and perhaps combine them.
-
-One reason this hasn't been done is that it is very difficult using analytic game theory. It's too complex.
-
-An agent based approach can overcome this.
-
-Build a basic model here.
-
-The Moving parts
-
-Iterative and evolutionary
-  - show how Hobbes would except this
-  - rebutt @eggers minimax claim
-
-Trigger and Foole
-
-Dominators and Moderates
-
-
-## States of Nature
-
-The purpose of this is to determine if Hobbes' conclusion is entailed.  Under which interpretations of Hobbes does the state of nature lead to _bellum omnina contra ommes_.
-
-Prisoner's Dilemma
-  - people are equal
-
-Assurance Game
-
-Chicken Game
-
-
-
----
-
-## Nature Code
-
-    snow_drift = (game) ->
-      payoffs = {
-        "1,1": [3,3],
-        "1,0": [1,5],
-        "0,1": [5,1],
-        "0,0": [0,0],
-      }
-      payoffs[game.toString()]
-
-
-There are 8 possible deterministic single round strategies a player could employ in any 2 player game.  These are specified by their inital move `i`, responding to cooperation move `c`, and responding to defection move `d`.  We'll also name these and give them pretty colours and store them in a list.
-
-
-    strategies = {
-      "ALLD": { i: 0, c: 0, d: 0, name: "ALLD", color: "crimson" },
-      "SPRV": { i: 0, c: 0, d: 1, name: "SPRV", color: "orange" },
-      "ST4T": { i: 0, c: 1, d: 0, name: "ST4T", color: "lightblue" },
-      "DTAC": { i: 0, c: 1, d: 1, name: "DTAC", color: "indigo" },
-      "CTAD": { i: 1, c: 0, d: 0, name: "CTAD", color: "maroon" },
-      "FPRV": { i: 1, c: 0, d: 1, name: "FPRV", color: "yellow" },
-      "FT4T": { i: 1, c: 1, d: 0, name: "FT4T", color: "blue" },
-      "ALLC": { i: 1, c: 1, d: 1, name: "ALLC", color: "navy" }
-    }
-
-
-
-## Supplimentary Code
-
-We populate our space from an agent profile.  This profile contains an array such as `[0, 250, 250]` which tells our space to create 250 agents each based on the the 2nd and 3rd strategies profiles defined earlier.
-
-
-    Nature::populate = (agent_profile) ->
-      @agents = (for name, number of agent_profile
-          [1..number].map (n) =>
-            new Man this, strategies[name])
-        .reduce (lhs, rhs) ->
-          lhs.concat rhs
-      @depth = Math.sqrt(@width * @height / @agents.length) + 1
-
-
-
-
-Mans can be arranged in a space either deterministically or stochastically, and this arrangement can relate to either where they are (what x,y coordintate an agent occupies) or what they are (what type of agent is in that x,y coordintate).  The cluster method accepts 2 arguments between `0.0` and `1.0` relating the degree of determinism concerning where an agent is located and what the agent is.
-
-The what-algorithm is a modified Fisher-Yates shuffle that is applied stochastically if the what-cluster value is exceded.  The where-algorithm orders agents in straight lines or stochastically if the where-cluster is exceded.
-
-
-    Nature::cluster = (where, what) ->
-      #what
-      @agents = shuffle @agents
-
-      # where
-      block = Math.sqrt @width * @height / @agents.length
-      x = y = block / 2
-      for agent, position in @agents
-        hurdle = Math.random()
-        agent.x = if where > hurdle then x else Math.floor Math.random() * @width
-        agent.y = if where > hurdle then y else Math.floor Math.random() * @height
-        x += block if x < @width
-        if x > @width 
-          y += block
-          x = block / 2
-      @agents
-
-
-    shuffle = (things) ->
-      for i in [things.length-1..1]
-        j = Math.floor Math.random() * (i + 1)
-        [things[i], things[j]] = [things[j], things[i]]
-
-
-Now we turn to our game.  The browser will trigger the main game interface `contest(agent)` every tick.  Each agent finds their neighbours and plays against them for a number or rounds, with the agent score calcuated from the payoff matrix.  In every contest, we set the agent score and last_game values to 0.  We also throw in some Brownian motion to encourage disequilibrium.
-
-
-    contest = (agent, game) ->
-      agent.score = 0
-      last_game = []
-      rounds = 10
-      neighbours = shuffle agent.space.neighbourhood(agent)
-      for neighbour in neighbours
-        for round in [0..rounds]
-          last_game = [agent.play(neighbour, last_game), neighbour.play(agent, last_game)]
-          scores = game.call(game, last_game)
-          agent.score += scores[0]
-      walk agent
-      agent
-      
-
-We also need to define the interaction between agents.  The initial move is dictated by the agent's strategy while subsequent moves are based on an opponents last move.
-
-
-    Man.prototype.play =  (neighbour, last_game) ->
-      if last_game.length is 0 then @strategy.i else @next_move last_game
-
-    Man.prototype.next_move = (last_game) ->
-      if last_game[1] is 1 then @strategy.c else @strategy.d
-
-
-Men also need to update their strategy after each round.  We will do this only after all contests in a tick have finished and scores have been calculated.
-
-
-    update = (agent) ->
-      neighbours = agent.space.neighbourhood(agent)
-      max = neighbours.reduce (a, b) -> 
-        {score: Math.max a.score, b.score}
-      winners = neighbours.filter (neighbour) ->
-        neighbour.score is max.score
-      unless agent in winners
-        agent.strategy = winners[Math.floor Math.random() * winners.length].strategy 
-      agent
-
-
-Let's also throw in some logic for walking our agents around the space.  Movement could be intentionally directed or (as in this case), agents move to a random spot near by.
-
-
-    walk = (agent) ->
-      xRand = Math.random() * agent.step
-      yRand = Math.random() * agent.step
-      agent.x += xRand - agent.step / 2
-      agent.x = xRand / 2 if agent.x < 0
-      agent.x = agent.space.width - xRand /2 if agent.x > agent.space.width
-      agent.y += yRand - agent.step / 2
-      agent.y = yRand /2 if agent.y < 0
-      agent.y = agent.space.height - yRand / 2 if agent.y > agent.space.height
-      agent
-
-
-Now that we have defined our model, we need some functions to initiate and control behaviour.  We will instantiate the simulation by invoking the `agents` function.  This will create a space and populate it with agents according to our profile.  We will set the cluster values so that agents are perfectly ordered in space but randomly allocated to a space.  Try adjusting the facts to see what happens! 
-
-
-    agents = (height, width) ->
-      space = new Nature(height, width, [250, 250, 250, 250, 250, 250, 250, 250])
-      space.cluster 1.0, 1.0
-
-
-Finally, we declare our public API so that other modules can access it.
-
-
-    module.exports = {agents: agents, contest: contest, update: update}
-
-
-    d3 = require 'd3'
-    buffer = 50
-    height = window.innerHeight - buffer || 600
-    width = window.innerWidth - buffer || 600
-
-
-
-Allocate agents in the space
-
-
-    Nature::position = (where, what) ->
-      #what
-      for i in [@agents.length-1..1]
-        unless what > Math.random()
-          j = Math.floor Math.random() * (i + 1)
-          [@agents[i], @agents[j]] = [@agents[j], @agents[i]]
-
-      # where
-      block = Math.sqrt @width * @height / @agents.length
-      x = y = block / 2
-      for agent, position in @agents
-        hurdle = Math.random()
-        agent.x = if where > hurdle then x else Math.floor Math.random() * @width
-        agent.y = if where > hurdle then y else Math.floor Math.random() * @height
-        x += block if x < @width
-        if x > @width 
-          y += block
-          x = block / 2
-        agent.x + buffer / 4
-        agent.y + buffer / 4
-
-
-Now to display the agents in the browser
-
-
-    display = (params) =>
-      runner = false
-      simulation = new Nature height, width, params.players
-      simulation.position 1.0, 0.0
-      canvas = d3.select("##{params.id}")
-        .append("svg:svg")
-        .attr("height", height)
-        .attr("width", width)
-        .on "click", () ->
-          if runner
-            clearInterval runner
-            runner = false
-          else 
-            runner = setInterval () ->
-              tick simulation
-            , 1000
-
-      tick = (simulation) ->
-        circles = canvas.selectAll "circle"
-        circles.each (d) ->
-            d = contest d, params.game
-          .each (d) ->
-            d = update d
-          .transition()
-          .duration 500
-          .attr "cx", (d) -> d.x
-          .attr "cy", (d) -> d.y
-          # .attr "r", (d) -> 
-          #   if d.strategy.i is 3 then 10 else Math.max 3, (d.score / 10)
-          .attr "title", (d) -> "#{d.strategy.name} - #{d.score}"
-          .style "fill", (d) -> d.strategy.color
-
-
-Set up
-
-
-      populate = (simulation) ->
-        canvas.selectAll "circle"
-          .data simulation.agents
-          .enter().append "circle"
-          .style "fill", (d) -> 
-            d.strategy.color 
-          .style "opacity", 0.5
-          .attr "r", 7.5
-          .attr "cx", (d) -> d.x
-          .attr "cy", (d) -> d.y
-
-      populate simulation
-
-Finally....
-
-    window.onload = () ->
-      display pure_prisoners_dilemma
-      display mixed_prisoners_dilemma
-      display pure_stag_hunt
-      display mixed_stag_hunt
+<script src="assets/d3.v3.min.js"></script>
+<script src="assets/dimple.v2.1.2.min.js"></script>
+<script src="assets/graph.js"></script>

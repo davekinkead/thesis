@@ -334,7 +334,7 @@ Low information rationality can help voters make informed choices but this relie
 
 The challenge for supporters of CJT is obvious.  The symmetry of the Jury Theorem is a double edged sword for democracy - just as large numbers of marginally competent voters makes a majority choice almost certainly correct, large numbers of marginally incompentent voters makes the same choice almost certainly incorrect.  Satisfying the voter competence conditition is essential not only for justifying democracy on epistemic grounds, but also for preventing CJT from undermining other classes of justifications of democracy.  Proponents of CJT must therefore be justified in claiming that voters are, on average, competent but demonstrating this turns out to be excedingly problematic.
 
-> Majorities might reflect nothing more than systematic biases within the elec- torate, and bias ought epistemically be discounted. @goodin2004 p137
+> Majorities might reflect nothing more than systematic biases within the electorate, and bias ought epistemically be discounted. @goodin2004 p137
 
 Demonstrating voter competence, or that any condition of reality for that matter, has been obtained analytically seems impossible.  Instead, voter competence must be demonstrated emprically by either knowing that voters are competent _a priori_ and therefore the majority choice is correct; or by knowing the correct choice _a priori_ and infering voter competence from the majority choice.
 

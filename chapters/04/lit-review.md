@@ -3,6 +3,8 @@
 
 ## Digital Philosophy
 
+http://cdp.uwo.ca/
+
 
 ## Computational Philosophy to Date
 

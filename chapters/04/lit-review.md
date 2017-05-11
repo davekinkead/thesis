@@ -9,7 +9,7 @@ http://cdp.uwo.ca/
 ## Computational Philosophy to Date
 
 @article{Andre2015-ANDSMA-4,
-  journal = {Dissertatio},
+  journal = {Dissertation},
   year = {2015},
   title = {Semantical Mutation, Algorithms and Programs},
   author = {Porto Andr\'e},

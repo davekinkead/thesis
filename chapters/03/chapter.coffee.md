@@ -1,3 +1,12 @@
+---
+title: Digital Philosophy
+author: Dave Kinkead
+email: d.kinkead@uq.edu.au
+status: Rough Outline
+bibliography: /Users/dave/Dropbox/Research/readings/.library.bibtex
+license: CC-BY-SA
+---
+
 # Philosophy & Simulation
 
 A review of how simulation has been used in philosophy
@@ -9,6 +18,10 @@ A review of how simulation has been used in philosophy
 2. Lit review of how simulation has been used in philosophy
 3. Identify the key strengths of simulation
 4. Identify the key weaknesses
+
+1. Review how simulation has been used, its stengths, and its weaknesses
+2. Digital Philosophy - examine, and define (non-essential use of computers)
+3. Computational Philosophy - essential use of computers
 
 
 Computational approaches have a great deal to offer philosophy - especially social philosophy.
@@ -36,54 +49,25 @@ Simulation is still philosophy
 ---
 
 
-## Simulation isn't new
-
-Computer simulation is new in philosophy but simulation itself isn't.
-
-Examples of famous research using computer simulation.
-
-  - ??
-  - ??
-
-Competing views of computer simulation
-
-  - ??
-  - ??
-
-My view -> Simulation is the instantiation of a model.
-
-Explore the idea of a model.
-
-> a model of something is a hypothetical example of it. @williamson
-
-How has philosophy used modelling in this looser sense
-
-  - ???
-  - ???
 
 
-## What is so special about this approach.
+## Digital Philosophy
 
-Epistemology of computer sim.
-Types of knowledge
-Focus on monte carlo
-Constraint testing
-Advance my idea to test political theories  
+While we have so far explored how simulation has been used as a philosophical method, this is not the only way computers can be used.
 
-## Challenges
+Philosophy can be produced digitally...
 
-  - replication
-  - verification
+  - wordprocessing
+  - collaboratively
 
+Philosophy can be distributed digitally...
 
-## Literate programming
+  - Online Journals
+  - SEP
 
-What is it
-Why this method
-solves the problems of replication
+Philosophy can be consumed digitially...
 
-## Coffee script
+These are all examlpes of digital philosophy but that doesn't make them computational philosophy..
 
-What is it
-Why use it
-examples
+Define terms _digital_ and _computational_ as the non-essential and essential use of computers in philosophical investigation.
+

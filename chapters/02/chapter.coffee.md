@@ -1,4 +1,13 @@
-  # On Method
+---
+title: On Method
+author: Dave Kinkead
+email: d.kinkead@uq.edu.au
+status: Rough Outline
+bibliography: /Users/dave/Dropbox/Research/readings/.library.bibtex
+license: CC-BY-SA
+---
+
+# On Method
 
 1. show that the method of philosophy is diverse
 2. show that key methods of (analytic) philosophy are making distinction, modelling, and argument.
@@ -46,6 +55,7 @@ philosophy as methodological pluralism.
     - philosophy is mainly modelling
   7. Thought Experiments
   8. Simulation
+    - Argorithms: Euclid's Elements, Al Khwarizmi
   9. Conclusoin
     - philosophy is methodological pluralism 
     - but its mainly modelling

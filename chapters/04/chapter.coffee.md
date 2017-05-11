@@ -1,83 +1,115 @@
 ---
-title: Argumentum in Silico
+title: Simulation as Argument
 author: Dave Kinkead
 email: d.kinkead@uq.edu.au
-license: CC-BY-SA-NC
+license: CC-BY-SA
 bibliography: /Users/dave/Dropbox/Research/readings/.library.bibtex
 status: outline
 ---
 
 ### Outline
 
-1. Review how simulation has been used, its stengths, and its weaknesses
-2. Digital Philosophy - examine, and define (non-essential use of computers)
-3. Computational Philosophy - essential use of computers
-4. Simulation as Argument - propose the account
-5. Example
+1. Hard Problems (1k)
+  - review the questions simulation can help answer
+  - review the limitations of simulations
 
+2. Reasoning with Code (2k)
+  - langauge and reason
+  - code as language
+  - functions as premises
+
+3. Simulation as Argument (2k)
+  - coherence vs validity
+  - literate programming (in silico vs cum silico)
+  - solving the problems of simulation
+  - pursuasiveness
+
+4. Demonstration (3k)
+  - models of segregation
 
 
 ## Introduction
 
-- Simulation has much to offer philosophy
-- But simulation also faces methodological challenges
-- Simulation as argument overcomes these challenges
-- Simulation as argument also offers additional benefits
-- Philosophy should embrace simulation as argument
+In the last chapter, we say how simulation has been used in philosophy.....
 
+This approach to philosophical investigation as a number of methodological virtues....
 
-## Accessability
+  1. Accessability - Many problems of interest to philosophers exist in domains that are difficult to access empricially.
 
-Many problems of interest to philosophers exist in domains that are difficult to access empricially.
+  2. Complexty - Complex system have emergent behaviour
 
+    - non agent based models "filter out all consequences of heterogeneity" @epstein1996 p2
+    - game theorists have been preoccupied with static equilibrium @epstein1996 p2
+    - they attempt to 'grow' social structures _in silico_ in order to discover "fundamental local or micro mechanisms that are sufficient to _gerneate_ the macroscopic social structures and collective behaviours of interest". @epstein1996 p4
+    - "fundamental social structures and group behaviours emerege from the interaction of individual agents operating on aritifical environments under rules that place onl bounded demands on each agent's information and computational capacity." p6
 
-## Complexity
+  3. Intractability - Some problems cannot be solved analytically making computational approaches essential
 
-Complex system have emergent behaviour
+    - "Computer simulations extend the class of tractable mathematics and thereby broaden the range of modelling tools that we can use." @frigg2009 p594
 
-  - non agent based models "filter out all consequences of heterogeneity" @epstein1996 p2
-  - game theorists have been preoccupied with static equilibrium @epstein1996 p2
-  - they attempt to 'grow' social structures _in silico_ in order to discover "fundamental local or micro mechanisms that are sufficient to _gerneate_ the macroscopic social structures and collective behaviours of interest". @epstein1996 p4
-  - "fundamental social structures and group behaviours emerege from the interaction of individual agents operating on aritifical environments under rules that place onl bounded demands on each agent's information and computational capacity." p6
+    - issues
+    - approximation
+    - trunctation
+    - interpretation
 
-## Intractability
+Simulation however, also comes with its own unique set of limitations...
 
-Some problems cannot be solved analytically
+  1. reality
+  2. replication
+  3. reliability
 
-  "Computer simulations extend the class of tractable mathematics and thereby broaden the range of modelling tools that we can use." @frigg2009 p594
-
-  issues
-  - approximation
-  - trunctation
-  - interpretation
-
-## Reproducability
-
-Simulation however, also comes with its own limitations.
-
-  - reality
-  - replication
-  - reliability
 
 ## Simulation as Argument 
 
-Simulation has been used in a number of ways in science and philosophy
-  - to predict and test theory
-  - to generate data
+Normally when using simulation within an argument, we use simulations to establish the truth or plausibility of particular premse claims.  Do X?  Does Y?
 
-We might call this approach _argumentum cum silico_.
+This usage sees simulation used in an evidentiary role.  A data point. Whilst important to the argument, simulation remains exogenous or external to it. 
 
-Literate programming offers us another avenue of use.  
 
-Call this _argumentum in silico_.
 
-What can this do for philosophy?
+What is an argument? - propositions supporting other propositions...
+
+It is in how these premises support their conclusions that an argument is made.
+
+The role of argument form....
+
+In a typical argument, these propositions are collections of words formed into truth bearing statements.
+
+This need not be the case ... programming as propositions
+
+Introduce Literate Programming ...
+
+What this would look like ...
+
+How might we use it ...
 
   - model theory rather than reality 
   - act as a coherence test for our theories when empiric data is unavailable
   - is a theory's conclusion entailed by its assumptions and premises
   - show what's possible or even plausible plausible
 
+How is this different from normal simulation ....
+
+Both can be used to
+  - to predict and test theory
+  - to generate data 
+  - support an argument
+
+We might call this approach _argumentum cum silico_.
+
+Literate programming - call this _argumentum in silico_ - overcomes many of the limitations of simulation whist maintain their benefits.
+
+## Literate programming
+
+What is it
+Why this method
+solves the problems of replication
+
+## Coffee script
+
+What is it
+Why use it
+examples
 
 ## Demonstatration
 
@@ -86,7 +118,7 @@ What can this do for philosophy?
 
 Graphic
 
-> On pages 112-114 Humphreys seems to suggest thatthe fact that theoutputsof simulationsarerepresentedvisuallybearsspecialweight.
+> On pages 112-114 Humphreys seems to suggest that the fact that the outputs of simulations are represented visually bears special weight.
 
 Dynamic
 
@@ -97,7 +129,7 @@ Clarity - Simulation forces us to be explicit when we might otherwise hand wave.
 
 
 
-### Models of Segregation
+## A New Model of Segregation
 
 Rather than labour the point futher, I think a demonstration of _simulation as argument_ would be germane.  In what follows, I'll reproduce Thomas Schelling's seminal work _Models of Segregation_ in order to highlight the advantages of this method for philosophy.
 
@@ -144,11 +176,6 @@ Agents are happy if the composition of their neighbourhood is within their toler
 
 
       isHappy: () ->
-
-
-
-
-
 
 
 <div id="space"></div>

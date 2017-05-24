@@ -9,23 +9,40 @@ status: outline
 
 ### Outline
 
-1. Hard Problems (1k)
-  - review the questions simulation can help answer
-  - review the limitations of simulations
+1. Hard Problems: Simulation can help solve some hard problems in philosophy
+  - Accessability
+  - Intractability
+  - Complexity
 
-2. Reasoning with Code (2k)
+2. New Problems: Simulation brings it's own set of problems
+  - Replication
+  - Reliability
+  - Realism
+
+3. Comments & Code: Blending the two to solve old and new problems 
+  - Knuth developed literate programming to invert the relationship between comments and code 
+  - Literate Programming advantages ...
+  - But Literate Programming failed as a software paradigm because ....
+  - I propose Simulation as Argument to extend this idea futher
+
+4. Arguments and their structure
+  - how arguments work
+  - arguments as propositional models
   - langauge and reason
   - code as language
   - functions as premises
+  - Functions as premises
 
-3. Simulation as Argument (2k)
+5. Computation and Proof
+  - we can use symbolic logic to prove arguments are deductively valid 
+  - we can also use pictures to prove claims
   - coherence vs validity
-  - literate programming (in silico vs cum silico)
-  - solving the problems of simulation
-  - pursuasiveness
+  - inductive inference and probabilistic proof
+  - in silico vs cum silico
 
-4. Demonstration (3k)
-  - models of segregation
+6. Demonstration
+
+7. Aesthetics and Pursuasiveness
 
 
 ## Introduction

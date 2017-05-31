@@ -9,24 +9,31 @@ status: outline
 
 ### Outline
 
-1. Hard Problems: Simulation can help solve some hard problems in philosophy
-  - Accessability
-  - Intractability
-  - Complexity
+1. Hard Problems: Simulation can help solve some hard problems in philosophy.
+  - Accessability: Some problem domains are inaccessable to researchers.
+    - EG: Legal restrictions
+    - EG: Ethical restrictions
+    - EG: Financial restrictions
+    - EG: Physical restrictions
+  - Intractability: Some problems are mathematically intractable.
+  - Complexity: Some problem domains are complex systems that exhibit emergent behaviour.
 
 2. New Problems: Simulation brings it's own set of problems
-  - Replication
-  - Reliability
-  - Realism
+  - Replication: The current structure of scholarly simulation makes replication difficult.
+  - Reliability: Concerns about software reliability undermine our confidence in the results.
+  - Realism: Even if our software is reliable, it may not adequately simulation the reality of the phenomenon under investigation.
 
-3. Comments & Code: Blending the two to solve old and new problems 
-  - Knuth developed literate programming to invert the relationship between comments and code 
+3. Comments & Code: Blending the two to solve old and new problems.
+  - Knuth developed literate programming to invert the relationship between comments and code. 
   - Literate Programming advantages ...
   - But Literate Programming failed as a software paradigm because ....
-  - I propose Simulation as Argument to extend this idea futher
+  - I propose Simulation as Argument to extend this idea futher ...
 
 4. Arguments and their structure
   - how arguments work
+    - arguments connect known or uncontested truth claims with unknown or contested ones.
+    - their purpose is to persuade as either justification or explaination.
+    - the criteron of persuasion is truth preservation.
   - arguments as propositional models
   - langauge and reason
   - code as language

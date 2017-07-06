@@ -7,6 +7,21 @@ bibliography: /Users/dave/Dropbox/Research/readings/.library.bibtex
 status: outline
 ---
 
+1. Introduction
+2. Thought Experiment
+  - def / eg 
+  - power comes from accessability & phenomenology of conclusions
+  - challenge: How is it possible to learn apparently new things about nature without new empirical data?
+3. Simulation extending TE? 
+  - What sort of problems does simulation solve?
+  - What problems does simulation bring?
+4. Simulation (as currently done) lacks accessability & phenomenology
+5. Literate Programming 
+6. Proposal 
+
+
+
+
 ### Outline
 
 1. Hard Problems: Simulation can help solve some hard problems in philosophy.

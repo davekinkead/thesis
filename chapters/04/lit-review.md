@@ -172,6 +172,12 @@ Analogies:
 
 
 
+@unpublished{WadlerManuscript-WADPAP,
+  author = {Philip Wadler},
+  title = {Proofs Are Programs: 19th Century Logic and 21st Century Computing}
+}
+
+> As the 19th century drew to a close, logicians formalized an ideal notion of proof. They were driven by nothing other than an abiding interest in truth, and their proofs were as ethereal as the mind of God. Yet within decades these mathematical abstractions were realized by the hand of man, in the digital stored-program computer. How it came to be recognized that proofs and programs are the same thing is a story that spans a century, a chase with as many twists and turns as a thriller. At the end of the story is a new principle for designing programming languages that will guide computers into the 21st century. For my money, Gentzen’s natural deduction and Church’s lambda calculus are on a par with Einstein’s relativity and Dirac’s quantum physics for elegance and insight. And the maths are a lot simpler. I want to show you the essence of these ideas. I’ll need a few symbols, but not too many, and I’ll explain as I go along. To simplify, I’ll present the story as we understand it now, with some asides to fill in the history. First, I’ll introduce Gentzen’s natural deduction, a formalism for proofs. Next, I’ll introduce Church’s lambda calculus, a formalism for programs. Then I’ll explain why proofs and programs are really the same thing, and how simplifying a proof corresponds to executing a program. Finally, I’ll conclude with a look at how these principles are being applied to design a new generation of programming languages, particularly mobile code for the Internet. 
 
 
 ## Digital Philosophy

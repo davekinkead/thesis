@@ -1,5 +1,23 @@
 offcuts.md
 
+# Notes
+
+Alphabet: a finite set of symbols
+String: a finite sequence of symbols from an alphabet
+Language: a set of strings
+Computer:  something that takes an input alphabet and produces an output string (or accepts/rejects)
+
+Turing Maching: 
+
+Functions: A special type of relationship where each element from the domain is paired with exactly one element of the range.  -- but what about f(x) = rand(x)?
+
+
+- we can't claim a function is true or false (just like a question) but claims about the relation between domain and range are propositional f(x) = y or f(x) != y
+
+- charactise certain computer simuation as digital thought experiments.  
+  - the power of thought experiments comes from their accessability (the role of imagination)
+    - we need to be able to access the model and _experience_ the result.
+  - 
 
 # Argumentum in Silico
 

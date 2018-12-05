@@ -3,42 +3,6 @@
 
 ## Computational Philosophy
 
-  - Angius, Nicola & Tamburrini, Guglielmo (2011). Scientific Theories of Computational Systems  - in Model Checking. _Minds and Machines_ 21 (2):323-336.
-
-  - Baek, Jongmin Jerome (2018). How to Solve Moral Conundrums with Computability Theory.  - _arXiv_.
-  - Baumgaertner, Bert (2012). Vagueness Intuitions and the Mobility of Cognitive Sortals.   - _Minds and Machines_ 22 (3):213-234.
-  - Blumson, Ben (2017). Anselm's God in Isabelle/HOL. _Archive of Formal Proofs_:9.
-  - Bohr, Niels (1958). Unity of Knowledge. In _Atomic Physics and Human Knowledge_. Wiley. pp.  - 67--82.
-  - Bourget, David (2010). Paperless Philosophy as a Philosophical Method. _Social Epistemology_   - 24 (4):363-375.
-  - Brey, Philip (2005). The epistemology and ontology of human-computer interaction. _Minds and   - Machines_ 15 (3-4):383-398.
-  - Dodig Crnkovic, Gordana & Stuart, Susan (eds.) (2007). _Computation, Information, Cognition:   - The Nexus and the Liminal_. Cambridge Scholars Press.
-  - Dodig-Crnkovic, Gordana (2007). WHERE DO NEW IDEAS COME FROM? HOW DO THEY EMERGE? -  - EPISTEMOLOGY AS COMPUTATION. In Christian Calude (ed.), _Randomness & Complexity, from   - Leibniz to Chaitin_.
-  - Fuenmayor, David & Benzmueller, Christoph, A Case Study on Computational Hermeneutics: E. J.   - Lowe’s Modal Ontological Argument.
-  - Gustafsson, Johan E. & Peterson, Martin (2012). A Computer Simulation of the Argument from   - Disagreement. _Synthese_ 184 (3):387-405.
-  - Hellie, Benj (2017). David Lewis and the Kangaroo: Graphing philosophical progress. In   - Russell Blackford & Damien Broderick (eds.), _Philosophy's Future: The Problem of   - Philosophical Progress_. Oxford: Blackwell.
-  - Leibovitz, David Pierre (2013). _A Unified Cognitive Model of Visual Filling-In Based on an  - Emergic Network Architecture_. Dissertation, Carleton University
-  - Lokhorst, Gert-Jan (2011). Computational Meta-Ethics. _Minds and Machines_ 21 (2):261-274.
-  - Luczak-Roesch, Markus ; Tinati, Ramine ; Aljaloud, Saud ; Hall, Wendy & Shadbolt, Nigel  - (2016). A universal socio-technical computing machine. In _International Conference on Web   - Engineering_.
-  - Mizrahi, Moti (forthcoming). What Isn’t Obvious about ‘obvious’: A Data-driven Approach to   - Philosophy of Logic. In Andrew Aberdein & Matthew Inglis (eds.), _Advances in Experimental  - Philosophy of Logic and Mathematics_. London: Bloomsbury Press.
-  - Müller, Vincent C. (2008). What a course on philosophy of computing is not. _APA Newsletter  - on Philosophy and Computers_ 8 (1):36-38.
-  - Oppenheimer, Paul & Zalta, Edward N. (2011). A computationally-discovered simplification of  - the ontological argument. _Australasian Journal of Philosophy_ 89 (2):333 - 349.
-  - Prakken, Henry (2012). Reconstructing Popov v. Hayashi in a framework for argumentation with   - structured arguments and Dungean semantics. _Artificial Intelligence and Law_ 20 (1):57-82.
-  - Primiero, Giuseppe (2012). A contextual type theory with judgemental modalities for  - reasoning from open assumptions. _Logique and Analyse_ 220:579-600.
-  - Rooij, Iris ; Wright, Cory & Wareham, Todd (2012). Intractability and the use of heuristics  - in psychological explanations. _Synthese_ 187 (2):471-487.
-  - Sergeyev, Yaroslav (2013). Solving ordinary differential equations by working with   - infinitesimals numerically on the Infinity Computer. _Applied Mathematics and Computation_  - 219 (22):10668–10681.
-  - Sergeyev, Yaroslav & Garro, Alfredo (2013). Single-tape and multi-tape Turing machines   - through the lens of the Grossone methodology. _Journal of Supercomputing_ 65 (2):645-663.
-  - Sloman, Aaron (1992). The emperor's real mind -- Review of Roger Penrose's The Emperor's new   - Mind: Concerning Computers Minds and the Laws of Physics. _Artificial Intelligence_ 56  - (2-3):355-396.
-  - Tamariz, Monica (2011). Could arbitrary imitation and pattern completion have bootstrapped   - human linguistic communication? _Interaction Studies_ 12 (1):36-62.
-  - Vakarelov, Orlin (2012). The Information Medium. _Philosophy and Technology_ 25 (1):47-65.
-  - van Deemter, Kees ; Gatt, Albert ; van Gompel, Roger P. G. & Krahmer, Emiel (2012). Toward a   - Computational Psycholinguistics of Reference Production. _Topics in Cognitive Science_ 4  - (2):166-183.
-  - Varenne, Franck (2013). The Nature of Computational Things. In Frédéric Migayrou Brayer &  Marie-Ange (eds.), _Naturalizing Architecture_. Orléans: HYX Editions. pp. 96-105.
-  - Wheeler, Billy (2017). Humeanism and Exceptions in the Fundamental Laws of Physics.  - _Principia: An International Journal of Epistemology_ 21 (3):317-337.
-  - Wheeler, Gregory (2016). Machine Epistemology and Big Data. In Lee McIntyre & Alex Rosenburg (eds.), _Routledge Companion to Philosophy of Social Science_. Routledge.
-  - Wheeler, Gregory (2013). Models, Models, and Models. _Metaphilosophy_ 44 (3):293-300.
-
-
-
-
 ### André, Porto (2015). Semantical Mutation, Algorithms and Programs. _Dissertatio_:44-76.
 
 @article{Andre2015-ANDSMA-4,
@@ -119,6 +83,97 @@ Computer assisted empiric study of use of inuition in philosophical work.  Parse
 > 2. Nineteenth and twentieth century philosophers appealed to intuition (where indicators of appeals to intuition include ‘it seems that’, ‘it appears that’, and ‘it seems to me that’) in argumentative contexts;
 > 3. The proportion of publications in which philosophers appeal to intuition (as indicated by ‘it seems that’, ‘it appears that’, and ‘it seems to me that’) shows that the practice was accepted and fairly common, even early in the 1800s;
 > 4. There is a positive correlation between intuition talk (as indicated by ‘intuit’, ‘intuition, ‘intuitions’, ‘intuitive’, and ‘intuitively’) and appeals to intuition (as indicated by ‘it seems that’, ‘it appears that’, and ‘it seems to me that’).
+
+
+
+### Baek, Jongmin Jerome (2018). How to Solve Moral Conundrums with Computability Theory. _arXiv_.
+
+@incollection{Baek2018-BAEHTS,
+  year = {2018},
+  booktitle = {arXiv},
+  title = {How to Solve Moral Conundrums with Computability Theory},
+  editor = {},
+  pages = {N/A},
+  author = {Jongmin Jerome Baek}
+}
+  
+> Various moral conundrums plague population ethics: The Non-Identity Problem, The Pro- creation Asymmetry, The Repugnant Conclusion, and more. I argue that the aforementioned moral conundrums have a structure neatly accounted for, and solved by, some ideas in com- putability theory. I introduce a mathematical model based on computability theory and show how previous arguments pertaining to these conundrums fit into the model. This paper pro- ceeds as follows. First, I do a very brief survey of the history of computability theory in moral philosophy. Second, I follow various papers, and show how their arguments fit into, or don’t fit into, our model. Third, I discuss the implications of our model to the question why the human race should or should not continue to exist. Finally, I show that our model ineluctably leads us to a Confucian moral principle.
+
+Attempts to model moral philosophy on computability theory and the Turing-Church Thesis.  Uses analytic proof rather than computation.
+
+
+### Baumgaertner, Bert (2012). Vagueness Intuitions and the Mobility of Cognitive Sortals.   - _Minds and Machines_ 22 (3):213-234.
+
+@article{Baumgaertner2012-BAUVIA,
+  number = {3},
+  journal = {Minds and Machines},
+  author = {Bert Baumgaertner},
+  pages = {213--234},
+  title = {Vagueness Intuitions and the Mobility of Cognitive Sortals},
+  volume = {22},
+  year = {2012}
+}
+
+> One feature of vague predicates is that, as far as appearances go, they lack sharp application boundaries. I argue that we would not be able to locate boundaries even if vague predicates had sharp boundaries. I do so by developing an idealized cognitive model of a categorization faculty which has mobile and dynamic sortals (‘classes’, ‘concepts’ or ‘categories’) and formally prove that the degree of precision with which boundaries of such sortals can be located is inversely constrained by their flexibility. Given the literature, it is plausible that we are appropriately like the model. Hence, an inability to locate sharp boundaries is not necessarily because there are none; boundaries could be sharp and it is plausible that we would nevertheless be unable to locate them.
+
+Constructs a conceptual model/algorithm to address vagueness in Sorites paradoxes.  Then attempts to prove this analytically.
+
+
+### Blumson, Ben (2017). Anselm's God in Isabelle/HOL. _Archive of Formal Proofs_:9.
+
+@article{Blumson2017-BLUAGI-2,
+  title = {Anselm's God in Isabelle/HOL},
+  year = {2017},
+  author = {Ben Blumson},
+  pages = {9},
+  journal = {Archive of Formal Proofs}
+}
+
+> Paul Oppenheimer and Edward Zalta's formalisation of Anselm's ontological argument for the existence of God is automated by embedding a free logic for definite descriptions within Isabelle/HOL. 
+
+Uses a computer proving language (Isabelle) to prove another computer generated argument.
+
+The paper looks to be (in appearence) the closest philsophy has come to literate programming although the source code is elsewhere.
+
+
+
+
+
+
+  
+  - Angius, Nicola & Tamburrini, Guglielmo (2011). Scientific Theories of Computational Systems  - in Model Checking. _Minds and Machines_ 21 (2):323-336.
+
+  
+  
+  - 
+  - Bohr, Niels (1958). Unity of Knowledge. In _Atomic Physics and Human Knowledge_. Wiley. pp.  - 67--82.
+  - Bourget, David (2010). Paperless Philosophy as a Philosophical Method. _Social Epistemology_   - 24 (4):363-375.
+  - Brey, Philip (2005). The epistemology and ontology of human-computer interaction. _Minds and   - Machines_ 15 (3-4):383-398.
+  - Dodig Crnkovic, Gordana & Stuart, Susan (eds.) (2007). _Computation, Information, Cognition:   - The Nexus and the Liminal_. Cambridge Scholars Press.
+  - Dodig-Crnkovic, Gordana (2007). WHERE DO NEW IDEAS COME FROM? HOW DO THEY EMERGE? -  - EPISTEMOLOGY AS COMPUTATION. In Christian Calude (ed.), _Randomness & Complexity, from   - Leibniz to Chaitin_.
+  - Fuenmayor, David & Benzmueller, Christoph, A Case Study on Computational Hermeneutics: E. J.   - Lowe’s Modal Ontological Argument.
+  - Gustafsson, Johan E. & Peterson, Martin (2012). A Computer Simulation of the Argument from   - Disagreement. _Synthese_ 184 (3):387-405.
+  - Hellie, Benj (2017). David Lewis and the Kangaroo: Graphing philosophical progress. In   - Russell Blackford & Damien Broderick (eds.), _Philosophy's Future: The Problem of   - Philosophical Progress_. Oxford: Blackwell.
+  - Leibovitz, David Pierre (2013). _A Unified Cognitive Model of Visual Filling-In Based on an  - Emergic Network Architecture_. Dissertation, Carleton University
+  - Lokhorst, Gert-Jan (2011). Computational Meta-Ethics. _Minds and Machines_ 21 (2):261-274.
+  - Luczak-Roesch, Markus ; Tinati, Ramine ; Aljaloud, Saud ; Hall, Wendy & Shadbolt, Nigel  - (2016). A universal socio-technical computing machine. In _International Conference on Web   - Engineering_.
+  - Mizrahi, Moti (forthcoming). What Isn’t Obvious about ‘obvious’: A Data-driven Approach to   - Philosophy of Logic. In Andrew Aberdein & Matthew Inglis (eds.), _Advances in Experimental  - Philosophy of Logic and Mathematics_. London: Bloomsbury Press.
+  - Müller, Vincent C. (2008). What a course on philosophy of computing is not. _APA Newsletter  - on Philosophy and Computers_ 8 (1):36-38.
+  - Oppenheimer, Paul & Zalta, Edward N. (2011). A computationally-discovered simplification of  - the ontological argument. _Australasian Journal of Philosophy_ 89 (2):333 - 349.
+  - Prakken, Henry (2012). Reconstructing Popov v. Hayashi in a framework for argumentation with   - structured arguments and Dungean semantics. _Artificial Intelligence and Law_ 20 (1):57-82.
+  - Primiero, Giuseppe (2012). A contextual type theory with judgemental modalities for  - reasoning from open assumptions. _Logique and Analyse_ 220:579-600.
+  - Rooij, Iris ; Wright, Cory & Wareham, Todd (2012). Intractability and the use of heuristics  - in psychological explanations. _Synthese_ 187 (2):471-487.
+  - Sergeyev, Yaroslav (2013). Solving ordinary differential equations by working with   - infinitesimals numerically on the Infinity Computer. _Applied Mathematics and Computation_  - 219 (22):10668–10681.
+  - Sergeyev, Yaroslav & Garro, Alfredo (2013). Single-tape and multi-tape Turing machines   - through the lens of the Grossone methodology. _Journal of Supercomputing_ 65 (2):645-663.
+  - Sloman, Aaron (1992). The emperor's real mind -- Review of Roger Penrose's The Emperor's new   - Mind: Concerning Computers Minds and the Laws of Physics. _Artificial Intelligence_ 56  - (2-3):355-396.
+  - Tamariz, Monica (2011). Could arbitrary imitation and pattern completion have bootstrapped   - human linguistic communication? _Interaction Studies_ 12 (1):36-62.
+  - Vakarelov, Orlin (2012). The Information Medium. _Philosophy and Technology_ 25 (1):47-65.
+  - van Deemter, Kees ; Gatt, Albert ; van Gompel, Roger P. G. & Krahmer, Emiel (2012). Toward a   - Computational Psycholinguistics of Reference Production. _Topics in Cognitive Science_ 4  - (2):166-183.
+  - Varenne, Franck (2013). The Nature of Computational Things. In Frédéric Migayrou Brayer &  Marie-Ange (eds.), _Naturalizing Architecture_. Orléans: HYX Editions. pp. 96-105.
+  - Wheeler, Billy (2017). Humeanism and Exceptions in the Fundamental Laws of Physics.  - _Principia: An International Journal of Epistemology_ 21 (3):317-337.
+  - Wheeler, Gregory (2016). Machine Epistemology and Big Data. In Lee McIntyre & Alex Rosenburg (eds.), _Routledge Companion to Philosophy of Social Science_. Routledge.
+  - Wheeler, Gregory (2013). Models, Models, and Models. _Metaphilosophy_ 44 (3):293-300.
+
 
 
 

@@ -4,7 +4,7 @@
 ## Computational Philosophy
 
   - Angius, Nicola & Tamburrini, Guglielmo (2011). Scientific Theories of Computational Systems  - in Model Checking. _Minds and Machines_ 21 (2):323-336.
-  - Ashton, Zoe & Mizrahi, Moti (2018). Intuition Talk is Not Methodologically Cheap:  - Empirically Testing the “Received Wisdom” About Armchair Philosophy. _Erkenntnis_ 83   - (3):595-612.
+
   - Baek, Jongmin Jerome (2018). How to Solve Moral Conundrums with Computability Theory.  - _arXiv_.
   - Baumgaertner, Bert (2012). Vagueness Intuitions and the Mobility of Cognitive Sortals.   - _Minds and Machines_ 22 (3):213-234.
   - Blumson, Ben (2017). Anselm's God in Isabelle/HOL. _Archive of Formal Proofs_:9.
@@ -92,6 +92,37 @@ An empiric test of whether philosophy is 'a priori armchair conceptual analysis'
 "This trend suggests that deductive argu- ments are gradually losing their status as the dominant form of argumentation in philosophy." (p68)
 
 
+
+### Ashton, Zoe & Mizrahi, Moti (2018). Intuition Talk is Not Methodologically Cheap: Empirically Testing the “Received Wisdom” About Armchair Philosophy. _Erkenntnis_ 83 (3):595-612.
+
+@article{Ashton2018-ASHITI,
+  number = {3},
+  pages = {595--612},
+  author = {Zoe Ashton and Moti Mizrahi},
+  journal = {Erkenntnis},
+  volume = {83},
+  title = {Intuition Talk is Not Methodologically Cheap: Empirically Testing the \textquotedblleftReceived Wisdom\textquotedblright About Armchair Philosophy},
+  year = {2018}
+}
+
+> The “received wisdom” in contemporary analytic philosophy is that intuition talk is a fairly recent phenomenon, dating back to the 1960s. In this paper, we set out to test two interpretations of this “received wisdom.” The first is that intuition talk is just talk, without any methodological significance. The second is that intuition talk is methodologically significant; it shows that analytic philosophers appeal to intuition. We present empirical and contextual evidence, systematically mined from the JSTOR corpus and HathiTrust’s Digital Library, which provide some empirical support for the second rather than the first hypothesis. Our data also suggest that appealing to intuition is a much older philosophical methodology than the “received wisdom” alleges. We then discuss the implications of our findings for the contemporary debate over philosophical methodology. 
+
+Computer assisted empiric study of use of inuition in philosophical work.  Parsed a corpus of philosophical texts to extract key words (JSTOR’s Data for Research (dfr.jstor.org) and HathiTrust’s Digital Library (hathitrust.org))
+
+"In this paper, we follow in Andow’s (2015a) footsteps methodologically, but we seek to advance the contemporary debate over philosophical methodology by focusing on the role that intuitions play in philosophical argumentation." (p597)
+
+"We also used these two databases to search for phrases, such as ‘seems that’, ‘appears that’, and ‘it seems to me that’, which are phrases that are indicative of appeals to intuition, through philosophy publications in English." (p598)
+
+> In this paper, through a systematic survey of the JSTOR and HathiTrust databases, we have found that: (p610)
+>
+> 1. Intuition talk (where indicators of intuition talk include ‘intuit’, ‘intuition, ‘intuitions’, ‘intuitive’, and ‘intuitively’) in philosophy is not as recent as the ‘‘received wisdom’’ alleges (circa 1960s); it goes as far back as the 1800s;
+> 2. Nineteenth and twentieth century philosophers appealed to intuition (where indicators of appeals to intuition include ‘it seems that’, ‘it appears that’, and ‘it seems to me that’) in argumentative contexts;
+> 3. The proportion of publications in which philosophers appeal to intuition (as indicated by ‘it seems that’, ‘it appears that’, and ‘it seems to me that’) shows that the practice was accepted and fairly common, even early in the 1800s;
+> 4. There is a positive correlation between intuition talk (as indicated by ‘intuit’, ‘intuition, ‘intuitions’, ‘intuitive’, and ‘intuitively’) and appeals to intuition (as indicated by ‘it seems that’, ‘it appears that’, and ‘it seems to me that’).
+
+
+
+---
 
 ## Method
 

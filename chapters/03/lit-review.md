@@ -196,6 +196,31 @@ Machine Learning is a pragmatic approach to epistemology, one in which the goal 
 
 
 
+### Wheeler, Gregory (2013). Models, Models, and Models. _Metaphilosophy_ 44 (3):293-300.
+
+@article{Wheeler2013-WHEMMA,
+  publisher = {Wiley-Blackwell},
+  number = {3},
+  pages = {293--300},
+  author = {Gregory Wheeler},
+  journal = {Metaphilosophy},
+  volume = {44},
+  title = {Models, Models, and Models},
+  year = {2013}
+}
+  
+> Michael Dummett famously maintained that analytic philosophy was simply philosophy that followed Frege in treating the philosophy of language as the basis for all other philosophy (1978, 441). But one important insight to emerge from computer science is how difficult it is to animate the linguistic artifacts that the analysis of thought produces. Yet, modeling the effects of thought requires a new skill that goes beyond analysis: procedural literacy. Some of the most promising research in philosophy makes use of a variety of modeling techniques that go beyond basic logic and elementary probability theory. What unifies this approach is a focus on what Alan Perlis called procedural literacy. This essay argues that the future spoils in philosophical research will disproportionally go to those who are procedurally literate. 
+
+Procedural literacy — the ability to read and write processes.
+
+"Just as an understanding of sound mathematical reasoning is taken to come only through understanding the meaning of the premises of an argument, for which an axiomatized system can be used to work out what follows from what, an understanding of sound reasoning is viewed as depending on a clear understanding of the meaning of the statements put forward in demonstratively valid argumentation. .... Yet, unlike in pure math- ematics, testing a philosophical thesis invariably involves a judgment of fit between the logical mechanics of the proposal and an intuitive feel for how the target phenomenon truly behaves. " (p294)
+
+"Rather than logic, or even a wholesale switch to probability, my advice to young philosophers is for them to develop a dexterity with both formal and empirical methods. The shift I am proposing, from mere logical analysis to modeling of phenomena, requires procedural literacy." (p295)
+
+"Programming is simply a means to express ideas about such procedures, and analytic philosophy is full of descriptions of procedures that are not well-defined." (p297)
+
+
+
 
   - Angius, Nicola & Tamburrini, Guglielmo (2011). Scientific Theories of Computational Systems  - in Model Checking. _Minds and Machines_ 21 (2):323-336.
 

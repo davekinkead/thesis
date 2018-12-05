@@ -3,13 +3,30 @@ title: Digital Philosophy
 author: Dave Kinkead
 email: d.kinkead@uq.edu.au
 status: Rough Outline
-bibliography: /Users/dave/Dropbox/Research/readings/.library.bibtex
 license: CC-BY-SA
+bibliography: /users/davekinkead/Dropbox/Research/readings.library.bibtex
+
 ---
 
-# Philosophy & Simulation
+# Philosophy & Computers
 
-A review of how simulation has been used in philosophy
+A review of how computers has been used in philosophy
+
+### Concepts
+
+  - computation: solving problems with algorithms
+
+### Perspectives
+
+  - digital vs computational philosophy (how computers are used) 
+    - @goodman1968 digital vs analog
+    - @lewis1971 
+  - incremental vs transformational use (degree of innovation: a digital replacement or something new)
+  - production vs discemination vs consumption of philosophy
+
+
+## Introduction
+
 
 ### Outline
 
@@ -59,6 +76,7 @@ Philosophy can be produced digitally...
 
   - wordprocessing
   - collaboratively
+  - computationally
 
 Philosophy can be distributed digitally...
 
@@ -71,3 +89,12 @@ These are all examlpes of digital philosophy but that doesn't make them computat
 
 Define terms _digital_ and _computational_ as the non-essential and essential use of computers in philosophical investigation.
 
+
+## Examples
+
+- Philosophy Blogs (digital, incremental, dissemination)
+- SEP (digital, incremental, dissemination)
+- PhilPapers (digital, incremental, dissemination) (helping consumption)
+- Skyrms (computational, transformational, production)
+- Surveys - What Do Philosophers Believe @bourget (digital, incremental, production)
+- A computationally-discovered simplification of the ontological argument (computational, transformational, production)

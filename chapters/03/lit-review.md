@@ -166,13 +166,39 @@ Sub paper length arguments & refutations are currently lost thanks to the curren
 > It is noteworthy that a registry of the kind sketched here could be particularly well suited to the application of a certain analytic methodology to philosophical problems. In some circles, it is widely believed that philosophical disputes are fuelled in large part by linguistic confusion—either the participants have a poor grasp of the meanings of the words they use, or they have a poor grasp of others’ meanings. On this view, the primary task of the philosopher is to dissipate the fog of language around the ideas under dispute. For most philosophical disputes, the closer we come to accomplishing this, the closer we will come to consensus. [p375]
 
 
+### Wheeler, Gregory (2016). Machine Epistemology and Big Data. In Lee McIntyre & Alex Rosenburg (eds.), _Routledge Companion to Philosophy of Social Science_. Routledge.
+
+@incollection{Wheeler2016-WHEMEA,
+  author = {Gregory Wheeler},
+  year = {2016},
+  booktitle = {Routledge Companion to Philosophy of Social Science},
+  publisher = {Routledge},
+  title = {Machine Epistemology and Big Data},
+  editor = {Lee McIntyre and Alex Rosenburg}
+}
+
+>  In the age of big data and a machine epistemology that can anticipate, predict, and intervene on events in our lives, the problem once again is that a few individuals possess the knowledge of how to regulate these activities. But the question we face now is not how to share such knowledge more widely, but rather of how to enjoy the public beneﬁts bestowed by this knowledge without freely sharing it. It is not merely personal privacy that is at stake but a range of unsung beneﬁts that come from ignorance and forgetting, traits that are inherently human and integral to the functioning of our society. 
+
+Machine Learning is a pragmatic approach to epistemology, one in which the goal or problem determins what features to extract from the data.
+
+"Statistics confronts two questions. The first asks what can be inferred from data, given modeling assumptions that you choose, while the second asks after the reliability of those inferences." (p1)
+
+"It is little surprise then that statistical methodology is viewed as a puzzle for traditional epistemology rather than a reservoir of answers." (p2)
+
+"A machine can plow through combinatorial combinations of features involving enormous volumes of data, the scale of which is impossible for humans to replicate." (p6)
+
+"Supervised learning problems are thus a form of enumerative induction" (p7)
+
+"Instead, the goal of unsupervised learning is knowl- edge discovery" (p7)
+
+"from the point of view of the philosophy of science, data science arguably does offer a new mode of inquiry insofar as we are now routinely handling population datasets directly or sample sizes so immense, such as in our NYC Taxi dataset, that they behave like population data." (p9)
 
 
 
-  
+
+
   - Angius, Nicola & Tamburrini, Guglielmo (2011). Scientific Theories of Computational Systems  - in Model Checking. _Minds and Machines_ 21 (2):323-336.
 
-  
   - Brey, Philip (2005). The epistemology and ontology of human-computer interaction. _Minds and   - Machines_ 15 (3-4):383-398.
   - Dodig Crnkovic, Gordana & Stuart, Susan (eds.) (2007). _Computation, Information, Cognition:   - The Nexus and the Liminal_. Cambridge Scholars Press.
   - Dodig-Crnkovic, Gordana (2007). WHERE DO NEW IDEAS COME FROM? HOW DO THEY EMERGE? -  - EPISTEMOLOGY AS COMPUTATION. In Christian Calude (ed.), _Randomness & Complexity, from   - Leibniz to Chaitin_.
@@ -196,8 +222,8 @@ Sub paper length arguments & refutations are currently lost thanks to the curren
   - van Deemter, Kees ; Gatt, Albert ; van Gompel, Roger P. G. & Krahmer, Emiel (2012). Toward a   - Computational Psycholinguistics of Reference Production. _Topics in Cognitive Science_ 4  - (2):166-183.
   - Varenne, Franck (2013). The Nature of Computational Things. In Frédéric Migayrou Brayer &  Marie-Ange (eds.), _Naturalizing Architecture_. Orléans: HYX Editions. pp. 96-105.
   - Wheeler, Billy (2017). Humeanism and Exceptions in the Fundamental Laws of Physics.  - _Principia: An International Journal of Epistemology_ 21 (3):317-337.
-  - Wheeler, Gregory (2016). Machine Epistemology and Big Data. In Lee McIntyre & Alex Rosenburg (eds.), _Routledge Companion to Philosophy of Social Science_. Routledge.
-  - Wheeler, Gregory (2013). Models, Models, and Models. _Metaphilosophy_ 44 (3):293-300.
+
+
 
 
 

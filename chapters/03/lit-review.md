@@ -4,7 +4,6 @@
 ## Computational Philosophy
 
   - Angius, Nicola & Tamburrini, Guglielmo (2011). Scientific Theories of Computational Systems  - in Model Checking. _Minds and Machines_ 21 (2):323-336.
-  - Ashton, Zoe & Mizrahi, Moti (2018). Show Me the Argument: Empirically Testing the Armchair   - Philosophy Picture. _Metaphilosophy_ 49 (1-2):58-70.
   - Ashton, Zoe & Mizrahi, Moti (2018). Intuition Talk is Not Methodologically Cheap:  - Empirically Testing the “Received Wisdom” About Armchair Philosophy. _Erkenntnis_ 83   - (3):595-612.
   - Baek, Jongmin Jerome (2018). How to Solve Moral Conundrums with Computability Theory.  - _arXiv_.
   - Baumgaertner, Bert (2012). Vagueness Intuitions and the Mobility of Cognitive Sortals.   - _Minds and Machines_ 22 (3):213-234.
@@ -63,6 +62,35 @@ Porto uses pseudo-code (p55) to formally demonstrate a linguistic claim.
 "We do frame mathematical conjectures, and in the case of recursive operations the meanings of these conjectures could be very concretely construed as being about programs and their implementations, so even the fussy intuitionists would have to accept that." (p55)
 
 "An algorithm, as well as a method, are both teleological notions. They are both means to a desired end." (p59)
+
+
+
+### Ashton, Zoe & Mizrahi, Moti (2018). Show Me the Argument: Empirically Testing the Armchair Philosophy Picture. _Metaphilosophy_ 49 (1-2):58-70.
+
+@article{Ashton2018-MIZSMT,
+  author = {Zoe Ashton and Moti Mizrahi},
+  pages = {58--70},
+  journal = {Metaphilosophy},
+  number = {1-2},
+  year = {2018},
+  volume = {49},
+  title = {Show Me the Argument: Empirically Testing the Armchair Philosophy Picture}
+}
+
+> Many philosophers subscribe to the view that philosophy is a priori and in the business of discovering necessary truths from the armchair. This paper sets out to empirically test this picture. If this were the case, we would expect to see this reflected in philosophical practice. In particular, we would expect philosophers to advance mostly deductive, rather than inductive, arguments. The paper shows that the percentage of philosophy articles advancing deductive arguments is higher than those advancing inductive arguments, which is what we would expect from the vantage point of the armchair philosophy picture. The results also show, however, that the percentages of articles advancing deductive arguments and those advancing inductive arguments are converging over time and that the difference between inductive and deductive ratios is declining over time. This trend suggests that deductive arguments are gradually losing their status as the dominant form of argumentation in philosophy.
+
+An empiric test of whether philosophy is 'a priori armchair conceptual analysis'.  A computer assisted research to parse a corpus of philosophical texts.
+
+"In order to get an idea of how many philosophy articles employ deductive and inductive arguments, we searched the JSTOR database using the deductive and inductive indicator words outlined in table 2." (p62)
+
+> To sum up, our key findings are the following: (p67)
+>
+>  1. The ratio, and likewise percentage, of philosophy articles advanc- ing deductive arguments is higher than the percentage of articles advancing inductive arguments.
+>  2. The ratios and percentages of philosophy articles advancing deductive arguments and those advancing inductive arguments are converging over time.
+>  3. The difference between inductive and deductive ratios, and their percentages, is declining over time.
+
+"This trend suggests that deductive argu- ments are gradually losing their status as the dominant form of argumentation in philosophy." (p68)
+
 
 
 ## Method

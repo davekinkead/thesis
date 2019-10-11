@@ -1,3 +1,440 @@
+@book{LesterManuscript-LESEFL,
+  title = {\emph{Escape From Leviathan: Libertarianism Without Justificationism: Rationality, Liberty, Welfare, and Anarchy Reconciled}},
+  publisher = {Buckngham: The Uiversity of Buckingham Press},
+  author = {J. C. Lester}
+}
+@unpublished{GouldManuscript-GOUHLB,
+  title = {Hooking Leviathan by Its Past},
+  author = {Stephen Jay Gould}
+}
+@unpublished{HobbesManuscript-HOBLP-2,
+  author = {Thomas Hobbes},
+  title = {Leviathan, Part}
+}
+@unpublished{HobbesManuscript-HOBOMB,
+  author = {Thomas Hobbes},
+  title = {Of Man, Being the First Part of Leviathan}
+}
+@unpublished{LeiterManuscript-LEITES,
+  author = {Brian Leiter},
+  title = {The Epistemic Status of the Human Sciences: Critical Reflections on Foucault}
+}
+@unpublished{TurnerManuscript-TURTDP,
+  author = {Robin Turner},
+  title = {The Diffidence Principle}
+}
+@article{AlexanderForthcoming-ALETPO-18,
+  author = {James Alexander},
+  title = {The Philosophy of Political History in Oakeshott and Collingwood},
+  journal = {New Content is Available for Journal of the Philosophy of History},
+  doi = {10.1163/18722636-12341328},
+  year = {forthcoming}
+}
+@article{DuncanForthcoming-DUNHOT-2,
+  year = {forthcoming},
+  number = {2},
+  volume = {32},
+  author = {Stewart Duncan},
+  title = {Hobbes on the Signification of Evaluative Language},
+  journal = {Hobbes Studies}
+}
+@article{FearForthcoming-FEACNL,
+  doi = {10.1080/01916599.2019.1628582},
+  pages = {1--16},
+  year = {forthcoming},
+  author = {Christopher Fear},
+  title = {Collingwood's New Leviathan and Classical Elite Theory},
+  journal = {History of European Ideas}
+}
+@article{KonigForthcoming-KNIDTA,
+  author = {Pascal D. K\"onig},
+  journal = {Philosophy and Technology},
+  title = {Dissecting the Algorithmic Leviathan: On the Socio-Political Anatomy of Algorithmic Governance},
+  pages = {1--19},
+  doi = {10.1007/s13347-019-00363-w},
+  year = {forthcoming}
+}
+@incollection{MoehlerForthcoming-MOECAC-4,
+  publisher = {Routledge},
+  title = {Contractarianism and Climate Change},
+  year = {forthcoming},
+  author = {Michael Moehler},
+  booktitle = {Moral Theory and Climate Change: Ethical Perspectives on a Warming Planet},
+  editor = {Ben Eggleston and Dale E. Miller}
+}
+@article{NelsonForthcoming-NELHTJ,
+  author = {Benjamin L. S. Nelson},
+  title = {Hobbes\textquoterights Third Jurisprudence: Legal Pragmatism and the Dualist Menace},
+  journal = {Canadian Journal of Law and Jurisprudence},
+  year = {forthcoming}
+}
+@article{OkadaForthcoming-OKAHOT,
+  title = {Hobbes on the Supernatural From The Elements of Law to Leviathan},
+  journal = {History of European Ideas},
+  author = {Takuya Okada},
+  year = {forthcoming},
+  doi = {10.1080/01916599.2019.1642003},
+  pages = {1--16}
+}
+@article{vanApeldoornForthcoming-VANOTP-8,
+  year = {forthcoming},
+  pages = {1--20},
+  doi = {10.1080/09608788.2019.1613632},
+  title = {On the Person and Office of the Sovereign in Hobbes\textquoteright Leviathan},
+  journal = {British Journal for the History of Philosophy},
+  author = {Laurens van Apeldoorn}
+}
+@book{Collins2020-COLITS-4,
+  author = {Jeffrey R. Collins},
+  publisher = {Cambridge University Press},
+  title = {In the Shadow of Leviathan: John Locke and the Politics of Conscience},
+  year = {2020}
+}
+@article{Adams2019-ADAHLO,
+  year = {2019},
+  journal = {Philosophers' Imprint},
+  title = {Hobbes's Laws of Nature in Leviathan as a Synthetic Demonstration: Thought Experiments and Knowing the Causes},
+  author = {Marcus P. Adams},
+  volume = {19}
+}
+@article{Boyle2019-BOYTEL-2,
+  volume = {42},
+  author = {Deborah Boyle},
+  journal = {Teaching Philosophy},
+  title = {The Essential Leviathan: A Modernized Edition},
+  pages = {300--304},
+  doi = {10.5840/teachphil2019423111},
+  number = {3},
+  year = {2019}
+}
+@book{Douglass2019-DOUHOT-5,
+  author = {Robin Douglass and Johan Olsthoorn},
+  publisher = {Cambridge University Press},
+  title = {Hobbes's on the Citizen: A Critical Guide},
+  year = {2019}
+}
+@article{Jones2019-JONTNK,
+  year = {2019},
+  number = {3},
+  publisher = {Routledge},
+  doi = {10.1080/01916599.2018.1548810},
+  pages = {436--453},
+  title = {The Natural Kingdom of God in Hobbes\textquoterights Political Thought},
+  journal = {History of European Ideas},
+  author = {Ben Jones},
+  volume = {45}
+}
+@article{Lamb2019-LAMSBT,
+  title = {Sovereignty Between the Katechon and the Eschaton: Rethinking the Leviathan},
+  journal = {T\'elos},
+  author = {Melayna Lamb and German E. Primera},
+  volume = {2019},
+  year = {2019},
+  number = {187},
+  doi = {10.3817/0619187107},
+  pages = {107--127}
+}
+@article{Lindsay2019-LINPOA-2,
+  volume = {47},
+  author = {Adam Lindsay},
+  title = {\textquotedblleftPretenders of a Vile and Unmanly Disposition\textquotedblright: Thomas Hobbes on the Fiction of Constituent Power},
+  journal = {Political Theory},
+  pages = {475--499},
+  doi = {10.1177/0090591718805979},
+  year = {2019},
+  publisher = {Sage Publications},
+  number = {4}
+}
+@article{Bowens2018-BOWTFO-9,
+  doi = {10.3366/film.2018.0088},
+  pages = {428--447},
+  number = {3},
+  year = {2018},
+  author = {Max Bowens},
+  volume = {22},
+  journal = {Film-Philosophy},
+  title = {\textquotedblleftThe Flesh of The Perceptible\textquotedblright: The New Materialism of Leviathan}
+}
+@article{Brown2018-BROTEL-2,
+  title = {The Essential Leviathan: A Modernized Edition; Nancy A. Stanlick, Editor; Daniel P. Collette, Associate Editor; Hackett Publishing Company; 320 Pages; Paper: \$14.00 \textsterling11.99; Cloth: \$42.00 \textsterling34.99},
+  journal = {Hobbes Studies},
+  author = {Ruairidh J. Brown},
+  volume = {31},
+  year = {2018},
+  number = {1},
+  doi = {10.1163/18750257-03101007},
+  pages = {121--123}
+}
+@article{Connelly2018-CONTCO-27,
+  volume = {27},
+  author = {James Connelly and Peter Johnson},
+  journal = {British Journal for the History of Philosophy},
+  title = {The Composition of R. G. Collingwood's The New Leviathan},
+  pages = {114--133},
+  doi = {10.1080/09608788.2018.1494540},
+  number = {1},
+  publisher = {Routledge},
+  year = {2018}
+}
+@article{Crignon2018-CRIRAT-5,
+  number = {1},
+  year = {2018},
+  doi = {10.1163/18750257-03101002},
+  pages = {48--74},
+  journal = {Hobbes Studies},
+  title = {Representation and the Person of the State},
+  author = {Philippe Crignon},
+  volume = {31}
+}
+@article{Douglass2018-DOUAAR-2,
+  journal = {Hobbes Studies},
+  title = {Authorisation and Representation Before Leviathan},
+  author = {Robin Douglass},
+  volume = {31},
+  number = {1},
+  year = {2018},
+  doi = {10.1163/18750257-03101003},
+  pages = {30--47}
+}
+@article{Kinzel2018-KINDDR,
+  year = {2018},
+  publisher = {Routledge},
+  number = {1},
+  pages = {40--71},
+  doi = {10.1080/09672559.2017.1411011},
+  title = {De-Idealizing Disagreement, Rethinking Relativism},
+  journal = {International Journal of Philosophical Studies},
+  volume = {26},
+  author = {Katherina Kinzel and Martin Kusch}
+}
+@article{MacMillan2018-MACCAF-4,
+  author = {Alissa MacMillan},
+  volume = {80},
+  title = {Curiosity and Fear Transformed: From Religious to Religion in Thomas Hobbes\textquoterights Leviathan},
+  journal = {International Journal of Philosophy and Theology},
+  doi = {10.1080/21692327.2018.1519454},
+  pages = {287--302},
+  year = {2018},
+  number = {3},
+  publisher = {Routledge}
+}
+@article{Miller2018-MILASO-16,
+  volume = {31},
+  author = {Caleb R. Miller},
+  title = {A State of Lesser Hope},
+  journal = {Hobbes Studies},
+  pages = {147--165},
+  doi = {10.1163/18750257-03102002},
+  year = {2018},
+  number = {2}
+}
+@article{Muller2018-MULFLO,
+  title = {From Leviathan of the Antipode},
+  journal = {Common Knowledge},
+  volume = {24},
+  author = {David Carlos Muller},
+  year = {2018},
+  number = {2},
+  pages = {335--348},
+  doi = {10.1215/0961754X-4362836}
+}
+@article{Olmo2018-OLMASA,
+  volume = {31},
+  author = {Ismael del Olmo},
+  journal = {Hobbes Studies},
+  title = {Against Scarecrows and Half-Baked Christians},
+  pages = {127--146},
+  doi = {10.1163/18750257-03102001},
+  number = {2},
+  year = {2018}
+}
+@article{Oxman2018-OXMHOT,
+  doi = {10.1163/18750257-03102004},
+  pages = {188--211},
+  year = {2018},
+  number = {2},
+  author = {Evan Oxman},
+  volume = {31},
+  title = {Hobbes on the Artificiality of Authority},
+  journal = {Hobbes Studies}
+}
+@article{Perfetti2018-PERBEA-2,
+  number = {1},
+  year = {2018},
+  pages = {81--96},
+  doi = {10.13128/Aisthesis-23274},
+  journal = {Aisthesis. Pratiche, Linguaggi E Saperi Dell\textquoterightEstetico},
+  title = {Biblical Exegesis and Aristotelian Naturalism: Albert the Great, Thomas Aquinas, and the Animals of the Book of Job},
+  volume = {11},
+  author = {Stefano Perfetti}
+}
+@article{Renz2018-RENSAK,
+  title = {SelfKnowledge and Knowledge of Mankind in Hobbes' Leviathan},
+  journal = {European Journal of Philosophy},
+  author = {Ursula Renz},
+  volume = {26},
+  year = {2018},
+  number = {1},
+  doi = {10.1111/ejop.12227},
+  pages = {4--29}
+}
+@article{Sagar2018-SAGWIT-4,
+  pages = {75--92},
+  doi = {10.1163/18750257-03101005},
+  year = {2018},
+  number = {1},
+  volume = {31},
+  author = {Paul Sagar},
+  title = {What is the Leviathan?},
+  journal = {Hobbes Studies}
+}
+@article{Trujillo2018-TRUSBP,
+  volume = {41},
+  author = {Iv\'an Trujillo},
+  title = {Sovereignty Beyond Power and Dominance: On the Biopolitics of Jacques Derrida},
+  journal = {Trans/Form/A\c{c}\~ao},
+  pages = {73--94},
+  doi = {10.1590/0101-3173.2018.v41n2.05.p73},
+  year = {2018},
+  number = {2}
+}
+@article{Vieira2018-VIERL,
+  journal = {Hobbes Studies},
+  title = {RE-Imagiing Leviathan},
+  author = {M\'onica Brito Vieira},
+  volume = {31},
+  number = {1},
+  year = {2018},
+  doi = {10.1163/18750257-03101009},
+  pages = {93--119}
+}
+@article{Abizadeh2017-ABIHAT,
+  volume = {47},
+  author = {Arash Abizadeh},
+  journal = {Canadian Journal of Philosophy},
+  title = {Hobbes\textquoterights Agnostic Theology Before Leviathan},
+  pages = {714--737},
+  doi = {10.1080/00455091.2017.1301776},
+  publisher = {Routledge},
+  number = {5},
+  year = {2017}
+}
+@article{Achbari2017-ACHTRO-3,
+  volume = {108},
+  author = {Azadeh Achbari},
+  journal = {Isis},
+  title = {The Reviews of Leviathan and the Air-Pump: A Survey},
+  pages = {108--116},
+  doi = {10.1086/691398},
+  number = {1},
+  year = {2017}
+}
+@book{Baumgold2017-BAUTEO-23,
+  author = {Deborah Baumgold},
+  year = {2017},
+  title = {Three-Text Edition of Thomas Hobbes's Political Theory: The Elements of Law, de Cive and Leviathan},
+  publisher = {Cambridge University Press}
+}
+@article{Cohen2017-COHASL,
+  year = {2017},
+  number = {1},
+  doi = {10.1086/691397},
+  pages = {107--107},
+  title = {A Second Look: Leviathan and the Air-Pump: Editor\textquoterights Introduction},
+  journal = {Isis},
+  author = {H. Floris Cohen},
+  volume = {108}
+}
+@article{Edelstein2017-EDERLA-2,
+  journal = {History and Theory},
+  title = {Red Leviathan: Authority and Violence in Revolutionary Political Culture},
+  author = {Dan Edelstein},
+  volume = {56},
+  number = {4},
+  year = {2017},
+  doi = {10.1111/hith.12039},
+  pages = {76--96}
+}
+@article{James2017-JAMHAF-2,
+  title = {Hobbes's Argument for the Naturalness and Necessity of Colonisation},
+  journal = {History of Political Thought},
+  volume = {38},
+  author = {David Neil James},
+  year = {2017},
+  number = {3},
+  publisher = {Imprint Academic},
+  pages = {439--461}
+}
+@article{Milward2017-MILRSP-4,
+  title = {Rethinking Shakespeare's Political Philosophy: From Lear to Leviathan. By Alex Schulman. Pp. 227, Edinburgh University Press, 2014, \textsterling70.00},
+  journal = {Heythrop Journal},
+  volume = {58},
+  author = {Peter Milward},
+  year = {2017},
+  number = {3},
+  pages = {506--508},
+  doi = {10.1111/heyj.12544}
+}
+@article{Odzuck2017-ODZIPT,
+  pages = {123--155},
+  doi = {10.1163/18750257-03002001},
+  year = {2017},
+  number = {2},
+  volume = {30},
+  author = {Eva Helene Odzuck},
+  title = {I Professed to Write Not All to All},
+  journal = {Hobbes Studies}
+}
+@unpublished{Pabst2017-PABFAR,
+  author = {Adrian Pabst},
+  publisher = {Telos Publishing Press},
+  title = {Fall and Redemption: The Romantic Alternative to Liberal Pessimism},
+  year = {2017}
+}
+@article{Shapiro2017-SHATLO-22,
+  doi = {10.1177/0090591716631019},
+  pages = {385--415},
+  number = {3},
+  publisher = {Sage Publications},
+  year = {2017},
+  author = {Michael J. Shapiro},
+  volume = {45},
+  journal = {Political Theory},
+  title = {The Light of Reason\textquotedblright: Reading the Leviathan with \textquotedblleftThe Werckmeister Harmonies}
+}
+@article{Spyra2017-SPYSAT,
+  title = {Shakespeare and the Demonization of Fairies},
+  journal = {Text Matters - a Journal of Literature, Theory and Culture},
+  volume = {7},
+  author = {Piotr Spyra},
+  year = {2017},
+  publisher = {De Gruyter Open},
+  number = {7},
+  pages = {194--213},
+  doi = {10.1515/texmat-2017-0011}
+}
+@article{Strong2017-STRGAT,
+  title = {Glory and the Law in Hobbes},
+  journal = {European Journal of Political Theory},
+  volume = {16},
+  author = {Tracy B. Strong},
+  year = {2017},
+  number = {1},
+  pages = {61--76},
+  doi = {10.1177/1474885114567347}
+}
+@article{Taubes2017-TAULAM,
+  volume = {2017},
+  author = {Jacob Taubes},
+  journal = {T\'elos},
+  title = {Leviathan as Mortal God: On the Contemporaneity of Thomas Hobbes},
+  pages = {48--64},
+  doi = {10.3817/1217181048},
+  number = {181},
+  year = {2017}
+}
+
+
 
 
 ## Taylor, Michael. 1976. Anarchy and cooperation. London: Wiley.

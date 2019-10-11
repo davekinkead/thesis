@@ -3,8 +3,8 @@ title: Introduction
 author: Dave Kinkead
 email: d.kinkead@uq.edu.au
 status: Rough Outline
-bibliography: /Users/dave/Dropbox/Research/readings/.library.bibtex
 license: CC-BY-SA
+bibliography: /users/davekinkead/Dropbox/Research/readings.library.bibtex
 ---
 
 What is philosophy?  This might strike you as an overly ambitious question to begin a PhD dissertation with.  Metaphilosophy like this is typically only seriously engaged with after many years or decades of focused scholarship.
@@ -36,19 +36,19 @@ Role of empiricism (or absence of it)
 
 So now we are here at the subject of my thesis -- philosophical method.
 
-1000 words on Ch2 -- methodological plurality
+1000 words on Ch2 -- Philosophy & Computation
 
-1000 words on Ch3 -- digital philosophy
+1000 words on Ch3 -- Simulation as Argument
 
-1000 words on Ch4 -- simulation as argument
+1000 words on Ch4 -- On Computing and Knowing
 
 1000 words on Ch5 -- demonstration of computational generation of data for complex phenomenon
 
-1000 words on Ch6 -- demonstration of modelling political theory (introduce aesthetics of argument)
+1000 words on Ch6 -- demonstration of modelling epistemological claims (applied philosophy, greater use of aesthetics of argument)
 
-1000 words on Ch7 -- demonstration of modelling epistemological claims (applied philosophy, greater use of aesthetics of argument)
+1000 words on Ch7 -- Reason and Pursuadability
 
-1000 words on Ch 8 -- reflection on is this really philosophy
+1000 words on Ch 8 -- Is this philosophy?
 
 
 ---

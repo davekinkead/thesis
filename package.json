@@ -3,9 +3,10 @@
     "browserify": "^13.1.1",
     "coffeeify": "^2.0.1",
     "d3": "^3.5.17",
-    "node-pandoc": "^0.2.0"
+    "node-pandoc": "^0.2.0",
+    "pandoc": "^0.2.0"
   },
   "scripts": {
     "build": "coffee build.coffee"
   }
-}
+ }

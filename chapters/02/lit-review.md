@@ -1,5 +1,99 @@
 # Lit Review
 
+1. Doubt (motivation)
+  - methodological doubt
+  - doubt vs belief (pierce, dewey)
+  - cartesian vs piercean doubt
+  - merely motivating or something more?
+  - rejection of certainty & acceptance of fallibility drives epsitemology & possibility of knowledge
+2. Dialectic
+2. Analysis (Clarification)
+3. Argument (Justification)
+4. Intuitions 
+5. Thought Experiment (Possibility)
+6. Models/Theorising (Explaination)
+7. Formal Methods
+  - logic
+  
+
+## Daly's ontology from "An Introduction to Philosophical Methods"
+
+ONE: Common Sense
+
+  Introduction
+  Moore’s Defence of Common Sense
+  Defining Common Sense
+  Common Sense and Conservatism
+  Common Sense and Theory
+  Case Study: Moore’s Proof of the External World
+  Moore’s Argument from Certainty
+  Moore and Philosophical Analysis
+  Conclusion
+
+TWO: Analysis
+
+  Introduction
+  What Is Philosophical Analysis?
+  A Working Model of Philosophical Analysis
+  Is Analysis Possible?
+  Case Study: Moore’s Open Question Argument
+  The Paradox of Analysis
+  The Problem of Multiple Analyses
+  Family Resemblance
+  The Track Record of Philosophical Analysis
+  Taking Stock
+  Naturalizing Analysis: Lewis and Jackson’s Account
+  Naturalizing Analysis: Rey’s Account
+  Naturalizing Analysis: Quine’s Account
+  Paraphrase
+  Conclusion
+
+THREE: Thought Experiment
+
+  Introduction
+  Examples of Thought Experiments
+  Theories of Thought Experiments
+  Scepticism about Philosophical Thought Experiments
+  Case Study: Thought Experiments about Personal Identity
+  Experimental Philosophy
+  Conclusion
+
+FOUR: Simplicity
+
+  Introduction
+  Varieties of Simplicity
+  Is Simplicity a Theoretical Virtue?
+  Case Study: The Mind-Brain Identity Theory
+  Case Study: Modal Realism
+  Why Be Simple?
+  Conclusion
+
+FIVE: Explanation
+
+  Introduction
+  Do Philosophical Theories Give Explanations?
+  Differences between Philosophical and Scientific Theories
+  Theoretical Unification and Philosophical Explanation
+  Inference to the Best Philosophical Explanation
+  Case Study: The Mind-Brain Identity Theory
+  Case Study: The External World Hypothesis
+  Conclusion
+
+SIX: Science
+
+  Introduction
+  Quine’s Naturalism
+  Case Study: Epistemology
+  Psychological Theory and Epistemology
+  Science and Scepticism
+  The Problem of Circularity
+  The Problem of Epistemic Authority
+  Conclusion
+
+
+
+## Doubt
+
 
 ## Conceptual Analysis
 

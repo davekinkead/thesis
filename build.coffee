@@ -3,6 +3,9 @@ coffeeify = require 'coffeeify'
 pandoc = require 'node-pandoc'
 fs = require 'fs'
 
+bibliography = '/users/davekinkead/Dropbox/Research/readings/.library.bibtex'
+
+
 prepare_js = (chapter) ->
   return new Promise (resolve, reject) ->
     bundle = browserify
@@ -35,20 +38,6 @@ build = (number) ->
 console.log "Building Thesis..."
 build chapter for chapter in [5..5]
 
-
 # to build the readme, use:
 # $ pandoc readme.md -f markdown -t html5 -o index.html --css assets/styles.css --filter pandoc-citeproc
 
-
-# bundle = browserify
-#   extensions: ['.coffee.md']
-
-# bundle.transform coffeeify,
-#   bare: false
-#   header: true
-
-# bundle.add 'foo.coffee'
-
-# bundle.bundle (error, result) ->
-#   throw error if error?
-#   process.stdout.write result

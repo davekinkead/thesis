@@ -4,7 +4,6 @@ author: Dave Kinkead
 email: d.kinkead@uq.edu.au
 status: pre-review draft
 license: CC-BY-SA
-bibliography: /Users/dave/Dropbox/Research/readings/.library.bibtex
 csl: https://raw.githubusercontent.com/citation-style-language/styles/master/journal-of-applied-philosophy.csl
 ---
 

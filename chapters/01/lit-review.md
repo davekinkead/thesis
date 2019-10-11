@@ -1,5 +1,37 @@
 lit review
 
+
+- “philosophers love a priori knowledge: we delight in truths that can be known from the comfort of our armchairs, without the need to venture out in the world for confirmation” (2009, 37)
+
+- Many philosophers think that this is what philosophy is; that is, that “philosophy is a priori” (Williamson 2007, 1).
+
+- the “traditional methods of philosophy are arm- chair ones [hence, armchair philosophy]: they consist of thinking, without any special interaction with the world beyond the chair, such as measurement, observation or experiment would typically involve” (Williamson 2007, 1). 
+
+- philosophical inquiry “seeks to arrive at conceptually grounded necessary truths that are general in scope” (Henderson and Horgan 2013, 115)
+
+- See also Melnyk (2008, 267) on conceptual analysis as “a priori discovery of neces- sary truths” from the armchair.
+
+- Some go so far as to claim that philosophy not only is but also “should be regarded as . . . a priori” (Deutsch 2015, xx).
+
+- Jaakko Hintikka (1999) traces the philosophical use of ‘‘intuition’’ to Chomsky’s description of linguistics’ methodology.
+
+- One thing that distinguishes philosophical methodology from the methodology of the sciences is its extensive and avowed reliance on intuitions.  Goldman (2007, p. 1)
+
+- As De Cruz (2015, p. 233) puts it, ‘‘The method of cases in analytic philosophy involves the construction of scenarios that elicit intuitions. These intuitions are considered as evidence for or against philosophical theories.’’
+
+
+
+
+To Look at
+
+- isabelle proof assistants
+- ansell's ontological argument by Zalta.
+
+Andow, J. (2015a). How ‘‘intuition’’ exploded. Metaphilosophy, 46(2), 189–212.
+Andow, J. (2015b). How distinctive is philosophers’ intuition talk? Metaphilosophy, 46(4), 515–538.
+
+---
+
 > Timothy Williamson (2007) holds that one may learn that a counterfactual conditional is true by robustly obtaining its consequent when using imagination to simulate cases in which its antecedent is true. 
 
 Williamson, T. (2007). The philosophy of philosophy. Malden, MA: Blackwell.

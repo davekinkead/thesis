@@ -222,6 +222,8 @@ Procedural literacy — the ability to read and write processes.
 
 
 
+
+
   - Angius, Nicola & Tamburrini, Guglielmo (2011). Scientific Theories of Computational Systems  - in Model Checking. _Minds and Machines_ 21 (2):323-336.
 
   - Brey, Philip (2005). The epistemology and ontology of human-computer interaction. _Minds and   - Machines_ 15 (3-4):383-398.

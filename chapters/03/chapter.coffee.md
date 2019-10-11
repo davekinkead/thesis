@@ -8,6 +8,27 @@ bibliography: /users/davekinkead/Dropbox/Research/readings.library.bibtex
 
 ---
 
+- a way of integrating rationalism and empiricism
+
+- used in 
+  - proof checking and as proofing labs
+  - modelling knowledge (paraconsistant)
+  - phil mind & AI
+  - phil language NLP
+
+
+Computational Metaphysics - https://mally.stanford.edu/cm/   (prover)
+
+Computational Philosophy Laboratory - http://www-3.unipv.it/webphilos_lab/wordpress/index.php/research/springer-handbook-of-model-based-science/
+
+Computational Epistemology - https://www.cmu.edu/dietrich/philosophy/research/areas/science-methodology/computational-epistemology.html
+
+BA Degree - http://web.augsburg.edu/registrar/grad/major/2018-2019/CSC%20Computational%20Philosophy%202018.pdf
+
+
+
+
+
 # Philosophy & Computers
 
 A review of how computers has been used in philosophy

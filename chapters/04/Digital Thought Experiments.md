@@ -1,4 +1,4 @@
-# Computer Simulation vs Thought Experiments
+# Computer Simulation & Thought Experiments
  
 Thought Experiments are one of the oldest methodological tools used by philosophers.
 
@@ -28,7 +28,7 @@ While thought experiment and computer simulation are analogous in many ways, the
   - Confidence: We can be
 
 
-# Literate Programming
+# Digital Thought Experiments
 
 Literate Programming is a software development paradigm that inverts the relationship between code and comments about the code.
 
@@ -36,7 +36,17 @@ History
 
 Why, benefits ...
 
+Building computer simulations with Literate Programming allows us to create digital thought experiments.
 
-# Digital Thought Experiments
+  - removes several limitations of thought experiments 
 
-Building computer simulations with Literate Programming allows us to create digital thought experiments 
+  - corrects some concerns about computer simulations
+
+
+# Simulation as Argument
+
+We also get something more...
+
+  - functions as premises
+  - functional composition as inference/logic??
+

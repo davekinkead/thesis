@@ -1,5 +1,34 @@
 # Computers in Philosophy
 
+
+## Key Dates
+
+1978 Sloman pens "The computer revolution in philosophy"
+
+1986 CAP first meets
+
+2002 Floridi claims Philosophy of Information is a mature discipline
+
+
+## Key Fields
+
+**Philosophy of Information**
+
+The overarching subdiscipline 
+
+- floridi: the philosophical field concerned with (a) the critical investigation of the conceptual nature and basic principles of information, including its dynamics, utilisation, and sciences, and (b) the elaboration and application of information- theoretic and computational methodologies to philosophical problems. (p137)
+
+
+**Digital Philosophy**
+
+- Fredkin: Digital Philosophy (DP) replaces continuous variables as models for physical processes at the most fundamental (microscopic) level by automata theory.
+
+Fredkin, E. (2003). An introduction to digital philosophy. International Journal of Theoretical Physics, 42(2), 189-247.
+
+
+- Kinkead: The use of digital process to do philosophy like digital humanities
+
+
 ## Key works
 
 
@@ -14,10 +43,16 @@ Bynum, T. W., & Moor, J. (1998). The digital phoenix: How computers are changing
 Floridi, L. (2002). What is the Philosophy of Information?. Metaphilosophy, 33(1‐2), 123-145.
 
 
+Ashton, Z., & Mizrahi, M. (2018). Intuition talk is not methodologically cheap: Empirically testing the “received wisdom” about armchair philosophy. Erkenntnis, 83(3), 595-612.
+
+  - uses data mining and text analysis to address claims in philosophy to test claims about the methodological significance of intuition talk
+
 
 **The SEP**
 
 Zalta, E. (2006). The Stanford Encyclopedia of Philosophy: A university/library partnership in support of scholarly communication and open access. College & research libraries news, 67(8), 502-504.
+
+Allen, C., Nodelman, U., & Zalta, E. N. (2002). The Stanford Encyclopedia of Philosophy: A developed dynamic reference work. Metaphilosophy, 33(1‐2), 210-228.
 
 > SEP organizes the profession of philosophy to collaboratively maintain a dynamic open access  reference  work. 
 

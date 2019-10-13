@@ -1,12 +1,3 @@
----
-title: On Method
-author: Dave Kinkead
-email: d.kinkead@uq.edu.au
-status: Rough Outline
-license: CC-BY-SA
-bibliography: /users/davekinkead/Dropbox/Research/readings.library.bibtex
-
----
 
 # On Method
 

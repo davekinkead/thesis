@@ -10,20 +10,6 @@ bibliography: /users/davekinkead/Dropbox/Research/readings.library.bibtex
 
 - a way of integrating rationalism and empiricism
 
-- used in 
-  - proof checking and as proofing labs
-  - modelling knowledge (paraconsistant)
-  - phil mind & AI
-  - phil language NLP
-
-
-Computational Metaphysics - https://mally.stanford.edu/cm/   (prover)
-
-Computational Philosophy Laboratory - http://www-3.unipv.it/webphilos_lab/wordpress/index.php/research/springer-handbook-of-model-based-science/
-
-Computational Epistemology - https://www.cmu.edu/dietrich/philosophy/research/areas/science-methodology/computational-epistemology.html
-
-BA Degree - http://web.augsburg.edu/registrar/grad/major/2018-2019/CSC%20Computational%20Philosophy%202018.pdf
 
 
 
@@ -87,35 +73,3 @@ Simulation is still philosophy
 ---
 
 
-
-
-## Digital Philosophy
-
-While we have so far explored how simulation has been used as a philosophical method, this is not the only way computers can be used.
-
-Philosophy can be produced digitally...
-
-  - wordprocessing
-  - collaboratively
-  - computationally
-
-Philosophy can be distributed digitally...
-
-  - Online Journals
-  - SEP
-
-Philosophy can be consumed digitially...
-
-These are all examlpes of digital philosophy but that doesn't make them computational philosophy..
-
-Define terms _digital_ and _computational_ as the non-essential and essential use of computers in philosophical investigation.
-
-
-## Examples
-
-- Philosophy Blogs (digital, incremental, dissemination)
-- SEP (digital, incremental, dissemination)
-- PhilPapers (digital, incremental, dissemination) (helping consumption)
-- Skyrms (computational, transformational, production)
-- Surveys - What Do Philosophers Believe @bourget (digital, incremental, production)
-- A computationally-discovered simplification of the ontological argument (computational, transformational, production)

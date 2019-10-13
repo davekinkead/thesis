@@ -29,111 +29,11 @@ Porto uses pseudo-code (p55) to formally demonstrate a linguistic claim.
 
 
 
-### Ashton, Zoe & Mizrahi, Moti (2018). Show Me the Argument: Empirically Testing the Armchair Philosophy Picture. _Metaphilosophy_ 49 (1-2):58-70.
-
-@article{Ashton2018-MIZSMT,
-  author = {Zoe Ashton and Moti Mizrahi},
-  pages = {58--70},
-  journal = {Metaphilosophy},
-  number = {1-2},
-  year = {2018},
-  volume = {49},
-  title = {Show Me the Argument: Empirically Testing the Armchair Philosophy Picture}
-}
-
-> Many philosophers subscribe to the view that philosophy is a priori and in the business of discovering necessary truths from the armchair. This paper sets out to empirically test this picture. If this were the case, we would expect to see this reflected in philosophical practice. In particular, we would expect philosophers to advance mostly deductive, rather than inductive, arguments. The paper shows that the percentage of philosophy articles advancing deductive arguments is higher than those advancing inductive arguments, which is what we would expect from the vantage point of the armchair philosophy picture. The results also show, however, that the percentages of articles advancing deductive arguments and those advancing inductive arguments are converging over time and that the difference between inductive and deductive ratios is declining over time. This trend suggests that deductive arguments are gradually losing their status as the dominant form of argumentation in philosophy.
-
-An empiric test of whether philosophy is 'a priori armchair conceptual analysis'.  A computer assisted research to parse a corpus of philosophical texts.
-
-"In order to get an idea of how many philosophy articles employ deductive and inductive arguments, we searched the JSTOR database using the deductive and inductive indicator words outlined in table 2." (p62)
-
-> To sum up, our key findings are the following: (p67)
->
->  1. The ratio, and likewise percentage, of philosophy articles advanc- ing deductive arguments is higher than the percentage of articles advancing inductive arguments.
->  2. The ratios and percentages of philosophy articles advancing deductive arguments and those advancing inductive arguments are converging over time.
->  3. The difference between inductive and deductive ratios, and their percentages, is declining over time.
-
-"This trend suggests that deductive argu- ments are gradually losing their status as the dominant form of argumentation in philosophy." (p68)
 
 
 
-### Ashton, Zoe & Mizrahi, Moti (2018). Intuition Talk is Not Methodologically Cheap: Empirically Testing the “Received Wisdom” About Armchair Philosophy. _Erkenntnis_ 83 (3):595-612.
-
-@article{Ashton2018-ASHITI,
-  number = {3},
-  pages = {595--612},
-  author = {Zoe Ashton and Moti Mizrahi},
-  journal = {Erkenntnis},
-  volume = {83},
-  title = {Intuition Talk is Not Methodologically Cheap: Empirically Testing the \textquotedblleftReceived Wisdom\textquotedblright About Armchair Philosophy},
-  year = {2018}
-}
-
-> The “received wisdom” in contemporary analytic philosophy is that intuition talk is a fairly recent phenomenon, dating back to the 1960s. In this paper, we set out to test two interpretations of this “received wisdom.” The first is that intuition talk is just talk, without any methodological significance. The second is that intuition talk is methodologically significant; it shows that analytic philosophers appeal to intuition. We present empirical and contextual evidence, systematically mined from the JSTOR corpus and HathiTrust’s Digital Library, which provide some empirical support for the second rather than the first hypothesis. Our data also suggest that appealing to intuition is a much older philosophical methodology than the “received wisdom” alleges. We then discuss the implications of our findings for the contemporary debate over philosophical methodology. 
-
-Computer assisted empiric study of use of inuition in philosophical work.  Parsed a corpus of philosophical texts to extract key words (JSTOR’s Data for Research (dfr.jstor.org) and HathiTrust’s Digital Library (hathitrust.org))
-
-"In this paper, we follow in Andow’s (2015a) footsteps methodologically, but we seek to advance the contemporary debate over philosophical methodology by focusing on the role that intuitions play in philosophical argumentation." (p597)
-
-"We also used these two databases to search for phrases, such as ‘seems that’, ‘appears that’, and ‘it seems to me that’, which are phrases that are indicative of appeals to intuition, through philosophy publications in English." (p598)
-
-> In this paper, through a systematic survey of the JSTOR and HathiTrust databases, we have found that: (p610)
->
-> 1. Intuition talk (where indicators of intuition talk include ‘intuit’, ‘intuition, ‘intuitions’, ‘intuitive’, and ‘intuitively’) in philosophy is not as recent as the ‘‘received wisdom’’ alleges (circa 1960s); it goes as far back as the 1800s;
-> 2. Nineteenth and twentieth century philosophers appealed to intuition (where indicators of appeals to intuition include ‘it seems that’, ‘it appears that’, and ‘it seems to me that’) in argumentative contexts;
-> 3. The proportion of publications in which philosophers appeal to intuition (as indicated by ‘it seems that’, ‘it appears that’, and ‘it seems to me that’) shows that the practice was accepted and fairly common, even early in the 1800s;
-> 4. There is a positive correlation between intuition talk (as indicated by ‘intuit’, ‘intuition, ‘intuitions’, ‘intuitive’, and ‘intuitively’) and appeals to intuition (as indicated by ‘it seems that’, ‘it appears that’, and ‘it seems to me that’).
 
 
-
-### Baek, Jongmin Jerome (2018). How to Solve Moral Conundrums with Computability Theory. _arXiv_.
-
-@incollection{Baek2018-BAEHTS,
-  year = {2018},
-  booktitle = {arXiv},
-  title = {How to Solve Moral Conundrums with Computability Theory},
-  editor = {},
-  pages = {N/A},
-  author = {Jongmin Jerome Baek}
-}
-  
-> Various moral conundrums plague population ethics: The Non-Identity Problem, The Pro- creation Asymmetry, The Repugnant Conclusion, and more. I argue that the aforementioned moral conundrums have a structure neatly accounted for, and solved by, some ideas in com- putability theory. I introduce a mathematical model based on computability theory and show how previous arguments pertaining to these conundrums fit into the model. This paper pro- ceeds as follows. First, I do a very brief survey of the history of computability theory in moral philosophy. Second, I follow various papers, and show how their arguments fit into, or don’t fit into, our model. Third, I discuss the implications of our model to the question why the human race should or should not continue to exist. Finally, I show that our model ineluctably leads us to a Confucian moral principle.
-
-Attempts to model moral philosophy on computability theory and the Turing-Church Thesis.  Uses analytic proof rather than computation.
-
-
-### Baumgaertner, Bert (2012). Vagueness Intuitions and the Mobility of Cognitive Sortals.   - _Minds and Machines_ 22 (3):213-234.
-
-@article{Baumgaertner2012-BAUVIA,
-  number = {3},
-  journal = {Minds and Machines},
-  author = {Bert Baumgaertner},
-  pages = {213--234},
-  title = {Vagueness Intuitions and the Mobility of Cognitive Sortals},
-  volume = {22},
-  year = {2012}
-}
-
-> One feature of vague predicates is that, as far as appearances go, they lack sharp application boundaries. I argue that we would not be able to locate boundaries even if vague predicates had sharp boundaries. I do so by developing an idealized cognitive model of a categorization faculty which has mobile and dynamic sortals (‘classes’, ‘concepts’ or ‘categories’) and formally prove that the degree of precision with which boundaries of such sortals can be located is inversely constrained by their flexibility. Given the literature, it is plausible that we are appropriately like the model. Hence, an inability to locate sharp boundaries is not necessarily because there are none; boundaries could be sharp and it is plausible that we would nevertheless be unable to locate them.
-
-Constructs a conceptual model/algorithm to address vagueness in Sorites paradoxes.  Then attempts to prove this analytically.
-
-
-### Blumson, Ben (2017). Anselm's God in Isabelle/HOL. _Archive of Formal Proofs_:9.
-
-@article{Blumson2017-BLUAGI-2,
-  title = {Anselm's God in Isabelle/HOL},
-  year = {2017},
-  author = {Ben Blumson},
-  pages = {9},
-  journal = {Archive of Formal Proofs}
-}
-
-> Paul Oppenheimer and Edward Zalta's formalisation of Anselm's ontological argument for the existence of God is automated by embedding a free logic for definite descriptions within Isabelle/HOL. 
-
-Uses a computer proving language (Isabelle) to prove another computer generated argument.
-
-The paper looks to be (in appearence) the closest philsophy has come to literate programming although the source code is elsewhere.
 
 
 ### Paperless Philosophy as a Philosophical Method
@@ -189,7 +89,7 @@ Machine Learning is a pragmatic approach to epistemology, one in which the goal 
 
 "Supervised learning problems are thus a form of enumerative induction" (p7)
 
-"Instead, the goal of unsupervised learning is knowl- edge discovery" (p7)
+"Instead, the goal of unsupervised learning is knowledge discovery" (p7)
 
 "from the point of view of the philosophy of science, data science arguably does offer a new mode of inquiry insofar as we are now routinely handling population datasets directly or sample sizes so immense, such as in our NYC Taxi dataset, that they behave like population data." (p9)
 

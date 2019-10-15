@@ -1,6 +1,65 @@
 # Lit Review
 
 
+##TODO
+
+@article{Prakken2012-PRARPV,
+  journal = {Artificial Intelligence and Law},
+  volume = {20},
+  author = {Henry Prakken},
+  title = {Reconstructing Popov V. Hayashi in a Framework for Argumentation with Structured Arguments and Dungean Semantics},
+  pages = {57--82},
+  number = {1},
+  year = {2012}
+}
+
+> In this article the argumentation structure of the court’s decision in the Popov v. Hayashi case is formalised in Prakken’s (Argument Comput 1:93–124; 2010) abstract framework for argument-based inference with structured arguments. In this framework, arguments are inference trees formed by applying two kinds of inference rules, strict and defeasible rules. Arguments can be attacked in three ways: attacking a premise, attacking a conclusion and attacking an inference. To resolve such conflicts, preferences may be used, which leads to three corresponding kinds of defeat, after which Dung’s (Artif Intell 77:321–357; 1995) abstract acceptability semantics can be used to evaluate the arguments. In the present paper the abstract framework is instantiated with strict inference rules corresponding to first-order logic and with defeasible inference rules for defeasible modus ponens and various argument schemes. The main techniques used in the formal reconstruction of the case are rule-exception structures and arguments about rule validity. Arguments about socio-legal values and the use of precedent cases are reduced to arguments about rule validity. The tree structure of arguments, with explicit subargument relations between arguments, is used to capture the dependency relations between the elements of the court’s decision 
+
+
+
+@article{Brey2005-BRETEA,
+  pages = {383--398},
+  number = {3-4},
+  author = {Philip Brey},
+  publisher = {Springer},
+  year = {2005},
+  volume = {15},
+  journal = {Minds and Machines},
+  title = {The Epistemology and Ontology of Human-Computer Interaction}
+}
+
+> This paper analyzes epistemological and ontological dimensions of Human-Computer Interaction (HCI) through an analysis of the functions of computer systems in relation to their users. It is argued that the primary relation between humans and computer systems has historically been epistemic: computers are used as information-processing and problem-solving tools that extend human cognition, thereby creating hybrid cognitive systems consisting of a human processor and an artificial processor that process information in tandem. In this role, computer systems extend human cognition. Next, it is argued that in recent years, the epistemic relation between humans and computers has been supplemented by an ontic relation. Current computer systems are able to simulate virtual and social environments that extend the interactive possibilities found in the physical environment. This type of relationship is primarily ontic, and extends to objects and places that have a virtual ontology. Increasingly, computers are not just information devices, but portals to worlds that we inhabit. The aforementioned epistemic and ontic relationships are unique to information technology and distinguish human-computer relationships from other human-technology relationships. 
+
+@article{zollman2015modeling,
+  title={Modeling the social consequences of testimonial norms},
+  author={Zollman, Kevin JS},
+  journal={Philosophical Studies},
+  volume={172},
+  number={9},
+  pages={2371--2383},
+  year={2015},
+  publisher={Springer}
+}
+
+
+> This paper approaches the problem of testimony from a new direction. Rather  than  focusing  on  the  epistemic  grounds  for  testimony,  it  considers  the problem from the perspective of an individual who must choose whom to trust from a population of many would-be testifiers. A computer simulation is presented which illustrates that in many plausible situations, those who trust without attempting to judge the reliability of testifiers outperform those who attempt to seek out the more reliable members of the community. In so doing, it presents a novel defense for the credulist  position  that  argues  one  should  trust  testimony  without  considering  the underlying reliability of the testifier.
+
+
+@article{David2004-DAVTSA-16,
+  author = {Nuno David and Maria Marietto and Jaime Sichman and Helder Coelho},
+  journal = {Journal of Artificial Societies and Social Simulation},
+  volume = {7},
+  number = {3},
+  title = {The Structure and Logic of Interdisciplinary Research in Agent-Based Social Simulation},
+  year = {2004}
+}
+
+> This article reports an exploratory survey of the structure of interdisciplinary research in Agent-Based Social Simulation. One hundred and ninety six researchers participated in the survey completing an on-line questionnaire. The questionnaire had three distinct sections, a classification of research domains, a classification of models, and an inquiry into software requirements for designing simulation platforms. The survey results allowed us to disambiguate the variety of scientific goals and modus operandi of researchers with a reasonable level of detail, and to identify a classification of agent-based models used in simulation. In particular, in the interdisciplinary context of social-scientific modelling, agent-based computational modelling and computer engineering, we analyse the extent to which these paradigmatic models seem to be mutually instrumental in the field. We expect that our proposal may improve the viability of submitting, explaining and comparing agent-based simulations in articles, which is an important methodological requirement to consolidate the field. We also expect that it will motivate other proposals that could further validate, extend or change ours, in order to refine the classification with more types of models. 
+
+
+---
+
+
 # Paperless Philosophy as a Philosophical Method
 
 @article{Bourget2010-BOUPPA,
@@ -300,6 +359,8 @@ Computer assisted empiric study of use of inuition in philosophical work.  Parse
 > Various moral conundrums plague population ethics: The Non-Identity Problem, The Pro- creation Asymmetry, The Repugnant Conclusion, and more. I argue that the aforementioned moral conundrums have a structure neatly accounted for, and solved by, some ideas in com- putability theory. I introduce a mathematical model based on computability theory and show how previous arguments pertaining to these conundrums fit into the model. This paper pro- ceeds as follows. First, I do a very brief survey of the history of computability theory in moral philosophy. Second, I follow various papers, and show how their arguments fit into, or don’t fit into, our model. Third, I discuss the implications of our model to the question why the human race should or should not continue to exist. Finally, I show that our model ineluctably leads us to a Confucian moral principle.
 
 Attempts to model moral philosophy on computability theory and the Turing-Church Thesis.  Uses analytic proof rather than computation.
+
+
 
 ### Pence, C. H., & Ramsey, G. (2018). How to do digital philosophy of science. Philosophy of Science, 85(5), 930-941.
 

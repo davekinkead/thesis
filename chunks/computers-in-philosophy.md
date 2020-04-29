@@ -1,15 +1,6 @@
 # Computers in Philosophy
 
 
-## Key Dates
-
-1978 Sloman pens "The computer revolution in philosophy"
-
-1986 CAP first meets
-
-2002 Floridi claims Philosophy of Information is a mature discipline
-
-
 ## Key Fields
 
 **Philosophy of Information**
@@ -25,8 +16,6 @@ The overarching subdiscipline
 
 Fredkin, E. (2003). An introduction to digital philosophy. International Journal of Theoretical Physics, 42(2), 189-247.
 
-
-- Kinkead: The use of digital process to do philosophy like digital humanities
 
 
 ## Key works

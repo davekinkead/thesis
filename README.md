@@ -18,6 +18,16 @@ license: CC-BY-NC-SA
 
 I outline a novel methodology for computational philosophy and show how it advances the discipline by enhancing the rational acceptance of claims within argument.
 
+
+## In three steps
+
+  1. Philosophy, via argumentation, is bounded to the extent that we have confidence that our conclusions necessarily or strongly follow from our premises.
+
+  2. Simulation-as-argument extends the boundaries of our confidence into domains too complex or intractable for traditional analysis and argument.
+
+  3. Simulation-as-argument therefore advances philosophy.
+
+
 ## In a few hundred words
 
 Philosophy is a discipline characterised by methodological pluralism. There are many ways of doing philosophy -- formal logic, thought experiment, conceptual analysis, modeling, dialectic. Argumentation however, is methodologically foundational to all philosophy. There is no philosophy without the exchange of reasons intended to persuade rationally. 

@@ -64,7 +64,7 @@ Analogies:
 
 > We simply have to learn how to use them [pictures as proofs], just as we must continue to learn more about microscopes. (p179)
 
-*Philosophy of mathematics: A contemporary introduction to the world of proofs and pictures*
+**Philosophy of mathematics: A contemporary introduction to the world of proofs and pictures**
 
 @book{brown2010philosophy,
   title={Philosophy of mathematics: A contemporary introduction to the world of proofs and pictures},
@@ -169,6 +169,32 @@ Analogies:
   year={2007},
   publisher={Springer}
 }
+
+
+### André, Porto (2015). Semantical Mutation, Algorithms and Programs. _Dissertatio_:44-76.
+
+@article{Andre2015-ANDSMA-4,
+  title = {Semantical Mutation, Algorithms and Programs},
+  year = {2015},
+  pages = {44--76},
+  author = {Porto Andr\'e},
+  journal = {Dissertatio}
+}
+
+> This article offers an explanation of perhaps Wittgenstein’s strangest and least intuitive thesis – the semantical mutation thesis – according to which one can never answer a mathematical conjecture because the new proof alters the very meanings of the terms involved in the original question. Instead of basing our justification on the distinction between mere calculation and proofs of isolated propositions, characteristic of Wittgenstein’s intermediary period, we generalize it to include conjectures involving effective procedures as well. 
+
+Highlights (p54) the idea that "methods of obtainment" for inferences & mathematical operations can be conceptualised as "programs".  
+
+"A program can be seen as description of  an operation,  its definition.  More  then that:  differently from a simple description, one can even “run it”, so we can check if it’s correctly constructed, if everything is alright, no missteps involved). "
+
+See (Martin Löf, 1984, p. 29) for a similar treatment of lambda calculus as computer programs.
+
+Porto uses pseudo-code (p55) to formally demonstrate a linguistic claim.
+
+"We do frame mathematical conjectures, and in the case of recursive operations the meanings of these conjectures could be very concretely construed as being about programs and their implementations, so even the fussy intuitionists would have to accept that." (p55)
+
+"An algorithm, as well as a method, are both teleological notions. They are both means to a desired end." (p59)
+
 
 
 

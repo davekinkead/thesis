@@ -248,10 +248,15 @@ Define terms _digital_ and _computational_ as the non-essential and essential us
 
   - https://kieranhealy.org/philcites/
 
+**Experimental Philosophy**
+
+  - What do philosophers believe?
+  
 **Simulations to investigate philosophical questions**
 
   - @tamariz2011 uses simulation to explore a linguistic bootstrapping thesis
   - @olson2011 uses desktop sim to explore truth networks in agents to address claims in @goodman1999
 
+Fuller, Steve (1995). On rosenwein and Gorman's simulation of social epistemology. Social Epistemology 9 (1):81 – 85.
 
 ## Insert some important disctinciton or model

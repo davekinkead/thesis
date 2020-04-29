@@ -6,8 +6,6 @@ Simulation-as-argument extends the boundaries of our confidence into domains too
 
 Philosophy should embrace simuation as argument as an important method.
 
-
-
 >  First, thought experiments can disclose nature's failure to conform to a previously held set of expectations. Second, they can suggest particular ways in which both expectation and theory must henceforth be revised.” (Kuhn, 1977, p. 241 and 261) 
   -- SEP Thpought Experiement
 
@@ -24,3 +22,19 @@ criteria for accepting an argument
 
 
  Hitchcock (1995, 324), e.g., writes that the idea that we should teach reasoning by fallacies is “like saying that the best way to teach somebody to play tennis without making the common mistakes ... is to demonstrate these faults in action and get him to label and respond to them.”
+
+ # Argumentation
+
+1. The purpose of argument is enhance the rational acceptance of a position.
+
+2. Simulation as argument can enhance the rational acceptance (in these circumstances) more than plain text or remote code alone.
+
+I need to justify #1 then demonstrate #2
+
+- what does it mean to rationally enhance acceptability within an argument?
+- how does text do this?
+- how does a picture do this?
+- how does a proof do this?
+
+## Inference!!!
+

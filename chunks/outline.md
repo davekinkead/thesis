@@ -2,6 +2,18 @@
 
 Need to rewrite in lieu of project change
 
+  1. Introduction.  Context and summary of each chapter
+  2. Argumentation. Review of argumentation literature as context for computational philosphy
+  2. Computational Philosophy. How has computer simulation been used in philosophy
+  3. Reproducibility. An empiric investigation of code reproducibility in philosophy
+  4. Minimal computing. Outline my approach targeted at DHQ special edition
+  5. Epistemic shift. Argue how my approach shifts the epistemology of simulation from testimony to reason
+  6. Borders. Demonstration chapter of this shift
+  7. Persuation. Argue for the enhanced pursuasion of my approach and link it to reason
+  8. School performance. Demonstration chapter
+  9. Is this philosophy.
+   
+
 ## Introduction
 
 This is an argument about authority.  More specifically though, it's an argument about democratic authority and how what we typically think are justifications of democratic authority, are in actual fact rationalisations of it.  That's because accounts of democratic authority, all of them, fail to adequately justify the authority of the state.  What we are left with is a collection of sporadically connected reasons to obey - attempts to make the coercive power of the state more palatable to those it coerces.  Reasons that are sometime persuasive, but never coherent.

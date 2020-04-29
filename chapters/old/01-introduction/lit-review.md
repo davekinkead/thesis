@@ -5,7 +5,7 @@ lit review
 
 - Many philosophers think that this is what philosophy is; that is, that “philosophy is a priori” (Williamson 2007, 1).
 
-- the “traditional methods of philosophy are arm- chair ones [hence, armchair philosophy]: they consist of thinking, without any special interaction with the world beyond the chair, such as measurement, observation or experiment would typically involve” (Williamson 2007, 1). 
+- the “traditional methods of philosophy are arm-chair ones [hence, armchair philosophy]: they consist of thinking, without any special interaction with the world beyond the chair, such as measurement, observation or experiment would typically involve” (Williamson 2007, 1). 
 
 - philosophical inquiry “seeks to arrive at conceptually grounded necessary truths that are general in scope” (Henderson and Horgan 2013, 115)
 

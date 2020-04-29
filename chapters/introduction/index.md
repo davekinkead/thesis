@@ -1,6 +1,4 @@
-
-
-## Old Abstract
+~~ Rough Intro ~~
 
 This is an argument about method.  Philosophy is a discipline characterised by methodological pluralism --- there are many ways of doing philosophy.  Many other disciplines have embraced digital methods but philosophy is somewhat a laggard in this respect. This is unfortunate for philosophy.
 

@@ -1,0 +1,5225 @@
+@unpublished{HelgesonManuscript-HELWSC-3,
+  title = {Why Simpler Computer Simulation Models Can Be Epistemically Better for Informing Decisions},
+  author = {Casey Helgeson and Vivek Srikrishnan and Klaus Keller and Nancy Tuana}
+}
+
+
+@article{Arvan2014-ARVWHC,
+  author = {Marcus Arvan},
+  year = {2014},
+  doi = {10.1163/18750257-02702001},
+  journal = {Hobbes Studies},
+  pages = {171--177},
+  volume = {27},
+  title = {Why Hobbes Cannot Limit the Leviathan: A Critical Commentary on Larry May's Limiting Leviathan},
+  number = {2}
+}
+
+@article{Taylor2009-TAYLBO,
+  number = {2},
+  title = {Leviathan Bound; or the Re-Education of Thomas Hobbes},
+  volume = {22},
+  pages = {123--143},
+  journal = {Hobbes Studies},
+  doi = {10.1163/092158909X12452520755351},
+  year = {2009},
+  author = {Quentin Taylor},
+  publisher = {Brill Academic Publishers}
+}
+@article{Deigh2012-DEIHPI,
+  author = {John Deigh},
+  journal = {Hobbes Studies},
+  year = {2012},
+  doi = {10.1163/18750257-02502005},
+  pages = {199--208},
+  number = {2},
+  volume = {25},
+  title = {Hobbes\textquoterights Philosophy in De Cive and Leviathan}
+}
+@article{Wadle2017-WADTPO-12,
+  doi = {10.1163/18750257-03002003},
+  year = {2017},
+  journal = {Hobbes Studies},
+  author = {Douglas C. Wadle},
+  title = {The Problem of the Unity of the Representative Assembly in Hobbes\textquoterights Leviathan},
+  volume = {30},
+  number = {2},
+  pages = {178--201}
+}
+
+
+
+
+@article{Adams2019-ADAHLO,
+  year = {2019},
+  journal = {Philosophers' Imprint},
+  author = {Marcus P. Adams},
+  title = {Hobbes's Laws of Nature in Leviathan as a Synthetic Demonstration: Thought Experiments and Knowing the Causes},
+  volume = {19}
+}
+
+
+@article{Deigh1996-DEIRAE-2,
+  publisher = {Johns Hopkins University Press},
+  author = {John Deigh},
+  year = {1996},
+  doi = {10.1353/hph.1996.0001},
+  journal = {Journal of the History of Philosophy},
+  pages = {33--60},
+  volume = {34},
+  title = {Reason and Ethics in Hobbes's Leviathan},
+  number = {1}
+}
+@book{Hobbes1651-HOBLOT-2,
+  title = {Leviathan, or, the Matter, Forme, \& Power of a Common-Wealth Ecclesiasticall and Civill},
+  year = {1651},
+  author = {Thomas Hobbes},
+  publisher = {Touchstone}
+}
+@article{vanApeldoornForthcoming-VANOTP-8,
+  title = {On the Person and Office of the Sovereign in Hobbes\textquoteright Leviathan},
+  pages = {1--20},
+  journal = {British Journal for the History of Philosophy},
+  year = {forthcoming},
+  doi = {10.1080/09608788.2019.1613632},
+  author = {Laurens van Apeldoorn}
+}
+@book{Gauthier1969-GAUTLO,
+  publisher = {Clarendon Press},
+  author = {David P. Gauthier},
+  title = {The Logic of Leviathan: The Moral and Political Theory of Thomas Hobbes},
+  year = {1969}
+}
+@book{Martel2007-MARSTL,
+  title = {Subverting the Leviathan: Reading Thomas Hobbes as a Radical Democrat},
+  year = {2007},
+  publisher = {Columbia University Press},
+  author = {James Martel}
+}
+@book{Lloyd1992-LLOIAI-4,
+  title = {Ideals as Interests in Hobbes's Leviathan: The Power of Mind Over Matter},
+  year = {1992},
+  author = {S. A. Lloyd},
+  publisher = {Cambridge University Press}
+}
+
+@article{Nauta2002-NAUHOR,
+  pages = {577},
+  volume = {63},
+  title = {Hobbes on Religion and the Church Between "The Elements of Law" and "Leviathan": A Dramatic Change of Direction?},
+  number = {4},
+  author = {Lodi Nauta},
+  publisher = {Johns Hopkins University Press},
+  year = {2002},
+  doi = {10.2307/3654161},
+  journal = {Journal of the History of Ideas}
+}
+@article{KonigForthcoming-KNIDTA,
+  pages = {1--19},
+  title = {Dissecting the Algorithmic Leviathan: On the Socio-Political Anatomy of Algorithmic Governance},
+  author = {Pascal D. K\"onig},
+  doi = {10.1007/s13347-019-00363-w},
+  year = {forthcoming},
+  journal = {Philosophy and Technology}
+}
+
+
+@article{Darwall2000-DARNAP,
+  doi = {10.1215/00318108-109-3-313},
+  year = {2000},
+  journal = {Philosophical Review},
+  publisher = {Duke University Press},
+  author = {Stephen Darwall},
+  title = {Normativity and Projection in Hobbes\textquoterights Leviathan},
+  volume = {109},
+  number = {3},
+  pages = {313--347}
+}
+
+
+
+@article{Duncan2014-DUNCOL,
+  pages = {185--190},
+  number = {2},
+  title = {Comments on Larry May, Limiting Leviathan},
+  volume = {27},
+  author = {Stewart Duncan},
+  journal = {Hobbes Studies},
+  doi = {10.1163/18750257-02702006},
+  year = {2014}
+}
+
+
+
+@article{Deigh1996-DEIRAE-3,
+  title = {Reason and Ethics in Hobbes's Leviathan},
+  volume = {34},
+  pages = {33--60},
+  journal = {Journal of the History of Philosophy},
+  doi = {10.1353/hph.2008.1289},
+  year = {1996},
+  author = {John Deigh},
+  publisher = {Johns Hopkins University Press}
+}
+
+
+@article{Bowens2018-BOWTFO-9,
+  journal = {Film-Philosophy},
+  doi = {10.3366/film.2018.0088},
+  year = {2018},
+  author = {Max Bowens},
+  number = {3},
+  title = {\textquotedblleftThe Flesh of The Perceptible\textquotedblright: The New Materialism of Leviathan},
+  volume = {22},
+  pages = {428--447}
+}
+@article{Shapiro2017-SHATLO-22,
+  volume = {45},
+  title = {The Light of Reason\textquotedblright: Reading the Leviathan with \textquotedblleftThe Werckmeister Harmonies},
+  number = {3},
+  pages = {385--415},
+  year = {2017},
+  doi = {10.1177/0090591716631019},
+  journal = {Political Theory},
+  author = {Michael J. Shapiro},
+  publisher = {Sage Publications}
+}
+
+
+@book{Winsberg2010-WINSIT-2,
+  year = {2010},
+  publisher = {University of Chicago Press},
+  title = {Science in the Age of Computer Simulation},
+  author = {Eric B. Winsberg}
+}
+
+
+@article{winsberg1999sanctioning,
+  title={Sanctioning models: The epistemology of simulation},
+  author={Winsberg, Eric},
+  journal={Science in context},
+  volume={12},
+  number={2},
+  pages={275--292},
+  year={1999},
+  publisher={Cambridge University Press}
+}
+
+Simulation of scientific theories involves complex mathematical models whose algorithms and equations are analytically unsolvable. This means that simulation has it's own kind of epistemogolgy. 
+
+> In many instances, these computer simulations are not simple number-crunching techniques. They involve a complex chain of inferences that serve to transform theoretical structures into specific concrete knowledge of physical systems. (p275)
+
+> I argue that this process of transformation is also a process of knowledge creation, and that it has its own unique epistemology. (p275)
+
+> I also argue that the complex and motley nature of this epistemology suggests that the end results of simulations often do not bear a simple, straightforward relation to the theories from which they stem. (p276)
+
+Simulation is about replacing analytic results with calculation but this is not mere transformation -- it also introduces questions about the reliability of the model and process (not just result) (p276)
+
+Quoting Goodman 1968, p171 ...
+
+> Few terms are used in popular and scientific discourse more promiscuously than "model." 
+
+Outlines a taxonomy of models (p276)
+
+  1. mechanical: 
+  2. dynamic
+  3. ad hoc
+  4. computation
+  5. phenonena
+
+    Theory + General Physical Modeling Assumptions
+                      |
+    Mechanical Model + Parameters, Boundary Values, Initial Data
+                      |      
+    Dynamical Model + Ad hoc Modeling Assumptions, Approximations, Reduction of Degrees of Freedom
+                      |
+    Computational Model + Imaging Techniques, Data Analysis, Interpretation
+                      |
+    Model of the Phenomena
+
+
+Simulation is non-deductive when is moves from theory to new knowledge about the system (p277).  So what makes these steps acceptable?
+
+Simulation used "in generating closed form functions that are approximately valid." (p278)
+
+Uses finite differencing to "continuous rates of change over infinitesimal intervals, into difference equations, which relate rates of change over finite, or discrete, intervals." (p278)
+
+> The idea here is to develop computer algorithms that embody some simplified version of the original set of equations. (p279)
+
+> The dynamical model needs to be transformed into a computational model so that computational techniques can be used to overcome the problem of analytical intractability. (p281)
+
+> Ad hoc modeling includes such techniques as simplifying assumptions, removing degrees of freedom, and even substituting simpler empirical relationships for more complex, but also more theoretically founded laws (p282)
+
+> There are times when the simulationist is acutely aware of the important influence of one component of the dynamics and yet it is simply impractical to include it in a full-blown simulation. ... Creative ad hoc models typically involve relatively simple mathematical rela- tionships designed to approximately capture some physical effect in nature. (p282)
+
+Traditional philosophy of sciences views epistemology as foundational - the layer cake mode of observation -> theory -> experitmation. Epistemology of simulation works in the other direction. (p285)
+
+> We are concerned with the autonomous sanctioning of conclusions that we drawfrom our scientific theories (p285)
+
+> "Complex mathematical manipulation" together with "essential approxima- tions" are often necessary in order to get theories to yield experimental predictions (Kuhn 1977, 190)
+
+> Simulation modeling is clearly a case of theory articulation in the spirit of Kuhn. It is a nontrivial process of bringing a theoretical structure into resonance with some phenomena that is "implicitly" in its domain. (p286)
+
+> Often simulation will enable us to produce a representation of a certain aspect of nature that is extremely difficult to observe. (p286)
+
+!!!!!!!!
+
+> The realization that techniques of approximation are in fact inferences that require an epistemology that looks at the means of the methods, and not just their ends, is exactly the jumping off point that we need. (p287)
+
+On Visualisation of results ...
+
+> Most of all, the observer is crucial because, absent an observer who can compare images against images, there is no metric of similarity between the different data sets that need to be compared. Visualization is by far the most effective means of identifying characteristic features out of complex dynamical data sets, and so it is the most, if not the only, effective means of judging the degree of calibration a simulation enjoys with other data sets and with analytic results. Thus, visualization plays a crucial role in sanctioning as well as in analyzing simulation results. Not only does the epistemology of simulation call upon resources that are empirical, and that come from outside of the theory, it also calls upon the faculties of the observer. (p290)
+
+> The epistemology of simulation, as we have seen at length, is very much an empirical epistemology, and not merely a mathematico-logical one. (p290)
+
+> our confidence in our physical theories is one of the things that, in combination with other elements, warrants our rational belief that the models we construct are reliable and cognitively useful.(p291)
+
+
+@inproceedings{nashed2019rational,
+  title={Rational Approximation of Scientific Data},
+  author={Nashed, Youssef SG and Peterka, Tom and Mahadevan, Vijay and Grindeanu, Iulian},
+  booktitle={International Conference on Computational Science},
+  pages={18--31},
+  year={2019},
+  organization={Springer}
+}
+
+Datasets can become so large that approximation of their structure is neccessary in order to create "compact representations that facilitate their down-stream management and analysis, and ideally model the underlying sci-entific phenomena with defined numerical fidelity"
+
+
+@article{AronowitzForthcoming-AROLTS,
+  journal = {Philosophers' Imprint},
+  author = {Sara Aronowitz and Tania Lombrozo},
+  year = {forthcoming},
+  title = {Learning Through Simulation}
+}
+
+@article{Morrison2009-MORMMA-9,
+  title = {Models, Measurement and Computer Simulation: The Changing Face of Experimentation},
+  doi = {10.1007/s11098-008-9317-y},
+  pages = {33--57},
+  publisher = {Springer},
+  year = {2009},
+  author = {Margaret Morrison},
+  volume = {143},
+  journal = {Philosophical Studies},
+  number = {1}
+}
+
+
+@article{Michaelian2016-MICCMR-2,
+  title = {Confabulating, Misremembering, Relearning: The Simulation Theory of Memory and Unsuccessful Remembering},
+  doi = {10.3389/fpsyg.2016.01857},
+  pages = {1857},
+  journal = {Frontiers in Psychology},
+  volume = {7},
+  year = {2016},
+  author = {Kourken Michaelian}
+}
+@unpublished{ArvanManuscript-ARVTSH,
+  title = {The Simulation Hypothesis and Meta-Problem of Everything},
+  author = {Marcus Arvan}
+}
+@incollection{Gordon1995-GORSWI,
+  booktitle = {Mental Simulation},
+  year = {1995},
+  author = {Robert M. Gordon},
+  title = {Simulation Without Introspection or Inference From Me to You},
+  editor = {Martin Davies and Tony Stone},
+  publisher = {Blackwell}
+}
+@article{Shannon2012-SPAMNA-3,
+  number = {3},
+  journal = {Synthese},
+  author = {Spaulding Shannon},
+  year = {2012},
+  volume = {189},
+  pages = {515--534},
+  publisher = {Springer Nature},
+  doi = {10.1007/s11229-012-0086-y},
+  title = {Mirror Neurons Are Not Evidence for the Simulation Theory}
+}
+@article{Dullstein2013-DULDPA,
+  doi = {10.1007/s13164-013-0139-2},
+  pages = {333--350},
+  title = {Direct Perception and Simulation: Stein\textquoterights Account of Empathy},
+  number = {2},
+  journal = {Review of Philosophy and Psychology},
+  author = {Monika Dullstein},
+  volume = {4},
+  year = {2013}
+}
+@article{Chen2010-CHETRO-3,
+  publisher = {Springer},
+  pages = {33--52},
+  doi = {10.1007/s10551-010-0625-8},
+  title = {The Role of Ethical Leadership Versus Institutional Constraints: A Simulation Study of Financial Misreporting by CEOs},
+  number = {S1},
+  journal = {Journal of Business Ethics},
+  year = {2010},
+  author = {Stephen Chen},
+  volume = {93}
+}
+@article{Arvan2014-ARVAUE,
+  title = {A Unified Explanation of Quantum Phenomena? The Case for the PeertoPeer Simulation Hypothesis as an Interdisciplinary Research Program},
+  doi = {10.1111/phil.12043},
+  pages = {433--446},
+  author = {Marcus Arvan},
+  volume = {45},
+  year = {2014},
+  journal = {Philosophical Forum},
+  number = {4}
+}
+@book{Winsberg2010-WINSIT-2,
+  publisher = {University of Chicago Press},
+  author = {Eric B. Winsberg},
+  year = {2010},
+  title = {Science in the Age of Computer Simulation}
+}
+@article{Gordon1986-GORFPA-2,
+  number = {2},
+  journal = {Mind and Language},
+  volume = {1},
+  author = {Robert M. Gordon},
+  year = {1986},
+  pages = {158--71},
+  doi = {10.1111/j.1468-0017.1986.tb00324.x},
+  title = {Folk Psychology as Simulation}
+}
+@article{Louwerse2011-LOUATO,
+  title = {A Taste of Words: Linguistic Context and Perceptual Simulation Predict the Modality of Words},
+  pages = {381--398},
+  doi = {10.1111/j.1551-6709.2010.01157.x},
+  journal = {Cognitive Science},
+  volume = {35},
+  author = {Max Louwerse and Louise Connell},
+  year = {2011},
+  number = {2}
+}
+@article{GreeneForthcoming-GRETTR-5,
+  title = {The Termination Risks of Simulation Science},
+  doi = {10.1007/s10670-018-0037-1},
+  pages = {1--21},
+  author = {Preston Greene},
+  year = {forthcoming},
+  journal = {Erkenntnis}
+}
+@article{Giere2009-GIEICS,
+  title = {Is Computer Simulation Changing the Face of Experimentation?},
+  publisher = {Springer},
+  pages = {59--62},
+  doi = {10.1007/s11098-008-9314-1},
+  journal = {Philosophical Studies},
+  author = {Ronald N. Giere},
+  year = {2009},
+  volume = {143},
+  number = {1}
+}
+@incollection{Barlassina2004-BARFPA-10,
+  editor = {E. Zalta},
+  publisher = {Center for the Study of Language and Information, Stanford},
+  booktitle = {The Stanford Encyclopedia of Philosophy},
+  year = {2004},
+  title = {Folk Psychology as Mental Simulation},
+  author = {Luca Barlassina and Robert M. Gordon}
+}
+@article{Shanahan2006-SHAACA,
+  title = {A Cognitive Architecture That Combines Internal Simulation with a Global Workspace},
+  pages = {433--449},
+  publisher = {Academic Press Inc Elsevier Science},
+  doi = {10.1016/j.concog.2005.11.005},
+  journal = {Consciousness and Cognition},
+  author = {Murray Shanahan},
+  volume = {15},
+  year = {2006},
+  number = {2}
+}
+@incollection{Herschbach2008-HERTCO-13,
+  booktitle = {Proceedings of the 30th Annual Conference of the Cognitive Science Society},
+  author = {Mitchell Herschbach},
+  year = {2008},
+  title = {The Concept of Simulation in Control-Theoretic Accounts of Motor Control and Action Perception},
+  pages = {315--20},
+  publisher = {Cognitive Science Society},
+  editor = {B. C. Love and K. McRae and V. M. Sloutsky}
+}
+@unpublished{RobertDustinManuscript-ROBCEI-2,
+  author = {Wehr Robert Dustin},
+  title = {Correcting Errors in the Bostrom/Kulczycki Simulation Arguments}
+}
+@book{Dokic2002-DOKSAK,
+  publisher = {John Benjamins},
+  year = {2002},
+  title = {Simulation and Knowledge of Action},
+  author = {J\'er\^ome Dokic and Jo\"elle Proust}
+}
+@article{Ylikoski2014-YLIASA,
+  title = {Agent-Based Simulation and Sociological Understanding},
+  pages = {318--335},
+  doi = {10.1162/POSC\emph{a}00136},
+  journal = {Perspectives on Science},
+  volume = {22},
+  year = {2014},
+  author = {Petri Ylikoski},
+  number = {3}
+}
+@article{Mizrahi2017-MIZTFA,
+  number = {47},
+  author = {Moti Mizrahi},
+  year = {2017},
+  volume = {16},
+  journal = {Think},
+  doi = {10.1017/s1477175617000094},
+  pages = {93--102},
+  publisher = {Cambridge University Press (Cup)},
+  title = {The Fine-Tuning Argument and the Simulation Hypothesis}
+}
+@incollection{Varenne2001-VARWDA,
+  publisher = {Society for Computer Simulation (SCS)},
+  editor = {N. Giambiasi and C. Frydman},
+  year = {2001},
+  booktitle = {Simulation in industry - ESS 2001, Proc. of the 13th European Simulation Symposium},
+  title = {What Does a Computer Simulation Prove? The Case of Plant Modeling at CIRAD},
+  author = {Franck Varenne}
+}
+@article{Stich1997-STICPR-2,
+  pages = {297--326},
+  publisher = {Wiley-Blackwell},
+  doi = {10.1111/j.1468-0017.1997.tb00076.x},
+  title = {Cognitive Penetrability, Rationality and Restricted Simulation},
+  number = {3-4},
+  journal = {Mind and Language},
+  year = {1997},
+  author = {Stephen Stich and Shaun Nichols},
+  volume = {12}
+}
+@incollection{Goldman2002-GOLSTA,
+  editor = {J\'er\^ome Dokic and Jo\"elle Proust},
+  publisher = {John Benjamins},
+  year = {2002},
+  booktitle = {Simulation and Knowledge of Action},
+  author = {A. Goldman},
+  title = {Simulation Theory and Mental Concepts}
+}
+@incollection{Currie1995-CURIAS,
+  year = {1995},
+  booktitle = {Mental Simulation},
+  title = {Imagination as Simulation: Aesthetics Meets Cognitive Science},
+  author = {Gregory Currie},
+  publisher = {Blackwell},
+  editor = {Martin Davies and Tony Stone}
+}
+@unpublished{PeschardManuscript-PESISA,
+  title = {Is Simulation a Substitute for Experimentation?},
+  author = {Isabelle Peschard}
+}
+@article{Herschbach2012-HERMVS,
+  number = {3},
+  journal = {Synthese},
+  year = {2012},
+  author = {Mitchell Herschbach},
+  volume = {189},
+  pages = {483--513},
+  publisher = {Springer Nature},
+  doi = {10.1007/s11229-011-9969-6},
+  title = {Mirroring Versus Simulation: On the Representational Function of Simulation}
+}
+@article{Cochrane2010-AST,
+  number = {2},
+  journal = {Australasian Journal of Philosophy},
+  year = {2010},
+  author = {Tom Cochrane},
+  volume = {88},
+  publisher = {Taylor \& Francis},
+  pages = {191--207},
+  doi = {10.1080/00048400902941257},
+  title = {A Simulation Theory of Musical Expressivity}
+}
+@article{Birch2013-BIROTS,
+  journal = {Erkenntnis},
+  author = {Jonathan Birch},
+  year = {2013},
+  volume = {78},
+  number = {1},
+  title = {On the 'Simulation Argument' and Selective Scepticism},
+  doi = {10.1007/s10670-012-9400-9},
+  publisher = {Springer},
+  pages = {95--107}
+}
+@article{Revonsuo2000-REVDAC,
+  title = {Dreaming and Consciousness: Testing the Threat Simulation Theory of the Function of Dreaming},
+  publisher = {Association for the Scientific Study of Consciousness},
+  year = {2000},
+  author = {Antti Revonsuo and Katja Valli},
+  volume = {6},
+  journal = {PSYCHE: An Interdisciplinary Journal of Research On Consciousness}
+}
+@article{Gallagher2001-GALTPO,
+  number = {5-7},
+  journal = {Journal of Consciousness Studies},
+  author = {Shaun Gallagher},
+  volume = {8},
+  year = {2001},
+  pages = {83--108},
+  publisher = {Imprint Academic},
+  title = {The Practice of Mind: Theory, Simulation or Primary Interaction?}
+}
+@incollection{Arvan2015-ARVTPS,
+  editor = {},
+  year = {2015},
+  booktitle = {Scientia Salon},
+  author = {Marcus Arvan},
+  title = {The Peer-to-Peer Simulation Hypothesis and a New Theory of Free Will}
+}
+@article{Epstein2013-EPSTPO-4,
+  number = {2},
+  author = {Brian Epstein and Patrick Forber},
+  year = {2013},
+  volume = {190},
+  journal = {Synthese},
+  pages = {203--218},
+  doi = {10.1007/s11229-012-0142-7},
+  title = {The Perils of Tweaking: How to Use Macrodata to Set Parameters in Complex Simulation Models}
+}
+@article{Saxe2009-SAXTNE,
+  doi = {10.1007/s11098-009-9353-2},
+  publisher = {Springer},
+  pages = {447--456},
+  title = {The Neural Evidence for Simulation is Weaker Than I Think You Think It Is},
+  number = {3},
+  journal = {Philosophical Studies},
+  year = {2009},
+  author = {Rebecca Saxe},
+  volume = {144}
+}
+@article{Barlassina2013-BARSIN,
+  year = {2013},
+  author = {Luca Barlassina},
+  volume = {26},
+  journal = {Philosophical Psychology},
+  number = {3},
+  title = {Simulation is Not Enough: A Hybrid Model of Disgust Attribution on the Basis of Visual Stimuli},
+  doi = {10.1080/09515089.2012.659167},
+  pages = {401--419}
+}
+@article{Heal1996-HEASAC,
+  journal = {Mind and Language},
+  year = {1996},
+  author = {Jane Heal},
+  volume = {11},
+  number = {1},
+  title = {Simulation and Cognitive Penetrability},
+  publisher = {Wiley-Blackwell},
+  pages = {44--67},
+  doi = {10.1111/j.1468-0017.1996.tb00028.x}
+}
+@incollection{Proust2002-PROCRS-2,
+  publisher = {John Benjamins},
+  editor = {J\'er\^ome Dokic and Jo\"elle Proust},
+  author = {Jo\"elle Proust},
+  booktitle = {Simulation and Knowledge of Action},
+  year = {2002},
+  title = {Can 'Radical' Simulation Theories Explain Psychological Concept Acquisition?}
+}
+@article{Bach2011-BACSDF,
+  doi = {10.1080/09515089.2010.533261},
+  publisher = {Taylor \& Francis},
+  pages = {23--51},
+  title = {Structure-Mapping: Directions From Simulation to Theory},
+  number = {1},
+  journal = {Philosophical Psychology},
+  author = {Theodore Bach},
+  year = {2011},
+  volume = {24}
+}
+@article{Fisher2006-FISDST,
+  title = {Does Simulation Theory Really Involve Simulation?},
+  doi = {10.1080/09515080600726377},
+  publisher = {Routledge Journals, Taylor \& Francis Ltd},
+  pages = {417--432},
+  author = {Justin C. Fisher},
+  year = {2006},
+  volume = {19},
+  journal = {Philosophical Psychology},
+  number = {4}
+}
+@incollection{Heal1994-HEASVT,
+  publisher = {Oxford University Press},
+  editor = {Christopher Peacocke},
+  booktitle = {Objectivity, Simulation and the Unity of Consciousness: Current Issues in the Philosophy of Mind},
+  title = {Simulation Vs. Theory-Theory: What is at Issue?},
+  year = {1994},
+  author = {Jane Heal}
+}
+@incollection{Varenne2010-VARFFM,
+  publisher = {Presses Universitaires Blaise-Pascal},
+  editor = {Alexandre Muzy and David R. C. Hill and Bernard P. Zeigler},
+  booktitle = {Activity-Based Modeling and Simulation},
+  author = {Franck Varenne},
+  year = {2010},
+  title = {Framework for Models and Simulations with Agents in Regard to Agent Simulations in Social Sciences: Emulation and Simulation}
+}
+@article{Gustafsson2012-PETACS,
+  year = {2012},
+  volume = {184},
+  author = {Johan E. Gustafsson and Martin Peterson},
+  journal = {Synthese},
+  number = {3},
+  title = {A Computer Simulation of the Argument From Disagreement},
+  doi = {10.2307/41411200},
+  pages = {387--405}
+}
+@article{Barlassina2011-BARAAI-3,
+  pages = {92--111},
+  title = {After All, It\textquoterights Still Replication: A Reply to Jacob on Simulation and Mirror Neurons},
+  number = {1},
+  journal = {Res Cogitans},
+  author = {Luca Barlassina},
+  year = {2011},
+  volume = {8}
+}
+@article{Burns2017-BURESA-4,
+  journal = {Phenomenology and Mind},
+  author = {Timothy Burns},
+  year = {2017},
+  volume = {12},
+  title = {Empathy, Simulation, and Neuroscience: A Phenomenological Case Against Simulation Theory},
+  pages = {208--216}
+}
+@article{Lim2014-LIMBSA,
+  journal = {Ethics and Information Technology},
+  volume = {16},
+  author = {Daniel Lim},
+  year = {2014},
+  number = {2},
+  title = {Brain Simulation and Personhood: A Concern with the Human Brain Project},
+  pages = {77--89},
+  doi = {10.1007/s10676-013-9330-5}
+}
+@article{Zamuner2010-ZAMCES,
+  volume = {33},
+  author = {Edoardo Zamuner and Julian Kiverstein},
+  year = {2010},
+  journal = {Behavioral and Brain Sciences},
+  number = {6},
+  title = {Could Embodied Simulation Be a by-Product of Emotion Perception?},
+  pages = {449--449},
+  doi = {10.1017/s0140525x10001548}
+}
+@article{Aboulafia2011-ABOTTE,
+  journal = {European Journal of Pragmatism and American Philosophy},
+  author = {Mitchell Aboulafia},
+  year = {2011},
+  number = {2},
+  title = {Through the Eyes of Mad Men: Simulation, Interaction, and Ethics},
+  publisher = {Associazone Pragma},
+  pages = {133--147},
+  doi = {10.4000/ejpap.828}
+}
+@incollection{Recanati2002-RECSAK,
+  booktitle = {Simulation and Knowledge of Action},
+  title = {Varieties of Simulation},
+  year = {2002},
+  author = {Fran\c{c}ois Recanati},
+  pages = {151--171},
+  publisher = {Amsterdam: John Benjamins},
+  editor = {Jerome Dokic and Joelle Proust}
+}
+@incollection{Decety2002-DECNEF,
+  editor = {J\'er\^ome Dokic and Jo\"elle Proust},
+  publisher = {John Benjamins},
+  booktitle = {Simulation and Knowledge of Action},
+  year = {2002},
+  author = {J. Decety},
+  title = {Neurophysiological Evidence for Simulation and Action}
+}
+@article{Springer2013-SPRDSA,
+  pages = {936--952},
+  doi = {10.1111/cogs.12044},
+  title = {Dynamic Simulation and Static Matching for Action Prediction: Evidence From Body Part Priming},
+  number = {5},
+  author = {Anne Springer and Simone Brandst\"adter and Wolfgang Prinz},
+  volume = {37},
+  year = {2013},
+  journal = {Cognitive Science}
+}
+@article{Trenholme1994-TREAS,
+  pages = {115--131},
+  publisher = {University of Chicago Press},
+  doi = {10.1086/289783},
+  title = {Analog Simulation},
+  number = {1},
+  journal = {Philosophy of Science},
+  author = {Russell Trenholme},
+  volume = {61},
+  year = {1994}
+}
+@incollection{Bernier2002-BERFST,
+  editor = {Jerome Dokic and Joelle Proust},
+  publisher = {Amsterdam: John Benjamins},
+  title = {From Simulation to Theory},
+  booktitle = {Simulation and Knowledge of Action},
+  year = {2002},
+  author = {Paul Bernier}
+}
+@article{Wallin2011-WALIEB,
+  title = {Is Egocentric Bias Evidence for Simulation Theory?},
+  doi = {10.1007/s11229-009-9653-2},
+  pages = {503--514},
+  publisher = {Springer},
+  journal = {Synthese},
+  volume = {178},
+  author = {Annika Wallin},
+  year = {2011},
+  number = {3}
+}
+@unpublished{Lewis2012-LEWTDA,
+  year = {2012},
+  author = {Peter J. Lewis},
+  title = {The Doomsday Argument and the Simulation Argument}
+}
+@article{Testa2017-TESTIR,
+  number = {1},
+  year = {2017},
+  author = {Italo Testa},
+  volume = {8},
+  journal = {Pragmatism Today},
+  pages = {105--112},
+  title = {THE IMAGINATIVE REHEARSAL MODEL -- DEWEY, EMBODIED SIMULATION, AND THE NARRATIVE HYPOTHESIS}
+}
+@article{Wilkerson2001-WILSTA,
+  title = {Simulation, Theory, and the Frame Problem: The Interpretive Moment},
+  doi = {10.1080/09515080120051535},
+  pages = {141--153},
+  year = {2001},
+  author = {William S. Wilkerson},
+  volume = {14},
+  journal = {Philosophical Psychology},
+  number = {2}
+}
+@article{Varenne2003-VARLSI,
+  journal = {Natures Sciences Soci\'et\'es},
+  author = {Franck Varenne},
+  year = {2003},
+  volume = {11},
+  number = {1},
+  title = {La Simulation Informatique Face \`A la \guillemotleft M\'ethode des Mod\`eles \guillemotright. Le Cas de la Croissance des Plantes},
+  doi = {10.1016/s1240-1307(03)00004-9},
+  pages = {16--28}
+}
+@article{Tooming2015-TOOWPA,
+  title = {Without Pretense: A Critique of Goldman\textquoterights Model of Simulation},
+  pages = {561--575},
+  doi = {10.1007/s11097-013-9343-x},
+  journal = {Phenomenology and the Cognitive Sciences},
+  author = {Uku Tooming},
+  year = {2015},
+  volume = {14},
+  number = {3}
+}
+@incollection{Jacob2002-JACTSA,
+  year = {2002},
+  booktitle = {Simulation and Knowledge of Action},
+  author = {Pierre Jacob},
+  title = {The Scope and Limit of Mental Simulation},
+  publisher = {John Benjamins},
+  editor = {Jerome Dokic and Joelle Proust}
+}
+@article{Speed2014-SPEEMR,
+  pages = {367--382},
+  doi = {10.1111/cogs.12096},
+  title = {Eye Movements Reveal the Dynamic Simulation of Speed in Language},
+  number = {2},
+  author = {Laura J. Speed and Gabriella Vigliocco},
+  year = {2014},
+  volume = {38},
+  journal = {Cognitive Science}
+}
+@article{Perner2009-PERSL-2,
+  author = {Josef Perner and Johannes L. Brandl},
+  volume = {144},
+  year = {2009},
+  journal = {Philosophical Studies},
+  number = {3},
+  title = {Simulation \`A la Goldman: Pretend and Collapse},
+  pages = {435--446},
+  publisher = {Springer},
+  doi = {10.1007/s11098-009-9356-z}
+}
+@incollection{Perner1994-PERTNA,
+  editor = {Christopher Peacocke},
+  publisher = {Oxford University Press},
+  year = {1994},
+  booktitle = {Objectivity, Simulation and the Unity of Consciousness: Current Issues in the Philosophy of Mind},
+  author = {Josef Perner},
+  title = {The Necessity and Impossibility of Simulation}
+}
+@article{Gallese2012-GALRTD-2,
+  title = {Response to de Bruin and Gallagher: Embodied Simulation as Reuse is a Productive Explanation of a Basic Form of Mind-Reading},
+  pages = {99--100},
+  doi = {10.1016/j.tics.2011.12.002},
+  journal = {Trends in Cognitive Sciences},
+  author = {Vittorio Gallese and Corrado Sinigaglia},
+  year = {2012},
+  volume = {16},
+  number = {2}
+}
+@article{Varenne2008-VARMPL,
+  author = {Franck Varenne},
+  volume = {14},
+  year = {2008},
+  journal = {Noesis},
+  pages = {201--236},
+  title = {\'Emergences Par les R\`egles Sans \guillemotleft Formes de Vie \guillemotright Une Relecture de Kripke (1982) Pour la Simulation Informatique du Vivant}
+}
+@incollection{Fuller1995-FULSAP,
+  booktitle = {Mental Simulation},
+  title = {Simulation and Psychological Concepts},
+  year = {1995},
+  author = {Gary Fuller},
+  editor = {Martin Davies and Tony Stone},
+  publisher = {Blackwell}
+}
+@article{Wringe2009-WRISTA-4,
+  volume = {71},
+  year = {2009},
+  author = {Bill Wringe},
+  journal = {Erkenntnis},
+  number = {2},
+  title = {Simulation, Theory and Collapse},
+  doi = {10.1007/s10670-008-9123-0},
+  pages = {223--232},
+  publisher = {Springer}
+}
+@article{Haisch2014-HAIITU,
+  year = {2014},
+  author = {Bernard Haisch},
+  volume = {10},
+  journal = {Cosmos and History},
+  number = {1},
+  title = {Is the Universe a Vast, Consciousness-Created Virtual Reality Simulation?},
+  publisher = {Cosmos Publishing Cooperative},
+  pages = {48--60}
+}
+@incollection{Bach2010-BACPAS-3,
+  booktitle = {Pornography: Philosophy for Everyone},
+  year = {2010},
+  author = {Theodore Bach},
+  title = {Pornography as Simulation},
+  editor = {Dave Monroe}
+}
+@incollection{David2007-DAVSAF,
+  editor = {Carlos Gershenson and Diederik Aerts and Bruce Edmonds},
+  pages = {266--275},
+  publisher = {World Scientific},
+  booktitle = {Worldviews, Science, and Us: Philosophy and Complexity},
+  year = {2007},
+  author = {Nuno David and Jaime Sichman and Helder Coelho},
+  title = {Simulation as Formal and Generative Social Science: The Very Idea}
+}
+@incollection{Dokic2002-DOKRTT,
+  author = {J\'er\^ome Dokic},
+  booktitle = {Simulation and Knowledge of Action},
+  year = {2002},
+  title = {Reply to 'the Scope and Limit of Mental Simulation'},
+  publisher = {John Benjamins},
+  editor = {J\'er\^ome Dokic and Jo\"elle Proust}
+}
+@article{Speed2018-SPEAET-4,
+  journal = {Cognitive Science},
+  year = {2018},
+  author = {Laura J. Speed and Asifa Majid},
+  volume = {42},
+  number = {4},
+  title = {An Exception to Mental Simulation: No Evidence for Embodied Odor Language},
+  doi = {10.1111/cogs.12593},
+  pages = {1146--1178}
+}
+@article{Rossi2014-ROSSTA-6,
+  title = {Simulation Theory and Interpersonal Utility Comparisons Reconsidered},
+  pages = {1185--1210},
+  doi = {10.1007/s11229-013-0318-9},
+  year = {2014},
+  author = {Mauro Rossi},
+  volume = {191},
+  journal = {Synthese},
+  number = {6}
+}
+@article{Desjardins2006-DESITT,
+  title = {Is the Threat Simulation Theory Threatened by Recurrent Dreams?},
+  pages = {470--474},
+  publisher = {Academic Press Inc Elsevier Science},
+  doi = {10.1016/j.concog.2006.04.005},
+  journal = {Consciousness and Cognition},
+  year = {2006},
+  author = {Sophie Desjardins and Antonio Zadra},
+  volume = {15},
+  number = {2}
+}
+@article{Miller2004-MILASM,
+  pages = {355--367},
+  publisher = {Springer},
+  doi = {10.1023/B:BUSI.0000025030.60387.c3},
+  title = {A Simulation Model of Intergroup Conflict},
+  number = {4},
+  volume = {50},
+  author = {Holmes Miller and Kurt J. Engemann},
+  year = {2004},
+  journal = {Journal of Business Ethics}
+}
+@article{Bosse2009-BOSFAO-2,
+  pages = {543--555},
+  publisher = {Springer},
+  doi = {10.1007/s11023-009-9177-z},
+  title = {Formal Analysis of Dynamics Within Philosophy of Mind by Computer Simulation},
+  number = {4},
+  volume = {19},
+  author = {Tibor Bosse and Martijn C. Schut and Jan Treur},
+  year = {2009},
+  journal = {Minds and Machines}
+}
+@incollection{Gelfert2011-GELSMS,
+  publisher = {Routledge},
+  editor = {Paul Humphreys and Cyrille Imbert},
+  booktitle = {Models, Simulations, and Representations},
+  author = {Axel Gelfert},
+  year = {2011},
+  title = {Scientific Models, Simulation, and the Experimenter's Regress}
+}
+@article{Fernandez2003-JOREBC,
+  title = {Explanation by Computer Simulation in Cognitive Science},
+  pages = {269--284},
+  publisher = {Springer Netherlands},
+  doi = {10.1023/A:1022941621273},
+  journal = {Minds and Machines},
+  year = {2003},
+  author = {Jordi Fern\'andez},
+  volume = {13},
+  number = {2}
+}
+@article{RichmondAlasdair2017-RICWDA,
+  number = {3},
+  author = {M. Richmond Alasdair},
+  volume = {30},
+  year = {2017},
+  journal = {Ratio},
+  doi = {10.1111/rati.12135},
+  pages = {221--238},
+  title = {Why Doomsday Arguments Are Better Than Simulation Arguments}
+}
+@article{Pust1999-PUSEAO,
+  volume = {14},
+  year = {1999},
+  author = {Joel Pust},
+  journal = {Mind and Language},
+  number = {1},
+  title = {External Accounts of Folk Psychology, Eliminativism, and the Simulation Theory},
+  pages = {113--130},
+  doi = {10.1111/1468-0017.00105}
+}
+@article{Viseu2003-VISSAA,
+  number = {1},
+  volume = {5},
+  author = {Ana Viseu},
+  year = {2003},
+  journal = {Ethics and Information Technology},
+  publisher = {Springer Netherlands},
+  pages = {17--26},
+  doi = {10.1023/A:1024928320234},
+  title = {Simulation and Augmentation: Issues of Wearable Computers}
+}
+@article{Koehler2001-KOEIAC,
+  number = {4},
+  journal = {Theory and Decision},
+  author = {David H. Koehler},
+  volume = {50},
+  year = {2001},
+  doi = {10.1023/A:1010392320211},
+  pages = {305--332},
+  publisher = {Springer Netherlands},
+  title = {Instability and Convergence Under Simple-Majority Rule: Results From Simulation of Committee Choice in Two-Dimensional Space}
+}
+@article{Haladyn2010-HALSSA-2,
+  author = {Julian Haladyn and Miriam Jordan},
+  volume = {14},
+  year = {2010},
+  journal = {Film-Philosophy},
+  number = {1},
+  title = {Simulation, Simulacra and Solaris},
+  doi = {10.3366/film.2010.0009},
+  publisher = {Film-Philosophy},
+  pages = {253--273}
+}
+@article{Lobben2018-LOBGBA,
+  author = {Marit Lobben and Agata Bochynska},
+  year = {2018},
+  journal = {Cognitive Science},
+  doi = {10.1111/cogs.12524},
+  pages = {1--24},
+  title = {Grounding by Attention Simulation in Peripersonal Space: Pupils Dilate to Pinch Grip But Not Big Size Nominal Classifier}
+}
+@incollection{Campbell2002-CAMJAA-2,
+  author = {J. Campbell},
+  booktitle = {Simulation and Knowledge of Action},
+  year = {2002},
+  title = {Joint Attention and Simulation},
+  editor = {Jerome Dokic and Joelle Proust},
+  publisher = {John Benjamins},
+  pages = {241--253}
+}
+@article{Black1993-BLACAA-3,
+  title = {Consensus and Authenticity in Representation: Simulation as Participative Theatre},
+  doi = {10.1007/BF01891448},
+  pages = {40--51},
+  year = {1993},
+  author = {Michael T. Black},
+  volume = {7},
+  journal = {AI and Society},
+  number = {1}
+}
+@article{Kaur2015-KAUKAT,
+  number = {2},
+  volume = {30},
+  year = {2015},
+  author = {Gagan Deep Kaur},
+  journal = {AI and Society},
+  pages = {183--192},
+  doi = {10.1007/s00146-013-0495-6},
+  title = {Kant and the Simulation Hypothesis}
+}
+@article{Garson2003-GARSAC,
+  number = {4},
+  journal = {Philosophical Psychology},
+  volume = {16},
+  author = {James W. Garson},
+  year = {2003},
+  pages = {499--515},
+  doi = {10.1080/0951508032000121805},
+  title = {Simulation and Connectionism: What is the Connection?}
+}
+@incollection{Michael2007-MICSAA,
+  booktitle = {EPSA07},
+  year = {2007},
+  author = {John Michael},
+  title = {Simulation as an Epistemic Tool Between Theory and Practice: A Comparison of the Relationship Between Theory and Simulation in Science and Folk Psychology},
+  editor = {Not Applicable Not Applicable}
+}
+@article{Sterner2012-STEACS-2,
+  year = {2012},
+  author = {Beckett Sterner},
+  volume = {21},
+  journal = {Metascience},
+  number = {2},
+  title = {Agent-Based Computer Simulation and Ethics},
+  pages = {403--407},
+  doi = {10.1007/s11016-012-9660-7}
+}
+@article{Galgut2005-GALSAI,
+  journal = {Philosophical Papers},
+  author = {Elisa Galgut},
+  volume = {34},
+  year = {2005},
+  number = {1},
+  title = {Simulation and Irrationality},
+  doi = {10.1080/05568640509485149},
+  publisher = {Taylor \& Francis},
+  pages = {25--44}
+}
+@article{Perner2002-JOSFAT,
+  pages = {65--80},
+  publisher = {Springer Berlin / Heidelberg},
+  doi = {10.1007/BF02513148},
+  title = {Framing and the Theory-Simulation Controversy. Predicting People's Decisions},
+  number = {2},
+  journal = {Mind and Society},
+  volume = {3},
+  author = {Josef Perner and Anton K\"uhberger},
+  year = {2002}
+}
+@article{Squazzoni2009-SQUSIO,
+  title = {Special Issue On: Social Simulation},
+  doi = {10.1007/s11299-009-0066-1},
+  publisher = {Springer Berlin / Heidelberg},
+  pages = {131--134},
+  journal = {Mind and Society},
+  year = {2009},
+  volume = {8},
+  author = {Flaminio Squazzoni},
+  number = {2}
+}
+@incollection{Peterson2002-PETMSD,
+  booktitle = {Simulation and Knowledge of Action},
+  year = {2002},
+  title = {Mental Simulation, Dialogical Processing and the Syndrome of Autism},
+  author = {Donald M. Peterson},
+  editor = {},
+  publisher = {Amsterdam: John Benjamins}
+}
+@incollection{Child2002-CHIRTS,
+  editor = {Jerome Dokic and Joelle Proust},
+  publisher = {John Benjamins},
+  booktitle = {Simulation and Knowledge of Action},
+  author = {William Child},
+  year = {2002},
+  title = {Reply to \emph{Simulation Theory and Mental Concepts}}
+}
+@article{Goldman1992-GOLIDO,
+  journal = {Mind and Language},
+  volume = {7},
+  author = {A. Goldman},
+  year = {1992},
+  number = {1-2},
+  title = {In Defense of the Simulation Theory},
+  pages = {104--119},
+  doi = {10.1111/j.1468-0017.1992.tb00200.x}
+}
+@article{Gordon1992-GORTST,
+  doi = {10.1111/j.1468-0017.1992.tb00195.x},
+  pages = {11--34},
+  title = {The Simulation Theory: Objections and Misconceptions},
+  number = {1-2},
+  year = {1992},
+  volume = {7},
+  author = {Robert M. Gordon},
+  journal = {Mind and Language}
+}
+@article{Harris1992-HARFST,
+  doi = {10.1111/j.1468-0017.1992.tb00201.x},
+  pages = {120--144},
+  title = {From Simulation to Folk Psychology: The Case for Development},
+  number = {1-2},
+  author = {P. F. Harris},
+  year = {1992},
+  volume = {7},
+  journal = {Mind and Language}
+}
+@article{Stich1992-STIFPS,
+  publisher = {Ridgeview Publishing Company},
+  pages = {35--71},
+  doi = {10.1111/j.1468-0017.1992.tb00196.x},
+  title = {Folk Psychology: Simulation or Tacit Theory?},
+  number = {1-2},
+  volume = {7},
+  author = {Stephen P. Stich and Shaun Nichols},
+  year = {1992},
+  journal = {Mind and Language}
+}
+@article{Perner1992-PERHTH,
+  number = {1-2},
+  author = {Josef Perner and Deborrah Howes},
+  volume = {7},
+  year = {1992},
+  journal = {Mind and Language},
+  doi = {10.1111/j.1468-0017.1992.tb00197.x},
+  pages = {72--86},
+  title = {He Thinks He Knows: And More Developmental Evidence Against the Simulation (Role Taking) Theory}
+}
+@article{Alexander2018-ALEATO-6,
+  volume = {12},
+  author = {Samuel Alexander},
+  year = {2018},
+  journal = {The Reasoner},
+  number = {7},
+  title = {A Type of Simulation Which Some Experimental Evidence Suggests We Don't Live In},
+  pages = {56--56}
+}
+@book{Davies1995-DAVMSE-3,
+  author = {Martin Davies and Tony Stone},
+  year = {1995},
+  title = {Mental Simulation: Evaluations and Applications - Reading in Mind and Language},
+  publisher = {Wiley-Blackwell}
+}
+@article{Heal1998-HEACAO,
+  author = {Jane Heal},
+  volume = {13},
+  year = {1998},
+  journal = {Mind and Language},
+  number = {4},
+  title = {Co-Cognition and Off-Line Simulation: Two Ways of Understanding the Simulation Approach},
+  publisher = {Wiley-Blackwell},
+  pages = {477--498},
+  doi = {10.1111/1468-0017.00088}
+}
+@incollection{Goldman1996-GOLSAI,
+  booktitle = {Ethics},
+  year = {1996},
+  author = {A. Goldman},
+  title = {Simulation and Interpersonal Utility},
+  publisher = {MIT Press},
+  pages = {709--726},
+  editor = {L. May and Michael Friedman and A. Clark}
+}
+@article{Currie1995-CURVIA,
+  pages = {25--44},
+  doi = {10.1111/j.1468-0017.1995.tb00004.x},
+  title = {Visual Imagery as the Simulation of Vision},
+  number = {1-2},
+  journal = {Mind and Language},
+  author = {Gregory Currie},
+  volume = {10},
+  year = {1995}
+}
+@incollection{Spaulding2016-SPAST,
+  editor = {Amy Kind},
+  pages = {262--273},
+  publisher = {Routledge Press},
+  title = {Simulation Theory},
+  booktitle = {Handbook of Imagination},
+  year = {2016},
+  author = {Shannon Spaulding}
+}
+@article{Ravenscroft1998-RAVWII,
+  number = {2},
+  author = {Ian Ravenscroft},
+  volume = {11},
+  year = {1998},
+  journal = {Ratio},
+  pages = {170--185},
+  doi = {10.1111/1467-9329.00062},
+  title = {What is It Like to Be Someone Else? Simulation and Empathy}
+}
+@incollection{Kuipers2005-KUIVEA,
+  year = {2005},
+  booktitle = {Poznan Studies in the Philosophy of the Sciences and the Humanities},
+  author = {Theo A. F. Kuipers},
+  title = {Verstehen, Einfhlen and Mental Simulation: Reply to Anne Rugh Mackor},
+  pages = {263--267},
+  publisher = {New York: Rodopi NY},
+  editor = {}
+}
+@incollection{Stone1996-STOTMS,
+  editor = {Peter Carruthers and Peter K. Smith},
+  pages = {119--137},
+  publisher = {Cambridge University Press},
+  booktitle = {Theories of Theories of Mind},
+  title = {The Mental Simulation Debate: A Progress Report},
+  year = {1996},
+  author = {Tony Stone and Martin Davies}
+}
+@article{Adams2001-ADAENI,
+  year = {2001},
+  volume = {16},
+  author = {Frederick R. Adams},
+  journal = {Mind and Language},
+  number = {4},
+  title = {Empathy, Neural Imaging and the Theory Versus Simulation Debate},
+  publisher = {Wiley-Blackwell},
+  pages = {368--392},
+  doi = {10.1111/1468-0017.00176}
+}
+@article{Davies1994-DAVTMS,
+  journal = {Philosophical Issues},
+  author = {Martin Davies},
+  volume = {5},
+  year = {1994},
+  title = {The Mental Simulation Debate},
+  publisher = {Ridgeview Publishing Company},
+  pages = {189--218},
+  doi = {10.2307/1522880}
+}
+@incollection{Clark2005-CLATTM,
+  year = {2005},
+  booktitle = {Philosophical Essays on the Matrix},
+  title = {The Twisted Matrix: Dream, Simulation, or Hybrid?},
+  author = {Andy Clark},
+  editor = {C. Grau},
+  publisher = {Oxford University Press New York}
+}
+@article{Slors2010-SLONRB,
+  volume = {9},
+  author = {Marc Slors},
+  year = {2010},
+  journal = {Phenomenology and the Cognitive Sciences},
+  number = {3},
+  title = {Neural Resonance: Between Implicit Simulation and Social Perception},
+  doi = {10.1007/s11097-009-9144-4},
+  publisher = {Springer},
+  pages = {437--458}
+}
+@article{Jackson1999-JACATC,
+  title = {All That Can Be at Issue in the Theory-Theory/Simulation Debate},
+  pages = {77--96},
+  publisher = {Taylor \& Francis},
+  doi = {10.1080/05568649909506593},
+  author = {Frank Jackson},
+  year = {1999},
+  volume = {28},
+  journal = {Philosophical Papers},
+  number = {2}
+}
+@article{Clement2009-CLETRO-3,
+  pages = {686--710},
+  doi = {10.1111/j.1756-8765.2009.01031.x},
+  title = {The Role of Imagistic Simulation in Scientific Thought Experiments},
+  number = {4},
+  journal = {Topics in Cognitive Science},
+  author = {John J. Clement},
+  year = {2009},
+  volume = {1}
+}
+@article{Currie1997-CURMSA,
+  author = {Gregory Currie and Ian Ravenscroft},
+  year = {1997},
+  volume = {64},
+  journal = {Philosophy of Science},
+  number = {1},
+  title = {Mental Simulation and Motor Imagery},
+  doi = {10.1086/392541},
+  pages = {161--80},
+  publisher = {University of Chicago Press}
+}
+@article{Schulz2011-SCHSSA-5,
+  number = {2},
+  journal = {Philosophical Studies},
+  year = {2011},
+  author = {Armin Schulz},
+  volume = {152},
+  doi = {10.1007/s11098-009-9476-5},
+  publisher = {Springer},
+  pages = {271--285},
+  title = {Simulation, Simplicity, and Selection: An Evolutionary Perspective on High-Level Mindreading}
+}
+@article{Diallo2014-DIATAF-2,
+  number = {3},
+  volume = {19},
+  year = {2014},
+  author = {Saikou Y. Diallo and Jose J. Padilla and Ross Gore and Heber Herencia{-}Zapana and Andreas Tolk},
+  journal = {Complexity},
+  doi = {10.1002/cplx.21478},
+  pages = {56--63},
+  title = {Toward a Formalism of Modeling and Simulation Using Model Theory}
+}
+@incollection{Gordon2000-GORSAT,
+  publisher = {Boulder: Westview Press},
+  editor = {K. R. Stueber and H. H. Kogaler},
+  year = {2000},
+  booktitle = {Empathy and Agency: The Problem of Understanding in the Human Sciences},
+  title = {Simulation and the Explanation of Action},
+  author = {Robert M. Gordon}
+}
+@book{Varenne2007-VARDM,
+  publisher = {Vrin},
+  year = {2007},
+  title = {Du Mod\`ele \`A la Simulation Informatique},
+  author = {Franck Varenne}
+}
+@article{Sayama2011-SAYTEO,
+  number = {3},
+  journal = {Complexity},
+  author = {Hiroki Sayama and Dene L. Farrell and Shelley D. Dionne},
+  volume = {16},
+  year = {2011},
+  pages = {49--57},
+  doi = {10.1002/cplx.20329},
+  title = {The Effects of Mental Model Formation on Group Decision Making: An Agent-Based Simulation}
+}
+@article{Muzy2013-MUZROT,
+  title = {Refounding of the Activity Concept? Towards a Federative Paradigm for Modeling and Simulation},
+  pages = {156--177},
+  journal = {Simulation - Transactions of the Society for Modeling and Simulation International},
+  author = {Alexandre Muzy and Franck Varenne and Bernard P. Zeigler and Jonathan Caux and Patrick Coquillard and Luc Touraille and Dominique Prunetti and Philippe Caillou and Olivier Michel and David R. C. Hill},
+  year = {2013},
+  volume = {89},
+  number = {2}
+}
+@article{Chiem2014-CHIEKE,
+  number = {4},
+  year = {2014},
+  author = {Jean{-}Christophe Chi\^em and Th\'er\`ese Van Durme and Florence Vandendorpe and Olivier Schmitz and Niko Speybroeck and Sophie C\`es and Jean Macq},
+  volume = {20},
+  journal = {Journal of Evaluation in Clinical Practice},
+  doi = {10.1111/jep.12101},
+  pages = {534--543},
+  title = {Expert Knowledge Elicitation Using Computer Simulation: The Organization of Frail Elderly Case Management as an Illustration}
+}
+@article{Nichols1995-NICCEA,
+  journal = {Mind and Language},
+  author = {Shaun Nichols and Stephen P. Stich and Alan M. Leslie},
+  year = {1995},
+  volume = {10},
+  number = {4},
+  title = {Choice Effects and the Ineffectiveness of Simulation},
+  doi = {10.1111/j.1468-0017.1995.tb00023.x},
+  pages = {437--45}
+}
+@incollection{Ravenscroft2003-RAVSCA,
+  editor = {Jerome Dokic and Joelle Proust},
+  publisher = {John Benjamins},
+  pages = {162--174},
+  booktitle = {Mind and Language},
+  title = {Simulation, Collapse and Humean Motivation},
+  year = {2003},
+  author = {Ian Martin Ravenscroft}
+}
+@article{Kuhberger1995-ANTCON,
+  title = {Choice or No Choice: Is the Langer Effect Evidence Against Simulation?},
+  doi = {10.1111/j.1468-0017.1995.tb00022.x},
+  pages = {423--436},
+  author = {Anton K\"uhberger and Josef Perner and Michael Schulte and Robert Leingruber},
+  year = {1995},
+  volume = {10},
+  journal = {Mind and Language},
+  number = {4}
+}
+@incollection{Henderson2000-HENSAE,
+  booktitle = {Empathy and Agency: The Problem of Understanding in the Social Sciences},
+  author = {David K. Henderson and Terence E. Horgan},
+  year = {2000},
+  title = {Simulation and Epistemic Competence},
+  publisher = {Westview},
+  editor = {H. Kobler and K. Steuber}
+}
+@article{Arkway2000-ARKTST,
+  number = {2},
+  volume = {98},
+  author = {Angela Arkway},
+  year = {2000},
+  journal = {Philosophical Studies},
+  publisher = {Springer Netherlands},
+  pages = {115--137},
+  doi = {10.1023/A:1018331121169},
+  title = {The Simulation Theory, the Theory Theory and Folk Psychological Explanation}
+}
+@article{Greenwood1999-GRESTA,
+  number = {1},
+  journal = {Mind and Language},
+  author = {John D. Greenwood},
+  volume = {14},
+  year = {1999},
+  doi = {10.1111/1468-0017.00102},
+  pages = {32--56},
+  title = {Simulation, Theory-Theory and Cognitive Penetration: No 'Instance of the Fingerpost'}
+}
+@article{Yasarcan2010-YASIUL,
+  number = {4},
+  journal = {Complexity},
+  volume = {15},
+  year = {2010},
+  author = {Hakan Yasarcan},
+  pages = {NA-NA},
+  doi = {10.1002/cplx.20292},
+  title = {Improving Understanding, Learning, and Performances of Novices in Dynamic Managerial Simulation Games}
+}
+@article{Wringe2003-WRISCA,
+  doi = {10.1111/1468-0378.00190},
+  pages = {353--374},
+  publisher = {Wiley-Blackwell},
+  title = {Simulation, Co-Cognition, and the Attribution of Emotional States},
+  number = {3},
+  journal = {European Journal of Philosophy},
+  author = {Bill Wringe},
+  volume = {11},
+  year = {2003}
+}
+@article{Szilagyi2009-SZIASO-2,
+  title = {AgentBased Simulation of an NPerson Game with Parabolic Payoff Functions},
+  doi = {10.1002/cplx.20289},
+  pages = {50--60},
+  journal = {Complexity},
+  year = {2009},
+  volume = {15},
+  author = {Miklos N. Szilagyi and Iren Somogyi},
+  number = {3}
+}
+@article{Ferreira2008-FEROPF-2,
+  pages = {1031--1037},
+  doi = {10.1111/j.1365-2753.2007.00939.x},
+  title = {Optimizing Patient Flow in a Large Hospital Surgical Centre by Means of DiscreteEvent Computer Simulation Models},
+  number = {6},
+  author = {Rodrigo B. Ferreira and Fernando C. Coelli and Wagner C. A. Pereira and Renan M. V. R. Almeida},
+  year = {2008},
+  volume = {14},
+  journal = {Journal of Evaluation in Clinical Practice}
+}
+@incollection{Sutherland1974-SUTCSO,
+  year = {1974},
+  booktitle = {Philosophy Of Psychology},
+  title = {Computer Simulation of Brain Function},
+  author = {N. S. Sutherland},
+  publisher = {Macmillan},
+  editor = {}
+}
+@article{Morton1994-ADAGTA,
+  journal = {Ratio},
+  year = {1994},
+  author = {Adam Morton},
+  volume = {7},
+  number = {1},
+  title = {Game Theory and Knowledge by Simulation},
+  pages = {14--25},
+  doi = {10.1111/j.1467-9329.1994.tb00150.x}
+}
+@article{Sharpe1997-SHAOCF,
+  number = {1},
+  journal = {Inquiry: An Interdisciplinary Journal of Philosophy},
+  year = {1997},
+  author = {R. A. Sharpe},
+  volume = {40},
+  pages = {115--31},
+  doi = {10.1080/00201749708602441},
+  title = {One Cheer for the Simulation Theory}
+}
+@article{Rosenberg1974-ROSSWA,
+  doi = {10.1086/288603},
+  publisher = {University of Chicago Press},
+  pages = {412--414},
+  title = {Strong, Weak and Functional Equivalence in Machine Simulation},
+  number = {December},
+  author = {A. Rosenberg and N. J. Mackintosh},
+  year = {1974},
+  volume = {41},
+  journal = {Philosophy of Science}
+}
+@article{DeToro2018-DETBPM,
+  number = {222},
+  journal = {Semiotica},
+  author = {Fernando De Toro},
+  year = {2018},
+  volume = {2018},
+  doi = {10.1515/sem-2016-0175},
+  publisher = {De Gruyter},
+  pages = {313--320},
+  title = {Borges, Pierre Menard, Rhizomaticity, and the Simulation of Palimpsestic Writing}
+}
+@incollection{Goldie2002-GOLEPA,
+  editor = {},
+  publisher = {Brookfield: Ashgate},
+  booktitle = {Understanding Emotions: Mind and Morals},
+  year = {2002},
+  title = {Emotion, Personality and Simulation},
+  author = {Peter Goldie}
+}
+@article{DOro2009-DORRTA,
+  doi = {10.1111/j.1468-2303.2009.00492.x},
+  pages = {129--139},
+  publisher = {Wesleyan University Press},
+  title = {Reclaiming the Ancestors of Simulation Theory},
+  number = {1},
+  journal = {History and Theory},
+  author = {Giuseppina D'Oro},
+  year = {2009},
+  volume = {48}
+}
+@incollection{Cruse2001-CRUTEP,
+  booktitle = {Theory and Method in the Neurosciences},
+  title = {The Explanatory Power and Limits of Simulation Models in the Neurosciences},
+  year = {2001},
+  author = {H. Cruse},
+  editor = {Peter K. Machamer and Peter McLaughlin and Rick Grush},
+  publisher = {University of Pittsburgh Press},
+  pages = {138--154}
+}
+@article{Warren1999-WAREAC,
+  number = {1},
+  journal = {Mind and Language},
+  year = {1999},
+  author = {Dona Warren},
+  volume = {14},
+  doi = {10.1111/1468-0017.00107},
+  pages = {154--176},
+  title = {Externalism and Causality: Simulation and the Prospects for a Reconciliation}
+}
+@article{Coelli2010-COEACS,
+  number = {6},
+  volume = {16},
+  author = {Fernando C. Coelli and Renan M. V. R. Almeida and Wagner C. A. Pereira},
+  year = {2010},
+  journal = {Journal of Evaluation in Clinical Practice},
+  pages = {1198--1202},
+  doi = {10.1111/j.1365-2753.2009.01294.x},
+  title = {A Cost Simulation for Mammography Examinations Taking Into Account Equipment Failures and Resource Utilization Characteristics}
+}
+@incollection{Schatzki2000-SCHSTA,
+  editor = {K. R. Stueber and H. H. Kogaler},
+  publisher = {Boulder: Westview Press},
+  booktitle = {Empathy and Agency: The Problem of Understanding in the Human Sciences},
+  year = {2000},
+  title = {Simulation Theory and the Verstehen School: A Wittgensteinian Approach},
+  author = {Theodore R. Schatzki}
+}
+@article{Foltran2009-FOLMTP,
+  pages = {506--513},
+  doi = {10.1111/j.1365-2753.2008.01052.x},
+  title = {Monitoring the Performance of Intensive Care Units Using the Variable LifeAdjusted Display: A Simulation Study to Explore its Applicability and Efficiency},
+  number = {3},
+  volume = {15},
+  author = {Francesca Foltran and Ileana Baldi and Guido Bertolini and Franco Merletti and Dario Gregori},
+  year = {2009},
+  journal = {Journal of Evaluation in Clinical Practice}
+}
+@article{Uhr1962-UHRPRO,
+  journal = {Journal of Experimental Psychology},
+  author = {Leonard Uhr and Charles Vossler and James Uleman},
+  volume = {63},
+  year = {1962},
+  number = {3},
+  title = {Pattern Recognition Over Distortions, by Human Subjects and by a Computer Simulation of a Model for Human Form Perception},
+  doi = {10.1037/h0038404},
+  pages = {227}
+}
+@article{Singer2013-SINTHS,
+  number = {2},
+  journal = {Journal of Medical Humanities},
+  author = {Ben Singer},
+  volume = {34},
+  year = {2013},
+  doi = {10.1007/s10912-013-9229-5},
+  publisher = {Springer},
+  pages = {249--254},
+  title = {The Human Simulation Lab---Dissecting Sex in the Simulator Lab: The Clinical Lacuna of Transsexed Embodiment}
+}
+@article{Zhang2010-ZHACSA,
+  number = {5},
+  volume = {16},
+  author = {Fang Zhang and J. Frank Wharam and Dennis Ross{-}Degnan},
+  year = {2010},
+  journal = {Journal of Evaluation in Clinical Practice},
+  pages = {964--967},
+  doi = {10.1111/j.1365-2753.2009.01239.x},
+  title = {Comparing Simulation and Threshold Approaches When Analysing Data with Probabilities of Categories}
+}
+@article{White1985-WHICDM,
+  author = {Charles S. White},
+  volume = {2},
+  year = {1985},
+  journal = {Journal of Social Studies Research},
+  pages = {1--50},
+  title = {Citizen Decision Making, Reflective Thinking and Simulation Gaming: A Marriage of Purpose, Method and Strategy}
+}
+@article{Hershberger1974-HERSOA,
+  doi = {10.1037/h0037364},
+  pages = {844},
+  title = {Simulation of an Object Rotating in Depth: Constant and Reversed Projection Ratios},
+  number = {5},
+  journal = {Journal of Experimental Psychology},
+  year = {1974},
+  author = {Wayne A. Hershberger and David L. Carpenter and James Starzec and Nellie K. Laughlin},
+  volume = {103}
+}
+@article{Sbalzarini2013-SBAMAS,
+  doi = {10.1002/bies.201200051},
+  pages = {482--490},
+  title = {Modeling and Simulation of Biological Systems From Image Data},
+  number = {5},
+  author = {Ivo F. Sbalzarini},
+  year = {2013},
+  volume = {35},
+  journal = {Bioessays}
+}
+@article{Gertler2004-GERSTO,
+  volume = {20},
+  author = {Brie Gertler},
+  year = {2004},
+  journal = {ProtoSociology},
+  publisher = {Editorial Staff of Protosociology},
+  pages = {261--284},
+  doi = {10.5840/protosociology20042015},
+  title = {Simulation Theory on Conceptual Grounds}
+}
+@article{Rosenberg1973-ROSOFD,
+  doi = {10.1086/288501},
+  publisher = {University of Chicago Press},
+  pages = {118--120},
+  title = {On Fodor's Distinction Between Strong and Weak Equivalence in Machine Simulation},
+  number = {March},
+  journal = {Philosophy of Science},
+  author = {A. Rosenberg and N. J. Mackintosh},
+  volume = {40},
+  year = {1973}
+}
+@book{Weisberg2013-WEISAS-5,
+  publisher = {Oxford University Press},
+  year = {2013},
+  title = {Simulation and Similarity: Using Models to Understand the World},
+  author = {Michael Weisberg}
+}
+@article{BlanchetForthcoming-BLAEAT-9,
+  doi = {10.1007/s11245-018-09630-5},
+  pages = {1--9},
+  title = {Empathy as the Opposite of Egocentrism: Why the Simulation Theory and the Direct Perception Theory of Empathy Fail},
+  journal = {Topoi},
+  author = {Robert Blanchet},
+  year = {forthcoming}
+}
+@article{Zahavi2008-ZAHSPA,
+  title = {Simulation, Projection and Empathy},
+  doi = {10.1016/j.concog.2008.03.010},
+  pages = {514--522},
+  publisher = {Elsevier},
+  journal = {Consciousness and Cognition},
+  author = {Dan Zahavi},
+  year = {2008},
+  volume = {17},
+  number = {2}
+}
+@article{Gallagher2007-GALST,
+  pages = {353--365},
+  title = {Simulation Trouble},
+  number = {3-4},
+  volume = {2},
+  author = {Shaun Gallagher},
+  year = {2007},
+  journal = {Social Neuroscience}
+}
+@article{Hurley2008-HURTSC-2,
+  doi = {10.1017/s0140525x07003123},
+  pages = {1--22},
+  title = {The Shared Circuits Model (SCM): How Control, Mirroring, and Simulation Can Enable Imitation, Deliberation, and Mindreading},
+  number = {1},
+  journal = {Behavioral and Brain Sciences},
+  year = {2008},
+  author = {Susan Hurley},
+  volume = {31}
+}
+@article{Bostrom2003-BOSAWL-4,
+  pages = {243--255},
+  publisher = {Wiley-Blackwell},
+  doi = {10.1111/1467-9213.00309},
+  title = {Are We Living in a Computer Simulation?},
+  number = {211},
+  journal = {Philosophical Quarterly},
+  volume = {53},
+  author = {Nick Bostrom},
+  year = {2003}
+}
+@unpublished{Bostrom2003-BOSAYL,
+  year = {2003},
+  author = {Nick Bostrom},
+  title = {Are You Living in a Computer Simulation?},
+  publisher = {Wiley-Blackwell}
+}
+@article{Hurley2008-HURTSC,
+  number = {1},
+  author = {Susan L. Hurley},
+  volume = {31},
+  year = {2008},
+  journal = {Behavioral and Brain Sciences},
+  doi = {10.1017/S0140525X07003123},
+  pages = {1--22},
+  title = {The Shared Circuits Model. How Control, Mirroring, and Simulation Can Enable Imitation and Mind Reading}
+}
+@article{Lusk2016-LUSCSA,
+  title = {Computer Simulation and the Features of Novel Empirical Data},
+  doi = {10.1016/j.shpsa.2015.10.005},
+  publisher = {Elsevier Bv},
+  pages = {145--152},
+  journal = {Studies in History and Philosophy of Science Part A},
+  year = {2016},
+  author = {Greg Lusk},
+  volume = {56}
+}
+@article{Bostrom2003-BOSAWL,
+  journal = {Philosophical Quarterly},
+  year = {2003},
+  author = {By Nick Bostrom},
+  volume = {53},
+  number = {211},
+  title = {Are We Living in a Computer Simulation?},
+  doi = {10.1111/1467-9213.00309},
+  publisher = {Wiley-Blackwell},
+  pages = {243--255}
+}
+@article{Windt2018-WINPBD,
+  pages = {2577--2625},
+  publisher = {Springer Nature},
+  doi = {10.1007/s11229-017-1525-6},
+  title = {Predictive Brains, Dreaming Selves, Sleeping Bodies: How the Analysis of Dream Movement Can Inform a Theory of Self- and World-Simulation in Dreams},
+  number = {6},
+  year = {2018},
+  author = {Jennifer Windt},
+  volume = {195},
+  journal = {Synthese}
+}
+@article{Wasson2016-WASDAE-2,
+  number = {2},
+  year = {2016},
+  author = {Katherine Wasson and Kayhan Parsi and Michael McCarthy and Viva Jo Siddall and Mark Kuczewski},
+  volume = {28},
+  journal = {HEC Forum},
+  pages = {103--113},
+  publisher = {Springer Verlag},
+  doi = {10.1007/s10730-015-9276-6},
+  title = {Developing an Evaluation Tool for Assessing Clinical Ethics Consultation Skills in Simulation Based Education: The ACES Project}
+}
+@incollection{Hasse2017-HASBAB,
+  publisher = {Springer Verlag},
+  editor = {Martin Carrier and Johannes Lenhard},
+  author = {Hans Hasse and Johannes Lenhard},
+  booktitle = {Mathematics as a Tool},
+  year = {2017},
+  title = {Boon and Bane: On the Role of Adjustable Parameters in Simulation Models}
+}
+@article{MacLeod2013-MACCSA-19,
+  year = {2013},
+  volume = {44},
+  author = {Miles MacLeod and Nancy J. Nersessian},
+  journal = {Studies in History and Philosophy of Science Part C},
+  number = {4a},
+  title = {Coupling Simulation and Experiment: The Bimodal Strategy in Integrative Systems Biology},
+  pages = {572--584},
+  publisher = {Elsevier},
+  doi = {10.1016/j.shpsc.2013.07.001}
+}
+@article{Dardashti2017-DARCVA-4,
+  title = {Confirmation Via Analogue Simulation: What Dumb Holes Could Tell Us About Gravity},
+  doi = {10.1093/bjps/axv010},
+  journal = {British Journal for the Philosophy of Science},
+  author = {Radin Dardashti and Karim P. Y. Th\'ebault and Eric Winsberg},
+  volume = {68},
+  year = {2017},
+  number = {1}
+}
+@unpublished{RamachandranManuscript-RAMTSS-2,
+  title = {The Simulating Social Mind: The Role of the Mirror Neuron System and Simulation in the Social and Communicative Deficits of Autism Spectrum Disorders},
+  author = {Vilayanur S. Ramachandran}
+}
+@article{Parker2017-PARCSM-5,
+  author = {Wendy S. Parker},
+  year = {2017},
+  volume = {68},
+  journal = {British Journal for the Philosophy of Science},
+  number = {1},
+  title = {Computer Simulation, Measurement, and Data Assimilation},
+  pages = {273--304},
+  doi = {10.1093/bjps/axv037}
+}
+@article{Winsberg2009-WINCSA,
+  doi = {10.1111/j.1747-9991.2009.00236.x},
+  publisher = {Wiley-Blackwell},
+  pages = {835--845},
+  title = {Computer Simulation and the Philosophy of Science},
+  number = {5},
+  journal = {Philosophy Compass},
+  year = {2009},
+  volume = {4},
+  author = {Eric Winsberg}
+}
+@article{Olsson2011-OLSASA,
+  publisher = {Edinburgh University Press},
+  pages = {127--143},
+  doi = {10.3366/epi.2011.0012},
+  title = {A Simulation Approach to Veritistic Social Epistemology},
+  number = {2},
+  journal = {Episteme},
+  volume = {8},
+  author = {Erik J. Olsson},
+  year = {2011}
+}
+@article{Symons2019-SYMEEA,
+  author = {John Symons and Ram\'on Alvarado},
+  year = {2019},
+  volume = {29},
+  journal = {Minds and Machines},
+  number = {1},
+  title = {Epistemic Entitlements and the Practice of Computer Simulation},
+  doi = {10.1007/s11023-018-9487-0},
+  publisher = {Springer Verlag},
+  pages = {37--60}
+}
+@unpublished{KastnerManuscript-KSTWCA,
+  author = {Johannes K\"astner and Eckhart Arnold},
+  title = {When Can a Computer Simulation Act as Substitute for an Experiment? A Case-Study From Chemisty},
+  publisher = {Preprint}
+}
+@article{Lenhard2007-LENCST,
+  title = {Computer Simulation: The Cooperation Between Experimenting and Modeling},
+  publisher = {University of Chicago Press},
+  pages = {176--194},
+  doi = {10.1086/519029},
+  year = {2007},
+  author = {Johannes Lenhard},
+  volume = {74},
+  journal = {Philosophy of Science},
+  number = {2}
+}
+@incollection{Carruthers1996-CARSAS,
+  pages = {22--38},
+  publisher = {Cambridge University Press},
+  editor = {Peter Carruthers and Peter K. Smith},
+  booktitle = {Theories of Theories of Mind},
+  year = {1996},
+  title = {Simulation and Self-Knowledge: A Defence of the Theory-Theory},
+  author = {Peter Carruthers}
+}
+@article{Parker2008-PARCST-3,
+  title = {Computer Simulation Through an Error-Statistical Lens},
+  doi = {10.1007/s11229-007-9296-0},
+  publisher = {Springer},
+  pages = {371--384},
+  author = {Wendy S. Parker},
+  year = {2008},
+  volume = {163},
+  journal = {Synthese},
+  number = {3}
+}
+@incollection{Kaminski2017-KAMOOA-2,
+  year = {2017},
+  booktitle = {The Science and Art of Simulation I Exploring - Understanding - Knowing},
+  author = {Andreas Kaminski and Christoph Hubig},
+  title = {Outlines of a Pragmatic Theory of Truth and Error in Computer Simulation},
+  pages = {121--136},
+  publisher = {Heidelberg: Springer},
+  editor = {Michael M. Resch and Andreas Kaminski and Petra Gehring}
+}
+@unpublished{GoldmanManuscript-GOLMMA-3,
+  author = {Alvin I. Goldman},
+  title = {Mirroring, Mindreading, and Simulation}
+}
+@article{Lehtinen2007-LEHCTP,
+  title = {Computing the Perfect Model: Why Do Economists Shun Simulation?},
+  doi = {10.1086/522359},
+  publisher = {University of Chicago Press},
+  pages = {304--329},
+  journal = {Philosophy of Science},
+  author = {Aki Lehtinen and Jaakko Kuorikoski},
+  volume = {74},
+  year = {2007},
+  number = {3}
+}
+@incollection{Nichols1996-NICVOO,
+  author = {Shaun Nichols and Stephen P. Stich and Alan M. Leslie and David B. Klein},
+  booktitle = {[Book Chapter]},
+  year = {1996},
+  title = {Varieties of Off-Line Simulation},
+  publisher = {Cambridge University Press},
+  pages = {39--74},
+  editor = {Peter Carruthers and Peter K. Smith}
+}
+@article{Heberlein2009-HEBNEF,
+  author = {Andrea S. Heberlein and Anthony P. Atkinson},
+  year = {2009},
+  volume = {1},
+  journal = {Emotion Review},
+  number = {2},
+  title = {Neuroscientific Evidence for Simulation and Shared Substrates in Emotion Recognition: Beyond Faces},
+  doi = {10.1177/1754073908100441},
+  pages = {162--177}
+}
+@article{Lenhard2006-LENSBA,
+  journal = {Philosophy of Science},
+  volume = {73},
+  author = {Johannes Lenhard},
+  year = {2006},
+  number = {5},
+  title = {Surprised by a Nanowire: Simulation, Control, and Understanding},
+  pages = {605--616},
+  publisher = {University of Chicago Press},
+  doi = {10.1086/518330}
+}
+@article{Weisberg2015-WEIBAP-2,
+  number = {2},
+  journal = {Biology and Philosophy},
+  author = {Michael Weisberg},
+  volume = {30},
+  year = {2015},
+  doi = {10.1007/s10539-015-9475-1},
+  pages = {299--310},
+  publisher = {Springer Netherlands},
+  title = {Biology and Philosophy Symposium on Simulation and Similarity: Using Models to Understand the World}
+}
+@incollection{Gallagher2006-GALLAP,
+  booktitle = {Folk Psychology Re-Assessed. 63-78. Dordrecht: Springer Publishers},
+  year = {2006},
+  title = {Logical and Phenomenological Arguments Against Simulation Theory},
+  author = {Shaun Gallagher},
+  publisher = {Kluwer/Springer Press},
+  pages = {63--78},
+  editor = {Daniel D. Hutto and Matthew Ratcliffe}
+}
+@article{Keller2007-PKEPDB,
+  title = {Pianists Duet Better When They Play with Themselves: On the Possible Role of Action Simulation in Synchronization},
+  publisher = {Elsevier},
+  pages = {102--111},
+  doi = {10.1016/j.concog.2005.12.004},
+  journal = {Consciousness and Cognition},
+  year = {2007},
+  author = {Peter E. Keller and G\"unther Knoblich and Bruno H. Repp},
+  volume = {16},
+  number = {1}
+}
+@article{Rohrlich1990-ROHCSI,
+  publisher = {University of Chicago Press},
+  pages = {507--518},
+  title = {Computer Simulation in the Physical Sciences},
+  journal = {PSA: Proceedings of the Biennial Meeting of the Philosophy of Science Association},
+  author = {Fritz Rohrlich},
+  year = {1990},
+  volume = {1990}
+}
+@article{OConnor2016-OCOBHB-2,
+  number = {4},
+  volume = {83},
+  author = {Cailin O'Connor and James Owen Weatherall},
+  year = {2016},
+  journal = {Philosophy of Science},
+  pages = {613--626},
+  doi = {10.1086/687265},
+  title = {Black Holes, Black Scholes, and Prairie Voles: An Essay Review of Simulation and Similarity by Michael Weisberg}
+}
+@article{Bostrom2011-BOSAPF-3,
+  number = {1},
+  author = {N. Bostrom and M. Kulczycki},
+  year = {2011},
+  volume = {71},
+  journal = {Analysis},
+  doi = {10.1093/analys/anq107},
+  pages = {54--61},
+  publisher = {Oxford University Press},
+  title = {A Patch for the Simulation Argument}
+}
+@article{GibbsJr2006-RAYMIA,
+  number = {3},
+  year = {2006},
+  author = {Raymond W. Gibbs Jr},
+  volume = {21},
+  journal = {Mind and Language},
+  doi = {10.1111/j.1468-0017.2006.00285.x},
+  publisher = {Wiley-Blackwell},
+  pages = {434--458},
+  title = {Metaphor Interpretation as Embodied Simulation}
+}
+@article{Stone2001-STOMST-2,
+  doi = {10.5840/philtopics2001291/212},
+  pages = {127--173},
+  publisher = {University of Arkansas Press},
+  title = {Mental Simulation, Tacit Theory, and the Threat of Collapse},
+  number = {1/2},
+  author = {Tony Stone},
+  volume = {29},
+  year = {2001},
+  journal = {Philosophical Topics}
+}
+@article{Newen2009-NEWUOM,
+  doi = {10.1163/18756735-90000865},
+  publisher = {Editions Rodopi},
+  pages = {209--242},
+  title = {Understanding Other Minds: A Criticism of Goldman\textquoterights Simulation Theory and an Outline of the Person Model Theory},
+  number = {1},
+  journal = {Grazer Philosophische Studien},
+  author = {Albert Newen and Tobias Schlicht},
+  year = {2009},
+  volume = {79}
+}
+@article{Odenbaugh2015-ODESOS,
+  author = {Jay Odenbaugh},
+  year = {2015},
+  volume = {30},
+  journal = {Biology and Philosophy},
+  number = {2},
+  title = {Semblance or Similarity? Reflections on Simulation and Similarity},
+  doi = {10.1007/s10539-014-9446-y},
+  pages = {277--291},
+  publisher = {Springer Netherlands}
+}
+@article{Spaulding2011-SPAACO-3,
+  number = {3},
+  author = {Shannon Spaulding},
+  year = {2011},
+  volume = {2},
+  journal = {Review of Philosophy and Psychology},
+  doi = {10.1007/s13164-011-0071-2},
+  pages = {579--599},
+  title = {A Critique of Embodied Simulation}
+}
+@book{Arnold2008-ARNEAA-4,
+  year = {2008},
+  author = {Eckhart Arnold},
+  title = {Explaining Altruism. A Simulation-Based Approach and its Limits},
+  publisher = {Ontos Verlag}
+}
+@article{Valli2005-KVATTS,
+  title = {The Threat Simulation Theory of the Evolutionary Function of Dreaming: Evidence From Dreams of Traumatized Children},
+  pages = {188--218},
+  publisher = {Elsevier},
+  doi = {10.1016/s1053-8100(03)00019-9},
+  year = {2005},
+  author = {Katja Valli and Antti Revonsuo and Outi P\"alk\"as and Kamaran Hassan Ismail and Karzan Jalal Ali and Raija{-}Leena Punam\"aki},
+  volume = {14},
+  journal = {Consciousness and Cognition},
+  number = {1}
+}
+@article{Marchionni2013-MARGEA-2,
+  journal = {Philosophy of the Social Sciences},
+  author = {C. Marchionni and P. Ylikoski},
+  volume = {43},
+  year = {2013},
+  number = {3},
+  title = {Generative Explanation and Individualism in Agent-Based Simulation},
+  doi = {10.1177/0048393113488873},
+  publisher = {Sage},
+  pages = {323--340}
+}
+@article{Roush2018-ROUTES-4,
+  number = {11},
+  volume = {195},
+  author = {Sherrilyn Roush},
+  year = {2018},
+  journal = {Synthese},
+  pages = {4883--4906},
+  publisher = {Springer Verlag},
+  doi = {10.1007/s11229-017-1431-y},
+  title = {The Epistemic Superiority of Experiment to Simulation}
+}
+@article{Zadra2006-ZADEFO,
+  title = {Evolutionary Function of Dreams: A Test of the Threat Simulation Theory in Recurrent Dreams},
+  doi = {10.1016/j.concog.2005.02.002},
+  publisher = {Academic Press Inc Elsevier Science},
+  pages = {450--463},
+  journal = {Consciousness and Cognition},
+  author = {Antonio Zadra and Sophie Desjardins and \'Eric Marcotte},
+  volume = {15},
+  year = {2006},
+  number = {2}
+}
+@article{Arnold2013-ARNSMO-2,
+  author = {Eckhart Arnold},
+  volume = {2},
+  year = {2013},
+  journal = {Ethics and Politics},
+  number = {XV},
+  title = {Simulation Models of the Evolution of Cooperation as Proofs of Logical Possibilities. How Useful Are They?},
+  publisher = {Edizioni Universit\`a de Trieste},
+  pages = {101--138}
+}
+@article{PooleForthcoming-POOETA,
+  title = {\textquoteleftEco This and Recycle That\textquoteright: An Ecolinguistic Analysis of a Popular Digital Simulation Game},
+  doi = {10.1080/17405904.2019.1617177},
+  pages = {1--14},
+  year = {forthcoming},
+  author = {Robert Poole and Sydney Spangler},
+  journal = {Critical Discourse Studies}
+}
+@article{Bianchin2015-BIASAT-3,
+  title = {Simulation and the We-Mode. A Cognitive Account of Plural First Persons},
+  pages = {442--461},
+  publisher = {Sage Publications},
+  doi = {10.1177/0048393115580267},
+  journal = {Philosophy of the Social Sciences},
+  author = {Matteo Bianchin},
+  year = {2015},
+  volume = {45},
+  number = {4-5}
+}
+@article{Arnold2013-ARNSMO,
+  journal = {Etica E Politica},
+  author = {Eckhart Arnold},
+  year = {2013},
+  volume = {15},
+  number = {2},
+  title = {Simulation Models of the Evolution of Cooperation as Proofs of Logical Possibilities. How Useful Are They?},
+  pages = {101--138},
+  publisher = {University of Trieste, Department of Philosophy}
+}
+@article{Parker2008-PARFHA,
+  title = {Franklin, Holmes, and the Epistemology of Computer Simulation},
+  publisher = {Taylor \& Francis},
+  pages = {165--183},
+  doi = {10.1080/02698590802496722},
+  year = {2008},
+  author = {Wendy S. Parker},
+  volume = {22},
+  journal = {International Studies in the Philosophy of Science},
+  number = {2}
+}
+@article{Roush2015-ROUTES-3,
+  journal = {Synthese},
+  year = {2015},
+  author = {Sherrilyn Roush},
+  doi = {10.1007/s11229-017-1431-y},
+  pages = {1--24},
+  title = {The Epistemic Superiority of Experiment to Simulation}
+}
+@article{Bostrom2009-BOSTSA-3,
+  journal = {Analysis},
+  year = {2009},
+  author = {Nick Bostrom},
+  volume = {69},
+  number = {3},
+  title = {The Simulation Argument: Some Explanations},
+  publisher = {Oxford University Press},
+  pages = {458--461},
+  doi = {10.1093/analys/anp063}
+}
+@article{Kelty2018-KELRLS,
+  pages = {16},
+  doi = {10.1007/s40656-017-0181-y},
+  title = {Robot Life: Simulation and Participation in the Study of Evolution and Social Behavior},
+  number = {1},
+  journal = {History and Philosophy of the Life Sciences},
+  volume = {40},
+  author = {Christopher M. Kelty},
+  year = {2018}
+}
+@article{Washausen2018-WASPAL-2,
+  title = {Possibilities and Limitations of Three-Dimensional Reconstruction and Simulation Techniques to Identify Patterns, Rhythms and Functions of Apoptosis in the Early Developing Neural Tube},
+  doi = {10.1007/s40656-018-0222-1},
+  pages = {55},
+  journal = {History and Philosophy of the Life Sciences},
+  author = {Stefan Washausen and Thomas Scheffel and Guido Brunnett and Wolfgang Knabe},
+  year = {2018},
+  volume = {40},
+  number = {3}
+}
+@incollection{Cruz2002-CRUST,
+  booktitle = {Encyclopedia of Cognitive Science},
+  author = {Joe Cruz and Robert M. Gordon},
+  year = {2002},
+  title = {Simulation Theory},
+  editor = {L. Nagel},
+  publisher = {Nature Publishing Group}
+}
+@article{Zahle2013-ZAHGEA,
+  doi = {10.1177/0048393113488873},
+  pages = {323--340},
+  publisher = {Sage Publications},
+  title = {Generative Explanation and Individualism in Agent-Based Simulation},
+  number = {3},
+  author = {Julie Zahle},
+  volume = {43},
+  year = {2013},
+  journal = {Philosophy of the Social Sciences}
+}
+@unpublished{DaintonManuscript-DAIILS,
+  title = {Innocence Lost: Simulation Scenarios: Prospects and Consequences},
+  author = {Barry Francis Dainton}
+}
+@article{Farisco2018-FARLBS,
+  author = {Michele Farisco and Jeanette H. Kotaleski and Kathinka Evers},
+  year = {2018},
+  volume = {9},
+  journal = {Frontiers in Psychology},
+  doi = {10.3389/fpsyg.2018.00585},
+  title = {Large-Scale Brain Simulation and Disorders of Consciousness. Mapping Technical and Conceptual Issues}
+}
+@unpublished{Franceschi2008-FRATSA,
+  title = {The Simulation Argument and the Self-Indication Assumption},
+  year = {2008},
+  author = {Paul Franceschi}
+}
+@article{Resch2019-RESTEI-2,
+  number = {1},
+  journal = {Minds and Machines},
+  year = {2019},
+  author = {Michael Resch and Andreas Kaminski},
+  volume = {29},
+  pages = {9--17},
+  publisher = {Springer Verlag},
+  doi = {10.1007/s11023-019-09496-5},
+  title = {The Epistemic Importance of Technology in Computer Simulation and Machine Learning}
+}
+@article{Gordon2001-GORSAR,
+  title = {Simulation and Reason Explanation: The Radical View},
+  doi = {10.5840/philtopics2001291/210},
+  publisher = {University of Arkansas Press},
+  pages = {175--192},
+  journal = {Philosophical Topics},
+  author = {Robert M. Gordon},
+  year = {2001},
+  volume = {29},
+  number = {1-2}
+}
+@article{Schacter2007-SCHOTC-7,
+  title = {On the Constructive Episodic Simulation of Past and Future Events},
+  pages = {331--332},
+  doi = {10.1017/S0140525X07002178},
+  journal = {Behavioral and Brain Sciences},
+  author = {Daniel L. Schacter and Donna Rose Addis},
+  year = {2007},
+  volume = {30},
+  number = {3}
+}
+@article{Vigil2010-VIGESA,
+  doi = {10.1017/s0140525x10001603},
+  pages = {461--463},
+  title = {Embodied Simulation and the Search for Meaning Are Not Necessary for Facial Expression Processing},
+  number = {6},
+  journal = {Behavioral and Brain Sciences},
+  author = {Jacob M. Vigil and Patrick Coulombe},
+  year = {2010},
+  volume = {33}
+}
+@article{Hanson2001-HANHTL,
+  title = {How to Live in a Simulation},
+  author = {Robin Hanson},
+  year = {2001},
+  volume = {7},
+  journal = {Journal of Evolution and Technology},
+  number = {1}
+}
+@article{Hunt1997-HUNEAP,
+  title = {Ethics and Performance: A Simulation Analysis of Team Decision Making},
+  doi = {10.1023/A:1017987224590},
+  publisher = {Springer Netherlands},
+  pages = {195--203},
+  author = {Tammy G. Hunt and Daniel F. Jennings},
+  volume = {16},
+  year = {1997},
+  journal = {Journal of Business Ethics},
+  number = {2}
+}
+@article{Bostrom2005-NICTSA-4,
+  year = {2005},
+  author = {Nick Bostrom},
+  volume = {55},
+  journal = {Philosophical Quarterly},
+  number = {218},
+  title = {The Simulation Argument: Reply to Weatherson},
+  pages = {90--97},
+  publisher = {Wiley-Blackwell},
+  doi = {10.1111/j.0031-8094.2005.00387.x}
+}
+@article{DiIorio2019-DIIOTC,
+  doi = {10.1177/0539018419852526},
+  pages = {354--376},
+  title = {On the Connection Between Agent-Based Simulation and Methodological Individualism},
+  number = {2},
+  journal = {Social Science Information},
+  author = {Francesco Di Iorio and Shu{-}Heng Chen},
+  volume = {58},
+  year = {2019}
+}
+@article{Zhang2019-ZHATEO-17,
+  pages = {39--48},
+  publisher = {De Gruyter},
+  doi = {10.1515/opphil-2019-0005},
+  title = {The Evaluation of Discovery: Models, Simulation and Search Through \textquotedblleftBig Data\textquotedblright},
+  number = {1},
+  volume = {2},
+  author = {Kun Zhang and Joseph D. Ramsey and Clark Glymour},
+  year = {2019},
+  journal = {Open Philosophy}
+}
+@article{Beisbart2014-BEIAWS,
+  number = {3},
+  journal = {The Monist},
+  year = {2014},
+  author = {Claus Beisbart},
+  volume = {97},
+  doi = {10.5840/monist201497325},
+  publisher = {The Hegeler Institute},
+  pages = {399--417},
+  title = {Are We Sims? How Computer Simulations Represent and What This Means for the Simulation Argument}
+}
+@unpublished{Peschard2011-PESISA-2,
+  year = {2011},
+  author = {Isabelle Peschard},
+  title = {Is Simulation an Epistemic Substitute for Experimentation?}
+}
+@article{Stueber2002-STUTPB,
+  title = {The Psychological Basis of Historical Explanation: Reenactment, Simulation, and the Fusion of Horizons},
+  doi = {10.1111/1468-2303.00189},
+  publisher = {Wesleyan University Press},
+  pages = {25--42},
+  journal = {History and Theory},
+  volume = {41},
+  author = {Karsten R. Stueber},
+  year = {2002},
+  number = {1}
+}
+@incollection{Hutto2007-HUTFPW,
+  publisher = {Springer},
+  pages = {115--135},
+  editor = {D. Hutto and M. Ratcliffe},
+  author = {Daniel D. Hutto},
+  booktitle = {Folk Psychology Reassessed},
+  year = {2007},
+  title = {Folk Psychology Without Theory or Simulation}
+}
+@article{Revonsuo2008-AREHTT,
+  number = {4},
+  author = {Antti Revonsuo and Katja Valli},
+  volume = {17},
+  year = {2008},
+  journal = {Consciousness and Cognition},
+  pages = {1292--1296},
+  publisher = {Elsevier},
+  doi = {10.1016/j.concog.2008.01.007},
+  title = {How to Test the Threat-Simulation Theory}
+}
+@article{Michael2006-MICSCA,
+  number = {5},
+  author = {V. Antony Michael},
+  volume = {29},
+  year = {2006},
+  journal = {Behavioral and Brain Sciences},
+  pages = {462--463},
+  doi = {10.1017/s0140525x06229108},
+  title = {Simulation Constraints, Afterlife Beliefs, and Common-Sense Dualism}
+}
+@article{Crawford2013-CRAFOA,
+  title = {Freak Observers and the Simulation Argument},
+  publisher = {Wiley-Blackwell},
+  pages = {250--264},
+  doi = {10.1111/rati.12009},
+  author = {Lyle Crawford},
+  year = {2013},
+  volume = {26},
+  journal = {Ratio},
+  number = {3}
+}
+@article{Stone1998-STOFPA,
+  journal = {Royal Institute of Philosophy Supplement},
+  year = {1998},
+  author = {Tony Stone and Martin Davies},
+  volume = {43},
+  publisher = {Cambridge University Press},
+  pages = {53--82},
+  doi = {10.1017/S1358246100004306},
+  title = {Folk Psychology and Mental Simulation}
+}
+@unpublished{Lenhard2016-LENTEA-3,
+  author = {Johannes Lenhard},
+  year = {2016},
+  title = {Thought Experiments and Simulation Experiments: Exploring Hypothetical Worlds}
+}
+@article{Gallese2012-GALEME-2,
+  publisher = {New University of Lisbon},
+  pages = {183--210},
+  title = {Embodying Movies: Embodied Simulation and Film Studies},
+  year = {2012},
+  volume = {3},
+  author = {Vittorio Gallese and Michele Guerra},
+  journal = {Cinema}
+}
+@article{Saam2017-SAAWIA,
+  title = {What is a Computer Simulation? A Review of a Passionate Debate},
+  publisher = {Springer Verlag},
+  pages = {293--309},
+  doi = {10.1007/s10838-016-9354-8},
+  year = {2017},
+  author = {Nicole Saam},
+  volume = {48},
+  journal = {Journal for General Philosophy of Science / Zeitschrift f\"ur Allgemeine Wissenschaftstheorie},
+  number = {2}
+}
+@incollection{Kuorikoski2009-KUOSAT,
+  year = {2009},
+  booktitle = {Models, Simulations, and Representations},
+  title = {Simulation and the Sense of Understanding},
+  author = {Jaakko Kuorikoski},
+  publisher = {Routledge},
+  editor = {Paul Humphreys and Cyrille Imbert}
+}
+@unpublished{Dardashti2015-DARCVA-3,
+  year = {2015},
+  author = {Radin Dardashti and Stephan Hartmann and Karim P. Y. Th\'ebault and Eric Winsberg},
+  title = {Confirmation Via Analogue Simulation: A Bayesian Analysis}
+}
+@book{Peacocke1994-PEASAT-3,
+  publisher = {British Academy},
+  title = {Objectivity, Simulation and the Unity of Consciousness: Current Issues in the Philosophy of Mind},
+  year = {1994},
+  author = {Christopher Peacocke}
+}
+@article{Ramsey2010-RAMHNT,
+  number = {6},
+  volume = {23},
+  author = {William Ramsey},
+  year = {2010},
+  journal = {Philosophical Psychology},
+  publisher = {Taylor \& Francis},
+  pages = {775--795},
+  doi = {10.1080/09515089.2010.529047},
+  title = {How Not to Build a Hybrid: Simulation Vs. Fact-Finding}
+}
+@article{Gallese2019-GALESI,
+  number = {2},
+  journal = {Gestalt Theory},
+  author = {Vittorio Gallese},
+  year = {2019},
+  volume = {41},
+  publisher = {Sciendo},
+  pages = {113--127},
+  doi = {10.2478/gth-2019-0013},
+  title = {Embodied Simulation. Its Bearing on Aesthetic Experience and the Dialogue Between Neuroscience and the Humanities}
+}
+@article{Cotterill2003-COTCAS,
+  number = {4-5},
+  journal = {Journal of Consciousness Studies},
+  year = {2003},
+  author = {Rodney M. J. Cotterill},
+  volume = {10},
+  publisher = {Imprint Academic},
+  pages = {31--45},
+  title = {Cyberchild: A Simulation Test-Bed for Consciousness Studies}
+}
+@article{Wilkinson2012-WILWSO,
+  year = {2012},
+  volume = {3},
+  author = {Meredith R. Wilkinson and Linden J. Ball},
+  journal = {Review of Philosophy and Psychology},
+  number = {2},
+  title = {Why Studies of Autism Spectrum Disorders Have Failed to Resolve the Theory Theory Versus Simulation Theory Debate},
+  pages = {263--291},
+  doi = {10.1007/s13164-012-0097-0}
+}
+@article{Biggs2007-BIGTPM,
+  title = {The Phenomenal Mindreader: A Case for Phenomenal Simulation},
+  pages = {29--42},
+  publisher = {Routledge Journals, Taylor \& Francis Ltd},
+  doi = {10.1080/09515080601108013},
+  author = {Stephen Biggs},
+  year = {2007},
+  volume = {20},
+  journal = {Philosophical Psychology},
+  number = {1}
+}
+@article{Zhao2008-ZHAESO,
+  number = {4},
+  journal = {Foundations of Physics},
+  volume = {38},
+  author = {Shuang Zhao and Hans De Raedt and Kristel Michielsen},
+  year = {2008},
+  pages = {322--347},
+  doi = {10.1007/s10701-008-9205-5},
+  title = {Event-by-Event Simulation of Einstein-Podolsky-Rosen-Bohm Experiments}
+}
+@article{Johnson2011-JOHNEA,
+  doi = {10.5840/Philo201114212},
+  pages = {161--175},
+  title = {Natural Evil and the Simulation Hypothesis},
+  number = {2},
+  author = {David Kyle Johnson},
+  year = {2011},
+  volume = {14},
+  journal = {Philo}
+}
+@article{Peck2008-PECTHO,
+  title = {The Hermeneutics of Ecological Simulation},
+  publisher = {Springer},
+  pages = {383--402},
+  doi = {10.1007/s10539-008-9109-y},
+  journal = {Biology and Philosophy},
+  volume = {23},
+  author = {Steven L. Peck},
+  year = {2008},
+  number = {3}
+}
+@article{Steinhart2010-STETIO-9,
+  publisher = {Utrecht University},
+  pages = {23--37},
+  title = {Theological Implications of the Simulation Argument},
+  journal = {Ars Disputandi},
+  year = {2010},
+  author = {Eric Steinhart},
+  volume = {10}
+}
+@article{Chen2011-CHEMII-4,
+  journal = {Nursing Ethics},
+  author = {Ruth P. Chen},
+  year = {2011},
+  volume = {18},
+  number = {1},
+  title = {Moral Imagination in Simulation-Based Communication Skills Training},
+  doi = {10.1177/0969733010386163},
+  publisher = {Sage},
+  pages = {102--111}
+}
+@article{Pan2007-PANAMB,
+  title = {A Multi-Agent Based Framework for the Simulation of Human and Social Behaviors During Emergency Evacuations},
+  pages = {113--132},
+  doi = {10.1007/s00146-007-0126-1},
+  volume = {22},
+  year = {2007},
+  author = {Xiaoshan Pan and Charles S. Han and Ken Dauber and Kincho H. Law},
+  journal = {AI and Society},
+  number = {2}
+}
+@article{Strijbos2013-STRUBP,
+  author = {Derek W. Strijbos and Leon C. de Bruin},
+  volume = {26},
+  year = {2013},
+  journal = {Philosophical Psychology},
+  number = {5},
+  title = {Universal Belief-Desire Psychology? A Dilemma for Theory Theory and Simulation Theory},
+  doi = {10.1080/09515089.2012.711034},
+  pages = {744--764}
+}
+@article{Dunnington2014-DUNTNO-3,
+  title = {The Nature of Reality Represented in High Fidelity Human Patient Simulation: Philosophical Perspectives and Implications for Nursing Education},
+  publisher = {Wiley-Blackwell},
+  pages = {14--22},
+  doi = {10.1111/nup.12034},
+  author = {Renee M. Dunnington},
+  year = {2014},
+  volume = {15},
+  journal = {Nursing Philosophy},
+  number = {1}
+}
+@article{Heal1996-HEASAC-3,
+  journal = {Mind and Language},
+  volume = {11},
+  author = {Jane Heal},
+  year = {1996},
+  number = {1},
+  title = {Simulation and Cognitive Penetrability},
+  pages = {44--67},
+  publisher = {Wiley-Blackwell},
+  doi = {10.1111/mila.1996.11.issue-1}
+}
+@unpublished{Hangleiter2017-HANAQS,
+  year = {2017},
+  title = {Analogue Quantum Simulation: A Philosophical Prospectus},
+  author = {Dominik Hangleiter and Jacques Carolan and Karim P. Y. Thebault}
+}
+@article{Hoffman2006-HOFHTP,
+  title = {How to Punch Someone and Stay Friends: An Inductive Theory of Simulation},
+  publisher = {American Sociological Association},
+  pages = {170--193},
+  doi = {10.1111/j.0735-2751.2006.00287.x},
+  year = {2006},
+  author = {Steve G. Hoffman},
+  volume = {24},
+  journal = {Sociological Theory},
+  number = {2}
+}
+@article{Sawyer2004-SAWSEA-3,
+  volume = {7},
+  author = {R. Keith Sawyer},
+  year = {2004},
+  journal = {Philosophical Explorations},
+  number = {3},
+  title = {Social Explanation and Computational Simulation},
+  pages = {219--231},
+  publisher = {Routledge},
+  doi = {10.1080/1386979042000258321}
+}
+@incollection{Davies2000-DAVST,
+  title = {Simulation Theory},
+  booktitle = {Routledge Encyclopedia of Philosophy Online},
+  year = {2000},
+  author = {Martin Davies and Tony Stone},
+  editor = {}
+}
+@article{Myachykov2009-MYANAM,
+  title = {Non-Abstractness as Mental Simulation in the Representation of Number},
+  doi = {10.1017/S0140525X09990811},
+  pages = {343--344},
+  author = {Andriy Myachykov and Wouter Platenburg and Martin H. Fischer},
+  year = {2009},
+  volume = {32},
+  journal = {Behavioral and Brain Sciences},
+  number = {3-4}
+}
+@article{Gallese2012-GALEME-4,
+  title = {Embodying Movies: Embodied Simulation and Film Studies},
+  publisher = {New University of Lisbon},
+  pages = {183--210},
+  journal = {Cinema: Journal of Philosophy and the Moving Image},
+  author = {Vittorio Gallese and Michele Guerra},
+  year = {2012},
+  volume = {3}
+}
+@article{Kak1996-KAKSOC-2,
+  title = {Speed of Computation and Simulation},
+  doi = {10.1007/BF02058274},
+  pages = {1375--1386},
+  journal = {Foundations of Physics},
+  author = {Subhash C. Kak},
+  volume = {26},
+  year = {1996},
+  number = {10}
+}
+@incollection{Davies1998-DAVFPA-2,
+  year = {1998},
+  booktitle = {Royal Institute of Philosophy Supplement},
+  author = {Martin Davies and Tony Stone},
+  title = {Folk Psychology and Mental Simulation},
+  pages = {53--82},
+  publisher = {Cambridge: Cambridge University Press},
+  editor = {Anthony O'Hear}
+}
+@article{Hopkins1994-HOPRSF,
+  publisher = {Wiley-Blackwell},
+  pages = {116--141},
+  doi = {10.1111/j.1527-2001.1994.tb00112.x},
+  title = {Rethinking Sadomasochism: Feminism, Interpretation, and Simulation},
+  number = {1},
+  journal = {Hypatia},
+  author = {Patrick D. Hopkins},
+  volume = {9},
+  year = {1994}
+}
+@article{Kozhemiachenko2018-KOZGOP,
+  title = {Generalisation of Proof Simulation Procedures for Frege Systems by M.L. Bonet and S.R. Buss},
+  publisher = {Taylor \& Francis},
+  pages = {389--413},
+  doi = {10.1080/11663081.2018.1525208},
+  author = {Daniil Kozhemiachenko},
+  year = {2018},
+  volume = {28},
+  journal = {Journal of Applied Non-Classical Logics},
+  number = {4}
+}
+@article{Fleischmann2003-FLEFAC,
+  title = {Frog and Cyberfrog Are Friends: Dissection Simulation and Animal Advocacy},
+  doi = {10.1163/156853003769233342},
+  pages = {123--143},
+  publisher = {Brill Academic Publishers},
+  journal = {Society and Animals},
+  year = {2003},
+  author = {Kenneth Fleischmann},
+  volume = {11},
+  number = {2}
+}
+@article{Goldfarb2012-GOLEIC,
+  doi = {10.1136/medethics-2011-100206},
+  pages = {546--551},
+  publisher = {Bmj Group},
+  title = {Enhancing Informed Consent Best Practices: Gaining Patient, Family and Provider Perspectives Using Reverse Simulation},
+  number = {9},
+  journal = {Journal of Medical Ethics},
+  year = {2012},
+  author = {E. Goldfarb and J. A. Fromson and T. Gorrindo and R. J. Birnbaum},
+  volume = {38}
+}
+@article{Watkins2005-WATTIO-2,
+  number = {3},
+  year = {2005},
+  author = {Alison Watkins and Ronald Paul Hill},
+  volume = {62},
+  journal = {Journal of Business Ethics},
+  doi = {10.1007/s10551-005-8714-9},
+  pages = {253--265},
+  publisher = {Springer},
+  title = {The Impact of Personal and Organizational Moral Philosophies on Marketing Exchange Relationships: A Simulation Using the Prisoner\textquoterights Dilemma Game}
+}
+@unpublished{BayerManuscript-BAYFFP,
+  title = {From Folk Psychology to Folk Epistemology: The Status of Radical Simulation},
+  author = {Benjamin Bayer}
+}
+@incollection{Beilock2012-BEIEAT-2,
+  publisher = {Psychology Press},
+  editor = {Julie A. Suhr William M. P. Klein Keith D. Markman and William M. P. Klein and Julie A. Suhr},
+  booktitle = {Handbook of Imagination and Mental Simulation},
+  title = {Expertise and the Mental Simulation of Action},
+  year = {2012},
+  author = {Sian L. Beilock and Ian M. Lyons}
+}
+@article{Ihde2011-IHDDAS-4,
+  pages = {203--205},
+  publisher = {Philosophy Documentation Center},
+  doi = {techne201115322},
+  title = {Dissection and Simulation: A Postphenomenological Critique},
+  number = {3},
+  journal = {Techn\'e: Research in Philosophy and Technology},
+  year = {2011},
+  author = {Don Ihde},
+  volume = {15}
+}
+@article{Brown2012-BROZAS,
+  year = {2012},
+  volume = {19},
+  author = {Richard Brown},
+  journal = {Journal of Consciousness Studies},
+  number = {7-8},
+  title = {Zombies and Simulation},
+  publisher = {Imprint Academic},
+  pages = {21--25}
+}
+@article{Ionescu2019-IONSEO,
+  title = {Simulation, Epistemic Opacity, and \textquoteleftEnvirotechnical Ignorance\textquoteright in Nuclear Crisis},
+  pages = {61--86},
+  publisher = {Springer Verlag},
+  doi = {10.1007/s11023-018-9488-z},
+  journal = {Minds and Machines},
+  year = {2019},
+  author = {Tudor B. Ionescu},
+  volume = {29},
+  number = {1}
+}
+@unpublished{SunManuscript-SUNACB-2,
+  title = {A Cognitively Based Simulation of Academic Science},
+  author = {Ron Sun}
+}
+@article{Watkins2005-WATTIO-24,
+  title = {The Impact of Personal and Organizational Moral Philosophies on Marketing Exchange Relationships: A Simulation Using the Prisoner\textquoterights Dilemma Game},
+  pages = {253--265},
+  publisher = {Springer},
+  doi = {10.1007/s10551-005-8714-9},
+  journal = {Journal of Business Ethics},
+  volume = {62},
+  year = {2005},
+  author = {Alison Watkins and Ronald Paul Hill},
+  number = {3}
+}
+@article{James2013-JAMUSA,
+  title = {Using Simulation and Virtual Practice in Midwifery and Nursing Education: Experiencing Self-Body-World \textquotedblleftDifferently\textquotedblright},
+  publisher = {Thompson Rivers University},
+  pages = {53--68},
+  doi = {10.29173/pandpr20100},
+  journal = {Phenomenology and Practice},
+  author = {Susan James and Brenda Cameron},
+  volume = {7},
+  year = {2013},
+  number = {1}
+}
+@article{Lebar2001-LEBSTA,
+  number = {4},
+  journal = {Philosophical Psychology},
+  author = {M. Lebar},
+  year = {2001},
+  volume = {14},
+  doi = {10.1080/09515080120088094},
+  pages = {423--434},
+  title = {Simulation, Theory, and Emotion}
+}
+@incollection{Hartmann1995-HARS-3,
+  editor = {J\"urgen Mittelstrass},
+  publisher = {Metzler},
+  booktitle = {Enzyklop\"adie Philosophie und Wissenschaftstheorie, Vol. 3},
+  author = {Stephan Hartmann},
+  year = {1995},
+  title = {Simulation}
+}
+@article{White1999-WHISTA,
+  number = {1},
+  year = {1999},
+  volume = {82},
+  author = {G. Graham White},
+  journal = {The Monist},
+  publisher = {The Hegeler Institute},
+  pages = {165--184},
+  doi = {10.5840/monist199982111},
+  title = {Simulation, Theory, and Cut Elimination}
+}
+@article{Miscevic2018-MIESAT,
+  title = {Simulation and Thought Experiments},
+  pages = {161--190},
+  journal = {Croatian Journal of Philosophy},
+  author = {Nenad Mi\v{s}evi},
+  year = {2018},
+  volume = {18},
+  number = {1}
+}
+@unpublished{EdmondsManuscript-EDMBKA,
+  title = {Bootstrapping Knowledge About Social Phenomena Using Simulation Models},
+  author = {Bruce Edmonds}
+}
+@article{Pronskikh2019-PROCMA-2,
+  number = {1},
+  journal = {Minds and Machines},
+  year = {2019},
+  volume = {29},
+  author = {Vitaly Pronskikh},
+  doi = {10.1007/s11023-019-09494-7},
+  publisher = {Springer Verlag},
+  pages = {169--186},
+  title = {Computer Modeling and Simulation: Increasing Reliability by Disentangling Verification and Validation}
+}
+@unpublished{EdmondsManuscript-EDMOAF,
+  author = {Bruce Edmonds},
+  title = {Open Access for Social Simulation}
+}
+@article{Jerkert2012-JERSIT,
+  number = {2},
+  volume = {78},
+  author = {Jesper Jerkert},
+  year = {2012},
+  journal = {Theoria},
+  pages = {168--175},
+  publisher = {Kth, Filosofi},
+  doi = {10.1111/j.1755-2567.2012.01126.x},
+  title = {Science in the Age of Computer Simulation -- By Eric Winsberg}
+}
+@article{Cheyne2000-CHEPDA,
+  number = {6},
+  journal = {Behavioral and Brain Sciences},
+  author = {J. A. Cheyne},
+  volume = {23},
+  year = {2000},
+  doi = {10.1017/s0140525x00314029},
+  pages = {918--919},
+  title = {Play, Dreams, and Simulation}
+}
+@article{Pawlett2018-PAWMER,
+  journal = {Journal for Cultural Research},
+  author = {William Pawlett},
+  volume = {22},
+  year = {2018},
+  number = {1},
+  title = {\textquoteleftMedia Events\textquoteright Reconsidered: From Ritual Theory to Simulation and Performativity},
+  doi = {10.1080/14797585.2017.1370865},
+  pages = {1--15}
+}
+@article{Green2006-GREMSA,
+  pages = {31--61},
+  doi = {10.1080/13546780500145686},
+  title = {Mental Simulation and Argument},
+  number = {1},
+  volume = {12},
+  author = {David W. Green and Ronit Applebaum and Simon Tong},
+  year = {2006},
+  journal = {Thinking and Reasoning}
+}
+@article{Dokic2005-DOKIDP,
+  publisher = {Soci\'et\'e de Philosophie du Qu\'ebec},
+  pages = {383--397},
+  doi = {10.7202/011874ar},
+  title = {Introspection, D? Ploiement Et Simulation},
+  number = {2},
+  journal = {Philosophiques},
+  author = {J\'er\^ome Dokic},
+  year = {2005},
+  volume = {32}
+}
+@article{Germain2000-GERTPO-2,
+  number = {6},
+  author = {Anne Germain and Tore A. Nielsen and Antonio Zadra and Jacques Montplaisir},
+  year = {2000},
+  volume = {23},
+  journal = {Behavioral and Brain Sciences},
+  doi = {10.1017/s0140525x00424027},
+  pages = {940--941},
+  title = {The Prevalence of Typical Dream Themes Challenges the Specificity of the Threat Simulation Theory}
+}
+@unpublished{Ribeiro2003-RIBDMN,
+  author = {Anna Christina Ribeiro},
+  year = {2003},
+  title = {Do Mirror Neurons Support a Simulation Theory of Mind-Reading?}
+}
+@article{Dokic2005-DOKLOE,
+  title = {L'interpr\'etation Ordinaire, Entre Simulation Et M\'eta-Repr\'esentation},
+  publisher = {Soci\'et\'e de Philosophie du Qu\'ebec},
+  pages = {19--37},
+  doi = {10.7202/011061ar},
+  journal = {Philosophiques},
+  author = {J\'er\^ome Dokic},
+  volume = {32},
+  year = {2005},
+  number = {1}
+}
+@article{Allwein2014-ALLSL,
+  title = {Simulation Logic},
+  doi = {10.12775/LLP.2013.027},
+  year = {2014},
+  author = {Gerard Allwein and William L. Harrison and David Andrews},
+  volume = {23},
+  journal = {Logic and Logical Philosophy},
+  number = {3}
+}
+@article{Peacocke1995-PEAOSA-2,
+  publisher = {Cambridge University Press},
+  pages = {469--472},
+  title = {Objectivity, Simulation and the Unity of Consciousness: Current Issues in the Philosophy of Mind},
+  number = {273},
+  author = {Christopher Peacocke},
+  year = {1995},
+  volume = {70},
+  journal = {Philosophy}
+}
+@article{Siani2019-SIADTU,
+  title = {Discussing the Use of Animal Models in Biomedical Research Via Role Play Simulation},
+  pages = {43--55},
+  doi = {10.1007/s40889-018-0064-4},
+  journal = {International Journal of Ethics Education},
+  year = {2019},
+  volume = {4},
+  author = {Alessandro Siani},
+  number = {1}
+}
+@article{Defontaine2004-DEFMMA,
+  number = {4},
+  volume = {52},
+  author = {A. Defontaine and A. Hern\'andez and G. Carrault},
+  year = {2004},
+  journal = {Acta Biotheoretica},
+  doi = {10.1023/B:ACBI.0000046598.69328.03},
+  pages = {273--290},
+  publisher = {Springer},
+  title = {Multi-Formalism Modelling and Simulation: Application to Cardiac Modelling}
+}
+@article{Blancke2011-BLASOB,
+  number = {1},
+  year = {2011},
+  author = {Stefaan Blancke and Maarten Boudry and Johan Braeckman},
+  volume = {26},
+  journal = {Biology and Philosophy},
+  pages = {113--118},
+  publisher = {Springer},
+  doi = {10.1007/s10539-009-9192-8},
+  title = {Simulation of Biological Evolution Under Attack, but Not Really: A Response to Meester}
+}
+@article{Sun2007-SUNSIC,
+  title = {Social Institution, Cognition, and Survival: A Cognitive--Social Simulation},
+  publisher = {Springer Berlin / Heidelberg},
+  pages = {115--142},
+  doi = {10.1007/s11299-007-0027-5},
+  volume = {6},
+  author = {Ron Sun and Isaac Naveh},
+  year = {2007},
+  journal = {Mind and Society},
+  number = {2}
+}
+@article{Roush2016-ROUSAU,
+  number = {1},
+  author = {Sherrilyn Roush},
+  volume = {26},
+  year = {2016},
+  journal = {Philosophical Issues},
+  pages = {351--373},
+  doi = {10.1111/phis.12079},
+  title = {Simulation and Understanding Other Minds}
+}
+@article{Reilly2001-REITRB,
+  journal = {Behavioral and Brain Sciences},
+  author = {Ronan G. Reilly},
+  year = {2001},
+  volume = {25},
+  number = {1},
+  title = {The Relationship Between Object Manipulation and Language Development in Broca's Area: A Connectionist Simulation of Greenfield's Hypothesis},
+  pages = {145--153},
+  doi = {10.1017/s0140525x02210031}
+}
+@article{Joinet2002-JOISAC-3,
+  title = {SN and \\textbraceleftCR\\textbraceright for Free-Style \\textbraceleft\$\\textbraceleftBf LK\\textbracerightSp \\textbraceleftTq\\textbraceright\$\\textbraceright: Linear Decorations and Simulation of Normalization},
+  pages = {162--196},
+  publisher = {Association for Symbolic Logic},
+  doi = {http://projecteuclid.org/euclid.jsl/1190150036},
+  year = {2002},
+  author = {Jean{-}Baptiste Joinet and Harold Schellinx and Lorenzo Tortora de Falco},
+  volume = {67},
+  journal = {Journal of Symbolic Logic},
+  number = {1}
+}
+@incollection{Varenne2006-VARBAL,
+  title = {Bachelard Avec la Simulation Informatique: Nous Faut-Il Reconduire Sa Critique de l'Intuition ?},
+  booktitle = {Bachelard: Confiance Raisonn\'ee Et D\'efiance Rationnelle},
+  year = {2006},
+  author = {Franck Varenne},
+  editor = {Robert Damien and B. Hufschmitt},
+  publisher = {Besan\c{c}on: Presses Universitaires de Franche-Comt\'e},
+  pages = {111--143}
+}
+@article{Shackelford2000-SHAHSD,
+  number = {6},
+  journal = {Behavioral and Brain Sciences},
+  year = {2000},
+  author = {Todd K. Shackelford and Viviana A. Weekes{-}Shackelford},
+  volume = {23},
+  doi = {10.1017/s0140525x0086402x},
+  pages = {1004--1004},
+  title = {Threat Simulation, Dreams, and Domain-Specificity}
+}
+@article{Parker2012-PARCSA-2,
+  doi = {10.1007/s11016-011-9567-8},
+  pages = {111--114},
+  title = {Computer Simulation and Philosophy of Science},
+  number = {1},
+  journal = {Metascience},
+  volume = {21},
+  author = {Wendy S. Parker},
+  year = {2012}
+}
+@unpublished{CruzManuscript-CRUAHP,
+  title = {A Humean Psychological Alternative to Kant and Wittgenstein: Comments on Stueber's \emph{Importance of Simulation for Understanding Linguistic and Rational Agency}},
+  author = {Joe Cruz}
+}
+@unpublished{SunManuscript-SUNCAA-2,
+  author = {Ron Sun},
+  title = {Cognitive Architectures and Multi-Agent Social Simulation}
+}
+@article{Cruz1997-CRUSAT,
+  number = {3},
+  author = {Joseph L. Hernandez Cruz},
+  year = {1997},
+  volume = {20},
+  journal = {Behavioral and Brain Sciences},
+  doi = {10.1017/s0140525x97221515},
+  pages = {525--527},
+  title = {Simulation and the Psychology of Sociopathy}
+}
+@article{Gadziejewski2011-GADIEI,
+  author = {Pawe\l G\ladziejewski},
+  year = {2011},
+  journal = {Diametros},
+  title = {Is Empathy is Mental Simulation? Remarks on the Representative Approach Based on the Concept of Mirror Neurons},
+  publisher = {Jagiellonian University},
+  pages = {108--129}
+}
+@article{Fauconnier1999-FAUCSA,
+  pages = {615--615},
+  doi = {10.1017/s0140525x99282143},
+  title = {Creativity, Simulation, and Conceptualization},
+  number = {4},
+  year = {1999},
+  author = {Gilles Fauconnier},
+  volume = {22},
+  journal = {Behavioral and Brain Sciences}
+}
+@article{Fitchett2013-FITTWS,
+  title = {The WHO Simulation Initiative: Improving Global Health Partnerships},
+  doi = {10.1186/1747-5341-8-6},
+  pages = {6},
+  publisher = {Biomed Central},
+  volume = {8},
+  author = {Joseph R. Fitchett and Paul G. Reidy and Elizabeth J. Anderson and Sebastien Forte and Kenrry Chiu},
+  year = {2013},
+  journal = {Philosophy, Ethics, and Humanities in Medicine}
+}
+@unpublished{Franceschi2014-FRATSA-7,
+  author = {Paul Franceschi},
+  year = {2014},
+  title = {The Simulation Argument and the Reference Class Problem: The Dialectical Contextualist's Standpoint}
+}
+@unpublished{Pronskikh2014-PROCMA,
+  author = {Vitaly Pronskikh},
+  year = {2014},
+  title = {Computer Modeling and Simulation: Towards Epistemic Distinction Between Verification and Validation}
+}
+@article{Gibbs2013-GIBAUA,
+  title = {Artistic Understanding as Embodied Simulation},
+  pages = {143--144},
+  publisher = {Cambridge University Press (Cup)},
+  doi = {10.1017/s0140525x1200163x},
+  journal = {Behavioral and Brain Sciences},
+  year = {2013},
+  author = {Raymond W. Gibbs},
+  volume = {36},
+  number = {2}
+}
+@unpublished{Andersson2009-ANDIOS,
+  author = {Claes Andersson},
+  year = {2009},
+  title = {Inverse Ontomimetic Simulation: A Window on Complex Systems}
+}
+@article{AndersonForthcoming-ANDAGD,
+  journal = {Proceedings of the Tenth Conference on Ai, Simulation and Planning, Ais-2000, Society for Computer Simulation International},
+  author = {John Anderson},
+  year = {forthcoming},
+  title = {A Generic Distributed Simulation System for Intelligent Agent Design and Evaluation}
+}
+@unpublished{Franceschi2012-FRAOTD,
+  year = {2012},
+  author = {Paul Franceschi},
+  title = {On the Disanalogy in the Simulation Argument}
+}
+@article{Howe2017-HOWSSA-7,
+  doi = {10.1080/00948705.2017.1341325},
+  pages = {300--314},
+  publisher = {Routledge},
+  title = {Simulation, Seduction, and Bullshit: Cooperative and Destructive Misleading},
+  number = {3},
+  year = {2017},
+  author = {Leslie A. Howe},
+  volume = {44},
+  journal = {Journal of the Philosophy of Sport}
+}
+@article{Loeck1991-LOEATS,
+  author = {Gisela Loeck},
+  volume = {13},
+  year = {1991},
+  journal = {History and Philosophy of the Life Sciences},
+  number = {1},
+  title = {Aristotle's Technical Simulation and its Logic of Causal Relations},
+  pages = {3--32}
+}
+@article{AntonKUhberger1995-ANTCON-2,
+  number = {4},
+  year = {1995},
+  author = {Josef Perner Anton K\"Uhberger},
+  volume = {10},
+  journal = {Mind and Language},
+  doi = {10.1111/mila.1995.10.issue-4},
+  publisher = {Wiley-Blackwell},
+  pages = {423--436},
+  title = {Choice or No Choice: Is the Langer Effect Evidence Against Simulation?}
+}
+@article{Reidsma2007-REIVMR-2,
+  title = {Virtual Meeting Rooms: From Observation to Simulation},
+  pages = {133--144},
+  doi = {10.1007/s00146-007-0129-y},
+  author = {Dennis Reidsma and Rieks op den Akker and Rutger Rienks and Ronald Poppe and Anton Nijholt and Dirk Heylen and Job Zwiers},
+  volume = {22},
+  year = {2007},
+  journal = {AI and Society},
+  number = {2}
+}
+@article{Michael2012-MICMSA,
+  pages = {565--582},
+  doi = {10.1007/s11097-012-9253-3},
+  title = {Mirror Systems and Simulation: A Neo-Empiricist Interpretation},
+  number = {4},
+  author = {John Michael},
+  year = {2012},
+  volume = {11},
+  journal = {Phenomenology and the Cognitive Sciences}
+}
+@article{Short2016-SHODST,
+  title = {Defending Simulation Theory Against the Argument From Error},
+  pages = {248--262},
+  doi = {10.1111/mila.12103},
+  journal = {Mind and Language},
+  author = {Timothy L. Short and Kevin J. Riggs},
+  volume = {31},
+  year = {2016},
+  number = {2}
+}
+@article{Forbes2017-FORAWI,
+  doi = {10.5840/tpm20177868},
+  pages = {10--13},
+  title = {Are We In A Simulation?},
+  journal = {The Philosophers' Magazine},
+  year = {2017},
+  volume = {78},
+  author = {Graeme A. Forbes}
+}
+@unpublished{ThomasManuscript-THOAAI,
+  author = {Nigel J. T. Thomas},
+  title = {Attitude and Image, or, What Will Simulation Theory Let Us Eliminate?}
+}
+@unpublished{Lewis2011-LEWANO-5,
+  title = {A Note on the Simulation Argument},
+  year = {2011},
+  author = {Peter J. Lewis}
+}
+@article{Huang2010-HUANMF,
+  number = {6},
+  journal = {Behavioral and Brain Sciences},
+  author = {Li Huang and Adam D. Galinsky},
+  year = {2010},
+  volume = {33},
+  pages = {448--448},
+  doi = {10.1017/s0140525x10001536},
+  title = {No Mirrors for the Powerful: Why Dominant Smiles Are Not Processed Using Embodied Simulation}
+}
+@unpublished{SunManuscript-SUNCSO,
+  title = {Cognitive Simulation of Academic Science},
+  author = {Ron Sun}
+}
+@article{LoganForthcoming-LOGDIM,
+  title = {Dynamic Interest Management in the Distributed Simulation of Agent-Based Systems},
+  journal = {Proceedings of the Tenth Conference on Ai, Simulation and Planning, Ais-2000\textquoteright, Society for Computer Simulation International},
+  year = {forthcoming},
+  author = {Brian Logan and Georgios Theodoropoulos}
+}
+@article{Beyer2006-BEYMSU,
+  author = {Christian Beyer},
+  year = {2006},
+  volume = {70},
+  journal = {Grazer Philosophische Studien},
+  number = {1},
+  title = {Mentale Simulation Und Radikale Interpretation},
+  pages = {25--45},
+  publisher = {Editions Rodopi},
+  doi = {10.1163/18756735-070001002}
+}
+@article{ShaunNichols1995-SHACEA-6,
+  pages = {437--445},
+  publisher = {Wiley-Blackwell},
+  doi = {10.1111/mila.1995.10.issue-4},
+  title = {Choice Effects and the Ineffectiveness of Simulation: Response to K\"uhberger Et Al},
+  number = {4},
+  journal = {Mind and Language},
+  author = {Stephen Stich Shaun Nichols},
+  year = {1995},
+  volume = {10}
+}
+@article{Beaulieu2013-BEALIA,
+  number = {1},
+  volume = {12},
+  author = {Anne Beaulieu and Matt Ratto and Andrea Scharnhorst},
+  year = {2013},
+  journal = {Mind and Society},
+  publisher = {Springer},
+  pages = {91--112},
+  doi = {10.1007/s11299-013-0117-5},
+  title = {Learning in a Landscape: Simulation-Building as Reflexive Intervention}
+}
+@article{Gordon2001-GORESA,
+  title = {Empathy, Simulation, and Pam},
+  doi = {10.1017/s0140525x02390010},
+  pages = {37--37},
+  journal = {Behavioral and Brain Sciences},
+  volume = {25},
+  author = {Robert M. Gordon},
+  year = {2001},
+  number = {1}
+}
+@unpublished{MeyerManuscript-MEYSIN,
+  author = {Ruth Meyer and Bruce Edmonds},
+  title = {Signatures in Networks Generated From Agent-Based Social Simulation Models}
+}
+@unpublished{EdmondsManuscript-EDMASS,
+  title = {Agent-Based Social Simulation and its Necessity for Understanding Socially Embedded Phenomena},
+  author = {Bruce Edmonds}
+}
+@unpublished{Chang2006-CHALSP,
+  title = {L S Penrose's Limit Theorem: Tests by Simulation},
+  year = {2006},
+  author = {Pao{-}Li Chang and Vincent C. H. Chua and Mosh\'e Machover}
+}
+@article{Chang2010-CHARTC-3,
+  number = {6},
+  journal = {Behavioral and Brain Sciences},
+  year = {2010},
+  author = {Betty Chang and Nicolas Vermeulen},
+  volume = {33},
+  doi = {10.1017/s0140525x10001299},
+  pages = {441--442},
+  title = {Re-Thinking the Causes, Processes, and Consequences of Simulation}
+}
+@article{Powers1983-POWPTO,
+  title = {Pareto's Theory of Social and Economic Cycles: A Formal Model and Simulation},
+  doi = {10.2307/202047},
+  publisher = {American Sociological Association},
+  pages = {59--89},
+  journal = {Sociological Theory},
+  year = {1983},
+  author = {Charles H. Powers and Robert A. Hanneman},
+  volume = {1}
+}
+@article{Heiden1987-HEIMMA,
+  volume = {36},
+  author = {U. Heiden and G. Roth},
+  year = {1987},
+  journal = {Acta Biotheoretica},
+  number = {3},
+  title = {Mathematical Model and Simulation of Retina and Tectum Opticum of Lower Vertebrates}
+}
+@article{Lopez-ChavezMartinez2013-LPEEST,
+  number = {2},
+  journal = {Humanidades M\'edicas},
+  year = {2013},
+  volume = {13},
+  author = {Graciela L\'opez{-}Ch\'avez Mart\'inez and  Ch\'avez Hern\'andez},
+  pages = {480--497},
+  title = {Educational Simulation: Teaching Tool for Science, Technology and Society Education in the Discipline of Philosophy and Society}
+}
+@article{Smith2012-SMIHSA,
+  number = {3},
+  year = {2012},
+  author = {K. V. Smith and J. Witt and J. Klaassen and C. Zimmerman and A. {-}L. Cheng},
+  volume = {19},
+  journal = {Nursing Ethics},
+  doi = {10.1177/0969733011423559},
+  pages = {390--398},
+  publisher = {Sage},
+  title = {High-Fidelity Simulation and Legal/Ethical Concepts: A Transformational Learning Experience}
+}
+@article{Velupillai2015-VELSCA,
+  doi = {10.1080/1350178X.2015.1004933},
+  pages = {1--27},
+  title = {Simulation, Computation and Dynamics in Economics},
+  number = {1},
+  year = {2015},
+  author = {K. Vela Velupillai and Stefano Zambelli},
+  volume = {22},
+  journal = {Journal of Economic Methodology}
+}
+@article{Ciompi2008-LUCTED,
+  publisher = {Springer Netherlands},
+  pages = {42--50},
+  doi = {10.1162/biot.2008.3.1.42},
+  title = {The Energetic Dimension of Emotions: An Evolution-Based Computer Simulation with General Implications},
+  number = {1},
+  journal = {Biological Theory},
+  author = {Luc Ciompi and Martin Baatz},
+  year = {2008},
+  volume = {3}
+}
+@article{Kuhberger2006-KHBTRO,
+  journal = {Mind and Language},
+  year = {2006},
+  author = {Anton K\"uhberger and Christoph Kogler and H.u.g. Angelika and Evelyne M\"osl},
+  volume = {21},
+  number = {5},
+  title = {The Role of the Position Effect in Theory and Simulation},
+  pages = {610--625},
+  doi = {10.1111/j.1468-0017.2006.00290.x}
+}
+@unpublished{SunManuscript-SUNCSS,
+  title = {Cognitive Social Simulation Incorporating Cognitive Architectures},
+  author = {Ron Sun}
+}
+@article{Sarma2017-SARIBS,
+  title = {Integrative Biological Simulation Praxis: Considerations From Physics, Philosophy, and Data/Model Curation Practices},
+  publisher = {Taylor \& Francis},
+  author = {Gopal P. Sarma and Victor Faundez},
+  volume = {7},
+  year = {2017},
+  journal = {Cellular Logistic},
+  number = {4}
+}
+@unpublished{SunManuscript-SUNACB,
+  author = {Ron Sun and Isaac Naveh},
+  title = {A Cognitively Based Simulation of Simple Organizations}
+}
+@unpublished{NavehManuscript-NAVACB,
+  author = {Isaac Naveh and Ron Sun},
+  title = {A Cognitively Based Simulation of Academic Science}
+}
+@article{King2011-KINPWB-2,
+  number = {4},
+  journal = {Consciousness and Cognition},
+  volume = {20},
+  author = {Matthew J. King and Lori{-}Anne Williams and Arlene G. MacDougall and Shelley Ferris and Julia R. V. Smith and Natalia Ziolkowski and Margaret C. McKinnon},
+  year = {2011},
+  doi = {10.1016/j.concog.2011.05.005},
+  pages = {1801--1807},
+  publisher = {Elsevier},
+  title = {Patients with Bipolar Disorder Show a Selective Deficit in the Episodic Simulation of Future Events}
+}
+@article{Cuccio2015-CUCESA,
+  pages = {99--113},
+  doi = {10.3280/EPIS2015-001007},
+  title = {Embodied Simulation and Metaphors. On the Role of the Body in the Interpretation of Bodily-Based Metaphors},
+  journal = {Epistemologia},
+  author = {Valentina Cuccio},
+  year = {2015}
+}
+@article{Morel2001-MORAPC,
+  title = {A Proliferation Control Network Model: The Simulation of Two-Dimensional Epithelial Homeostasis},
+  publisher = {Springer},
+  pages = {219--234},
+  doi = {10.1023/A:1014201805222},
+  year = {2001},
+  author = {Didier Morel and Rapha\"el Marcelpoil and G\'erard Brugal},
+  volume = {49},
+  journal = {Acta Biotheoretica},
+  number = {4}
+}
+@article{Alibali2010-ALIMAS,
+  pages = {433--434},
+  doi = {10.1017/s0140525x10001445},
+  title = {Mimicry and Simulation in Gesture Comprehension},
+  number = {6},
+  volume = {33},
+  author = {Martha W. Alibali and Autumn B. Hostetter},
+  year = {2010},
+  journal = {Behavioral and Brain Sciences}
+}
+@article{Demongeot1994-DEMRSA,
+  title = {Random Simulation and Confiners: Their Application to Neural Networks},
+  doi = {10.1007/BF00709491},
+  publisher = {Springer},
+  pages = {203--213},
+  journal = {Acta Biotheoretica},
+  year = {1994},
+  author = {J. Demongeot and D. Benaouda and O. N\'erot and C. J\'ez\'equel},
+  volume = {42},
+  number = {2-3}
+}
+@article{Yang2015-YANTPO-13,
+  publisher = {Routledge},
+  pages = {330--354},
+  doi = {10.1080/14639947.2015.1041676},
+  title = {The Power of One Sentient Being: The Computer Simulation of a Bodhisattva's Altruism Using Agent-Based Modelling},
+  number = {2},
+  journal = {Contemporary Buddhism},
+  volume = {16},
+  year = {2015},
+  author = {Yu{-}Hsiang Yang and Huimin Bhikshu and Rua{-}Huan Tsaih}
+}
+@article{Franceschi2016-FRALDL-7,
+  author = {Paul Franceschi},
+  volume = {43},
+  year = {2016},
+  journal = {Philosophiques},
+  number = {2},
+  title = {L\textquoterightArgument de la Simulation Et le Probl\`eme de la Classe de R\'ef\'erence : Le Point de Vue du Contextualisme Dialectique},
+  pages = {371--389},
+  doi = {10.7202/1038211ar}
+}
+@article{Zhu2016-ZHUETP,
+  volume = {22},
+  author = {Jia Zhu and Gabriel Fung and Wai Hung Wong and Zhixu Li and Chuanhua Xu},
+  year = {2016},
+  journal = {Science and Engineering Ethics},
+  number = {4},
+  title = {Evaluating the Pros and Cons of Different Peer Review Policies Via Simulation},
+  doi = {10.1007/s11948-015-9683-8},
+  publisher = {Springer Verlag},
+  pages = {1073--1094}
+}
+@article{ElRefaie2015-ELRRIM,
+  doi = {10.1080/10926488.2014.948799},
+  pages = {63--76},
+  title = {Reconsidering \textquotedblleftImage Metaphor\textquotedblright in the Light of Perceptual Simulation Theory},
+  number = {1},
+  author = {Elisabeth El Refaie},
+  volume = {30},
+  year = {2015},
+  journal = {Metaphor and Symbol}
+}
+@unpublished{Greco1983-GREHVO,
+  year = {1983},
+  title = {Heuristic Value of Simulation Models in Psychology},
+  author = {Alberto Greco}
+}
+@article{Reed2003-REEWMC,
+  author = {Steven R. Reed},
+  volume = {4},
+  year = {2003},
+  journal = {Japanese Journal of Political Science},
+  number = {1},
+  title = {What Mechanism Causes the M + 1 Rule? A Simple Simulation},
+  pages = {41--60},
+  doi = {10.1017/s1468109903001063}
+}
+@article{Chattoe-Brown2009-CHATST-3,
+  author = {Edmund Chattoe{-}Brown},
+  year = {2009},
+  volume = {8},
+  journal = {Mind and Society},
+  number = {2},
+  title = {The Social Transmission of Choice: A Simulation with Applications to Hegemonic Discourse},
+  doi = {10.1007/s11299-009-0060-7},
+  publisher = {Springer Berlin / Heidelberg},
+  pages = {193--207}
+}
+@unpublished{EdmondsManuscript-EDMWAW,
+  title = {When and Why Does Haggling Occur? Some Suggestions From a Qualitative but Computational Simulation of Negotiation},
+  author = {Bruce Edmonds}
+}
+@article{Simpson2010-SIMCWR,
+  doi = {10.1017/s0140525x10001342},
+  pages = {459--460},
+  title = {Can We Really Leave Gender Out of It? Individual Differences and the Simulation of Smiles Model},
+  number = {6},
+  journal = {Behavioral and Brain Sciences},
+  volume = {33},
+  author = {Elizabeth Simpson and Dorothy Fragaszy},
+  year = {2010}
+}
+@article{vanBatenburg1982-VANMSA,
+  journal = {Acta Biotheoretica},
+  volume = {31},
+  author = {F. H. D. van Batenburg},
+  year = {1982},
+  number = {4},
+  title = {Modeling, Simulation, and Embryology},
+  publisher = {Springer},
+  pages = {245--248},
+  doi = {10.1007/BF02627653}
+}
+@article{Chapouthier2008-CHASEC,
+  number = {3},
+  journal = {Revue Philosophique de la France Et de l'Etranger},
+  author = {Georges Chapouthier and St\'ephane Chauvier},
+  year = {2008},
+  volume = {133},
+  pages = {275--277},
+  publisher = {Presses Universitaires de France},
+  doi = {10.3917/rphi.083.0275},
+  title = {Simulation Et Connaissance}
+}
+@article{Hopwood2016-HOPSIH,
+  title = {Simulation in Higher Education: A Sociomaterial View},
+  doi = {10.1080/00131857.2014.971403},
+  publisher = {Informa Uk},
+  pages = {165--178},
+  journal = {Educational Philosophy and Theory},
+  author = {Nick Hopwood and Donna Rooney and David Boud and Michelle Kelly},
+  year = {2016},
+  volume = {48},
+  number = {2}
+}
+@article{Conte2009-CONSIO,
+  publisher = {Springer Berlin / Heidelberg},
+  pages = {127--130},
+  doi = {10.1007/s11299-009-0067-0},
+  title = {Special Issue On: Social Simulation},
+  number = {2},
+  year = {2009},
+  author = {Rosaria Conte},
+  volume = {8},
+  journal = {Mind and Society}
+}
+@article{Mackor2005-MACEVA,
+  pages = {237--262},
+  publisher = {Rodopi},
+  title = {Erkl\"aren, Verstehen and Simulation: Reconsidering the Role of Empathy in the Social Sciences},
+  number = {1},
+  journal = {Poznan Studies in the Philosophy of the Sciences and the Humanities},
+  author = {Anne Ruth Mackor},
+  volume = {84},
+  year = {2005}
+}
+@article{Clem1995-CLECSM,
+  year = {1995},
+  volume = {43},
+  author = {Carole J. Clem and Jean Paul Rigaut},
+  journal = {Acta Biotheoretica},
+  number = {4},
+  title = {Computer Simulation Modelling and Visualization of 3d Architecture of Biological Tissues},
+  publisher = {Springer},
+  pages = {425--442},
+  doi = {10.1007/BF00713563}
+}
+@article{Bartlett2010-BARESA-2,
+  pages = {434--435},
+  doi = {10.1017/s0140525x10001457},
+  title = {Emotion Simulation and Expression Understanding: A Case for Time},
+  number = {6},
+  author = {Marian Stewart Bartlett},
+  year = {2010},
+  volume = {33},
+  journal = {Behavioral and Brain Sciences}
+}
+@article{Bullock2000-BULESM,
+  number = {1},
+  year = {2000},
+  author = {Seth Bullock and Jason Noble},
+  volume = {23},
+  journal = {Behavioral and Brain Sciences},
+  pages = {150--151},
+  doi = {10.1017/S0140525X00272415},
+  title = {Evolutionary Simulation Modelling Clarifies Interactions Between Parallel Adaptive Processes}
+}
+@article{Loeck1986-LOEISE,
+  journal = {Journal for General Philosophy of Science / Zeitschrift f\"ur Allgemeine Wissenschaftstheorie},
+  year = {1986},
+  author = {Gisela Loeck},
+  volume = {17},
+  number = {1},
+  title = {Ist Simulation Erkl\"arung? Cognitive Science --- Wissenschaftstheoretisch Betrachtet},
+  doi = {10.1007/BF01801114},
+  pages = {14--39},
+  publisher = {Springer Netherlands}
+}
+@article{Cho1990-CHOAIS,
+  pages = {59},
+  title = {An Intelligent Simulation Environment for Computer System Design},
+  journal = {Ai and Simulation Theory and Applications: Proceedings of the Scs Eastern Multiconference, 23-26 April, 1990, Nashville, Tennessee},
+  year = {1990},
+  author = {Kyungsan Cho and Kihyun Kim and Hyunku Cho},
+  volume = {22}
+}
+@article{EisenbergForthcoming-EISCQA,
+  title = {Combining Qualitative and Quantitative Techniques in the Simulation of Chemical Reaction Mechanisms},
+  author = {Michael Eisenberg},
+  year = {forthcoming},
+  journal = {Ai and Simulation: Theory and Applications (Simulation Series Vol. 22, No. 3.). Society for Computer Simulation, San Diego. Ca}
+}
+@incollection{Gianfranco2002-GIARTF,
+  editor = {J\'er\^ome Dokic and Jo\"elle Proust},
+  publisher = {John Benjamins},
+  booktitle = {Simulation and Knowledge of Action},
+  year = {2002},
+  title = {Reply to 'From Simulation to Theory'},
+  author = {S. Gianfranco}
+}
+@incollection{Hubig2017-HUBOOA,
+  editor = {Michael Resch and Andreas Kaminski and Petra Gehring},
+  publisher = {Berlin, Heidelberg: Springer},
+  pages = {121--136},
+  author = {Christoph Hubig and Andreas Kaminski},
+  booktitle = {Science and Art of Simulation I. Exploring -- Understanding -- Knowing (SAS)},
+  year = {2017},
+  title = {Outlines of a Pragmatic Theory of Truth and Error in Computer Simulation}
+}
+@book{Lenhard2019-LENCSA-4,
+  year = {2019},
+  title = {Calculated Surprises: A Philosophy of Computer Simulation},
+  author = {Johannes Lenhard},
+  publisher = {Oup Usa}
+}
+@incollection{Ludwig2002-LUDRT_,
+  publisher = {John Benjamins},
+  editor = {J. Dokic and J. Proust},
+  booktitle = {Simulation and Knowledge of Action},
+  author = {Pascal Ludwig},
+  year = {2002},
+  title = {Reply to \emph{Can 'Radical' Simulation Theories Explain Psychological Concept Acquisition?}}
+}
+@article{MabaquiaoJr2012-MABCSO,
+  number = {1},
+  journal = {Philosophia},
+  author = {Napoleon Mabaquiao Jr},
+  year = {2012},
+  volume = {40},
+  publisher = {The Philippine National Philosophical Research Society},
+  title = {Computer Simulation of Human Thinking: An Inquiry Into its Possibility and Implications}
+}
+@article{NagarurForthcoming-NAGISF,
+  author = {Nirmal K. Baid N. N. Nagarur},
+  year = {forthcoming},
+  journal = {Proceedings: Ai, Simulation and Planning in High Autonomy Systems},
+  title = {Intelligent Simulation for Manufacturing Systems}
+}
+@incollection{Pacherie2002-PACRTJ,
+  publisher = {John Benjamins},
+  editor = {Jerome Dokic and Joelle Proust},
+  year = {2002},
+  booktitle = {Simulation and Knowledge of Action},
+  title = {Reply to \emph{Joint Attention and Simulation}},
+  author = {Elisabeth Pacherie}
+}
+@article{Paul1990-PAUAMT,
+  title = {A Microcomputer Tool For Qualitative Simulation Based on an Object-Oriented, Device-Centered Ontology},
+  pages = {22},
+  author = {Brian K. Paul and Jeffery K. Cochran},
+  volume = {22},
+  year = {1990},
+  journal = {Ai and Simulation Theory and Applications: Proceedings of the Scs Eastern Multiconference, 23-26 April, 1990, Nashville, Tennessee}
+}
+@incollection{Pelletier2002-PELRTV,
+  booktitle = {Simulation and Knowledge of Action},
+  title = {Reply to \emph{Varieties of Simulation}},
+  year = {2002},
+  author = {Jerome Pelletier},
+  editor = {Jerome Dokic and Joelle Proust},
+  publisher = {John Benjamins}
+}
+@article{Seeley2008-SEEMS,
+  pages = {1041a},
+  title = {Motor Simulation \& the Effects of Energetic \& Emotional Costs of Depicted Actions in Picture Perception},
+  number = {6},
+  journal = {Journal of Vision},
+  year = {2008},
+  author = {William Seeley},
+  volume = {8}
+}
+@unpublished{SmutsManuscript-SMUACI,
+  author = {Aaron Smuts},
+  title = {Devil Simulation: Why We Couldn't, Shouldn't, and Wouldn't}
+}
+@article{Kozhemiachenko2018-KOZASO-2,
+  title = {A Simulation of Natural Deduction and Gentzen Sequent Calculus},
+  pages = {67--84},
+  doi = {10.12775/LLP.2017.009  },
+  journal = {Logic and Logical Philosophy},
+  author = {Daniil Kozhemiachenko},
+  volume = {27},
+  year = {2018},
+  number = {1}
+}
+@book{Ratcliffe2007-RATRCP,
+  publisher = {Palgrave-Macmillan},
+  year = {2007},
+  author = {Matthew Ratcliffe},
+  title = {Rethinking Commonsense Psychology: A Critique of Folk Psychology, Theory of Mind and Simulation}
+}
+@article{Gallese2007-GALBAB,
+  year = {2007},
+  author = {Vittorio Gallese},
+  volume = {362},
+  journal = {Philosophical Transactions of the Royal Society B-Biological Sciences},
+  number = {1480},
+  title = {Before and Below 'Theory of Mind': Embodied Simulation and the Neural Correlates of Social Cognition},
+  pages = {659--669},
+  publisher = {Royal Society}
+}
+@article{Humphreys2009-HUMTPN,
+  author = {Paul Humphreys},
+  volume = {169},
+  year = {2009},
+  journal = {Synthese},
+  number = {3},
+  title = {The Philosophical Novelty of Computer Simulation Methods},
+  doi = {10.1007/s11229-008-9435-2},
+  publisher = {Springer},
+  pages = {615--626}
+}
+@article{Hesslow2002-HESCTA,
+  title = {Conscious Thought as Simulation of Behavior and Perception},
+  doi = {10.1016/s1364-6613(02)01913-7},
+  pages = {242--247},
+  author = {Germund Hesslow},
+  year = {2002},
+  volume = {6},
+  journal = {Trends in Cognitive Sciences},
+  number = {6}
+}
+@article{Saxe2005-SAXAST,
+  title = {Against Simulation: The Argument From Error},
+  pages = {174--79},
+  doi = {10.1016/j.tics.2005.01.012},
+  author = {R. Saxe},
+  year = {2005},
+  volume = {9},
+  journal = {Trends in Cognitive Sciences},
+  number = {4}
+}
+@incollection{Gordon1996-GORSSA,
+  year = {1996},
+  booktitle = {Ethics},
+  title = {Sympathy, Simulation, and the Impartial Spectator},
+  author = {Robert M. Gordon},
+  pages = {727--742},
+  publisher = {MIT Press},
+  editor = {L. May and Michael Friedman and A. Clark}
+}
+@book{Broadbent1993-BROTSO-5,
+  title = {The Simulation of Human Intelligence},
+  year = {1993},
+  author = {Donald E. Broadbent},
+  publisher = {Blackwell}
+}
+@article{Gordon1995-GORSSA-2,
+  number = {4},
+  volume = {105},
+  year = {1995},
+  author = {Robert M. Gordon},
+  journal = {Ethics},
+  doi = {10.1086/293750},
+  publisher = {University of Chicago Press},
+  pages = {727--742},
+  title = {Sympathy, Simulation, and the Impartial Spectator}
+}
+@incollection{Heal1996-HEASTA,
+  editor = {Peter Carruthers and Peter K. Smith},
+  publisher = {Cambridge University Press},
+  pages = {75--89},
+  booktitle = {Theories of Theories of Mind},
+  year = {1996},
+  author = {Jane Heal},
+  title = {Simulation, Theory, and Content}
+}
+@article{Gibbs2006-RAYMIA-2,
+  title = {Metaphor Interpretation as Embodied Simulation},
+  pages = {434--458},
+  publisher = {Wiley-Blackwell},
+  doi = {10.1111/j.1468-0017.2006.00285.x},
+  author = {Raymond W. Gibbs},
+  volume = {21},
+  year = {2006},
+  journal = {Mind $<$Html\_ent Glyph="@amp;" Ascii="and"/$>$ Language},
+  number = {3}
+}
+@article{Winsberg2006-WINHYW,
+  year = {2006},
+  volume = {73},
+  author = {Eric Winsberg},
+  journal = {Philosophy of Science},
+  number = {5},
+  title = {Handshaking Your Way to the Top: Simulation at the Nanoscale},
+  publisher = {University of Chicago Press},
+  pages = {582--594},
+  doi = {10.1086/518328}
+}
+@article{Goldman1995-GOLSAI-2,
+  title = {Simulation and Interpersonal Utility},
+  pages = {709--726},
+  publisher = {University of Chicago Press},
+  doi = {10.1086/293749},
+  volume = {105},
+  author = {Alvin I. Goldman},
+  year = {1995},
+  journal = {Ethics},
+  number = {4}
+}
+@article{Hurley2008-HURUS,
+  number = {3},
+  journal = {Philosophy and Phenomenological Research},
+  year = {2008},
+  author = {Susan Hurley},
+  volume = {77},
+  pages = {755--774},
+  publisher = {Wiley-Blackwell},
+  doi = {10.1111/j.1933-1592.2008.00220.x},
+  title = {Understanding Simulation}
+}
+@incollection{Currie1996-CURSTA,
+  editor = {Peter Carruthers and Peter K. Smith},
+  publisher = {Cambridge University Press},
+  pages = {242},
+  author = {Gregory Currie},
+  booktitle = {Theories of Theories of Mind},
+  year = {1996},
+  title = {Simulation-Theory, Theory-Theory, and the Evidence From Autism}
+}
+@incollection{Perner1996-PERSAE,
+  booktitle = {Theories of Theories of Mind},
+  author = {Josef Perner},
+  year = {1996},
+  title = {Simulation as Explicitation of Predication-Implicit Knowledge About the Mind: Arguments for a Simulation-Theory Mix},
+  publisher = {Cambridge University Press},
+  pages = {90--104},
+  editor = {Peter Carruthers and Peter K. Smith}
+}
+@article{Kracht1997-KRASAT,
+  title = {Simulation and Transfer Results in Modal Logic -- a Survey},
+  doi = {10.1023/A:1004900300438},
+  publisher = {Springer Netherlands},
+  pages = {149--177},
+  volume = {59},
+  author = {Marcus Kracht and Frank Wolter},
+  year = {1997},
+  journal = {Studia Logica},
+  number = {2}
+}
+@article{Rubel1989-RUBDSO,
+  title = {Digital Simulation of Analog Computation and Church's Thesis},
+  doi = {10.2307/2274761},
+  pages = {1011--1017},
+  publisher = {Association for Symbolic Logic},
+  author = {Lee A. Rubel},
+  volume = {54},
+  year = {1989},
+  journal = {Journal of Symbolic Logic},
+  number = {3}
+}
+@article{Parker2010-PARAIF,
+  title = {An Instrument for What? Digital Computers, Simulation and Scientific Practice},
+  pages = {39--44},
+  doi = {10.4245/sponge.v4i1.13765},
+  volume = {4},
+  author = {Wendy S. Parker},
+  year = {2010},
+  journal = {Spontaneous Generations},
+  number = {1}
+}
+@incollection{Bedau2011-BEDWEA,
+  editor = {Paul Humphreys and Cyrille Imbert},
+  publisher = {Routledge},
+  title = {Weak Emergence and Computer Simulation},
+  booktitle = {Models, Simulations, and Representations},
+  year = {2011},
+  author = {Mark Bedau}
+}
+@article{Carruthers2009-CARSAT-4,
+  pages = {467--475},
+  publisher = {Springer},
+  doi = {10.1007/s11098-009-9357-y},
+  title = {Simulation and the First-Person},
+  number = {3},
+  year = {2009},
+  volume = {144},
+  author = {Peter Carruthers},
+  journal = {Philosophical Studies}
+}
+@article{Rysiew2000-RYSTSA,
+  doi = {10.1080/00048400012349561},
+  publisher = {Taylor \& Francis Group},
+  pages = {269--274},
+  title = {Testimony, Simulation, and the Limits of Inductivism},
+  number = {2},
+  author = {Patrick Rysiew},
+  year = {2000},
+  volume = {78},
+  journal = {Australasian Journal of Philosophy}
+}
+@article{Ruffman1996-RUFDCU,
+  title = {Do Children Understand the Mind by Means of a Simulation or a Theory? Evidence From Their Understanding of Inference},
+  doi = {10.1111/j.1468-0017.1996.tb00053.x},
+  pages = {388--414},
+  journal = {Mind and Language},
+  year = {1996},
+  author = {Ted Ruffman},
+  volume = {11},
+  number = {4}
+}
+@article{Miller2000-MILMEI,
+  pages = {1461--1477},
+  title = {Measurement Error in Subliminal Perception Experiments: Simulation Analyses of Two Regression Methods},
+  year = {2000},
+  author = {Jeff G. Miller},
+  volume = {26},
+  journal = {Journal of Experimental Psychology}
+}
+@article{Schweber2000-SCHCSM,
+  pages = {583--609},
+  doi = {10.1016/s1355-2198(00)00030-7},
+  title = {Complex Systems, Modelling and Simulation},
+  number = {4},
+  journal = {Studies in History and Philosophy of Science Part B: Studies in History and Philosophy of Modern Physics},
+  year = {2000},
+  author = {Sam Schweber and Matthias W\"achter},
+  volume = {31}
+}
+@article{Varenne2009-VARSIE,
+  title = {Simulation Informatique Et Pluriformalisation des Objets Composites},
+  doi = {10.4000/philosophiascientiae.79},
+  pages = {135--154},
+  publisher = {Kim\'e \'Editions},
+  journal = {Philosophia Scientiae},
+  author = {Franck Varenne},
+  year = {2009},
+  volume = {13},
+  number = {1}
+}
+@book{Harris1995-HARMS,
+  author = {Paul L. Harris},
+  year = {1995},
+  title = {Mental Simulation},
+  publisher = {Cambridge: Blackwell}
+}
+@article{Laakso2011-LAAHMM,
+  title = {How Many Mechanisms Are Needed to Analyze Speech? A Connectionist Simulation of Structural Rule Learning in Artificial Language Acquisition},
+  doi = {10.1111/j.1551-6709.2011.01191.x},
+  pages = {1243--1281},
+  year = {2011},
+  author = {Aarre Laakso and Paco Calvo},
+  volume = {35},
+  journal = {Cognitive Science},
+  number = {7}
+}
+@article{Berger1989-RBERAS,
+  journal = {Diogenes},
+  volume = {37},
+  author = {R. Berger and R. Scott Walker},
+  year = {1989},
+  number = {147},
+  title = {Re-Enactment and Simulation: Toward a Synthesis of What Type?},
+  pages = {1--22},
+  publisher = {Sage},
+  doi = {10.1177/039219218903714701}
+}
+@article{Goldman2008-GOLHOS-2,
+  publisher = {Wiley-Blackwell},
+  pages = {775--788},
+  doi = {10.1111/j.1933-1592.2008.00221.x},
+  title = {Hurley on Simulation},
+  number = {3},
+  author = {Alvin I. Goldman},
+  volume = {77},
+  year = {2008},
+  journal = {Philosophy and Phenomenological Research}
+}
+@article{Perner1999-PERPOT,
+  doi = {10.1111/1468-0017.00103},
+  pages = {57--79},
+  title = {Predicting Others Through Simulation or by Theory? A Method to Decide},
+  number = {1},
+  journal = {Mind and Language},
+  year = {1999},
+  author = {Josef Perner and A. Gschaider and A. Kuhberger and S. Schrofner},
+  volume = {14}
+}
+@article{Henderson1995-HENSTV,
+  year = {1995},
+  author = {David K. Henderson},
+  volume = {34},
+  journal = {Southern Journal of Philosophy},
+  number = {S1},
+  title = {Simulation Theory Versus Theory Theory: A Difference Without a Difference in Explanations},
+  doi = {10.1111/j.2041-6962.1996.tb00812.x},
+  pages = {65--93},
+  publisher = {Wiley-Blackwell}
+}
+@article{Heymann2010-HEYUAM,
+  journal = {Studies in History and Philosophy of Science Part B: Studies in History and Philosophy of Modern Physics},
+  year = {2010},
+  volume = {41},
+  author = {Matthias Heymann},
+  number = {3},
+  title = {Understanding and Misunderstanding Computer Simulation: The Case of Atmospheric and Climate Science---An Introduction},
+  pages = {193--200},
+  doi = {10.1016/j.shpsb.2010.08.001}
+}
+@article{Sundberg2010-SUNCOS,
+  doi = {10.1016/j.shpsb.2010.07.004},
+  pages = {273--281},
+  title = {Cultures of Simulations Vs. Cultures of Calculations? The Development of Simulation Practices in Meteorology and Astrophysics},
+  number = {3},
+  journal = {Studies in History and Philosophy of Science Part B: Studies in History and Philosophy of Modern Physics},
+  year = {2010},
+  author = {Mikaela Sundberg},
+  volume = {41}
+}
+@article{Stroud2008-STRSSK,
+  doi = {10.1353/jae.0.0016},
+  pages = {19--41},
+  title = {Simulation, Subjective Knowledge, and the Cognitive Value of Literary Narrative},
+  number = {3},
+  year = {2008},
+  author = {Scott R. Stroud},
+  volume = {42},
+  journal = {Journal of Aesthetic Education}
+}
+@incollection{Millikan2005-GARSRO,
+  publisher = {MIT Press},
+  editor = {Susan Hurley and Nick Chater},
+  booktitle = {Perspectives on Imitation: From Mirror Neurons to Memes, Vol II},
+  title = {Some Reflections on the Theory Theory - Simulation Theory Discussion},
+  year = {2005},
+  author = {Ruth G. Millikan}
+}
+@article{McDonald2003-MCDDBS,
+  number = {2},
+  author = {Patrick Joseph McDonald},
+  volume = {11},
+  year = {2003},
+  journal = {Perspectives on Science},
+  doi = {10.1162/106361403322495885},
+  publisher = {Mit Press},
+  pages = {170--207},
+  title = {Demonstration by Simulation: The Philosophical Significance of Experiment in Helmholtz's Theory of Perception}
+}
+@article{Rehm2009-REHFOT,
+  publisher = {Springer London},
+  pages = {267--280},
+  doi = {10.1007/s00146-009-0216-3},
+  title = {From Observation to Simulation: Generating Culture-Specific Behavior for Interactive Systems},
+  number = {3},
+  volume = {24},
+  author = {Matthias Rehm and Yukiko Nakano and Elisabeth Andr\'e and Toyoaki Nishida and Nikolaus Bee and Birgit Endrass and Michael Wissner and Afia Akhter Lipi and Hung{-}Hsuan Huang},
+  year = {2009},
+  journal = {AI and Society}
+}
+@article{Neumann2012-NEUTCL,
+  number = {4},
+  year = {2012},
+  volume = {20},
+  author = {Martin Neumann},
+  journal = {Artificial Intelligence and Law},
+  pages = {339--357},
+  doi = {10.1007/s10506-012-9129-4},
+  title = {The Cognitive Legacy of Norm Simulation}
+}
+@incollection{Agar2011-AGASSA,
+  publisher = {Johns Hopkins University Press},
+  pages = {149},
+  editor = {Gregory E. Kaebnick},
+  booktitle = {The Ideal of Nature: Debates About Biotechnology and the Environment},
+  year = {2011},
+  author = {Nicholas Agar},
+  title = {Sport, Simulation, and EPO}
+}
+@unpublished{TimmermansManuscript-TIMRVS-2,
+  title = {Rules Versus Statistics in Biconditional Grammar Learning: A Simulation Based on Shanks Et Al. (1997)},
+  author = {Bert Timmermans}
+}
+@article{Meester2009-MEESOB,
+  title = {Simulation of Biological Evolution and the Nfl Theorems},
+  publisher = {Springer},
+  pages = {461--472},
+  doi = {10.1007/s10539-008-9134-x},
+  author = {Ronald Meester},
+  volume = {24},
+  year = {2009},
+  journal = {Biology and Philosophy},
+  number = {4}
+}
+@article{JoC2013-JOCTTS,
+  journal = {The Philosophers' Magazine},
+  year = {2013},
+  author = {Jo\textquoterightC.},
+  volume = {61},
+  number = {61},
+  title = {Testing the Simulation Argument},
+  pages = {7--7}
+}
+@article{Datteri2009-DATSEI,
+  title = {Simulation Experiments in Bionics: A Regulative Methodological Perspective},
+  doi = {10.1007/s10539-008-9133-y},
+  publisher = {Springer},
+  pages = {301--324},
+  volume = {24},
+  year = {2009},
+  author = {Edoardo Datteri},
+  journal = {Biology and Philosophy},
+  number = {3}
+}
+@incollection{Goldman2009-GOLSTA-2,
+  publisher = {Wiley-Blackwell},
+  editor = {Dominic Murphy and Michael A. Bishop},
+  booktitle = {Stich and His Critics},
+  year = {2009},
+  title = {Simulation Theory and Cognitive Neuroscience},
+  author = {Alvin Goldman}
+}
+@article{Issenberg2008-SBASIH,
+  journal = {Perspectives in Biology and Medicine},
+  author = {S. Barry Issenberg and Ross J. Scalese},
+  year = {2008},
+  volume = {51},
+  number = {1},
+  title = {Simulation in Health Care Education},
+  doi = {10.1353/pbm.2008.0004},
+  pages = {31--46}
+}
+@article{Carroll2008-JOHMST,
+  doi = {10.1353/pbm.2008.0003},
+  pages = {47--60},
+  title = {Medical Simulation: The New Tool for Training and Skill Assessment},
+  number = {1},
+  journal = {Perspectives in Biology and Medicine},
+  author = {John D. Carroll and John C. Messenger},
+  volume = {51},
+  year = {2008}
+}
+@article{Zollman2009-ZOLROE,
+  journal = {Notre Dame Philosophical Reviews},
+  author = {Kevin J. S. Zollman},
+  year = {2009},
+  volume = {2009},
+  number = {3},
+  title = {Review of Eckhart Arnold, \emph{Explaining Altruism: A Simulation-Based Approach and its Limits}}
+}
+@article{Moravec1999-MORSCE,
+  year = {1999},
+  author = {Hans Moravec},
+  volume = {28},
+  journal = {Intercommunication},
+  title = {Simulation, Consciousness, Existence},
+  pages = {98--112}
+}
+@incollection{Scheutz2001-SCHETE,
+  booktitle = {Proceedings of the 7th International Colloquium on Cognitive},
+  title = {Explicating the Epistemological Role of Simulation in the Development of Theories of Cognition},
+  year = {2001},
+  author = {Matthias Scheutz and Markus F. Peschl},
+  editor = {}
+}
+@incollection{Scheutz2001-SCHSTO,
+  editor = {},
+  year = {2001},
+  booktitle = {Proceedings of the Sixth Congress of the Austrian Philosophical Society},
+  author = {Matthias Scheutz and Markus F. Peschl},
+  title = {Some Thoughts on Computation and Simulation in Cognitive Science}
+}
+@unpublished{EdmondsManuscript-EDMTUO-2,
+  title = {The Uses of Genetic Programming in Social Simulation: A Review of Five Books},
+  author = {Bruce Edmonds}
+}
+@article{Guillaud2008-GUIDSO,
+  journal = {Acta Biotheoretica},
+  volume = {56},
+  author = {Fran\c{c}ois Guillaud and Patrick Hannaert},
+  year = {2008},
+  number = {1-2},
+  title = {Dynamic Simulation of Mitochondrial Respiration and Oxidative Phosphorylation: Comparison with Experimental Results},
+  publisher = {Springer},
+  pages = {157--172},
+  doi = {10.1007/s10441-008-9035-z}
+}
+@article{Gruner2013-GRUEWS,
+  doi = {10.1007/s11023-012-9292-0},
+  pages = {251--254},
+  title = {Eric Winsberg: Science in the Age of Computer Simulation},
+  number = {2},
+  author = {Stefan Gruner},
+  year = {2013},
+  volume = {23},
+  journal = {Minds and Machines}
+}
+@article{Travers1991-TRAFAS,
+  doi = {10.1111/j.1468-5914.1991.tb00199.x},
+  publisher = {Wiley-Blackwell},
+  pages = {297--337},
+  title = {From'normal Appearances'to 'Simulation'in Interaction},
+  number = {3},
+  year = {1991},
+  author = {Andrew Travers},
+  volume = {21},
+  journal = {Journal for the Theory of Social Behaviour}
+}
+@article{Nielsen2002-NIETSO,
+  title = {The Simulation of Emotion Experience: On the Emotional Foundations of Theory of Mind},
+  doi = {10.1023/A:1021359916894},
+  publisher = {Springer Netherlands},
+  pages = {255--286},
+  journal = {Phenomenology and the Cognitive Sciences},
+  year = {2002},
+  volume = {1},
+  author = {Lisbeth Nielsen},
+  number = {3}
+}
+@incollection{Sripada2005-SRISAT,
+  booktitle = {Evolution, Rationality, and Cognition: A Cognitive Science for the Twenty-First Century},
+  year = {2005},
+  author = {Chandra Sripada and Alvin Goldman},
+  title = {Simulation and the Evolution of Mindreading},
+  publisher = {Routledge},
+  editor = {Ant\'onio Zilh\~ao}
+}
+@article{Konig2013-KNISAT,
+  doi = {10.1007/s13347-012-0078-3},
+  pages = {81--91},
+  title = {Simulation and the Problem of Simplification},
+  number = {1},
+  volume = {26},
+  author = {Gerhard K\"onig},
+  year = {2013},
+  journal = {Philosophy and Technology}
+}
+@book{Apter1970-APTTCS,
+  year = {1970},
+  author = {Michael J. Apter},
+  title = {The Computer Simulation Of Behaviour},
+  publisher = {Hutchinson}
+}
+@article{Mihram1976-MIHSM,
+  number = {1-2},
+  journal = {Theory and Decision},
+  author = {G. Arthur Mihram},
+  year = {1976},
+  volume = {7},
+  pages = {67--94},
+  publisher = {Springer},
+  doi = {10.1007/BF00141103},
+  title = {Simulation Methodology}
+}
+@article{Levine1996-LEVSMO,
+  number = {1},
+  author = {Joseph Levine},
+  year = {1996},
+  volume = {11},
+  journal = {Mind and Language},
+  doi = {10.1111/j.1468-0017.1996.tb00033.x},
+  pages = {86--91},
+  publisher = {Wiley-Blackwell},
+  title = {Swampjoe: Mind or Simulation?}
+}
+@incollection{Schwitzgebel2000-SCHADF,
+  author = {Eric Schwitzgebel},
+  booktitle = {Available on Author's Homepage},
+  year = {2000},
+  title = {A Difficulty for Simulation Theory Due to the Close Connection of Pretense and Action in Early Childhood},
+  editor = {}
+}
+@article{Kaiser1976-KAIQDA,
+  doi = {10.1007/BF00047325},
+  pages = {163--210},
+  publisher = {Springer},
+  title = {Quantitative Description and Simulation of Stochastic Behaviour in Dragonflies (Aeschna Cyanea, Odonata)},
+  number = {2-3},
+  author = {Heinrich Kaiser},
+  volume = {25},
+  year = {1976},
+  journal = {Acta Biotheoretica}
+}
+@article{Rosenwein1995-ROSHHA,
+  number = {1},
+  journal = {Social Epistemology},
+  volume = {9},
+  author = {Robert Rosenwein and Michael Gorman},
+  year = {1995},
+  publisher = {Taylor \& Francis},
+  pages = {57--69},
+  doi = {10.1080/02691729508578774},
+  title = {Heuristics, Hypotheses, and Social Influence: A New Approach to the Experimental Simulation of Social Epistemology}
+}
+@article{Klauer2000-KLAMEI,
+  title = {Measurement Error in Subliminal Perception Experiments: Simulation Analyses of Two Regression Methods},
+  pages = {1506--1508},
+  volume = {26},
+  year = {2000},
+  author = {K. Klauer and Anthony G. Greenwald},
+  journal = {Journal of Experimental Psychology}
+}
+@article{Stemmer1995-STEABA,
+  journal = {Behavior and Philosophy},
+  year = {1995},
+  author = {Nathan Stemmer},
+  volume = {23},
+  number = {1},
+  title = {A Behaviorist Account to Theory and Simulation Theories of Folk Psychology},
+  pages = {29--41},
+  publisher = {Cambridge Center for Behavioral Studies}
+}
+@article{Grandy1995-GRANSW-2,
+  title = {No Simulation Without (Some) Theory (Somewhere, Some Kind)},
+  doi = {southernjphil199534Supplement6},
+  pages = {95--98},
+  publisher = {Wiley-Blackwell},
+  year = {1995},
+  author = {Richard E. Grandy},
+  volume = {34},
+  journal = {Southern Journal of Philosophy},
+  number = {Supplement}
+}
+@article{Johnson2008-JOHMRR,
+  number = {2},
+  journal = {Phenomenology and the Cognitive Sciences},
+  author = {Mark Johnson},
+  year = {2008},
+  volume = {7},
+  publisher = {Springer},
+  pages = {313--315},
+  doi = {10.1007/s11097-008-9087-1},
+  title = {Matthew Ratcliffe: Rethinking Commonsense Psychology: A Critique of Folk Psychology, Theory of Mind and Simulation}
+}
+@article{Helmer1981-HELGAI,
+  journal = {World Futures},
+  volume = {17},
+  author = {Olaf Helmer},
+  year = {1981},
+  number = {1},
+  title = {GEM: An Interactive Simulation Model of the Global Economy},
+  doi = {10.1080/02604027.1981.9971927},
+  pages = {63--90}
+}
+@article{Gerrans1998-GERHTB,
+  year = {1998},
+  volume = {76},
+  author = {Philip Gerrans},
+  journal = {Australasian Journal of Philosophy},
+  number = {4},
+  title = {How to Be a Conformist, Part II. Simulation and Rule Following},
+  pages = {566--586},
+  publisher = {Taylor \& Francis},
+  doi = {10.1080/00048409812348681}
+}
+@unpublished{Arkway1998-ARKTST-2,
+  year = {1998},
+  author = {Angela Arkway},
+  title = {The Simulation Theory and Explanations That 'Make Sense of Behavior'}
+}
+@article{Litzky2012-LITROE,
+  volume = {9},
+  year = {2012},
+  author = {Barrie E. Litzky},
+  journal = {Journal of Business Ethics Education},
+  title = {Review of EthicsGame Simulation},
+  pages = {485--488},
+  doi = {10.5840/jbee2012929}
+}
+@article{Hutto2007-HUTROM,
+  title = {Rethinking Commonsense Psychology: A Critique of Folk Psychology, Theory of Mind and Simulation},
+  number = {11},
+  journal = {Notre Dame Philosophical Reviews},
+  year = {2007},
+  author = {Daniel D. Hutto},
+  volume = {2007}
+}
+@unpublished{WinsbergManuscript-WINSAT,
+  title = {Simulation at the Nano-Scale},
+  author = {Eric Winsberg}
+}
+@article{Bani-Yaghoub2008-BANSAS,
+  doi = {10.1007/s10441-008-9062-9},
+  pages = {315--328},
+  publisher = {Springer},
+  title = {Study and Simulation of Reaction--Diffusion Systems Affected by Interacting Signaling Pathways},
+  number = {4},
+  volume = {56},
+  author = {Majid Bani{-}Yaghoub and David E. Amundsen},
+  year = {2008},
+  journal = {Acta Biotheoretica}
+}
+@article{Luck1999-LCKSOT,
+  number = {3-4},
+  author = {J. L\"uck and H. B. L\"uck and M.{-}Th L'Hardy{-}Halos and C. Lambert},
+  year = {1999},
+  volume = {47},
+  journal = {Acta Biotheoretica},
+  publisher = {Springer},
+  pages = {329--351},
+  doi = {10.1023/A:1002659209511},
+  title = {Simulation of the Thallus Development of Antithamnion Plumula (Ellis) le Jolis, (Rhodophyceae, Ceramiales)}
+}
+@article{Bergson1886-BERDLS,
+  journal = {Revue Philosophique de la France Et de l'Etranger},
+  year = {1886},
+  author = {H. Bergson},
+  volume = {22},
+  publisher = {Presses Universitaires de France},
+  pages = {525--531},
+  title = {De la Simulation Inconsciente Dans l'\'Etat D'Hypnotisme}
+}
+@article{Andrighetto2012-ANDITT-3,
+  title = {Introduction to the Special Issue: Simulation, Norms and Laws},
+  pages = {335--337},
+  doi = {10.1007/s10506-012-9138-3},
+  journal = {Artificial Intelligence and Law},
+  volume = {20},
+  author = {Giulia Andrighetto and Rosaria Conte and Eunate Mayor Villalba and Giovanni Sartor},
+  year = {2012},
+  number = {4}
+}
+@article{Grim2013-GRIEOM,
+  number = {1},
+  author = {Patrick Grim},
+  year = {2013},
+  volume = {26},
+  journal = {Philosophy and Technology},
+  doi = {10.1007/s13347-012-0080-9},
+  pages = {73--74},
+  title = {Epistemology of Modeling and Simulation: Variations on a Theme}
+}
+@article{Baconnier1997-BACSOP,
+  doi = {10.1023/A:1000679924625},
+  pages = {237--250},
+  publisher = {Springer},
+  title = {Simulation of Pulmonay Damages Induced by Inhaled CL2 on the Bronchial Tree},
+  number = {3-4},
+  volume = {45},
+  year = {1997},
+  author = {Pierre F. Baconnier and Catherine Marey and Ahmed M\'enaouar},
+  journal = {Acta Biotheoretica}
+}
+@article{Brook1989-BROHDW,
+  number = {4},
+  year = {1989},
+  author = {Donald Brook},
+  volume = {67},
+  journal = {Australasian Journal of Philosophy},
+  doi = {10.1080/00048408912343971},
+  publisher = {Taylor \& Francis},
+  pages = {452--468},
+  title = {How Did We Get From Simulation to Symbol?}
+}
+@article{Henderson1995-HENSTV-2,
+  number = {Supplement},
+  year = {1995},
+  author = {David K. Henderson},
+  volume = {34},
+  journal = {Southern Journal of Philosophy},
+  doi = {southernjphil199534Supplement5},
+  publisher = {Wiley-Blackwell},
+  pages = {65--93},
+  title = {Simulation Theory Versus Theory Theory}
+}
+@article{Robinson1995-HOWOSA,
+  volume = {70},
+  author = {Howard Robinson},
+  year = {1995},
+  journal = {Philosophy},
+  number = {273},
+  title = {Objectivity, Simulation and the Unity of Consciousness: Current Issues in the Philosophy of Mind Ed.Christopher Peacocke Oxford University Press,Proceedings of the British Academy, Vol.83,1994, 162 + Xxvi, \textsterling14.95},
+  doi = {10.1017/S0031819100065670},
+  pages = {469-}
+}
+@article{Sterelny1997-KIMNTS,
+  title = {Navigating the Social World: Simulation Versus Theory},
+  doi = {10.1111/1468-0149.00045},
+  pages = {011--029},
+  journal = {Philosophical Books},
+  year = {1997},
+  author = {Kim Sterelny},
+  volume = {38},
+  number = {1}
+}
+@article{Bimler2005-BIMIOO,
+  year = {2005},
+  author = {David Bimler},
+  volume = {28},
+  journal = {Behavioral and Brain Sciences},
+  number = {4},
+  title = {Intimations of Optimality: Extensions of Simulation Testing of Color-Language Hypotheses},
+  doi = {10.1017/s0140525x05220083},
+  pages = {489--490}
+}
+@article{Grandy1995-GRANSW,
+  doi = {10.1111/j.2041-6962.1996.tb00813.x},
+  pages = {95--98},
+  publisher = {Wiley-Blackwell},
+  title = {No Simulation Without (Some) Theory (Somewhere, Some Kind): Comments on Henderson},
+  number = {S1},
+  journal = {Southern Journal of Philosophy},
+  author = {Richard E. Grandy},
+  volume = {34},
+  year = {1995}
+}
+@article{Cotterill2000-COTMHA,
+  doi = {10.1023/A:1010012221641},
+  pages = {275--282},
+  publisher = {Springer Netherlands},
+  title = {Muscular Hyperspace and Navigation in the Theatre That Never Closed, the Cognitive Bacterium, Conscious Unity, Self-Tickling, and Computer Simulation: Reply to Marcel Kinsbourne},
+  number = {2},
+  journal = {Brain and Mind},
+  author = {Rodney M. J. Cotterill},
+  volume = {1},
+  year = {2000}
+}
+@article{Fuller1995-FULORA,
+  title = {On Rosenwein and Gorman's Simulation of Social Epistemology},
+  publisher = {Taylor \& Francis},
+  pages = {81--85},
+  doi = {10.1080/02691729508578776},
+  journal = {Social Epistemology},
+  volume = {9},
+  author = {Steve Fuller},
+  year = {1995},
+  number = {1}
+}
+@article{Palys1978-PALSMA,
+  doi = {10.1111/j.1468-5914.1978.tb00408.x},
+  publisher = {Wiley-Blackwell},
+  pages = {341--368},
+  title = {Simulation Methods and Social Psychology},
+  number = {3},
+  year = {1978},
+  author = {T. S. Palys},
+  volume = {8},
+  journal = {Journal for the Theory of Social Behaviour}
+}
+@article{Hopkins1995-HOPSAT,
+  doi = {10.1111/j.1527-2001.1995.tb01381.x},
+  pages = {162--170},
+  publisher = {Wiley-Blackwell},
+  title = {Simulation and the Reproduction of Injustice: A Reply},
+  number = {2},
+  journal = {Hypatia},
+  author = {Patrick D. Hopkins},
+  volume = {10},
+  year = {1995}
+}
+@article{Kuehberger2006-KUETRO,
+  title = {The Role of the Position Effect in Theory and Simulation},
+  doi = {10.1111/j.1468-0017.2006.00290.x},
+  pages = {610--625},
+  publisher = {Blackwell Publishing},
+  journal = {Mind and Language},
+  author = {Anton Kuehberger and Christoph Kogler and Angelika Hug and Evelyne Moesl},
+  year = {2006},
+  volume = {21},
+  number = {5}
+}
+@unpublished{Fuller2002-FULMST,
+  author = {Gary Fuller},
+  year = {2002},
+  title = {Mental Simulation: The Old-Fashioned Dispute}
+}
+@article{Paulhan1902-PAULSD-5,
+  title = {La Simulation Dans le Caract\`ere: La Fausse Sensibilit\'e},
+  pages = {457--488},
+  publisher = {Presses Universitaires de France},
+  year = {1902},
+  volume = {53},
+  author = {Fr Paulhan},
+  journal = {Revue Philosophique de la France Et de l'Etranger}
+}
+@article{Moles1965-MOLLSE,
+  number = {n/a},
+  volume = {155},
+  author = {Abraham A. Moles},
+  year = {1965},
+  journal = {Revue Philosophique de la France Et de l'Etranger},
+  publisher = {Presses Universitaires de France},
+  pages = {229--231},
+  title = {La Simulation En Tant Que Mode d'Explication Structuraliste des Ph\'enom\`enes}
+}
+@article{Kramer2009-KRAITF,
+  journal = {Mind and Society},
+  author = {Mark A. Kramer and Roger Costello and John Griffith},
+  year = {2009},
+  volume = {8},
+  number = {2},
+  title = {Investigating the Force Multiplier Effect of Citizen Event Reporting by Social Simulation},
+  pages = {209--221},
+  publisher = {Springer Berlin / Heidelberg},
+  doi = {10.1007/s11299-009-0059-0}
+}
+@article{Paulhan1903-PAULSD-4,
+  title = {La Simulation Dans le Caract\'ere: Quelques Formes Particuli\'eres de Simulation},
+  pages = {337--365},
+  publisher = {Presses Universitaires de France},
+  author = {F. Paulhan},
+  year = {1903},
+  volume = {56},
+  journal = {Revue Philosophique de la France Et de l'Etranger}
+}
+@incollection{Markman2005-MARRAE-4,
+  year = {2005},
+  booktitle = {The Psychology of Counterfactual Thinking},
+  title = {Reflective and Evaluative Modes of Mental Simulation},
+  author = {Keith D. Markman and Matthew N. McMullen},
+  pages = {77--93},
+  publisher = {Routledge},
+  editor = {David R. Mandel and Denis J. Hilton and Patrizia Catellani}
+}
+@article{Paulhan1901-PAULSD-6,
+  pages = {600--625},
+  publisher = {Presses Universitaires de France},
+  title = {La Simulation Dans le Caract\`ere: Le Faux Impassible},
+  volume = {52},
+  author = {Fr Paulhan},
+  year = {1901},
+  journal = {Revue Philosophique de la France Et de l'Etranger}
+}
+@incollection{Blhdorn2004-BLHTFO,
+  publisher = {Routledge},
+  editor = {M. L. J. Wissenburg and Yoram Levy},
+  year = {2004},
+  booktitle = {Liberal Democracy and Environmentalism: The End of Environmentalism?},
+  title = {The Faces of Endism : Post-Ecologism and the Politics of Simulation},
+  author = {Ingolfur Blhdorn}
+}
+@book{Brewer1994-BREOSA,
+  author = {Bill Brewer},
+  year = {1994},
+  title = {Objectivity, Simulation and the Unity of Consciousness},
+  publisher = {New York: Oxford University Press}
+}
+@book{Child2002-CHISAK-2,
+  publisher = {Amsterdam: John Benjamins},
+  year = {2002},
+  author = {William Child},
+  title = {Simulation and Knowledge of Action}
+}
+@unpublished{Hutto1994-HUTMOL,
+  year = {1994},
+  title = {Minding Our Language: The Role of Simulation in Linguistic Interpretation},
+  author = {Daniel D. Hutto}
+}
+@incollection{Jacquette2004-JACAAM,
+  year = {2004},
+  booktitle = {Phenomenology and Analysis: Essays on Central European Philosophy},
+  title = {Assumption and Mechanical Simulation of Hypothetical Reasoning},
+  author = {Dale Jacquette},
+  publisher = {Ontos},
+  pages = {323--358},
+  editor = {Arkadiusz Chrudzimski and Wolfgang Huemer}
+}
+@article{Jacquette1985-JACLBA,
+  publisher = {The Institute of Mind and Behavior, Inc.},
+  pages = {325--332},
+  title = {Logical Behaviorism and the Simulation of Mental Episodes},
+  number = {3},
+  journal = {Journal of Mind and Behavior},
+  author = {Dale Jacquette},
+  year = {1985},
+  volume = {6}
+}
+@incollection{Kavanagh2012-KAVESA,
+  booktitle = {Dynamicity in Emotion Concepts},
+  year = {2012},
+  author = {Liam Kavanagh and Paula Niedenthal},
+  title = {Embodied Simulation as Grounds for Emotion Concepts},
+  editor = {Paul Wilson},
+  publisher = {Peter LAng}
+}
+@book{Lobovikov1999-LOBMJA,
+  publisher = {The Urals State University Press},
+  author = {V. O. Lobovikov},
+  year = {1999},
+  title = {Mathematical Jurisprudence and Mathematical Ethics: A Mathematical Simulation of the Evaluative and the Normative Attitudes to the Rigoristic Sub-Systems of the Positive Law and of the Natural-Law-and-Morals}
+}
+@book{Meyer1990-MEYFAT,
+  title = {From Animals to Animats: Proceedings of The First International Conference on Simulation of Adaptive Behavior (Complex Adaptive Systems)},
+  year = {1990},
+  author = {Jean{-}Arcady Meyer and Stewart W. Wilson},
+  publisher = {Cambridge University Press}
+}
+@book{Muzy2010-MUZAMA,
+  publisher = {Presses Universitaires Blaise-Pascal},
+  title = {Activity-Based Modeling and Simulation},
+  year = {2010},
+  author = {Alexandre Muzy and David R. C. Hill and Bernard P. Zeigler}
+}
+@book{Peterson2002-PETSAK,
+  publisher = {Amsterdam: John Benjamins},
+  author = {Donald M. Peterson},
+  year = {2002},
+  title = {Simulation and Knowledge of Action}
+}
+@incollection{Selinger2012-SELS-4,
+  editor = {Jan Kyrre Berg Olsen Friis and Stig Andur Pedersen and Vincent F. Hendricks},
+  publisher = {Wiley-Blackwell},
+  booktitle = {A Companion to the Philosophy of Technology},
+  title = {Simulation},
+  year = {2012},
+  author = {Evan Selinger}
+}
+@book{Vandamme1972-VANSON,
+  title = {Simulation of Natural Language},
+  year = {1972},
+  author = {Fernand J. Vandamme},
+  publisher = {The Hague: Mouton}
+}
+@book{Villanueva1994-VILOSA,
+  publisher = {New York: Oxford University Press},
+  year = {1994},
+  title = {Objectivity, Simulation and the Unity of Consciousness},
+  author = {Enrique Villanueva}
+}
+@incollection{vonEngelhardt2007-VONSI,
+  editor = {Klaus Dethloff and Peter Kampits},
+  publisher = {Parerga},
+  year = {2007},
+  booktitle = {Humane Existenz: Reflexionen Zur Ethik in Einer Pluralistischen Gesellschaft},
+  author = {Dietrich von Engelhardt},
+  title = {Simulation - Im Kontext der Geschichte Und Ethik der Medizin}
+}
+@article{White1998-WHISRA,
+  journal = {Link\"oping Electronic Articles in Computer and Information Science},
+  volume = {3},
+  author = {G. Graham White},
+  year = {1998},
+  number = {12},
+  title = {Simulation, Ramification, and Linear Logic}
+}
+@article{Viet2006-VIEAFQ-2,
+  publisher = {Springer},
+  pages = {207--217},
+  doi = {10.1007/s10441-006-8226-8},
+  title = {Approach for Qualitative Validation Using Aggregated Data for a Stochastic Simulation Model of the Spread of the Bovine Viral-Diarrhoea Virus in a Dairy Cattle Herd},
+  number = {3},
+  journal = {Acta Biotheoretica},
+  author = {Anne{-}France Viet and Christine Fourichon and Christine Jacob and Chantal Guihenneuc{-}Jouyaux and Henri Seegers},
+  year = {2006},
+  volume = {54}
+}
+@article{derHeiden1987-DERMMA,
+  title = {Mathematical Model and Simulation of Retina and Tectum Opticum of Lower Vertebrates},
+  doi = {10.1007/BF00052064},
+  publisher = {Springer},
+  pages = {179--212},
+  journal = {Acta Biotheoretica},
+  author = {U. An der Heiden and G. Roth},
+  year = {1987},
+  volume = {36},
+  number = {3}
+}
+
+
+@unpublished{SuneManuscript-SURPA-4,
+  title = {Real Patterns and Indispensability},
+  author = {Abel Su\~n\'e and Manolo Mart\'inez}
+}
+@article{RapaportForthcoming-RAPSSA,
+  title = {Syntax, Semantics, and Computer Programs},
+  year = {forthcoming},
+  journal = {Philosophy and Technology},
+  doi = {10.1007/s13347-019-00365-8},
+  pages = {1--13},
+  author = {William J. Rapaport}
+}
+@article{Chartrand2017-CHALPE-9,
+  number = {8 juin},
+  title = {La Philosophie Entre Intuition Et Empirie: Comment les \'Etudes du Texte Peuvent Contribuer \`A Renouveler la R\'eflexion Philosophique},
+  year = {2017},
+  volume = {2017},
+  journal = {Artichaud Magazine},
+  author = {Louis Chartrand}
+}
+@article{Jones2019-JONGET,
+  pages = {89--116},
+  author = {Mostyn W. Jones},
+  journal = {Journal of Consciousness Studies},
+  volume = {26},
+  title = {Growing Evidence That Perceptual Qualia Are Neuroelectrical Not Computational},
+  year = {2019},
+  number = {5-6}
+}
+@unpublished{VuongManuscript-VUOUTI,
+  author = {Quan{-}Hoang Vuong and Viet{-}Phuong La and Hong{-}Kong T. Nguyen},
+  title = {Understanding the Interplay of Lies, Violence, and Religious Values in Folktales}
+}
+@article{Vuong2019-VUOBVL,
+  author = {Quan{-}Hoang Vuong and Viet{-}Phuong La},
+  pages = {01--47},
+  journal = {Open Science Framework},
+  volume = {2019},
+  year = {2019},
+  title = {Bayesvl: Visually Learning the Graphical Structure of Bayesian Networks and Performing MCMC with 'Stan'}
+}
+@article{Pence2018-PENHTD,
+  journal = {Philosophy of Science},
+  author = {Charles H. Pence and Grant Ramsey},
+  doi = {10.1086/699697},
+  pages = {930--941},
+  number = {5},
+  title = {How to Do Digital Philosophy of Science},
+  year = {2018},
+  volume = {85}
+}
+@incollection{VanDenBerg2018-VANAPP-11,
+  author = {Hein Van Den Berg and Arianna Betti and Thom Castermans and Rob Koopman and Bettina Speckmann and K. A. B. Verbeek and Titia Van der Werf and Shenghui Wang and Michel A. Westenberg},
+  editor = {},
+  booktitle = {3rd Workshop on Visualization for the Digital Humanities},
+  year = {2018},
+  title = {A Philosophical Perspective on Visualization for Digital Humanities}
+}
+@incollection{Betti2017-BETPBC,
+  pages = {379--392},
+  author = {Arianna Betti and Martin Reynaert and Hein Van Den Berg},
+  year = {2017},
+  title = {@PhilosTEI: Building Corpora for Philosophers},
+  booktitle = {Clarin in the Low Countries},
+  editor = {J. Odijk and A. Van Hessen}
+}
+@incollection{Mizrahi2019-MIZWIO,
+  year = {2019},
+  title = {What Isn\textquoterightT Obvious About \textquoteleftObvious\textquoteright: A Data-Driven Approach to Philosophy of Logic},
+  booktitle = {Advances in Experimental Philosophy of Logic and Mathematics},
+  publisher = {London: Bloomsbury Press},
+  editor = {Andrew Aberdein and Matthew Inglis},
+  pages = {201--224},
+  author = {Moti Mizrahi}
+}
+@incollection{Bohr1958-BOHUOK,
+  year = {1958},
+  title = {Unity of Knowledge},
+  booktitle = {Atomic Physics and Human Knowledge},
+  publisher = {Wiley},
+  editor = {},
+  pages = {67--82},
+  author = {Niels Bohr}
+}
+@incollection{Luczak-Roesch2016-LUCAUS,
+  title = {A Universal Socio-Technical Computing Machine},
+  year = {2016},
+  booktitle = {International Conference on Web Engineering},
+  editor = {},
+  author = {Markus Luczak{-}Roesch and Ramine Tinati and Saud Aljaloud and Wendy Hall and Nigel Shadbolt}
+}
+@article{Blumson2017-BLUAGI-2,
+  journal = {Archive of Formal Proofs},
+  pages = {9},
+  author = {Ben Blumson},
+  year = {2017},
+  title = {Anselm's God in Isabelle/HOL}
+}
+@incollection{Baek2018-BAEHTS,
+  pages = {N/A},
+  author = {Jongmin Jerome Baek},
+  booktitle = {arXiv},
+  year = {2018},
+  title = {How to Solve Moral Conundrums with Computability Theory},
+  editor = {}
+}
+@article{Wheeler2017-WHEHAE,
+  number = {3},
+  year = {2017},
+  title = {Humeanism and Exceptions in the Fundamental Laws of Physics},
+  volume = {21},
+  journal = {Principia: An International Journal of Epistemology},
+  author = {Billy Wheeler},
+  doi = {10.5007/1808-1711.2017v21n3p317},
+  pages = {317--337}
+}
+@phdthesis{Leibovitz2013-LEIAUC,
+  year = {2013},
+  title = {A Unified Cognitive Model of Visual Filling-In Based on an Emergic Network Architecture},
+  school = {Carleton University},
+  author = {David Pierre Leibovitz}
+}
+@incollection{Varenne2013-VARTNO-6,
+  editor = {Fr\'ed\'eric Migayrou  Brayer and  Marie{-}Ange},
+  publisher = {Orl\'eans: HYX Editions},
+  booktitle = {Naturalizing Architecture},
+  year = {2013},
+  title = {The Nature of Computational Things},
+  author = {Franck Varenne},
+  pages = {96--105}
+}
+@unpublished{FuenmayorManuscript-FUEACS,
+  author = {David Fuenmayor and Christoph Benzmueller},
+  title = {A Case Study on Computational Hermeneutics: E. J. Lowe\textquoterights Modal Ontological Argument}
+}
+@article{Ashton2018-MIZSMT,
+  author = {Zoe Ashton and Moti Mizrahi},
+  pages = {58--70},
+  doi = {10.1111/meta.12279},
+  journal = {Metaphilosophy},
+  volume = {49},
+  number = {1-2},
+  year = {2018},
+  title = {Show Me the Argument: Empirically Testing the Armchair Philosophy Picture}
+}
+@article{Rooij2012-ROOIAT,
+  volume = {187},
+  publisher = {Springer},
+  number = {2},
+  year = {2012},
+  title = {Intractability and the Use of Heuristics in Psychological Explanations},
+  author = {Iris Rooij and Cory Wright and Todd Wareham},
+  pages = {471--487},
+  doi = {10.1007/s11229-010-9847-7},
+  journal = {Synthese}
+}
+@article{Ashton2018-ASHITI,
+  publisher = {Springer Verlag},
+  number = {3},
+  year = {2018},
+  title = {Intuition Talk is Not Methodologically Cheap: Empirically Testing the \textquotedblleftReceived Wisdom\textquotedblright About Armchair Philosophy},
+  volume = {83},
+  journal = {Erkenntnis},
+  author = {Zoe Ashton and Moti Mizrahi},
+  pages = {595--612},
+  doi = {10.1007/s10670-017-9904-4}
+}
+@article{Angius2011-ANGSTO,
+  title = {Scientific Theories of Computational Systems in Model Checking},
+  year = {2011},
+  number = {2},
+  volume = {21},
+  journal = {Minds and Machines},
+  pages = {323--336},
+  doi = {10.1007/s11023-011-9231-5},
+  author = {Nicola Angius and Guglielmo Tamburrini}
+}
+@article{Muller2008-MLLWAC-2,
+  author = {Vincent C. M\"uller},
+  pages = {36--38},
+  journal = {APA Newsletter on Philosophy and Computers},
+  volume = {8},
+  number = {1},
+  year = {2008},
+  title = {What a Course on Philosophy of Computing is Not}
+}
+@incollection{Wheeler2016-WHEMEA,
+  booktitle = {Routledge Companion to Philosophy of Social Science},
+  title = {Machine Epistemology and Big Data},
+  year = {2016},
+  editor = {Lee McIntyre and Alex Rosenburg},
+  publisher = {Routledge},
+  author = {Gregory Wheeler}
+}
+@incollection{Hellie2017-HELDLA-2,
+  booktitle = {Philosophy's Future: The Problem of Philosophical Progress},
+  year = {2017},
+  title = {David Lewis and the Kangaroo: Graphing Philosophical Progress},
+  editor = {Russell Blackford and Damien Broderick},
+  publisher = {Oxford: Blackwell},
+  author = {Benj Hellie}
+}
+@article{Gustafsson2012-PETACS,
+  journal = {Synthese},
+  doi = {10.2307/41411200},
+  pages = {387--405},
+  author = {Johan E. Gustafsson and Martin Peterson},
+  year = {2012},
+  title = {A Computer Simulation of the Argument From Disagreement},
+  number = {3},
+  volume = {184}
+}
+@article{Brey2005-BRETEA,
+  title = {The Epistemology and Ontology of Human-Computer Interaction},
+  year = {2005},
+  publisher = {Springer},
+  number = {3-4},
+  volume = {15},
+  journal = {Minds and Machines},
+  doi = {10.1007/s11023-005-9003-1},
+  pages = {383--398},
+  author = {Philip Brey}
+}
+@article{Andre2015-ANDSMA-4,
+  year = {2015},
+  title = {Semantical Mutation, Algorithms and Programs},
+  number = {S1},
+  journal = {Dissertatio},
+  pages = {44--76},
+  doi = {10.15210/dissertatio.v0i0.8565},
+  author = {Porto Andr\'e}
+}
+@article{Bourget2010-BOUPPA,
+  volume = {24},
+  number = {4},
+  publisher = {Taylor \& Francis},
+  title = {Paperless Philosophy as a Philosophical Method},
+  year = {2010},
+  author = {David Bourget},
+  pages = {363--375},
+  doi = {10.1080/02691728.2010.499180},
+  journal = {Social Epistemology}
+}
+@article{Lokhorst2011-LOKCM,
+  doi = {10.1007/s11023-011-9229-z},
+  pages = {261--274},
+  author = {Gert{-}Jan C. Lokhorst},
+  journal = {Minds and Machines},
+  volume = {21},
+  title = {Computational Meta-Ethics},
+  year = {2011},
+  number = {2}
+}
+@article{Sergeyev2013-SERSAM,
+  journal = {Journal of Supercomputing},
+  author = {Yaroslav Sergeyev and Alfredo Garro},
+  pages = {645--663},
+  number = {2},
+  year = {2013},
+  title = {Single-Tape and Multi-Tape Turing Machines Through the Lens of the Grossone Methodology},
+  volume = {65}
+}
+@article{Sergeyev2013-SERSOD,
+  author = {Yaroslav Sergeyev},
+  pages = {10668--10681},
+  journal = {Applied Mathematics and Computation},
+  volume = {219},
+  number = {22},
+  year = {2013},
+  title = {Solving Ordinary Differential Equations by Working with Infinitesimals Numerically on the Infinity Computer}
+}
+@book{DodigCrnkovic2007-DODCIC,
+  author = {Gordana Dodig Crnkovic and Susan Stuart},
+  title = {Computation, Information, Cognition: The Nexus and the Liminal.F},
+  year = {2007},
+  publisher = {Cambridge Scholars Press}
+}
+@article{Wheeler2013-WHEMMA,
+  title = {Models, Models, and Models},
+  year = {2013},
+  publisher = {Wiley-Blackwell},
+  number = {3},
+  volume = {44},
+  journal = {Metaphilosophy},
+  doi = {10.1111/meta.12036},
+  pages = {293--300},
+  author = {Gregory Wheeler}
+}
+@article{Prakken2012-PRARPV,
+  author = {Henry Prakken},
+  pages = {57--82},
+  doi = {10.1007/s10506-012-9117-8},
+  journal = {Artificial Intelligence and Law},
+  volume = {20},
+  number = {1},
+  year = {2012},
+  title = {Reconstructing Popov V. Hayashi in a Framework for Argumentation with Structured Arguments and Dungean Semantics}
+}
+@article{Sloman1992-SLOTER,
+  journal = {Artificial Intelligence},
+  author = {Aaron Sloman},
+  pages = {355--396},
+  number = {2-3},
+  year = {1992},
+  title = {The Emperor's Real Mind -- Review of Roger Penrose's The Emperor's New Mind: Concerning Computers Minds and the Laws of Physics},
+  volume = {56}
+}
+@article{Baumgaertner2012-BAUVIA,
+  number = {3},
+  title = {Vagueness Intuitions and the Mobility of Cognitive Sortals},
+  year = {2012},
+  volume = {22},
+  journal = {Minds and Machines},
+  author = {Bert Baumgaertner},
+  doi = {10.1007/s11023-012-9273-3},
+  pages = {213--234}
+}
+@article{Oppenheimer2011-ZALACS,
+  volume = {89},
+  year = {2011},
+  title = {A Computationally-Discovered Simplification of the Ontological Argument},
+  number = {2},
+  publisher = {Taylor \& Francis},
+  pages = {333--349},
+  doi = {10.1080/00048401003674482},
+  author = {Paul Oppenheimer and Edward N. Zalta},
+  journal = {Australasian Journal of Philosophy}
+}
+@article{vanDeemter2012-VANTAC-2,
+  author = {Kees van Deemter and Albert Gatt and Roger P. G. van Gompel and Emiel Krahmer},
+  doi = {10.1111/j.1756-8765.2012.01187.x},
+  pages = {166--183},
+  journal = {Topics in Cognitive Science},
+  volume = {4},
+  number = {2},
+  year = {2012},
+  title = {Toward a Computational Psycholinguistics of Reference Production}
+}
+@article{Primiero2012-PRIACT,
+  author = {Giuseppe Primiero},
+  pages = {579--600},
+  journal = {Logique and Analyse},
+  volume = {220},
+  title = {A Contextual Type Theory with Judgemental Modalities for Reasoning From Open Assumptions},
+  year = {2012}
+}
+@article{Vakarelov2012-VAKTIM,
+  volume = {25},
+  number = {1},
+  year = {2012},
+  title = {The Information Medium},
+  author = {Orlin Vakarelov},
+  pages = {47--65},
+  doi = {10.1007/s13347-011-0016-9},
+  journal = {Philosophy and Technology}
+}
+@article{Tamariz2011-TAMCAI,
+  author = {Monica Tamariz},
+  pages = {36--62},
+  doi = {10.1075/is.12.1.02tam},
+  journal = {Interaction Studies},
+  volume = {12},
+  number = {1},
+  title = {Could Arbitrary Imitation and Pattern Completion Have Bootstrapped Human Linguistic Communication?},
+  year = {2011}
+}
+@incollection{Dodig-Crnkovic2007-DODP-3,
+  title = {WHERE DO NEW IDEAS COME FROM? HOW DO THEY EMERGE? - EPISTEMOLOGY AS COMPUTATION},
+  year = {2007},
+  booktitle = {Randomness \& Complexity, from Leibniz to Chaitin},
+  editor = {Christian Calude},
+  author = {Gordana Dodig{-}Crnkovic}
+}
+
+

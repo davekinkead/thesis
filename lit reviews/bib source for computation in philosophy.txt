@@ -1,0 +1,493 @@
+Sourced from
+
+https://philpapers.org/browse/analog-and-digital-computation
+https://philpapers.org/browse/computer-simulation-and-virtual-reality-misc
+https://philpapers.org/browse/computational-philosophy
+https://philpapers.org/browse/simulation-in-science
+https://philpapers.org/browse/computers-in-philosophy
+https://philpapers.org/browse/software-verification
+https://philpapers.org/browse/philosophy-of-computation-misc
+https://plato.stanford.edu/entries/computational-philosophy/
+
+Abe, Jair Minoro, Seiki Akama, and Kazumi Nakamatsu, 2015, Introduction to Annotated Logics: Foundations for Paracomplete and Paraconsistent Reasoning, (Intelligent Systems Reference Library 88), Cham: Springer International Publishing. doi:10.1007/978-3-319-17912-4
+Agar, Jon (1998). Computer: A History of the Information Machine. British Journal for the History of Science 31 (3):361-375.
+Aihara, Kazuyuki & Kyung Ryeu, Jun (2001). Chaotic neurons and analog computation. _Behavioral and Brain Sciences_ 24 (5):810-811.
+Aizawa, Kenneth (2010). Computation in cognitive science: it is not all about Turing-equivalent computation. _Studies in History and Philosophy of Science Part A_ 41 (3):227-236.
+Aizawa, Kenneth (2010). Computation in cognitive science: it is not all about Turing-equivalent computation. Studies in History and Philosophy of Science Part A 41 (3):227-236.
+Akman, Varol & Pakkan, Mujdat (1996). Nonstandard set theories and information management. Journal of Intelligent Information Systems 6:5-31.
+Alama, Jesse, Paul E. Oppenheimer, and Edward N. Zalta, 2015, “Automating Leibniz’s Theory of Concepts”, in Automated Deduction—CADE-25: Proceedings of the 25th International Conference on Automated Deduction, Berlin, Germany, August 1–7, 2015, Amy P. Felty and Aart Middeldorp (eds.), (Lecture Notes in Computer Science 9195), Cham: Springer International Publishing, 73–97. doi:10.1007/978-3-319-21401-6_4
+Alchourrón, Carlos E., Peter Gärdenfors, and David Makinson, 1985, “On the Logic of Theory Change: Partial Meet Contraction and Revision Functions”, Journal of Symbolic Logic, 50(2): 510–530. doi:10.2307/2274239
+Alexander, J. McKenzie, 2007, The Structural Evolution of Morality, Cambridge: Cambridge University Press. doi:10.1017/CBO9780511550997
+Alexander, J. McKenzie, Johannes Himmelreich, and Christopher Thompson, 2015, “Epistemic Landscapes, Optimal Search, and the Division of Cognitive Labor”, Philosophy of Science, 82(3): 424–453. doi:10.1086/681766
+Alexander, Samuel (2011). A paradox related to the Turing Test. The Reasoner 5 (6):90-90.
+Amigoni, Francesco & Schiaffonati, Viola (2007). Multiagent-based simulation in biology. In L. Magnani & P. Li (eds.), Model-Based Reasoning in Science, Technology, and Medicine. Springer. pp. 179--191.
+Anderson, Elizabeth, 2006, “The Epistemology of Democracy”, Episteme, 3(1–2): 8–22. doi:10.3366/epi.2006.3.1-2.8
+Andrade, Eugenio (2003). The processing of information (analog/digital) is the causal factor of the emergence of natural hierarchies. _Ludus Vitalis_ 11 (20):85-106.
+Andrews, Peter B. and Chad E. Brown, 2006, “TPS: A Hybrid Automatic-Interactive System for Developing Proofs”, Journal of Applied Logic, 4(4): 367–395. doi:10.1016/j.jal.2005.10.002
+André, Porto (2015). Semantical Mutation, Algorithms and Programs. Dissertatio (S1):44-76.
+Angere, Staffan and Erik J. Olsson, 2017, “Publish Late, Publish Rarely!: Network Density and Group Performance in Scientific Communication”, in Scientific Collaboration and Collective Knowledge: New Essays, Thomas Boyer-Kassem, Conor Mayo-Wilson, and Michael Weisberg (eds.), New York: Oxford University Press, pp. 34-63.
+Angius, Nicola & Tamburrini, Guglielmo (2011). Scientific Theories of Computational Systems in Model Checking. Minds and Machines 21 (2):323-336.
+Angius, Nicola & Tamburrini, Guglielmo (2017). Explaining Engineered Computing Systems’ Behaviour: the Role of Abstraction and Idealization. Philosophy and Technology 30 (2):239-258.
+Angius, Nicola (2013). Abstraction and Idealization in the Formal Verification of Software Systems. Minds and Machines 23 (2):211-226.
+Arnold, Eckhart (2019). Validation of Computer Simulations from a Kuhnian Perspective. In Claus Beisbart & Nicole J. Saam (eds.), Computer Simulation Validation - Fundamental Concepts, Methodological Frameworks, and Philosophical Perspectives. Heidelberg, Deutschland: Springer. pp. 203-224.
+Arnold, Eckhart, The dark side of the force: When computer simulations lead us astray and ``model think'' narrows our imagination.
+Aronowitz, Sara & Lombrozo, Tania (forthcoming). Learning through Simulation. Philosophers' Imprint.
+Ashton, Zoe & Mizrahi, Moti (2018). Intuition Talk is Not Methodologically Cheap: Empirically Testing the “Received Wisdom” About Armchair Philosophy. Erkenntnis 83 (3):595-612.
+Ashton, Zoe & Mizrahi, Moti (2018). Show Me the Argument: Empirically Testing the Armchair Philosophy Picture. Metaphilosophy 49 (1-2):58-70.
+Axelrod, Robert and W. D. Hamilton, 1981, “The Evolution of Cooperation”, Science, 211(4489): 1390–1396. doi:10.1126/science.7466396
+Axelrod, Robert, 1997, “The Dissemination of Culture: A Model with Local Convergence and Global Polarization”, Journal of Conflict Resolution, 41(2): 203–226. doi:10.1177/0022002797041002001
+Baek, Jongmin Jerome (2018). How to Solve Moral Conundrums with Computability Theory. arXiv.
+Bala, Venkatesh and Sanjeev Goyal, 1998, “Learning from Neighbours”, Review of Economic Studies, 65(3): 595–621. doi:10.1111/1467-937X.00059
+Balbiani, Philippe, Jan Broersen, and Julien Brunel, 2009, “Decision Procedures for a Deontic Logic Modeling Temporal Inheritance of Obligations”, Electronic Notes in Theoretical Computer Science, 231: 69–89. doi:10.1016/j.entcs.2009.02.030
+Baltag, A., R. Boddy, and S. Smets, 2018, “Group Knowledge in Interrogative Epistemology”, in Jaakko Hintikka on Knowledge and Game-Theoretical Semantics, Hans van Ditmarsch and Gabriel Sandu (eds.), (Outstanding Contributions to Logic 12), Cham: Springer International Publishing, 131–164. doi:10.1007/978-3-319-62864-6_5
+Baltag, Alexandru and Bryan Renne, 2016 [2019], “Dynamic Epistemic Logic”, Stanford Encyclopedia of Philosophy, (Winter 2019), Edward N. Zalta (ed.), URL= <https://plato.stanford.edu/archives/win2016/entries/dynamic-epistemic>
+Baumgaertner, Bert (2012). Vagueness Intuitions and the Mobility of Cognitive Sortals. Minds and Machines 22 (3):213-234.
+Beaulieu, Anne ; Ratto, Matt & Scharnhorst, Andrea (2013). Learning in a landscape: simulation-building as reflexive intervention. Mind and Society 12 (1):91-112.
+Beck, H. (1986). Bio-Social Cybernetic Determination, or Responsible Freedom? in Philosophy and Technology II. Information Technology and Computers in Theory and Practice. Boston Studies in the Philosophy of Science 90:85-95.
+Beck, Jacob (2019). Perception is Analog: The Argument from Weber's Law. _Journal of Philosophy_ 116 (6):319-349.
+Beck, Jacob (forthcoming). Analog Mental Representation. _WIREs Cognitive Science_.
+Benzmüller, Christoph and Bruno Woltzenlogel Paleo, 2014, “Automating Gödel’s Ontological Proof of God’s Existence with Higher-order Automated Theorem Provers”, in ECAI 2014, Torsten Schaub, Gerhard Friedrich, and Barry O’Sullivan (eds.), (Frontiers in Artificial Intelligence and Applications 263), Amsterdam: IOS Press, pp. 93–98. doi:10.3233/978-1-61499-419-0-93
+Benzmüller, Christoph and Bruno Woltzenlogel Paleo, 2014, “Automating Gödel’s Ontological Proof of God’s Existence with Higher-order Automated Theorem Provers”, in ECAI 2016a, “The Inconsistency in Gōdel’s Ontological Argument: A Success Story for AI in Metaphysics”, in Proceedings of the Twenty-Fifth International Joint Conference on Artificial Intelligence (IJCAI 2016), Gerhard Brewka (ed.), New York: AAAI Press, pp. 936–942.
+Benzmüller, Christoph and Bruno Woltzenlogel Paleo, 2016b, “An Object-Logic Explanation for the Inconsistency in Gōdel’s Ontological Theory”, in KI 2016: Advances in Artificial Intelligence Proceedings, Gerhard Friedrich, Malte Helmert, and Franz Wotawa (eds.), Berlin: Springer, pp. 244–250.
+Benzmüller, Christoph and David Fuenmayor, 2018, “Can Computers Help to Sharpen Our Understanding of Ontological Arguments?” in S. Gosh, R. Uppalari, K. Rao, V. Agarwal, and S. Sharma (eds.), Mathematics and Reality: Proceedings of the 11th All Indian Students’ Conference on Science and Spiritual Quest (AISSQ), Bhudabenswar, Kolkata: The Bhaktiedanta Institute, pp. 195–226.
+Benzmüller, Christoph, Ali Farjami, and Xavier Parent, 2018, “A Dyadic Deontic Logic in HOL”, in Deontic Logic and Normative Systems, 14th International Conference (DEON 2018), Jan Broersen, Cleo Condoravdi, Nair Shyam and Gabriella Pigozzi (eds.), London: College Publications, pp. 33–50.
+Benzmüller, Christoph, L. Weber, and Bruno Woltzenlogel Paleo, 2017, “Computer-Assisted Analysis of the Anderson–Hájek Ontological Controversy”, Logica Universalis, 11(1): 139–151. doi:10.1007/s11787-017-0160-9
+Benzmüller, Christoph, Nik Sultana, Lawrence C. Paulson, and Frank Theiß, 2015, “The Higher-Order Prover Leo-II”, Journal of Automated Reasoning, 55(4): 389–404. doi:10.1007/s10817-015-9348-y
+Benzmüller, Christoph, Xavier Parent, and Leendert van der Torre, 2018, “A Deontic Logic Reasoning Infrastructure”, in Sailing Routes in the World of Computation: 14th Conference on Computability in Europe, CiE 2018, Florin Manea, Russell G. Miller, and Dirk Nowotka (eds.), (Lecture Notes in Computer Science 10936), Cham: Springer International Publishing, 60–69. doi:10.1007/978-3-319-94418-0_6
+Berleman, James E., Jodie Scott, Taliana Chumley, and John R. Kirby, 2008, “Predataxis Behavior in Myxococcus xanthus”, Proceedings of the National Academy of Sciences, 105(44): 17127–17132. doi:10.1073/pnas.0804387105
+Berto, Francesco & Tagliabue, Jacopo (2012). Cellular automata. _Stanford Encyclopedia of Philosophy_.
+Berto, Francesco & Tagliabue, Jacopo (2014). The world is either digital or analogue. _Synthese_ 191 (3):481-497.
+Betti, Arianna ; Reynaert, Martin & Van Den Berg, Hein (2017). @PhilosTEI: Building Corpora for Philosophers. In J. Odijk & A. Van Hessen (eds.), Clarin in the Low Countries. Londen, Verenigd Koninkrijk: pp. 379-392.
+Betz, Gregor, 2013, Debate Dynamics: How Controversy Improves Our Beliefs, Dordrecht: Springer Netherlands. doi:10.1007/978-94-007-4599-5
+Beyleveld, Deryck, 1992, The Dialectical Necessity of Morality: An Analysis and Defense of Alan Gewirth’s Argument to the Principle of Generic Consistency, Chicago: University of Chicago Press.
+Beyleveld, Deryck, 2012, “The Principle of Generic Consistency as the Supreme Principle of Human Rights”, Human Rights Review, 13(1): 1–18. doi:10.1007/s12142-011-0210-2
+Bildstein, Ben, New methodologies for quantifying licence-based commons on the web.
+Black, Max, 1962, Models and Metaphors: Studies in Language and Philosophy, Ithaca, NY: Cornell University Press.
+Blomberg, Olle (2009). Review of Sherry Turkle’s ‘Simulation and Its Discontents’. Metapsychology Online Reviews 13 (47).
+Blondé, Ward (2015). An Evolutionary Argument for a Self-Explanatory, Benevolent Metaphysics. Symposion: Theoretical and Applied Inquiries in Philosophy and Social Sciences 2 (2):143-166.
+Blum, Paul Richard (2010). Michael Polanyi: Can the Mind Be Represented by a Machine? Existence and Anthropology.
+Blumson, Ben (2017). Anselm's God in Isabelle/HOL. Archive of Formal Proofs:9.
+Blumson, Ben, Isabelle for Philosophers.
+Bobzien, Susanne, 2006 [2016], “Ancient Logic”, The Stanford Encyclopedia of Philosophy, (Winter 2016), Edward N. Zalta (ed.), URL = <https://plato.stanford.edu/archives/win2016/entries/logic-ancient/>
+Boccignone, Giuseppe & Cordeschi, Roberto (2007). Bayesian models and simulations in cognitive science. Workshop Models and Simulations 2, Tillburg, NL.
+Boge, Florian J. (2019). Why computer simulations are not inferences, and in what sense they are experiments. European Journal for Philosophy of Science 9 (1):13.
+Bohr, Niels (1958). Unity of Knowledge. In Atomic Physics and Human Knowledge. Wiley. pp. 67--82.
+Bokulich, Alisa (forthcoming). Towards a Taxonomy of the Model-Ladenness of Data. PSA: Proceedings of the Biennial Meeting of the Philosophy of Science Association.
+Boland, Philip J., 1989, “Majority Systems and the Condorcet Jury Theorem”, Journal of the Royal Statistical Society: Series D (The Statistician), 38(3): 181–189. doi:10.2307/2348873
+Boland, Philip J., Frank Proschan, and Y. L. Tong, 1989, “Modelling Dependence in Simple and Indirect Majority Systems”, Journal of Applied Probability, 26(1): 81–88. doi:10.2307/3214318
+Borg, AnneMarie, Daniel Frey, Dunja Šešelja, and Christian Straßer, 2018, “Epistemic Effects of Scientific Interaction: Approaching the Question with an Argumentative Agent-Based Model.”, Historical Social Research, 43(1): 285-309.. doi:10.12759/HSR.43.2018.1.285-307
+Borges, Jorge Luis [pseud. Suarez Miranda], 1946 [1998], “Del rigor en la ciencia”, Los Anales de Buenos Aires, 1(3). Translated as “On Exactitude in Science”, in his Collected Fictions, Andrew Hurley (trans.), New York: Penguin Books, 1998.
+Bourget, David (2010). Paperless Philosophy as a Philosophical Method. Social Epistemology 24 (4):363-375.
+Brada, Miroslav (2017). Psychological and other aspects of the sign arbitrariness. le Cours de Linguistique Générale 1916-2016.
+Bramson, Aaron, Patrick Grim, Daniel J. Singer, William J. Berger, Graham Sack, Steven Fisher, Carissa Flocken, and Bennett Holman, 2017, “Understanding Polarization: Meanings, Measures, and Model Evaluation”, Philosophy of Science, 84(1): 115–159. doi:10.1086/688938
+Brey, Philip (2005). The epistemology and ontology of human-computer interaction. Minds and Machines 15 (3-4):383-398.
+Bringsjord, Selmer and Naveen Sundar Govindarajulu, 2018 [2019], “Artificial Intelligence”, in The Stanford Encyclopedia of Philosophy, Winter 2019, Edward N. Zalta (ed.), URL = <https://plato.stanford.edu/archives/win2019/entries/artificial-intelligence/>
+Broderick, Paul Jeremiah Bohan (2001). _The Analog-Digital Distinction and the Flow of Information_. Dissertation, Boston University
+Brooks, Rodney A. and Maja J. Mataric, 1993, “Real Robots, Real Learning Problems”, in Robot Learning, Jonathan H. Connell and Sridhar Mahadevan (eds.), Dordrecht: Kluwer, 193–213. doi:10.1007/978-1-4615-3184-5_8
+Bruch, Elizabeth E. and Robert D. Mare, 2006, “Neighborhood Choice and Neighborhood Change”, American Journal of Sociology, 112(3): 667–709. doi:10.1086/507856
+Bruder, Gail A. & Silverman, Wayne (1974). Effects of familiarity and sequence length of analog matches in the simultaneous matching task. _Journal of Experimental Psychology_ 102 (5):875.
+Bruner, Justin P., 2017, “Minority (Dis)advantage in Population Games”, Synthese, 196 (1) DOI:10.1007/s11229-017- 1487-8.
+Bruner, Justin P., forthcoming, “Locke, Nozick and the State of Nature”, Philosophical Studies, first online: 20 November 2018. doi:10.1007/s11098-018-1201-9
+Burks, Arthur W. & Burks, Alice R. (1988). The History of Early Computer Switching. _Grazer Philosophische Studien_ 32 (1):3-36.
+Bush, Stephen ; F., Moitra ; Abha, Crapo ; Andrew, Barnett ; Bruce, Dill & Stephen, J., A Quantitative Approach to Measuring Assurance with Uncertainty in Data Provenance.
+Bürger, Jens & Laguna-Tapia, Andres, The Political Anatomy of Computer Architecture.
+Cabrera Calvo-Sotelo, J. (1984). Prueba automatica de teoremas: un panorama. Teorema: International Journal of Philosophy 14 (3-4):475-496.
+Carusi, Annamaria (2012). Making the Visual Visible in Philosophy of Science. Spontaneous Generations 6 (1):106-114.
+Centola, Damon, Juan Carlos González-Avella, Víctor M. Eguíluz, and Maxi San Miguel, 2007, “Homophily, Cultural Drift, and the Co-Evolution of Cultural Groups”, Journal of Conflict Resolution, 51(6): 905–929. doi:10.1177/0022002707307632
+Ceruzzi, Paul E. (2003). _A History of Modern Computing_. MIT Press.
+Ceruzzi, Paul E. (2003). A History of Modern Computing. MIT Press.
+Chalmers, David J., Analog vs. digital computation.
+Chartrand, Louis (2017). La philosophie entre intuition et empirie: comment les études du texte peuvent contribuer à renouveler la réflexion philosophique. Artichaud Magazine 2017 (8 juin).
+Cheney, Dorothy L. and Robert M. Seyfarth, 1990, How Monkeys See the World: Inside the Mind of Another Species, Chicago: University of Chicago Press.
+Chung, Hun, 2015, “Hobbes’s State of Nature: A Modern Bayesian Game-Theoretic Analysis”, Journal of the American Philosophical Association, 1(3): 485–508. doi:10.1017/apa.2015.12
+Church, Alonzo, 1936, “A Note on the Entscheidungsproblem”, Journal of Symbolic Logic, 1(1): 40–41. doi:10.2307/2269326
+Churchland, Paul M., 1995, The Engine of Reason, the Seat of the Soul: A Philosophical Journey into the Brain, Cambridge MA: MIT Press.
+Cleland, Carol E. (2002). On effective procedures. _Minds and Machines_ 12 (2):159-179.
+Colombo, Matteo (2015). Why Build a Virtual Brain? Large-scale Neural Simulations as Test-bed for Artificial Computing Systems. In D. C. Noelle, R. Dale, A. S. Warlaumont, J. Yoshimi, T. Matlock, C. D. Jennings & P. P. Maglio (eds.), Proceedings of the 37th Annual Conference of the Cognitive Science Society. Cognitive Science Society. pp. 429-434.
+Condorcet, Nicolas de, 1785 [1995], “An Essay on the Application of Analysis to the Probability of Decisions Rendered by a Plurality of Votes (fifth part)”, Part translated in Classics of Social Choice, Iain McLean and Arnold B. Urken (trans. and eds.), Ann Arbor MI: University of Michigan Press, pp. 91–112, 1995.
+Conte, Rosaria (2009). Special issue on: Social simulation. Mind and Society 8 (2):127-130.
+Copeland, Jack, Even Turing machines can compute uncomputable functions.
+Cummins, Robert C. (1986). Inexplicit information. In Myles Brand & Robert M. Harnish (eds.), The Representation of Knowledge and Belief. University of Arizona Press.
+D'Souza, Raissa M. (2006). BML revisited: Statistical physics, computer simulation, and probability. Complexity 12 (2):30-39.
+Dardashti, Radin ; Y. Thébault, Karim P. & Winsberg, Eric (2017). Confirmation via Analogue Simulation: What Dumb Holes Could Tell Us about Gravity. British Journal for the Philosophy of Science 68 (1).
+David, Nuno (2009). Validation and Verification in Social Simulation: Patterns and Clarification of Terminology. Epistemological Aspects of Computer Simulation in the Social Sciences, EPOS 2006, Revised Selected and Invited Papers, Lecture Notes in Artificial Intelligence, Squazzoni, Flaminio (Ed.) 5466:117-129.
+David, Nuno ; Marietto, Maria ; Sichman, Jaime & Coelho, Helder (2004). The Structure and Logic of Interdisciplinary Research in Agent-Based Social Simulation. Journal of Artificial Societies and Social Simulation 7 (3).
+David, Nuno ; Sichman, Jaime & Coelho, Helder (2007). Simulation as formal and generative social science: the very idea. In Carlos Gershenson, Diederik Aerts & Bruce Edmonds (eds.), Worldviews, Science, and Us: Philosophy and Complexity. World Scientific. pp. 266--275.
+David, Nuno ; Sichman, Jaime & Coleho, Helder (2005). The Logic of the Method of Agent-Based Simulation in the Social Sciences: Empirical and Intentional Adequacy of Computer Programs. Journal of Artificial Societies and Social Simulation 8 (4).
+Davies, Todd & Chandler, Reid (2012). Online Deliberation Design: Choices, Criteria, and Evidence. In Tina Nabatchi, John Gastil, G. Michael Weiksner & Matt Leihninger (eds.), Democracy in Motion: Evaluating the Practice and Impact of Deliberative Civic Engagement. New York, USA: Oxford University Press. pp. 103-131.
+Davies, Todd & Gangadharan, Seeta Peña (eds.) (2009). Online Deliberation: Design, Research, and Practice. CSLI Publications/University of Chicago Press.
+Davies, Todd ; Chandler, Reid & Kulik, Anatoly (2013). Дизайн онлайн-делиберации: Выбор, критерии и эмпирические данные. Политическая Наука 2013 (1):83-132.
+Davis, Martin, 1957 [1983], “A Computer Program for Presburger’s Algorithm”, presented at the Cornell Summer Institute for Symbolic Logic. Reprinted in Siekmann and Wrightson 1983: 41–48.
+Davis, Martin, 1983, “The Prehistory and Early History of Automated Deduction”, in Siekmann and Wrightson 1983: 1–28.
+Dawkins, Richard, 1976, The Selfish Gene, New York: Oxford University Press.
+Deffuant, Guillaume, 2006, “Comparing Extremism Propagation Patterns in Continuous Opinion Models”, Journal of Artificial Societies and Social Simulation, 9(3): 8. URL = <http://jasss.soc.surrey.ac.uk/9/3/8.html>
+Deffuant, Guillaume, Frédéric Amblard, Gérard Weisbuch, and Thierry Faure, 2002, “How Can Extremism Prevail? A Study Based on the Relative Agreement Interaction Model”, Journal of Artificial Societies and Social Simulation, 5(4): 1. URL = <http://jasss.soc.surrey.ac.uk/5/4/1.html>
+Demopoulos, William (1987). On some fundamental distinctions of computationalism. _Synthese_ 70 (January):79-96.
+Dennett, Daniel, 1979, “Artificial Intelligence as Philosophy and as Psychology”, in Philosophical Perspectives in Artificial Intelligence, Martin Ringle (ed.), Atlantic Highlands, NJ: Humanities Press, pp. 57–80.
+Dewhurst, Joe (2014). Mechanistic Miscomputation: a Reply to Fresco and Primiero. Philosophy and Technology 27 (3):495-498.
+Didehvar, Farzad, A contradiction and P=NP problem.
+Dietrich, Franz and Kai Spiekermann, 2013, “Independent Opinions? On the Causal Foundations of Belief Formation and Jury Theorems”, Mind, 122(487): 655–685. doi:10.1093/mind/fzt074
+Dodig Crnkovic, Gordana & Burgin, Mark (eds.) (2011). Information and computation: Essays on scientific and philosophical understanding of foundations of information and computation. World Scientific.
+Dodig Crnkovic, Gordana & Stuart, Susan (eds.) (2007). Computation, Information, Cognition: The Nexus and the Liminal.f. Cambridge Scholars Press.
+Dodig Crnkovic, Gordana (2017). Nature as a Network of Morphological Infocomputational Processes for Cognitive Agents. Eur. Phys. J. Special Topics 226 (2):181-195.
+Dodig-Crnkovic, Gordana & Müller, Vincent C. (2011). A dialogue concerning two world systems: Info-computational vs. mechanistic. In Gordana Dodig-Crnkovic & Mark Burgin (eds.), _Information and computation: Essays on scientific and philosophical understanding of foundations of information and computation_. World Scientific. pp. 149-184.
+Dodig-Crnkovic, Gordana (2007). WHERE DO NEW IDEAS COME FROM? HOW DO THEY EMERGE? - EPISTEMOLOGY AS COMPUTATION. In Christian Calude (ed.), Randomness & Complexity, from Leibniz to Chaitin. Singapore: World Scientific.
+Dodig-Crnkovic, Gordana (2008). Knowledge Generation as Natural Computation. Journal of Systemics, Cybernetics and Informatics 6 (2).
+Dodig-Crnkovic, Gordana (2009). Information and Computation Nets. Investigations Into Info-Computational World. Vdm.
+Dodig-Crnkovic, Gordana (2011). Significance of Models of Computation, from Turing Model to Natural Computation. Minds and Machines 21 (2):301-322.
+Douven, Igor and Alexander Riegler, 2010, “Extending the Hegselmann-Krause Model I”, Logic Journal of IGPL, 18(2): 323–335. doi:10.1093/jigpal/jzp059
+Dung, Phan Minh, 1995, “On the Acceptability of Arguments and Its Fundamental Role in Nonmonotonic Reasoning, Logic Programming and n-Person Games”, Artificial Intelligence, 77(2): 321–357. doi:10.1016/0004-3702(94)00041-X
+Durán, Juan M. (2013). A brief overview of the philosophical study of computer simulations. American Philosophical Association Newsletter on Philosophy and Computers 13 (1):38-46.
+Durán, Juan M. (2013). The use of the ‘materiality argument’ in the literature on computer simulations. In Juan M. Durán & Eckhart Arnold (eds.), Computer simulations and the changing face of scientific experimentation. pp. 76-98.
+Durán, Juan Manuel (2018). Ciencia de la computación y filosofía: unidades de análisis del software. Principia 22 (2):203-227.
+Durán, Juan Manuel (2018). Computer Simulations in Science and Engineering. Concept, Practices, Perspectives. Springer.
+Eden, Amnon H. (2007). Three paradigms of computer science. Minds and Machines 17 (2):135-167.
+Eisenberg, Michael (forthcoming). Combining qualitative and quantitative techniques in the simulation of chemical reaction mechanisms. Ai and Simulation: Theory and Applications (Simulation Series Vol. 22, No. 3.). Society for Computer Simulation, San Diego. Ca.
+Eliasmith, Chris (2000). Is the brain analog or digital? _Cognitive Science Quarterly_ 1 (2):147-170.
+Epstein, Brian (2011). Agent-based modeling and the fallacies of individualism. In Paul Humphreys & Cyrille Imbert (eds.), Models, Simulations, and Representations. Routledge. pp. 115444.
+Ernst, Zachary, Branden Fitelson, Kenneth Harris, and Larry Wos, 2002, “Shortest Axiomatizations of Implicational S4 and S5”, Notre Dame Journal of Formal Logic, 43(3): 169–179. doi:10.1305/ndjfl/1074290715
+Estrada, Daniel & Lawhead, Jon (2013). Gaming the Attention Economy. In Pietro Michelucci (ed.), The Handbook of Human Computation. Springer. pp. 961-978.
+Evens, Aden (2006). Object-oriented ontology, or programming's creative fold. Angelaki 11 (1):89 – 97.
+Fagin, Ronald, Joseph Y. Halpern, Yoram Moses and Moshe Vardi, 1995, Reasoning About Knowledge, Cambridge, MA: MIT Press.
+Falkenhainer, Brian, Kenneth D. Forbus, and Dedre Gentner, 1989, “The Structure-Mapping Engine: Algorithm and Examples”, Artificial Intelligence, 41(1): 1–63. doi:10.1016/0004-3702(89)90077-5
+Feltrero, Roberto (2005). The role of computers in scientific research: a cognitive approach. In L. Magnani & R. Dossena (eds.), Computing, Philosophy and Cognition. pp. 87--98.
+Ferguson, Thomas Macaulay (forthcoming). Faulty Belnap Computers and Subsystems of FDE. Journal of Logic and Computation.
+Fernández, Jordi (2003). Explanation by computer simulation in cognitive science. Minds and Machines 13 (2):269-284.
+Fetzer, James H. (1988). Program verification: the very idea. Communications of the Acm 31 (9):1048--1063.
+Fetzer, James H. (1991). Philosophical aspects of program verification. Minds and Machines 1 (2):197-216.
+Fillion, Nicolas & Corless, Robert M. (2014). On the epistemological analysis of modeling and computational error in the mathematical sciences. Synthese 191 (7):1451-1467.
+Fisher v. University of Texas, 2016, Brief for Lt. Gen. Julius W. Becton, Jr., Gen. John P. Abizaid, Adm. Dennis C. Blair, Gen. Bryan Doug Brown, Gen. George W. Casey, Lt. Gen Daniel W. Christman, Gen. Wesley K. Clark, Adm. Archie Clemins, Gen. Ann E. Dunwoody, Gen. Ronald R. Fogleman, Adm. Edmund P. Giambastiani, Jr., et al., as Amici Curiae in Support of respondents. [Fisher v. University of Texas brief 2016 available online]
+Fisher, Ronald, 1930, The Genetical Theory of Natural Selection, Oxford: Clarendon Press.
+Fitelson, Branden and Edward N. Zalta, 2007, “Steps Toward a Computational Metaphysics”, Journal of Philosophical Logic, 36(2): 227–247. doi:10.1007/s10992-006-9038-7
+Franceschelli, Sara (2009). Computer Simulations as Experiments. Synthese 169 (3):557 - 574.
+Fresco, Nir & Wolf, Marty J. (2014). The instructional information processing account of digital computation. _Synthese_ 191 (7):1469-1492.
+Fresco, Nir (2013). Information Processing as an Account of Concrete Digital Computation. _Philosophy and Technology_ 26 (1):31-60.
+Fresco, Nir (2015). Objective Computation Versus Subjective Computation. _Erkenntnis_ 80 (5):1031-1053.
+Frigg, Roman & Reiss, Julian (2009). A Critical Look at the Philosophy of Simulation. Synthese 169 (3).
+Frigg, Roman & Reiss, Julian (2009). The philosophy of simulation: hot new issues or same old stew? Synthese 169 (3):593-613.
+Fuenmayor, David & Benzmueller, Christoph, A Case Study on Computational Hermeneutics: E. J. Lowe’s Modal Ontological Argument.
+Fuenmayor, David and Christoph Benzmüller, 2018, “Formalisation and Evaluation of Alan Gewirth’s Proof for the Principle of Generic Consistency in Isabelle/HOL”, Archive of Formal Proofs, 30 October 2018. URL = <https://isa-afp.org/entries/GewirthPGCProof.html>
+Galloway, Alexander R. (2012). The Interface Effect. Polity.
+Garbacz, Paweł, 2012, “Prover9’s Simplification Explained Away”, Australasian Journal of Philosophy, 90(3): 585–592. doi:10.1080/00048402.2011.636177
+Gardner, Anne von der Lieth (1987). An Artificial Intelligence Approach to Legal Reasoning. MIT Press.
+Gebharter, Alexander & Koch, Daniel (2018). Combining causal Bayes nets and cellular automata: A hybrid modelling approach to mechanisms. British Journal for the Philosophy of Science.
+Gelfert, Axel (2011). Scientific models, simulation, and the experimenter's regress. In Paul Humphreys & Cyrille Imbert (eds.), Models, Simulations, and Representations. Routledge.
+Gentner, Dedre, 1982, “Are Scientific Analogies Metaphors?” in Metaphor: Problems and Perspectives, David S. Miall (ed.), Brighton: Harvester Press, pg. 106–132.
+Gewirth, Alan, 1978, Reason and Morality, Chicago: University of Chicago Press.
+Goldman, Alvin and Cailin O’Connor, 2001 [2019], “Social Epistemology”, in The Stanford Encyclopedia of Philosophy, (Fall 2019), Edward N. Zalta (ed.), URL = <https://plato.stanford.edu/archives/fall2019/entries/epistemology-social/>
+Goldman, Alvin and Dennis Whitcomb (eds.), 2011, Social Epistemology: Essential Readings, New York: Oxford University Press.
+Goldman, Alvin I., 1987, “Foundations of Social Epistemics”, Synthese, 73(1): 109–144. doi:10.1007/BF00485444
+Goldman, Alvin I., 1999, Knowledge in a Social World, Oxford: Oxford University Press. doi:10.1093/0198238207.001.0001
+Goodman, Nelson (1968). _Languages of Art_. Bobbs-Merrill.
+Gordon, Michael J.C. and T.F. Melham (eds.), 1993, Introduction to HOL: A Theorem Proving Environment for Higher Order Logic, Cambridge: Cambridge University Press.
+Governatori, Guido and Giovanni Sartor (eds.), 2010, Deontic Logic in Computer Science: 10th International Conference, DEON 2010, Fiesole, Italy, July 7-9, 2010. Proceedings, (Lecture Notes in Computer Science 6181), Berlin, Heidelberg: Springer Berlin Heidelberg. doi:10.1007/978-3-642-14183-6
+Gray, Jonathan, 2016, “’Let us Calculate!’: Leibniz, Lull, and the Computational Imagination”, The Public Domain Review, 10 November 2016. URL = <https://publicdomainreview.org/2016/11/10/let-us-calculate-leibniz-llull-and-computational-imagination/>
+Graça, Daniel (2004). Some recent developments on Shannon's General Purpose Analog Computer. _Mathematical Logic Quarterly_ 50 (4-5):473-495.
+Greene, Preston (forthcoming). The Termination Risks of Simulation Science. Erkenntnis:1-21.
+Gregory Boel, Olivier Danot & Danchin, Antoine (2019). Omnipresent Maxwell’s demons orchestrate information management in living cells. _Microbial Biotechnology_ 12 (2):210-242.
+Grim, Patrick 1996, “Spatialization and Greater Generosity in the Stochastic Prisoner’s Dilemma”, Biosystems, 37(1–2): 3–17. doi:10.1016/0303-2647(95)01541-8
+Grim, Patrick ; Rosenberger, Robert ; Rosenfeld, Adam ; Anderson, Brian & Eason, Robb E. (2013). How simulations fail. Synthese 190 (12):2367-2390.
+Grim, Patrick, 1995, “The Greater Generosity of the Spatialized Prisoner’s Dilemma”, Journal of Theoretical Biology, 173(4): 353–359. doi:10.1006/jtbi.1995.0068
+Grim, Patrick, 2006, “Tangled Webs: The Philosophical Importance of Networks”, The Marshall Weinberg lecture, University of Michigan.
+Grim, Patrick, 2009, “Threshold Phenomena in Epistemic Networks”, Proceedings, AAAI Fall Symposium on Complex Adaptive Systems and the Threshold Effect, FS-09-03, AAAI Press.
+Grim, Patrick, Aaron Bramson, Daniel J. Singer, William J. Berger, Jiin Jung, and Scott E. Page, forthcoming, “Representation in Models of Epistemic Democracy”, Episteme, first online: 21 December 2018. doi:10.1017/epi.2018.51
+Grim, Patrick, Daniel J. Singer, Aaron Bramson, Bennett Holman, Sean McGeehan, and William J. Berger, 2019, “Diversity, Ability, and Expertise in Epistemic Communities”, Philosophy of Science, 86(1): 98–123. doi:10.1086/701070
+Grim, Patrick, Daniel J. Singer, Christopher Reade, and Steven Fisher, 2015, “Germs, Genes, and Memes: Function and Fitness Dynamics on Information Networks”, Philosophy of Science, 82(2): 219–243. doi:10.1086/680486
+Grim, Patrick, Daniel J. Singer, Steven Fisher, Aaron Bramson, William J. Berger, Christopher Reade, Carissa Flocken, and Adam Sales, 2013, “Scientific Networks on Data Landscapes: Question Difficulty, Epistemic Success, and Convergence”, Episteme, 10(4): 441–464. doi:10.1017/epi.2013.36
+Grim, Patrick, Gary R. Mar, and Paul St. Denis, 1998, The Philosophical Computer: Exploratory Essays in Philosophical Computer Modeling, Cambridge MA: MIT Press.
+Grim, Patrick, Paul St. Denis and Trina Kokalis, 2002, “Learning to Communicate: The Emergence of Signaling in Spatialized Arrays of Neural Nets”, Adaptive Behavior, 10(4): 45–70. doi:10.1177/10597123020101003
+Grim, Patrick, Robert Rosenberger, Adam Rosenfeld, Brian Anderson, and Robb E. Eason, 2013, “How Simulations Fail”, Synthese, 190(12): 2367–2390. doi:10.1007/s11229-011-9976-7
+Grim, Patrick, Trina Kokalis, Ali Alai-Tafti, Nicholas Kilb and Paul St. Denis, 2004, “Making Meaning Happen”, Journal of Experimental and Theoretical Artificial Intelligence, 16: 209–243. doi:10.1080/09528130412331294715
+Gunn, Paul, 2014, “Democracy and Epistocracy”, Critical Review, 26(1–2): 59–79. doi:10.1080/08913811.2014.907041
+Gustafsson, Johan E. & Peterson, Martin (2012). A Computer Simulation of the Argument from Disagreement. Synthese 184 (3):387-405.
+Gödel, Kurt, 1931, “Über formal unentscheidbare Sätze der Principia Mathematica und verwandter Systeme, I”, Monatshefte für Mathematik und Physik, 38(1): 173–198.
+Habermas, Jürgen , 1992 [1996], Faktizität und Geltung. Beiträge zur Diskurstheorie des Rechts und des demokratischen Rechtsstaats, Frankfurt Am Main: Suhrkamp Verlag. Translated as Between Facts and Norms: Contributions to a Discourse Theory of Law and Democracy, William Rehg (trans.), Cambridge MA: MIT Press, 1996.
+Haldane, J.B.S., 1932, The Causes of Evolution, London: Longmans, Green & Co.
+Halpern, Joseph Y. and Yoram Moses, 1984, “Knowledge and Common Knowledge in a Distributed Environment”, in Proceedings of the Third Annual ACM Symposium on Principles of Distributed Computing, ACM Press, pp. 50–61.
+Hamilton, W.D., 1964a, “The Genetical Evolution of Social Behaviour. I”, Journal of Theoretical Biology, 7(1): 1–16. doi:10.1016/0022-5193(64)90038-4
+Hamilton, W.D., 1964b, “The Genetical Evolution of Social Behaviour. II”, Journal of Theoretical Biology, 7(1): 17–52. doi:10.1016/0022-5193(64)90039-6
+Haugeland, John (1981). Analog and analog. _Philosophical Topics_ 12 (1):213-226.
+Hauser, Helmut ; Füchslin, Rudolf M. & Pfeifer, Rolf (eds.) (2014). Opinions and Outlooks on Morphological Computation. E-Book.
+Hegselmann, Rainer and Ulrich Krause 2005, “Opinion Dynamics Driven by Various Ways of Averaging”, Computational Economics, 25(4): 381–405. doi:10.1007/s10614-005-6296-3
+Hegselmann, Rainer and Ulrich Krause, 2002, “Opinion Dynamics and Bounded Confidence: Models, Analysis and Simulation”, Journal of Artificial Societies and Social Simulation, 5(3): 2. URL = <http://jasss.soc.surrey.ac.uk/5/3/2.html>
+Hegselmann, Rainer and Ulrich Krause, 2006, “Truth and Cognitive Division of Labour: First Steps towards a Computer Aided Social Epistemology”, Journal of Artificial Societies and Social Simulation, 9(3): 10. URL = <http://jasss.soc.surrey.ac.uk/9/3/10.html>
+Helgeson, Casey ; Srikrishnan, Vivek ; Keller, Klaus & Tuana, Nancy, Why Simpler Computer Simulation Models can be Epistemically Better for Informing Decisions.
+Hellie, Benj (2017). David Lewis and the Kangaroo: Graphing philosophical progress. In Russell Blackford & Damien Broderick (eds.), Philosophy's Future: The Problem of Philosophical Progress. Oxford: Blackwell.
+Hernandez-Espinosa, Alberto ; Francisco, Hernandez-Quiroz & Hector, Zenil (forthcoming). Is there any real substance to the claims for a 'new computationalism'? In CiE Computability in Europe 2017. Springer Verlag.
+Hesse, Hermann, 1943 [1969], Das Glasperlenspelel, Switzerland. Translated as The Glass Bead Game (Magister Ludi), Richard & Clara Winston (trans.), New York: Holt, Rinehart & Winston, 1969.
+Hesse, Mary B., 1966, Models and Analogies in Science, Notre Dame IN: Notre Dame University Press.
+Hillerbrand, Rafaela (2012). Order out of Chaos? A Case Study in High Energy Physics. Studia Philosophica Estonica 5 (2):61-78.
+Hobbes, Thomas, 1651, Leviathan, London: Crooke, London: Penguin 1982.
+Hoffmann, Matej & Müller, Vincent C. (2017). Simple or complex bodies? Trade-offs in exploiting body morphology for control. In Gordana Dodig-Crnkovic & Raffaela Giovagnoli (eds.), Representation of Reality: Humans, Other Living Organisms and Intelligent Machines. Berlin: Springer. pp. 335-345.
+Hofstadter, Douglas, 2008, Fluid Concepts and Creative Analogies, New York: Basic Books.
+Holland, John H., 1975, Adaptation in Natural and Artificial Systems, Cambridge, MA: MIT Press.
+Holyoak, Keith J. and Paul Thagard, 1989, “Analogical Mapping by Constraint Satisfaction”, Cognitive Science, 13(3): 295–355. doi:10.1207/s15516709cog1303_1
+Holyoak, Keith J. and Paul Thagard, 1995, Mental Leaps: Analogy in Creative Thought, Cambridge, MA: MIT Press.
+Hong, Lu and Scott E. Page, 2004, “Groups of Diverse Problem Solvers Can Outperform Groups of High-Ability Problem Solvers”, Proceedings of the National Academy of Sciences, 101(46): 16385–16389. doi:10.1073/pnas.0403723101
+Horner, Jack K., 2019, “A Computationally Assisted Reconstruction of an Ontological Argument in Spinoza’s The Ethics”, Open Philosophy, (special issue on computational philosophy) 2(1): 211–229. doi:10.1515/opphil-2019-0012
+Humphreys, Paul (1995). Computational science and scientific method. Minds and Machines 5 (4):499-512.
+Humphreys, Paul (2004). Extending Ourselves: Computational Science, Empiricism, and Scientific Method. Oxford University Press.
+Ion, Sarbu (2017). Ecosophy, Philosophy of Security, New Technologies and the Digital Philosophy. In _Proceedings of the 13th International Scientific Committee "Strategies XXI". Technologies, Military Applications, Simulations and Resources_. Bucharest: "Carol I" National Defence University. pp. 437-443.
+Isenberg, Daniel J., 1986, “Group Polarization: A Critical Review and Meta-Analysis.”, Journal of Personality and Social Psychology, 50(6): 1141–1151. doi:10.1037/0022-3514.50.6.1141
+Iwańska, Lucja (1993). Logical reasoning in natural language: It is all about knowledge. Minds and Machines 3 (4):475-510.
+Jackson, Albert S. (1960). _Analog Computation_. McGraw-Hill.
+Jacquart, Melissa (2018). Learning About Reality Through Models and Computer Simulations. Science & Education 27 (7-8):805-810.
+Janik, Kenneth J. ; Lu, Shih-Lien & Lee, Ben (1996). An Analog VLSI Chip for Low-Level Computer Vision. _Esda 1996: Expert Systems and Ai; Neural Networks_ 7:211.
+Janusz, Robert (2012). Roberto Busa i humanistyczna informatyka. Rocznik Filozoficzny Ignatianum:91-106.
+Jones, Mostyn W. (2019). Growing Evidence that Perceptual Qualia are Neuroelectrical Not Computational. Journal of Consciousness Studies 26 (5-6):89-116.
+Julesz, Bela (1983). The role of analog models in our digital age. _Behavioral and Brain Sciences_ 6 (4):668.
+Kalman, John Arnold, 2001, Automated Reasoning with Otter, Princeton, NJ: Rinton Press.
+Katz, Matthew (2008). Analog and digital representation. _Minds and Machines_ 18 (3):403-408.
+Kauffman, Stuart, 1995, At Home in the Universe: The Search for Laws of Self-Organization and Complexity, New York: Oxford University Press.
+Kendall, Graham, Xin Yao, and Siang Yew Chong, 2007, The Iterated Prisoner’s Dilemma: 20 Years On, Singapore: World Scientific.
+Khaldūn, Ibn, 1377 [1958], The Muqaddimah: An Introduction to History, vol. 3, Franz Rosenthal, Princeton, NJ: Princeton University Press.
+Kirchner, Daniel, Christoph Benzmüller, and Edward N. Zalta, 2019, “Computer Science and Metaphysics: A Cross-Fertilization”, Open Philosophy, (special issue on computational philosophy) 2(1): 230–251. doi:10.1515/opphil-2019-0015
+Kitcher, Philip, 1993, The Advancement of Science: Science Without Legend, Objectivity Without Illusions, Oxford: Oxford University Press. doi:10.1093/0195096533.001.0001
+Kleijnen, Jack P.C., 1995, “Verification and Validation of Simulation Models”, European Journal of Operational Research, 82(1): 145–162. doi:10.1016/0377-2217(94)00016-6
+Klein, Dominik, Johannes Marx, and Kai Fischbach, 2018, “Agent-Based Modeling in Social Science, History, and Philosophy. An Introduction.”, Historical Social Research, 43(1): 7–27. doi:10.12759/HSR.43.2018.1.7-27
+Klemm, Konstantin, Víctor M. Eguíluz, Raúl Toral, and Maxi San Miguel, 2003a, “Global Culture: A Noise-Induced Transition in Finite Systems”, Physical ReviewE, 67(4pt2): 045101. doi:10.1103/PhysRevE.67.045101
+Klemm, Konstantin, Víctor M. Eguíluz, Raúl Toral, and Maxi San Miguel, 2003b, “Nonequilibrium Transitions in Complex Networks: A Model of Social Interaction”, Physical Review E, 67 (2): 026120. doi:10.1103/PhysRevE.67.026120
+Klemm, Konstantin, Víctor M. Eguíluz, Raúl Toral, and Maxi San Miguel, 2003c, “Role of Dimensionality in Axelrod’s Model for the Dissemination of Culture”, Physica A, 327 (1): 1–5. doi:10.1016/S0378-4371(03)00428-X
+Klemm, Konstantin, Víctor M. Eguíluz, Raúl Toral, and Maxi San Miguel, 2005, “Globalization, Polarization and Cultural Drift”, Journal of Economic Dynamics and Control, 29(1–2): 321–334. doi:10.1016/j.jedc.2003.08.005
+Kortright, Enrique V. (1994). Philosophy, mathematics, science and computation. Topoi 13 (1):51-60.
+Krakauer, David C. (ed.), 2019, Worlds Hidden in Plain Sight: Thirty Years of Complexity Thinking at the Santa Fe Institute, Santa Fe, NM: Santa Fe Institute Press.
+Kuehn, Daniel, 2017, “Diversity, Ability, and Democracy: A Note on Thompson’s Challenge to Hong and Page”, Critical Review, 29(1): 72–87. doi:10.1080/08913811.2017.1288455
+Kuhn, Steven, 1997 [2019], “Prisoner’s Dilemma”, in The Stanford Encyclopedia of Philosophy, (Winter 2019), Edward N. Zalta (ed.), URL = <https://plato.stanford.edu/archives/win2019/entries/prisoner-dilemma/>
+Lakoff, George and Mark Johnson, 1980, Metaphors We Live By, Chicago: University of Chicago Press.
+Lakoff, George and Mark Turner, 1989, More Than Cool Reason: A Field Guide to Poetic Metaphor, Chicago: University of Chicago Press.
+Landemore, Hélène, 2013, Democratic Reason: Politics, Collective Intelligence, and the Rules of the Many, Princeton NJ: Princeton University Press.
+Laymon, Ronald (1990). Computer Simulations, Idealizations and Approximations. PSA: Proceedings of the Biennial Meeting of the Philosophy of Science Association 1990:519 - 534.
+Lehrer, Keith and Carl Wagner, 1981, Rational Consensus in Science and Society, Dordrecht: Reidel.
+Leibniz, Gottfried Wilhelm, 1666 [1923], Dissertatio De Arte Combinatoria , URL = <https://archive.org/details/ita-bnc-mag-00000844-001/page/n11/mode/2up>; Sämtliche Schriften und Briefe, Berlin-Brandenburgische Akademie der Wissenschraften / Akademie der Wissenschraften zu Göttingen (eds.), Berlin: Akademie Verlag.
+Leibniz, Gottfried Wilhelm, 1685 [1951], The Art of Discovery, in Leibniz: Selections, Philip P. Wiener (ed., trans), New York: Scribner, 1951.
+Leibovitz, David Pierre (2013). A Unified Cognitive Model of Visual Filling-In Based on an Emergic Network Architecture. Dissertation, Carleton University
+Lem, Stanislaw, 1964 [2013], Summa Technologiae, Joanna Zylinski, Minneapolis, MN: University of Minnesota Press, 2013.
+Lewis, David K. (1971). Analog and digital. _Noûs_ 5 (3):321-327.
+Lewis, David, 1969, Convention: A Philosophical Study, Cambridge MA: Harvard University Press.
+Lloyd, Elisabeth A. (2012). The role of 'complex' empiricism in the debates about satellite data and climate models. Studies in History and Philosophy of Science Part A 43 (2):390-401.
+Lloyd, Seh (2007). Programming the Universe. Vintage.
+Llull, Ramon, 1308 [1986], Ars generalis ultima, in Raimondi Lulli Opera Latina XIV / CCCM 75, 4–527, Turnholt, Belgium: Brepols
+Lokhorst, Gert-Jan C. (2011). Computational Meta-Ethics. Minds and Machines 21 (2):261-274.
+Longino, Helen E., 1990, Science as Social Knowledge:Values and Objectivity in Scientific Inquiry, Princeton, NJ: Princeton University Press.
+Longino, Helen, 2002 [2019], “The Social Dimensions of Scientific Knowledge”, in The Stanford Encyclopedia of Philosophy, (Summer 2019), Edward N. Zalta (ed.), URL = <https://plato.stanford.edu/archives/sum2019/entries/scientific-knowledge-social/>
+Lord, Charles G., Lee Ross, and Mark R. Lepper, 1979, “Biased Assimilation and Attitude Polarization: The Effects of Prior Theories on Subsequently Considered Evidence.”, Journal of Personality and Social Psychology, 37(11): 2098–2109. doi:10.1037/0022-3514.37.11.2098
+Loula, Angelo ; Gudwin, Ricardo ; El-Hani, Charbel & Queiroz, João, The emergence of symbol-based communication in a complex system of artificial creatures.
+Love, David (2007). A Philosophy of Maintenance? Engaging with the Concept of Software. Philosophy of Management 6 (2):27-30.
+Loveland, Donald W., 1984, “Automated Theorem Proving: A Quarter Century Review”, Contemporary Mathematics, 29: 1–45.
+Luczak-Roesch, Markus ; Tinati, Ramine ; Aljaloud, Saud ; Hall, Wendy & Shadbolt, Nigel (2016). A universal socio-technical computing machine. In International Conference on Web Engineering.
+Luczak-Roesch, Markus ; Tinati, Ramine ; O'Hara, Kieron & Shadbolt, Nigel (2015). Socio-technical computation. In Proceedings of the 18th ACM Conference Companion on Computer Supported Cooperative Work & Social Computing.
+Ludwig, David (2014). Extended cognition and the explosion of knowledge. Philosophical Psychology (3):1-14.
+MacKenzie, Donald, 1995, “The Automation of Proof: A Historical and Sociological Exploration”, IEEE Annals of the History of Computing, 17(3): 7–29. doi:10.1109/85.397057
+MacLennan, Bruce J. (1994).?Words lie in our way? _Minds and Machines_ 4 (4):421-37.
+MacLennan, Bruce J., Grounding analog computers.
+Malapi-Nelson, Alcibiades (2014). Humanities’ metaphysical underpinnings of late frontier scientific research. Humanities 214 (3):740-765.
+Maley, Corey J. (2011). Analog and digital, continuous and discrete. _Philosophical Studies_ 155 (1):117-131.
+Mallah, Jacques (forthcoming). Structure and Dynamics in Implementation of Computations. In Yasemin J. Erden (ed.), _Proceedings of the 7th AISB Symposium on Computing and Philosophy:_. AISB.
+Mar, Gary and Patrick Grim, 1991, “Pattern and Chaos: New Images in the Semantics of Paradox”, Noûs, 25(5): 659–693. doi:10.2307/2215637
+Martin, Ernst, 1925 [1992], Die Rechenmaschinen und ihre Entwicklungsgeschichte, Germany: Pappenheim. Translated as The Calculating Machines: Their History and Development, Peggy Aldrich Kidwell and Michael R. Williams (trans.), Cambridge MA: MIT Press, 1992.
+Martini, Carlo and Manuela Fernández Pinto, 2017, “Modeling the Social Organization of Science: Chasing Complexity through Simulations”, European Journal for Philosophy of Science, 7(2): 221–238. doi:10.1007/s13194-016-0153-1
+McCune, William and Larry Wos, 1997, “Otter: The CADE-13 Competition Incarnations”, Journal of Automated Reasoning, 18(2): 211–220. doi:10.1023/A:1005843632307
+Mccune, William, 1997, “Solution of the Robbins Problem”, Journal of Automated Reasoning, 19(3): 263–276. doi:10.1023/A:1005843212881
+McDermott, Drew (2001). The digital computer as red Herring. _Psycoloquy_ 12 (54).
+McRobbie, Michael A., 1991, “Automated Reasoning and Nonclassical Logics: Introduction”, Journal of Automated Reasoning, 7(4): 447–451. doi:10.1007/BF01880323
+Meadows, Michael and Dave Cliff, 2012, “Reexamining the Relative Agreement Model of Opinion Dynamics”, Journal of Artificial Societies and Social Simulation, 15(4): 4. doi:10.18564/jasss.2083
+Meyer, John-Jules Ch. and Roel Wierenga, 1994, Deontic Logic in Computer Science: Normative System Specification. Hoboken, NJ: Wiley.
+Miller, George A., Richard Beckwith, Christiane Fellbaum, Derek Gross, and Katherine J. Miller, 1990, “Introduction to WordNet: An On-Line Lexical Database”, International Journal of Lexicography, 3(4): 235–244. doi:10.1093/ijl/3.4.235
+Mitchell, Melanie, 2011, Complexity: A Guided Tour, New York: Oxford University Press.
+Mizrahi, Moti (2019). What Isn’t Obvious about ‘obvious’: A Data-driven Approach to Philosophy of Logic. In Andrew Aberdein & Matthew Inglis (eds.), Advances in Experimental Philosophy of Logic and Mathematics. London: Bloomsbury Press. pp. 201-224.
+Miłkowski, Marcin (2013). Reverse-engineering in Cognitive-Science. In Marcin Miłkowski & Konrad Talmont-Kaminski (eds.), Regarding Mind, Naturally. Cambridge Scholars Press. pp. 12-29.
+Miłkowski, Marcin (2015). Evaluating Artificial Models of Cognition. Studies in Logic, Grammar and Rhetoric 40 (1):43-62.
+Monahan, Torin (2001). The analog divide. _Acm Sigcas Computers and Society_ 31 (3):22-31.
+Moschovakis, Yiannis (2001). What is an algorithm? In Mathematics Unlimited --- 2001 and beyond.
+Muskens, Reinhard (1997)). Program semantics and classical logic. In CLAUS Report Nr 86. Saarbrücken: University of the Saarland. pp. 1-27.
+Muzy, Alexandre ; Varenne, Franck ; Zeigler, Bernard P. ; Caux, Jonathan ; Coquillard, Patrick ; Touraille, Luc ; Prunetti, Dominique ; Caillou, Philippe ; Michel, Olivier & Hill, David R. C. (2013). Refounding of the activity concept? Towards a federative paradigm for modeling and simulation. Simulation - Transactions of the Society for Modeling and Simulation International 89 (2):156-177.
+Mäs, Michael, 2019, “Challenges to Simulation Validation in the Social Sciences. A Critical Rationalist Perspective”, in Computer Simulation Validation, Claus Beisbart and Nicole J. Saam (eds.), Cham: Springer International Publishing, 857–879. doi:10.1007/978-3-319-70766-2_35
+Müller, Vincent C. (2008). Representation in digital systems. In Adam Briggle, Katinka Waelbers & Brey Philip (eds.), _Current Issues in Computing and Philosophy_. IOS Press. pp. 116-121.
+Müller, Vincent C. (2008). What a course on philosophy of computing is not. APA Newsletter on Philosophy and Computers 8 (1):36-38.
+Müller, Vincent C. (2009). Susan Stuart & Gordana Dodig Crnkovic : 'Computation, Information, Cognition: The Nexus and the Liminal'. _Cybernetics and Human Knowing_ 16 (3-4):201-203.
+Müller, Vincent C. (2011). On the Possibilities of Hypercomputing Supertasks. _Minds and Machines_ 21 (1):83-96.
+Müller, Vincent C. (2013). What is a digital state? In Mark J. Bishop & Yasemin Erden (eds.), _The Scandal of Computation - What is Computation? - AISB Convention 2013_. AISB. pp. 11-16.
+Müller, Vincent C. (2014). Pancomputationalism: Theory or metaphor? In Ruth Hagengruber & Uwe Riss (eds.), _Philosophy, computing and information science_. Pickering & Chattoo. pp. 213-221.
+Müller, Vincent C. (ed.) (2016). Computing and philosophy: Selected papers from IACAP 2014. Springer.
+Nayebi, Aran (2014). Practical Intractability: A Critique of the Hypercomputation Movement. Minds and Machines 24 (3):275-305.
+Newman, Julian (2016). Epistemic opacity, confirmation holism and technical debt: computer simulation in the light of empirical software engineering. In History and Philosophy of Computing (IFIP AICT 487). Cham, Switzerland: Springer. pp. 256-272.
+Northcott, Robert (forthcoming). Big data and prediction: four case studies. Studies in History and Philosophy of Science Part A.
+Nowak, Martin A. and Karl Sigmund, 1992, “Tit for Tat in Heterogeneous Populations”, Nature, 355(6357): 250–253. doi:10.1038/355250a0
+Olsson, Erik J., 2011, “A Simulation Approach to Veritistic Social Epistemology”, Episteme, 8(2): 127–143. doi:10.3366/epi.2011.0012
+Olsson, Erik J., 2013, “A Bayesian Simulation Model of Group Deliberation and Polarization”, in Bayesian Argumentation, Frank Zenker (ed.), Dordrecht: Springer Netherlands, 113–133. doi:10.1007/978-94-007-5357-0_6
+Oppenheimer, Paul & Zalta, Edward N. (2011). A computationally-discovered simplification of the ontological argument. Australasian Journal of Philosophy 89 (2):333 - 349.
+Oppenheimer, Paul E. and Edward N. Zalta, 2011, “A Computationally-Discovered Simplification of the Ontological Argument”, Australasian Journal of Philosophy, 89(2): 333–349. doi:10.1080/00048401003674482
+Overton, James A., 2013, “‘Explain’ in Scientific Discourse”, Synthese, 190(8): 1383–1405. doi:10.1007/s11229-012-0109-8
+O’Connor, Cailin and James Owen Weatherall, 2018, “Scientific Polarization”, European Journal for Philosophy of Science, 8(3): 855–875. doi:10.1007/s13194-018-0213-9
+O’Connor, Cailin and Justin Bruner, 2019, “Dynamics and Diversity in Epistemic Communities”, Erkenntnis, 84(1): 101–119. doi:10.1007/s10670-017-9950-y
+O’Connor, Cailin, 2017, “The Cultural Red King Effect”, The Journal of Mathematical Sociology, 41(3): 155–171. doi:10.1080/0022250X.2017.1335723
+O’Connor, Cailin, Liam Kofi Bright, and Justin P. Bruner, 2019, “The Emergence of Intersectional Disadvantage”, Social Epistemology, 33(1): 23–41. doi:10.1080/02691728.2018.1555870
+O’Leary, Daniel J., 1991, “Principia Mathematica and the Development of Automated Theorem Proving”, in Perspectives on the History of Mathematical Logic, Thomas Drucker (ed.), Boston, MA: Birkhäuser Boston, 47–53. doi:10.1007/978-0-8176-4769-8_4
+Page, Scott E., 2007, The Difference: How the Power of Diversity Creates Better Groups, Firms, Schools, and Societies, Princeton, NJ: Princeton University Press.
+Pagni, A. (1998). Digital approaches. In Enrique H. Ruspini, Piero Patrone Bonissone & Witold Pedrycz (eds.), _Handbook of Fuzzy Computation_. Institute of Physics.
+Parker, Matthew W. (2003). Three concepts of decidability for general subsets of uncountable spaces. Theoretical Computer Science 351 (1):2-13.
+Parker, Matthew W. (2009). Computing the uncomputable; or, The discrete charm of second-order simulacra. Synthese 169 (3):447-463.
+Parker, Wendy (2009). Does matter really matter? Computer simulations, experiments, and materiality. Synthese 169 (3):483-496.
+Parker, Wendy S. (2017). Computer Simulation, Measurement, and Data Assimilation. British Journal for the Philosophy of Science 68 (1):273-304.
+Paulson, Lawrence C., 1990, “Isabelle: The Next 700 Theorem Provers”, in Piergiorgio Odifreddi (ed.), Logic and Computer Science, Cambridge, MA: Academic Press, pp. 361-386.
+Pearl, Judea and Dana Mackenzie, 2018, The Book of Why: The New Science of Cause and Effect, New York: Basic Books.
+Pearl, Judea, 1988, Probabilistic Reasoning in Intelligent Systems, San Mateo, CA: Morgan Kaufmann.
+Pearl, Judea, 2000, Causality: Models, Reasoning, and Inference, Cambridge, MA: Cambridge Univ. Press.
+Pence, Charles H. & Ramsey, Grant (2018). How to Do Digital Philosophy of Science. Philosophy of Science 85 (5):930-941.
+Pence, Charles H. and Grant Ramsey, 2018, “How to Do Digital Philosophy of Science”, Philosophy of Science, 85(5): 930–941. doi:10.1086/699697
+Piccinini, Gualtiero (2004). Computers. _Pacific Philosophical Quarterly_ 89 (1):32–73.
+Pitowski, Itamar (1990). The Physical Church Thesis and Physical Computational Complexity. _Iyyun_ 39:81-99.
+Pollock, John L., 1989, How to Build a Person: A Prolegomenon, Cambridge, MA: MIT Press.
+Pollock, John L., 1995, Cognitive Carpentry: A Bluepoint for How to Build a Person, Cambridge, MA: MIT Press.
+Pollock, John L., 2006, Thinking about Acting: Logical Foundations for Rational Decision Making, Oxford: Oxford University Press. doi:10.1093/acprof:oso/9780195304817.001.0001
+Portoraro, Frederic, 2001 [2019], “Automated Reasoning”, in The Stanford Encyclopedia of Philosophy, (Spring 2019), Edward N. Zalta (ed.), URL = <https://plato.stanford.edu/archives/spr2019/entries/reasoning-automated/>
+Prakken, Henry (2012). Reconstructing Popov v. Hayashi in a framework for argumentation with structured arguments and Dungean semantics. Artificial Intelligence and Law 20 (1):57-82.
+Preston, John (2012). Unthinking things. The Philosophers' Magazine 57 (57):79-83.
+Preston, John (2012). What Are Computers (If They're not Thinking Things)? In S. Barry Cooper (ed.), How the World Computes. pp. 609--615.
+Primiero, Giuseppe (2012). A contextual type theory with judgemental modalities for reasoning from open assumptions. Logique and Analyse 220:579-600.
+Primiero, Giuseppe ; Fresco, Nir & Floridi, Luciano (2015). On malfunctioning software. Synthese 192 (4):1199-1220.
+Ramabrahmam, Varanasi, The Significance and Use of Absence.
+Rapaport, Willam J. (1999). Implementation is Semantic Interpretation. The Monist 82 (1):109-130.
+Rapaport, William J. (2005). Philosophy of Computer Science: An Introductory Course. Teaching Philosophy 28 (4):319-341.
+Rapaport, William J. (forthcoming). Syntax, Semantics, and Computer Programs. Philosophy and Technology:1-13.
+Rathkopf, Charles (2018). Network representation and complex systems. Synthese (1).
+Ratti, Emanuele (2014). Levels of abstraction, emergentism and artificial life. Journal of Experimental & Theoretical Artificial Intelligence:1-12.
+Reijula, Samuli and Jaakko Kuorikoski, 2019, “Modeling Epistemic Communities”, in Miranda Fricker, Peter J. Graham, David Henderson and Nikolaj J.L.L. Pedersen (eds), The Routledge Handbook of Social Epistemology, Abingdon-on-Thames: Routledge, chapter 24.
+Rendsvig, Rasmus and John Symons, 2006 [2019], “Epistemic Logic”, in The Stanford Encyclopedia of Philosophy, (Summer 2019), Edward N. Zalta (ed.), URL = <https://plato.stanford.edu/archives/sum2019/entries/logic-epistemic/>
+Rescher, Nicholas, 2012, Leibniz and Cryptography, University Library System, University of Pittsburgh.
+Riazanov, Alexandre and Andrei Voronkov, 2002, “The Design and Implementation of VAMPIRE”, AI Communications, 15(2–3): 91–110.
+Riegler, Alexander and Igor Douven, 2009, “Extending the Hegselmann–Krause Model III: From Single Beliefs to Complex Belief States”, Episteme, 6(2): 145–163. doi:10.3366/E1742360009000616
+Riegler, Alexander and Igor Douven, 2010, “Extending the Hegselmann-Krause Model II”, in T. Czarnecki, K. Kijania-Placek, O. Poller, and J. Wolenski (eds.), The Analytical Way: Proceedings of the 6th European Congress of Analytic Philosophy, London: College Publications.
+Robson, Arthur J., 1990, “Efficiency in Evolutionary Games: Darwin, Nash and the Secret Handshake”, Journal of Theoretical Biology, 144(3): 379–396. doi:10.1016/S0022-5193(05)80082-7
+Rohrlich, Fritz (1990). Computer Simulation in the Physical Sciences. PSA: Proceedings of the Biennial Meeting of the Philosophy of Science Association 1990:507-518.
+Rooij, Iris ; Wright, Cory & Wareham, Todd (2012). Intractability and the use of heuristics in psychological explanations. Synthese 187 (2):471-487.
+Rosenstock, Sarita, Justin Bruner, and Cailin O’Connor, 2017, “In Epistemic Networks, Is Less Really More?”, Philosophy of Science, 84(2): 234–252. doi:10.1086/690717
+Rovetto, Robert J. (2016). Orbital Space Environment and Space Situational Awareness Domain Ontology. In Stefano Borgo, Jean-Rémi Bourguet & Adrien Barton (eds.), CEUR workshop proceedings of The Joint Ontology Workshops, with the 9th International Conference of Formal Ontology for Information Systems (FOIS), Early Career Symposium. CEUR Scientific Workshops.
+Rubel, Lee A. (1989). Digital simulation of analog computation and church's thesis. _Journal of Symbolic Logic_ 54 (3):1011-1017.
+Rubin, Hannah and Cailin O’Connor, 2018, “Discrimination and Collaboration in Science”, Philosophy of Science, 85(3): 380–402. doi:10.1086/697744
+Rushby, John, 2018, “A Mechanically Assisted Examination of Begging the Question in Anselm’s Ontological Argument”, Journal of Applied Logics, 5(7): 1473–1496.
+Ruyant, Quentin (2018). Compte rendu de L’observation scientifique, aspects philosophiques et pratiques de Vincent Israel-Jost. Lato Sensu, Revue de la Société de Philosophie des Sciences 5:41-43.
+Saito, Ron Shiro (2000). From Instructional Social Computer Simulation to Heidegger's Aesthetics. Dissertation, Indiana University
+Sanfilippo, Emilio ; Ratti, Emanuele ; Quattri, Francesca ; Sojic, Aleksandra ; Boem, Federico ; Camara, Gaoussou & Chuk, Eric (2013). Diverse perspectives on ontology. Applied Ontology 8 (1):59-71.
+Sargent, Pauline (1996). On the use of visualizations in the practice of science. Philosophy of Science 63 (3):238.
+Sargent, R G, 2013, “Verification and Validation of Simulation Models”, Journal of Simulation, 7(1): 12–24. doi:10.1057/jos.2012.20
+Sarpeshkar, Rahul (1998). Analog versus digital: Extrapolating from electronics to neurobiology. _Neural Computation_ 10 (7):1601--1638.
+Sawyer, R. Keith (2004). Social explanation and computational simulation. Philosophical Explorations 7 (3):219-231.
+Schelling, Thomas C., 1971, “Dynamic Models of Segregation”, The Journal of Mathematical Sociology, 1(2): 143–186. doi:10.1080/0022250X.1971.9989794
+Schelling, Thomas C., 1978, Micromotives and Macrobehavior, New York: Norton.
+Schirra, Joerg R. J. (2012). Sind Bilder ein Gegenstand der Informatik? Überlegungen zur Computervisualistik. In Dimitri Liebsch & Nicola Mößner (eds.), Visualisierung und Erkenntnis. Bildverstehen und Bildverwenden in Natur- und Geisteswissenschaften. Herbert von Halem Verlag.. pp. 329-359.
+Schonbein, Whit (2014). Varieties of Analog and Digital Representation. _Minds and Machines_ 24 (4):415-438.
+Sebeok, Thomas A. (1967). The Informational Model of Language: Analog and Digital Coding in Animal and Human Communication (an Excerpt). In Donald C. Hildum (ed.), _Language and Thought: An Enduring Problem in Psychology_. London: : Van Nostrand,. pp. 37--40.
+Seligman, Jeremy (2002). The scope of Turing's analysis of effective procedures. Minds and Machines 12 (2):203-220.
+Sergeyev, Yaroslav & Garro, Alfredo (2013). Single-tape and multi-tape Turing machines through the lens of the Grossone methodology. Journal of Supercomputing 65 (2):645-663.
+Sergeyev, Yaroslav (2009). Evaluating the exact infinitesimal values of area of Sierpinski's carpet and volume of Menger's sponge. Chaos, Solitons and Fractals 42: 3042–3046.
+Sergeyev, Yaroslav (2013). Solving ordinary differential equations by working with infinitesimals numerically on the Infinity Computer. Applied Mathematics and Computation 219 (22):10668–10681.
+Shagrir, Oron (2010). Brains as analog-model computers. _Studies in History and Philosophy of Science Part A_ 41 (3):271-279.
+Shor, P. (1994). Algorithms for quantum computation: Discrete logarithms and factoring. Proceedings of the 35th Annual IEEE Symposium on Foundations of Computer Science:124-134.
+Shults, F. LeRon, 2019, “Computer Modeling in Philosophy of Religion”, Open Philosophy, (special issue on computer modeling in philosophy) 2(1): 108–125. doi:10.1515/opphil-2019-0011
+Sidgwick, Henry, 1886, Outlines of the History of Ethics for English Readers, London: Macmillan, Indianapolis IN: Hackett 1988.
+Sieg, Wilfried & Byrnes, John, K-Graph Machines: Generalizing Turing's Machines and Arguments.
+Siegelmann, Hava T. (2003). Neural and super-Turing computing. _Minds and Machines_ 13 (1):103-114.
+Siekmann, Jörg and G. Wrightson (eds.), 1983, Automation of Reasoning: Classical Papers on Computational Logic, 1957–1965, volume 1, Berlin: Springer
+Silva Graça, Daniel (2004). Some recent developments on Shannon's General Purpose Analog Computer. _Mathematical Logic Quarterly_ 50 (45):473-485.
+Simon, Jonathan ; Fielding, James M. ; Dos Santos, Mariana C. & Smith, Barry (2005). Formal Ontology for Natural Language Processing and the Integration of Biomedical Databases. International Journal of Medical Informatics 75 (3-4):224-231.
+Singer, Daniel J., 2019, “Diversity, Not Randomness, Trumps Ability”, Philosophy of Science, 86(1): 178–191. doi:10.1086/701074
+Singer, Daniel J., Aaron Bramson, Patrick Grim, Bennett Holman, Jiin Jung, Karen Kovaka, Anika Ranginani, and William J. Berger, 2019, “Rational Social and Political Polarization”, Philosophical Studies, 176(9): 2243–2267. doi:10.1007/s11098-018-1124-5
+Singer, Daniel J., Aaron Bramson, Patrick Grim, Bennett Holman, Karen Kovaka, Jiin Jung, and William J. Berger, forthcoming, “Don’t Forget Forgetting: The Social Epistemic Importance of How We Forget”, Synthese, first online: 8 October 2019. doi:10.1007/s11229-019-02409-0
+Skyrms, Brian 2004, The Stag Hunt and the Evolution of Social Structure, New York: Cambridge University Press. doi:10.1017/CBO9781139165228
+Skyrms, Brian, 1996, Evolution of the Social Contract, Cambridge: Cambridge University Press. doi:10.1017/CBO9780511806308
+Skyrms, Brian, 2010, Signals: Evolution, Learning and Information, New York: Oxford University Press. doi:10.1093/acprof:oso/9780199580828.001.0001
+Sloman, Aaron (1992). The emperor's real mind -- Review of Roger Penrose's The Emperor's new Mind: Concerning Computers Minds and the Laws of Physics. Artificial Intelligence 56 (2-3):355-396.
+Solomon, Miriam, 1994a, “Social Empiricism”, Noûs, 28(3): 325–343. doi:10.2307/2216062
+Solomon, Miriam, 1994b, “A More Social Epistemology”, in Frederick E. Schmitt (ed.), Socializing Epistemology: The Social Dimensions of Knowledge, Lanham, MD: Rowman and Littlefield, pp. 217-233.
+Spirtes, Peter, Clark Glymour, and Richard Scheines, 1993, Causation, Prediction, and Search, (Lecture Notes in Statistics 81), New York: Springer New York. doi:10.1007/978-1-4612-2748-9
+Sprenger, Jan and Stephen Hartmann, 2019, Bayesian Philosophy of Science, Oxford: Oxford University Press. doi:10.1093/oso/9780199672110.001.0001
+St. Denis, Paul and Patrick Grim, 1997, “Fractal Images of Formal Systems”, Journal of Philosophical Logic, 26(2): 181–222. doi:10.1023/A:1004280900954
+Starks, Michael (2016). Suicidal Utopian Delusions in the 21st Century: Philosophy, Human Nature and the Collapse of Civilization-- Articles and Reviews 2006-2017 2nd Edition Feb 2018. Las Vegas, USA: Reality Press.
+Starks, Michael Richard (2019). Pernyataan tentang kemustahilan, ketidaklengkapan, Paraconsistency,Undecidability, Randomness, Komputabilitas, paradoks, dan ketidakpastian dalam Chaitin, Wittgenstein, Hofstadter, Wolpert, Doria, da Costa, Godel, Searle, Rodych, Berto, Floyd, Moyal-Sharrock dan Yanofsky. Las Vegas, NV USA: Reality Press.
+Starks, Michael Richard (2019). Замечания о невозможности, неполноте Paraconsistency, Нерешающость, Случайность вычислительности, парадокс, и неопределенность в Чайтин, Витгенштейн, Хофштадтер Вольперт, Дориа, да Коста, Годель, Сирл, Родыч Берто, Флойд, Мойал-Шаррок и Янофски. Las Vegas, NV USA: Reality Press.
+Starks, Michael, David Wolpert on impossibility, incompleteness, the liar paradox, the limits of computation, a non-quantum mechanical uncertainty principle and the universe as computer—the ultimate theorem in Turing Machine Theory.
+Steen, Alexander and Christoph Benzmüller, 2018, “The Higher-Order Prover Leo-III”, in KI 2019: Advances in Artificial Intelligence: 42nd German Conference on AI, Didier Galmiche, Stephan Schulz, and Roberto Sebastiani (eds.), (Lecture Notes in Computer Science 10900), Cham: Springer International Publishing, 108–116. doi:10.1007/978-3-319-94205-6_8
+Steinhart, Eric (2003). Supermachines and superminds. _Minds and Machines_ 13 (1):155-186.
+Steinhart, Eric and Eva Kittay, 1994, “Generating Metaphors from Networks: A Formal Interpretation of the Semantic Field Theory of Metaphor”, in Aspects of Metaphor, Jaakko Hintikka (ed.), Dordrecht: Springer Netherlands, 41–94. doi:10.1007/978-94-015-8315-2_3
+Steinhart, Eric, 1994, “NETMET: A Program for Generating and Interpreting Metaphors”, Computers and the Humanities, 28(6): 383–392. doi:10.1007/BF01829973
+Sterner, Beckett (2009). Object spaces: An organizing strategy for biological theorizing. Biological Theory 4 (3):280-286.
+Sterner, Beckett (2014). Well-Structured Biology: Numerical Taxonomy's Epistemic Vision for Systematics. In Andrew Hamilton (ed.), The Evolution of Phylogenetic Systematics. University of California Press. pp. 213-244.
+Stuart, Michael T. & Nersessian, Nancy J. (2018). Peeking Inside the Black Box: A New Kind of Scientific Visualization. Minds and Machines 29 (1):87-107.
+Stuart, Michael T. (2017). Imagination: A Sine Qua Non of Science. Croatian Journal of Philosophy (49):9-32.
+Sullivan, Emily (forthcoming). Understanding from Machine Learning Models. British Journal for the Philosophy of Science:axz035.
+Suñé, Abel & Martínez, Manolo, Real patterns and indispensability.
+Swan, Liz Stillwaggon & Howard, Joshua (2012). Digital immortality: Self or 0010110? _International Journal of Machine Consciousness_ 4 (01):245-256.
+Swift, J., 1726, Gulliver’s Travels URL= <https://www.gutenberg.org/files/829/829-h/829-h.htm>
+Tal, Eran (2011). From data to phenomena and back again: computer-simulated signatures. Synthese 182 (1):117-129.
+Tamariz, Monica (2011). Could arbitrary imitation and pattern completion have bootstrapped human linguistic communication? Interaction Studies 12 (1):36-62.
+Thagard, Paul, 1988, Computational Philosophy of Science, Cambridge MA: MIT Press.
+Thagard, Paul, 1992, Conceptual Revolutions, Princeton, NJ: Princeton University Press.
+Thagard, Paul, 2012, The Cognitive Science of Science: Explanation, Discovery, and Conceptual Change, Cambridge MA: MIT Press.
+Thicke, Michael, forthcoming, “Evaluating Formal Models of Science”, Journal for General Philosophy of Science, First online: 1 February 2019. doi:10.1007/s10838-018-9440-1
+Thoma, Johanna, 2015, “The Epistemic Division of Labor Revisited”, Philosophy of Science, 82(3): 454–472. doi:10.1086/681768
+Thompson, Abigail, 2014, “Does Diversity Trump Ability?: An Example of the Misuse of Mathematics in the Social Sciences”, Notices of the American Mathematical Society, 61(9): 1024–1030.
+Trenholme, Russell (1994). Analog simulation. _Philosophy of Science_ 61 (1):115-131.
+Turing, A. M., 1936–1937, “On Computable Numbers, with an Application to the Entscheidungsproblem”, Proceedings of the London Mathematical Society, s2-42(1): 230–265. doi:10.1112/plms/s2-42.1.230
+Vakarelov, Orlin (2012). The Information Medium. Philosophy and Technology 25 (1):47-65.
+van Benthem, Johan, 2006, “Epistemic Logic and Epistemology: The State of Their Affairs”, Philosophical Studies, 128(1): 49–76. doi:10.1007/s11098-005-4052-0
+van de Rijt, Arnout, David Siegel, and Michael Macy, 2009, “Neighborhood Chance and Neighborhood Change: A Comment on Bruch and Mare”, American Journal of Sociology, 114(4): 1166–1180. doi:10.1086/588795
+van Deemter, Kees ; Gatt, Albert ; van Gompel, Roger P. G. & Krahmer, Emiel (2012). Toward a Computational Psycholinguistics of Reference Production. Topics in Cognitive Science 4 (2):166-183.
+Van Den Berg, Hein ; Betti, Arianna ; Castermans, Thom ; Koopman, Rob ; Speckmann, Bettina ; Verbeek, K. A. B. ; Van der Werf, Titia ; Wang, Shenghui & Westenberg, Michel A. (2018). A philosophical perspective on visualization for digital humanities. 3rd Workshop on Visualization for the Digital Humanities.
+Van Den Hoven, Jeroen and Gert‐Jan Lokhorst, 2002, “Deontic Logic and Computer‐Supported Computer Ethics”, Metaphilosophy, 33(3): 376–386. doi:10.1111/1467-9973.00233
+Van Ditmarsch, Hans, Wiebe van der Hoek, and Barteld Kooi, 2008, Dynamic Epistemic Logic, (Synthese Library 337), Dordrecht: Springer Netherlands. doi:10.1007/978-1-4020-5839-4
+Vanderschraaf, Peter, 2006, “War or Peace?: A Dynamical Analysis of Anarchy”, Economics and Philosophy, 22(2): 243–279. doi:10.1017/S0266267106000897
+Varenne, Franck & Phan, Denis (2008). Agent-Based Models and Simulations in Economics and Social Sciences: from conceptual exploration to distinct ways of experimenting. In Nuno David, José Castro Caldas & Helder Coelho (eds.), Proceedings of the 3rd EPOS congress (Epistemological Perspectives On Simulations). Lisbon: pp. 51-69.
+Varenne, Franck (2001). What does a Computer Simulation prove? The case of plant modeling at CIRAD. In N. Giambiasi & C. Frydman (eds.), Simulation in industry - ESS 2001, Proc. of the 13th European Simulation Symposium. Society for Computer Simulation (SCS).
+Varenne, Franck (2003). La simulation conçue comme expérience concrète. In Jean-Pierre Müller (ed.), Le statut épistémologique de la simulation. Editions de l'ENST.
+Varenne, Franck (2003). La simulation informatique face à la « méthode des modèles ». Le cas de la croissance des plantes. Natures Sciences Sociétés 11 (1):16-28.
+Varenne, Franck (2006). Bachelard avec la simulation informatique: nous faut-il reconduire sa critique de l'intuition ? In Robert Damien & B. Hufschmitt (eds.), Bachelard: Confiance Raisonnée Et Défiance Rationnelle. Besançon: Presses Universitaires de Franche-Comté. pp. 111-143.
+Varenne, Franck (2006). Les notions de métaphore et d'analogie dans les épistémologies des modèles et des simulations. Paris, France: Editions Petra.
+Varenne, Franck (2007). Du Modèle à la Simulation Informatique. Vrin.
+Varenne, Franck (2008). Émergences par les règles sans « formes de vie » une relecture de Kripke (1982) pour la simulation informatique du vivant. Noesis 14:201-236.
+Varenne, Franck (2009). Models and Simulations in the Historical Emergence of the Science of Complexity. In Ma Aziz-Alaoui & C. Bertelle (eds.), From System Complexity to Emergent Properties. Springer. pp. 3--21.
+Varenne, Franck (2009). Simulation informatique et pluriformalisation des objets composites. Philosophia Scientae 13:135-154.
+Varenne, Franck (2009). Simulation informatique et pluriformalisation des objets composites. Philosophia Scientiae 13 (1):135-154.
+Varenne, Franck (2010). Framework for Models and Simulations with Agents in regard to Agent Simulations in Social Sciences: Emulation and Simulation. In Alexandre Muzy, David R. C. Hill & Bernard P. Zeigler (eds.), Activity-Based Modeling and Simulation. Presses Universitaires Blaise-Pascal.
+Varenne, Franck (2011). Modéliser le social. Méthodes fondatrices et évolutions récentes. Paris, France: Dunod.
+Varenne, Franck (2012). Quelques aspects de l’œuvre de Jean-Marie Legay. Natures Sciences Sociétés 20 (4):461-463.
+Varenne, Franck (2012). Théorie, Réalité, Modèle. Paris, France: Editions Matériologiques.
+Varenne, Franck (2013). Chains of Reference in Computer Simulations. FMSH Working Papers 51:1-32.
+Varenne, Franck (2013). The Nature of Computational Things. In Frédéric Migayrou Brayer & Marie-Ange (eds.), Naturalizing Architecture. Orléans: HYX Editions. pp. 96-105.
+Varenne, Franck (2017). Théories et modèles en sciences humaines. Le cas de la géographie. Paris, France: Editions Matériologiques.
+Varenne, Franck (2018). From Models to Simulations. London, UK: Routledge.
+Vater, Christian (2017). Hypertext. Eine Schrift für vernetzte, dynamische Schreibmaschinen (1965). In Christian Vater, Ludger Lieb, Christian Witschel & Michaela Böttner (eds.), 5300 Jahre Schrift. Heidelberg: Wunderhorn. pp. 166-169.
+Vuong, Quan-Hoang & La, Viet-Phuong (2019). bayesvl: Visually Learning the Graphical Structure of Bayesian Networks and Performing MCMC with 'Stan'. Open Science Framework 2019:01-47.
+Vuong, Quan-Hoang ; La, Viet-Phuong & Nguyen, Hong-Kong T., Understanding the interplay of lies, violence, and religious values in folktales.
+Wadler, Philip, Proofs are Programs: 19th Century Logic and 21st Century Computing.
+Wagner, Elliott, 2009, “Communication and Structured Correlation”, Erkenntnis, 71(3): 377–393. doi:10.1007/s10670-009-9157-y
+Wagner, Jennifer B. & Johnson, Susan C. (2011). An association between understanding cardinality and analog magnitude representations in preschoolers. _Cognition_ 119 (1):10-22.
+Waldrop, M. Mitchell, 1992, Complexity: The Emerging Science at the Edge of Order and Chaos, New York: Simon and Schuster.
+Wang, Hao, 1960, “Toward Mechanical Mathematics”, IBM Journal of Research and Development, 4(1): 2–22. doi:10.1147/rd.41.0002
+Waskan, Jonathan A. (forthcoming). A virtual solution to the frame problem. _Proceedings of the First IEEE-RAS International Conference on Humanoid Robots_.
+Watts, Duncan J. and Steven H. Strogatz, 1998, “Collective Dynamics of ‘Small-World’ Networks”, Nature, 393(6684): 440–442. doi:10.1038/30918
+Weber, Marcel (2014). Experimental Modeling in Biology: In Vivo Representation and Stand-ins As Modeling Strategies. Philosophy of Science 81 (5):756-769.
+Weisberg, Michael and Ryan Muldoon, 2009, “Epistemic Landscapes and the Division of Cognitive Labor”, Philosophy of Science, 76(2): 225–252. doi:10.1086/644786
+Weisberg, Michael, 2013, Simulation and Similarity: Using Models to Understand the World, Oxford: Oxford University Press. doi:10.1093/acprof:oso/9780199933662.001.0001
+Wenmackers, Sylvia & Vanpoucke, Danny E. P. (2012). Models and simulations in material science: two cases without error bars. Statistica Neerlandica 66 (3):339–355.
+Weymark, John A., 2015, “Cognitive Diversity, Binary Decisions, and Epistemic Democracy”, Episteme, 12(4): 497–511. doi:10.1017/epi.2015.34
+Wheeler, Billy (2017). Humeanism and Exceptions in the Fundamental Laws of Physics. Principia: An International Journal of Epistemology 21 (3):317-337.
+Wheeler, Gregory (2013). Models, Models, and Models. Metaphilosophy 44 (3):293-300.
+Wheeler, Gregory (2016). Machine Epistemology and Big Data. In Lee McIntyre & Alex Rosenburg (eds.), Routledge Companion to Philosophy of Social Science. Routledge.
+Whitehead, Alfred North and Bertrand Russell, 1910, 1912, 1913, Principia Mathematica, 3 volumes, Cambridge: Cambridge University Press.
+Wieber, Frederic, Theoretical technologies in an “experimental” setting: Empirical modeling of proteinic objects and simulation of their dynamics within scientific collaborations around a supercomputer.
+Wiersma, Wybo, LogiLogi: Philosophy Beyond the Paper.
+Windrum, Paul, Giorgio Fagiolo, and Alessio Moneta, 2007, “Empirical Validation of Agent-Based Models: Alternatives and Prospects”, Journal of Artificial Societies and Social Simulation, 10(2): 8. URL = http://jasss.soc.surrey.ac.uk/10/2/8.html>
+Winsberg, Eric B. (2010). Science in the Age of Computer Simulation. University of Chicago Press.
+Wiseman, Thomas and Okan Yilankaya, 2001, “Cooperation, Secret Handshakes, and Imitation in the Prisoners’ Dilemma”, Games and Economic Behavior, 37(1): 216–242. doi:10.1006/game.2000.0836
+Wright, Sewall, 1932, “The Roles of Mutation, Inbreeding, Crossbreeding, and Selection in Evolution”, Proceedings of the Sixth International Congress on Genetics, vol. 1, D. F. Jones (ed.), pp. 355–366.
+Wyatt, Nicole (2001). Review of The Philosophical Computer. Philosophy and Phenomenological Research 63 (2):489-492.
+Young, H.P., 1993, “An Evolutionary Model of Bargaining”, Journal of Economic Theory, 59(1): 145–168. doi:10.1006/jeth.1993.1009
+Zalta, Edward, 2020, Principia Metaphysica, unpublished manuscript. URL = <https://mally.stanford.edu/principia.pdf>
+Zednik, Carlos (2015). Heuristics, Descriptions, and the Scope of Mechanistic Explanation. In P. Braillard & C. Malaterre (eds.), Explanation in Biology. An Enquiry into the Diversity of Explanatory Patterns in the Life Sciences. Dordrecht: Springer. pp. 295-318.
+Zednik, Carlos (2018). Models and mechanisms in network neuroscience. Philosophical Psychology 32 (1):23-51.
+Zeimbekis, John (2015). Why Digital Pictures Are Not Notational Representations. _Journal of Aesthetics and Art Criticism_ 73 (4):449-453.
+Zollman, 2007, “The Communication Structure of Epistemic Communities”, Philosophy of Science, 74(5): 574–587. doi:10.1086/525605
+Zollman, 2010a, “The Epistemic Benefit of Transient Diversity”, Erkenntnis, 72(1): 17–35. doi:10.1086/525605
+Zollman, 2010b, “Social Structure and the Effects of Conformity”, Synthese, 172(3): 317–340. doi:10.1007/s11229-008-9393-8
+Zollman, Kevin James Spears, 2005, “Talking to Neighbors: The Evolution of Regional Meaning”, Philosophy of Science, 72(1): 69–85. doi:10.1086/428390

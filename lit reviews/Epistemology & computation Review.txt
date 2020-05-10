@@ -1,0 +1,43 @@
+Epistemology & computation Review
+
+
+Rohrlich, Fritz (1990). Computer Simulation in the Physical Sciences. PSA: Proceedings of the Biennial Meeting of the Philosophy of Science Association 1990:507-518.
+
+** Rosenstock, Sarita, Justin Bruner, and Cailin O’Connor, 2017, “In Epistemic Networks, Is Less Really More?”, Philosophy of Science, 84(2): 234–252. doi:10.1086/690717
+Sargent, Pauline (1996). On the use of visualizations in the practice of science. Philosophy of Science 63 (3):238.
+Sargent, R G, 2013, “Verification and Validation of Simulation Models”, Journal of Simulation, 7(1): 12–24. doi:10.1057/jos.2012.20
+Sawyer, R. Keith (2004). Social explanation and computational simulation. Philosophical Explorations 7 (3):219-231.
+Shults, F. LeRon, 2019, “Computer Modeling in Philosophy of Religion”, Open Philosophy, (special issue on computer modeling in philosophy) 2(1): 108–125. doi:10.1515/opphil-2019-0011
+Sprenger, Jan and Stephen Hartmann, 2019, Bayesian Philosophy of Science, Oxford: Oxford University Press. doi:10.1093/oso/9780199672110.001.0001
+Stuart, Michael T. & Nersessian, Nancy J. (2018). Peeking Inside the Black Box: A New Kind of Scientific Visualization. Minds and Machines 29 (1):87-107.
+Sullivan, Emily (forthcoming). Understanding from Machine Learning Models. British Journal for the Philosophy of Science:axz035.
+Suñé, Abel & Martínez, Manolo, Real patterns and indispensability.
+Tal, Eran (2011). From data to phenomena and back again: computer-simulated signatures. Synthese 182 (1):117-129.
+Vakarelov, Orlin (2012). The Information Medium. Philosophy and Technology 25 (1):47-65.
+Van Den Berg, Hein ; Betti, Arianna ; Castermans, Thom ; Koopman, Rob ; Speckmann, Bettina ; Verbeek, K. A. B. ; Van der Werf, Titia ; Wang, Shenghui & Westenberg, Michel A. (2018). A philosophical perspective on visualization for digital humanities. 3rd Workshop on Visualization for the Digital Humanities.
+Varenne, Franck & Phan, Denis (2008). Agent-Based Models and Simulations in Economics and Social Sciences: from conceptual exploration to distinct ways of experimenting. In Nuno David, José Castro Caldas & Helder Coelho (eds.), Proceedings of the 3rd EPOS congress (Epistemological Perspectives On Simulations). Lisbon: pp. 51-69.
+Varenne, Franck (2001). What does a Computer Simulation prove? The case of plant modeling at CIRAD. In N. Giambiasi & C. Frydman (eds.), Simulation in industry - ESS 2001, Proc. of the 13th European Simulation Symposium. Society for Computer Simulation (SCS).
+Varenne, Franck (2009). Models and Simulations in the Historical Emergence of the Science of Complexity. In Ma Aziz-Alaoui & C. Bertelle (eds.), From System Complexity to Emergent Properties. Springer. pp. 3--21.
+Varenne, Franck (2010). Framework for Models and Simulations with Agents in regard to Agent Simulations in Social Sciences: Emulation and Simulation. In Alexandre Muzy, David R. C. Hill & Bernard P. Zeigler (eds.), Activity-Based Modeling and Simulation. Presses Universitaires Blaise-Pascal.
+Varenne, Franck (2013). Chains of Reference in Computer Simulations. FMSH Working Papers 51:1-32.
+Varenne, Franck (2013). The Nature of Computational Things. In Frédéric Migayrou Brayer & Marie-Ange (eds.), Naturalizing Architecture. Orléans: HYX Editions. pp. 96-105.
+Varenne, Franck (2018). From Models to Simulations. London, UK: Routledge.
+Wadler, Philip, Proofs are Programs: 19th Century Logic and 21st Century Computing.
+Waldrop, M. Mitchell, 1992, Complexity: The Emerging Science at the Edge of Order and Chaos, New York: Simon and Schuster.
+Weisberg, Michael, 2013, Simulation and Similarity: Using Models to Understand the World, Oxford: Oxford University Press. doi:10.1093/acprof:oso/9780199933662.001.0001
+Wenmackers, Sylvia & Vanpoucke, Danny E. P. (2012). Models and simulations in material science: two cases without error bars. Statistica Neerlandica 66 (3):339–355.
+Wheeler, Gregory (2013). Models, Models, and Models. Metaphilosophy 44 (3):293-300.
+Wheeler, Gregory (2016). Machine Epistemology and Big Data. In Lee McIntyre & Alex Rosenburg (eds.), Routledge Companion to Philosophy of Social Science. Routledge.
+Windrum, Paul, Giorgio Fagiolo, and Alessio Moneta, 2007, “Empirical Validation of Agent-Based Models: Alternatives and Prospects”, Journal of Artificial Societies and Social Simulation, 10(2): 8. URL = http://jasss.soc.surrey.ac.uk/10/2/8.html>
+Winsberg, Eric B. (2010). Science in the Age of Computer Simulation. University of Chicago Press.
+Zednik, Carlos (2015). Heuristics, Descriptions, and the Scope of Mechanistic Explanation. In P. Braillard & C. Malaterre (eds.), Explanation in Biology. An Enquiry into the Diversity of Explanatory Patterns in the Life Sciences. Dordrecht: Springer. pp. 295-318.
+Zednik, Carlos (2018). Models and mechanisms in network neuroscience. Philosophical Psychology 32 (1):23-51.
+
+
+Debate about the models
+
+van de Rijt, Arnout, David Siegel, and Michael Macy, 2009, “Neighborhood Chance and Neighborhood Change: A Comment on Bruch and Mare”, American Journal of Sociology, 114(4): 1166–1180. doi:10.1086/588795
+Thompson, Abigail, 2014, “Does Diversity Trump Ability?: An Example of the Misuse of Mathematics in the Social Sciences”, Notices of the American Mathematical Society, 61(9): 1024–1030.
+Singer, Daniel J., 2019, “Diversity, Not Randomness, Trumps Ability”, Philosophy of Science, 86(1): 178–191. doi:10.1086/701074
+Rosenstock, Sarita, Justin Bruner, and Cailin O’Connor, 2017, “In Epistemic Networks, Is Less Really More?”, Philosophy of Science, 84(2): 234–252. doi:10.1086/690717
+

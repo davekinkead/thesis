@@ -31,7 +31,19 @@ Thesis: Simulation-as-argument extends the boundaries of what is knowable in phi
 
   - It's possible to use simulation in a way that overcomes these problems while increasing the rational persuasibilty of arguments.
 
-    - embedding code within 
+    - embedding code in writing
+
+    - fixing the reproduction problem
+      - why this is different to apendix
+
+    - how reasoning with code
+
+    - probabilistic proof
+
+    - the epistemic shift from testimony to inference
+
+    - 
+
 
 - Simulation-as-argument extends the boundaries of our confidence into domains too complex or intractable for traditional analysis and argument.
 

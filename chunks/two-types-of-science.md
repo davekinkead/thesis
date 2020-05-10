@@ -22,14 +22,20 @@ Yet since computation and computer simulation have begun to be used in philosoph
 
 The epistemological source of the premises in the arguments in computational philosophy remains testimonial.
 
-Simulation as testimony presents many of the same challenges that experiment as testimony does.  As the basis of argument, the ....
+Simulation-as-testimony presents many of the same challenges that experiment-as-testimony does.  The first is the problem of trust that applies to all forms of testimony -- that the audience must trust both that those offering testimony are both honest and accurate.
 
+The problem of honesty in scholarship is a real but minor one. Scholars are overwhelming honest and professional, and instances of academic misconduct are the exception rather than the rule.  
 
-why this is bad
-  - trust in honesty (minor problem)
-  - trust in accuracy (not minor problem)
-  - extra bad in simulation (no real constraints, high sensitivity to implementation)
+Of much greater concern however, is the accuracy of scientific results. Even ignoring the crisis of replication in psychology and medicine, scientific progress is measured by the _revision_ of what we think is true as our knowledge is revised and sometimes rejected.  As such, the testimonial claims of scientific results _must_ be subjected to scrutiny before we can use them to warrant subsequent conclusions.
+   
+The epistemological challenges of experiment-as-testimony are much worse for simulation-as-testimony because simulations have no real constraints and are highly sensitive to parameter choices.  The results in natural science experiments are constrained by reality.  Gravity is gravity for example -- it works the same anywhere in the universe (although perhaps not in black holes).  But simulations have no real constraints -- how we code gravity in one simulation might be different to how we code it in another, depending on the code's author, language, and run time. 
 
-why this is very bad for philosophy 
-  - the crux of many issues is in the simulation
-  - this should therefore be fundamental part of the argument, not a footnote to it
+Similarly, the results of a simulation can be highly sensitive to changes in parameterisation.  Small changes in parameters and initial conditions can lead to large changes in results.  The field of chaos theory for example, was born when tiny rounding errors in weather simulations resulting in radically different outcomes in identical models.  Even if we code gravity the same in all of our simulations, minor changes in initial conditions can undermine the confidence in our results.
+
+Which brings us to simulations in philosophy.  Argument is central to philosophy and these arguments usually begin on firm footing with premises that the audience already accepts as reasonable and which are knowable independently of the argument being offered.
+
+When philosophy uses computer simulation however, the role of simulation is testimonial and the truth or reasonableness of its premises are not knowable independently of the argument.  We must trust the philosopher-coder that their simulation does what they say it does.
+
+Yet the crux of the argument in which simulation is used often rests in the assumptions and claims parameterised within the code.  The key inferences of the simulation are hidden away from the audience (although sometimes made available on request).
+
+It needn't be this way however. There are other ways to use simulation -- simulation-as-argument -- which allow simulation to be a fundamental part of philosophical argument, not merely a footnote to it.  But for as long as we use simulation as testimony, the ability of it to increase the warrant of our claims, to increase the rational persuasion of argument will be limited.

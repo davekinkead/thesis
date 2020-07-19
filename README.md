@@ -60,34 +60,7 @@ Usually however, these two processes are performed in different mediums for diff
 
 Literate programming blends these two purposes and mediums into a single document.  It inverts the traditional relationship between code and comments to prioritise human explanation and understanding.  Much as one might formalise within a document the inferential moves of a natural language argument into a formal language like predicate logic -- and then using a rendering engine like MathJax to translate `$$x = {-b \pm \sqrt{b^2-4ac} \over 2a}.$$` into ...
 
-<math xmlns="http://www.w3.org/1998/Math/MathML" display="block">
-  <mi>x</mi>
-  <mo>=</mo>
-  <mrow>
-    <mfrac>
-      <mrow>
-        <mo>&#x2212;</mo>
-        <mi>b</mi>
-        <mo>&#xB1;</mo>
-        <msqrt>
-          <msup>
-            <mi>b</mi>
-            <mn>2</mn>
-          </msup>
-          <mo>&#x2212;</mo>
-          <mn>4</mn>
-          <mi>a</mi>
-          <mi>c</mi>
-        </msqrt>
-      </mrow>
-      <mrow>
-        <mn>2</mn>
-        <mi>a</mi>
-      </mrow>
-    </mfrac>
-  </mrow>
-  <mo>.</mo>
-</math>
+$$x = {-b \pm \sqrt{b^2-4ac} \over 2a}.$$
 
 An author using literate programming can also formalise the claims and assumptions of a natural argument as computer code, for example ...
 

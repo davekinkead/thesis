@@ -14,7 +14,7 @@ Simulation-as-argument is a computational approach to philosophy that uses compu
 ## Question to address
 
   - how exactly does simulation-as-argument do more than extant simulation in philosophy?
-  - 
+  - how can code be used as a tool of inference?
 
 
 

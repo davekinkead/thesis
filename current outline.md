@@ -1,20 +1,72 @@
 # A dot point outline of my thesis
 
-Simulation-as-argument is a computational approach to philosophy that uses computer code embedded within written scholarship to enhance the inferential support of traditional argumentation.
+Within the emerging sub-field of computational philosophy, the use of computer simulation shares many features - methodological, ontological, and epistemological - in common with computer simulation in computation science.  This similarity means that computer simulation in philosophy is very "sciencey" - a practice I label as simulation-as-testimony.
+
+I this thesis, I outline a novel philosophical methodology, simulation-as-argument, that aims to make computer simulation more philosophical by embedding computer simulation within traditional written text.  And in doing so, extends the boundaries of what is knowable in philosophy. 
+
+
+Chapter outline
+
+1. Introduction (10000)
+  - computational philosophy
+  - simulation in philosophy
+  - two types of science
+  - making simulation more philosophical
+
+2. Two types of knowing (10000)
+  (explore the differences)
+  - testimony
+  - argument
+
+3. Simulation (10000)
+  (explore it, motivate the new method)
+  - what is simulation?
+    (definitions, common themes, differences)
+    - method
+    - ontology
+    - epistemology
+    - what's the roll of intervention
+    - how does it relate to an experiment
+  - epistemic strengths of simulation
+  - epistemic weaknesses of simulation
+
+4. How to argue with computers (10000)
+  - principles of computational discourse
+  - prior art
+  - combining them
+
+5. Demonstration (6000)
+  - paper
+
+6. The epistemic shift (6000)
+
+7. Proof and persuasion (6000)
+
+8. Digital thought experiments?
+
+8. Is this philosophy? (8000)
+  - what is philosophy?
+  - when does simulation become philosophy?
+  - how does this differ from computational science?
+
+
+Questions to answer
+
+1. what is knowable? why?
+2. what does simulation give us that written argument doesn't?
+3. what new problems and limitations does simulation introduce?
+4. why is openness epistemically important for scholarship?
 
 
 
+New overview
 
 
-## Thesis options  
+- Computer simulation can do some really cool epistemic things but it also comes with a few problems
+- Literate programming can help us over come these problems to make simulation better
+- We can also use computer simulation in a very particular way to improve the epistemic quality of our argument.
+- This approach to simulation is what I call Simulation-as-Argument
 
-  1. Simulation-as-argument extends the boundaries of what is knowable in philosophy
-  2. Simulation-as-argument extends the methodological tool kit of philosophy
-
-## Question to address
-
-  - how exactly does simulation-as-argument do more than extant simulation in philosophy?
-  - how can code be used as a tool of inference?
 
 
 
@@ -57,9 +109,6 @@ CH4 Simulation as Argument
   8.
 
 
-CH5 Demo 1 - Borders and Legitimacy (6000 words)
-
-http://dave.kinkead.com.au/modelling-the-boundary-problem/
 
 CH6 Demo 2 - School Performance (6000 words)
 

@@ -34,7 +34,7 @@ Philosophy is a discipline characterised by methodological pluralism. There are 
 
 Philosophy then, viewed as a method of knowledge generation through argumentation, is bounded to the extent that we have confidence that our conclusions necessarily or strongly follow from our premises.  Our philosophical inquiries are limited only by the strength of evidence and inference they are based on.
 
-And there are many domains in which our evidence, and especially our inferences are limited -- economics, politics, ethics, and social sciences.  In fact, any domain involving human interaction will be characterised by complexity (via adaptive behaviour and feedback loops), inaccessibility (due to the inability to control variables in experiment), or analytic intractability (unable to be solved deductively).
+Yet there are many domains in which our evidence, and especially our inferences are limited -- economics, politics, ethics, and social sciences.  In fact, any domain involving human interaction will be characterised by complexity (via adaptive behaviour and feedback loops), inaccessibility (due to the inability to control variables in experiment), or analytic intractability (unable to be solved deductively).
 
 Within many other domains, computers and computation have become important tools -- computational linguistics, computational biology, computational finance.  What makes these fields _computational_ is not that they use computers _per se_ but how they use computational techniques as a method of inquiry.  
 

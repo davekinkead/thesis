@@ -19,3 +19,13 @@ In part three, I argue that Simulation-as-Argument can make computational approa
 I claim that Simulation-as-Argument represents an epistemic shift in the use of computer simulation by allowing an author to use computer algorithms as formal inference mechanisms rather than as a way to merely establish the truth claims of propositions.  By embedding code within our philosophical scholarship, we can use computer simulation as a form of inference rather than testimony, a shift that makes our simulations _philosophical_.
 
 Finally, I (might) briefly explore the rhetoric aspects of Simulation-as-Argument and show how the visceral experience of witnessing a counter-intuitive conclusion entail makes argument, when viewed as tools of rational persuasion, stronger.
+
+## Table of Contents
+
+  1. Introduction
+  2. Philosophy and Computing
+  3. Meta-philosophy
+  5. Simulation as Argument
+  6. School Performance
+  7. Transcendental Programming
+  8. Conclusion

@@ -1,0 +1,35 @@
+Sensistivity
+
+
+1. show computer simulation is highly sensitive to implementation
+2. argue that literate programming can aleviate this.
+
+
+
+- chaos ...  the study of systems that are highly sensitive to initial conditions
+  - a consequence of that sensitivity is that when we start with limited information, then after a time a deterministic system will no longer be predictable
+
+
+
+
+Establish pisoner's dilemma
+
+  3,3  |  0,5
+  -----------
+  5,0  |  1,1
+
+
+General rules (@axelrod1984 p11-12)
+
+> 1. There  is  no  mechanism available  to  the  players  tomake  enforceable  threats  or  commitments (Schelling1960).
+> 2. There is no way to be sure what the other player willdo  on  a  given  move.  
+> 3. There  is  no  way  to  eliminate  the  other  player  or  runaway  from  the  interaction.
+> 4. There  is  no  way  to  change  the  other player's  payoffs.
+
+Cheap talk
+
+> Under these conditions, words  not  backed  by  actions  areso  cheap  as  to  be meaningless. What makes  it  possible  for  cooperation  to  emerge  is  thefact that  the  players might meet again. 
+
+Tournament (p192)
+
+> Each  pair of rules  was  matched  in  five  games  of two  hundred  moveseach.  
